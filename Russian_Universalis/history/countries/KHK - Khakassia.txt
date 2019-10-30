@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+technology_group = nomad_group
+religion = siberian_shamanism
+primary_culture = khakas
+capital = 2431

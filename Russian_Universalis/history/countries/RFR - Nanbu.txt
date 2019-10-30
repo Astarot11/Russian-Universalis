@@ -1,0 +1,490 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = togoku
+religion = shinto
+technology_group = chinese
+capital = 3623 # Mutsu ### STT
+
+1430.1.1 = {
+	monarch = {
+		name = "Токимаса" 
+		dynasty = "Нанбу"
+		birth_date = 1410
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = industrious_personality
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Мичицугу"
+		monarch_name = "Мичицугу"
+		dynasty = "Нанбу"
+		birth_date = 1429.1.1
+		death_date = 1484.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1473.4.2 = {
+	monarch = {
+		name = "Мичицугу" 
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1473.4.2 = {
+	heir = {
+		name = "Нобутоки"
+		monarch_name = "Нобутоки"
+		dynasty = "Нанбу"
+		birth_date = 1442.1.1
+		death_date = 1502.1.11
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Нобутоки"
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1484.1.1 = {
+	heir = {
+		name = "Нобуёши"
+		monarch_name = "Нобуёши"
+		dynasty = "Нанбу"
+		birth_date = 1462.1.1
+		death_date = 1503.6.18
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+	
+1502.1.11 = { 
+	monarch = {
+		name = "Нобуёши"
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1502.1.11 = {
+	heir = {
+		name = "Масайясу"
+		monarch_name = "Масайясу"
+		dynasty = "Нанбу"
+		birth_date = 1461.1.1
+		death_date = 1507.3.23
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+	
+1503.6.18 = { 
+	monarch = {
+		name = "Масайясу"
+		dynasty = "Нанбу"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1503.6.18 = {
+	heir = {
+		name = "Ясунобу"
+		monarch_name = "Ясунобу"
+		dynasty = "Нанбу"
+		birth_date = 1493.1.1
+		death_date = 1541.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1507.3.23 = { 
+	monarch = {
+		name = "Ясунобу"
+		dynasty = "Нанбу"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1517.1.1 = {
+	heir = {
+		name = "Харумаса"
+		monarch_name = "Харумаса"
+		dynasty = "Нанбу"
+		birth_date = 1517.1.1
+		death_date = 1582.1.27
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1541.1.1 = { 
+	monarch = {
+		name = "Харумаса"
+		dynasty = "Нанбу"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Харуцугу"
+		monarch_name = "Харуцугу"
+		dynasty = "Нанбу"
+		birth_date = 1570.1.1
+		death_date = 1582.2.16
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1582.1.27 = { 
+	monarch = {
+		name = "Харуцугу"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1546.4.1 = {
+	heir = {
+		name = "Нобунао"
+		monarch_name = "Нобунао"
+		dynasty = "Нанбу"
+		birth_date = 1546.4.1
+		death_date = 1599.11.22
+		claim = 90
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1582.2.16 = { 
+	monarch = {
+		name = "Нобунао"
+		dynasty = "Нанбу"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1582.2.16 = {
+	heir = {
+		name = "Тошинао"
+		monarch_name = "Тошинао"
+		dynasty = "Нанбу"
+		birth_date = 1576.4.13
+		death_date = 1632.10.1
+		claim = 90
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1599.11.22 = { 
+	monarch = {
+		name = "Тошинао"
+		dynasty = "Нанбу"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1606.4.16 = {
+	heir = {
+		name = "Шигенао"
+		monarch_name = "Шигенао"
+		dynasty = "Нанбу"
+		birth_date = 1606.4.16
+		death_date = 1664.10.30
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1632.10.1 = { 
+	monarch = {
+		name = "Шигенао"
+		dynasty = "Нанбу"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1648.1.1 = {
+	heir = {
+		name = "Шигенобу"
+		monarch_name = "Шигенобу"
+		dynasty = "Нанбу"
+		birth_date = 1616.6.28
+		death_date = 1702.7.12
+		claim = 90
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1664.10.30 = { 
+	monarch = {
+		name = "Шигенобу"
+		dynasty = "Нанбу"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1664.10.30 = {
+	heir = {
+		name = "Юкинобу"
+		monarch_name = "Юкинобу"
+		dynasty = "Нанбу"
+		birth_date = 1642.9.11
+		death_date = 1702.11.29
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+1702.7.12 = { 
+	monarch = {
+		name = "Юкинобу"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+1702.7.12 = {
+	heir = {
+		name = "Нобуоки"
+		monarch_name = "Нобуоки"
+		dynasty = "Нанбу"
+		birth_date = 1678.11.6
+		death_date = 1707.12.31
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1702.11.29 = { 
+	monarch = {
+		name = "Нобуоки"
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1702.11.29 = {
+	heir = {
+		name = "Тошимото"
+		monarch_name = "Тошимото"
+		dynasty = "Нанбу"
+		birth_date = 1689.3.11
+		death_date = 1725.7.13
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1707.12.31 = { 
+	monarch = {
+		name = "Тошимото"
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1708.6.14 = {
+	heir = {
+		name = "Тошими"
+		monarch_name = "Тошими"
+		dynasty = "Нанбу"
+		birth_date = 1708.6.14
+		death_date = 1752.5.11
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1725.7.13 = { 
+	monarch = {
+		name = "Тошими"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1725.7.13 = {
+	heir = {
+		name = "Тошикацу"
+		monarch_name = "Тошикацу"
+		dynasty = "Нанбу"
+		birth_date = 1724.7.30
+		death_date = 1780.1.11
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1752.5.11 = { 
+	monarch = {
+		name = "Тошикацу"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1752.5.11 = {
+	heir = {
+		name = "Тошимаса"
+		monarch_name = "Тошимаса"
+		dynasty = "Нанбу"
+		birth_date = 1751.5.4
+		death_date = 1784.6.22
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1780.1.1 = { 
+	monarch = {
+		name = "Тошимаса"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1782.11.4 = {
+	heir = {
+		name = "Тошитака"
+		monarch_name = "Тошитака"
+		dynasty = "Нанбу"
+		birth_date = 1782.11.4
+		death_date = 1820.7.12
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1784.6.22 = { 
+	monarch = {
+		name = "Тошитака"
+		dynasty = "Нанбу"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1808.1.16 = {
+	heir = {
+		name = "Тошимочи"
+		monarch_name = "Тошимочи"
+		dynasty = "Нанбу"
+		birth_date = 1808.1.16
+		death_date = 1821.9.17
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1820.7.12 = { 
+	monarch = {
+		name = "Тошимочи"
+		dynasty = "Нанбу"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1820.7.12 = {
+	heir = {
+		name = "Тошимочи"
+		monarch_name = "Тошимочи"
+		dynasty = "Нанбу"
+		birth_date = 1803.12.19
+		death_date = 1825.8.31
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}

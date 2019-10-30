@@ -1,0 +1,351 @@
+country_decisions = {
+
+	make_constantinople_capital = {
+		major = yes
+		potential = {
+			OR = {
+				tag = TU0 #STT
+				tag = RUM
+			}
+			OR = { 
+				owns = 151
+				owns = 316
+				owns = 317
+				owns = 149
+				owns = 3105
+			}
+			NOT = { capital = 151 }
+			NOT = { has_country_flag = relocated_capital_constantinople }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+		}
+		allow = {
+			is_at_war = no
+			primary_culture = turkish
+			religion_group = muslim
+			owns = 151
+			controls = 151
+			OR = {
+				owns = 3105		# Gallipoly
+				owns = 149		# Edirne
+			}
+			owns = 316		# Bithnyia
+			owns = 317		# Bursa
+			owns = 3106		# Byze			
+		}
+		effect = {
+			set_country_flag = relocated_capital_constantinople
+			if = { limit = { tag = TU0 } change_tag = TUR } 	###STT
+			add_government_reform = ottoman_government
+			add_stability = 1
+			set_capital = 151	###STT
+			add_core = 151
+			151 = {
+				move_capital_effect = yes
+				change_culture = turkish 
+				change_religion = ROOT
+				rename_capital = Kostantiniyye
+			}
+			if = { limit = { has_country_flag = stt_turk_conquest_const_bonus } 
+				if = {
+					limit = {
+						NOT = { has_global_flag = constantinople_restored }
+					}
+					151 = {
+						add_base_tax = 5
+						add_base_production = 5
+						add_base_manpower = 4
+					}
+					set_global_flag = constantinople_restored
+				}
+				clr_country_flag = stt_turk_conquest_const_bonus
+			}
+			else = { 
+				if = {
+					limit = {
+						NOT = { has_global_flag = constantinople_restored }
+					}
+					151 = {
+						add_base_tax = 4
+						add_base_production = 4
+						add_base_manpower = 3
+					}
+					set_global_flag = constantinople_restored
+				}
+			}
+			set_government_rank = 3
+			country_event = { id = ideagroups.1 } #Swap Ideas	###STT
+			swap_non_generic_missions = yes						###STT
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		do_not_core = 151 # Constantinople
+	}
+
+	stt_edirne_ban_christian = { #STT
+		major = yes
+		potential = {
+			OR = {
+				tag = TU0 #STT
+				tag = RUM
+			}
+			OR = {
+				owns = 3106
+				owns = 3105
+				owns = 3760
+			}
+			owns = 149
+			NOT = { has_country_flag = stt_tur_ban_christian_edirne }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			any_province = { 
+				area = thrace_area 
+				NOT = { province_id = 151 }
+				owned_by = ROOT
+				NOT = { religion = ROOT } 
+			}
+		}
+		allow = {
+			is_at_war = no
+			primary_culture = turkish
+			religion_group = muslim
+			owns = 149
+			controls = 149
+			capital = 149
+			owns = 3106
+			owns = 3105
+			owns = 3760
+		}
+		effect = {
+			set_country_flag = stt_tur_ban_christian_edirne
+			add_stability = 1
+			every_owned_province = { 
+				limit = { 
+					OR = { 
+						province_id = 3106
+						province_id = 3105
+						province_id = 3760
+						province_id = 149
+					}
+					NOT = { religion = ROOT }
+				}
+				change_religion = ROOT 
+				add_province_modifier = { 
+					name = forced_conversion
+					duration = 1825 #5 year
+				} 			
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	provincial_system = {
+		potential = {
+			tag = TUR
+			NOT = { has_country_modifier = the_provincial_system }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+		}
+		allow = {
+			adm_tech = 5
+			ADM = 4
+			adm_power = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_provincial_system"
+				duration = -1
+			}
+			add_adm_power = -50
+			set_country_flag = the_provincial_system
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { mil_power = 100 }
+			}
+		}
+	}
+
+	devshirme_system = {
+		potential = {
+			OR = { #STT
+				tag = TUR
+				tag = TU0
+			}
+			has_reform = ottoman_government
+			NOT = { has_disaster = janissary_decadence }
+			NOT = { has_country_modifier = the_devshirme_system }
+			NOT = { has_country_flag = lapse_of_devshirme }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+		}
+		allow = {
+			MIL = 4 #STT
+			mil_power = 100
+		}
+		effect = {
+			add_mil_power = -100
+			add_country_modifier = {
+				name = "the_devshirme_system"
+				duration = -1
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Cradle of Civilization" }
+				}
+				country_event = { id = flavor_tur.100 days = 4380 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { mil_power = 200 }
+			}
+		}
+	}
+
+
+	disband_the_janissaries = {
+		major = yes
+		potential = {
+			has_disaster = janissary_decadence
+			normal_or_historical_nations = yes
+		}
+		allow = {
+			has_disaster = janissary_decadence
+			if = {
+				limit = { has_dlc = "Cradle of Civilization" }
+			OR = {
+					NOT = { janissary_percentage = 0.05 }
+					NOT = { num_of_janissaries = 3 }
+			}
+		}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = tur_janissary
+				}
+			remove_country_modifier = tur_janissary
+			}
+			else = {
+				set_country_flag = yoklama
+				custom_tooltip = yoklama_effect_tooltip
+			}
+			end_disaster = janissary_decadence
+			country_event = { id = janissary_decadence.100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	declare_konst_capital = { ###STT
+		potential = {
+			NOT = { tag = TU0 }
+			NOT = { culture_group = east_slavic }
+			owns = 151
+			NOT = { capital = 151 }
+			NOT = { has_country_flag = relocated_capital_constantinople }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+		}
+		allow = {
+			is_at_war = no
+			controls = 151
+			religion = orthodox
+			OR = { adm = 4 dip = 4 mil = 4 }
+			OR = { government_rank = 2 prestige = 50 }
+			total_development = 100
+			adm_power = 100
+			dip_power = 100
+		}
+		effect = {
+			set_country_flag = relocated_capital_constantinople
+			add_adm_power = -100
+			add_dip_power = -100
+			add_prestige = 25
+			add_patriarch_authority = 0.5
+			add_core = 151
+			151 = {
+				move_capital_effect = yes
+				change_culture = ROOT 
+				change_religion = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = constantinople_restored }
+				}
+				151 = {
+					add_base_tax = 4
+					add_base_production = 4
+					add_base_manpower = 3
+				}
+				set_global_flag = constantinople_restored
+			}
+			set_government_rank = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		do_not_core = 151 # Constantinople
+	}
+	
+	declare_byz_heir = { ###STT
+		potential = {
+			capital = 151
+			has_country_flag = relocated_capital_constantinople
+			NOT = { has_global_flag = declare_byz_heir }
+			normal_or_historical_nations = yes
+			BYZ = { exists = no }
+		}
+		allow = {
+			is_at_war = no
+			controls = 151
+			religion = orthodox
+			adm = 3
+			dip = 4
+			mil = 3
+			government_rank = 3
+			OR = { total_development = 500 num_of_cities = 30 }
+			prestige = 75
+			patriarch_authority = 0.5
+			OR = { is_defender_of_faith = yes diplomatic_reputation = 2 }
+		}
+		effect = {
+			set_global_flag = declare_byz_heir
+			add_patriarch_authority = 0.5
+			add_country_modifier = { name = byz_heir duration = -1 } 
+			northern_greece_area = { add_core = ROOT } 
+			morea_area = { add_core = ROOT } 
+			balkan_region = { add_permanent_claim = ROOT }
+			anatolia_region = { add_permanent_claim = ROOT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+}

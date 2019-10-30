@@ -1,0 +1,24 @@
+song = {
+ name = "lamarseillaise"
+
+ chance = {
+  modifier = {
+   factor = 1
+  }
+
+  modifier = {
+   factor = 0
+   NOT = { tag = FRA } 
+  }
+
+  modifier = {
+   factor = 1.5
+   is_year = 1789
+  }
+  
+    modifier = {
+   factor = 1.5
+   government = republic
+		}
+	}
+ }

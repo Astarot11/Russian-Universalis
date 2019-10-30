@@ -1,0 +1,427 @@
+country_decisions = {
+	
+	southgermanunion_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_southgermanunion_flag } 
+			total_development = 150
+			NOT = { exists = SGU }
+			NOT = { exists = GER }
+			NOT = { exists = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = ROM }
+			NOT = { tag = WEK }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					NOT = { government = theocracy }
+				}
+			}
+			OR = { 
+				primary_culture = franconian
+				primary_culture = bavarian
+				primary_culture = swabian
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {	
+				area = lower_bavaria_area
+				area = upper_bavaria_area
+				area = franconia_area
+				area = lower_swabia_area
+				area = upper_swabia_area
+				area = upper_rhineland_area
+				area = palatinate_area
+				province_id = 65
+				province_id = 2957
+				province_id = 67
+				province_id = 1868
+				province_id = 1872
+				province_id = 3148
+				province_id = 78
+				province_id = 70
+				province_id = 74
+				province_id = 75
+				province_id = 1761
+				province_id = 79
+				province_id = 66
+				province_id = 1757
+				province_id = 2955
+				province_id = 64
+				
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SGU }
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no	
+			65 = { country_or_vassal_holds = ROOT } 
+			2957 = { country_or_vassal_holds = ROOT }
+			67 = { country_or_vassal_holds = ROOT }
+			1868 = { country_or_vassal_holds = ROOT }
+			1872 = { country_or_vassal_holds = ROOT }
+			3148 = { country_or_vassal_holds = ROOT }
+			78 = { country_or_vassal_holds = ROOT }
+			70 = { country_or_vassal_holds = ROOT }
+			74 = { country_or_vassal_holds = ROOT }
+			75 = { country_or_vassal_holds = ROOT }
+			1761 = { country_or_vassal_holds = ROOT }
+			79 = { country_or_vassal_holds = ROOT }
+			66 = { country_or_vassal_holds = ROOT }
+			1757 = { country_or_vassal_holds = ROOT }
+			2955 = { country_or_vassal_holds = ROOT }
+			64 = { country_or_vassal_holds = ROOT }
+			lower_bavaria_area = { country_or_vassal_holds = ROOT }
+			upper_bavaria_area = { country_or_vassal_holds = ROOT }
+			franconia_area = { country_or_vassal_holds = ROOT }
+			lower_swabia_area = { country_or_vassal_holds = ROOT }
+			upper_swabia_area = { country_or_vassal_holds = ROOT }
+			upper_rhineland_area = { country_or_vassal_holds = ROOT }
+			palatinate_area = { country_or_vassal_holds = ROOT }
+		}
+		effect = {
+			custom_tooltip = gconfederation1_tooltip
+			change_tag = SGU
+			every_country = {
+				limit = {
+					NOT = { tag = SGU } 
+					OR = {
+						primary_culture = franconian
+						primary_culture = bavarian
+						primary_culture = swabian
+					}
+				}
+				country_event = { id = gconfederation.2 }
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_southgermanunion_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	southgermanunion_nationaus = {
+		major = yes
+		potential = {
+			primary_culture = austrian
+			total_development = 150
+			NOT = { has_country_flag = formed_southgermanunion_flag } 
+			NOT = { exists = SGU }
+			NOT = { exists = GER }
+			NOT = { exists = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = DUA }
+			NOT = { tag = ROM }
+			NOT = { tag = WEK }
+			NOT = { any_owned_province = { region = balkan_region } }
+			NOT = { any_owned_province = { region = carpathia_region } }
+			NOT = { any_owned_province = { region = italy_region } }
+			NOT = { any_owned_province = { area = bohemia_area } }
+			NOT = { any_owned_province = { area = moravia_area } }
+			NOT = { any_owned_province = { area = erzgebirge_area } }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					NOT = { government = theocracy }
+					is_year = 1500
+				}
+			}
+			
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+					is_year = 1500
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = lower_bavaria_area
+				area = upper_bavaria_area
+				area = franconia_area
+				area = lower_swabia_area
+				area = upper_swabia_area
+				area = upper_rhineland_area
+				area = palatinate_area
+				province_id = 65
+				province_id = 2957
+				province_id = 67
+				province_id = 1868
+				province_id = 1872
+				province_id = 3148
+				province_id = 78
+				province_id = 70
+				province_id = 74
+				province_id = 75
+				province_id = 1761
+				province_id = 79
+				province_id = 66
+				province_id = 1757
+				province_id = 2955
+				province_id = 64
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SGU }
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no
+			65 = { country_or_vassal_holds = ROOT } 
+			2957 = { country_or_vassal_holds = ROOT }
+			67 = { country_or_vassal_holds = ROOT }
+			1868 = { country_or_vassal_holds = ROOT }
+			1872 = { country_or_vassal_holds = ROOT }
+			3148 = { country_or_vassal_holds = ROOT }
+			78 = { country_or_vassal_holds = ROOT }
+			70 = { country_or_vassal_holds = ROOT }
+			74 = { country_or_vassal_holds = ROOT }
+			75 = { country_or_vassal_holds = ROOT }
+			1761 = { country_or_vassal_holds = ROOT }
+			79 = { country_or_vassal_holds = ROOT }
+			66 = { country_or_vassal_holds = ROOT }
+			1757 = { country_or_vassal_holds = ROOT }
+			2955 = { country_or_vassal_holds = ROOT }
+			64 = { country_or_vassal_holds = ROOT }
+			lower_bavaria_area = { country_or_vassal_holds = ROOT }
+			upper_bavaria_area = { country_or_vassal_holds = ROOT }
+			franconia_area = { country_or_vassal_holds = ROOT }
+			lower_swabia_area = { country_or_vassal_holds = ROOT }
+			upper_swabia_area = { country_or_vassal_holds = ROOT }
+			upper_rhineland_area = { country_or_vassal_holds = ROOT }
+			palatinate_area = { country_or_vassal_holds = ROOT }
+		}
+		effect = {
+			custom_tooltip = gconfederation1_tooltip
+			change_tag = SGU
+			every_country = {
+				limit = {
+					NOT = { tag = SGU } 
+					OR = {
+						primary_culture = franconian
+						primary_culture = bavarian
+						primary_culture = swabian
+					}
+				}
+				country_event = { id = gconfederation.2 }
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_southgermanunion_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	southgermanunion_vassal = {
+		major = yes 
+		potential = {
+			exists = NDB
+			normal_or_historical_nations = yes
+			NOT = { exists = SGU }
+			any_country = {
+				vassal_of = ROOT
+				OR = {
+					primary_culture = franconian
+					primary_culture = bavarian
+					primary_culture = swabian
+				}
+				NOT = { has_country_flag = formed_southgermanunion_flag }
+				is_colonial_nation = no
+			}
+			NOT = { primary_culture = franconian }
+			NOT = { primary_culture = bavarian }
+			NOT = {	primary_culture = swabian }
+		}
+		provinces_to_highlight = {
+			province_id = 65
+			province_id = 2957
+			province_id = 67
+			province_id = 1868
+			province_id = 1872
+			province_id = 3148
+			province_id = 78
+			province_id = 70
+			province_id = 74
+			province_id = 75
+			province_id = 1761
+			province_id = 79
+			province_id = 66
+			province_id = 1757
+			province_id = 2955
+			province_id = 64
+			area = lower_bavaria_area
+			area = upper_bavaria_area
+			area = franconia_area
+			area = lower_swabia_area
+			area = upper_swabia_area
+			area = upper_rhineland_area
+			area = palatinate_area
+			NOT = {
+				owner = {
+					vassal_of = ROOT
+					OR = {
+						primary_culture = franconian 
+						primary_culture = bavarian
+						primary_culture = swabian
+					}
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = SGU }
+			dip_power = 100
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			any_country = {
+				vassal_of = ROOT 
+				OR = {
+					primary_culture = franconian 
+					primary_culture = bavarian
+					primary_culture = swabian 
+				}
+				is_at_war = no 
+			}
+			calc_true_if = {
+				owns_or_vassal_of = { area = lower_bavaria_area }																	
+				owns_or_vassal_of = { area = palatinate_area }
+				owns_or_vassal_of = { area = upper_bavaria_area }
+				owns_or_vassal_of = { area = franconia_area }
+				owns_or_vassal_of = { area = lower_swabia_area }
+				owns_or_vassal_of = { area = upper_swabia_area }
+				owns_or_vassal_of = { area = upper_rhineland_area }
+				amount = 10
+			}
+		}
+		effect = {
+			add_dip_power = -100
+			if = { #for vassal if that is player 
+				limit = {
+					any_country = {
+						vassal_of = ROOT
+						OR = {
+							primary_culture = franconian 
+							primary_culture = bavarian
+							primary_culture = swabian
+						}
+						NOT = { has_country_flag = formed_southgermanunion_flag } 
+						ai = no 
+					}
+				}
+				random_country = {
+					limit = {
+						vassal_of = ROOT
+						OR = {						
+							primary_culture = franconian 
+							primary_culture = bavarian
+							primary_culture = swabian
+						}
+						is_at_war = no 
+						ai = no 
+					} 
+					change_tag = SGU
+					swap_non_generic_missions = yes
+					add_country_modifier = {
+						name = "centralization_modifier"
+						duration = 7300
+					}
+					if = {
+						limit = { has_custom_ideas = no }
+						country_event = { id = ideagroups.1 } #Swap Ideas
+					}
+					set_country_flag = formed_southgermanunion_flag
+					add_prestige = 25
+				}
+			}
+			else = { #for vassal if that is ai
+				random_country = {
+					limit = {
+						vassal_of = ROOT 
+						OR = {
+							primary_culture = franconian 
+							primary_culture = bavarian
+							primary_culture = swabian
+						}
+						is_at_war = no 
+					} 
+					change_tag = SGU
+					swap_non_generic_missions = yes
+					add_country_modifier = {
+						name = "centralization_modifier"
+						duration = 7300
+					}
+					if = {
+						limit = { has_custom_ideas = no }
+						country_event = { id = ideagroups.1 } #Swap Ideas
+					}
+					set_country_flag = formed_southgermanunion_flag
+					add_prestige = 25
+				}
+			}
+			every_province = {
+				limit = {
+					OR = {
+						area = lower_bavaria_area
+						area = upper_bavaria_area
+						area = franconia_area
+						area = lower_swabia_area
+						area = upper_swabia_area
+						area = upper_rhineland_area
+						area = palatinate_area 
+						culture = franconian 
+						culture = bavarian
+						culture = swabian
+					} 
+				} 
+				add_core = SGU 
+			}
+			every_province = {
+				limit = {
+					area = lower_bavaria_area
+					area = upper_bavaria_area
+					area = franconia_area
+					area = lower_swabia_area
+					area = upper_swabia_area
+					area = upper_rhineland_area
+					area = palatinate_area 
+					country_or_vassal_holds = ROOT 
+					} 
+				cede_province = SGU 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

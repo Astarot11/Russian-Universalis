@@ -1,0 +1,741 @@
+namespace = hhh_religion
+
+#ConvertRelEventsIsHere->hhhFlavour
+
+#Pontificate
+country_event = {
+	id = hhh_religion.0
+	title = "hhh_religion.0.t"
+	desc = "hhh_religion.0.d"
+	picture = GREAT_BUILDING_eventPicture
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+
+	option = {
+		name = "hhh_religion.0.a"
+		add_treasury = -200
+		country_event = { id = hhh_religion.5 }
+	}
+}
+
+#lights of temple
+country_event = {
+	id = hhh_religion.1
+	title = "hhh_religion.1.t"
+	desc = "hhh_religion.1.d"
+	picture = FEAST_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+	    #lights grow bigger
+		name = "hhh_religion.1.a"
+		add_stability_or_adm_power = yes
+		add_legitimacy = 5
+		change_statists_vs_orangists = 0.15
+    }
+}
+
+#Marked by Ares
+country_event = {
+	id = hhh_religion.2
+	title = "hhh_religion.2.t"
+	desc = "hhh_religion.2.d"
+	picture = BATTLE_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		is_at_war = yes
+		NOT = { 
+		has_country_modifier = "appearance_ares"
+		}
+        war_exhaustion = 2
+	}
+	
+	mean_time_to_happen = {
+		months = 80
+		modifier = {
+			factor = 0.60
+			war_exhaustion =  8
+		}
+			modifier = {
+			factor = 0.30
+			war_exhaustion =  10
+		}
+	}
+
+	option = {
+	    #Sacreface to ares
+		name = "hhh_religion.2.a"
+		add_war_exhaustion = -4
+		add_years_of_income = -0.15
+	    add_country_modifier = {
+			name = "appearance_ares"
+			duration = 365
+		}
+		create_general = { tradition = 40 }
+	}
+
+	option = {
+		name = "hhh_religion.2.b"
+		add_prestige = -5
+	}
+}
+
+#Athena's help to dev city
+country_event = {
+	id = hhh_religion.3
+	title = "hhh_religion.3.t"
+	desc = "hhh_religion.3.d"
+	picture = FEAST_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.3.a"
+		random_owned_province = {
+				limit = {
+			    is_core = ROOT
+				culture = ROOT
+				}
+                add_base_production = 1
+                add_base_tax = 1
+				add_province_modifier = {
+					name = "athenians_spirit"
+					duration = 730
+				}
+			}
+		change_statists_vs_orangists = 0.15	
+	}
+    }
+
+#rage of poseidone
+
+#christians_rage
+country_event = {
+	id = hhh_religion.4
+	title = "hhh_religion.4.t"
+	desc = "hhh_religion.4.d"
+	picture = FEAST_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		NOT = { 
+			OR = {
+			has_church_aspect = jesus_aspect
+			has_church_aspect = christian_cult_aspect
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.4.a"
+		random_owned_province = {
+				limit = {
+			    is_core = ROOT
+				culture = ROOT
+				}
+                add_province_modifier = {
+					name = "christian_upset"
+					duration = 730
+				}
+			}
+		}
+    }
+
+	
+#Pontifics
+	country_event = {
+	id = hhh_religion.5
+	title = "hhh_religion.5.t"
+	desc = "hhh_religion.5.d"
+	picture = GREAT_BUILDING_eventPicture
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	#Pontificus
+	option = {
+		name = "hhh_religion.5.f"
+		trigger = {
+			has_country_modifier = pontific_maximus
+			NOT = { has_ruler_modifier = pontificus_concentrate }
+		}
+		hidden_effect = { country_event = { id = hhh_religion.5 days = 5475 } }
+		add_ruler_modifier = { name = "pontificus_concentrate" duration = -1 }
+		change_statists_vs_orangists = 0.15
+	}
+	#default
+	option = {
+		name = "hhh_religion.5.a"
+		hidden_effect = { country_event = { id = hhh_religion.5 days = 5475 } }
+		random_list = {
+			80 = {	}
+			10 = {
+				add_country_modifier = { name = "pontific_harsh_low" duration = 5475 }
+			}
+			10 = {
+				add_country_modifier = { name = "pontific_toleran_low" duration = 5475 }
+			}
+		}
+	}
+	#harsh missonary
+	option = {
+		name = "hhh_religion.5.b"
+		hidden_effect = { country_event = { id = hhh_religion.5 days = 5475 } }
+		random_list = {
+			75 = {
+				add_country_modifier = { name = "pontific_harsh_low" duration = 5475 }
+			}
+			15 = {
+				add_country_modifier = { name = "pontific_harsh_high" duration = 5475 }
+			}
+			10 = {	}
+		}
+	}
+	#tolerance
+	option = {
+		name = "hhh_religion.5.c"
+		hidden_effect = { country_event = { id = hhh_religion.5 days = 5475 } }
+		random_list = {
+			75 = {
+				add_country_modifier = { name = "pontific_toleran_low" duration = 5475 }			
+			}
+			15 = {
+				add_country_modifier = { name = "pontific_toleran_high" duration = 5475 }
+			}
+			10 = {	}
+		}
+	}
+}
+	
+#Rage of Poseidon
+country_event = {
+	id = hhh_religion.6
+	title = "hhh_religion.6.t"
+	desc = "hhh_religion.6.d"
+	picture = HARBOUR_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		is_city = yes
+		has_port = yes
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.6.a"
+		add_years_of_income = -0.10
+		random_list = {
+			60 = {	}
+			35 = {
+				add_province_modifier = { name = "rage_of_neptun" duration = 120 }
+			}
+			5 = {
+				add_province_modifier = { name = "harsh_rage_of_neptun" duration = 365 }
+			}
+		}
+	}
+	option = {
+		name = "hhh_religion.6.b"
+		random_list = {
+			60 = {
+				add_province_modifier = { name = "rage_of_neptun" duration = 120 }
+			}
+			35 = {
+				add_province_modifier = { name = "harsh_rage_of_neptun" duration = 365 }
+			}
+			5 = {
+				add_province_modifier = { name = "harsh_rage_of_neptun" duration = 365 }
+				add_base_manpower = -1
+			}
+		}
+	}
+}
+#sacrifice for hermes
+country_event = {
+	id = hhh_religion.7
+	title = "hhh_religion.7.t"
+	desc = "hhh_religion.7.d"
+	picture = PRAYING_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		NOT = { has_country_modifier = hermes_traders }
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.7.a"
+		add_country_modifier = { name = "hermes_traders" duration = 1095 }
+		add_years_of_income = -0.25
+	}
+	option = {
+		name = "hhh_religion.7.b"
+		add_prestige = -2
+	}
+}
+#sacrifice for ares
+country_event = {
+	id = hhh_religion.8
+	title = "hhh_religion.8.t"
+	desc = "hhh_religion.8.d"
+	picture = PRAYING_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		NOT = { has_country_modifier = ares_warriors }
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.8.a"
+		add_country_modifier = { name = "ares_warriors" duration = 1095 }
+		add_years_of_income = -0.25
+	}
+	option = {
+		name = "hhh_religion.8.b"
+		add_prestige = -2
+	}
+}
+#scared people
+country_event = {
+	id = hhh_religion.9
+	title = "hhh_religion.9.t"
+	desc = "hhh_religion.9.d"
+	picture = STREET_SPEECH_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+		has_church_aspect = ares_cults_aspect
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.9.a"
+		add_stability = -1
+	}
+	option = {
+		name = "hhh_religion.9.b"
+		remove_church_aspect = ares_cults_aspect
+		add_church_power = 25
+	}
+}
+#Zeus Sacriface
+country_event = {
+	id = hhh_religion.10
+	title = "hhh_religion.10.t"
+	desc = "hhh_religion.10.d"
+	picture = PRAYING_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.10.a"
+		add_years_of_income = -0.25
+		add_adm_power = 50
+		add_mil_power = 25
+	}
+	option = {
+		name = "hhh_religion.10.b"
+		add_prestige = -2
+	}
+}
+#disloyal priests of zeus
+country_event = {
+	id = hhh_religion.11
+	title = "hhh_religion.11.t"
+	desc = "hhh_religion.11.d"
+	picture = SPY_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.11.a"
+		add_adm_power = -25
+		add_mil_power = -25
+	}
+}
+#Witchhunt
+country_event = {
+	id = hhh_religion.12
+	title = "hhh_religion.12.t"
+	desc = "hhh_religion.12.d"
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	fire_only_once = yes	
+	
+	major = yes
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.12.a"
+		
+	}
+}
+#Witchhunt is ends
+country_event = {
+	id = hhh_religion.13
+	title = "hhh_religion.13.t"
+	desc = "hhh_religion.13.d"
+	picture = FEAST_eventPicture
+	fire_only_once = yes	
+	
+	major = yes
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.13.a"
+		set_country_flag = had_pagan_witchhunt
+		set_country_flag = pagan_witchhunt_is_ended
+	}
+}
+#Witchhunt.change the religion in province to orthodox
+country_event = {
+	id = hhh_religion.14
+	title = "hhh_religion.14.t"
+	desc = "hhh_religion.14.d"
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	trigger = {
+		any_owned_province = {
+			is_capital= no
+			OR = {
+			religion = hellenic_pagan
+			religion = synhellenic_pagan
+			}
+		}
+		any_neighbor_province = { religion = orthodox }
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.14.a"
+		random_owned_province = {
+			limit = { 
+				is_capital = no
+				any_neighbor_province = { religion_group = orthodox } 
+			}
+			change_religion = orthodox
+		}
+	}
+	option = {
+		name = "hhh_religion.14.b"
+		random_owned_province = {
+			limit = { any_neighbor_province = { religion_group = orthodox } }
+			add_province_modifier = { name = "christian_upset" duration = 1825	}
+		}
+		add_adm_power = -15
+		add_mil_power = -15
+	}
+}
+#Witchhunt.change the religion in province to catholic
+country_event = {
+	id = hhh_religion.15
+	title = "hhh_religion.14.t"
+	desc = "hhh_religion.14.d"
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	trigger = {
+		any_owned_province = {
+			is_capital= no
+			OR = {
+			religion = hellenic_pagan
+			religion = synhellenic_pagan
+			}
+		}
+		any_neighbor_province = { religion = catholic }
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "hhh_religion.14.a"
+		random_owned_province = {
+			limit = { 
+				is_capital = no
+				any_neighbor_province = { religion_group = catholic } 
+			}
+			change_religion = catholic
+		}
+	}
+	option = {
+		name = "hhh_religion.14.b"
+		random_owned_province = {
+			limit = { any_neighbor_province = { religion_group = catholic } }
+			add_province_modifier = { name = "christian_upset" duration = 1825	}
+		}
+		add_adm_power = -15
+		add_mil_power = -15
+	}
+}
+#inquisition is growing up
+country_event = {
+	id = hhh_religion.16
+	title = "hhh_religion.16.t"
+	desc = "hhh_religion.16.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.16.a"
+		hidden_effect = { country_event = { id = hhh_religion.19 days = 365 } }
+		add_country_modifier = { name = harsh_inquisition_1 duration = 1825 } 
+	}
+	option = {
+		name = "hhh_religion.16.b"
+		hidden_effect = { country_event = { id = hhh_religion.17 days = 365 } }
+		add_country_modifier = { name = cut_down_inquisition_1 duration = 1825 }
+	}
+}
+#cut_down
+country_event = {
+	id = hhh_religion.17
+	title = "hhh_religion.17.t"
+	desc = "hhh_religion.17.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.17.a"
+		hidden_effect = { country_event = { id = hhh_religion.18 days = 730 } }
+		add_country_modifier = { name = cut_down_inquisition_2 duration = 1825 }
+		remove_country_modifier = cut_down_inquisition_1
+	}
+}
+#cut_down_2
+country_event = {
+	id = hhh_religion.18
+	title = "hhh_religion.18.t"
+	desc = "hhh_religion.18.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.18.a"
+		add_country_modifier = { name = down_inquisition duration = 36500 }
+		remove_country_modifier = cut_down_inquisition_2
+	}
+}
+	
+country_event = {
+	id = hhh_religion.19
+	title = "hhh_religion.19.t"
+	desc = "hhh_religion.19.d"
+	picture = REVOLUTION_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.19.a"
+		hidden_effect = { country_event = { id = hhh_religion.20 days = 365 } }
+		add_country_modifier = { name = harsh_inquisition_1 duration = 1825 }
+	}
+}
+
+country_event = {
+	id = hhh_religion.20
+	title = "hhh_religion.20.t"
+	desc = "hhh_religion.20.d"
+	picture = REVOLUTION_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.19.a"
+		hidden_effect = { country_event = { id = hhh_religion.21 days = 365 } }
+		add_country_modifier = { name = harsh_inquisition_2 duration = 1825 }
+		remove_country_modifier = harsh_inquisition_1
+	}
+}
+
+country_event = {
+	id = hhh_religion.21
+	title = "hhh_religion.21.t"
+	desc = "hhh_religion.21.d"
+	picture = REVOLUTION_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.19.a"
+		hidden_effect = { country_event = { id = hhh_religion.22 days = 365 } }
+		add_country_modifier = { name = harsh_inquisition_3 duration = 1825 }
+		remove_country_modifier = harsh_inquisition_2
+	}
+}
+
+country_event = {
+	id = hhh_religion.22
+	title = "hhh_religion.22.t"
+	desc = "hhh_religion.22.d"
+	picture = REVOLUTION_eventPicture
+
+	trigger = {
+		OR = {
+		religion = hellenic_pagan
+		religion = synhellenic_pagan
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "hhh_religion.19.a"
+		add_country_modifier = { name = strong_inquisition duration = 36500 }
+		remove_country_modifier = harsh_inquisition_3
+	}
+}
+	
+#Plague Cure by appolone
+#rage of Diona
+
+#The new oracle
+
+#Son of zeus
+#define_ruler = {
+ #   dynasty = ROOT
+	#male = yes
+#	adm = 2
+ #   dip = 1
+ #   mil = 2
+  #  claim = 50
+#}
+
+
+#muslims ravage
+
+#Christian bishops
+
+#blessed by oracle

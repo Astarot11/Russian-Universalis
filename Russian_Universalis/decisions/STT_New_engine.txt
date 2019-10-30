@@ -1,0 +1,70 @@
+country_decisions = {
+
+western_unit = {
+		major = yes
+		potential = {
+			NOT = { unit_type = western }
+			mil_tech = 12
+			any_neighbor_country = { technology_group = western }
+			#technology_group = western
+		}
+		allow = {
+			mil_power = 900
+			#stability = 1
+			treasury = 2500
+			mil_tech = 12
+		}
+		effect = {
+			add_treasury = -2500
+			add_mil_power = -500
+			if = { 
+					limit = { has_estate = estate_cossacks }
+					set_country_flag = oldcossacks
+				}			
+			add_country_modifier = {
+				name = "westernised"
+				duration = 3650
+			}
+            country_event  = { id = STT_new_engine.60011 }
+			add_prestige = -20
+			change_unit_type = western
+			capital_scope = {
+				spawn_rebels = {
+					type = noble_rebels
+					size = 2
+				}
+            }
+        }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+thegreat = {
+		major = yes
+		potential = {
+			NOT = { has_ruler_modifier = "forgreat" }
+			mil = 5
+			dip = 5
+			adm = 5
+		}
+		allow = {
+			has_regency = no
+			OR = {
+				mil = 5
+				dip = 5
+				adm = 5
+			}
+		}
+		effect = {
+			add_treasury = -100
+			add_dip_power = -50
+			add_ruler_modifier = {
+				name = "forgreat"
+				duration = -1
+			}		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

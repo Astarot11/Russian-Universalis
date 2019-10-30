@@ -1,0 +1,38 @@
+#2050 - Chanda
+
+owner = CHD
+controller = CHD
+culture = telegu
+religion = hinduism
+capital = "Ramagundam"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = BRR
+add_core = CHD
+add_core = KAK
+add_core = MUS
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = muslim 
+discovered_by = ottoman
+
+1200.1.1 = { owner = KAK controller = KAK add_core = KAK }
+
+1323.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = KAK }
+
+1344.1.1 = { owner = MUS controller = MUS add_core = MUS remove_core = DLH }
+
+1368.1.1 = { owner = BAH controller = BAH add_core = BAH remove_core = MUS }
+
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+1757.1.1 = {
+	owner = NAG
+	controller = NAG
+	add_core = NAG
+}

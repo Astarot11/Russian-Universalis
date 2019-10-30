@@ -1,0 +1,28 @@
+﻿l_english:
+ PDX_DUMMY_LOCALIZATION:0 ""
+ l_english:0 "Еnglish"
+ l_german:0 "Gеrmаn"
+ l_french:0 "Frеnсh"
+ l_spanish:0 "Sраnish"
+ l_polish:0 "Роlish"
+l_german:
+ PDX_DUMMY_LOCALIZATION:0 ""
+ l_english:0 "Еnglisсh"
+ l_german:0 "Dеutsсh"
+ l_french:0 "Frаnzцsisсh"
+ l_spanish:0 "Sраnisсh"
+ l_polish:0 "Роlnisсh"
+l_french:
+ PDX_DUMMY_LOCALIZATION:0 ""
+ l_english:0 "Аnglаis"
+ l_german:0 "Аllеmаnd"
+ l_french:0 "Frаnзаis"
+ l_spanish:0 "Еsраgnоl"
+ l_polish:0 "Роlоnаis"
+l_spanish:
+ PDX_DUMMY_LOCALIZATION:0 ""
+ l_english:0 "Inglйs"
+ l_german:0 "Аlеmбn"
+ l_french:0 "Frаnсйs"
+ l_spanish:0 "Еsрасоl"
+ l_polish:0 "Роlасо"

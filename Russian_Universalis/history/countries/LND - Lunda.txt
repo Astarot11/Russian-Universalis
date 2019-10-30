@@ -1,0 +1,137 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = lunda
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3533	# Rund
+
+1440.1.1 = { #Fictional
+	monarch = {
+		name = "Мбала"
+		dynasty = "Мваантаангаанд"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1490.1.1 = { #Fictional
+	monarch = {
+		name = "Нконда"
+		dynasty = "Мваантаангаанд"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Нконда Матит"
+		dynasty = "Мваантаангаанд"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Сибинд Йирунг"
+		dynasty = "Мваантаангаанд"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Яав I а Йирунг"
+		dynasty = "Мваантаангаанд"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Яав II а Навей"
+		dynasty = "Мваантаангаанд"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Мбала I Яав"
+		dynasty = "Мваант Яав"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Муказ Муньинг Кабалонд"
+		dynasty = "Мваант Яав"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "Мутеба I Кат Катенг"
+		dynasty = "Мваант Яав"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Муказ Варананконг"
+		dynasty = "Мваант Яав"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1767.1.1 = {
+	monarch = {
+		name = "Навей Муфа Мучимбундж"
+		dynasty = "Мваант Яав"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Сикомбе Яава"
+		dynasty = "Мваант Яав"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Навей II Дитенд"
+		dynasty = "Мваант Яав"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

@@ -1,0 +1,163 @@
+eth_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {	
+		NOT = { map_setup = map_setup_random }
+		tag = ETH
+	}
+	has_country_shield = yes
+
+	eth_conquer_shewa = {
+		icon = mission_eth_soa
+		required_missions = {  }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 1213	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			1213 = {	### STT
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 100
+			add_core = 2791
+			add_core = 2761
+			add_core = 2760
+			add_core = 1210
+			add_core = 1218
+			add_core = 2756
+		}
+	}
+	eth_conquer_south_lands = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { eth_conquer_shewa }
+		provinces_to_highlight = {
+			province_id = 2791
+			province_id = 2761
+			province_id = 2760
+			province_id = 1210
+		}
+		trigger = {
+			NOT = {
+			exists = BBI
+			exists = DWR
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_adm_power = 200
+			add_core = 2762
+			add_core = 1223
+			add_core = 2770
+		}
+	}
+	eth_conquer_ethiopian_highlands = {
+		icon = mission_conquer_50_development
+		required_missions = { eth_conquer_shewa }
+		provinces_to_highlight = {
+			province_id = 2762
+			province_id = 1223
+			province_id = 2770
+		}
+		trigger = {
+			NOT = {
+			exists = DAM
+			exists = GOJ
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_adm_power = 200
+			add_core = 2771
+			add_core = 2772
+			add_core = 1224
+		}
+	}
+	eth_conquer_semien = {
+		icon = mission_eth_bti
+		required_missions = { eth_conquer_ethiopian_highlands }
+		provinces_to_highlight = {
+			province_id = 2771
+			province_id = 2772
+			province_id = 1224
+		}
+		trigger = {
+			NOT = {
+			exists = BTI
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_mil_power = 200
+			ifat_area = {
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+		}
+	}
+}
+
+ada_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {	
+		# NOT = { map_setup = map_setup_random }
+		tag = ADA
+	}
+	has_country_shield = yes
+
+	ada_hold_shewa = {
+		icon = mission_eth_soa
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 1213
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			1213 = {	### STT
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_mil_power = 250
+			add_core = 2791
+			add_core = 2761
+			add_core = 2760
+			add_core = 1210
+			add_core = 1218
+			add_core = 2756
+		}
+	}
+	ada_conquer_west_lands = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { ada_hold_shewa }
+		provinces_to_highlight = {
+			province_id = 2791
+			province_id = 2761
+			province_id = 2760
+			province_id = 1210
+		}
+		trigger = {
+			NOT = {
+			exists = BBI
+			exists = DWR
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_adm_power = 200
+		}
+	}
+}

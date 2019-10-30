@@ -1,0 +1,32 @@
+# country_decisions = {
+
+	# slozhit_polnomochiya = {
+		
+		# potential = {
+			# NOT = { government = anarhy_government }
+			# NOT = { tag = PAP }
+			# OR = {
+				# technology_group = western
+				# technology_group = eastern
+				# technology_group = ottoman
+				# technology_group = muslim
+			# }
+		# }
+		# allow =  {
+			# stability = 0
+			# is_free_or_tributary_trigger = yes
+		# }
+		# effect = {
+			# country_event  = { id = peasants_war.1 }
+			# lose_reforms = 2
+			# change_government = anarhy_government
+			# set_government_rank = 1
+			# add_stability = -6
+			# custom_tooltip = slozhit_polnomochiya_tooltip
+		# }
+		# ai_will_do = {
+			# factor = 0			
+		# }
+	# }
+# }
+	

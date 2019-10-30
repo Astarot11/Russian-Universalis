@@ -1,0 +1,93 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 43 136 207 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+monarch_names = {
+	"Юрий #0" = 40
+	"Семён #0" = 20
+	"Михаил #0" = 20
+	"Сергей #0" = 20
+	"Роман #0" = 10
+	"Мстислав #0" = 10
+	"Святослав #0" = 10
+	"Титус #0" = 10
+	"Василий #0" = 10
+	"Григорий #0" = 10
+	"Богдан #0" = 0
+	"Даниил #0" = 0
+	"Давид #0" = 0
+	"Ферапонт #0" = 0
+	"Фёдор #0" = 0
+	"Исаак #0" = 0
+	"Кирилл #0" = 0
+	"Лаврентий #0" = 0
+	"Лазарь #0" = 0
+	"Леонид #0" = 0
+	"Леонтий #0" = 0
+	"Люка #0" = 0
+	"Макарий #0" = 0
+	"Мефодий #0" = 0
+	"Милан #0" = 0
+	"Митрофан #0" = 0
+	"Назарий #0" = 0
+	"Нестор #0" = 0
+	"Николай #0" = 0
+	"Никон #0" = 0
+	"Пётр #0" = 0
+	"Роман #0" = 0
+	"Валерий #0" = 0
+	"Вениамин #0" = 0
+	"Влад #0" = 0
+	"Всеволод #0" = 0
+	"Яромир #0" = 0
+	"Евгений #0" = 0
+	"Зиновий #0" = 0
+	"Захар #0" = 0
+	
+	"Доминика #0" = -1
+	"Катя #0" = -1
+}
+
+leader_names = { 
+	Одоевский Белёвский Мосальский Воротинский Звенигородский Ноздреватый Хотетовский Горчаков
+	Щербатов Мезецкий Борятинский Долгоруков Щербатов Лыков Оболенский Борятинский
+}
+
+ship_names = {
+	Пронск Проня "Юрий Святославич" Муром
+	"Старая Рязань" Переславль Рязанский Мокша
+	Ока Цна Скопин Михайлов Лолотча Касимов
+	Кадорн Сасово Шацк Новорничуринск
+}

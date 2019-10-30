@@ -1,0 +1,41 @@
+hellas_ideas = {
+	start = {
+		technology_cost = -0.05
+		defensiveness = 0.25
+	}
+	
+	trigger = {
+		tag = HHH
+	}
+	
+	bonus = {
+		diplomatic_reputation = 1
+	}
+	
+	free = yes
+	
+	hhh_phalanx = {
+		infantry_power = 0.1
+	}
+	hhh_call_of_legacy = {
+		range = 0.33
+		colonists = 1
+	}	
+	hhh_free_polices = {
+		state_maintenance_modifier = -0.05
+		global_colonial_growth = 15
+	}
+	hhh_torch_of_culture = {
+		culture_conversion_cost = -0.25
+	}
+	hhh_mediterranean_traders = {
+		trade_steering = 0.2
+	}
+	hhh_hellenic_philosophy = {
+		global_institution_spread = 0.1
+	}
+	hhh_hellenic_architecture = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+}

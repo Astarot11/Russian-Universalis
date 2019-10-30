@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "SEVEN_YEARS_WAR_NAME"
+	desc = "SEVEN_YEARS_WAR_DESC"
+	date = 1756.5.15
+	
+	country = PRU
+	easy_country = PRU
+	country = GBR
+	easy_country = GBR
+	country = HAN
+	country = HAB
+	easy_country = HAB
+	country = RUS
+	easy_country = RUS
+	country = SAX
+	country = FRA
+}

@@ -1,0 +1,64 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 181 45 45 }
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	african_clubmen
+	bantu_tribal_warfare
+	bantu_plains_warfare
+	bantu_gunpowder_warfare
+	westernized_bantu
+	african_western_franchise_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_hussar
+	african_dragoon		
+}
+
+
+monarch_names = {
+	"Длембеу #0" = 20
+	"Домбо Чинкуро #0" = 20
+	"Нечисаке #0" = 20
+	"Нечагадзике #0" = 20
+	"Рупанадаманга #0" = 20
+	"Гумборемвура #0" = 20
+	"Чирисамхуру #0" = 20
+	
+	
+	"Ачинг #0" = -1
+	"Нуру #0" = -1
+}
+
+leader_names = {
+	Чиромбо
+	Ндже
+	Ризе
+	Тембо
+	Бирир
+	Чрима
+	Кагона
+	Нкомо
+	Мутаса
+	Мойо
+}
+
+ship_names = {
+	Дзива Мвари Дзивагуру Мулунгу Мбонга
+	Свикиро Мазендере "Май Веду" Мусикаванга
+	Муторва
+}

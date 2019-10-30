@@ -1,0 +1,147 @@
+country_decisions = {
+	
+	norddeutscherbund_nation = { 
+		major = yes
+		potential = {
+			total_development = 500
+			NOT = { has_country_flag = formed_norddeutscherbund_flag } 
+			NOT = { exists = NDB }
+			NOT = { exists = GER }
+			NOT = { exists = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = ROM }
+			NOT = { tag = WEK }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					NOT = { government = theocracy }
+				}
+			}
+			OR = {
+				primary_culture = hannoverian
+				primary_culture = pommeranian
+				primary_culture = saxon
+				primary_culture = prussian
+				primary_culture = hessian
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = mecklenburg_area
+				area = holstein_area
+				area = weser_area
+				area = lower_saxony_area
+				area = hesse_area
+				area = westphalia_area
+				area = lower_rhineland_area
+				area = north_rhine_area
+				area = hinter_pommern_area
+				area = vorpommern_area
+				area = mittelmark_area
+				area = thuringia_area
+				area = northern_saxony_area
+				area = south_saxony_area
+				province_id = 13
+				province_id = 3218
+				province_id = 50
+				province_id = 2994
+				province_id = 1775
+				province_id = 62
+				province_id = 61
+				province_id = 1876
+				province_id = 81
+				province_id = 80
+				province_id = 1878
+				province_id = 85
+				province_id = 86
+				province_id = 1931
+				province_id = 1874 
+				province_id = 1758
+				province_id = 53 
+				province_id = 44
+				province_id = 45
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}	
+		}
+		allow = {
+			NOT = { exists = NDB }
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no	
+			13 = { country_or_vassal_holds = ROOT }
+			3218 = { country_or_vassal_holds = ROOT } 
+			45 = { country_or_vassal_holds = ROOT }
+			44 = { country_or_vassal_holds = ROOT }
+			53 = { country_or_vassal_holds = ROOT }
+			1758 = { country_or_vassal_holds = ROOT }
+			1874 = { country_or_vassal_holds = ROOT }
+			1931 = { country_or_vassal_holds = ROOT }
+			86 = { country_or_vassal_holds = ROOT }
+			85 = { country_or_vassal_holds = ROOT }
+			1878 = { country_or_vassal_holds = ROOT }
+			80 = { country_or_vassal_holds = ROOT }
+			81 = { country_or_vassal_holds = ROOT }
+			1876 = { country_or_vassal_holds = ROOT }
+			61 = { country_or_vassal_holds = ROOT }
+			62 = { country_or_vassal_holds = ROOT }
+			1775 = { country_or_vassal_holds = ROOT }
+			2994 = { country_or_vassal_holds = ROOT }
+			50 = { country_or_vassal_holds = ROOT }
+			south_saxony_area = { country_or_vassal_holds = ROOT } 
+			thuringia_area = { country_or_vassal_holds = ROOT } 
+			northern_saxony_area = { country_or_vassal_holds = ROOT } 
+			mittelmark_area = { country_or_vassal_holds = ROOT } 
+			vorpommern_area = { country_or_vassal_holds = ROOT } 
+			hinter_pommern_area = { country_or_vassal_holds = ROOT } 
+			north_rhine_area = { country_or_vassal_holds = ROOT } 
+			lower_rhineland_area = { country_or_vassal_holds = ROOT } 
+			westphalia_area = { country_or_vassal_holds = ROOT } 
+			hesse_area = { country_or_vassal_holds = ROOT } 
+			lower_saxony_area = { country_or_vassal_holds = ROOT } 
+			weser_area = { country_or_vassal_holds = ROOT } 
+			holstein_area = { country_or_vassal_holds = ROOT } 
+			mecklenburg_area = { country_or_vassal_holds = ROOT } 
+			
+		}		
+		effect = {
+			custom_tooltip = gconfederation_tooltip
+			change_tag = NDB
+			every_country = {
+				limit = { 
+					NOT = { tag = NDB } 
+					NOT = { tag = LUX }
+					OR = {
+						primary_culture = hannoverian
+						primary_culture = pommeranian
+						primary_culture = saxon
+						primary_culture = prussian
+						primary_culture = hessian
+					}
+				}
+				country_event = { id = gconfederation.1 }
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_norddeutscherbund_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = venetian
+religion = catholic
+add_accepted_culture = greek
+add_accepted_culture = croatian
+technology_group = western
+capital = 1774

@@ -1,0 +1,13 @@
+bookmark =
+{
+	name = "THE_FRENCH_REVOLUTION_NAME"
+	desc = "THE_FRENCH_REVOLUTION_DESC"
+	date = 1789.7.14
+	
+	country = FRA
+	easy_country = FRA
+	country = GBR
+	country = HAB
+	country = PRU
+	country = SPA
+}

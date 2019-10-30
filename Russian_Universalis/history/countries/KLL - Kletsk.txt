@@ -1,0 +1,59 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+primary_culture = byelorussian
+religion = orthodox
+capital = 3689 # Клецк
+
+1127.1.1 = {
+	monarch = {
+		name = "Вячеслав Ярославич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1142.1.1 = {
+	monarch = {
+		name = "Святослав Ольгович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1149.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+
+1309.1.1 = {
+	monarch = {
+		name = "Фёдор Фёдорович" # Рандомное имя (надо же как-то Феаса вставить в игру). князья на момент 1309 неизвестны, а Грабчев не хочет делать унии )
+		dynasty = "Рюрикович"
+		birth_date = 1270.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1326.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}

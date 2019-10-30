@@ -1,0 +1,101 @@
+# Country name see file name.
+
+graphical_culture = westerngfx
+
+color = { 234 214 165 }
+
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Артур #0" = 40
+	"Арт #0" = 40
+	"Донал #0" = 40
+	"Тайг #0" = 40
+	"Хью #0" = 20
+	"Вриан #0" = 20
+	"Фелим  #0" = 5
+	"Махон #0" = 20
+	"Аунан #0" = 0
+	"Алил #0" = 0
+	"Бри #0" = 0
+	"Бронах #0" = 0
+	"Кадван #0" = 0
+	"Кивин #0" = 0
+	"Киннэди #0" = 0
+	"Дэглан #0" = 0
+	"Дугал #0" = 0
+	"Финнлу #0" = 0
+	"Гарван #0" = 0
+	"Лахтна #0" = 0
+	"Лорккан #0" = 0
+	"Манхин #0" = 0
+	"Махун #0" = 0
+	"Мелан #0" = 0
+	"Ниван #0" = 0
+	"Ниалл #0" = 0
+	"Оран #0" = 0
+	"Падрег #0" = 0
+	"Квинн #0" = 0
+	"Райан #0" = 0
+	"Ринан #0" = 0
+	"Рордан #0" = 0
+	"Руэри #0" = 0
+	"Руарк #0" = 0
+	"Шэ #0" = 0
+	"Шенан #0" = 0
+	"Шеналл #0" = 0
+	"Тиэрнах #0" = 0
+	"Туал #0" = 0
+	"Уиллиам #0" = 0
+	"Уиншенн #0" = 0
+	
+	"Африк #0" = -1
+	"Финола #0" = -1
+	"Райнилт #0" = -1
+}
+
+ship_names = {
+	"Клэр" "Корк"
+	"Дис Вуман" 
+	"Керри" 
+	"Лар Вуман" "Лимерик"
+	"Типперари" "Туад Вуман"
+	"Ур Вуман"  
+	"Уотерфорд"
+}  
+
+leader_names = {
+	"Барри" "Бойл"
+	"Дарси"
+	"Фицжеральд" "Фицтомас"
+	"О'Брайен" "О'Нилл"
+	"МакКарти"
+	"Сарсфильд"
+	"Талбот" "Мэггинис" "МакДональд"
+}

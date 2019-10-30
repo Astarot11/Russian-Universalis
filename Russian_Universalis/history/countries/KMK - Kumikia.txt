@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = kumik
+religion = sunni
+technology_group = nomad_group
+capital = 2208	# Terek
+government_rank = 1

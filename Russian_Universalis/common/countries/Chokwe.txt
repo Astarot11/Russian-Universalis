@@ -1,0 +1,71 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 99  160  39}
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+
+historical_units = {
+	african_spearmen
+	niger_kongolese_tribal_warfare
+	niger_kongolese_forest_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	niger_kongolese_guerilla_warfare
+	african_mandelaku
+	african_tuareg_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon	
+}
+
+monarch_names = {
+	"Чингули #0" = 10
+	"Наама #0" = 10
+	"Ямву #0" = 20
+	"Нконде #0" = 10
+	"Чингули #0" = 10
+	"Мбау #0" = 10
+	"Каамба #0" = 10
+	"Чингванджа #0" = 10
+	"Лвиби #0" = 10
+	"Катете #0" = 10
+	"Катанджила #0" = 10
+	"Ямбаямба #0" = 10
+	"Чингумбе #0" = 10
+	"Нгонга #0" = 10
+	
+	"Мукенге #0" = -10
+	"Вандана #0" = -1
+	"Зоди #0" = -1
+}
+
+leader_names = {
+	Акоса
+	Имбангала
+	Ндумбу
+	Чибемба
+	Канонгеша
+	Казембе
+	Бемба
+	Лунту
+	Лувале
+	Касандже
+	Каонде
+}
+
+ship_names = {
+	"Ними а Нзима" "Нсаку Лау" "Лукени луа Ними"
+	Матади "Мпемба Каси" Мбата Мбанза Нанга Нлаза
+	"Нкуву а Нтину"
+}

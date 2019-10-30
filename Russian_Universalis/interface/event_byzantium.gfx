@@ -1,0 +1,28 @@
+spriteTypes = {
+	spriteType = {
+		name = "siege_or_defence_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/siege_or_defence_eventPicture.dds"
+	}
+	spriteType = {
+		name = "land_or_navy_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/land_or_navy_eventPicture.dds"
+	}
+	spriteType = {
+		name = "dark_time_Constantinople_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/dark_time_Constantinople_eventPicture.dds"
+	}
+	spriteType = {
+		name = "latin_empire_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/latin_empire_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "chaos_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/chaos_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "supply_ship_eventPicture"
+		texturefile = "gfx/event_pictures/event_byzantium/supply_ship_eventPicture.dds"
+	}
+}

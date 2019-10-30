@@ -1,0 +1,171 @@
+christian_cult_aspect = {
+	cost = 100
+	modifier = {
+		ae_impact = -0.10
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 1
+			is_at_war = no
+		}
+	}
+}
+
+polygamy_marriages_aspect = {
+	cost = 100
+	modifier = {
+		legitimacy = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
+		republican_tradition = 0.1
+		global_autonomy = -0.025
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+jesus_aspect = {
+	cost = 100
+    modifier = {
+		global_unrest = -1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			unrest = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_rebel_controlled_provinces = 1
+		}	
+	}
+}
+
+inclusion_of_local_sacraments_aspect = {
+	cost = 100
+	modifier = { 
+		global_missionary_strength = 0.01
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}
+
+ares_cults_aspect = {
+	cost = 100
+	modifier = { 
+		land_morale = 0.05
+		naval_morale = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+zeus_cult_aspect = {
+	cost = 100
+	modifier = { 
+		prestige = 0.5
+		global_autonomy = -0.025
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+hermes_cult_aspect = {
+	cost = 100
+	modifier = {
+		global_colonial_growth = 20
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			num_of_colonies = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_colonists = 2
+		}
+	}
+}
+
+muslim_cult_aspect = {
+	cost = 100
+	modifier = {
+		manpower_recovery_speed = 0.1
+		cav_to_inf_ratio = 0.25
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			NOT = { manpower_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { manpower_percentage = 0.5 }
+		}
+	}
+}
+
+artemis_aspect = {
+	cost = 100
+	modifier = {
+		cav_to_inf_ratio = 0.15
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}
+
+athena_aspect = {
+	cost = 100
+	modifier = {
+		technology_cost = -0.025
+		idea_cost = -0.05 
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 1
+			is_at_war = no
+		}
+	}
+}
+
+hefest_aspect = {
+	cost = 100
+	modifier = {
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}

@@ -1,0 +1,10 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = osetian
+religion = orthodox
+technology_group = eastern
+capital = 2201 # North Osetia
+
+
+

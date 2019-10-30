@@ -1,0 +1,69 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 217 144 88 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Бисутун #0"  = 20
+	"Адуд убн-Далах #0"  = 10
+	"Каюмаф #0"  = 20
+	"Бакир Алмалуф #0"  = 10
+	"Кай-каус #0"  = 10
+	"Ягандир #0"  = 20
+	"Азиз #0"  = 10
+	"Саад убн-Далах #0"  = 20
+	"Бахман #0"  = 10
+	"Мила #0"  = -1
+	"Манли #0"  = -1
+	"Митчка #0"  = -1
+}
+
+leader_names = { 
+	Мазьяр
+	Кухьяр
+	Шахрияр
+	Фаррухан
+	Дабуя
+	Дадбурзмир
+	Хуршид
+	Виндадхурмузд
+	Кия
+	Бузург
+	Камаль
+	Рида
+	Хасан
+	Рустам
+	Карин
+	Ардашир
+}
+
+ship_names = {
+	Адыгея Адыче Черкесия Зикья
+	келар Чалус Нател Амол Астарабад Лахикан Фарим 
+}

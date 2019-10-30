@@ -1,0 +1,33 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_loadingstatus_bg"
+		texturefile = "gfx/interface/Loadingscreen_loadingstatus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_loadingtip_bg"
+		texturefile = "gfx/interface/Loadingscreen_loadingtip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pdx_int_logo"
+		texturefile = "gfx/interface/pdx_int_logo.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_geks_logo" #GFX_clausewitz_logo
+		texturefile = "gfx/interface/geks_dev_logo.dds" #clausewitz_logo.dds
+	}	
+	
+	spriteType = {
+		name = "GFX_geksofon" #GFX_clausewitz_logo
+		texturefile = "gfx/interface/geksofon.dds" #clausewitz_logo.dds
+	}	
+	
+	spriteType = {
+		name = "GFX_geks_invite" #GFX_clausewitz_logo
+		texturefile = "gfx/interface/geks_inv_logo.dds" #clausewitz_logo.dds
+	}	
+	
+}

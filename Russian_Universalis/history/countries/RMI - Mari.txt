@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mari
+religion = siberian_shamanism
+technology_group = eastern
+capital = 3177	# Malmyzh
+
+1600.1.1 = { religion = orthodox }
+

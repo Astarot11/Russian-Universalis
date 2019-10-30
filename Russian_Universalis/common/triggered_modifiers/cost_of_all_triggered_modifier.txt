@@ -1,0 +1,38 @@
+# 1750_year = {
+	# potential = {
+		# is_year = 1750
+		# NOT = { is_year = 1860 }
+	# }
+
+	# trigger = {
+		# is_year = 1750
+		# NOT = { is_year = 1860 }
+	# }	
+	# free_leader_pool = -1
+	# land_maintenance_modifier = 1
+	# naval_maintenance_modifier = 1
+	# state_maintenance_modifier = 1
+	# build_cost = 1
+	# advisor_cost = 1
+	# inflation_reduction = 0.15 
+	# max_states = 5
+# }
+
+# 1860_year = {
+	# potential = {
+		# is_year = 1860
+	# }
+
+	# trigger = {
+		# is_year = 1860
+	# }	
+	# free_leader_pool = -2
+	# land_maintenance_modifier = 1.5
+	# naval_maintenance_modifier = 1.5
+	# fort_maintenance_modifier = 1.25
+	# state_maintenance_modifier = 1.5
+	# build_cost = 2
+	# advisor_cost = 2
+	# inflation_reduction = 0.3
+	# max_states = 10	
+# }

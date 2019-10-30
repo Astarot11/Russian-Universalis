@@ -1,0 +1,38 @@
+name = "Завоевание Гибралтара"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 226 # Gibraltar
+}
+
+1308.1.1 = {
+	add_attacker = CAS
+	add_defender = GRA
+}
+
+1308.12.25 = {
+	battle = {
+		name = "Гибралтар"
+		location = 226
+		attacker = {
+			commander = "Фердинанд IV Кастильский"
+			infantry = 3000
+			losses = 10	#percent
+			country = CAS
+		}
+		defender = {
+			commander = "Мухаммад III аль-Махлу"
+			infantry = 1200
+			losses = 100	#percent
+			country = GRA
+			
+		}
+		result = yes
+	}
+}
+
+# Gibraltar is annexed by Castilia
+1309.1.1 = {
+	rem_attacker = CAS
+	rem_defender = GRA
+}

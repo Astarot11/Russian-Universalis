@@ -1,0 +1,10 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = lithuanian
+add_accepted_culture = byelorussian
+add_accepted_culture = ruthenian
+religion = romuva
+technology_group = eastern
+historical_friend = POL
+capital = 271

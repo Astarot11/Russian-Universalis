@@ -1,0 +1,471 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = shona
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 1184	# Khami
+
+
+1380.1.1 = {
+	monarch = {
+		name = "Мбире"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Ньятсимба"
+		monarch_name = "Ньятсимба"
+		dynasty = "Мвенемутапа"
+		birth_date = 1399.1.1
+		death_date = 1450.1.1
+		claim = 95
+		adm = 3
+		dip = 0
+		mil = 0
+		leader = { name = "Ньятсимба"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Ньятсимба"
+		dynasty = "Мвенемутапа"
+		adm = 3
+		dip = 0
+		mil = 0
+		leader = { name = "Ньятсимба"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Матопе"
+		monarch_name = "Матопе"
+		dynasty = "Мвенемутапа"
+		birth_date = 1430.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Матопе"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Мавура"
+		monarch_name = "Мавура I"
+		dynasty = "Мвенемутапа"
+		birth_date = 1450.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Мавура I"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Мукомберо"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Чангамир"
+		monarch_name = "Чангамир"
+		dynasty = "Мвенемутапа"
+		birth_date = 1460.1.1
+		death_date = 1494.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Чангамир"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Какуйо"
+		monarch_name = "Какуйо"
+		dynasty = "Мвенемутапа"
+		birth_date = 1480.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Какуйо"
+		dynasty = "Мвенемутапа"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1494.1.1 = {
+	heir = {
+		name = "Нешангве"
+		monarch_name = "Нешангве"
+		dynasty = "Мвенемутапа"
+		birth_date = 1494.1.1
+		death_Date = 1550.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Нешангве"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Чивер"
+		monarch_name = "Чивер"
+		dynasty = "Мвенемутапа"
+		birth_date = 1530.1.1
+		death_Date = 1560.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Чивер"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Чирисамхуру"
+		monarch_name = "Чирисамхуру"
+		dynasty = "Мвенемутапа"
+		birth_date = 1550.1.1
+		death_Date = 1589.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Чирисамхуру"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Гатси"
+		monarch_name = "Гатси"
+		dynasty = "Мвенемутапа"
+		birth_date = 1560.1.1
+		death_Date = 1623.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}
+
+1589.1.1 = {
+	monarch = {
+		name = "Гатси"
+		dynasty = "Мвенемутапа"
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}
+
+1589.1.1 = {
+	heir = {
+		name = "Ньямбо"
+		monarch_name = "Ньямбо"
+		dynasty = "Мвенемутапа"
+		birth_date = 1589.1.1
+		death_Date = 1629.3.2
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Ньямбо"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+1623.1.1 = {
+	heir = {
+		name = "Мавура"
+		monarch_name = "Мавура II"
+		dynasty = "Мвенемутапа"
+		birth_date = 1610.1.1
+		death_Date = 1652.5.26
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1629.3.2 = {
+	monarch = {
+		name = "Мавура II"
+		dynasty = "Мвенемутапа"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1629.3.2 = {
+	heir = {
+		name = "Сити"
+		monarch_name = "Сити"
+		dynasty = "Мвенемутапа"
+		birth_date = 1610.1.1
+		death_date = 1663.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1652.5.26 = {
+	monarch = {
+		name = "Сити"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1652.5.26 = {
+	heir = {
+		name = "Камборапасу"
+		monarch_name = "Камборапасу"
+		dynasty = "Мвенемутапа"
+		birth_date = 1652.5.26
+		death_Date = 1690.1.1
+		claim = 95
+		adm = 0
+		dip = 3
+		mil = 3
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Камборапасу"
+		dynasty = "Мвенемутапа"
+		adm = 0
+		dip = 3
+		mil = 3
+	}
+}
+
+#Kings of Changamire (AKA Rozvi, Batua)
+
+1690.1.1 = {
+	monarch = {
+		name = "Камборапасу Мукомбве"
+		dynasty = "Мвенемутапа"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Ньякамбира"
+		monarch_name = "Ньякамбира"
+		dynasty = "Мвенемутапа"
+		birth_date = 1680.1.1
+		death_date = 1692.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1692.1.1 = {
+	monarch = {
+		name = "Ньякамбира"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1694.1.1 = {
+	heir = {
+		name = "Нямэнде Мханде"
+		monarch_name = "Нямэнде Мханде"
+		dynasty = "Мвенемутапа"
+		birth_date = 1694.1.1
+		death_date = 1768.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+		
+
+1707.1.1 = {
+	monarch = {
+		name = "Нямэнде Мханде"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Ньеньедзи Зенда"
+		monarch_name = "Ньеньедзи Зенда"
+		dynasty = "Мвенемутапа"
+		birth_date = 1700.1.1
+		death_Date = 1711.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1711.1.1 = {
+	monarch = {
+		name = "Барома Дангварангва"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1712.1.1 = {
+	monarch = {
+		name = "Саматамбиа Ньямханду I"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1723.1.1 = {
+	capital = 1190
+}
+
+1723.1.1 = {
+	monarch = {
+		name = "Саматамбиа Ньямханду I"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Ньятсусу"
+		dynasty = "Мвенемутапа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Дехве Мапунзагуту"
+		dynasty = "Мвенемутапа"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

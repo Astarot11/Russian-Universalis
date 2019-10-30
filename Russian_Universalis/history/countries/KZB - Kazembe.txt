@@ -1,0 +1,87 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = luba
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3538 # Luapala
+
+1430.1.1 = {
+	monarch = {
+		name = "Мутанда"
+		dynasty = "Шила"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} #Fictional. Just fill the gap until we get to the known rulers. Here, Казембе represent assorted people of the region, such as the Шила.
+
+1500.1.1 = {
+	monarch = {
+		name = "Мфвама"
+		dynasty = "Шила"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} #Also Fictional
+
+1560.1.1 = {
+	monarch = {
+		name = "Мвонго"
+		dynasty = "Шила"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} #Fictional
+
+1680.1.1 = {
+	monarch = {
+		name = "Мунона"
+		dynasty = "Шила"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} #Fictional
+
+1740.1.1 = {
+	monarch = {
+		name = "Нганга Билонда"
+		dynasty = "Казембе"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+} #Arriving in the region chasing his father's killers. Establish a realm. 
+
+1745.1.1 = {
+	monarch = {
+		name = "Каньембо Мпемба"
+		dynasty = "Казембе"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Луквеса Илунга"
+		dynasty = "Казембе"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Каньембо Келека Майи"
+		dynasty = "Казембе"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

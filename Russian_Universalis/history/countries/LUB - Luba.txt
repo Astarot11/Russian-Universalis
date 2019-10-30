@@ -1,0 +1,87 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = luba
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3542 # Luba
+
+1440.1.1 = { #Fictional
+	monarch = {
+		name = "Тамбве Кабонго"
+		dynasty = "Луба"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1510.1.1 = { #Fictional
+	monarch = {
+		name = "Фуму Микомбе"
+		dynasty = "Луба"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+1550.1.1 = { #Fictional
+	monarch = {
+		name = "Мулопве Митонга"
+		dynasty = "Луба"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1585.1.1 = {
+	monarch = {
+		name = "Конголо Маниема"
+		dynasty = "Луба"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Калала Илунга"
+		dynasty = "Луба"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1700.1.1 = { #Fictional
+	monarch = {
+		name = "Ндей"
+		dynasty = "Луба"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1750.1.1 = { #Fictional
+	monarch = {
+		name = "Китамба"
+		dynasty = "Луба"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Илумба Сунгу"
+		dynasty = "Луба"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

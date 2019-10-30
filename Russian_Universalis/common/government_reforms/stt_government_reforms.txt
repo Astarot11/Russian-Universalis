@@ -1,0 +1,644 @@
+####################################
+#
+#stt legacy + stt reform
+#
+####################################
+
+#legacy
+
+carthage_republic_legacy = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 60
+	republic = yes
+	
+	fixed_rank = 3
+	
+	duration = 4
+	
+	modifiers = {
+		caravan_power = 0.15
+		dip_tech_cost_modifier  = -0.05
+		merchants = 1
+		global_tax_modifier = 0.15
+		max_states = 5
+		max_absolutism = -50
+	}
+	
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+		enables_plutocratic_idea_group = yes
+		queen = yes
+		royal_marriage = yes
+		rulers_can_be_generals = yes
+	}
+
+}
+
+turkey_republic_legacy = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	republic = yes
+	
+	duration = 6
+	
+	modifiers = {
+		global_unrest = -1
+		stability_cost_modifier = -0.15
+		land_morale = 0.10
+		global_autonomy = -0.15
+		max_absolutism = -30
+	}
+	
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+		enables_plutocratic_idea_group = yes
+		queen = no
+		heir = no
+		republican_name = yes
+		royal_marriage = no
+		has_pashas = yes
+		rulers_can_be_generals = yes
+	}
+}
+
+stt_byzantium_empire_legacy = {
+	icon = "byzantium_empire_icon"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50 #стоимость использования в конструкторе наций
+	monarchy = yes
+	
+	modifiers = {
+		global_unrest = 1
+		global_tax_modifier = 0.15
+		max_states = 5
+		diplomatic_upkeep = 1
+		global_autonomy = -0.1
+		max_absolutism = 5
+	}
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+anarhy_government_legacy = {
+	icon = "constitution"
+	allow_normal_conversion = no
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	monarchy = yes
+	
+	duration = 8
+	modifiers = {
+		global_tax_modifier = -0.50
+		stability_cost_modifier = 0.20
+		global_unrest = 3
+		global_autonomy = 0.10
+		max_absolutism = -50
+	}
+	conditional = {
+		queen = no
+		heir = no
+	}
+} 
+
+the_empire_of_the_rising_sun_legacy = {
+	color = { 240 120 5 }
+	monarchy = yes
+		
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+		
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+	}		
+	
+	rank = {
+		 3 = {
+			infantry_power = 0.20
+			land_morale = 0.20
+			global_autonomy = -0.2
+		 }
+	}
+	fixed_rank = 3
+}
+
+stt_timurids_monarchy_legacy = { #not real monarchy. use only for timur timurid
+	icon = "tribal_centralize_power"
+	allow_normal_conversion = no
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	dictatorship = yes
+	
+	republican_name = no
+	royal_marriage = yes
+	fixed_rank = 3
+	
+	modifiers = {
+		global_unrest = -3
+		stability_cost_modifier = -0.15
+		discipline = 0.05
+		global_autonomy = -0.15
+		max_absolutism = 30
+		max_states = 3
+	}
+	custom_attributes = {
+		queen = yes
+		claim_states = yes
+		rulers_can_be_generals = yes
+	}
+	
+	ai = {
+		factor = 0
+	}
+}
+
+# enlightened_despotism = { #STT legacy
+	## government mechanics flags go here
+	# icon = "paper_with_seal_3"
+	# allow_normal_conversion = yes
+	# legacy_government = yes
+	# valid_for_new_country = yes
+	# valid_for_nation_designer = no
+	# monarchy = yes
+	# modifiers = {
+    	# max_states = 3
+		# development_cost = -0.05
+		# idea_cost = -0.05
+		# monthly_splendor = 1
+		# max_absolutism = 5
+	# }
+	# ai = {
+		# factor = 5
+	# }
+# }
+ 
+ #reforms
+
+turkey_republic_reform = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = -1
+		stability_cost_modifier = -0.15
+		land_morale = 0.10
+		global_autonomy = -0.15
+		max_absolutism = -30
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	legacy_equivalent = turkey_republic_legacy
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = TRK
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = turkey_republic_reform
+			}
+		}
+	}
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+	duration = 6
+}
+
+knyaz_veche_republic = {
+	icon = "merchant"
+	allow_normal_conversion = no
+	republican_name = no
+	royal_marriage = yes
+	potential = {
+		NOT = { has_reform = veche_republic }
+		OR = {
+			AND = {
+				culture_group = east_slavic
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = knyaz_veche_republic
+			}
+		}
+	}
+	legacy_equivalent = veche_republic_legacy
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	modifiers = {
+		land_morale = 0.1
+		land_forcelimit_modifier = 0.1
+		merchants = 1
+		max_absolutism = -30
+		global_autonomy = -0.15
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	boost_income = yes
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+		election_on_death = yes
+	}
+	conditional = {
+		government_abilities = {
+			russian_mechanic
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	has_term_election = no
+}
+
+carthage_republic = {
+	icon = "dutch_republic"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+				tag = CAR
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = carthage_republic
+			}
+		}
+	}
+	legacy_equivalent = carthage_republic_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	royal_marriage = yes
+	
+	duration = 4
+	
+	modifiers = {
+		caravan_power = 0.15
+		dip_tech_cost_modifier  = -0.05
+		merchants = 1
+		global_tax_modifier = 0.15
+		max_states = 5
+		max_absolutism = -50
+	}
+	
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+		enables_plutocratic_idea_group = yes
+		queen = yes
+		royal_marriage = yes
+		rulers_can_be_generals = yes
+	}
+	
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+anarhy_basic_reform = {
+	basic_reform = yes
+	monarchy = yes
+	valid_for_new_country = no
+	allow_convert = no
+	republican_name = yes
+	royal_marriage = no
+	fixed_rank = 1
+	modifiers = {
+		global_tax_modifier = -0.50
+		stability_cost_modifier = 0.20
+		global_unrest = 3
+		global_autonomy = 0.10
+		max_absolutism = -50
+	}
+}
+
+stt_timurids_basic_reform = {
+	basic_reform = yes # = invisible/does not take up a slot
+	dictatorship = yes
+	allow_convert = no
+	queen = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	
+}
+
+stt_timurids_government_reform = {
+	icon = "tribal_centralize_power"
+	allow_normal_conversion = no
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	legacy_equivalent = stt_timurids_monarchy_legacy
+	republican_name = no
+	royal_marriage = yes
+	heir = no
+	queen = yes
+	fixed_rank = 3
+		
+	modifiers = {
+		global_unrest = -3
+		stability_cost_modifier = -0.15		
+		cav_to_inf_ratio = 0.15
+		global_autonomy = -0.15
+		max_absolutism = 30
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		claim_states = yes
+		rulers_can_be_generals = yes
+	}
+}
+
+the_empire_of_the_rising_sun = {
+	icon = "shogunate"
+	lock_level_when_selected = yes 
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+			    tag = JAP
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = the_empire_of_the_rising_sun
+			}
+		}
+	}
+	valid_for_new_country = no #доступна для выделяемых стран или нет
+	valid_for_nation_designer = yes #доступна ли для конструктора наций или нет
+	nation_designer_cost = 40
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+	} #условия, чтобы ее можно было взять для конструктора наций
+	legacy_equivalent = the_empire_of_the_rising_sun_legacy
+	fixed_rank = 3
+	maintain_dynasty = yes
+	modifiers = {
+			infantry_power = 0.20
+			land_morale = 0.20
+			global_autonomy = -0.2
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+#separation_of_power #STT
+
+enlightened_government_reform = {
+	icon = "prussian_monarchy"
+	allow_normal_conversion = yes
+	legacy_equivalent = enlightened_despotism
+	trigger = {
+		has_institution = enlightenment
+		has_parliament = no
+	} #условия для использования
+	modifiers = {
+		development_cost = -0.05
+		idea_cost = -0.05
+		monthly_splendor = 1
+	}
+}
+
+stt_byzantium_empire = {
+	icon = "stt_byzantium_empire" 
+	#allow_normal_conversion = no #можно ли менять после ее активации на другую реформу? В данном случае нет	ПРОВЕРИТЬ НА ПОСЛЕДНЕЙ РЕФОРМЕ В 7 СТРОКЕ
+	lock_level_when_selected = yes # заблокировать возможность менять на другие реформы на данном уровне реформ? Ответ да
+	fixed_rank = 3
+	# legacy_equivalent = stt_byzantium_empire_legacy
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = BYZ
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = stt_byzantium_empire
+			}
+		}
+	} #условие для использования (чтобы была видна для той или иной страны)
+	valid_for_new_country = no #доступна для выделяемых стран или нет
+	valid_for_nation_designer = yes #доступна ли для конструктора наций или нет
+	modifiers = {
+		global_unrest = 1.5
+		global_spy_defence = -0.10
+		yearly_corruption = 0.1
+		global_tax_modifier = 0.15
+		max_states = 3
+		max_absolutism = 5
+	}
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+stt_impose_new_duties = {
+	icon = "stt_impose_new_duties"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		min_autonomy = 2.5
+		global_autonomy = 0.075
+		defensiveness = 0.25
+		fort_maintenance_modifier = -0.1
+		hostile_attrition = 0.5
+	}
+}
+
+stt_new_duties = {
+	icon = "stt_new_duties"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		defensiveness = 0.1
+		build_cost = -0.15
+		build_time = -0.15
+		development_cost = -0.1
+		min_autonomy = 7.5
+	}
+}
+
+stt_bring_acrites_back = {
+	icon = "stt_bring_acrites_back"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		defensiveness = 0.2
+		build_cost = -0.1
+		hostile_attrition = 0.25
+		min_autonomy = 5
+		global_autonomy = 0.025
+	}
+}
+
+stt_byzantium_bureaucracy = {
+	icon = "stt_byzantium_bureaucracy"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		stability_cost_modifier = 0.25
+		yearly_corruption = 0.05
+		all_power_cost = -0.075
+	}
+}
+
+stt_reformed_byzantium_bureaucracy = {
+	icon = "stt_reformed_byzantium_bureaucracy"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	trigger = {
+		has_country_modifier = byz_uni
+	}
+	modifiers = {
+		administrative_efficiency = 0.075
+	}
+}
+
+stt_byzantium_imperator = {
+	icon = "stt_byzantium_imperator"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		yearly_corruption = -0.1
+		max_states = 2
+	}
+}
+
+stt_all_estates_free = {
+	icon = "stt_all_estates_free"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		stability_cost_modifier = 0.25
+		missionary_maintenance_cost = -0.1
+		global_prov_trade_power_modifier = 0.05
+		war_exhaustion = -0.01
+	}
+}
+
+stt_byzantium_domesticus = {
+	icon = "stt_byzantium_domesticus"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		global_tax_modifier = -0.15
+		global_unrest = -1
+		max_states = 1
+		diplomatic_upkeep = 1
+	}
+}
+
+stt_expand_byzantine_apparatus = {
+	icon = "stt_expand_byzantine_apparatus"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	modifiers = {
+		global_autonomy = -0.02
+		max_states = 3
+		yearly_corruption = 0.1
+		global_tax_modifier = 0.05
+		min_autonomy_in_territories = -0.05
+		state_maintenance_modifier = 0.15
+	}
+}
+
+stt_reform_the_byzantine_senate = {
+	icon = "stt_reform_the_byzantine_senate"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = BYZ
+		NOT = { map_setup = map_setup_random }
+	}
+	trigger = {
+		has_country_modifier = byz_senate
+	}
+	modifiers = {
+		max_absolutism = -10
+		free_mil_policy = 1
+		free_dip_policy = 1
+		yearly_corruption = 0.15
+	}
+}

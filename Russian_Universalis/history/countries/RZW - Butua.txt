@@ -1,0 +1,193 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = shona
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 1185	# Butua
+
+#Торва Dynasty
+1444.1.1 = {
+	monarch = {
+		name = "Длембеа"
+		dynasty = "Торва"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Длембеа II"
+		dynasty = "Торва"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+
+1535.1.1 = {
+	monarch = {
+		name = "Длембеа III"
+		dynasty = "Торва"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Длембеа IV"
+		dynasty = "Торва"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Длембеа V"
+		dynasty = "Торва"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+#Rozwi Empire
+1684.1.1 = {
+	monarch = {
+		name = "Домбо Чинкура"
+		dynasty = "Чангамире"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+	government_rank = 2
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Нечисаке"
+		monarch_name = "Нечисаке"
+		dynasty = "Чангамире"
+		birth_date = 1690.1.1
+		death_date = 1720.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Нечисаке"
+		dynasty = "Чангамире"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1696.1.1 = {
+	heir = {
+		name = "Нечагадзике"
+		monarch_name = "Нечагадзике"
+		dynasty = "Чангамире"
+		birth_date = 1696.1.1
+		death_date = 1768.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+		
+
+1720.1.1 = {
+	monarch = {
+		name = "Нечагадзике"
+		dynasty = "Чангамире"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1720.1.1 = {
+	heir = {
+		name = "Мамбо Рупанадамананга"
+		monarch_name = "Мамбо Рупанадамананга"
+		dynasty = "Чангамире"
+		birth_date = 1720.1.1
+		death_Date = 1779.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Мамбо Рупанадамананга"
+		dynasty = "Чангамире"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1768.1.1 = {
+	heir = {
+		name = "Гумборемвура"
+		monarch_name = "Гумборемвура"
+		dynasty = "Чангамире"
+		birth_date = 1768.1.1
+		death_date = 1802.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1779.1.1 = {
+	monarch = {
+		name = "Гумборемвура"
+		dynasty = "Чангамире"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1779.1.1 = {
+	heir = {
+		name = "Чирисамхуру"
+		monarch_name = "Чирисамхуру I"
+		dynasty = "Чангамире"
+		birth_date = 1779.1.1
+		death_Date = 1836.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1802.1.1 = {
+	monarch = {
+		name = "Чирисамхуру I"
+		dynasty = "Чангамире"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

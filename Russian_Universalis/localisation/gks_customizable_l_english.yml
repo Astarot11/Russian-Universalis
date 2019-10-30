@@ -1,0 +1,416 @@
+﻿l_english:
+ ###Окончания
+ TCH_REV:0 "." #GetRevEnd
+ AYA_REV:0 "àÿ" #GetRevEnd
+ YI_REV:0 "ûé" #GetRevEnd
+ YE_REV:0 "ûå" #GetRevEnd
+ MALE_ENDING_A:0 "" #GetEndA
+ FEMALE_ENDING_A:0 "à" #GetEndA
+ MALE_ENDING_LA:0 "" #GetEndLA
+ FEMALE_ENDING_LA:0 "ëà" #GetEndLA
+ MALE_ENDING_IY:0 "èé" #GetEndAYA
+ FEMALE_ENDING_AYA:0 "àÿ" #GetEndAYA или GetEndOYAYA
+ MALE_ENDING_YY:0 "ûé" #GetEndAYY
+ FEMALE_ENDING_AYY:0 "àÿ" #GetEndAYY
+ MALE_ENDING_OY:0 "ûì" #GetEndOY
+ FEMALE_ENDING_OY:0 "îé" #GetEndOY или GetEndOYAYA
+ MALE_ENDING_EY:0 "ûì" #GetEndEY
+ FEMALE_ENDING_EY:0 "åé" #GetEndEY или GetEndEgoEy 
+ MALE_ENDING_SYA:0 "ñÿ" #GetEndSYA
+ FEMALE_ENDING_SYA:0 "àñü" #GetEndSYA
+ MALE_EGO:0 "åãî" #GetEgoEyo
+ FEMALE_EYO:0 "å¸" #GetEgoEyo
+ MALE_ENDING_EGO:0 "åãî" #GetEndEgoEy
+ MALE_EGO_Cap:0 "Åãî" #GetEgoEyoCap
+ FEMALE_EYO_Cap:0 "Å¸" #GetEgoEyoCap
+ MALE_EMU:0 "åìó" #GetEmuEy
+ FEMALE_EY:0 "åé" #GetEmuEy
+ MALE_EMU_Cap:0 "Åìó" #GetEmuEyCap
+ FEMALE_EY_Cap:0 "Åé" #GetEmuEyCap
+ MALE_ENDING_EN:0 "åí" #GetEndEnNa
+ FEMALE_ENDING_NA:0 "íà" #GetEndEnNa
+ MALE_ENDING_IN:0 "èí" #GetEndInNa
+ MALE_ENDING_TSAK:0 "ê" #GetEndTsaK
+ FEMALE_ENDING_TSAK:0 "öà" #GetEndTsaK
+ MALE_ENDING_TSAL:0 "" #GetEndTsaL
+ FEMALE_ENDING_TSAL:0 "íèöà" #GetEndTsaL
+ MALE_ENDING_TSUKA:0 "êà" #GetEndTsuKa
+ FEMALE_ENDING_TSUKA:0 "öó" #GetEndTsuKa
+ MALE_ENDING_LNA:0 "åí" #GetEndLna
+ FEMALE_ENDING_LNA:0 "ëüíà" #GetEndLna
+ MALE_ENDING_EL:0 "åë" #GetEndEl
+ FEMALE_ENDING_EL:0 "ëà" #GetEndEl
+ MALE_ENDING_EYEM:0 "¸ì" #GetEndEyEm
+ FEMALE_ENDING_EYEM:0 "åé" #GetEndEyEm
+ MALE_ENDING_IM:0 "èì" #GetEndEyIm
+ FEMALE_ENDING_EYIM:0 "åé" #GetEndEyIm
+ MALE_ENDING_EGOY:0 "åãî" #GetEndEgoYu или GetEndEgoU
+ FEMALE_ENDING_EGOY:0 "þ" #GetEndEgoYu
+ MALE_ENDING_AU:0 "à" #GetEndAU
+ FEMALE_ENDING_AU:0 "ó" #GetEndAU или GetEndEgoU
+ MALE_ENDING_OTA:0 "îò" #GetEndOTA
+ FEMALE_ENDING_OTA:0 "à" #GetEndOTA
+ MALE_ENDING_OMU:0 "îìó" #GetEndOmu
+ FEMALE_ENDING_OMU:0 "îé" #GetEndOmu
+ MALE_ENDING_UE:0 "ó" #GetEndUE
+ FEMALE_ENDING_UE:0 "å" #GetEndUE
+ MALE_ENDING_TSAKU:0 "öà" #GetEndTsaKu
+ FEMALE_ENDING_TSAKU:0 "êó" #GetEndTsaKu
+ MALE_ENDING_OYY:0 "îé" #GetEndOYY
+ FEMALE_ENDING_OYY:0 "àÿ" #GetEndOYY
+ MALE_ENDING_EZKA:0 "åö" #GetEndEZ
+ FEMALE_ENDING_EZKA:0 "êà" #GetEndEZ
+ MALE_ENDING_OYA:0 "îé" #GetEndOYA
+ FEMALE_ENDING_OYA:0 "îÿ" #GetEndOYA
+ MALE_ENDING_LAS:0 "ñÿ" #GetEndLAS
+ FEMALE_ENDING_LAS:0 "ëàñü" #GetEndLAS
+ MALE_ENDING_OGO:0 "îãî" #GetEndOgoOY
+ FEMALE_ENDING_OGO:0 "îé" #GetEndOgoOY
+ MALE_ENDING_EMLSOY:0 "åì" #GetEndEmLsoy
+ FEMALE_ENDING_EMLSOY:0 "" #GetEndEmLsoy
+ MALE_ENDING_OYIM:0 "èì" #GetEndOyIm
+ FEMALE_ENDING_OYIM:0 "îé" #GetEndOyIm
+ MALE_ENDING_ESSA:0 "" #GetEndEssa
+ FEMALE_ENDING_ESSA:0 "åññà" #GetEndEssa
+ MALE_ENDING_ESSY:0 "à" #GetEndEssy
+ FEMALE_ENDING_ESSY:0 "åññû" #GetEndEssy
+ MALE_ENDING_ESSE:0 "ó" #GetEndEsse
+ FEMALE_ENDING_ESSE:0 "åññå" #GetEndEsse
+ MALE_ENDING_EGOUYU:0 "åãî" #GetEndEgoUyu
+ FEMALE_ENDING_EGOUYU:0 "óþ" #GetEndEgoUyu
+ MALE_ENDING_OGOUYU:0 "îãî" #GetEndOgoUyu
+ FEMALE_ENDING_OGOUYU:0 "óþ" #GetEndOgoUyu
+ MALE_ENDING_OVAYA:0 "îâ" #GetEndOvAya
+ FEMALE_ENDING_OVAYA:0 "àÿ" #GetEndOvAya
+ MALE_ENDING_ORRIT:0 "îð" #GetEndOrRit
+ FEMALE_ENDING_ORRIT:0 "ðèöà" #GetEndOrRit
+ MALE_ENDING_ORRITA:0 "îðà" #GetEndOrRita
+ FEMALE_ENDING_ORRITA:0 "ðèöû" #GetEndOrRita
+ MALE_ENDING_ORRITU:0 "îðó" #GetEndOrRitu
+ FEMALE_ENDING_ORRITU:0 "ðèöå" #GetEndOrRitu
+ MALE_ENDING_KUTSE:0 "êó" #GetEndKuTse
+ FEMALE_ENDING_KUTSE:0 "öå" #GetEndKuTse
+ MALE_ENDING_KATSY:0 "êà" #GetEndKaTsy
+ FEMALE_ENDING_KATSY:0 "öû" #GetEndKaTsy
+ MALE_SHEHE:0 "Îí" #GetSheHeCap
+ FEMALE_SHEHE:0 "Îíà" #GetSheHeCap
+ MALE_ENDING_LEVA:0 "ü" #GetEndLEva
+ FEMALE_ENDING_LEVA:0 "åâà" #GetEndLEva
+ MALE_ENDING_YATSI:0 "ÿ" #GetEndYaTsi
+ FEMALE_ENDING_YATSI:0 "üíèöû" #GetEndYaTsi
+ ###Мусульманские мазхабы
+ hanafi_scool:0 "õàíàôèòû" #GetReligiousSchoolSmall
+ hanbali_scool:0 "õàíáàëèòû" #GetReligiousSchoolSmall
+ maliki_scool:0 "ìàëèêèòû" #GetReligiousSchoolSmall
+ shafii_scool:0 "øàôèèòû" #GetReligiousSchoolSmall
+ ismaili_scool:0 "èñìàèëèòû" #GetReligiousSchoolSmall
+ jafari_scool:0 "äæàôàðèòû" #GetReligiousSchoolSmall
+ zaidi_scool:0 "çåéäèòû" #GetReligiousSchoolSmall
+ hanafi_scool_KEM:0 "õàíàôèòàìè" #GetReligiousSchoolKEM
+ hanbali_scool_KEM:0 "õàíáàëèòàìè" #GetReligiousSchoolKEM
+ maliki_scool_KEM:0 "ìàëèêèòàìè" #GetReligiousSchoolKEM
+ shafii_scool_KEM:0 "øàôèèòàìè" #GetReligiousSchoolKEM
+ ismaili_scool_KEM:0 "èñìàèëèòàìè" #GetReligiousSchoolKEM
+ jafari_scool_KEM:0 "äæàôàðèòàìè" #GetReligiousSchoolKEM
+ zaidi_scool_KEM:0 "çåéäèòàìè" #GetReligiousSchoolKEM
+ hanafi_scool_OGO:0 "õàíàôèòîâ" #GetReligiousSchoolOGO
+ hanbali_scool_OGO:0 "õàíáàëèòîâ" #GetReligiousSchoolOGO
+ maliki_scool_OGO:0 "ìàëèêèòîâ" #GetReligiousSchoolOGO
+ shafii_scool_OGO:0 "øàôèèòîâ" #GetReligiousSchoolOGO
+ ismaili_scool_OGO:0 "èñìàèëèòîâ" #GetReligiousSchoolOGO
+ jafari_scool_OGO:0 "äæàôàðèòîâ" #GetReligiousSchoolOGO
+ zaidi_scool_OGO:0 "çåéäèòîâ" #GetReligiousSchoolOGO
+ hanafi_scool_KOV:0 "õàíàôèòà" #GetReligiousSchoolKOV
+ hanbali_scool_KOV:0 "õàíáàëèòà" #GetReligiousSchoolKOV
+ maliki_scool_KOV:0 "ìàëèêèòà" #GetReligiousSchoolKOV
+ shafii_scool_KOV:0 "øàôèèòà" #GetReligiousSchoolKOV
+ ismaili_scool_KOV:0 "èñìàèëèòà" #GetReligiousSchoolKOV
+ jafari_scool_KOV:0 "äæàôàðèòà" #GetReligiousSchoolKOV
+ zaidi_scool_KOV:0 "çåéäèòà" #GetReligiousSchoolKOV
+ hanafi_scool_OMU:0 "õàíàôèòàì" #GetReligiousSchoolOMU
+ hanbali_scool_OMU:0 "õàíáàëèòàì" #GetReligiousSchoolOMU
+ maliki_scool_OMU:0 "ìàëèêèòàì" #GetReligiousSchoolOMU
+ shafii_scool_OMU:0 "øàôèèòàì" #GetReligiousSchoolOMU
+ ismaili_scool_OMU:0 "èñìàèëèòàì" #GetReligiousSchoolOMU
+ jafari_scool_OMU:0 "äæàôàðèòàì" #GetReligiousSchoolOMU
+ zaidi_scool_OMU:0 "çåéäèòàì" #GetReligiousSchoolOMU
+ ###Товары и их переменные
+ #Товары в единственном числе
+ GetTG_wine:0 "âèíî" #GetTG_SM
+ GetTG_fish:0 "ðûáà" #GetTG_SM
+ GetTG_salt:0 "ñîëü" #GetTG_SM
+ GetTG_copper:0 "ìåäü" #GetTG_SM
+ GetTG_iron:0 "æåëåçî" #GetTG_SM
+ GetTG_tea:0 "÷àé" #GetTG_SM
+ GetTG_coffee:0 "êîôå" #GetTG_SM
+ GetTG_cotton:0 "õëîïîê" #GetTG_SM
+ GetTG_sugar:0 "ñàõàð" #GetTG_SM
+ GetTG_tobacco:0 "òàáàê" #GetTG_SM
+ GetTG_cocoa:0 "êàêàî" #GetTG_SM
+ GetTG_wool:0 "øåðñòü" #GetTG_SM
+ GetTG_silk:0 "ø¸ëê" #GetTG_SM
+ GetTG_gold:0 "çîëîòî" #GetTG_SM
+ GetTG_ivory:0 "ñëîíîâàÿ êîñòü" #GetTG_SM
+ GetTG_slaves:0 "ðàáû" #GetTG_SM
+ GetTG_tropical_wood:0 "òðîïè÷åñêàÿ äðåâåñèíà" #GetTG_SM
+ GetTG_grain:0 "çåðíî" #GetTG_SM
+ GetTG_cloth:0 "ñóêíî" #GetTG_SM
+ GetTG_fur:0 "ìåõà" #GetTG_SM
+ GetTG_naval_supplies:0 "ñíàñòè" #GetTG_SM
+ GetTG_chinaware:0 "ôàðôîð" #GetTG_SM
+ GetTG_spices:0 "ïðÿíîñòè" #GetTG_SM
+ GetTG_dyes:0 "êðàñèòåëè" #GetTG_SM
+ GetTG_incense:0 "áëàãîâîíèÿ" #GetTG_SM
+ GetTG_livestock:0 "äîìàøíèé ñêîò" #GetTG_SM
+ GetTG_glass:0 "ñòåêëî" #GetTG_SM
+ GetTG_paper:0 "áóìàãà" #GetTG_SM
+ GetTG_gems:0 "ñàìîöâåòû" #GetTG_SM
+ GetTG_coal:0 "óãîëü" #GetTG_SM
+ #Товары в родительном падеже
+ GetTG_wine_OGO:0 "âèíà" #GetTG_OGO
+ GetTG_fish_OGO:0 "ðûáû" #GetTG_OGO
+ GetTG_salt_OGO:0 "ñîëè" #GetTG_OGO
+ GetTG_copper_OGO:0 "ìåäè" #GetTG_OGO
+ GetTG_iron_OGO:0 "æåëåçà" #GetTG_OGO
+ GetTG_tea_OGO:0 "÷àÿ" #GetTG_OGO
+ GetTG_coffee_OGO:0 "êîôå" #GetTG_OGO
+ GetTG_cotton_OGO:0 "õëîïêà" #GetTG_OGO
+ GetTG_sugar_OGO:0 "ñàõàðà" #GetTG_OGO
+ GetTG_tobacco_OGO:0 "òàáàêà" #GetTG_OGO
+ GetTG_cocoa_OGO:0 "êàêàî" #GetTG_OGO
+ GetTG_wool_OGO:0 "øåðñòè" #GetTG_OGO
+ GetTG_silk_OGO:0 "ø¸ëêà" #GetTG_OGO
+ GetTG_gold_OGO:0 "çîëîòà" #GetTG_OGO
+ GetTG_ivory_OGO:0 "ñëîíîâîé êîñòè" #GetTG_OGO
+ GetTG_slaves_OGO:0 "ðàáîâ" #GetTG_OGO
+ GetTG_tropical_wood_OGO:0 "òðîïè÷åñêîé äðåâåñèíû" #GetTG_OGO
+ GetTG_grain_OGO:0 "çåðíà" #GetTG_OGO
+ GetTG_cloth_OGO:0 "ñóêíà" #GetTG_OGO
+ GetTG_fur_OGO:0 "ìåõà" #GetTG_OGO
+ GetTG_naval_supplies_OGO:0 "ñíàñòåé" #GetTG_OGO
+ GetTG_chinaware_OGO:0 "ôàðôîðà" #GetTG_OGO
+ GetTG_spices_OGO:0 "ïðÿíîñòåé" #GetTG_OGO
+ GetTG_dyes_OGO:0 "êðàñèòåëåé" #GetTG_OGO
+ GetTG_incense_OGO:0 "áëàãîâîíèé" #GetTG_OGO
+ GetTG_livestock_OGO:0 "äîìàøíåãî ñêîòà" #GetTG_OGO
+ GetTG_glass_OGO:0 "ñòåêëà" #GetTG_OGO
+ GetTG_paper_OGO:0 "áóìàãè" #GetTG_OGO
+ GetTG_gems_OGO:0 "ñàìîöâåòîâ" #GetTG_OGO
+ GetTG_coal_OGO:0 "óãëÿ" #GetTG_OGO
+ #Товары в винительном падеже? (Подарить что? Увидеть что?)
+ GetTG_wine_VIN:0 "âèíî" #GetTG_VIN
+ GetTG_fish_VIN:0 "ðûáó" #GetTG_VIN
+ GetTG_salt_VIN:0 "ñîëü" #GetTG_VIN
+ GetTG_copper_VIN:0 "ìåäü" #GetTG_VIN
+ GetTG_iron_VIN:0 "æåëåçî" #GetTG_VIN
+ GetTG_tea_VIN:0 "÷àé" #GetTG_VIN
+ GetTG_coffee_VIN:0 "êîôå" #GetTG_VIN
+ GetTG_cotton_VIN:0 "õëîïîê" #GetTG_VIN
+ GetTG_sugar_VIN:0 "ñàõàð" #GetTG_VIN
+ GetTG_tobacco_VIN:0 "òàáàê" #GetTG_VIN
+ GetTG_cocoa_VIN:0 "êàêàî" #GetTG_VIN
+ GetTG_wool_VIN:0 "øåðñòü" #GetTG_VIN
+ GetTG_silk_VIN:0 "ø¸ëê" #GetTG_VIN
+ GetTG_gold_VIN:0 "çîëîòî" #GetTG_VIN
+ GetTG_ivory_VIN:0 "ñëîíîâóþ êîñòü" #GetTG_VIN
+ GetTG_slaves_VIN:0 "ðàáîâ" #GetTG_VIN
+ GetTG_tropical_wood_VIN:0 "òðîïè÷åñêóþ äðåâåñèíó" #GetTG_VIN
+ GetTG_grain_VIN:0 "çåðíî" #GetTG_VIN
+ GetTG_cloth_VIN:0 "ñóêíî" #GetTG_VIN
+ GetTG_fur_VIN:0 "ìåõà" #GetTG_VIN
+ GetTG_naval_supplies_VIN:0 "ñíàñòè" #GetTG_VIN
+ GetTG_chinaware_VIN:0 "ôàðôîð" #GetTG_VIN
+ GetTG_spices_VIN:0 "ïðÿíîñòè" #GetTG_VIN
+ GetTG_dyes_VIN:0 "êðàñèòåëè" #GetTG_VIN
+ GetTG_incense_VIN:0 "áëàãîâîíèÿ" #GetTG_VIN
+ GetTG_livestock_VIN:0 "äîìàøíèé ñêîò" #GetTG_VIN
+ GetTG_glass_VIN:0 "ñòåêëî" #GetTG_VIN
+ GetTG_paper_VIN:0 "áóìàãó" #GetTG_VIN
+ GetTG_gems_VIN:0 "ñàìîöâåòû" #GetTG_VIN
+ GetTG_coal_VIN:0 "óãîëü" #GetTG_VIN
+ #Товары в творительном падеже? (Известна чем? Торговли чем?)
+ GetTG_wine_TVO:0 "âèíîì" #GetTG_TVO
+ GetTG_fish_TVO:0 "ðûáîé" #GetTG_TVO
+ GetTG_salt_TVO:0 "ñîëüþ" #GetTG_TVO
+ GetTG_copper_TVO:0 "ìåäüþ" #GetTG_TVO
+ GetTG_iron_TVO:0 "æåëåçîì" #GetTG_TVO
+ GetTG_tea_TVO:0 "÷àåì" #GetTG_TVO
+ GetTG_coffee_TVO:0 "êîôå" #GetTG_TVO
+ GetTG_cotton_TVO:0 "õëîïêîì" #GetTG_TVO
+ GetTG_sugar_TVO:0 "ñàõàðîì" #GetTG_TVO
+ GetTG_tobacco_TVO:0 "òàáàêîì" #GetTG_TVO
+ GetTG_cocoa_TVO:0 "êàêàî" #GetTG_TVO
+ GetTG_wool_TVO:0 "øåðñòüþ" #GetTG_TVO
+ GetTG_silk_TVO:0 "ø¸ëêîì" #GetTG_TVO
+ GetTG_gold_TVO:0 "çîëîòîì" #GetTG_TVO
+ GetTG_ivory_TVO:0 "ñëîíîâîé êîñòüþ" #GetTG_TVO
+ GetTG_slaves_TVO:0 "ðàáàìè" #GetTG_TVO
+ GetTG_tropical_wood_TVO:0 "òðîïè÷åñêîé äðåâåñèíîé" #GetTG_TVO
+ GetTG_grain_TVO:0 "çåðíîì" #GetTG_TVO
+ GetTG_cloth_TVO:0 "ñóêíîì" #GetTG_TVO
+ GetTG_fur_TVO:0 "ìåõîì" #GetTG_TVO
+ GetTG_naval_supplies_TVO:0 "ñíàñòÿìè" #GetTG_TVO
+ GetTG_chinaware_TVO:0 "ôàðôîðîì" #GetTG_TVO
+ GetTG_spices_TVO:0 "ïðÿíîñòÿìè" #GetTG_TVO
+ GetTG_dyes_TVO:0 "êðàñèòåëÿìè" #GetTG_TVO
+ GetTG_incense_TVO:0 "áëàãîâîíèÿìè" #GetTG_TVO
+ GetTG_livestock_TVO:0 "äîìàøíèì ñêîòîì" #GetTG_TVO
+ GetTG_glass_TVO:0 "ñòåêëîì" #GetTG_TVO
+ GetTG_paper_TVO:0 "áóìàãîé" #GetTG_TVO
+ GetTG_gems_TVO:0 "ñàìîöâåòàìè" #GetTG_TVO
+ GetTG_coal_TVO:0 "óãë¸ì" #GetTG_TVO
+ #Товары в предложном падеже? (Думать о чем?)
+ GetTG_wine_PRE:0 "âèíå" #GetTG_PRE
+ GetTG_fish_PRE:0 "ðûáå" #GetTG_PRE
+ GetTG_salt_PRE:0 "ñîëè" #GetTG_PRE
+ GetTG_copper_PRE:0 "ìåäè" #GetTG_PRE
+ GetTG_iron_PRE:0 "æåëåçå" #GetTG_PRE
+ GetTG_tea_PRE:0 "÷àå" #GetTG_PRE
+ GetTG_coffee_PRE:0 "êîôå" #GetTG_PRE
+ GetTG_cotton_PRE:0 "õëîïêå" #GetTG_PRE
+ GetTG_sugar_PRE:0 "ñàõàðå" #GetTG_PRE
+ GetTG_tobacco_PRE:0 "òàáàêå" #GetTG_PRE
+ GetTG_cocoa_PRE:0 "êàêàî" #GetTG_PRE
+ GetTG_wool_PRE:0 "øåðñòè" #GetTG_PRE
+ GetTG_silk_PRE:0 "ø¸ëêå" #GetTG_PRE
+ GetTG_gold_PRE:0 "çîëîòå" #GetTG_PRE
+ GetTG_ivory_PRE:0 "ñëîíîâîé êîñòè" #GetTG_PRE
+ GetTG_slaves_PRE:0 "ðàáàõ" #GetTG_PRE
+ GetTG_tropical_wood_PRE:0 "òðîïè÷åñêîé äðåâåñèíå" #GetTG_PRE
+ GetTG_grain_PRE:0 "çåðíå" #GetTG_PRE
+ GetTG_cloth_PRE:0 "ñóêíå" #GetTG_PRE
+ GetTG_fur_PRE:0 "ìåõàõ" #GetTG_PRE
+ GetTG_naval_supplies_PRE:0 "ñíàñòåé" #GetTG_PRE
+ GetTG_chinaware_PRE:0 "ôàðôîðå" #GetTG_PRE
+ GetTG_spices_PRE:0 "ïðÿíîñòÿõ" #GetTG_PRE
+ GetTG_dyes_PRE:0 "êðàñèòåëÿõ" #GetTG_PRE
+ GetTG_incense_PRE:0 "áëàãîâîíèÿõ" #GetTG_PRE
+ GetTG_livestock_PRE:0 "äîìàøíåì ñêîòå" #GetTG_PRE
+ GetTG_glass_PRE:0 "ñòåêëå" #GetTG_PRE
+ GetTG_paper_PRE:0 "áóìàãå" #GetTG_PRE
+ GetTG_gems_PRE:0 "ñàìîöâåòå" #GetTG_PRE
+ GetTG_coal_PRE:0 "óãëå" #GetTG_PRE
+ #Товары в родительном падеже Капсом
+ GetTG_wine_OGO_CAP:0 "Âèíà" #GetTG_OGO_CAP
+ GetTG_fish_OGO_CAP:0 "Ðûáû" #GetTG_OGO_CAP
+ GetTG_salt_OGO_CAP:0 "Ñîëè" #GetTG_OGO_CAP
+ GetTG_copper_OGO_CAP:0 "Ìåäè" #GetTG_OGO_CAP
+ GetTG_iron_OGO_CAP:0 "Æåëåçà" #GetTG_OGO_CAP
+ GetTG_tea_OGO_CAP:0 "×àÿ" #GetTG_OGO_CAP
+ GetTG_coffee_OGO_CAP:0 "Êîôå" #GetTG_OGO_CAP
+ GetTG_cotton_OGO_CAP:0 "Õëîïêà" #GetTG_OGO_CAP
+ GetTG_sugar_OGO_CAP:0 "Ñàõàðà" #GetTG_OGO_CAP
+ GetTG_tobacco_OGO_CAP:0 "Òàáàêà" #GetTG_OGO_CAP
+ GetTG_cocoa_OGO_CAP:0 "Êàêàî" #GetTG_OGO_CAP
+ GetTG_wool_OGO_CAP:0 "Øåðñòè" #GetTG_OGO_CAP
+ GetTG_silk_OGO_CAP:0 "Ø¸ëêà" #GetTG_OGO_CAP
+ GetTG_gold_OGO_CAP:0 "Çîëîòà" #GetTG_OGO_CAP
+ GetTG_ivory_OGO_CAP:0 "Ñëîíîâîé êîñòè" #GetTG_OGO_CAP
+ GetTG_slaves_OGO_CAP:0 "Ðàáîâ" #GetTG_OGO_CAP
+ GetTG_tropical_wood_OGO_CAP:0 "Òðîïè÷åñêîé äðåâåñèíû" #GetTG_OGO_CAP
+ GetTG_grain_OGO_CAP:0 "Çåðíà" #GetTG_OGO_CAP
+ GetTG_cloth_OGO_CAP:0 "Ñóêíà" #GetTG_OGO_CAP
+ GetTG_fur_OGO_CAP:0 "Ìåõà" #GetTG_OGO_CAP
+ GetTG_naval_supplies_OGO_CAP:0 "Ñíàñòåé" #GetTG_OGO_CAP
+ GetTG_chinaware_OGO_CAP:0 "Ôàðôîðà" #GetTG_OGO_CAP
+ GetTG_spices_OGO_CAP:0 "Ïðÿíîñòåé" #GetTG_OGO_CAP
+ GetTG_dyes_OGO_CAP:0 "Êðàñèòåëåé" #GetTG_OGO_CAP
+ GetTG_incense_OGO_CAP:0 "Áëàãîâîíèé" #GetTG_OGO_CAP
+ GetTG_livestock_OGO_CAP:0 "Äîìàøíåãî ñêîòà" #GetTG_OGO_CAP
+ GetTG_glass_OGO_CAP:0 "Ñòåêëà" #GetTG_OGO_CAP
+ GetTG_paper_OGO_CAP:0 "Áóìàãè" #GetTG_OGO_CAP
+ GetTG_gems_OGO_CAP:0 "Ñàìîöâåòîâ" #GetTG_OGO_CAP
+ GetTG_coal_OGO_CAP:0 "Óãëÿ" #GetTG_OGO_CAP
+ #Товары в винительном падеже? (Подарить что? Увидеть что?) Капсом
+ GetTG_wine_VIN_CAP:0 "Âèíî" #GetTG_VIN_CAP
+ GetTG_fish_VIN_CAP:0 "Ðûáó" #GetTG_VIN_CAP
+ GetTG_salt_VIN_CAP:0 "Ñîëü" #GetTG_VIN_CAP
+ GetTG_copper_VIN_CAP:0 "Ìåäü" #GetTG_VIN_CAP
+ GetTG_iron_VIN_CAP:0 "Æåëåçî" #GetTG_VIN_CAP
+ GetTG_tea_VIN_CAP:0 "×àé" #GetTG_VIN_CAP
+ GetTG_coffee_VIN_CAP:0 "Êîôå" #GetTG_VIN_CAP
+ GetTG_cotton_VIN_CAP:0 "Õëîïîê" #GetTG_VIN_CAP
+ GetTG_sugar_VIN_CAP:0 "Ñàõàð" #GetTG_VIN_CAP
+ GetTG_tobacco_VIN_CAP:0 "Òàáàê" #GetTG_VIN_CAP
+ GetTG_cocoa_VIN_CAP:0 "Êàêàî" #GetTG_VIN_CAP
+ GetTG_wool_VIN_CAP:0 "Øåðñòü" #GetTG_VIN_CAP
+ GetTG_silk_VIN_CAP:0 "Ø¸ëê" #GetTG_VIN_CAP
+ GetTG_gold_VIN_CAP:0 "Çîëîòî" #GetTG_VIN_CAP
+ GetTG_ivory_VIN_CAP:0 "Ñëîíîâóþ êîñòü" #GetTG_VIN_CAP
+ GetTG_slaves_VIN_CAP:0 "Ðàáîâ" #GetTG_VIN_CAP
+ GetTG_tropical_wood_VIN_CAP:0 "Òðîïè÷åñêóþ äðåâåñèíó" #GetTG_VIN_CAP
+ GetTG_grain_VIN_CAP:0 "Çåðíî" #GetTG_VIN_CAP
+ GetTG_cloth_VIN_CAP:0 "Ñóêíî" #GetTG_VIN_CAP
+ GetTG_fur_VIN_CAP:0 "Ìåõà" #GetTG_VIN_CAP
+ GetTG_naval_supplies_VIN_CAP:0 "Ñíàñòè" #GetTG_VIN_CAP
+ GetTG_chinaware_VIN_CAP:0 "Ôàðôîð" #GetTG_VIN_CAP
+ GetTG_spices_VIN_CAP:0 "Ïðÿíîñòè" #GetTG_VIN_CAP
+ GetTG_dyes_VIN_CAP:0 "Êðàñèòåëè" #GetTG_VIN_CAP
+ GetTG_incense_VIN_CAP:0 "Áëàãîâîíèÿ" #GetTG_VIN_CAP
+ GetTG_livestock_VIN_CAP:0 "Äîìàøíèé ñêîò" #GetTG_VIN_CAP
+ GetTG_glass_VIN_CAP:0 "Ñòåêëî" #GetTG_VIN_CAP
+ GetTG_paper_VIN_CAP:0 "Áóìàãó" #GetTG_VIN_CAP
+ GetTG_gems_VIN_CAP:0 "Ñàìîöâåòû" #GetTG_VIN_CAP
+ GetTG_coal_VIN_CAP:0 "Óãîëü" #GetTG_VIN
+ #Товары в творительном падеже? (Известна чем?) Капсом
+ GetTG_wine_TVO_CAP:0 "Âèíîì" #GetTG_TVO_CAP
+ GetTG_fish_TVO_CAP:0 "Ðûáîé" #GetTG_TVO_CAP
+ GetTG_salt_TVO_CAP:0 "Ñîëüþ" #GetTG_TVO_CAP
+ GetTG_copper_TVO_CAP:0 "Ìåäüþ" #GetTG_TVO_CAP
+ GetTG_iron_TVO_CAP:0 "Æåëåçîì" #GetTG_TVO_CAP
+ GetTG_tea_TVO_CAP:0 "×àåì" #GetTG_TVO_CAP
+ GetTG_coffee_TVO_CAP:0 "Êîôå" #GetTG_TVO_CAP
+ GetTG_cotton_TVO_CAP:0 "Õëîïêîì" #GetTG_TVO_CAP
+ GetTG_sugar_TVO_CAP:0 "Ñàõàðîì" #GetTG_TVO_CAP
+ GetTG_tobacco_TVO_CAP:0 "Òàáàêîì" #GetTG_TVO_CAP
+ GetTG_cocoa_TVO_CAP:0 "Êàêàî" #GetTG_TVO_CAP
+ GetTG_wool_TVO_CAP:0 "Øåðñòüþ" #GetTG_TVO_CAP
+ GetTG_silk_TVO_CAP:0 "Ø¸ëêîì" #GetTG_TVO_CAP
+ GetTG_gold_TVO_CAP:0 "Çîëîòîì" #GetTG_TVO_CAP
+ GetTG_ivory_TVO_CAP:0 "Ñëîíîâîé êîñòüþ" #GetTG_TVO_CAP
+ GetTG_slaves_TVO_CAP:0 "Ðàáàìè" #GetTG_TVO_CAP
+ GetTG_tropical_wood_TVO_CAP:0 "Òðîïè÷åñêîé äðåâåñèíîé" #GetTG_TVO_CAP
+ GetTG_grain_TVO_CAP:0 "Çåðíîì" #GetTG_TVO_CAP
+ GetTG_cloth_TVO_CAP:0 "Ñóêíîì" #GetTG_TVO_CAP
+ GetTG_fur_TVO_CAP:0 "Ìåõîì" #GetTG_TVO_CAP
+ GetTG_naval_supplies_TVO_CAP:0 "Ñíàñòÿìè" #GetTG_TVO_CAP
+ GetTG_chinaware_TVO_CAP:0 "Ôàðôîðîì" #GetTG_TVO_CAP
+ GetTG_spices_TVO_CAP:0 "Ïðÿíîñòÿìè" #GetTG_TVO_CAP
+ GetTG_dyes_TVO_CAP:0 "Êðàñèòåëÿìè" #GetTG_TVO_CAP
+ GetTG_incense_TVO_CAP:0 "Áëàãîâîíèÿìè" #GetTG_TVO_CAP
+ GetTG_livestock_TVO_CAP:0 "Äîìàøíèì ñêîòîì" #GetTG_TVO_CAP
+ GetTG_glass_TVO_CAP:0 "Ñòåêëîì" #GetTG_TVO_CAP
+ GetTG_paper_TVO_CAP:0 "Áóìàãîé" #GetTG_TVO_CAP
+ GetTG_gems_TVO_CAP:0 "Ñàìîöâåòàìè" #GetTG_TVO_CAP
+ GetTG_coal_TVO_CAP:0 "Óãë¸ì" #GetTG_TVO_CAP
+ #Товары в предложном падеже? (Думать о чем?) Капсом
+ GetTG_wine_PRE_CAP:0 "Âèíå" #GetTG_PRE_CAP
+ GetTG_fish_PRE_CAP:0 "Ðûáå" #GetTG_PRE_CAP
+ GetTG_salt_PRE_CAP:0 "Ñîëè" #GetTG_PRE_CAP
+ GetTG_copper_PRE_CAP:0 "Ìåäè" #GetTG_PRE_CAP
+ GetTG_iron_PRE_CAP:0 "Æåëåçå" #GetTG_PRE_CAP
+ GetTG_tea_PRE_CAP:0 "×àå" #GetTG_PRE_CAP
+ GetTG_coffee_PRE_CAP:0 "Êîôå" #GetTG_PRE_CAP
+ GetTG_cotton_PRE_CAP:0 "Õëîïêå" #GetTG_PRE_CAP
+ GetTG_sugar_PRE_CAP:0 "Ñàõàðå" #GetTG_PRE_CAP
+ GetTG_tobacco_PRE_CAP:0 "Òàáàêå" #GetTG_PRE_CAP
+ GetTG_cocoa_PRE_CAP:0 "Êàêàî" #GetTG_PRE_CAP
+ GetTG_wool_PRE_CAP:0 "Øåðñòè" #GetTG_PRE_CAP
+ GetTG_silk_PRE_CAP:0 "Ø¸ëêå" #GetTG_PRE_CAP
+ GetTG_gold_PRE_CAP:0 "Çîëîòå" #GetTG_PRE_CAP
+ GetTG_ivory_PRE_CAP:0 "Ñëîíîâîé êîñòè" #GetTG_PRE_CAP
+ GetTG_slaves_PRE_CAP:0 "Ðàáàõ" #GetTG_PRE_CAP
+ GetTG_tropical_wood_PRE_CAP:0 "Òðîïè÷åñêîé äðåâåñèíå" #GetTG_PRE_CAP
+ GetTG_grain_PRE_CAP:0 "Çåðíå" #GetTG_PRE_CAP
+ GetTG_cloth_PRE_CAP:0 "Ñóêíå" #GetTG_PRE_CAP
+ GetTG_fur_PRE_CAP:0 "Ìåõàõ" #GetTG_PRE_CAP
+ GetTG_naval_supplies_PRE_CAP:0 "Ñíàñòåé" #GetTG_PRE_CAP
+ GetTG_chinaware_PRE_CAP:0 "Ôàðôîðå" #GetTG_PRE_CAP
+ GetTG_spices_PRE_CAP:0 "Ïðÿíîñòÿõ" #GetTG_PRE_CAP
+ GetTG_dyes_PRE_CAP:0 "Êðàñèòåëÿõ" #GetTG_PRE_CAP
+ GetTG_incense_PRE_CAP:0 "Áëàãîâîíèÿõ" #GetTG_PRE_CAP
+ GetTG_livestock_PRE_CAP:0 "Äîìàøíåì ñêîòå" #GetTG_PRE_CAP
+ GetTG_glass_PRE_CAP:0 "Ñòåêëå" #GetTG_PRE_CAP
+ GetTG_paper_PRE_CAP:0 "Áóìàãå" #GetTG_PRE_CAP
+ GetTG_gems_PRE_CAP:0 "Ñàìîöâåòå" #GetTG_PRE_CAP
+ GetTG_coal_PRE_CAP:0 "Óãëå" #GetTG_PRE_CAP

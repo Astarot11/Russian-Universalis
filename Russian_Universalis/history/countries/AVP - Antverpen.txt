@@ -1,0 +1,7 @@
+government = republic
+set_legacy_government = administrative_republic 
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = flemish
+capital = 1744

@@ -1,0 +1,193 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+primary_culture = byelorussian
+religion = orthodox
+capital = 3699 # Друцк
+
+1101.1.1 = {
+	monarch = {
+		name = "Рогволод Всеславич"
+		dynasty = "Рюрикович"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1127.1.1 = {
+	monarch = {
+		name = "Рогволод Борисович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1129.1.1 = {
+	monarch = {
+		name = "Изяслав Мстиславич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1132.1.1 = {
+	monarch = {
+		name = "Святополк Мстиславич"
+		dynasty = "Рюрикович"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1132.6.1 = {
+	monarch = {
+		name = "Василько Святославич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1140.1.1 = {
+	monarch = {
+		name = "Рогволод Борисович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1144.1.1 = {
+	monarch = {
+		name = "Глеб Рогволодович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+
+1151.1.1 = {
+	monarch = {
+		name = "Глеб Ростиславич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1158.1.1 = {
+	monarch = {
+		name = "Рогволод Борисович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1159.1.1 = {
+	monarch = {
+		name = "Глеб Рогволодович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+
+1162.1.1 = {
+	monarch = {
+		name = "Рогволод Борисович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1171.1.1 = {
+	monarch = {
+		name = "Глеб Рогволодович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+
+1180.1.1 = {
+	monarch = {
+		name = "Борис Всеславич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1190.1.1 = {
+	monarch = {
+		name = "Борис Всеславич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1196.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+
+1300.1.1 = {
+	monarch = {
+		name = "Михаил Романович"
+		dynasty = "Рюрикович"
+		birth_date = 1280.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1308.10.5 = {
+	heir = {
+		name = "Василий"
+		monarch_name = "Василий Михайлович"
+		dynasty = "Рюрикович"
+		birth_date = 1305.1.1
+		death_date = 1371.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1326.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}

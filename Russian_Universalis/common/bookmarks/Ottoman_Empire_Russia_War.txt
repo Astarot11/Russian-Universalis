@@ -1,0 +1,14 @@
+bookmark =
+{
+
+
+	name = "Prutscii_pohod_NAME"
+	desc = "Prutscii_pohod_DESC"
+	date = 1710.11.10
+
+	center = 3129
+	
+	country = TSR
+	easy_country = TSR
+	country = TUR	
+}

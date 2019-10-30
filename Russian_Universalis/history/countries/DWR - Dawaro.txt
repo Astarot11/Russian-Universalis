@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = somali
+religion = sunni
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1210 #Dawaro
+religious_school = shafii_school

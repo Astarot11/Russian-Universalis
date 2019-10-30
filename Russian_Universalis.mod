@@ -1,0 +1,16 @@
+supported_version="1.29.1.0"
+tags={
+	"Events"
+	"Fixes"
+	"Graphics"
+	"Historical"
+	"Map"
+	"Missions And Decisions"
+	"New Nations"
+	"Translation"
+}
+name="[RU] Russian Universalis"
+path="mod/Russian_Universalis"
+replace_path="history/provinces"
+replace_path="history/countries"
+replace_path="common/province_names"

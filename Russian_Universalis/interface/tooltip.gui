@@ -1,0 +1,11 @@
+guiTypes = {
+	textBoxType={
+		name = "ToolTip"
+		textureFile = "gfx\\interface\\tiles_dialog.tga"
+		font = "vic_18"
+		borderSize = { x=18 y=18 }
+		position = { x= 560 y=10 }
+		maxWidth = 400 #320
+		maxHeight = 256
+	}
+}

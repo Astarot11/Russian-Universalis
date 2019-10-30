@@ -1,0 +1,403 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = cham
+religion = hinduism
+technology_group = chinese
+capital = 607	# Vijaya
+
+
+1390.1.1 = {
+	monarch = {
+		name = "Ко Ченг"
+		dynasty = "Чам"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Джая Синхаварман"
+		monarch_name = "Джая Синхаварман V"
+		dynasty = "Чам"
+		birth_date = 1380.1.1
+		death_date = 1441.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Джая Синхаварман V"
+		dynasty = "Чам"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Маиджа Виджая"
+		monarch_name = "Маиджа Виджая"
+		dynasty = "Чам"
+		birth_date = 1421.1.1
+		death_date = 1446.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Маиджа Виджая"
+		dynasty = "Чам"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Мохо Коэй-Лаи"
+		monarch_name = "Мохо Коэй-Лаи"
+		dynasty = "Чам"
+		birth_date = 1427.1.1
+		death_date = 1449.1.1
+		claim = 95
+		adm = 3
+		dip = 0
+		mil = 0
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Мохо Коэй-Лаи"
+		dynasty = "Чам"
+		adm = 3
+		dip = 0
+		mil = 0
+	}
+}
+
+1447.1.1 = {
+	heir = {
+		name = "Маха Куи Ю"
+		monarch_name = "Маха Куи Ю"
+		dynasty = "Чам"
+		birth_date = 1429.1.1
+		death_date = 1458.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1449.1.1 = {
+	monarch = {
+		name = "Маха Куи Ю"
+		dynasty = "Чам"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1458.1.1 = {
+	monarch = {
+		name = "Маха Панлоу"
+		dynasty = "Чам"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+
+1458.1.1 = {
+	heir = {
+		name = "Панло Тутсюн"
+		monarch_name = "Панло Тутсюн"
+		dynasty = "Чам"
+		birth_date = 1440.1.1
+		death_date = 1471.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Панло Тутсюн"
+		dynasty = "Чам"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+#Vietnamese Rule
+
+1695.1.1 = {
+	monarch = {
+		name = "Сактираи"
+		dynasty = "По"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1695.1.1 = {
+	heir = {
+		name = "Ганвух"
+		monarch_name = "Ганвух"
+		dynasty = "По"
+		birth_date = 1695.1.1
+		death_date = 1731.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1697.1.1 = {
+	government_rank = 1
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Ганвух"
+		dynasty = "По"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1728.1.1 = {	
+	heir = {
+		name = "Суттираи"
+		monarch_name = "Суттираи"
+		dynasty = "По"
+		birth_date = 1682.1.1
+		death_date = 1734.12.31
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Суттираи"
+		dynasty = "По"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1731.1.1 = {
+	heir = {
+		name = "Раттираи"
+		monarch_name = "Раттираи"
+		dynasty = "По"
+		birth_date = 1731.1.1
+		death_date = 1735.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 3
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Раттираи"
+		dynasty = "По"
+		adm = 0
+		dip = 2
+		mil = 3
+	}
+}
+
+1735.1.1 = {
+	heir = {
+		name = "Тасун"
+		monarch_name = "Тасун"
+		dynasty = "По"
+		birth_date = 1735.1.1
+		death_date = 1765.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1763.1.1 = {
+	monarch = {
+		name = "Тасун"
+		dynasty = "По"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1763.1.1 = {
+	heir = {
+		name = "Тисунтираи"
+		monarch_name = "Тисунтираи I"
+		dynasty = "По"
+		birth_date = 1740.1.1
+		death_date = 1780.1.1
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1765.1.1 = {
+	monarch = {
+		name = "Тисунтираи I"
+		dynasty = "По"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1765.1.1 = {
+	heir = {
+		name = "Тисунтираи"
+		monarch_name = "Тисунтираи II"
+		dynasty = "По"
+		birth_date = 1765.1.1
+		death_Date = 1783.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Тисунтираи II"
+		dynasty = "По"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1780.1.1 = {
+	heir = {
+		name = "Чи Кри Бри"
+		monarch_name = "Чи Кри Бри"
+		dynasty = "По"
+		birth_date = 1760.1.1
+		death_date = 1786.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1783.1.1 = {
+	monarch = {
+		name = "Чи Кри Бри"
+		dynasty = "По"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1783.1.1 = {
+	heir = {
+		name = "Тисун"
+		monarch_name = "Тисун"
+		dynasty = "По"
+		birth_date = 1763.1.1
+		death_Date = 1786.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Тисун"
+		dynasty = "По"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1786.1.1 = {
+	heir = {
+		name = "Ласун"
+		monarch_name = "Ласун"
+		dynasty = "По"
+		birth_date = 1770.1.1
+		death_date = 1799.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "Ласун"
+		dynasty = "По"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1793.1.1 = {
+	heir = {
+		name = "Чонг Чан"
+		monarch_name = "Чонг Чан"
+		dynasty = "По"
+		birth_date = 1780.1.1
+		death_date = 1822.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1799.1.1 = {
+	monarch = {
+		name = "Чонг Чан"
+		dynasty = "По"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

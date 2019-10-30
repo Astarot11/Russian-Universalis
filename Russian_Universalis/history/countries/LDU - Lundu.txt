@@ -1,0 +1,80 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = nyasa
+religion = shamanism #Fetishism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3577	# Лунду
+
+#Лунду, Undi and previous states in this area.
+
+1444.1.1 = { #Fictional
+	monarch = {
+		name = "Сонзо"
+		dynasty = "Лунду"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1480.1.1 = { #Fictional
+	monarch = {
+		name = "Капампо"
+		dynasty = "Лунду"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Тондо"
+		dynasty = "Лунду"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+
+1610.1.1 = {
+	monarch = {
+		name = "Куизура"
+		dynasty = "Лунду"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Тондо II"
+		dynasty = "Лунду"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Тондо III"
+		dynasty = "Лунду"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Куизура II"
+		dynasty = "Лунду"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

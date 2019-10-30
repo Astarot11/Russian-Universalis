@@ -1,0 +1,51 @@
+country_decisions = {
+
+	pagan_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = PAG }
+			OR = {
+				primary_culture = burmese
+				primary_culture = shan
+			}
+			NOT = { is_year = 1450 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 582
+				province_id = 585
+				province_id = 588
+				province_id = 2399
+				province_id = 3451
+				province_id = 1815
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			NOT = { exists = PAG }
+            owns_core_province = 582
+			owns_core_province = 585
+			owns_core_province = 588
+			owns_core_province = 2399
+			owns_core_province = 3451
+			owns_core_province = 1815
+		}
+	 	effect = {
+			change_tag = PAG
+			burma_region = {
+				add_core = PAG
+			}
+			change_government = despotic_monarchy
+			add_prestige = 25
+			add_stability = 1
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

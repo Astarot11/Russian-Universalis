@@ -1,0 +1,2297 @@
+﻿l_english:
+ ###на вопрос нет кого?
+ SPEAKER_OGO:0 "ñïèêåðà" #GetTitleOGO
+ CHANCELOR_OGO:0 "êàíöëåðà" #GetTitleOGO
+ PRESIDENT_OGO:0 "ïðåçèäåíòà" #GetTitleOGO
+ DUKE_OGO:0 "ãåðöîãà" #GetTitleOGO
+ KING_OGO:0 "êîðîëÿ" #GetTitleOGO
+ EMPEROR_OGO:0 "èìïåðàòîðà" #GetTitleOGO
+ GRAND_PENSIONARY_OGO:0 "âåëèêîãî ïåíñèîíàðèÿ" #GetTitleOGO
+ STADTHOLDER_OGO:0 "ñòàòõàóäåðà" #GetTitleOGO
+ GREAT_STADTHOLDER_OGO:0 "ãëàâíîãî ñòàòõàóäåðà" #GetTitleOGO
+ PRINCE_ELECTOR_OGO:0 "êíÿçÿ-êóðôþðñòà" #GetTitleOGO
+ KING_ELECTOR_OGO:0 "êîðîëÿ-êóðôþðñòà" #GetTitleOGO
+ EARL_OGO:0 "ýðëà" #GetTitleOGO
+ HIGH_KING_OGO:0 "âåðõîâíîãî êîðîëÿ" #GetTitleOGO
+ LORD_OGO:0 "ëîðäà" #GetTitleOGO
+ SHOGUN_OGO:0 "ñ¸ãóíà" #GetTitleOGO
+ ATABEG_OGO:0 "àòàáåêà" #GetTitleOGO
+ FAAMA_OGO:0 "ôààìû" #GetTitleOGO
+ GREAT_MANSA_OGO:0 "âåëèêîãî ìàíñû" #GetTitleOGO
+ JAM_OGO:0 "äæàìà" #GetTitleOGO
+ GRAND_JAM_OGO:0 "áîëüøîãî äæàìà" #GetTitleOGO
+ GREAT_JAM_OGO:0 "âåëèêîãî äæàìà" #GetTitleOGO
+ GRAND_DUKE_OGO:0 "âåëèêîãî êíÿçÿ" #GetTitleOGO
+ ARCHDUKE_OGO:0 "ýðöãåðöîãà" #GetTitleOGO
+ ARCHKING_OGO:0 "ýðöêîðîëÿ" #GetTitleOGO
+ PRINCE_OGO:0 "êíÿçÿ" #GetTitleOGO
+ BAN_TITLE_OGO:0 "áàíà" #GetTitleOGO
+ KRALJ_OGO:0 "êðàëÿ" #GetTitleOGO
+ CAR_OGO:0 "öàðÿ" #GetTitleOGO
+ VOJVODA_OGO:0 "âîåâîäû" #GetTitleOGO
+ DESPOT_OGO:0 "äåñïîòà" #GetTitleOGO
+ AUTOKRATOR_OGO:0 "àâòîêðàòîðà" #GetTitleOGO
+ BASILEUS_OGO:0 "áàçèëåâñà" #GetTitleOGO
+ MBRET_OGO:0 "ìáðåòà" #GetTitleOGO
+ NOMARCH_OGO:0 "íîìàðõà" #GetTitleOGO
+ PHARAOH_OGO:0 "ôàðàîíà" #GetTitleOGO
+ GREAT_PHARAOH_OGO:0 "âåëèêîãî ôàðàîíà" #GetTitleOGO
+ TYRANT_OGO:0 "òèðàíà" #GetTitleOGO
+ HEGEMON_OGO:0 "ãåãåìîíà" #GetTitleOGO
+ CHIEF_OGO:0 "âîæäÿ" #GetTitleOGO
+ REX_OGO:0 "ðåêñà" #GetTitleOGO
+ IMPERATOR_OGO:0 "èìïåðàòîðà" #GetTitleOGO
+ VOIVODE_OGO:0 "âîåâîäû" #GetTitleOGO
+ RAJA_OGO:0 "ðàäæè" #GetTitleOGO
+ MAHARAJA_OGO:0 "ìàõàðàäæè" #GetTitleOGO
+ CHHATRAPATI_OGO:0 "÷õàòðàïàòè" #GetTitleOGO
+ RANA_OGO:0 "ðàíû" #GetTitleOGO
+ MAHARANA_OGO:0 "ìàõàðàíû" #GetTitleOGO
+ PESHWA_OGO:0 "ïåøâû" #GetTitleOGO
+ TATKISHO_OGO:0 "òàòêèøî" #GetTitleOGO
+ TATO_OGO:0 "òàòî" #GetTitleOGO
+ ATIO_OGO:0 "àòèî" #GetTitleOGO
+ RAS_title_OGO:0 "ðàñû" #GetTitleOGO
+ NEGUS_OGO:0 "íåãóñû" #GetTitleOGO
+ NEGUSA_NEGAST_OGO:0 "íåãóñà íàãàñòû" #GetTitleOGO
+ MUGABE_OGO:0 "ìóãàáû" #GetTitleOGO
+ GREAT_MUGABE_OGO:0 "âåëèêîãî ìóãàáû" #GetTitleOGO
+ OMUKAMA_OGO:0 "îìóêàìû" #GetTitleOGO
+ GREAT_OMUKAMA_OGO:0 "âåëèêîãî îìóêàìû" #GetTitleOGO
+ BALOPWE_OGO:0 "áàëîïâû" #GetTitleOGO
+ MULOPWE_OGO:0 "ìóëîïâû" #GetTitleOGO
+ GREAT_MULOPWE_OGO:0 "âåëèêîãî ìóëîïâû" #GetTitleOGO
+ MWENEMUTAPA_OGO:0 "ìâåíåìóòàïû" #GetTitleOGO
+ GREAT_MWENEMUTAPA_OGO:0 "âåëèêîãî ìâåíåìóòàïû" #GetTitleOGO
+ MAMBO_OGO:0 "ìàìáî" #GetTitleOGO
+ GRAND_MAMBO_OGO:0 "âåëèêîãî ìàìáî" #GetTitleOGO
+ GREAT_MAMBO_OGO:0 "âåðõîâíîãî ìàìáî" #GetTitleOGO
+ BAKUNGU_OGO:0 "áàêóíãû" #GetTitleOGO
+ MWAMI_OGO:0 "ìâàíè" #GetTitleOGO
+ KABAKA_OGO:0 "êàáàêè" #GetTitleOGO
+ GREAT_KABAKA_OGO:0 "âåëèêîãî êàáàêè" #GetTitleOGO
+ ANDRIANONI_OGO:0 "àíäðèàíîíè" #GetTitleOGO
+ GRAND_ANDRIANONI_OGO:0 "âåëèêîãî àíäðèàíîíè" #GetTitleOGO
+ GREAT_ANDRIANONI_OGO:0 "âåðõîâíîãî àíäðèàíîíè" #GetTitleOGO
+ FILOHANY_OGO:0 "ôèëîõàíû" #GetTitleOGO
+ MPANJAKE_BE_OGO:0 "ìïàíäæàê-áå" #GetTitleOGO
+ KURAKA_OGO:0 "êóðàêè" #GetTitleOGO
+ APU_OGO:0 "àïó" #GetTitleOGO
+ SAPA_INKA_OGO:0 "ñàïà Èíêè" #GetTitleOGO
+ MARGRAVE_OGO:0 "ìàðêãðàôà" #GetTitleOGO
+ VICEROY_OGO:0 "âèöå-êîðîëÿ" #GetTitleOGO
+ IMAM_OGO:0 "èìàìà" #GetTitleOGO
+ GREAT_IMAM_OGO:0 "âåëèêîãî èìàìà" #GetTitleOGO
+ HIGH_IMAM_OGO:0 "âåðõîâíîãî èìàìà" #GetTitleOGO
+ EMIR_OGO:0 "ýìèðà" #GetTitleOGO
+ SULTAN_OGO:0 "ñóëòàíà" #GetTitleOGO
+ GREAT_SULTAN_OGO:0 "âåëèêîãî ñóëòàíà" #GetTitleOGO
+ DAI_male_OGO:0 "äàè" #GetTitleOGO
+ PADISHAH_OGO:0 "ïàäèøàõà" #GetTitleOGO
+ MALIK_OGO:0 "ìàëèêà" #GetTitleOGO
+ SHAH_OGO:0 "øàõà" #GetTitleOGO
+ SHAHANSHAH_OGO:0 "øàõèíøàõà" #GetTitleOGO
+ SHEIKH_OGO:0 "øåéõà" #GetTitleOGO
+ GERAD_OGO:0 "ãåðàäà" #GetTitleOGO
+ BEY_OGO:0 "áåéÿ" #GetTitleOGO
+ PRINC_OGO:0 "êíÿçÿ" #GetTitleOGO
+ NAWAB_OGO:0 "íàâàáà" #GetTitleOGO
+ NIZAM_OGO:0 "íèçàìà" #GetTitleOGO
+ KHEDIVE_OGO:0 "õåäèâà" #GetTitleOGO
+ SAOPHA_OGO:0 "ñàîôû" #GetTitleOGO
+ KNIAZ_OGO:0 "êíÿçÿ" #GetTitleOGO
+ GREAT_KNIAZ_OGO:0 "âåëèêîãî êíÿçÿ" #GetTitleOGO
+ TLATOANI_OGO:0 "òëàòîàíè" #GetTitleOGO
+ HUEHUETLATOANI_OGO:0 "õóýé òëàòîàíè" #GetTitleOGO
+ BISHOP_ELECTOR_OGO:0 "åïèñêîïà-êóðôþðñòà" #GetTitleOGO
+ ARCHBISHOP_ELECTOR_OGO:0 "àðõèåïèñêîïà-êóðôþðñòà" #GetTitleOGO
+ PATRIARCH_ELECTOR_OGO:0 "ïàòðèàðõà-êóðôþðñòà" #GetTitleOGO
+ BISHOP_OGO:0 "åïèñêîïà" #GetTitleOGO
+ ARCHBISHOP_OGO:0 "àðõèåïèñêîïà" #GetTitleOGO
+ PATRIARCH_OGO:0 "ïàòðèàðõà" #GetTitleOGO
+ PROTECTOR_OGO:0 "ïðîòåêòîðà" #GetTitleOGO
+ LORD_PROTECTOR_OGO:0 "ëîðäà-ïðîòåêòîðà" #GetTitleOGO
+ JINONG_OGO:0 "äæèíîíà" #GetTitleOGO
+ KHAN_OGO:0 "õàíà" #GetTitleOGO
+ KHAGAN_OGO:0 "êàãàíà" #GetTitleOGO
+ NUTSAL_OGO:0 "íóöàëà" #GetTitleOGO
+ BEILE_OGO:0 "áýèëå" #GetTitleOGO
+ JUNWANG_OGO:0 "öçþíüâàíà" #GetTitleOGO
+ HIGH_CHIEF_OGO:0 "âåðõîâíîãî âîæäÿ" #GetTitleOGO
+ PARAMOUNT_CHIEF_OGO:0 "ïåðâîãî âîæäÿ" #GetTitleOGO
+ ELDER_OGO:0 "ñòàðåéøèíû" #GetTitleOGO
+ HIGH_ELDER_OGO:0 "ãëàâíîãî ñòàðåéøèíû" #GetTitleOGO
+ PARAMOUNT_ELDER_OGO:0 "âåðõîâíîãî ñòàðåéøèíû" #GetTitleOGO
+ AYATOLLAH_OGO:0 "àÿòîëëû" #GetTitleOGO
+ KHOJA_OGO:0 "õîäæè" #GetTitleOGO
+ GREAT_KHOJA_OGO:0 "âåëèêîãî õîäæè" #GetTitleOGO
+ GREAT_EMIR_OGO:0 "âåëèêîãî ýìèðà" #GetTitleOGO
+ PASHA_OGO:0 "ïàøè" #GetTitleOGO
+ OLDERMAND_OGO:0 "àëüäåðìàíà" #GetTitleOGO
+ STORBONDE_OGO:0 "ñòóðáîíäà" #GetTitleOGO
+ LANDSBONDE_OGO:0 "ëàíäñáîíäà" #GetTitleOGO
+ JATHEDAR_OGO:0 "äæàòåäàðà" #GetTitleOGO
+ MISLDAR_OGO:0 "ìèñàëüäàðà" #GetTitleOGO
+ GREAT_MISLDAR_OGO:0 "âåëèêîãî ìèñàëüäàðà" #GetTitleOGO
+ RABBI_OGO:0 "ðàââèíà" #GetTitleOGO
+ GRAND_RABBI_OGO:0 "âûñøåãî ðàââèíà" #GetTitleOGO
+ KOHEN_GADOL_OGO:0 "êîýí-ãàäîëÿ" #GetTitleOGO
+ HERBAD_OGO:0 "õèðáàäà" #GetTitleOGO
+ MOBED_OGO:0 "ìîáåäà" #GetTitleOGO
+ MOABADAN_MOABAD_OGO:0 "ìîàáàäàí ìîàáàäà" #GetTitleOGO
+ PANDIT_OGO:0 "ïàíäèòà" #GetTitleOGO
+ PANDITRAO_OGO:0 "ïàíäèòðàî" #GetTitleOGO
+ HIGH_GURU_OGO:0 "âûñøåãî ãóðó" #GetTitleOGO
+ O_KANNUSHI_OGO:0 "î'êàííóñè" #GetTitleOGO
+ LAMA_OGO:0 "ëàìû" #GetTitleOGO
+ TULKU_OGO:0 "òóëêó" #GetTitleOGO
+ GREAT_TULKU_OGO:0 "âåëèêîãî òóëêó" #GetTitleOGO
+ SON_OF_HEAVEN_OGO:0 "ñûíà Íåáà" #GetTitleOGO
+ MICHOQ_OGO:0 "ìè÷îêà" #GetTitleOGO
+ HIGH_PRIEST_OGO:0 "âåðõîâíîãî æðåöà" #GetTitleOGO
+ WILLAQ_UMU_OGO:0 "âèëàê óìó" #GetTitleOGO
+ PRIEST_OGO:0 "æðåöà" #GetTitleOGO
+ PARAMOUNT_PRIEST_OGO:0 "ïåðâîãî æðåöà" #GetTitleOGO
+ TSAR_OGO:0 "öàðÿ" #GetTitleOGO
+ IMAME_OGO:0 "èìàìà" #GetTitleOGO
+ HOCHMEISTER_OGO:0 "ãîõìåéñòåðà" #GetTitleOGO
+ LANDMEISTER_OGO:0 "ëàíäìåéñòåðà" #GetTitleOGO
+ GROSSMEISTER_OGO:0 "ãðîññìåéñòåðà" #GetTitleOGO
+ GRAND_MASTER_OGO:0 "âåëèêîãî ìàãèñòðà" #GetTitleOGO
+ DOGE_OGO:0 "äîæà" #GetTitleOGO
+ SERENE_DOGE_OGO:0 "ñâåòëåéøåãî äîæà" #GetTitleOGO
+ GREAT_DOGE_OGO:0 "âåëèêîãî äîæà" #GetTitleOGO
+ RECTOR_OGO:0 "ðåêòîðà" #GetTitleOGO
+ GRAND_RECTOR_OGO:0 "ãëàâíîãî ðåêòîðà" #GetTitleOGO
+ GREAT_RECTOR_OGO:0 "âåëèêîãî ðåêòîðà" #GetTitleOGO
+ GRAND_KNIAZ_OGO:0 "âåëèêîãî êíÿçÿ" #GetTitleOGO
+ KEFALIJA_OGO:0 "êåôàëà" #GetTitleOGO
+ DUZHD_OGO:0 "äóæà" #GetTitleOGO
+ GONFALONIERE_OGO:0 "ãîíôàëîíüåðà" #GetTitleOGO
+ CONSUL_OGO:0 "êîíñóëà" #GetTitleOGO
+ GRAND_CONSUL_OGO:0 "ãëàâíîãî êîíñóëà" #GetTitleOGO
+ GREAT_CONSUL_OGO:0 "âåëèêîãî êîíñóëà" #GetTitleOGO
+ CAPTAIN_DEFENDER_OGO:0 "êàïèòàíà-çàùèòíèêà" #GetTitleOGO
+ SYNDIC_OGO:0 "ñèíäèêà" #GetTitleOGO
+ GRAND_SYNDIC_OGO:0 "âåëèêîãî ñèíäèêà" #GetTitleOGO
+ SADR_OGO:0 "ñàäðà" #GetTitleOGO
+ PESHWA_OGO:0 "ïåøâû" #GetTitleOGO
+ PRATINIDHI_OGO:0 "ïðàòèíèäõè" #GetTitleOGO
+ VIZIER_OGO:0 "âèçèðÿ" #GetTitleOGO
+ GRANDVIZIER_OGO:0 "âåëèêîãî âèçèðÿ" #GetTitleOGO
+ COUNCILOR_OGO:0 "ñîâåòíèêà" #GetTitleOGO
+ GRAND_COUNCILOR_OGO:0 "âåëèêîãî ñîâåòíèêà" #GetTitleOGO
+ HIGH_COUNCILOR_OGO:0 "âåðõîâíîãî ñîâåòíèêà" #GetTitleOGO
+ NACOM_OGO:0 "íàêîìà" #GetTitleOGO
+ HALACH_UINIK_OGO:0 "õàëà÷-óèíèêà" #GetTitleOGO
+ K_UHUL_AJAW_OGO:0 "êóõóëü-àõàâû" #GetTitleOGO
+ POPE_OGO:0 "ïàïû" #GetTitleOGO
+ DIRECTOR_OGO:0 "äèðåêòîðà" #GetTitleOGO
+ GOVERNOR_OGO:0 "ãóáåðíàòîðà" #GetTitleOGO
+ ATAMAN_OGO:0 "àòàìàíà" #GetTitleOGO
+ HETMAN_OGO:0 "ãåòìàíà" #GetTitleOGO
+ GREAT_HETMAN_OGO:0 "âåëèêîãî ãåòìàíà" #GetTitleOGO
+ SHARIF_OGO:0 "øàðèôà" #GetTitleOGO
+ GRAND_SHARIF_OGO:0 "âåëèêîãî øàðèôà" #GetTitleOGO
+ GREAT_SHARIF_OGO:0 "âåðõîâíîãî øàðèôà" #GetTitleOGO
+ DATU_OGO:0 "äàòó" #GetTitleOGO
+ LAKAN_OGO:0 "ëàêàíà" #GetTitleOGO
+ GREAT_LAKAN_OGO:0 "âåëèêîãî ëàêàíà" #GetTitleOGO
+ BURGMEISTER_OGO:0 "áóðãîìèñòðà" #GetTitleOGO
+ MAYOR_OGO:0 "ìýðà" #GetTitleOGO
+ ILKHAN_OGO:0 "èëüõàíà" #GetTitleOGO
+ SYNTH_RULER_OGO:0 "èñïîëíèòåëÿ" #GetTitleOGO
+ ###на вопрос дать кому?
+ SPEAKER_OMU:0 "ñïèêåðó" #GetTitleOMU
+ CHANCELOR_OMU:0 "êàíöëåðó" #GetTitleOMU
+ PRESIDENT_OMU:0 "ïðåçèäåíòó" #GetTitleOMU
+ DUKE_OMU:0 "ãåðöîãó" #GetTitleOMU
+ KING_OMU:0 "êîðîëþ" #GetTitleOMU
+ EMPEROR_OMU:0 "èìïåðàòîðó" #GetTitleOMU
+ GRAND_PENSIONARY_OMU:0 "âåëèêîìó ïåíñèîíàðèþ" #GetTitleOMU
+ STADTHOLDER_OMU:0 "ñòàòõàóäåðó" #GetTitleOMU
+ GREAT_STADTHOLDER_OMU:0 "ãëàâíîìó ñòàòõàóäåðó" #GetTitleOMU
+ PRINCE_ELECTOR_OMU:0 "êíÿçþ-êóðôþðñòó" #GetTitleOMU
+ KING_ELECTOR_OMU:0 "êîðîëþ-êóðôþðñòó" #GetTitleOMU
+ EARL_OMU:0 "ýðëó" #GetTitleOMU
+ HIGH_KING_OMU:0 "âåðõîâíîìó êîðîëþ" #GetTitleOMU
+ LORD_OMU:0 "ëîðäó" #GetTitleOMU
+ SHOGUN_OMU:0 "ñ¸ãóíó" #GetTitleOMU
+ ATABEG_OMU:0 "àòàáåêó" #GetTitleOMU
+ FAAMA_OMU:0 "ôààìó" #GetTitleOMU
+ GREAT_MANSA_OMU:0 "âåëèêîìó ìàíñó" #GetTitleOMU
+ JAM_OMU:0 "äæàìó" #GetTitleOMU
+ GRAND_JAM_OMU:0 "áîëüøîìó äæàìó" #GetTitleOMU
+ GREAT_JAM_OMU:0 "âåëèêîìó äæàìó" #GetTitleOMU
+ GRAND_DUKE_OMU:0 "âåëèêîìó êíÿçþ" #GetTitleOMU
+ ARCHDUKE_OMU:0 "ýðöãåðöîãó" #GetTitleOMU
+ ARCHKING_OMU:0 "ýðöêîðîëþ" #GetTitleOMU
+ PRINCE_OMU:0 "êíÿçþ" #GetTitleOMU
+ BAN_TITLE_OMU:0 "áàíó" #GetTitleOMU
+ KRALJ_OMU:0 "êðàëþ" #GetTitleOMU
+ CAR_OMU:0 "öàðþ" #GetTitleOMU
+ VOJVODA_OMU:0 "âîåâîäå" #GetTitleOMU
+ DESPOT_OMU:0 "äåñïîòó" #GetTitleOMU
+ AUTOKRATOR_OMU:0 "àâòîêðàòîðó" #GetTitleOMU
+ BASILEUS_OMU:0 "áàçèëåâñó" #GetTitleOMU
+ MBRET_OMU:0 "ìáðåòó" #GetTitleOMU
+ NOMARCH_OMU:0 "íîìàðõó" #GetTitleOMU
+ PHARAOH_OMU:0 "ôàðàîíó" #GetTitleOMU
+ GREAT_PHARAOH_OMU:0 "âåëèêîìó ôàðàîíó" #GetTitleOMU
+ TYRANT_OMU:0 "òèðàíó" #GetTitleOMU
+ HEGEMON_OMU:0 "ãåãåìîíó" #GetTitleOMU
+ CHIEF_OMU:0 "âîæäþ" #GetTitleOMU
+ REX_OMU:0 "ðåêñó" #GetTitleOMU
+ IMPERATOR_OMU:0 "èìïåðàòîðó" #GetTitleOMU
+ VOIVODE_OMU:0 "âîåâîäå" #GetTitleOMU
+ RAJA_OMU:0 "ðàäæå" #GetTitleOMU
+ MAHARAJA_OMU:0 "ìàõàðàäæå" #GetTitleOMU
+ CHHATRAPATI_OMU:0 "÷õàòðàïàòè" #GetTitleOMU
+ RANA_OMU:0 "ðàíå" #GetTitleOMU
+ MAHARANA_OMU:0 "ìàõàðàíå" #GetTitleOMU
+ PESHWA_OMU:0 "ïåøâå" #GetTitleOMU
+ TATKISHO_OMU:0 "òàòêèøî" #GetTitleOMU
+ TATO_OMU:0 "òàòî" #GetTitleOMU
+ ATIO_OMU:0 "àòèî" #GetTitleOMU
+ RAS_title_OMU:0 "ðàñå" #GetTitleOMU
+ NEGUS_OMU:0 "íåãóñå" #GetTitleOMU
+ NEGUSA_NEGAST_OMU:0 "íåãóñà íàãàñòå" #GetTitleOMU
+ MUGABE_OMU:0 "ìóãàáå" #GetTitleOMU
+ GREAT_MUGABE_OMU:0 "âåëèêîìó ìóãàáå" #GetTitleOMU
+ OMUKAMA_OMU:0 "îìóêàìå" #GetTitleOMU
+ GREAT_OMUKAMA_OMU:0 "âåëèêîìó îìóêàìå" #GetTitleOMU
+ BALOPWE_OMU:0 "áàëîïâå" #GetTitleOMU
+ MULOPWE_OMU:0 "ìóëîïâå" #GetTitleOMU
+ GREAT_MULOPWE_OMU:0 "âåëèêîìó ìóëîïâå" #GetTitleOMU
+ MWENEMUTAPA_OMU:0 "ìâåíåìóòàïå" #GetTitleOMU
+ GREAT_MWENEMUTAPA_OMU:0 "âåëèêîìó ìâåíåìóòàïå" #GetTitleOMU
+ MAMBO_OMU:0 "ìàìáî" #GetTitleOMU
+ GRAND_MAMBO_OMU:0 "âåëèêîìó ìàìáî" #GetTitleOMU
+ GREAT_MAMBO_OMU:0 "âåðõîâíîìó ìàìáî" #GetTitleOMU
+ BAKUNGU_OMU:0 "áàêóíãå" #GetTitleOMU
+ MWAMI_OMU:0 "ìâàíè" #GetTitleOMU
+ KABAKA_OMU:0 "êàáàêå" #GetTitleOMU
+ GREAT_KABAKA_OMU:0 "âåëèêîìó êàáàêå" #GetTitleOMU
+ ANDRIANONI_OMU:0 "àíäðèàíîíè" #GetTitleOMU
+ GRAND_ANDRIANONI_OMU:0 "âåëèêîìó àíäðèàíîíè" #GetTitleOMU
+ GREAT_ANDRIANONI_OMU:0 "âåðõîâíîìó àíäðèàíîíè" #GetTitleOMU
+ FILOHANY_OMU:0 "ôèëîõàíå" #GetTitleOMU
+ MPANJAKE_BE_OMU:0 "ìïàíäæàê-áå" #GetTitleOMU
+ KURAKA_OMU:0 "êóðàêå" #GetTitleOMU
+ APU_OMU:0 "àïó" #GetTitleOMU
+ SAPA_INKA_OMU:0 "ñàïà Èíêå" #GetTitleOMU
+ MARGRAVE_OMU:0 "ìàðêãðàôó" #GetTitleOMU
+ VICEROY_OMU:0 "âèöå-êîðîëþ" #GetTitleOMU
+ IMAM_OMU:0 "èìàìó" #GetTitleOMU
+ GREAT_IMAM_OMU:0 "âåëèêîìó èìàìó" #GetTitleOMU
+ HIGH_IMAM_OMU:0 "âåðõîâíîìó èìàìó" #GetTitleOMU
+ EMIR_OMU:0 "ýìèðó" #GetTitleOMU
+ SULTAN_OMU:0 "ñóëòàíó" #GetTitleOMU
+ GREAT_SULTAN_OMU:0 "âåëèêîìó ñóëòàíó" #GetTitleOMU
+ DAI_male_OMU:0 "äàè" #GetTitleOMU
+ PADISHAH_OMU:0 "ïàäèøàõó" #GetTitleOMU
+ MALIK_OMU:0 "ìàëèêó" #GetTitleOMU
+ SHAH_OMU:0 "øàõó" #GetTitleOMU
+ SHAHANSHAH_OMU:0 "øàõèíøàõó" #GetTitleOMU
+ SHEIKH_OMU:0 "øåéõó" #GetTitleOMU
+ GERAD_OMU:0 "ãåðàäó" #GetTitleOMU
+ BEY_OMU:0 "áåéþ" #GetTitleOMU
+ PRINC_OMU:0 "êíÿçþ" #GetTitleOMU
+ NAWAB_OMU:0 "íàâàáó" #GetTitleOMU
+ NIZAM_OMU:0 "íèçàìó" #GetTitleOMU
+ KHEDIVE_OMU:0 "õåäèâó" #GetTitleOMU
+ SAOPHA_OMU:0 "ñàîôó" #GetTitleOMU
+ KNIAZ_OMU:0 "êíÿçþ" #GetTitleOMU
+ GREAT_KNIAZ_OMU:0 "âåëèêîìó êíÿçþ" #GetTitleOMU
+ TLATOANI_OMU:0 "òëàòîàíè" #GetTitleOMU
+ HUEHUETLATOANI_OMU:0 "õóýé òëàòîàíè" #GetTitleOMU
+ BISHOP_ELECTOR_OMU:0 "åïèñêîïó-êóðôþðñòó" #GetTitleOMU
+ ARCHBISHOP_ELECTOR_OMU:0 "àðõèåïèñêîïó-êóðôþðñòó" #GetTitleOMU
+ PATRIARCH_ELECTOR_OMU:0 "ïàòðèàðõó-êóðôþðñòó" #GetTitleOMU
+ BISHOP_OMU:0 "åïèñêîïó" #GetTitleOMU
+ ARCHBISHOP_OMU:0 "àðõèåïèñêîïó" #GetTitleOMU
+ PATRIARCH_OMU:0 "ïàòðèàðõó" #GetTitleOMU
+ PROTECTOR_OMU:0 "ïðîòåêòîðó" #GetTitleOMU
+ LORD_PROTECTOR_OMU:0 "ëîðäó-ïðîòåêòîðó" #GetTitleOMU
+ JINONG_OMU:0 "äæèíîíó" #GetTitleOMU
+ KHAN_OMU:0 "õàíó" #GetTitleOMU
+ KHAGAN_OMU:0 "êàãàíó" #GetTitleOMU
+ NUTSAL_OMU:0 "íóöàëó" #GetTitleOMU
+ BEILE_OMU:0 "áýèëå" #GetTitleOMU
+ JUNWANG_OMU:0 "öçþíüâàíó" #GetTitleOMU
+ HIGH_CHIEF_OMU:0 "âåðõîâíîìó âîæäþ" #GetTitleOMU
+ PARAMOUNT_CHIEF_OMU:0 "ïåðâîìó âîæäþ" #GetTitleOMU
+ ELDER_OMU:0 "ñòàðåéøèíå" #GetTitleOMU
+ HIGH_ELDER_OMU:0 "ãëàâíîìó ñòàðåéøèíå" #GetTitleOMU
+ PARAMOUNT_ELDER_OMU:0 "âåðõîâíîìó ñòàðåéøèíå" #GetTitleOMU
+ AYATOLLAH_OMU:0 "àÿòîëëå" #GetTitleOMU
+ KHOJA_OMU:0 "õîäæå" #GetTitleOMU
+ GREAT_KHOJA_OMU:0 "âåëèêîìó õîäæå" #GetTitleOMU
+ GREAT_EMIR_OMU:0 "âåëèêîìó ýìèðó" #GetTitleOMU
+ PASHA_OMU:0 "ïàøå" #GetTitleOMU
+ OLDERMAND_OMU:0 "àëüäåðìàíó" #GetTitleOMU
+ STORBONDE_OMU:0 "ñòóðáîíäó" #GetTitleOMU
+ LANDSBONDE_OMU:0 "ëàíäñáîíäó" #GetTitleOMU
+ JATHEDAR_OMU:0 "äæàòåäàðó" #GetTitleOMU
+ MISLDAR_OMU:0 "ìèñàëüäàðó" #GetTitleOMU
+ GREAT_MISLDAR_OMU:0 "âåëèêîìó ìèñàëüäàðó" #GetTitleOMU
+ RABBI_OMU:0 "ðàââèíó" #GetTitleOMU
+ GRAND_RABBI_OMU:0 "âûñøåìó ðàââèíó" #GetTitleOMU
+ KOHEN_GADOL_OMU:0 "êîýí-ãàäîëþ" #GetTitleOMU
+ HERBAD_OMU:0 "õèðáàäó" #GetTitleOMU
+ MOBED_OMU:0 "ìîáåäó" #GetTitleOMU
+ MOABADAN_MOABAD_OMU:0 "ìîàáàäàí ìîàáàäó" #GetTitleOMU
+ PANDIT_OMU:0 "ïàíäèòå" #GetTitleOMU
+ PANDITRAO_OMU:0 "ïàíäèòðàî" #GetTitleOMU
+ HIGH_GURU_OMU:0 "âûñøåìó ãóðó" #GetTitleOMU
+ O_KANNUSHI_OMU:0 "î'êàííóñè" #GetTitleOMU
+ LAMA_OMU:0 "ëàìå" #GetTitleOMU
+ TULKU_OMU:0 "òóëêó" #GetTitleOMU
+ GREAT_TULKU_OMU:0 "âåëèêîìó òóëêó" #GetTitleOMU
+ SON_OF_HEAVEN_OMU:0 "ñûíó Íåáà" #GetTitleOMU
+ MICHOQ_OMU:0 "ìè÷îêó" #GetTitleOMU
+ HIGH_PRIEST_OMU:0 "âåðõîâíîìó æðåöó" #GetTitleOMU
+ WILLAQ_UMU_OMU:0 "âèëàê óìó" #GetTitleOMU
+ PRIEST_OMU:0 "æðåöó" #GetTitleOMU
+ PARAMOUNT_PRIEST_OMU:0 "ïåðâîìó æðåöó" #GetTitleOMU
+ TSAR_OMU:0 "öàðþ" #GetTitleOMU
+ IMAME_OMU:0 "èìàìó" #GetTitleOMU
+ HOCHMEISTER_OMU:0 "ãîõìåéñòåðó" #GetTitleOMU
+ LANDMEISTER_OMU:0 "ëàíäìåéñòåðó" #GetTitleOMU
+ GROSSMEISTER_OMU:0 "ãðîññìåéñòåðó" #GetTitleOMU
+ GRAND_MASTER_OMU:0 "âåëèêîìó ìàãèñòðó" #GetTitleOMU
+ DOGE_OMU:0 "äîæó" #GetTitleOMU
+ SERENE_DOGE_OMU:0 "ñâåòëåéøåìó äîæó" #GetTitleOMU
+ GREAT_DOGE_OMU:0 "âåëèêîìó äîæó" #GetTitleOMU
+ RECTOR_OMU:0 "ðåêòîðó" #GetTitleOMU
+ GRAND_RECTOR_OMU:0 "ãëàâíîìó ðåêòîðó" #GetTitleOMU
+ GREAT_RECTOR_OMU:0 "âåëèêîìó ðåêòîðó" #GetTitleOMU
+ GRAND_KNIAZ_OMU:0 "âåëèêîìó êíÿçþ" #GetTitleOMU
+ KEFALIJA_OMU:0 "êåôàëó" #GetTitleOMU
+ DUZHD_OMU:0 "äóæó" #GetTitleOMU
+ GONFALONIERE_OMU:0 "ãîíôàëîíüåðó" #GetTitleOMU
+ CONSUL_OMU:0 "êîíñóëó" #GetTitleOMU
+ GRAND_CONSUL_OMU:0 "ãëàâíîìó êîíñóëó" #GetTitleOMU
+ GREAT_CONSUL_OMU:0 "âåëèêîìó êîíñóëó" #GetTitleOMU
+ CAPTAIN_DEFENDER_OMU:0 "êàïèòàíó-çàùèòíèêó" #GetTitleOMU
+ SYNDIC_OMU:0 "ñèíäèêó" #GetTitleOMU
+ GRAND_SYNDIC_OMU:0 "âåëèêîìó ñèíäèêó" #GetTitleOMU
+ SADR_OMU:0 "ñàäðó" #GetTitleOMU
+ PESHWA_OMU:0 "ïåøâå" #GetTitleOMU
+ PRATINIDHI_OMU:0 "ïðàòèíèäõè" #GetTitleOMU
+ VIZIER_OMU:0 "âèçèðþ" #GetTitleOMU
+ GRANDVIZIER_OMU:0 "âåëèêîìó âèçèðþ" #GetTitleOMU
+ COUNCILOR_OMU:0 "ñîâåòíèêó" #GetTitleOMU
+ GRAND_COUNCILOR_OMU:0 "âåëèêîìó ñîâåòíèêó" #GetTitleOMU
+ HIGH_COUNCILOR_OMU:0 "âåðõîâíîìó ñîâåòíèêó" #GetTitleOMU
+ NACOM_OMU:0 "íàêîìó" #GetTitleOMU
+ HALACH_UINIK_OMU:0 "õàëà÷-óèíèêó" #GetTitleOMU
+ K_UHUL_AJAW_OMU:0 "êóõóëü-àõàâå" #GetTitleOMU
+ POPE_OMU:0 "ïàïå" #GetTitleOMU
+ DIRECTOR_OMU:0 "äèðåêòîðó" #GetTitleOMU
+ GOVERNOR_OMU:0 "ãóáåðíàòîðó" #GetTitleOMU
+ ATAMAN_OMU:0 "àòàìàíó" #GetTitleOMU
+ HETMAN_OMU:0 "ãåòìàíó" #GetTitleOMU
+ GREAT_HETMAN_OMU:0 "âåëèêîìó ãåòìàíó" #GetTitleOMU
+ SHARIF_OMU:0 "øàðèôó" #GetTitleOMU
+ GRAND_SHARIF_OMU:0 "âåëèêîìó øàðèôó" #GetTitleOMU
+ GREAT_SHARIF_OMU:0 "âåðõîâíîìó øàðèôó" #GetTitleOMU
+ DATU_OMU:0 "äàòó" #GetTitleOMU
+ LAKAN_OMU:0 "ëàêàíó" #GetTitleOMU
+ GREAT_LAKAN_OMU:0 "âåëèêîìó ëàêàíó" #GetTitleOMU
+ BURGMEISTER_OMU:0 "áóðãîìèñòðó" #GetTitleOMU
+ MAYOR_OMU:0 "ìýðó" #GetTitleOMU
+ ILKHAN_OMU:0 "èëüõàíó" #GetTitleOMU
+ SYNTH_RULER_OMU:0 "èñïîëíèòåëþ" #GetTitleOMU
+ ###на вопрос исполнено кем?
+ SPEAKER_KEM:0 "ñïèêåðîì" #GetTitleKEM
+ CHANCELOR_KEM:0 "êàíöëåðîì" #GetTitleKEM
+ PRESIDENT_KEM:0 "ïðåçèäåíòîì" #GetTitleKEM
+ DUKE_KEM:0 "ãåðöîãîì" #GetTitleKEM
+ KING_KEM:0 "êîðîë¸ì" #GetTitleKEM
+ EMPEROR_KEM:0 "èìïåðàòîðîì" #GetTitleKEM
+ GRAND_PENSIONARY_KEM:0 "âåëèêèì ïåíñèîíàðèåì" #GetTitleKEM
+ STADTHOLDER_KEM:0 "ñòàòõàóäåðîì" #GetTitleKEM
+ GREAT_STADTHOLDER_KEM:0 "ãëàâíûì ñòàòõàóäåðîì" #GetTitleKEM
+ PRINCE_ELECTOR_KEM:0 "êíÿçåì-êóðôþðñòîì" #GetTitleKEM
+ KING_ELECTOR_KEM:0 "êîðîë¸ì-êóðôþðñòîì" #GetTitleKEM
+ EARL_KEM:0 "ýðëîì" #GetTitleKEM
+ HIGH_KING_KEM:0 "âåðõîâíûì êîðîë¸ì" #GetTitleKEM
+ LORD_KEM:0 "ëîðäîì" #GetTitleKEM
+ SHOGUN_KEM:0 "ñ¸ãóíîì" #GetTitleKEM
+ ATABEG_KEM:0 "àòàáåêîì" #GetTitleKEM
+ FAAMA_KEM:0 "ôààìîì" #GetTitleKEM
+ GREAT_MANSA_KEM:0 "âåëèêèì ìàíñîé" #GetTitleKEM
+ JAM_KEM:0 "äæàìîì" #GetTitleKEM
+ GRAND_JAM_KEM:0 "áîëüøèì äæàìîì" #GetTitleKEM
+ GREAT_JAM_KEM:0 "âåëèêèì äæàìîì" #GetTitleKEM
+ GRAND_DUKE_KEM:0 "âåëèêèì êíÿçåì" #GetTitleKEM
+ ARCHDUKE_KEM:0 "ýðöãåðöîãîì" #GetTitleKEM
+ ARCHKING_KEM:0 "ýðöêîðîë¸ì" #GetTitleKEM
+ PRINCE_KEM:0 "êíÿçåì" #GetTitleKEM
+ BAN_TITLE_KEM:0 "áàíîì" #GetTitleKEM
+ KRALJ_KEM:0 "êðàë¸ì" #GetTitleKEM
+ CAR_KEM:0 "öàð¸ì" #GetTitleKEM
+ VOJVODA_KEM:0 "âîåâîäîé" #GetTitleKEM
+ DESPOT_KEM:0 "äåñïîòîì" #GetTitleKEM
+ AUTOKRATOR_KEM:0 "àâòîêðàòîðîì" #GetTitleKEM
+ BASILEUS_KEM:0 "áàçèëåâñîì" #GetTitleKEM
+ MBRET_KEM:0 "ìáðåòîì" #GetTitleKEM
+ NOMARCH_KEM:0 "íîìàðõîì" #GetTitleKEM
+ PHARAOH_KEM:0 "ôàðàîíîì" #GetTitleKEM
+ GREAT_PHARAOH_KEM:0 "âåëèêèì ôàðàîíîì" #GetTitleKEM
+ TYRANT_KEM:0 "òèðàíîì" #GetTitleKEM
+ HEGEMON_KEM:0 "ãåãåìîíîì" #GetTitleKEM
+ CHIEF_KEM:0 "âîæä¸ì" #GetTitleKEM
+ REX_KEM:0 "ðåêñîì" #GetTitleKEM
+ IMPERATOR_KEM:0 "èìïåðàòîðîì" #GetTitleKEM
+ VOIVODE_KEM:0 "âîåâîäîé" #GetTitleKEM
+ RAJA_KEM:0 "ðàäæîé" #GetTitleKEM
+ MAHARAJA_KEM:0 "ìàõàðàäæîé" #GetTitleKEM
+ CHHATRAPATI_KEM:0 "÷õàòðàïàòè" #GetTitleKEM
+ RANA_KEM:0 "ðàíîé" #GetTitleKEM
+ MAHARANA_KEM:0 "ìàõàðàíîé" #GetTitleKEM
+ PESHWA_KEM:0 "ïåøâîé" #GetTitleKEM
+ TATKISHO_KEM:0 "òàòêèøî" #GetTitleKEM
+ TATO_KEM:0 "òàòî" #GetTitleKEM
+ ATIO_KEM:0 "àòèî" #GetTitleKEM
+ RAS_title_KEM:0 "ðàñîé" #GetTitleKEM
+ NEGUS_KEM:0 "íåãóñîé" #GetTitleKEM
+ NEGUSA_NEGAST_KEM:0 "íåãóñà íàãàñòîé" #GetTitleKEM
+ MUGABE_KEM:0 "ìóãàáå" #GetTitleKEM
+ GREAT_MUGABE_KEM:0 "âåëèêèì ìóãàáå" #GetTitleKEM
+ OMUKAMA_KEM:0 "îìóêàìå" #GetTitleKEM
+ GREAT_OMUKAMA_KEM:0 "âåëèêèì îìóêàìå" #GetTitleKEM
+ BALOPWE_KEM:0 "áàëîïâå" #GetTitleKEM
+ MULOPWE_KEM:0 "ìóëîïâå" #GetTitleKEM
+ GREAT_MULOPWE_KEM:0 "âåëèêèì ìóëîïâå" #GetTitleKEM
+ MWENEMUTAPA_KEM:0 "ìâåíåìóòàïîì" #GetTitleKEM
+ GREAT_MWENEMUTAPA_KEM:0 "âåëèêèì ìâåíåìóòàïîì" #GetTitleKEM
+ MAMBO_KEM:0 "ìàìáî" #GetTitleKEM
+ GRAND_MAMBO_KEM:0 "âåëèêèì ìàìáî" #GetTitleKEM
+ GREAT_MAMBO_KEM:0 "âåðõîâíûì ìàìáî" #GetTitleKEM
+ BAKUNGU_KEM:0 "áàêóíãîì" #GetTitleKEM
+ MWAMI_KEM:0 "ìâàíè" #GetTitleKEM
+ KABAKA_KEM:0 "êàáàêîì" #GetTitleKEM
+ GREAT_KABAKA_KEM:0 "âåëèêèì êàáàêîì" #GetTitleKEM
+ ANDRIANONI_KEM:0 "àíäðèàíîíè" #GetTitleKEM
+ GRAND_ANDRIANONI_KEM:0 "âåëèêèì àíäðèàíîíè" #GetTitleKEM
+ GREAT_ANDRIANONI_KEM:0 "âåðõîâíûì àíäðèàíîíè" #GetTitleKEM
+ FILOHANY_KEM:0 "ôèëîõàíîì" #GetTitleKEM
+ MPANJAKE_BE_KEM:0 "ìïàíäæàê-áå" #GetTitleKEM
+ KURAKA_KEM:0 "êóðàêîì" #GetTitleKEM
+ APU_KEM:0 "àïó" #GetTitleKEM
+ SAPA_INKA_KEM:0 "ñàïà Èíêîé" #GetTitleKEM
+ MARGRAVE_KEM:0 "ìàðêãðàôîì" #GetTitleKEM
+ VICEROY_KEM:0 "âèöå-êîðîë¸ì" #GetTitleKEM
+ IMAM_KEM:0 "èìàìîì" #GetTitleKEM
+ GREAT_IMAM_KEM:0 "âåëèêèì èìàìîì" #GetTitleKEM
+ HIGH_IMAM_KEM:0 "âåðõîâíûì èìàìîì" #GetTitleKEM
+ EMIR_KEM:0 "ýìèðîì" #GetTitleKEM
+ SULTAN_KEM:0 "ñóëòàíîì" #GetTitleKEM
+ GREAT_SULTAN_KEM:0 "âåëèêèì ñóëòàíîì" #GetTitleKEM
+ DAI_male_KEM:0 "äàè" #GetTitleKEM
+ PADISHAH_KEM:0 "ïàäèøàõîì" #GetTitleKEM
+ MALIK_KEM:0 "ìàëèêîì" #GetTitleKEM
+ SHAH_KEM:0 "øàõîì" #GetTitleKEM
+ SHAHANSHAH_KEM:0 "øàõèíøàõîì" #GetTitleKEM
+ SHEIKH_KEM:0 "øåéõîì" #GetTitleKEM
+ GERAD_KEM:0 "ãåðàäîì" #GetTitleKEM
+ BEY_KEM:0 "áåéåì" #GetTitleKEM
+ PRINC_KEM:0 "êíÿçåì" #GetTitleKEM
+ NAWAB_KEM:0 "íàâàáîì" #GetTitleKEM
+ NIZAM_KEM:0 "íèçàìîì" #GetTitleKEM
+ KHEDIVE_KEM:0 "õåäèâîì" #GetTitleKEM
+ SAOPHA_KEM:0 "ñàîôîì" #GetTitleKEM
+ KNIAZ_KEM:0 "êíÿçåì" #GetTitleKEM
+ GREAT_KNIAZ_KEM:0 "âåëèêèì êíÿçåì" #GetTitleKEM
+ TLATOANI_KEM:0 "òëàòîàíè" #GetTitleKEM
+ HUEHUETLATOANI_KEM:0 "õóýé òëàòîàíè" #GetTitleKEM
+ BISHOP_ELECTOR_KEM:0 "åïèñêîïîì-êóðôþðñòîì" #GetTitleKEM
+ ARCHBISHOP_ELECTOR_KEM:0 "àðõèåïèñêîïîì-êóðôþðñòîì" #GetTitleKEM
+ PATRIARCH_ELECTOR_KEM:0 "ïàòðèàðõîì-êóðôþðñòîì" #GetTitleKEM
+ BISHOP_KEM:0 "åïèñêîïîì" #GetTitleKEM
+ ARCHBISHOP_KEM:0 "àðõèåïèñêîïîì" #GetTitleKEM
+ PATRIARCH_KEM:0 "ïàòðèàðõîì" #GetTitleKEM
+ PROTECTOR_KEM:0 "ïðîòåêòîðîì" #GetTitleKEM
+ LORD_PROTECTOR_KEM:0 "ëîðäîì-ïðîòåêòîðîì" #GetTitleKEM
+ JINONG_KEM:0 "äæèíîíîì" #GetTitleKEM
+ KHAN_KEM:0 "õàíîì" #GetTitleKEM
+ KHAGAN_KEM:0 "êàãàíîì" #GetTitleKEM
+ NUTSAL_KEM:0 "íóöàëîì" #GetTitleKEM
+ BEILE_KEM:0 "áýèëå" #GetTitleKEM
+ JUNWANG_KEM:0 "öçþíüâàíåì" #GetTitleKEM
+ HIGH_CHIEF_KEM:0 "âåðõîâíûì âîæä¸ì" #GetTitleKEM
+ PARAMOUNT_CHIEF_KEM:0 "ïåðâûì âîæä¸ì" #GetTitleKEM
+ ELDER_KEM:0 "ñòàðåéøèíîé" #GetTitleKEM
+ HIGH_ELDER_KEM:0 "ãëàâíûì ñòàðåéøèíîé" #GetTitleKEM
+ PARAMOUNT_ELDER_KEM:0 "âåðõîâíûì ñòàðåéøèíîé" #GetTitleKEM
+ AYATOLLAH_KEM:0 "àÿòîëëîé" #GetTitleKEM
+ KHOJA_KEM:0 "õîäæåé" #GetTitleKEM
+ GREAT_KHOJA_KEM:0 "âåëèêèì õîäæåé" #GetTitleKEM
+ GREAT_EMIR_KEM:0 "âåëèêèì ýìèðîì" #GetTitleKEM
+ PASHA_KEM:0 "ïàøîé" #GetTitleKEM
+ OLDERMAND_KEM:0 "àëüäåðìàíîì" #GetTitleKEM
+ STORBONDE_KEM:0 "ñòóðáîíäîì" #GetTitleKEM
+ LANDSBONDE_KEM:0 "ëàíäñáîíäîì" #GetTitleKEM
+ JATHEDAR_KEM:0 "äæàòåäàðîì" #GetTitleKEM
+ MISLDAR_KEM:0 "ìèñàëüäàðîì" #GetTitleKEM
+ GREAT_MISLDAR_KEM:0 "âåëèêèì ìèñàëüäàðîì" #GetTitleKEM
+ RABBI_KEM:0 "ðàââèíîì" #GetTitleKEM
+ GRAND_RABBI_KEM:0 "âûñøèì ðàââèíîì" #GetTitleKEM
+ KOHEN_GADOL_KEM:0 "êîýí-ãàäîëåì" #GetTitleKEM
+ HERBAD_KEM:0 "õèðáàäîé" #GetTitleKEM
+ MOBED_KEM:0 "ìîáåäîé" #GetTitleKEM
+ MOABADAN_MOABAD_KEM:0 "ìîàáàäàí ìîàáàäîé" #GetTitleKEM
+ PANDIT_KEM:0 "ïàíäèòîì" #GetTitleKEM
+ PANDITRAO_KEM:0 "ïàíäèòðàî" #GetTitleKEM
+ HIGH_GURU_KEM:0 "âûñøèì ãóðó" #GetTitleKEM
+ O_KANNUSHI_KEM:0 "î'êàííóñè" #GetTitleKEM
+ LAMA_KEM:0 "ëàìîé" #GetTitleKEM
+ TULKU_KEM:0 "òóëêó" #GetTitleKEM
+ GREAT_TULKU_KEM:0 "âåëèêèì òóëêó" #GetTitleKEM
+ SON_OF_HEAVEN_KEM:0 "ñûíîì Íåáà" #GetTitleKEM
+ MICHOQ_KEM:0 "ìè÷îêîì" #GetTitleKEM
+ HIGH_PRIEST_KEM:0 "âåðõîâíûì æðåöîì" #GetTitleKEM
+ WILLAQ_UMU_KEM:0 "âèëàê óìó" #GetTitleKEM
+ PRIEST_KEM:0 "æðåöîì" #GetTitleKEM
+ PARAMOUNT_PRIEST_KEM:0 "ïåðâûì æðåöîì" #GetTitleKEM
+ TSAR_KEM:0 "öàð¸ì" #GetTitleKEM
+ IMAME_KEM:0 "èìàìîì" #GetTitleKEM
+ HOCHMEISTER_KEM:0 "ãîõìåéñòåðîì" #GetTitleKEM
+ LANDMEISTER_KEM:0 "ëàíäìåéñòåðîì" #GetTitleKEM
+ GROSSMEISTER_KEM:0 "ãðîññìåéñòåðîì" #GetTitleKEM
+ GRAND_MASTER_KEM:0 "âåëèêèì ìàãèñòðîì" #GetTitleKEM
+ DOGE_KEM:0 "äîæåì" #GetTitleKEM
+ SERENE_DOGE_KEM:0 "ñâåòëåéøèì äîæåì" #GetTitleKEM
+ GREAT_DOGE_KEM:0 "âåëèêèì äîæåì" #GetTitleKEM
+ RECTOR_KEM:0 "ðåêòîðîì" #GetTitleKEM
+ GRAND_RECTOR_KEM:0 "ãëàâíûì ðåêòîðîì" #GetTitleKEM
+ GREAT_RECTOR_KEM:0 "âåëèêèì ðåêòîðîì" #GetTitleKEM
+ GRAND_KNIAZ_KEM:0 "âåëèêèì êíÿçåì" #GetTitleKEM
+ KEFALIJA_KEM:0 "êåôàëîì" #GetTitleKEM
+ DUZHD_KEM:0 "äóæåì" #GetTitleKEM
+ GONFALONIERE_KEM:0 "ãîíôàëîíüåðîì" #GetTitleKEM
+ CONSUL_KEM:0 "êîíñóëîì" #GetTitleKEM
+ GRAND_CONSUL_KEM:0 "ãëàâíûì êîíñóëîì" #GetTitleKEM
+ GREAT_CONSUL_KEM:0 "âåëèêèì êîíñóëîì" #GetTitleKEM
+ CAPTAIN_DEFENDER_KEM:0 "êàïèòàíîì-çàùèòíèêîì" #GetTitleKEM
+ SYNDIC_KEM:0 "ñèíäèêîì" #GetTitleKEM
+ GRAND_SYNDIC_KEM:0 "âåëèêèì ñèíäèêîì" #GetTitleKEM
+ SADR_KEM:0 "ñàäðîé" #GetTitleKEM
+ PESHWA_KEM:0 "ïåøâîé" #GetTitleKEM
+ PRATINIDHI_KEM:0 "ïðàòèíèäõè" #GetTitleKEM
+ VIZIER_KEM:0 "âèçèðåì" #GetTitleKEM
+ GRANDVIZIER_KEM:0 "âåëèêèì âèçèðåì" #GetTitleKEM
+ COUNCILOR_KEM:0 "ñîâåòíèêîì" #GetTitleKEM
+ GRAND_COUNCILOR_KEM:0 "âåëèêèì ñîâåòíèêîì" #GetTitleKEM
+ HIGH_COUNCILOR_KEM:0 "âåðõîâíûì ñîâåòíèêîì" #GetTitleKEM
+ NACOM_KEM:0 "íàêîìîì" #GetTitleKEM
+ HALACH_UINIK_KEM:0 "õàëà÷-óèíèêîì" #GetTitleKEM
+ K_UHUL_AJAW_KEM:0 "êóõóëü-àõàâîì" #GetTitleKEM
+ POPE_KEM:0 "ïàïîé" #GetTitleKEM
+ DIRECTOR_KEM:0 "äèðåêòîðîì" #GetTitleKEM
+ GOVERNOR_KEM:0 "ãóáåðíàòîðîì" #GetTitleKEM
+ ATAMAN_KEM:0 "àòàìàíîì" #GetTitleKEM
+ HETMAN_KEM:0 "ãåòìàíîì" #GetTitleKEM
+ GREAT_HETMAN_KEM:0 "âåëèêèì ãåòìàíîì" #GetTitleKEM
+ SHARIF_KEM:0 "øàðèôîì" #GetTitleKEM
+ GRAND_SHARIF_KEM:0 "âåëèêèì øàðèôîì" #GetTitleKEM
+ GREAT_SHARIF_KEM:0 "âåðõîâíûì øàðèôîì" #GetTitleKEM
+ DATU_KEM:0 "äàòó" #GetTitleKEM
+ LAKAN_KEM:0 "ëàêàíîì" #GetTitleKEM
+ GREAT_LAKAN_KEM:0 "âåëèêûì ëàêàíîì" #GetTitleKEM
+ BURGMEISTER_KEM:0 "áóðãîìèñòðåì" #GetTitleKEM
+ MAYOR_KEM:0 "ìýðîì" #GetTitleKEM
+ ILKHAN_KEM:0 "èëüõàíîì" #GetTitleKEM
+ SYNTH_RULER_KEM:0 "èñïîëíèòåëåì" #GetTitleKEM
+ ###на вопрос это кто?
+ SPEAKER_KTO:0 "ñïèêåð" #GetTitleKTO
+ CHANCELOR_KTO:0 "êàíöëåð" #GetTitleKTO
+ PRESIDENT_KTO:0 "ïðåçèäåíò" #GetTitleKTO
+ DUKE_KTO:0 "ãåðöîã" #GetTitleKTO
+ KING_KTO:0 "êîðîëü" #GetTitleKTO
+ EMPEROR_KTO:0 "èìïåðàòîð" #GetTitleKTO
+ GRAND_PENSIONARY_KTO:0 "âåëèêèé ïåíñèîíàðèé" #GetTitleKTO
+ STADTHOLDER_KTO:0 "ñòàòõàóäåð" #GetTitleKTO
+ GREAT_STADTHOLDER_KTO:0 "ãëàâíûé ñòàòõàóäåð" #GetTitleKTO
+ PRINCE_ELECTOR_KTO:0 "êíÿçü-êóðôþðñò" #GetTitleKTO
+ KING_ELECTOR_KTO:0 "êîðîëü-êóðôþðñò" #GetTitleKTO
+ EARL_KTO:0 "ýðë" #GetTitleKTO
+ HIGH_KING_KTO:0 "âåðõîâíûé êîðîëü" #GetTitleKTO
+ LORD_KTO:0 "ëîðä" #GetTitleKTO
+ SHOGUN_KTO:0 "ñ¸ãóí" #GetTitleKTO
+ ATABEG_KTO:0 "àòàáåê" #GetTitleKTO
+ FAAMA_KTO:0 "ôààì" #GetTitleKTO
+ GREAT_MANSA_KTO:0 "âåëèêèé ìàíñà" #GetTitleKTO
+ JAM_KTO:0 "äæàì" #GetTitleKTO
+ GRAND_JAM_KTO:0 "áîëüøèé äæàì" #GetTitleKTO
+ GREAT_JAM_KTO:0 "âåëèêèé äæàì" #GetTitleKTO
+ GRAND_DUKE_KTO:0 "âåëèêèé êíÿçü" #GetTitleKTO
+ ARCHDUKE_KTO:0 "ýðöãåðöîã" #GetTitleKTO
+ ARCHKING_KTO:0 "ýðöêîðîëü" #GetTitleKTO
+ PRINCE_KTO:0 "êíÿçü" #GetTitleKTO
+ BAN_TITLE_KTO:0 "áàí" #GetTitleKTO
+ KRALJ_KTO:0 "êðàëü" #GetTitleKTO
+ CAR_KTO:0 "öàðü" #GetTitleKTO
+ VOJVODA_KTO:0 "âîåâîäà" #GetTitleKTO
+ DESPOT_KTO:0 "äåñïîò" #GetTitleKTO
+ AUTOKRATOR_KTO:0 "àâòîêðàòîð" #GetTitleKTO
+ BASILEUS_KTO:0 "áàçèëåâñ" #GetTitleKTO
+ MBRET_KTO:0 "ìáðåò" #GetTitleKTO
+ NOMARCH_KTO:0 "íîìàðõ" #GetTitleKTO
+ PHARAOH_KTO:0 "ôàðàîí" #GetTitleKTO
+ GREAT_PHARAOH_KTO:0 "âåëèêèé ôàðàîí" #GetTitleKTO
+ TYRANT_KTO:0 "òèðàí" #GetTitleKTO
+ HEGEMON_KTO:0 "ãåãåìîí" #GetTitleKTO
+ CHIEF_KTO:0 "âîæäü" #GetTitleKTO
+ REX_KTO:0 "ðåêñ" #GetTitleKTO
+ IMPERATOR_KTO:0 "èìïåðàòîð" #GetTitleKTO
+ VOIVODE_KTO:0 "âîåâîäà" #GetTitleKTO
+ RAJA_KTO:0 "ðàäæà" #GetTitleKTO
+ MAHARAJA_KTO:0 "ìàõàðàäæà" #GetTitleKTO
+ CHHATRAPATI_KTO:0 "÷õàòðàïàòè" #GetTitleKTO
+ RANA_KTO:0 "ðàíà" #GetTitleKTO
+ MAHARANA_KTO:0 "ìàõàðàíà" #GetTitleKTO
+ PESHWA_KTO:0 "ïåøâà" #GetTitleKTO
+ TATKISHO_KTO:0 "òàòêèøî" #GetTitleKTO
+ TATO_KTO:0 "òàòî" #GetTitleKTO
+ ATIO_KTO:0 "àòèî" #GetTitleKTO
+ RAS_title_KTO:0 "ðàñà" #GetTitleKTO
+ NEGUS_KTO:0 "íåãóñà" #GetTitleKTO
+ NEGUSA_NEGAST_KTO:0 "íåãóñà íàãàñòà" #GetTitleKTO
+ MUGABE_KTO:0 "ìóãàáå" #GetTitleKTO
+ GREAT_MUGABE_KTO:0 "âåëèêèé ìóãàáå" #GetTitleKTO
+ OMUKAMA_KTO:0 "îìóêàìå" #GetTitleKTO
+ GREAT_OMUKAMA_KTO:0 "âåëèêèé îìóêàìå" #GetTitleKTO
+ BALOPWE_KTO:0 "áàëîïâå" #GetTitleKTO
+ MULOPWE_KTO:0 "ìóëîïâå" #GetTitleKTO
+ GREAT_MULOPWE_KTO:0 "âåëèêèé ìóëîïâå" #GetTitleKTO
+ MWENEMUTAPA_KTO:0 "ìâåíåìóòàïà" #GetTitleKTO
+ GREAT_MWENEMUTAPA_KTO:0 "âåëèêèé ìâåíåìóòàïà" #GetTitleKTO
+ MAMBO_KTO:0 "ìàìáî" #GetTitleKTO
+ GRAND_MAMBO_KTO:0 "âåëèêèé ìàìáî" #GetTitleKTO
+ GREAT_MAMBO_KTO:0 "âåðõîâíûé ìàìáî" #GetTitleKTO
+ BAKUNGU_KTO:0 "áàêóíãó" #GetTitleKTO
+ MWAMI_KTO:0 "ìâàíè" #GetTitleKTO
+ KABAKA_KTO:0 "êàáàêà" #GetTitleKTO
+ GREAT_KABAKA_KTO:0 "âåëèêèé êàáàêà" #GetTitleKTO
+ ANDRIANONI_KTO:0 "àíäðèàíîíè" #GetTitleKTO
+ GRAND_ANDRIANONI_KTO:0 "âåëèêèé àíäðèàíîíè" #GetTitleKTO
+ GREAT_ANDRIANONI_KTO:0 "âåðõîâíûé àíäðèàíîíè" #GetTitleKTO
+ FILOHANY_KTO:0 "ôèëîõàí" #GetTitleKTO
+ MPANJAKE_BE_KTO:0 "ìïàíäæàê-áå" #GetTitleKTO
+ KURAKA_KTO:0 "êóðàêà" #GetTitleKTO
+ APU_KTO:0 "àïó" #GetTitleKTO
+ SAPA_INKA_KTO:0 "ñàïà Èíêà" #GetTitleKTO
+ MARGRAVE_KTO:0 "ìàðêãðàô" #GetTitleKTO
+ VICEROY_KTO:0 "âèöå-êîðîëü" #GetTitleKTO
+ IMAM_KTO:0 "èìàì" #GetTitleKTO
+ GREAT_IMAM_KTO:0 "âåëèêèé èìàì" #GetTitleKTO
+ HIGH_IMAM_KTO:0 "âåðõîâíûé èìàì" #GetTitleKTO
+ EMIR_KTO:0 "ýìèð" #GetTitleKTO
+ SULTAN_KTO:0 "ñóëòàí" #GetTitleKTO
+ GREAT_SULTAN_KTO:0 "âåëèêèé ñóëòàí" #GetTitleKTO
+ DAI_male_KTO:0 "äàè" #GetTitleKTO
+ PADISHAH_KTO:0 "ïàäèøàõ" #GetTitleKTO
+ MALIK_KTO:0 "ìàëèê" #GetTitleKTO
+ SHAH_KTO:0 "øàõ" #GetTitleKTO
+ SHAHANSHAH_KTO:0 "øàõèíøàõ" #GetTitleKTO
+ SHEIKH_KTO:0 "øåéõ" #GetTitleKTO
+ GERAD_KTO:0 "ãåðàä" #GetTitleKTO
+ BEY_KTO:0 "áåé" #GetTitleKTO
+ PRINC_KTO:0 "êíÿçü" #GetTitleKTO
+ NAWAB_KTO:0 "íàâàá" #GetTitleKTO
+ NIZAM_KTO:0 "íèçàì" #GetTitleKTO
+ KHEDIVE_KTO:0 "õåäèâ" #GetTitleKTO
+ SAOPHA_KTO:0 "ñàîôà" #GetTitleKTO
+ KNIAZ_KTO:0 "êíÿçü" #GetTitleKTO
+ GREAT_KNIAZ_KTO:0 "âåëèêèé êíÿçü" #GetTitleKTO
+ TLATOANI_KTO:0 "òëàòîàíè" #GetTitleKTO
+ HUEHUETLATOANI_KTO:0 "õóýé òëàòîàíè" #GetTitleKTO
+ BISHOP_ELECTOR_KTO:0 "åïèñêîï-êóðôþðñò" #GetTitleKTO
+ ARCHBISHOP_ELECTOR_KTO:0 "àðõèåïèñêîï-êóðôþðñò" #GetTitleKTO
+ PATRIARCH_ELECTOR_KTO:0 "ïàòðèàðõ-êóðôþðñò" #GetTitleKTO
+ BISHOP_KTO:0 "åïèñêîï" #GetTitleKTO
+ ARCHBISHOP_KTO:0 "àðõèåïèñêîï" #GetTitleKTO
+ PATRIARCH_KTO:0 "ïàòðèàðõ" #GetTitleKTO
+ PROTECTOR_KTO:0 "ïðîòåêòîð" #GetTitleKTO
+ LORD_PROTECTOR_KTO:0 "ëîðä-ïðîòåêòîð" #GetTitleKTO
+ JINONG_KTO:0 "äæèíîí" #GetTitleKTO
+ KHAN_KTO:0 "õàí" #GetTitleKTO
+ KHAGAN_KTO:0 "êàãàí" #GetTitleKTO
+ NUTSAL_KTO:0 "íóöàë" #GetTitleKTO
+ BEILE_KTO:0 "áýèëå" #GetTitleKTO
+ JUNWANG_KTO:0 "öçþíüâàí" #GetTitleKTO
+ HIGH_CHIEF_KTO:0 "âåðõîâíûé âîæäü" #GetTitleKTO
+ PARAMOUNT_CHIEF_KTO:0 "ïåðâûé âîæäü" #GetTitleKTO
+ ELDER_KTO:0 "ñòàðåéøèíà" #GetTitleKTO
+ HIGH_ELDER_KTO:0 "ãëàâíûé ñòàðåéøèíà" #GetTitleKTO
+ PARAMOUNT_ELDER_KTO:0 "âåðõîâíûé ñòàðåéøèíà" #GetTitleKTO
+ AYATOLLAH_KTO:0 "àÿòîëëà" #GetTitleKTO
+ KHOJA_KTO:0 "õîäæà" #GetTitleKTO
+ GREAT_KHOJA_KTO:0 "âåëèêèé õîäæà" #GetTitleKTO
+ GREAT_EMIR_KTO:0 "âåëèêèé ýìèð" #GetTitleKTO
+ PASHA_KTO:0 "ïàøà" #GetTitleKTO
+ OLDERMAND_KTO:0 "àëüäåðìàí" #GetTitleKTO
+ STORBONDE_KTO:0 "ñòóðáîíä" #GetTitleKTO
+ LANDSBONDE_KTO:0 "ëàíäñáîíä" #GetTitleKTO
+ JATHEDAR_KTO:0 "äæàòåäàð" #GetTitleKTO
+ MISLDAR_KTO:0 "ìèñàëüäàð" #GetTitleKTO
+ GREAT_MISLDAR_KTO:0 "âåëèêèé ìèñàëüäàð" #GetTitleKTO
+ RABBI_KTO:0 "ðàââèí" #GetTitleKTO
+ GRAND_RABBI_KTO:0 "âûñøèé ðàââèí" #GetTitleKTO
+ KOHEN_GADOL_KTO:0 "êîýí-ãàäîëü" #GetTitleKTO
+ HERBAD_KTO:0 "õèðáàä" #GetTitleKTO
+ MOBED_KTO:0 "ìîáåä" #GetTitleKTO
+ MOABADAN_MOABAD_KTO:0 "ìîàáàäàí ìîàáàä" #GetTitleKTO
+ PANDIT_KTO:0 "ïàíäèò" #GetTitleKTO
+ PANDITRAO_KTO:0 "ïàíäèòðàî" #GetTitleKTO
+ HIGH_GURU_KTO:0 "âûñøèé ãóðó" #GetTitleKTO
+ O_KANNUSHI_KTO:0 "î'êàííóñè" #GetTitleKTO
+ LAMA_KTO:0 "ëàìà" #GetTitleKTO
+ TULKU_KTO:0 "òóëêó" #GetTitleKTO
+ GREAT_TULKU_KTO:0 "âåëèêèé òóëêó" #GetTitleKTO
+ SON_OF_HEAVEN_KTO:0 "ñûí Íåáà" #GetTitleKTO
+ MICHOQ_KTO:0 "ìè÷îê" #GetTitleKTO
+ HIGH_PRIEST_KTO:0 "âåðõîâíûé æðåö" #GetTitleKTO
+ WILLAQ_UMU_KTO:0 "âèëàê óìó" #GetTitleKTO
+ PRIEST_KTO:0 "æðåö" #GetTitleKTO
+ PARAMOUNT_PRIEST_KTO:0 "ïåðâûé æðåö" #GetTitleKTO
+ TSAR_KTO:0 "öàðü" #GetTitleKTO
+ IMAME_KTO:0 "èìàì" #GetTitleKTO
+ HOCHMEISTER_KTO:0 "ãîõìåéñòåð" #GetTitleKTO
+ LANDMEISTER_KTO:0 "ëàíäìåéñòåð" #GetTitleKTO
+ GROSSMEISTER_KTO:0 "ãðîññìåéñòåð" #GetTitleKTO
+ GRAND_MASTER_KTO:0 "âåëèêèé ìàãèñòð" #GetTitleKTO
+ DOGE_KTO:0 "äîæ" #GetTitleKTO
+ SERENE_DOGE_KTO:0 "ñâåòëåéøèé äîæ" #GetTitleKTO
+ GREAT_DOGE_KTO:0 "âåëèêèé äîæ" #GetTitleKTO
+ RECTOR_KTO:0 "ðåêòîð" #GetTitleKTO
+ GRAND_RECTOR_KTO:0 "ãëàâíûé ðåêòîð" #GetTitleKTO
+ GREAT_RECTOR_KTO:0 "âåëèêèé ðåêòîð" #GetTitleKTO
+ GRAND_KNIAZ_KTO:0 "âåëèêèé êíÿçü" #GetTitleKTO
+ KEFALIJA_KTO:0 "êåôàë" #GetTitleKTO
+ DUZHD_KTO:0 "äóæ" #GetTitleKTO
+ GONFALONIERE_KTO:0 "ãîíôàëîíüåð" #GetTitleKTO
+ CONSUL_KTO:0 "êîíñóë" #GetTitleKTO
+ GRAND_CONSUL_KTO:0 "ãëàâíûé êîíñóë" #GetTitleKTO
+ GREAT_CONSUL_KTO:0 "âåëèêèé êîíñóë" #GetTitleKTO
+ CAPTAIN_DEFENDER_KTO:0 "êàïèòàí-çàùèòíèê" #GetTitleKTO
+ SYNDIC_KTO:0 "ñèíäèê" #GetTitleKTO
+ GRAND_SYNDIC_KTO:0 "âåëèêèé ñèíäèê" #GetTitleKTO
+ SADR_KTO:0 "ñàäðà" #GetTitleKTO
+ PESHWA_KTO:0 "ïåøâà" #GetTitleKTO
+ PRATINIDHI_KTO:0 "ïðàòèíèäõè" #GetTitleKTO
+ VIZIER_KTO:0 "âèçèðü" #GetTitleKTO
+ GRANDVIZIER_KTO:0 "âåëèêèé âèçèðü" #GetTitleKTO
+ COUNCILOR_KTO:0 "ñîâåòíèê" #GetTitleKTO
+ GRAND_COUNCILOR_KTO:0 "âåëèêèé ñîâåòíèê" #GetTitleKTO
+ HIGH_COUNCILOR_KTO:0 "âåðõîâíûé ñîâåòíèê" #GetTitleKTO
+ NACOM_KTO:0 "íàêîì" #GetTitleKTO
+ HALACH_UINIK_KTO:0 "õàëà÷-óèíèê" #GetTitleKTO
+ K_UHUL_AJAW_KTO:0 "êóõóëü-àõàâ" #GetTitleKTO
+ POPE_KTO:0 "ïàïà" #GetTitleKTO
+ DIRECTOR_KTO:0 "äèðåêòîð" #GetTitleKTO
+ GOVERNOR_KTO:0 "ãóáåðíàòîð" #GetTitleKTO
+ ATAMAN_KTO:0 "àòàìàí" #GetTitleKTO
+ HETMAN_KTO:0 "ãåòìàí" #GetTitleKTO
+ GREAT_HETMAN_KTO:0 "âåëèêèé ãåòìàí" #GetTitleKTO
+ SHARIF_KTO:0 "øàðèô" #GetTitleKTO
+ GRAND_SHARIF_KTO:0 "âåëèêèé øàðèô" #GetTitleKTO
+ GREAT_SHARIF_KTO:0 "âåðõîâíûé øàðèô" #GetTitleKTO
+ DATU_KTO:0 "äàòó" #GetTitleKTO
+ LAKAN_KTO:0 "ëàêàí" #GetTitleKTO
+ GREAT_LAKAN_KTO:0 "âåëèêèé ëàêàí" #GetTitleKTO
+ BURGMEISTER_KTO:0 "áóðãîìèñòð" #GetTitleKTO
+ MAYOR_KTO:0 "ìýð" #GetTitleKTO
+ ILKHAN_KTO:0 "èëüõàí" #GetTitleKTO
+ SYNTH_RULER_KTO:0 "èñïîëíèòåëü" #GetTitleKTO
+ ###на вопрос о ком?
+ SPEAKER_KOM:0 "ñïèêåðå" #GetTitleKOM
+ CHANCELOR_KOM:0 "êàíöëåðå" #GetTitleKOM
+ PRESIDENT_KOM:0 "ïðåçèäåíòå" #GetTitleKOM
+ DUKE_KOM:0 "ãåðöîãå" #GetTitleKOM
+ KING_KOM:0 "êîðîëå" #GetTitleKOM
+ EMPEROR_KOM:0 "èìïåðàòîðå" #GetTitleKOM
+ GRAND_PENSIONARY_KOM:0 "âåëèêîì ïåíñèîíàðèå" #GetTitleKOM
+ STADTHOLDER_KOM:0 "ñòàòõàóäåðå" #GetTitleKOM
+ GREAT_STADTHOLDER_KOM:0 "ãëàâíîì ñòàòõàóäåðå" #GetTitleKOM
+ PRINCE_ELECTOR_KOM:0 "êíÿçå-êóðôþðñòå" #GetTitleKOM
+ KING_ELECTOR_KOM:0 "êîðîëå-êóðôþðñòå" #GetTitleKOM
+ EARL_KOM:0 "ýðëå" #GetTitleKOM
+ HIGH_KING_KOM:0 "âåðõîâíîì êîðîëå" #GetTitleKOM
+ LORD_KOM:0 "ëîðäå" #GetTitleKOM
+ SHOGUN_KOM:0 "ñ¸ãóíå" #GetTitleKOM
+ ATABEG_KOM:0 "àòàáåêå" #GetTitleKOM
+ FAAMA_KOM:0 "ôààìå" #GetTitleKOM
+ GREAT_MANSA_KOM:0 "âåëèêîì ìàíñå" #GetTitleKOM
+ JAM_KOM:0 "äæàìå" #GetTitleKOM
+ GRAND_JAM_KOM:0 "áîëüøîì äæàìå" #GetTitleKOM
+ GREAT_JAM_KOM:0 "âåëèêîì äæàìå" #GetTitleKOM
+ GRAND_DUKE_KOM:0 "âåëèêîì êíÿçå" #GetTitleKOM
+ ARCHDUKE_KOM:0 "ýðöãåðöîãå" #GetTitleKOM
+ ARCHKING_KOM:0 "ýðöêîðîëå" #GetTitleKOM
+ PRINCE_KOM:0 "êíÿçå" #GetTitleKOM
+ BAN_TITLE_KOM:0 "áàíå" #GetTitleKOM
+ KRALJ_KOM:0 "êðàëå" #GetTitleKOM
+ CAR_KOM:0 "öàðå" #GetTitleKOM
+ VOJVODA_KOM:0 "âîåâîäå" #GetTitleKOM
+ DESPOT_KOM:0 "äåñïîòå" #GetTitleKOM
+ AUTOKRATOR_KOM:0 "àâòîêðàòîðå" #GetTitleKOM
+ BASILEUS_KOM:0 "áàçèëåâñå" #GetTitleKOM
+ MBRET_KOM:0 "ìáðåòå" #GetTitleKOM
+ NOMARCH_KOM:0 "íîìàðõå" #GetTitleKOM
+ PHARAOH_KOM:0 "ôàðàîíå" #GetTitleKOM
+ GREAT_PHARAOH_KOM:0 "âåëèêîì ôàðàîíå" #GetTitleKOM
+ TYRANT_KOM:0 "òèðàíå" #GetTitleKOM
+ HEGEMON_KOM:0 "ãåãåìîíå" #GetTitleKOM
+ CHIEF_KOM:0 "âîæäå" #GetTitleKOM
+ REX_KOM:0 "ðåêñå" #GetTitleKOM
+ IMPERATOR_KOM:0 "èìïåðàòîðå" #GetTitleKOM
+ VOIVODE_KOM:0 "âîåâîäå" #GetTitleKOM
+ RAJA_KOM:0 "ðàäæå" #GetTitleKOM
+ MAHARAJA_KOM:0 "ìàõàðàäæå" #GetTitleKOM
+ CHHATRAPATI_KOM:0 "÷õàòðàïàòè" #GetTitleKOM
+ RANA_KOM:0 "ðàíå" #GetTitleKOM
+ MAHARANA_KOM:0 "ìàõàðàíå" #GetTitleKOM
+ PESHWA_KOM:0 "ïåøâå" #GetTitleKOM
+ TATKISHO_KOM:0 "òàòêèøî" #GetTitleKOM
+ TATO_KOM:0 "òàòî" #GetTitleKOM
+ ATIO_KOM:0 "àòèî" #GetTitleKOM
+ RAS_title_KOM:0 "ðàñå" #GetTitleKOM
+ NEGUS_KOM:0 "íåãóñå" #GetTitleKOM
+ NEGUSA_NEGAST_KOM:0 "íåãóñà íàãàñòå" #GetTitleKOM
+ MUGABE_KOM:0 "ìóãàáå" #GetTitleKOM
+ GREAT_MUGABE_KOM:0 "âåëèêîì ìóãàáå" #GetTitleKOM
+ OMUKAMA_KOM:0 "îìóêàìå" #GetTitleKOM
+ GREAT_OMUKAMA_KOM:0 "âåëèêîì îìóêàìå" #GetTitleKOM
+ BALOPWE_KOM:0 "áàëîïâå" #GetTitleKOM
+ MULOPWE_KOM:0 "ìóëîïâå" #GetTitleKOM
+ GREAT_MULOPWE_KOM:0 "âåëèêîì ìóëîïâå" #GetTitleKOM
+ MWENEMUTAPA_KOM:0 "ìâåíåìóòàïå" #GetTitleKOM
+ GREAT_MWENEMUTAPA_KOM:0 "âåëèêîì ìâåíåìóòàïå" #GetTitleKOM
+ MAMBO_KOM:0 "ìàìáî" #GetTitleKOM
+ GRAND_MAMBO_KOM:0 "âåëèêîì ìàìáî" #GetTitleKOM
+ GREAT_MAMBO_KOM:0 "âåðõîâíîì ìàìáî" #GetTitleKOM
+ BAKUNGU_KOM:0 "áàêóíãå" #GetTitleKOM
+ MWAMI_KOM:0 "ìâàíè" #GetTitleKOM
+ KABAKA_KOM:0 "êàáàêå" #GetTitleKOM
+ GREAT_KABAKA_KOM:0 "âåëèêîì êàáàêå" #GetTitleKOM
+ ANDRIANONI_KOM:0 "àíäðèàíîíè" #GetTitleKOM
+ GRAND_ANDRIANONI_KOM:0 "âåëèêîì àíäðèàíîíè" #GetTitleKOM
+ GREAT_ANDRIANONI_KOM:0 "âåðõîâíîì àíäðèàíîíè" #GetTitleKOM
+ FILOHANY_KOM:0 "ôèëîõàíå" #GetTitleKOM
+ MPANJAKE_BE_KOM:0 "ìïàíäæàê-áå" #GetTitleKOM
+ KURAKA_KOM:0 "êóðàêå" #GetTitleKOM
+ APU_KOM:0 "àïó" #GetTitleKOM
+ SAPA_INKA_KOM:0 "ñàïà Èíêå" #GetTitleKOM
+ MARGRAVE_KOM:0 "ìàðêãðàôå" #GetTitleKOM
+ VICEROY_KOM:0 "âèöå-êîðîëå" #GetTitleKOM
+ IMAM_KOM:0 "èìàìå" #GetTitleKOM
+ GREAT_IMAM_KOM:0 "âåëèêîì èìàìå" #GetTitleKOM
+ HIGH_IMAM_KOM:0 "âåðõîâíîì èìàìå" #GetTitleKOM
+ EMIR_KOM:0 "ýìèðå" #GetTitleKOM
+ SULTAN_KOM:0 "ñóëòàíå" #GetTitleKOM
+ GREAT_SULTAN_KOM:0 "âåëèêîì ñóëòàíå" #GetTitleKOM
+ DAI_male_KOM:0 "äàè" #GetTitleKOM
+ PADISHAH_KOM:0 "ïàäèøàõå" #GetTitleKOM
+ MALIK_KOM:0 "ìàëèêå" #GetTitleKOM
+ SHAH_KOM:0 "øàõå" #GetTitleKOM
+ SHAHANSHAH_KOM:0 "øàõèíøàõå" #GetTitleKOM
+ SHEIKH_KOM:0 "øåéõå" #GetTitleKOM
+ GERAD_KOM:0 "ãåðàäå" #GetTitleKOM
+ BEY_KOM:0 "áåéå" #GetTitleKOM
+ PRINC_KOM:0 "êíÿçå" #GetTitleKOM
+ NAWAB_KOM:0 "íàâàáå" #GetTitleKOM
+ NIZAM_KOM:0 "íèçàìå" #GetTitleKOM
+ KHEDIVE_KOM:0 "õåäèâå" #GetTitleKOM
+ SAOPHA_KOM:0 "ñàîôå" #GetTitleKOM
+ KNIAZ_KOM:0 "êíÿçå" #GetTitleKOM
+ GREAT_KNIAZ_KOM:0 "âåëèêîì êíÿçå" #GetTitleKOM
+ TLATOANI_KOM:0 "òëàòîàíè" #GetTitleKOM
+ HUEHUETLATOANI_KOM:0 "õóýé òëàòîàíè" #GetTitleKOM
+ BISHOP_ELECTOR_KOM:0 "åïèñêîïå-êóðôþðñòå" #GetTitleKOM
+ ARCHBISHOP_ELECTOR_KOM:0 "àðõèåïèñêîïå-êóðôþðñòå" #GetTitleKOM
+ PATRIARCH_ELECTOR_KOM:0 "ïàòðèàðõå-êóðôþðñòå" #GetTitleKOM
+ BISHOP_KOM:0 "åïèñêîïå" #GetTitleKOM
+ ARCHBISHOP_KOM:0 "àðõèåïèñêîïå" #GetTitleKOM
+ PATRIARCH_KOM:0 "ïàòðèàðõå" #GetTitleKOM
+ PROTECTOR_KOM:0 "ïðîòåêòîðå" #GetTitleKOM
+ LORD_PROTECTOR_KOM:0 "ëîðäå-ïðîòåêòîðå" #GetTitleKOM
+ JINONG_KOM:0 "äæèíîíå" #GetTitleKOM
+ KHAN_KOM:0 "õàíå" #GetTitleKOM
+ KHAGAN_KOM:0 "êàãàíå" #GetTitleKOM
+ NUTSAL_KOM:0 "íóöàëå" #GetTitleKOM
+ BEILE_KOM:0 "áýèëå" #GetTitleKOM
+ JUNWANG_KOM:0 "öçþíüâàíå" #GetTitleKOM
+ HIGH_CHIEF_KOM:0 "âåðõîâíîì âîæäå" #GetTitleKOM
+ PARAMOUNT_CHIEF_KOM:0 "ïåðâîì âîæäå" #GetTitleKOM
+ ELDER_KOM:0 "ñòàðåéøèíå" #GetTitleKOM
+ HIGH_ELDER_KOM:0 "ãëàâíîì ñòàðåéøèíå" #GetTitleKOM
+ PARAMOUNT_ELDER_KOM:0 "âåðõîâíîì ñòàðåéøèíå" #GetTitleKOM
+ AYATOLLAH_KOM:0 "àÿòîëëå" #GetTitleKOM
+ KHOJA_KOM:0 "õîäæå" #GetTitleKOM
+ GREAT_KHOJA_KOM:0 "âåëèêîì õîäæå" #GetTitleKOM
+ GREAT_EMIR_KOM:0 "âåëèêîì ýìèðå" #GetTitleKOM
+ PASHA_KOM:0 "ïàøå" #GetTitleKOM
+ OLDERMAND_KOM:0 "àëüäåðìàíå" #GetTitleKOM
+ STORBONDE_KOM:0 "ñòóðáîíäå" #GetTitleKOM
+ LANDSBONDE_KOM:0 "ëàíäñáîíäå" #GetTitleKOM
+ JATHEDAR_KOM:0 "äæàòåäàðå" #GetTitleKOM
+ MISLDAR_KOM:0 "ìèñàëüäàðå" #GetTitleKOM
+ GREAT_MISLDAR_KOM:0 "âåëèêîì ìèñàëüäàðå" #GetTitleKOM
+ RABBI_KOM:0 "ðàââèíå" #GetTitleKOM
+ GRAND_RABBI_KOM:0 "âûñøåì ðàââèíå" #GetTitleKOM
+ KOHEN_GADOL_KOM:0 "êîýí-ãàäîëå" #GetTitleKOM
+ HERBAD_KOM:0 "õèðáàäå" #GetTitleKOM
+ MOBED_KOM:0 "ìîáåäå" #GetTitleKOM
+ MOABADAN_MOABAD_KOM:0 "ìîàáàäàí ìîàáàäå" #GetTitleKOM
+ PANDIT_KOM:0 "ïàíäèòå" #GetTitleKOM
+ PANDITRAO_KOM:0 "ïàíäèòðàî" #GetTitleKOM
+ HIGH_GURU_KOM:0 "âûñøåì ãóðó" #GetTitleKOM
+ O_KANNUSHI_KOM:0 "î'êàííóñè" #GetTitleKOM
+ LAMA_KOM:0 "ëàìå" #GetTitleKOM
+ TULKU_KOM:0 "òóëêó" #GetTitleKOM
+ GREAT_TULKU_KOM:0 "âåëèêîì òóëêó" #GetTitleKOM
+ SON_OF_HEAVEN_KOM:0 "ñûíå Íåáà" #GetTitleKOM
+ MICHOQ_KOM:0 "ìè÷îêå" #GetTitleKOM
+ HIGH_PRIEST_KOM:0 "âåðõîâíîì æðåöå" #GetTitleKOM
+ WILLAQ_UMU_KOM:0 "âèëàê óìó" #GetTitleKOM
+ PRIEST_KOM:0 "æðåöå" #GetTitleKOM
+ PARAMOUNT_PRIEST_KOM:0 "ïåðâîì æðåöå" #GetTitleKOM
+ TSAR_KOM:0 "öàðå" #GetTitleKOM
+ IMAME_KOM:0 "èìàìå" #GetTitleKOM
+ HOCHMEISTER_KOM:0 "ãîõìåéñòåðå" #GetTitleKOM
+ LANDMEISTER_KOM:0 "ëàíäìåéñòåðå" #GetTitleKOM
+ GROSSMEISTER_KOM:0 "ãðîññìåéñòåðå" #GetTitleKOM
+ GRAND_MASTER_KOM:0 "âåëèêîì ìàãèñòðå" #GetTitleKOM
+ DOGE_KOM:0 "äîæå" #GetTitleKOM
+ SERENE_DOGE_KOM:0 "ñâåòëåéøåì äîæå" #GetTitleKOM
+ GREAT_DOGE_KOM:0 "âåëèêîì äîæå" #GetTitleKOM
+ RECTOR_KOM:0 "ðåêòîðå" #GetTitleKOM
+ GRAND_RECTOR_KOM:0 "ãëàâíîì ðåêòîðå" #GetTitleKOM
+ GREAT_RECTOR_KOM:0 "âåëèêîì ðåêòîðå" #GetTitleKOM
+ GRAND_KNIAZ_KOM:0 "âåëèêîì êíÿçå" #GetTitleKOM
+ KEFALIJA_KOM:0 "êåôàëå" #GetTitleKOM
+ DUZHD_KOM:0 "äóæå" #GetTitleKOM
+ GONFALONIERE_KOM:0 "ãîíôàëîíüåðå" #GetTitleKOM
+ CONSUL_KOM:0 "êîíñóëå" #GetTitleKOM
+ GRAND_CONSUL_KOM:0 "ãëàâíîì êîíñóëå" #GetTitleKOM
+ GREAT_CONSUL_KOM:0 "âåëèêîì êîíñóëå" #GetTitleKOM
+ CAPTAIN_DEFENDER_KOM:0 "êàïèòàíå-çàùèòíèêå" #GetTitleKOM
+ SYNDIC_KOM:0 "ñèíäèêå" #GetTitleKOM
+ GRAND_SYNDIC_KOM:0 "âåëèêîì ñèíäèêå" #GetTitleKOM
+ SADR_KOM:0 "ñàäðå" #GetTitleKOM
+ PESHWA_KOM:0 "ïåøâå" #GetTitleKOM
+ PRATINIDHI_KOM:0 "ïðàòèíèäõè" #GetTitleKOM
+ VIZIER_KOM:0 "âèçèðå" #GetTitleKOM
+ GRANDVIZIER_KOM:0 "âåëèêîì âèçèðå" #GetTitleKOM
+ COUNCILOR_KOM:0 "ñîâåòíèêå" #GetTitleKOM
+ GRAND_COUNCILOR_KOM:0 "âåëèêîì ñîâåòíèêå" #GetTitleKOM
+ HIGH_COUNCILOR_KOM:0 "âåðõîâíîì ñîâåòíèêå" #GetTitleKOM
+ NACOM_KOM:0 "íàêîìå" #GetTitleKOM
+ HALACH_UINIK_KOM:0 "õàëà÷-óèíèêå" #GetTitleKOM
+ K_UHUL_AJAW_KOM:0 "êóõóëü-àõàâå" #GetTitleKOM
+ POPE_KOM:0 "ïàïå" #GetTitleKOM
+ DIRECTOR_KOM:0 "äèðåêòîðå" #GetTitleKOM
+ GOVERNOR_KOM:0 "ãóáåðíàòîðå" #GetTitleKOM
+ ATAMAN_KOM:0 "àòàìàíå" #GetTitleKOM
+ HETMAN_KOM:0 "ãåòìàíå" #GetTitleKOM
+ GREAT_HETMAN_KOM:0 "âåëèêîì ãåòìàíå" #GetTitleKOM
+ SHARIF_KOM:0 "øàðèôå" #GetTitleKOM
+ GRAND_SHARIF_KOM:0 "âåëèêîì øàðèôå" #GetTitleKOM
+ GREAT_SHARIF_KOM:0 "âåðõîâíîì øàðèôå" #GetTitleKOM
+ DATU_KOM:0 "äàòó" #GetTitleKOM
+ LAKAN_KOM:0 "ëàêàíå" #GetTitleKOM
+ GREAT_LAKAN_KOM:0 "âåëèêîì ëàêàí" #GetTitleKOM
+ BURGMEISTER_KOM:0 "áóðãîìèñòðå" #GetTitleKOM
+ MAYOR_KOM:0 "ìýðå" #GetTitleKOM
+ ILKHAN_KOM:0 "èëüõàíå" #GetTitleKOM
+ SYNTH_RULER_KOM:0 "èñïîëíèòåëå" #GetTitleKOM
+ ###на вопрос вижу кого?
+ SPEAKER_CHTO:0 "ñïèêåðà" #GetTitleCHTO
+ CHANCELOR_CHTO:0 "êàíöëåðà" #GetTitleCHTO
+ PRESIDENT_CHTO:0 "ïðåçèäåíòà" #GetTitleCHTO
+ DUKE_CHTO:0 "ãåðöîãà" #GetTitleCHTO
+ KING_CHTO:0 "êîðîëÿ" #GetTitleCHTO
+ EMPEROR_CHTO:0 "èìïåðàòîðà" #GetTitleCHTO
+ GRAND_PENSIONARY_CHTO:0 "âåëèêîãî ïåíñèîíàðèÿ" #GetTitleCHTO
+ STADTHOLDER_CHTO:0 "ñòàòõàóäåðà" #GetTitleCHTO
+ GREAT_STADTHOLDER_CHTO:0 "ãëàâíîãî ñòàòõàóäåðà" #GetTitleCHTO
+ PRINCE_ELECTOR_CHTO:0 "êíÿçÿ-êóðôþðñòà" #GetTitleCHTO
+ KING_ELECTOR_CHTO:0 "êîðîëÿ-êóðôþðñòà" #GetTitleCHTO
+ EARL_CHTO:0 "ýðëà" #GetTitleCHTO
+ HIGH_KING_CHTO:0 "âåðõîâíîãî êîðîëÿ" #GetTitleCHTO
+ LORD_CHTO:0 "ëîðäà" #GetTitleCHTO
+ SHOGUN_CHTO:0 "ñ¸ãóíà" #GetTitleCHTO
+ ATABEG_CHTO:0 "àòàáåêà" #GetTitleCHTO
+ FAAMA_CHTO:0 "ôààìû" #GetTitleCHTO
+ GREAT_MANSA_CHTO:0 "âåëèêîãî ìàíñó" #GetTitleCHTO
+ JAM_CHTO:0 "äæàìó" #GetTitleCHTO
+ GRAND_JAM_CHTO:0 "áîëüøîãî äæàìó" #GetTitleCHTO
+ GREAT_JAM_CHTO:0 "âåëèêîãî äæàìó" #GetTitleCHTO
+ GRAND_DUKE_CHTO:0 "âåëèêîãî êíÿçÿ" #GetTitleCHTO
+ ARCHDUKE_CHTO:0 "ýðöãåðöîãà" #GetTitleCHTO
+ ARCHKING_CHTO:0 "ýðöêîðîëÿ" #GetTitleCHTO
+ PRINCE_CHTO:0 "êíÿçÿ" #GetTitleCHTO
+ BAN_TITLE_CHTO:0 "áàíà" #GetTitleCHTO
+ KRALJ_CHTO:0 "êðàëÿ" #GetTitleCHTO
+ CAR_CHTO:0 "öàðÿ" #GetTitleCHTO
+ VOJVODA_CHTO:0 "âîåâîäó" #GetTitleCHTO
+ DESPOT_CHTO:0 "äåñïîòà" #GetTitleCHTO
+ AUTOKRATOR_CHTO:0 "àâòîêðàòîðà" #GetTitleCHTO
+ BASILEUS_CHTO:0 "áàçèëåâñà" #GetTitleCHTO
+ MBRET_CHTO:0 "ìáðåòà" #GetTitleCHTO
+ NOMARCH_CHTO:0 "íîìàðõà" #GetTitleCHTO
+ PHARAOH_CHTO:0 "ôàðàîíà" #GetTitleCHTO
+ GREAT_PHARAOH_CHTO:0 "âåëèêîãî ôàðàîíà" #GetTitleCHTO
+ TYRANT_CHTO:0 "òèðàíà" #GetTitleCHTO
+ HEGEMON_CHTO:0 "ãåãåìîíà" #GetTitleCHTO
+ CHIEF_CHTO:0 "âîæäÿ" #GetTitleCHTO
+ REX_CHTO:0 "ðåêñà" #GetTitleCHTO
+ IMPERATOR_CHTO:0 "èìïåðàòîðà" #GetTitleCHTO
+ VOIVODE_CHTO:0 "âîåâîäó" #GetTitleCHTO
+ RAJA_CHTO:0 "ðàäæó" #GetTitleCHTO
+ MAHARAJA_CHTO:0 "ìàõàðàäæó" #GetTitleCHTO
+ CHHATRAPATI_CHTO:0 "÷õàòðàïàòè" #GetTitleCHTO
+ RANA_CHTO:0 "ðàíó" #GetTitleCHTO
+ MAHARANA_CHTO:0 "ìàõàðàíó" #GetTitleCHTO
+ PESHWA_CHTO:0 "ïåøâó" #GetTitleCHTO
+ TATKISHO_CHTO:0 "òàòêèøî" #GetTitleCHTO
+ TATO_CHTO:0 "òàòî" #GetTitleCHTO
+ ATIO_CHTO:0 "àòèî" #GetTitleCHTO
+ RAS_title_CHTO:0 "ðàñó" #GetTitleCHTO
+ NEGUS_CHTO:0 "íåãóñó" #GetTitleCHTO
+ NEGUSA_NEGAST_CHTO:0 "íåãóñà íàãàñòó" #GetTitleCHTO
+ MUGABE_CHTO:0 "ìóãàáó" #GetTitleCHTO
+ GREAT_MUGABE_CHTO:0 "âåëèêîãî ìóãàáó" #GetTitleCHTO
+ OMUKAMA_CHTO:0 "îìóêàìó" #GetTitleCHTO
+ GREAT_OMUKAMA_CHTO:0 "âåëèêîãî îìóêàìó" #GetTitleCHTO
+ BALOPWE_CHTO:0 "áàëîïâó" #GetTitleCHTO
+ MULOPWE_CHTO:0 "ìóëîïâó" #GetTitleCHTO
+ GREAT_MULOPWE_CHTO:0 "âåëèêîãî ìóëîïâó" #GetTitleCHTO
+ MWENEMUTAPA_CHTO:0 "ìâåíåìóòàïó" #GetTitleCHTO
+ GREAT_MWENEMUTAPA_CHTO:0 "âåëèêîãî ìâåíåìóòàïó" #GetTitleCHTO
+ MAMBO_CHTO:0 "ìàìáî" #GetTitleCHTO
+ GRAND_MAMBO_CHTO:0 "âåëèêîãî ìàìáî" #GetTitleCHTO
+ GREAT_MAMBO_CHTO:0 "âåðõîâíîãî ìàìáî" #GetTitleCHTO
+ BAKUNGU_CHTO:0 "áàêóíãó" #GetTitleCHTO
+ MWAMI_CHTO:0 "ìâàíè" #GetTitleCHTO
+ KABAKA_CHTO:0 "êàáàêè" #GetTitleCHTO
+ GREAT_KABAKA_CHTO:0 "âåëèêîãî êàáàêè" #GetTitleCHTO
+ ANDRIANONI_CHTO:0 "àíäðèàíîíè" #GetTitleCHTO
+ GRAND_ANDRIANONI_CHTO:0 "âåëèêîãî àíäðèàíîíè" #GetTitleCHTO
+ GREAT_ANDRIANONI_CHTO:0 "âåðõîâíîãî àíäðèàíîíè" #GetTitleCHTO
+ FILOHANY_CHTO:0 "ôèëîõàíû" #GetTitleCHTO
+ MPANJAKE_BE_CHTO:0 "ìïàíäæàê-áå" #GetTitleCHTO
+ KURAKA_CHTO:0 "êóðàêè" #GetTitleCHTO
+ APU_CHTO:0 "àïó" #GetTitleCHTO
+ SAPA_INKA_CHTO:0 "ñàïà Èíêó" #GetTitleCHTO
+ MARGRAVE_CHTO:0 "ìàðêãðàôà" #GetTitleCHTO
+ VICEROY_CHTO:0 "âèöå-êîðîëÿ" #GetTitleCHTO
+ IMAM_CHTO:0 "èìàìà" #GetTitleCHTO
+ GREAT_IMAM_CHTO:0 "âåëèêîãî èìàìà" #GetTitleCHTO
+ HIGH_IMAM_CHTO:0 "âåðõîâíîãî èìàìà" #GetTitleCHTO
+ EMIR_CHTO:0 "ýìèðà" #GetTitleCHTO
+ SULTAN_CHTO:0 "ñóëòàíà" #GetTitleCHTO
+ GREAT_SULTAN_CHTO:0 "âåëèêîãî ñóëòàíà" #GetTitleCHTO
+ DAI_male_CHTO:0 "äàè" #GetTitleCHTO
+ PADISHAH_CHTO:0 "ïàäèøàõà" #GetTitleCHTO
+ MALIK_CHTO:0 "ìàëèêà" #GetTitleCHTO
+ SHAH_CHTO:0 "øàõà" #GetTitleCHTO
+ SHAHANSHAH_CHTO:0 "øàõèíøàõà" #GetTitleCHTO
+ SHEIKH_CHTO:0 "øåéõà" #GetTitleCHTO
+ GERAD_CHTO:0 "ãåðàäà" #GetTitleCHTO
+ BEY_CHTO:0 "áåéÿ" #GetTitleCHTO
+ PRINC_CHTO:0 "êíÿçÿ" #GetTitleCHTO
+ NAWAB_CHTO:0 "íàâàáà" #GetTitleCHTO
+ NIZAM_CHTO:0 "íèçàìà" #GetTitleCHTO
+ KHEDIVE_CHTO:0 "õåäèâà" #GetTitleCHTO
+ SAOPHA_CHTO:0 "ñàîôó" #GetTitleCHTO
+ KNIAZ_CHTO:0 "êíÿçÿ" #GetTitleCHTO
+ GREAT_KNIAZ_CHTO:0 "âåëèêîãî êíÿçÿ" #GetTitleCHTO
+ TLATOANI_CHTO:0 "òëàòîàíè" #GetTitleCHTO
+ HUEHUETLATOANI_CHTO:0 "õóýé òëàòîàíè" #GetTitleCHTO
+ BISHOP_ELECTOR_CHTO:0 "åïèñêîïà-êóðôþðñòà" #GetTitleCHTO
+ ARCHBISHOP_ELECTOR_CHTO:0 "àðõèåïèñêîïà-êóðôþðñòà" #GetTitleCHTO
+ PATRIARCH_ELECTOR_CHTO:0 "ïàòðèàðõà-êóðôþðñòà" #GetTitleCHTO
+ BISHOP_CHTO:0 "åïèñêîïà" #GetTitleCHTO
+ ARCHBISHOP_CHTO:0 "àðõèåïèñêîïà" #GetTitleCHTO
+ PATRIARCH_CHTO:0 "ïàòðèàðõà" #GetTitleCHTO
+ PROTECTOR_CHTO:0 "ïðîòåêòîðà" #GetTitleCHTO
+ LORD_PROTECTOR_CHTO:0 "ëîðäà-ïðîòåêòîðà" #GetTitleCHTO
+ JINONG_CHTO:0 "äæèíîíà" #GetTitleCHTO
+ KHAN_CHTO:0 "õàíà" #GetTitleCHTO
+ KHAGAN_CHTO:0 "êàãàíà" #GetTitleCHTO
+ NUTSAL_CHTO:0 "íóöàëà" #GetTitleCHTO
+ BEILE_CHTO:0 "áýèëå" #GetTitleCHTO
+ JUNWANG_CHTO:0 "öçþíüâàíà" #GetTitleCHTO
+ HIGH_CHIEF_CHTO:0 "âåðõîâíîãî âîæäÿ" #GetTitleCHTO
+ PARAMOUNT_CHIEF_CHTO:0 "ïåðâîãî âîæäÿ" #GetTitleCHTO
+ ELDER_CHTO:0 "ñòàðåéøèíó" #GetTitleCHTO
+ HIGH_ELDER_CHTO:0 "ãëàâíîãî ñòàðåéøèíó" #GetTitleCHTO
+ PARAMOUNT_ELDER_CHTO:0 "âåðõîâíîãî ñòàðåéøèíó" #GetTitleCHTO
+ AYATOLLAH_CHTO:0 "àÿòîëëó" #GetTitleCHTO
+ KHOJA_CHTO:0 "õîäæó" #GetTitleCHTO
+ GREAT_KHOJA_CHTO:0 "âåëèêîãî õîäæó" #GetTitleCHTO
+ GREAT_EMIR_CHTO:0 "âåëèêîãî ýìèðà" #GetTitleCHTO
+ PASHA_CHTO:0 "ïàøó" #GetTitleCHTO
+ OLDERMAND_CHTO:0 "àëüäåðìàíà" #GetTitleCHTO
+ STORBONDE_CHTO:0 "ñòóðáîíäà" #GetTitleCHTO
+ LANDSBONDE_CHTO:0 "ëàíäñáîíäà" #GetTitleCHTO
+ JATHEDAR_CHTO:0 "äæàòåäàðà" #GetTitleCHTO
+ MISLDAR_CHTO:0 "ìèñàëüäàðà" #GetTitleCHTO
+ GREAT_MISLDAR_CHTO:0 "âåëèêîãî ìèñàëüäàðà" #GetTitleCHTO
+ RABBI_CHTO:0 "ðàââèíà" #GetTitleCHTO
+ GRAND_RABBI_CHTO:0 "âûñøåãî ðàââèíà" #GetTitleCHTO
+ KOHEN_GADOL_CHTO:0 "êîýí-ãàäîëÿ" #GetTitleCHTO
+ HERBAD_CHTO:0 "õèðáàäà" #GetTitleCHTO
+ MOBED_CHTO:0 "ìîáåäà" #GetTitleCHTO
+ MOABADAN_MOABAD_CHTO:0 "ìîàáàäàí ìîàáàäà" #GetTitleCHTO
+ PANDIT_CHTO:0 "ïàíäèòà" #GetTitleCHTO
+ PANDITRAO_CHTO:0 "ïàíäèòðàî" #GetTitleCHTO
+ HIGH_GURU_CHTO:0 "âûñøåãî ãóðó" #GetTitleCHTO
+ O_KANNUSHI_CHTO:0 "î'êàííóñè" #GetTitleCHTO
+ LAMA_CHTO:0 "ëàìó" #GetTitleCHTO
+ TULKU_CHTO:0 "òóëêó" #GetTitleCHTO
+ GREAT_TULKU_CHTO:0 "âåëèêîãî òóëêó" #GetTitleCHTO
+ SON_OF_HEAVEN_CHTO:0 "ñûíà Íåáà" #GetTitleCHTO
+ MICHOQ_CHTO:0 "ìè÷îêà" #GetTitleCHTO
+ HIGH_PRIEST_CHTO:0 "âåðõîâíîãî æðåöà" #GetTitleCHTO
+ WILLAQ_UMU_CHTO:0 "âèëàê óìó" #GetTitleCHTO
+ PRIEST_CHTO:0 "æðåöà" #GetTitleCHTO
+ PARAMOUNT_PRIEST_CHTO:0 "ïåðâîãî æðåöà" #GetTitleCHTO
+ TSAR_CHTO:0 "öàðÿ" #GetTitleCHTO
+ IMAME_CHTO:0 "èìàìà" #GetTitleCHTO
+ HOCHMEISTER_CHTO:0 "ãîõìåéñòåðà" #GetTitleCHTO
+ LANDMEISTER_CHTO:0 "ëàíäìåéñòåðà" #GetTitleCHTO
+ GROSSMEISTER_CHTO:0 "ãðîññìåéñòåðà" #GetTitleCHTO
+ GRAND_MASTER_CHTO:0 "âåëèêîãî ìàãèñòðà" #GetTitleCHTO
+ DOGE_CHTO:0 "äîæà" #GetTitleCHTO
+ SERENE_DOGE_CHTO:0 "ñâåòëåéøåãî äîæà" #GetTitleCHTO
+ GREAT_DOGE_CHTO:0 "âåëèêîãî äîæà" #GetTitleCHTO
+ RECTOR_CHTO:0 "ðåêòîðà" #GetTitleCHTO
+ GRAND_RECTOR_CHTO:0 "ãëàâíîãî ðåêòîðà" #GetTitleCHTO
+ GREAT_RECTOR_CHTO:0 "âåëèêîãî ðåêòîðà" #GetTitleCHTO
+ GRAND_KNIAZ_CHTO:0 "âåëèêîãî êíÿçÿ" #GetTitleCHTO
+ KEFALIJA_CHTO:0 "êåôàëà" #GetTitleCHTO
+ DUZHD_CHTO:0 "äóæà" #GetTitleCHTO
+ GONFALONIERE_CHTO:0 "ãîíôàëîíüåðà" #GetTitleCHTO
+ CONSUL_CHTO:0 "êîíñóëà" #GetTitleCHTO
+ GRAND_CONSUL_CHTO:0 "ãëàâíîãî êîíñóëà" #GetTitleCHTO
+ GREAT_CONSUL_CHTO:0 "âåëèêîãî êîíñóëà" #GetTitleCHTO
+ CAPTAIN_DEFENDER_CHTO:0 "êàïèòàíà-çàùèòíèêà" #GetTitleCHTO
+ SYNDIC_CHTO:0 "ñèíäèêà" #GetTitleCHTO
+ GRAND_SYNDIC_CHTO:0 "âåëèêîãî ñèíäèêà" #GetTitleCHTO
+ SADR_CHTO:0 "ñàäðà" #GetTitleCHTO
+ PESHWA_CHTO:0 "ïåøâó" #GetTitleCHTO
+ PRATINIDHI_CHTO:0 "ïðàòèíèäõè" #GetTitleCHTO
+ VIZIER_CHTO:0 "âèçèðÿ" #GetTitleCHTO
+ GRANDVIZIER_CHTO:0 "âåëèêîãî âèçèðÿ" #GetTitleCHTO
+ COUNCILOR_CHTO:0 "ñîâåòíèêà" #GetTitleCHTO
+ GRAND_COUNCILOR_CHTO:0 "âåëèêîãî ñîâåòíèêà" #GetTitleCHTO
+ HIGH_COUNCILOR_CHTO:0 "âåðõîâíîãî ñîâåòíèêà" #GetTitleCHTO
+ NACOM_CHTO:0 "íàêîìà" #GetTitleCHTO
+ HALACH_UINIK_CHTO:0 "õàëà÷-óèíèêà" #GetTitleCHTO
+ K_UHUL_AJAW_CHTO:0 "êóõóëü-àõàâó" #GetTitleCHTO
+ POPE_CHTO:0 "ïàïó" #GetTitleCHTO
+ DIRECTOR_CHTO:0 "äèðåêòîðà" #GetTitleCHTO
+ GOVERNOR_CHTO:0 "ãóáåðíàòîðà" #GetTitleCHTO
+ ATAMAN_CHTO:0 "àòàìàíà" #GetTitleCHTO
+ HETMAN_CHTO:0 "ãåòìàíà" #GetTitleCHTO
+ GREAT_HETMAN_CHTO:0 "âåëèêîãî ãåòìàíà" #GetTitleCHTO
+ SHARIF_CHTO:0 "øàðèôà" #GetTitleCHTO
+ GRAND_SHARIF_CHTO:0 "âåëèêîãî øàðèôà" #GetTitleCHTO
+ GREAT_SHARIF_CHTO:0 "âåðõîâíîãî øàðèôà" #GetTitleCHTO
+ DATU_CHTO:0 "äàòó" #GetTitleCHTO
+ LAKAN_CHTO:0 "ëàêàíà" #GetTitleCHTO
+ GREAT_LAKAN_CHTO:0 "âåëèêîãî ëàêàíà" #GetTitleCHTO
+ BURGMEISTER_CHTO:0 "áóðãîìèñòðà" #GetTitleCHTO
+ MAYOR_CHTO:0 "ìýðà" #GetTitleCHTO
+ ILKHAN_CHTO:0 "èëüõàíà" #GetTitleCHTO
+ SYNTH_RULER_CHTO:0 "èñïîëíèòåëÿ" #GetTitleCHTO
+ ########Женские варианты########
+ ###На вопрос это кто?
+ DUCHESS_KTO:0 "ãåðöîãèíÿ" #GetTitleKTO
+ QUEEN_KTO:0 "êîðîëåâà" #GetTitleKTO
+ EMPRESS_KTO:0 "èìïåðàòðèöà" #GetTitleKTO
+ GRAND_PENSIONARY_fem_KTO:0 "âåëèêèé ïåíñèîíàðèé" #GetTitleKTO
+ STADTHOLDERESS_KTO:0 "ñòàòõàóäòðåññà" #GetTitleKTO
+ GREAT_STADTHOLDERESS_KTO:0 "ãëàâíàÿ ñòàòõàóäòðåññà" #GetTitleKTO
+ PRINCESS_ELECTOR_KTO:0 "ãåðöîãèíÿ-êóðôþðñò" #GetTitleKTO
+ QUEEN_ELECTOR_KTO:0 "êîðîëåâà-êóðôþðñò" #GetTitleKTO
+ COUNTESS_KTO:0 "ãðàôèíÿ" #GetTitleKTO
+ HIGH_QUEEN_KTO:0 "âåðõîâíàÿ êîðîëåâà" #GetTitleKTO
+ SHOGUNESS_KTO:0 "ñ¸ãóí" #GetTitleKTO
+ LADY_KTO:0 "ëåäè" #GetTitleKTO		
+ ATABEG_fem_KTO:0 "àòàáåê" #GetTitleKTO
+ GREAT_MANSA_fem_KTO:0 "âåëèêàÿ ìàíñà" #GetTitleKTO
+ JAM_fem_KTO:0 "äæàì" #GetTitleKTO
+ GRAND_JAM_fem_KTO:0 "áîëüøàÿ äæàì" #GetTitleKTO
+ GREAT_JAM_fem_KTO:0 "âåëèêàÿ äæàì" #GetTitleKTO
+ GRAND_DUCHESS_KTO:0 "âåëèêàÿ êíÿãèíÿ" #GetTitleKTO
+ ARCHDUCHESS_KTO:0 "ýðöãåðöîãèíÿ" #GetTitleKTO
+ PRINCESS_KTO:0 "êíÿãèíÿ" #GetTitleKTO
+ KRALJICA_KTO:0 "êðàëüèöà" #GetTitleKTO
+ CARICA_KTO:0 "öàðèöà" #GetTitleKTO
+ VOJVODKINJA_KTO:0 "âîåâîäêèíà" #GetTitleKTO
+ DESPOTISSA_KTO:0 "äåñïîòèññà" #GetTitleKTO
+ AUTOKRATEIRA_KTO:0 "àâòîêðàòåéðà" #GetTitleKTO
+ BASILISSA_KTO:0 "áàçèëèññà" #GetTitleKTO
+ PHARAOH_fem_KTO:0 "ôàðàîí" #GetTitleKTO
+ GREAT_PHARAOH_fem_KTO:0 "âåëèêèé ôàðàîí" #GetTitleKTO
+ TYRANT_fem_KTO:0 "òèðàí" #GetTitleKTO
+ HEGEMON_fem_KTO:0 "ãåãåìîí" #GetTitleKTO
+ CHIEFTESS_KTO:0 "âîæäü" #GetTitleKTO
+ REGINA_KTO:0 "ðåãèíà" #GetTitleKTO
+ IMPERATRIX_KTO:0 "èìïåðàòðèöà" #GetTitleKTO
+ RANI_KTO:0 "ðàíè" #GetTitleKTO
+ MAHARANI_KTO:0 "ìàõàðàíè" #GetTitleKTO
+ TATKISHO_FEM_KTO:0 "òàòêèøî" #GetTitleKTO
+ TATO_FEM_KTO:0 "òàòî" #GetTitleKTO
+ ATIO_FEM_KTO:0 "àòèî" #GetTitleKTO
+ LE_ELT_KTO:0 "ëå'ýëüò" #GetTitleKTO
+ NIGIST_KTO:0 "íèãèñò" #GetTitleKTO
+ NIGISTE_NIGIST_KTO:0 "íèãèñòà íèãèñò" #GetTitleKTO
+ MUGO_KTO:0 "ìóãî" #GetTitleKTO
+ GREAT_MUGO_KTO:0 "âåëèêèé ìóãî" #GetTitleKTO
+ BALOPWE_fem_KTO:0 "âåëèêèé ìóãî" #GetTitleKTO
+ MULOPWE_fem_KTO:0 "ìóëîïâå" #GetTitleKTO
+ GREAT_MULOPWE_fem_KTO:0 "âåëèêàÿ ìóëîïâå" #GetTitleKTO
+ MWENEMUTAPA_fem_KTO:0 "ìâåíåìóòàïà" #GetTitleKTO
+ GREAT_MWENEMUTAPA_fem_KTO:0 "âåëèêàÿ ìâåíåìóòàïà" #GetTitleKTO
+ UMUGABEKAZI_KTO:0 "óìóãàáåêàçè" #GetTitleKTO
+ NNABAGEREKA_KTO:0 "íàáàãåðåêà" #GetTitleKTO
+ GREAT_NNABAGEREKA_KTO:0 "âåëèêèé íàáàãåðåêà" #GetTitleKTO
+ MARGRAVINE_KTO:0 "ìàðêãðàôèíÿ" #GetTitleKTO
+ VICEREINE_KTO:0 "âèöå-êîðîëåâà" #GetTitleKTO
+ EMIRA_KTO:0 "ýìèðà" #GetTitleKTO
+ SULTANA_KTO:0 "ñóëòàíà" #GetTitleKTO
+ GREAT_SULTANA_KTO:0 "âåëèêàÿ ñóëòàíà" #GetTitleKTO
+ DAI_female_KTO:0 "äàè" #GetTitleKTO
+ MALIKAH_KTO:0 "ìàëèêà" #GetTitleKTO
+ SHEIKHA_KTO:0 "øåéõà" #GetTitleKTO
+ HATUN_KTO:0 "õàòóí" #GetTitleKTO
+ PRINCEZA_KTO:0 "êíÿãèíÿ" #GetTitleKTO
+ NAWAB_BEGUM_KTO:0 "íàâàá-áåãóì" #GetTitleKTO
+ NIZAM_BEGUM_KTO:0 "íèçàì-áåãóì" #GetTitleKTO
+ KNIAGINIA_KTO:0 "êíÿãèíÿ" #GetTitleKTO
+ GREAT_KNIAGINIA_KTO:0 "âåëèêàÿ êíÿãèíÿ" #GetTitleKTO
+ BISHOP_ELECTOR_fem_KTO:0 "åïèñêîï-êóðôþðñò" #GetTitleKTO
+ ARCHBISHOP_ELECTOR_fem_KTO:0 "àðõèåïèñêîï-êóðôþðñò" #GetTitleKTO
+ MATRIARCH_ELECTOR_KTO:0 "ìàòðèàðõ-êóðôþðñò" #GetTitleKTO
+ BISHOP_fem_KTO:0 "åïèñêîï" #GetTitleKTO
+ ARCHBISHOP_fem_KTO:0 "àðõèåïèñêîï" #GetTitleKTO
+ MATRIARCH_KTO:0 "ìàòðèàðõ" #GetTitleKTO
+ PROTECTOR_fem_KTO:0 "ïðîòåêòîð" #GetTitleKTO
+ LADY_PROTECTOR_KTO:0 "ëåäè-ïðîòåêòîð" #GetTitleKTO
+ PRESIDENT_fem_KTO:0 "ïðåçèäåíò" #GetTitleKTO
+ KHATUN_KTO:0 "õàòóí" #GetTitleKTO
+ GREAT_KHATUN_KTO:0 "âåëèêàÿ õàòóí" #GetTitleKTO
+ NUTSAL_fem_KTO:0 "íóöàë" #GetTitleKTO
+ GEGE_KTO:0 "ãýãý" #GetTitleKTO
+ HIGH_CHIEFTESS_KTO:0 "âåðõîâíûé âîæäü" #GetTitleKTO
+ PARAMOUNT_CHIEFTESS_KTO:0 "ïåðâûé âîæäü" #GetTitleKTO
+ ELDER_fem_KTO:0 "ñòàðåéøèíà" #GetTitleKTO
+ HIGH_ELDER_fem_KTO:0 "ãëàâíàÿ ñòàðåéøèíà" #GetTitleKTO
+ PARAMOUNT_ELDER_fem_KTO:0 "âåðõîâíàÿ ñòàðåéøèíà" #GetTitleKTO
+ OLDERMAND_fem_KTO:0 "àëüäåðêâèíäå" #GetTitleKTO
+ STORBONDE_fem_KTO:0 "ñòóðáîíäà" #GetTitleKTO
+ LANDSBONDE_fem_KTO:0 "ëàíäñáîíäà" #GetTitleKTO
+ MOBEDYAR_KTO:0 "ìîáåäúÿð" #GetTitleKTO
+ DAUGHTER_OF_HEAVEN_KTO:0 "äî÷ü Íåáà" #GetTitleKTO
+ HIGH_PRIESTESS_KTO:0 "âåðõîâíàÿ æðèöà" #GetTitleKTO
+ PARAMOUNT_PRIESTESS_KTO:0 "ïåðâàÿ æðèöà" #GetTitleKTO
+ PRIESTESS_KTO:0 "æðèöà" #GetTitleKTO
+ TSARITSA_KTO:0 "öàðèöà" #GetTitleKTO
+ GREAT_PRINCESS_KTO:0 "âåëèêàÿ êíÿãèíÿ" #GetTitleKTO
+ DOGARESSA_KTO:0 "äîãàðåññà" #GetTitleKTO
+ SERENE_DOGARESSA_KTO:0 "ñâåòëåéøàÿ äîãàðåññà" #GetTitleKTO
+ GREAT_DOGARESSA_KTO:0 "âåëèêàÿ äîãàðåññà" #GetTitleKTO
+ RECTORA_KTO:0 "ðåêòîð" #GetTitleKTO
+ GRAND_RECTORA_KTO:0 "ãëàâíûé ðåêòîð" #GetTitleKTO
+ GREAT_RECTORA_KTO:0 "âåëèêèé ðåêòîð" #GetTitleKTO
+ GRAND_KNIAGINIA_KTO:0 "âåëèêàÿ êíÿãèíÿ" #GetTitleKTO
+ PRINCEZA_KTO:0 "êíÿãèíÿ" #GetTitleKTO
+ GONFALONIERE_fem_KTO:0 "ãîíôàëîíüåð" #GetTitleKTO
+ GRAND_CONSULESS_KTO:0 "ãëàâíûé êîíñóë" #GetTitleKTO
+ GREAT_CONSULESS_KTO:0 "âåëèêèé êîíñóë" #GetTitleKTO
+ CAPTAIN_DEFENDER_fem_KTO:0 "êàïèòàí-çàùèòíèöà" #GetTitleKTO
+ SYNDIC_fem_KTO:0 "ñèíäèê" #GetTitleKTO
+ GRAND_SYNDIC_fem_KTO:0 "âåëèêèé ñèíäèê" #GetTitleKTO
+ COUNCILOR_fem_KTO:0 "ñîâåòíèê" #GetTitleKTO
+ GRAND_COUNCILOR_fem_KTO:0 "âåëèêèé ñîâåòíèê" #GetTitleKTO
+ HIGH_COUNCILOR_fem_KTO:0 "âåðõîâíûé ñîâåòíèê" #GetTitleKTO
+ CHANCELOR_fem_KTO:0 "êàíöëåð" #GetTitleKTO
+ POPETTE_KTO:0 "ïàïåññà" #GetTitleKTO
+ GOVERNESS_KTO:0 "ãóáåðíàòîð" #GetTitleKTO
+ DIRECTORESS_KTO:0 "äèðåêòðèñà" #GetTitleKTO
+ ATAMAN_fem_KTO:0 "àòàìàí" #GetTitleKTO
+ HETMAN_fem_KTO:0 "ãåòìàí" #GetTitleKTO
+ GREAT_HETMAN_fem_KTO:0 "âåëèêèé ãåòìàí" #GetTitleKTO
+ SHARIFA_KTO:0 "øàðèôà" #GetTitleKTO
+ GRAND_SHARIFA_KTO:0 "âåëèêàÿ øàðèôà" #GetTitleKTO
+ GREAT_SHARIFA_KTO:0 "âåðõîâíàÿ øàðèôà" #GetTitleKTO
+ MAYORESS_KTO:0 "ìýð" #GetTitleKTO
+ ILKHATUN_KTO:0 "èëüõàòóí" #GetTitleKTO
+ ###На вопрос нет кого?
+ DUCHESS_OGO:0 "ãåðöîãèíè" #GetTitleOGO
+ QUEEN_OGO:0 "êîðîëåâû" #GetTitleOGO
+ EMPRESS_OGO:0 "èìïåðàòðèöû" #GetTitleOGO
+ GRAND_PENSIONARY_fem_OGO:0 "âåëèêîé ïåíñèîíàðèè" #GetTitleOGO
+ STADTHOLDERESS_OGO:0 "ñòàòõàóäòðåññû" #GetTitleOGO
+ GREAT_STADTHOLDERESS_OGO:0 "ãëàâíîé ñòàòõàóäòðåññû" #GetTitleOGO
+ PRINCESS_ELECTOR_OGO:0 "ãåðöîãèíè-êóðôþðñòà" #GetTitleOGO
+ QUEEN_ELECTOR_OGO:0 "êîðîëåâû-êóðôþðñòà" #GetTitleOGO
+ COUNTESS_OGO:0 "ãðàôèíè" #GetTitleOGO
+ HIGH_QUEEN_OGO:0 "âåðõîâíîé êîðîëåâû" #GetTitleOGO
+ SHOGUNESS_OGO:0 "ñ¸ãóíà" #GetTitleOGO
+ LADY_OGO:0 "ëåäè" #GetTitleOGO		
+ ATABEG_fem_OGO:0 "àòàáåêè" #GetTitleOGO
+ GREAT_MANSA_fem_OGO:0 "âåëèêîé ìàíñû" #GetTitleOGO
+ JAM_fem_OGO:0 "äæàìû" #GetTitleOGO
+ GRAND_JAM_fem_OGO:0 "áîëüøîé äæàìû" #GetTitleOGO
+ GREAT_JAM_fem_OGO:0 "âåëèêîé äæàìû" #GetTitleOGO
+ GRAND_DUCHESS_OGO:0 "âåëèêîé êíÿãèíè" #GetTitleOGO
+ ARCHDUCHESS_OGO:0 "ýðöãåðöîãèíè" #GetTitleOGO
+ PRINCESS_OGO:0 "êíÿãèíè" #GetTitleOGO
+ KRALJICA_OGO:0 "êðàëüèöû" #GetTitleOGO
+ CARICA_OGO:0 "öàðèöû" #GetTitleOGO
+ VOJVODKINJA_OGO:0 "âîåâîäêèíû" #GetTitleOGO
+ DESPOTISSA_OGO:0 "äåñïîòèññû" #GetTitleOGO
+ AUTOKRATEIRA_OGO:0 "àâòîêðàòåéðû" #GetTitleOGO
+ BASILISSA_OGO:0 "áàçèëèññû" #GetTitleOGO
+ PHARAOH_fem_OGO:0 "ôàðàîíà" #GetTitleOGO
+ GREAT_PHARAOH_fem_OGO:0 "âåëèêîãî ôàðàîíà" #GetTitleOGO
+ TYRANT_fem_OGO:0 "òèðàíà" #GetTitleOGO
+ HEGEMON_fem_OGO:0 "ãåãåìîíà" #GetTitleOGO
+ CHIEFTESS_OGO:0 "âîæäÿ" #GetTitleOGO
+ REGINA_OGO:0 "ðåãèíû" #GetTitleOGO
+ IMPERATRIX_OGO:0 "èìïåðàòðèöû" #GetTitleOGO
+ RANI_OGO:0 "ðàíè" #GetTitleOGO
+ MAHARANI_OGO:0 "ìàõàðàíè" #GetTitleOGO
+ TATKISHO_FEM_OGO:0 "òàòêèøî" #GetTitleOGO
+ TATO_FEM_OGO:0 "òàòî" #GetTitleOGO
+ ATIO_FEM_OGO:0 "àòèî" #GetTitleOGO
+ LE_ELT_OGO:0 "ëå'ýëüòû" #GetTitleOGO
+ NIGIST_OGO:0 "íèãèñòû" #GetTitleOGO
+ NIGISTE_NIGIST_OGO:0 "íèãèñòà íèãèñòû" #GetTitleOGO
+ MUGO_OGO:0 "ìóãî" #GetTitleOGO
+ GREAT_MUGO_OGO:0 "âåëèêîé ìóãî" #GetTitleOGO
+ BALOPWE_fem_OGO:0 "âåëèêîé ìóãî" #GetTitleOGO
+ MULOPWE_fem_OGO:0 "ìóëîïâå" #GetTitleOGO
+ GREAT_MULOPWE_fem_OGO:0 "âåëèêîé ìóëîïâå" #GetTitleOGO
+ MWENEMUTAPA_fem_OGO:0 "ìâåíåìóòàïû" #GetTitleOGO
+ GREAT_MWENEMUTAPA_fem_OGO:0 "âåëèêîé ìâåíåìóòàïû" #GetTitleOGO
+ UMUGABEKAZI_OGO:0 "óìóãàáåêàçè" #GetTitleOGO
+ NNABAGEREKA_OGO:0 "íàáàãåðåêè" #GetTitleOGO
+ GREAT_NNABAGEREKA_OGO:0 "âåëèêîé íàáàãåðåêè" #GetTitleOGO
+ MARGRAVINE_OGO:0 "ìàðêãðàôèíè" #GetTitleOGO
+ VICEREINE_OGO:0 "âèöå-êîðîëåâû" #GetTitleOGO
+ EMIRA_OGO:0 "ýìèðû" #GetTitleOGO
+ SULTANA_OGO:0 "ñóëòàíû" #GetTitleOGO
+ GREAT_SULTANA_OGO:0 "âåëèêîé ñóëòàíû" #GetTitleOGO
+ DAI_female_OGO:0 "äàè" #GetTitleOGO
+ MALIKAH_OGO:0 "ìàëèêè" #GetTitleOGO
+ SHEIKHA_OGO:0 "øåéõè" #GetTitleOGO
+ HATUN_OGO:0 "õàòóí" #GetTitleOGO
+ PRINCEZA_OGO:0 "êíÿãèíè" #GetTitleOGO
+ NAWAB_BEGUM_OGO:0 "íàâàá-áåãóì" #GetTitleOGO
+ NIZAM_BEGUM_OGO:0 "íèçàì-áåãóì" #GetTitleOGO
+ KNIAGINIA_OGO:0 "êíÿãèíè" #GetTitleOGO
+ GREAT_KNIAGINIA_OGO:0 "âåëèêîé êíÿãèíè" #GetTitleOGO
+ BISHOP_ELECTOR_fem_OGO:0 "åïèñêîïà-êóðôþðñòà" #GetTitleOGO
+ ARCHBISHOP_ELECTOR_fem_OGO:0 "àðõèåïèñêîïà-êóðôþðñòà" #GetTitleOGO
+ MATRIARCH_ELECTOR_OGO:0 "ìàòðèàðõà-êóðôþðñòà" #GetTitleOGO
+ BISHOP_fem_OGO:0 "åïèñêîïà" #GetTitleOGO
+ ARCHBISHOP_fem_OGO:0 "àðõèåïèñêîïà" #GetTitleOGO
+ MATRIARCH_OGO:0 "ìàòðèàðõà" #GetTitleOGO
+ PROTECTOR_fem_OGO:0 "ïðîòåêòîðà" #GetTitleOGO
+ LADY_PROTECTOR_OGO:0 "ëåäè-ïðîòåêòîðà" #GetTitleOGO
+ PRESIDENT_fem_OGO:0 "ïðåçèäåíòà" #GetTitleOGO
+ KHATUN_OGO:0 "õàòóí" #GetTitleOGO
+ GREAT_KHATUN_OGO:0 "âåëèêîé õàòóí" #GetTitleOGO
+ NUTSAL_fem_OGO:0 "íóöàëû" #GetTitleOGO
+ GEGE_OGO:0 "ãýãý" #GetTitleOGO
+ HIGH_CHIEFTESS_OGO:0 "âåðõîâíîãî âîæäÿ" #GetTitleOGO
+ PARAMOUNT_CHIEFTESS_OGO:0 "ïåðâîãî âîæäÿ" #GetTitleOGO
+ ELDER_fem_OGO:0 "ñòàðåéøèíû" #GetTitleOGO
+ HIGH_ELDER_fem_OGO:0 "ãëàâíîé ñòàðåéøèíû" #GetTitleOGO
+ PARAMOUNT_ELDER_fem_OGO:0 "âåðõîâíîé ñòàðåéøèíû" #GetTitleOGO
+ OLDERMAND_fem_OGO:0 "àëüäåðêâèíäû" #GetTitleOGO
+ STORBONDE_fem_OGO:0 "ñòóðáîíäû" #GetTitleOGO
+ LANDSBONDE_fem_OGO:0 "ëàíäñáîíäû" #GetTitleOGO
+ MOBEDYAR_OGO:0 "ìîáåäúÿðû" #GetTitleOGO
+ DAUGHTER_OF_HEAVEN_OGO:0 "äî÷åðè Íåáà" #GetTitleOGO
+ HIGH_PRIESTESS_OGO:0 "âåðõîâíîé æðèöû" #GetTitleOGO
+ PARAMOUNT_PRIESTESS_OGO:0 "ïåðâîé æðèöû" #GetTitleOGO
+ PRIESTESS_OGO:0 "æðèöû" #GetTitleOGO
+ TSARITSA_OGO:0 "öàðèöû" #GetTitleOGO
+ GREAT_PRINCESS_OGO:0 "âåëèêîé êíÿãèíè" #GetTitleOGO
+ DOGARESSA_OGO:0 "äîãàðåññû" #GetTitleOGO
+ SERENE_DOGARESSA_OGO:0 "ñâåòëåéøåé äîãàðåññû" #GetTitleOGO
+ GREAT_DOGARESSA_OGO:0 "âåëèêîé äîãàðåññû" #GetTitleOGO
+ RECTORA_OGO:0 "ðåêòîðà" #GetTitleOGO
+ GRAND_RECTORA_OGO:0 "ãëàâíîãî ðåêòîðà" #GetTitleOGO
+ GREAT_RECTORA_OGO:0 "âåëèêîãî ðåêòîðà" #GetTitleOGO
+ GRAND_KNIAGINIA_OGO:0 "âåëèêîé êíÿãèíè" #GetTitleOGO
+ PRINCEZA_OGO:0 "êíÿãèíè" #GetTitleOGO
+ GONFALONIERE_fem_OGO:0 "ãîíôàëîíüåðû" #GetTitleOGO
+ GRAND_CONSULESS_OGO:0 "ãëàâíîãî êîíñóëà" #GetTitleOGO
+ GREAT_CONSULESS_OGO:0 "âåëèêîãî êîíñóëà" #GetTitleOGO
+ CAPTAIN_DEFENDER_fem_OGO:0 "êàïèòàíà-çàùèòíèöû" #GetTitleOGO
+ SYNDIC_fem_OGO:0 "ñèíäèêà" #GetTitleOGO
+ GRAND_SYNDIC_fem_OGO:0 "âåëèêîãî ñèíäèêà" #GetTitleOGO
+ COUNCILOR_fem_OGO:0 "ñîâåòíèêà" #GetTitleOGO
+ GRAND_COUNCILOR_fem_OGO:0 "âåëèêîãî ñîâåòíèêà" #GetTitleOGO
+ HIGH_COUNCILOR_fem_OGO:0 "âåðõîâíîãî ñîâåòíèêà" #GetTitleOGO
+ CHANCELOR_fem_OGO:0 "êàíöëåðà" #GetTitleOGO
+ POPETTE_OGO:0 "ïàïåññû" #GetTitleOGO
+ GOVERNESS_OGO:0 "ãóáåðíàòîðà" #GetTitleOGO
+ DIRECTORESS_OGO:0 "äèðåêòðèñû" #GetTitleOGO
+ ATAMAN_fem_OGO:0 "àòàìàíà" #GetTitleOGO
+ HETMAN_fem_OGO:0 "ãåòìàíà" #GetTitleOGO
+ GREAT_HETMAN_fem_OGO:0 "âåëèêîãî ãåòìàíà" #GetTitleOGO
+ SHARIFA_OGO:0 "øàðèôû" #GetTitleOGO
+ GRAND_SHARIFA_OGO:0 "âåëèêîé øàðèôû" #GetTitleOGO
+ GREAT_SHARIFA_OGO:0 "âåðõîâíîé øàðèôû" #GetTitleOGO
+ MAYORESS_OGO:0 "ìýðà" #GetTitleOGO
+ ILKHATUN_OGO:0 "èëüõàòóí" #GetTitleOGO
+ ###На вопрос дать кому?
+ DUCHESS_OMU:0 "ãåðöîãèíå" #GetTitleOMU
+ QUEEN_OMU:0 "êîðîëåâå" #GetTitleOMU
+ EMPRESS_OMU:0 "èìïåðàòðèöå" #GetTitleOMU
+ GRAND_PENSIONARY_fem_OMU:0 "âåëèêîìó ïåíñèîíàðèþ" #GetTitleOMU
+ STADTHOLDERESS_OMU:0 "ñòàòõàóäòðåññå" #GetTitleOMU
+ GREAT_STADTHOLDERESS_OMU:0 "ãëàâíîé ñòàòõàóäòðåññå" #GetTitleOMU
+ PRINCESS_ELECTOR_OMU:0 "ãåðöîãèíå-êóðôþðñòó" #GetTitleOMU
+ QUEEN_ELECTOR_OMU:0 "êîðîëåâå-êóðôþðñòó" #GetTitleOMU
+ COUNTESS_OMU:0 "ãðàôèíå" #GetTitleOMU
+ HIGH_QUEEN_OMU:0 "âåðõîâíîé êîðîëåâå" #GetTitleOMU
+ SHOGUNESS_OMU:0 "ñ¸ãóíó" #GetTitleOMU
+ LADY_OMU:0 "ëåäè" #GetTitleOMU		
+ ATABEG_fem_OMU:0 "àòàáåêå" #GetTitleOMU
+ GREAT_MANSA_fem_OMU:0 "âåëèêîé ìàíñå" #GetTitleOMU
+ JAM_fem_OMU:0 "äæàìå" #GetTitleOMU
+ GRAND_JAM_fem_OMU:0 "áîëüøîé äæàìå" #GetTitleOMU
+ GREAT_JAM_fem_OMU:0 "âåëèêîé äæàìå" #GetTitleOMU
+ GRAND_DUCHESS_OMU:0 "âåëèêîé êíÿãèíå" #GetTitleOMU
+ ARCHDUCHESS_OMU:0 "ýðöãåðöîãèíå" #GetTitleOMU
+ PRINCESS_OMU:0 "êíÿãèíå" #GetTitleOMU
+ KRALJICA_OMU:0 "êðàëüèöå" #GetTitleOMU
+ CARICA_OMU:0 "öàðèöå" #GetTitleOMU
+ VOJVODKINJA_OMU:0 "âîåâîäêèíå" #GetTitleOMU
+ DESPOTISSA_OMU:0 "äåñïîòèññå" #GetTitleOMU
+ AUTOKRATEIRA_OMU:0 "àâòîêðàòåéðå" #GetTitleOMU
+ BASILISSA_OMU:0 "áàçèëèññå" #GetTitleOMU
+ PHARAOH_fem_OMU:0 "ôàðàîíó" #GetTitleOMU
+ GREAT_PHARAOH_fem_OMU:0 "âåëèêîìó ôàðàîíó" #GetTitleOMU
+ TYRANT_fem_OMU:0 "òèðàíå" #GetTitleOMU
+ HEGEMON_fem_OMU:0 "ãåãåìîíó" #GetTitleOMU
+ CHIEFTESS_OMU:0 "âîæäþ" #GetTitleOMU
+ REGINA_OMU:0 "ðåãèíå" #GetTitleOMU
+ IMPERATRIX_OMU:0 "èìïåðàòðèöå" #GetTitleOMU
+ RANI_OMU:0 "ðàíè" #GetTitleOMU
+ MAHARANI_OMU:0 "ìàõàðàíè" #GetTitleOMU
+ TATKISHO_FEM_OMU:0 "òàòêèøî" #GetTitleOMU
+ TATO_FEM_OMU:0 "òàòî" #GetTitleOMU
+ ATIO_FEM_OMU:0 "àòèî" #GetTitleOMU
+ LE_ELT_OMU:0 "ëå'ýëüòå" #GetTitleOMU
+ NIGIST_OMU:0 "íèãèñòå" #GetTitleOMU
+ NIGISTE_NIGIST_OMU:0 "íèãèñòà íèãèñòå" #GetTitleOMU
+ MUGO_OMU:0 "ìóãî" #GetTitleOMU
+ GREAT_MUGO_OMU:0 "âåëèêîé ìóãî" #GetTitleOMU
+ BALOPWE_fem_OMU:0 "âåëèêîé ìóãî" #GetTitleOMU
+ MULOPWE_fem_OMU:0 "ìóëîïâå" #GetTitleOMU
+ GREAT_MULOPWE_fem_OMU:0 "âåëèêîé ìóëîïâå" #GetTitleOMU
+ MWENEMUTAPA_fem_OMU:0 "ìâåíåìóòàïå" #GetTitleOMU
+ GREAT_MWENEMUTAPA_fem_OMU:0 "âåëèêîé ìâåíåìóòàïå" #GetTitleOMU
+ UMUGABEKAZI_OMU:0 "óìóãàáåêàçè" #GetTitleOMU
+ NNABAGEREKA_OMU:0 "íàáàãåðåêå" #GetTitleOMU
+ GREAT_NNABAGEREKA_OMU:0 "âåëèêîé íàáàãåðåêå" #GetTitleOMU
+ MARGRAVINE_OMU:0 "ìàðêãðàôèíå" #GetTitleOMU
+ VICEREINE_OMU:0 "âèöå-êîðîëåâå" #GetTitleOMU
+ EMIRA_OMU:0 "ýìèðå" #GetTitleOMU
+ SULTANA_OMU:0 "ñóëòàíó" #GetTitleOMU
+ GREAT_SULTANA_OMU:0 "âåëèêîìó ñóëòàíó" #GetTitleOMU
+ DAI_female_OMU:0 "äàè" #GetTitleOMU
+ MALIKAH_OMU:0 "ìàëèêå" #GetTitleOMU
+ SHEIKHA_OMU:0 "øåéõå" #GetTitleOMU
+ HATUN_OMU:0 "õàòóí" #GetTitleOMU
+ PRINCEZA_OMU:0 "êíÿãèíå" #GetTitleOMU
+ NAWAB_BEGUM_OMU:0 "íàâàá-áåãóì" #GetTitleOMU
+ NIZAM_BEGUM_OMU:0 "íèçàì-áåãóì" #GetTitleOMU
+ KNIAGINIA_OMU:0 "êíÿãèíå" #GetTitleOMU
+ GREAT_KNIAGINIA_OMU:0 "âåëèêîé êíÿãèíå" #GetTitleOMU
+ BISHOP_ELECTOR_fem_OMU:0 "åïèñêîïó-êóðôþðñòó" #GetTitleOMU
+ ARCHBISHOP_ELECTOR_fem_OMU:0 "àðõèåïèñêîïó-êóðôþðñòó" #GetTitleOMU
+ MATRIARCH_ELECTOR_OMU:0 "ìàòðèàðõó-êóðôþðñòó" #GetTitleOMU
+ BISHOP_fem_OMU:0 "åïèñêîïó" #GetTitleOMU
+ ARCHBISHOP_fem_OMU:0 "àðõèåïèñêîïó" #GetTitleOMU
+ MATRIARCH_OMU:0 "ìàòðèàðõó" #GetTitleOMU
+ PROTECTOR_fem_OMU:0 "ïðîòåêòîðó" #GetTitleOMU
+ LADY_PROTECTOR_OMU:0 "ëåäè-ïðîòåêòîðó" #GetTitleOMU
+ PRESIDENT_fem_OMU:0 "ïðåçèäåíòó" #GetTitleOMU
+ KHATUN_OMU:0 "õàòóí" #GetTitleOMU
+ GREAT_KHATUN_OMU:0 "âåëèêîé õàòóí" #GetTitleOMU
+ NUTSAL_fem_OMU:0 "íóöàëó" #GetTitleOMU
+ GEGE_OMU:0 "ãýãý" #GetTitleOMU
+ HIGH_CHIEFTESS_OMU:0 "âåðõîâíîìó âîæäþ" #GetTitleOMU
+ PARAMOUNT_CHIEFTESS_OMU:0 "ïåðâîìó âîæäþ" #GetTitleOMU
+ ELDER_fem_OMU:0 "ñòàðåéøèíå" #GetTitleOMU
+ HIGH_ELDER_fem_OMU:0 "ãëàâíîé ñòàðåéøèíå" #GetTitleOMU
+ PARAMOUNT_ELDER_fem_OMU:0 "âåðõîâíîé ñòàðåéøèíå" #GetTitleOMU
+ OLDERMAND_fem_OMU:0 "àëüäåðêâèíäå" #GetTitleOMU
+ STORBONDE_fem_OMU:0 "ñòóðáîíäå" #GetTitleOMU
+ LANDSBONDE_fem_OMU:0 "ëàíäñáîíäå" #GetTitleOMU
+ MOBEDYAR_OMU:0 "ìîáåäúÿðå" #GetTitleOMU
+ DAUGHTER_OF_HEAVEN_OMU:0 "äî÷åðè Íåáà" #GetTitleOMU
+ HIGH_PRIESTESS_OMU:0 "âåðõîâíîé æðèöå" #GetTitleOMU
+ PARAMOUNT_PRIESTESS_OMU:0 "ïåðâîé æðèöå" #GetTitleOMU
+ PRIESTESS_OMU:0 "æðèöå" #GetTitleOMU
+ TSARITSA_OMU:0 "öàðèöå" #GetTitleOMU
+ GREAT_PRINCESS_OMU:0 "âåëèêîé êíÿãèíå" #GetTitleOMU
+ DOGARESSA_OMU:0 "äîãàðåññå" #GetTitleOMU
+ SERENE_DOGARESSA_OMU:0 "ñâåòëåéøåé äîãàðåññå" #GetTitleOMU
+ GREAT_DOGARESSA_OMU:0 "âåëèêîé äîãàðåññå" #GetTitleOMU
+ RECTORA_OMU:0 "ðåêòîðó" #GetTitleOMU
+ GRAND_RECTORA_OMU:0 "ãëàâíîìó ðåêòîðó" #GetTitleOMU
+ GREAT_RECTORA_OMU:0 "âåëèêîìó ðåêòîðó" #GetTitleOMU
+ GRAND_KNIAGINIA_OMU:0 "âåëèêîé êíÿãèíå" #GetTitleOMU
+ PRINCEZA_OMU:0 "êíÿãèíå" #GetTitleOMU
+ GONFALONIERE_fem_OMU:0 "ãîíôàëîíüåðå" #GetTitleOMU
+ GRAND_CONSULESS_OMU:0 "ãëàâíîìó êîíñóëó" #GetTitleOMU
+ GREAT_CONSULESS_OMU:0 "âåëèêîìó êîíñóëó" #GetTitleOMU
+ CAPTAIN_DEFENDER_fem_OMU:0 "êàïèòàíó-çàùèòíèöå" #GetTitleOMU
+ SYNDIC_fem_OMU:0 "ñèíäèêó" #GetTitleOMU
+ GRAND_SYNDIC_fem_OMU:0 "âåëèêîìó ñèíäèêó" #GetTitleOMU
+ COUNCILOR_fem_OMU:0 "ñîâåòíèêó" #GetTitleOMU
+ GRAND_COUNCILOR_fem_OMU:0 "âåëèêîìó ñîâåòíèêó" #GetTitleOMU
+ HIGH_COUNCILOR_fem_OMU:0 "âåðõîâíîìó ñîâåòíèêó" #GetTitleOMU
+ CHANCELOR_fem_OMU:0 "êàíöëåðó" #GetTitleOMU
+ POPETTE_OMU:0 "ïàïåññå" #GetTitleOMU
+ GOVERNESS_OMU:0 "ãóáåðíàòîðó" #GetTitleOMU
+ DIRECTORESS_OMU:0 "äèðåêòðèñå" #GetTitleOMU
+ ATAMAN_fem_OMU:0 "àòàìàíó" #GetTitleOMU
+ HETMAN_fem_OMU:0 "ãåòìàíó" #GetTitleOMU
+ GREAT_HETMAN_fem_OMU:0 "âåëèêîìó ãåòìàíó" #GetTitleOMU
+ SHARIFA_OMU:0 "øàðèôå" #GetTitleOMU
+ GRAND_SHARIFA_OMU:0 "âåëèêîé øàðèôå" #GetTitleOMU
+ GREAT_SHARIFA_OMU:0 "âåðõîâíîé øàðèôå" #GetTitleOMU
+ MAYORESS_OMU:0 "ìýðó" #GetTitleOMU
+ ILKHATUN_OMU:0 "èëüõàòóí" #GetTitleOMU
+ ###На вопрос сделано кем?
+ DUCHESS_KEM:0 "ãåðöîãèíåé" #GetTitleKEM
+ QUEEN_KEM:0 "êîðîëåâîé" #GetTitleKEM
+ EMPRESS_KEM:0 "èìïåðàòðèöîé" #GetTitleKEM
+ GRAND_PENSIONARY_fem_KEM:0 "âåëèêèì ïåíñèîíàðèåì" #GetTitleKEM
+ STADTHOLDERESS_KEM:0 "ñòàòõàóäòðåññîé" #GetTitleKEM
+ GREAT_STADTHOLDERESS_KEM:0 "ãëàâíîé ñòàòõàóäòðåññîé" #GetTitleKEM
+ PRINCESS_ELECTOR_KEM:0 "ãåðöîãèíåé-êóðôþðñòîì" #GetTitleKEM
+ QUEEN_ELECTOR_KEM:0 "êîðîëåâîé-êóðôþðñòîì" #GetTitleKEM
+ COUNTESS_KEM:0 "ãðàôèíåé" #GetTitleKEM
+ HIGH_QUEEN_KEM:0 "âåðõîâíîé êîðîëåâîé" #GetTitleKEM
+ SHOGUNESS_KEM:0 "ñ¸ãóíîì" #GetTitleKEM
+ LADY_KEM:0 "ëåäè" #GetTitleKEM		
+ ATABEG_fem_KEM:0 "àòàáåêîé" #GetTitleKEM
+ GREAT_MANSA_fem_KEM:0 "âåëèêîé ìàíñîé" #GetTitleKEM
+ JAM_fem_KEM:0 "äæàìîé" #GetTitleKEM
+ GRAND_JAM_fem_KEM:0 "áîëüøîé äæàìîé" #GetTitleKEM
+ GREAT_JAM_fem_KEM:0 "âåëèêîé äæàìîé" #GetTitleKEM
+ GRAND_DUCHESS_KEM:0 "âåëèêîé êíÿãèíåé" #GetTitleKEM
+ ARCHDUCHESS_KEM:0 "ýðöãåðöîãèíåé" #GetTitleKEM
+ PRINCESS_KEM:0 "êíÿãèíåé" #GetTitleKEM
+ KRALJICA_KEM:0 "êðàëüèöåé" #GetTitleKEM
+ CARICA_KEM:0 "öàðèöåé" #GetTitleKEM
+ VOJVODKINJA_KEM:0 "âîåâîäêèíîé" #GetTitleKEM
+ DESPOTISSA_KEM:0 "äåñïîòèññîé" #GetTitleKEM
+ AUTOKRATEIRA_KEM:0 "àâòîêðàòåéðîé" #GetTitleKEM
+ BASILISSA_KEM:0 "áàçèëèññîé" #GetTitleKEM
+ PHARAOH_fem_KEM:0 "ôàðàîíîì" #GetTitleKEM
+ GREAT_PHARAOH_fem_KEM:0 "âåëèêèì ôàðàîíîì" #GetTitleKEM
+ TYRANT_fem_KEM:0 "òèðàíîì" #GetTitleKEM
+ HEGEMON_fem_KEM:0 "ãåãåìîíîì" #GetTitleKEM
+ CHIEFTESS_KEM:0 "âîæä¸ì" #GetTitleKEM
+ REGINA_KEM:0 "ðåãèíîé" #GetTitleKEM
+ IMPERATRIX_KEM:0 "èìïåðàòðèöîé" #GetTitleKEM
+ RANI_KEM:0 "ðàíè" #GetTitleKEM
+ MAHARANI_KEM:0 "ìàõàðàíè" #GetTitleKEM
+ TATKISHO_FEM_KEM:0 "òàòêèøî" #GetTitleKEM
+ TATO_FEM_KEM:0 "òàòî" #GetTitleKEM
+ ATIO_FEM_KEM:0 "àòèî" #GetTitleKEM
+ LE_ELT_KEM:0 "ëå'ýëüòîé" #GetTitleKEM
+ NIGIST_KEM:0 "íèãèñòîé" #GetTitleKEM
+ NIGISTE_NIGIST_KEM:0 "íèãèñòà íèãèñòîé" #GetTitleKEM
+ MUGO_KEM:0 "ìóãî" #GetTitleKEM
+ GREAT_MUGO_KEM:0 "âåëèêîé ìóãî" #GetTitleKEM
+ BALOPWE_fem_KEM:0 "âåëèêîé ìóãî" #GetTitleKEM
+ MULOPWE_fem_KEM:0 "ìóëîïâå" #GetTitleKEM
+ GREAT_MULOPWE_fem_KEM:0 "âåëèêîé ìóëîïâå" #GetTitleKEM
+ MWENEMUTAPA_fem_KEM:0 "ìâåíåìóòàïîé" #GetTitleKEM
+ GREAT_MWENEMUTAPA_fem_KEM:0 "âåëèêîé ìâåíåìóòàïîé" #GetTitleKEM
+ UMUGABEKAZI_KEM:0 "óìóãàáåêàçè" #GetTitleKEM
+ NNABAGEREKA_KEM:0 "íàáàãåðåêîé" #GetTitleKEM
+ GREAT_NNABAGEREKA_KEM:0 "âåëèêîé íàáàãåðåêîé" #GetTitleKEM
+ MARGRAVINE_KEM:0 "ìàðêãðàôèíåé" #GetTitleKEM
+ VICEREINE_KEM:0 "âèöå-êîðîëåâîé" #GetTitleKEM
+ EMIRA_KEM:0 "ýìèðîé" #GetTitleKEM
+ SULTANA_KEM:0 "ñóëòàíîé" #GetTitleKEM
+ GREAT_SULTANA_KEM:0 "âåëèêîé ñóëòàíîé" #GetTitleKEM
+ DAI_female_KEM:0 "äàè" #GetTitleKEM
+ MALIKAH_KEM:0 "ìàëèêîé" #GetTitleKEM
+ SHEIKHA_KEM:0 "øåéõåé" #GetTitleKEM
+ HATUN_KEM:0 "õàòóí" #GetTitleKEM
+ PRINCEZA_KEM:0 "êíÿãèíåé" #GetTitleKEM
+ NAWAB_BEGUM_KEM:0 "íàâàá-áåãóì" #GetTitleKEM
+ NIZAM_BEGUM_KEM:0 "íèçàì-áåãóì" #GetTitleKEM
+ KNIAGINIA_KEM:0 "êíÿãèíåé" #GetTitleKEM
+ GREAT_KNIAGINIA_KEM:0 "âåëèêîé êíÿãèíåé" #GetTitleKEM
+ BISHOP_ELECTOR_fem_KEM:0 "åïèñêîïîì-êóðôþðñòîì" #GetTitleKEM
+ ARCHBISHOP_ELECTOR_fem_KEM:0 "àðõèåïèñêîïîì-êóðôþðñòîì" #GetTitleKEM
+ MATRIARCH_ELECTOR_KEM:0 "ìàòðèàðõîì-êóðôþðñòîì" #GetTitleKEM
+ BISHOP_fem_KEM:0 "åïèñêîïîì" #GetTitleKEM
+ ARCHBISHOP_fem_KEM:0 "àðõèåïèñêîïîì" #GetTitleKEM
+ MATRIARCH_KEM:0 "ìàòðèàðõîì" #GetTitleKEM
+ PROTECTOR_fem_KEM:0 "ïðîòåêòîðîì" #GetTitleKEM
+ LADY_PROTECTOR_KEM:0 "ëåäè-ïðîòåêòîðîì" #GetTitleKEM
+ PRESIDENT_fem_KEM:0 "ïðåçèäåíòîì" #GetTitleKEM
+ KHATUN_KEM:0 "õàòóí" #GetTitleKEM
+ GREAT_KHATUN_KEM:0 "âåëèêîé õàòóí" #GetTitleKEM
+ NUTSAL_fem_KEM:0 "íóöàëîé" #GetTitleKEM
+ GEGE_KEM:0 "ãýãý" #GetTitleKEM
+ HIGH_CHIEFTESS_KEM:0 "âåðõîâíûì âîæä¸ì" #GetTitleKEM
+ PARAMOUNT_CHIEFTESS_KEM:0 "ïåðâûì âîæä¸ì" #GetTitleKEM
+ ELDER_fem_KEM:0 "ñòàðåéøèíîé" #GetTitleKEM
+ HIGH_ELDER_fem_KEM:0 "ãëàâíîé ñòàðåéøèíîé" #GetTitleKEM
+ PARAMOUNT_ELDER_fem_KEM:0 "âåðõîâíîé ñòàðåéøèíîé" #GetTitleKEM
+ OLDERMAND_fem_KEM:0 "àëüäåðêâèíäîé" #GetTitleKEM
+ STORBONDE_fem_KEM:0 "ñòóðáîíäîé" #GetTitleKEM
+ LANDSBONDE_fem_KEM:0 "ëàíäñáîíäîé" #GetTitleKEM
+ MOBEDYAR_KEM:0 "ìîáåäúÿðîé" #GetTitleKEM
+ DAUGHTER_OF_HEAVEN_KEM:0 "äî÷åðüþ Íåáà" #GetTitleKEM
+ HIGH_PRIESTESS_KEM:0 "âåðõîâíîé æðèöåé" #GetTitleKEM
+ PARAMOUNT_PRIESTESS_KEM:0 "ïåðâîé æðèöåé" #GetTitleKEM
+ PRIESTESS_KEM:0 "æðèöåé" #GetTitleKEM
+ TSARITSA_KEM:0 "öàðèöåé" #GetTitleKEM
+ GREAT_PRINCESS_KEM:0 "âåëèêîé êíÿãèíåé" #GetTitleKEM
+ DOGARESSA_KEM:0 "äîãàðåññîé" #GetTitleKEM
+ SERENE_DOGARESSA_KEM:0 "ñâåòëåéøåé äîãàðåññîé" #GetTitleKEM
+ GREAT_DOGARESSA_KEM:0 "âåëèêîé äîãàðåññîé" #GetTitleKEM
+ RECTORA_KEM:0 "ðåêòîðîì" #GetTitleKEM
+ GRAND_RECTORA_KEM:0 "ãëàâíûì ðåêòîðîì" #GetTitleKEM
+ GREAT_RECTORA_KEM:0 "âåëèêèì ðåêòîðîì" #GetTitleKEM
+ GRAND_KNIAGINIA_KEM:0 "âåëèêîé êíÿãèíåé" #GetTitleKEM
+ PRINCEZA_KEM:0 "êíÿãèíåé" #GetTitleKEM
+ GONFALONIERE_fem_KEM:0 "ãîíôàëîíüåðîé" #GetTitleKEM
+ GRAND_CONSULESS_KEM:0 "ãëàâíûì êîíñóëîì" #GetTitleKEM
+ GREAT_CONSULESS_KEM:0 "âåëèêèì êîíñóëîì" #GetTitleKEM
+ CAPTAIN_DEFENDER_fem_KEM:0 "êàïèòàíîì-çàùèòíèöåé" #GetTitleKEM
+ SYNDIC_fem_KEM:0 "ñèíäèêîì" #GetTitleKEM
+ GRAND_SYNDIC_fem_KEM:0 "âåëèêèì ñèíäèêîì" #GetTitleKEM
+ COUNCILOR_fem_KEM:0 "ñîâåòíèêîì" #GetTitleKEM
+ GRAND_COUNCILOR_fem_KEM:0 "âåëèêèì ñîâåòíèêîì" #GetTitleKEM
+ HIGH_COUNCILOR_fem_KEM:0 "âåðõîâíûì ñîâåòíèêîì" #GetTitleKEM
+ CHANCELOR_fem_KEM:0 "êàíöëåðîì" #GetTitleKEM
+ POPETTE_KEM:0 "ïàïåññîé" #GetTitleKEM
+ GOVERNESS_KEM:0 "ãóáåðíàòîðîì" #GetTitleKEM
+ DIRECTORESS_KEM:0 "äèðåêòðèñîé" #GetTitleKEM
+ ATAMAN_fem_KEM:0 "àòàìàíîì" #GetTitleKEM
+ HETMAN_fem_KEM:0 "ãåòìàíîì" #GetTitleKEM
+ GREAT_HETMAN_fem_KEM:0 "âåëèêèì ãåòìàíîì" #GetTitleKEM
+ SHARIFA_KEM:0 "øàðèôîé" #GetTitleKEM
+ GRAND_SHARIFA_KEM:0 "âåëèêîé øàðèôîé" #GetTitleKEM
+ GREAT_SHARIFA_KEM:0 "âåðõîâíîé øàðèôîé" #GetTitleKEM
+ MAYORESS_KEM:0 "ìýðîì" #GetTitleKEM
+ ILKHATUN_KEM:0 "èëüõàòóí" #GetTitleKEM
+ ###На вопрос о ком?
+ DUCHESS_KOM:0 "ãåðöîãèíå" #GetTitleKOM
+ QUEEN_KOM:0 "êîðîëåâå" #GetTitleKOM
+ EMPRESS_KOM:0 "èìïåðàòðèöå" #GetTitleKOM
+ GRAND_PENSIONARY_fem_KOM:0 "âåëèêîì ïåíñèîíàðèè" #GetTitleKOM
+ STADTHOLDERESS_KOM:0 "ñòàòõàóäòðåññå" #GetTitleKOM
+ GREAT_STADTHOLDERESS_KOM:0 "ãëàâíîé ñòàòõàóäòðåññå" #GetTitleKOM
+ PRINCESS_ELECTOR_KOM:0 "ãåðöîãèíå-êóðôþðñòå" #GetTitleKOM
+ QUEEN_ELECTOR_KOM:0 "êîðîëåâå-êóðôþðñòå" #GetTitleKOM
+ COUNTESS_KOM:0 "ãðàôèíå" #GetTitleKOM
+ HIGH_QUEEN_KOM:0 "âåðõîâíîé êîðîëåâå" #GetTitleKOM
+ SHOGUNESS_KOM:0 "ñ¸ãóíó" #GetTitleKOM
+ LADY_KOM:0 "ëåäè" #GetTitleKOM		
+ ATABEG_fem_KOM:0 "àòàáåêå" #GetTitleKOM
+ GREAT_MANSA_fem_KOM:0 "âåëèêîé ìàíñå" #GetTitleKOM
+ JAM_fem_KOM:0 "äæàìå" #GetTitleKOM
+ GRAND_JAM_fem_KOM:0 "áîëüøîé äæàìå" #GetTitleKOM
+ GREAT_JAM_fem_KOM:0 "âåëèêîé äæàìå" #GetTitleKOM
+ GRAND_DUCHESS_KOM:0 "âåëèêîé êíÿãèíå" #GetTitleKOM
+ ARCHDUCHESS_KOM:0 "ýðöãåðöîãèíå" #GetTitleKOM
+ PRINCESS_KOM:0 "êíÿãèíå" #GetTitleKOM
+ KRALJICA_KOM:0 "êðàëüèöå" #GetTitleKOM
+ CARICA_KOM:0 "öàðèöå" #GetTitleKOM
+ VOJVODKINJA_KOM:0 "âîåâîäêèíå" #GetTitleKOM
+ DESPOTISSA_KOM:0 "äåñïîòèññå" #GetTitleKOM
+ AUTOKRATEIRA_KOM:0 "àâòîêðàòåéðå" #GetTitleKOM
+ BASILISSA_KOM:0 "áàçèëèññå" #GetTitleKOM
+ PHARAOH_fem_KOM:0 "ôàðàîíó" #GetTitleKOM
+ GREAT_PHARAOH_fem_KOM:0 "âåëèêîìó ôàðàîíó" #GetTitleKOM
+ TYRANT_fem_KOM:0 "òèðàíó" #GetTitleKOM
+ HEGEMON_fem_KOM:0 "ãåãåìîíó" #GetTitleKOM
+ CHIEFTESS_KOM:0 "âîæäþ" #GetTitleKOM
+ REGINA_KOM:0 "ðåãèíå" #GetTitleKOM
+ IMPERATRIX_KOM:0 "èìïåðàòðèöå" #GetTitleKOM
+ RANI_KOM:0 "ðàíè" #GetTitleKOM
+ MAHARANI_KOM:0 "ìàõàðàíè" #GetTitleKOM
+ TATKISHO_FEM_KOM:0 "òàòêèøî" #GetTitleKOM
+ TATO_FEM_KOM:0 "òàòî" #GetTitleKOM
+ ATIO_FEM_KOM:0 "àòèî" #GetTitleKOM
+ LE_ELT_KOM:0 "ëå'ýëüòå" #GetTitleKOM
+ NIGIST_KOM:0 "íèãèñòå" #GetTitleKOM
+ NIGISTE_NIGIST_KOM:0 "íèãèñòà íèãèñòå" #GetTitleKOM
+ MUGO_KOM:0 "ìóãî" #GetTitleKOM
+ GREAT_MUGO_KOM:0 "âåëèêîé ìóãî" #GetTitleKOM
+ BALOPWE_fem_KOM:0 "âåëèêîé ìóãî" #GetTitleKOM
+ MULOPWE_fem_KOM:0 "ìóëîïâå" #GetTitleKOM
+ GREAT_MULOPWE_fem_KOM:0 "âåëèêîé ìóëîïâå" #GetTitleKOM
+ MWENEMUTAPA_fem_KOM:0 "ìâåíåìóòàïå" #GetTitleKOM
+ GREAT_MWENEMUTAPA_fem_KOM:0 "âåëèêîé ìâåíåìóòàïå" #GetTitleKOM
+ UMUGABEKAZI_KOM:0 "óìóãàáåêàçè" #GetTitleKOM
+ NNABAGEREKA_KOM:0 "íàáàãåðåêå" #GetTitleKOM
+ GREAT_NNABAGEREKA_KOM:0 "âåëèêîé íàáàãåðåêå" #GetTitleKOM
+ MARGRAVINE_KOM:0 "ìàðêãðàôèíå" #GetTitleKOM
+ VICEREINE_KOM:0 "âèöå-êîðîëåâå" #GetTitleKOM
+ EMIRA_KOM:0 "ýìèðå" #GetTitleKOM
+ SULTANA_KOM:0 "ñóëòàíå" #GetTitleKOM
+ GREAT_SULTANA_KOM:0 "âåëèêîé ñóëòàíå" #GetTitleKOM
+ DAI_female_KOM:0 "äàè" #GetTitleKOM
+ MALIKAH_KOM:0 "ìàëèêå" #GetTitleKOM
+ SHEIKHA_KOM:0 "øåéõå" #GetTitleKOM
+ HATUN_KOM:0 "õàòóí" #GetTitleKOM
+ PRINCEZA_KOM:0 "êíÿãèíå" #GetTitleKOM
+ NAWAB_BEGUM_KOM:0 "íàâàá-áåãóì" #GetTitleKOM
+ NIZAM_BEGUM_KOM:0 "íèçàì-áåãóì" #GetTitleKOM
+ KNIAGINIA_KOM:0 "êíÿãèíå" #GetTitleKOM
+ GREAT_KNIAGINIA_KOM:0 "âåëèêîé êíÿãèíå" #GetTitleKOM
+ BISHOP_ELECTOR_fem_KOM:0 "åïèñêîïå-êóðôþðñòå" #GetTitleKOM
+ ARCHBISHOP_ELECTOR_fem_KOM:0 "àðõèåïèñêîïå-êóðôþðñòå" #GetTitleKOM
+ MATRIARCH_ELECTOR_KOM:0 "ìàòðèàðõå-êóðôþðñòå" #GetTitleKOM
+ BISHOP_fem_KOM:0 "åïèñêîïå" #GetTitleKOM
+ ARCHBISHOP_fem_KOM:0 "àðõèåïèñêîïå" #GetTitleKOM
+ MATRIARCH_KOM:0 "ìàòðèàðõå" #GetTitleKOM
+ PROTECTOR_fem_KOM:0 "ïðîòåêòîðå" #GetTitleKOM
+ LADY_PROTECTOR_KOM:0 "ëåäè-ïðîòåêòîðå" #GetTitleKOM
+ PRESIDENT_fem_KOM:0 "ïðåçèäåíòå" #GetTitleKOM
+ KHATUN_KOM:0 "õàòóí" #GetTitleKOM
+ GREAT_KHATUN_KOM:0 "âåëèêîé õàòóí" #GetTitleKOM
+ NUTSAL_fem_KOM:0 "íóöàëå" #GetTitleKOM
+ GEGE_KOM:0 "ãýãý" #GetTitleKOM
+ HIGH_CHIEFTESS_KOM:0 "âåðõîâíîì âîæäå" #GetTitleKOM
+ PARAMOUNT_CHIEFTESS_KOM:0 "ïåðâîì âîæäå" #GetTitleKOM
+ ELDER_fem_KOM:0 "ñòàðåéøèíå" #GetTitleKOM
+ HIGH_ELDER_fem_KOM:0 "ãëàâíîé ñòàðåéøèíå" #GetTitleKOM
+ PARAMOUNT_ELDER_fem_KOM:0 "âåðõîâíîé ñòàðåéøèíå" #GetTitleKOM
+ OLDERMAND_fem_KOM:0 "àëüäåðêâèíäå" #GetTitleKOM
+ STORBONDE_fem_KOM:0 "ñòóðáîíäå" #GetTitleKOM
+ LANDSBONDE_fem_KOM:0 "ëàíäñáîíäå" #GetTitleKOM
+ MOBEDYAR_KOM:0 "ìîáåäúÿðå" #GetTitleKOM
+ DAUGHTER_OF_HEAVEN_KOM:0 "äî÷åðè Íåáà" #GetTitleKOM
+ HIGH_PRIESTESS_KOM:0 "âåðõîâíîé æðèöå" #GetTitleKOM
+ PARAMOUNT_PRIESTESS_KOM:0 "ïåðâîé æðèöå" #GetTitleKOM
+ PRIESTESS_KOM:0 "æðèöå" #GetTitleKOM
+ TSARITSA_KOM:0 "öàðèöå" #GetTitleKOM
+ GREAT_PRINCESS_KOM:0 "âåëèêîé êíÿãèíå" #GetTitleKOM
+ DOGARESSA_KOM:0 "äîãàðåññå" #GetTitleKOM
+ SERENE_DOGARESSA_KOM:0 "ñâåòëåéøåé äîãàðåññå" #GetTitleKOM
+ GREAT_DOGARESSA_KOM:0 "âåëèêîé äîãàðåññå" #GetTitleKOM
+ RECTORA_KOM:0 "ðåêòîðå" #GetTitleKOM
+ GRAND_RECTORA_KOM:0 "ãëàâíîì ðåêòîðå" #GetTitleKOM
+ GREAT_RECTORA_KOM:0 "âåëèêîì ðåêòîðå" #GetTitleKOM
+ GRAND_KNIAGINIA_KOM:0 "âåëèêîé êíÿãèíå" #GetTitleKOM
+ PRINCEZA_KOM:0 "êíÿãèíå" #GetTitleKOM
+ GONFALONIERE_fem_KOM:0 "ãîíôàëîíüåðå" #GetTitleKOM
+ GRAND_CONSULESS_KOM:0 "ãëàâíîì êîíñóëå" #GetTitleKOM
+ GREAT_CONSULESS_KOM:0 "âåëèêîì êîíñóëå" #GetTitleKOM
+ CAPTAIN_DEFENDER_fem_KOM:0 "êàïèòàíå-çàùèòíèöå" #GetTitleKOM
+ SYNDIC_fem_KOM:0 "ñèíäèêå" #GetTitleKOM
+ GRAND_SYNDIC_fem_KOM:0 "âåëèêîì ñèíäèêå" #GetTitleKOM
+ COUNCILOR_fem_KOM:0 "ñîâåòíèêå" #GetTitleKOM
+ GRAND_COUNCILOR_fem_KOM:0 "âåëèêîì ñîâåòíèêå" #GetTitleKOM
+ HIGH_COUNCILOR_fem_KOM:0 "âåðõîâíîì ñîâåòíèêå" #GetTitleKOM
+ CHANCELOR_fem_KOM:0 "êàíöëåðå" #GetTitleKOM
+ POPETTE_KOM:0 "ïàïåññå" #GetTitleKOM
+ GOVERNESS_KOM:0 "ãóáåðíàòîðå" #GetTitleKOM
+ DIRECTORESS_KOM:0 "äèðåêòðèñå" #GetTitleKOM
+ ATAMAN_fem_KOM:0 "àòàìàíå" #GetTitleKOM
+ HETMAN_fem_KOM:0 "ãåòìàíå" #GetTitleKOM
+ GREAT_HETMAN_fem_KOM:0 "âåëèêîì ãåòìàíîìå" #GetTitleKOM
+ SHARIFA_KOM:0 "øàðèôîå" #GetTitleKOM
+ GRAND_SHARIFA_KOM:0 "âåëèêîé øàðèôå" #GetTitleKOM
+ GREAT_SHARIFA_KOM:0 "âåðõîâíîé øàðèôå" #GetTitleKOM
+ MAYORESS_KOM:0 "ìýðå" #GetTitleKOM
+ ILKHATUN_KOM:0 "èëüõàòóí" #GetTitleKOM
+ ###На вопрос вижу кого?
+ DUCHESS_CHTO:0 "ãåðöîãèíþ" #GetTitleCHTO
+ QUEEN_CHTO:0 "êîðîëåâó" #GetTitleCHTO
+ EMPRESS_CHTO:0 "èìïåðàòðèöó" #GetTitleCHTO
+ GRAND_PENSIONARY_fem_CHTO:0 "âåëèêóþ ïåíñèîíàðèþ" #GetTitleCHTO
+ STADTHOLDERESS_CHTO:0 "ñòàòõàóäòðåññó" #GetTitleCHTO
+ GREAT_STADTHOLDERESS_CHTO:0 "ãëàâíóþ ñòàòõàóäòðåññó" #GetTitleCHTO
+ PRINCESS_ELECTOR_CHTO:0 "ãåðöîãèíþ-êóðôþðñòà" #GetTitleCHTO
+ QUEEN_ELECTOR_CHTO:0 "êîðîëåâó-êóðôþðñòà" #GetTitleCHTO
+ COUNTESS_CHTO:0 "ãðàôèíþ" #GetTitleCHTO
+ HIGH_QUEEN_CHTO:0 "âåðõîâíóþ êîðîëåâó" #GetTitleCHTO
+ SHOGUNESS_CHTO:0 "ñ¸ãóíà" #GetTitleCHTO
+ LADY_CHTO:0 "ëåäè" #GetTitleCHTO		
+ ATABEG_fem_CHTO:0 "àòàáåêó" #GetTitleCHTO
+ GREAT_MANSA_fem_CHTO:0 "âåëèêóþ ìàíñó" #GetTitleCHTO
+ JAM_fem_CHTO:0 "äæàì" #GetTitleCHTO
+ GRAND_JAM_fem_CHTO:0 "áîëüøóþ äæàì" #GetTitleCHTO
+ GREAT_JAM_fem_CHTO:0 "âåëèêóþ äæàì" #GetTitleCHTO
+ GRAND_DUCHESS_CHTO:0 "âåëèêóþ êíÿãèíþ" #GetTitleCHTO
+ ARCHDUCHESS_CHTO:0 "ýðöãåðöîãèíþ" #GetTitleCHTO
+ PRINCESS_CHTO:0 "êíÿãèíþ" #GetTitleCHTO
+ KRALJICA_CHTO:0 "êðàëüèöó" #GetTitleCHTO
+ CARICA_CHTO:0 "öàðèöó" #GetTitleCHTO
+ VOJVODKINJA_CHTO:0 "âîåâîäêèíó" #GetTitleCHTO
+ DESPOTISSA_CHTO:0 "äåñïîòèññó" #GetTitleCHTO
+ AUTOKRATEIRA_CHTO:0 "àâòîêðàòåéðó" #GetTitleCHTO
+ BASILISSA_CHTO:0 "áàçèëèññó" #GetTitleCHTO
+ PHARAOH_fem_CHTO:0 "ôàðàîíà" #GetTitleCHTO
+ GREAT_PHARAOH_fem_CHTO:0 "âåëèêîãî ôàðàîíà" #GetTitleCHTO
+ TYRANT_fem_CHTO:0 "òèðàíà" #GetTitleCHTO
+ HEGEMON_fem_CHTO:0 "ãåãåìîíà" #GetTitleCHTO
+ CHIEFTESS_CHTO:0 "âîæäÿ" #GetTitleCHTO
+ REGINA_CHTO:0 "ðåãèíó" #GetTitleCHTO
+ IMPERATRIX_CHTO:0 "èìïåðàòðèöó" #GetTitleCHTO
+ RANI_CHTO:0 "ðàíè" #GetTitleCHTO
+ MAHARANI_CHTO:0 "ìàõàðàíè" #GetTitleCHTO
+ TATKISHO_FEM_CHTO:0 "òàòêèøî" #GetTitleCHTO
+ TATO_FEM_CHTO:0 "òàòî" #GetTitleCHTO
+ ATIO_FEM_CHTO:0 "àòèî" #GetTitleCHTO
+ LE_ELT_CHTO:0 "ëå'ýëüò" #GetTitleCHTO
+ NIGIST_CHTO:0 "íèãèñò" #GetTitleCHTO
+ NIGISTE_NIGIST_CHTO:0 "íèãèñòà íèãèñò" #GetTitleCHTO
+ MUGO_CHTO:0 "ìóãî" #GetTitleCHTO
+ GREAT_MUGO_CHTO:0 "âåëèêóþ ìóãî" #GetTitleCHTO
+ BALOPWE_fem_CHTO:0 "âåëèêóþ ìóãî" #GetTitleCHTO
+ MULOPWE_fem_CHTO:0 "ìóëîïâå" #GetTitleCHTO
+ GREAT_MULOPWE_fem_CHTO:0 "âåëèêóþ ìóëîïâå" #GetTitleCHTO
+ MWENEMUTAPA_fem_CHTO:0 "ìâåíåìóòàïó" #GetTitleCHTO
+ GREAT_MWENEMUTAPA_fem_CHTO:0 "âåëèêóþ ìâåíåìóòàïó" #GetTitleCHTO
+ UMUGABEKAZI_CHTO:0 "óìóãàáåêàçè" #GetTitleCHTO
+ NNABAGEREKA_CHTO:0 "íàáàãåðåêó" #GetTitleCHTO
+ GREAT_NNABAGEREKA_CHTO:0 "âåëèêóþ íàáàãåðåêó" #GetTitleCHTO
+ MARGRAVINE_CHTO:0 "ìàðêãðàôèíþ" #GetTitleCHTO
+ VICEREINE_CHTO:0 "âèöå-êîðîëåâó" #GetTitleCHTO
+ EMIRA_CHTO:0 "ýìèðó" #GetTitleCHTO
+ SULTANA_CHTO:0 "ñóëòàíó" #GetTitleCHTO
+ GREAT_SULTANA_CHTO:0 "âåëèêóþ ñóëòàíó" #GetTitleCHTO
+ DAI_female_CHTO:0 "äàè" #GetTitleCHTO
+ MALIKAH_CHTO:0 "ìàëèêó" #GetTitleCHTO
+ SHEIKHA_CHTO:0 "øåéõó" #GetTitleCHTO
+ HATUN_CHTO:0 "õàòóí" #GetTitleCHTO
+ PRINCEZA_CHTO:0 "êíÿãèíþ" #GetTitleCHTO
+ NAWAB_BEGUM_CHTO:0 "íàâàá-áåãóì" #GetTitleCHTO
+ NIZAM_BEGUM_CHTO:0 "íèçàì-áåãóì" #GetTitleCHTO
+ KNIAGINIA_CHTO:0 "êíÿãèíþ" #GetTitleCHTO
+ GREAT_KNIAGINIA_CHTO:0 "âåëèêóþ êíÿãèíþ" #GetTitleCHTO
+ BISHOP_ELECTOR_fem_CHTO:0 "åïèñêîïà-êóðôþðñòà" #GetTitleCHTO
+ ARCHBISHOP_ELECTOR_fem_CHTO:0 "àðõèåïèñêîïà-êóðôþðñòà" #GetTitleCHTO
+ MATRIARCH_ELECTOR_CHTO:0 "ìàòðèàðõà-êóðôþðñòà" #GetTitleCHTO
+ BISHOP_fem_CHTO:0 "åïèñêîïà" #GetTitleCHTO
+ ARCHBISHOP_fem_CHTO:0 "àðõèåïèñêîïà" #GetTitleCHTO
+ MATRIARCH_CHTO:0 "ìàòðèàðõà" #GetTitleCHTO
+ PROTECTOR_fem_CHTO:0 "ïðîòåêòîðà" #GetTitleCHTO
+ LADY_PROTECTOR_CHTO:0 "ëåäè-ïðîòåêòîðà" #GetTitleCHTO
+ PRESIDENT_fem_CHTO:0 "ïðåçèäåíòà" #GetTitleCHTO
+ KHATUN_CHTO:0 "õàòóí" #GetTitleCHTO
+ GREAT_KHATUN_CHTO:0 "âåëèêóþ õàòóí" #GetTitleCHTO
+ NUTSAL_fem_CHTO:0 "íóöàëó" #GetTitleCHTO
+ GEGE_CHTO:0 "ãýãý" #GetTitleCHTO
+ HIGH_CHIEFTESS_CHTO:0 "âåðõîâíîãî âîæäÿ" #GetTitleCHTO
+ PARAMOUNT_CHIEFTESS_CHTO:0 "ïåðâîãî âîæäÿ" #GetTitleCHTO
+ ELDER_fem_CHTO:0 "ñòàðåéøèíó" #GetTitleCHTO
+ HIGH_ELDER_fem_CHTO:0 "ãëàâíóþ ñòàðåéøèíó" #GetTitleCHTO
+ PARAMOUNT_ELDER_fem_CHTO:0 "âåðõîâíóþ ñòàðåéøèíó" #GetTitleCHTO
+ OLDERMAND_fem_CHTO:0 "àëüäåðêâèíäó" #GetTitleCHTO
+ STORBONDE_fem_CHTO:0 "ñòóðáîíäó" #GetTitleCHTO
+ LANDSBONDE_fem_CHTO:0 "ëàíäñáîíäó" #GetTitleCHTO
+ MOBEDYAR_CHTO:0 "ìîáåäúÿðó" #GetTitleCHTO
+ DAUGHTER_OF_HEAVEN_CHTO:0 "äî÷ü Íåáà" #GetTitleCHTO
+ HIGH_PRIESTESS_CHTO:0 "âåðõîâíóþ æðèöó" #GetTitleCHTO
+ PARAMOUNT_PRIESTESS_CHTO:0 "ïåðâóþ æðèöó" #GetTitleCHTO
+ PRIESTESS_CHTO:0 "æðèöó" #GetTitleCHTO
+ TSARITSA_CHTO:0 "öàðèöó" #GetTitleCHTO
+ GREAT_PRINCESS_CHTO:0 "âåëèêóþ êíÿãèíþ" #GetTitleCHTO
+ DOGARESSA_CHTO:0 "äîãàðåññó" #GetTitleCHTO
+ SERENE_DOGARESSA_CHTO:0 "ñâåòëåéøóþ äîãàðåññó" #GetTitleCHTO
+ GREAT_DOGARESSA_CHTO:0 "âåëèêóþ äîãàðåññó" #GetTitleCHTO
+ RECTORA_CHTO:0 "ðåêòîðà" #GetTitleCHTO
+ GRAND_RECTORA_CHTO:0 "ãëàâíîãî ðåêòîðà" #GetTitleCHTO
+ GREAT_RECTORA_CHTO:0 "âåëèêîãî ðåêòîðà" #GetTitleCHTO
+ GRAND_KNIAGINIA_CHTO:0 "âåëèêóþ êíÿãèíþ" #GetTitleCHTO
+ PRINCEZA_CHTO:0 "êíÿãèíþ" #GetTitleCHTO
+ GONFALONIERE_fem_CHTO:0 "ãîíôàëîíüåðà" #GetTitleCHTO
+ GRAND_CONSULESS_CHTO:0 "ãëàâíîãî êîíñóëà" #GetTitleCHTO
+ GREAT_CONSULESS_CHTO:0 "âåëèêîãî êîíñóëà" #GetTitleCHTO
+ CAPTAIN_DEFENDER_fem_CHTO:0 "êàïèòàíà-çàùèòíèöó" #GetTitleCHTO
+ SYNDIC_fem_CHTO:0 "ñèíäèêà" #GetTitleCHTO
+ GRAND_SYNDIC_fem_CHTO:0 "âåëèêîãî ñèíäèêà" #GetTitleCHTO
+ COUNCILOR_fem_CHTO:0 "ñîâåòíèêà" #GetTitleCHTO
+ GRAND_COUNCILOR_fem_CHTO:0 "âåëèêîãî ñîâåòíèêà" #GetTitleCHTO
+ HIGH_COUNCILOR_fem_CHTO:0 "âåðõîâíîãî ñîâåòíèêà" #GetTitleCHTO
+ CHANCELOR_fem_CHTO:0 "êàíöëåðà" #GetTitleCHTO
+ POPETTE_CHTO:0 "ïàïåññó" #GetTitleCHTO
+ GOVERNESS_CHTO:0 "ãóáåðíàòîðà" #GetTitleCHTO
+ DIRECTORESS_CHTO:0 "äèðåêòðèñó" #GetTitleCHTO
+ ATAMAN_fem_CHTO:0 "àòàìàíà" #GetTitleCHTO
+ HETMAN_fem_CHTO:0 "ãåòìàíà" #GetTitleCHTO
+ GREAT_HETMAN_fem_CHTO:0 "âåëèêîãî ãåòìàíà" #GetTitleCHTO
+ SHARIFA_CHTO:0 "øàðèôû" #GetTitleCHTO
+ GRAND_SHARIFA_CHTO:0 "âåëèêóþ øàðèôó" #GetTitleCHTO
+ GREAT_SHARIFA_CHTO:0 "âåðõîâíóþ øàðèôó" #GetTitleCHTO
+ MAYORESS_CHTO:0 "ìýðà" #GetTitleCHTO
+ ILKHATUN_CHTO:0 "èëüõàòóí" #GetTitleCHTO
+ ########Варианты наследника########
+ ###На вопрос это кто?
+ HEIR_KTO:0 "íàñëåäíèê" #GetTitleHeirKTO
+ KHANZADEH_KTO:0 "õàíçàäå" #GetTitleHeirKTO
+ KHANUM_KTO:0 "õàíóì" #GetTitleHeirKTO
+ PASHAZADE_KTO:0 "ïàøàçàäå" #GetTitleHeirKTO
+ BEYSADE_KTO:0 "áåéçàäå" #GetTitleHeirKTO
+ BEYSADI_KTO:0 "áåéñàäè" #GetTitleHeirKTO
+ DAUPHIN_KTO:0 "äîôèí" #GetTitleHeirKTO
+ DAUPHINE_KTO:0 "äîôèíåññà" #GetTitleHeirKTO
+ AMIRZADE_KTO:0 "àìèðçàäå" #GetTitleHeirKTO
+ SHAHZADE_KTO:0 "øàõçàäå" #GetTitleHeirKTO
+ MIRZA_KTO:0 "ìóðçà" #GetTitleHeirKTO
+ SHAHDOKHT_KTO:0 "øàõäîõò" #GetTitleHeirKTO
+ AMIR_KTO:0 "àìèð" #GetTitleHeirKTO
+ AMIRAD_KTO:0 "àìèðàä" #GetTitleHeirKTO
+ VALI_AHAD_KTO:0 "âàëè-àõàä" #GetTitleHeirKTO
+ NAWABZADA_KTO:0 "íàáîáçàäà" #GetTitleHeirKTO
+ NIZAMZADA_KTO:0 "íèçàìçàäà" #GetTitleHeirKTO
+ RAJKUMAR_KTO:0 "ðàäæêóìàð" #GetTitleHeirKTO
+ RAJKUMARI_KTO:0 "ðàäæêóìàðè" #GetTitleHeirKTO
+ ABETO_KTO:0 "àáåòî" #GetTitleHeirKTO
+ ###На вопрос нет кого?
+ HEIR_OGO:0 "íàñëåäíèêà" #GetTitleHeirOGO
+ KHANZADEH_OGO:0 "õàíçàäå" #GetTitleHeirOGO
+ KHANUM_OGO:0 "õàíóì" #GetTitleHeirOGO
+ PASHAZADE_OGO:0 "ïàøàçàäå" #GetTitleHeirOGO
+ BEYSADE_OGO:0 "áåéçàäå" #GetTitleHeirOGO
+ BEYSADI_OGO:0 "áåéñàäè" #GetTitleHeirOGO
+ DAUPHIN_OGO:0 "äîôèíà" #GetTitleHeirOGO
+ DAUPHINE_OGO:0 "äîôèíåññû" #GetTitleHeirOGO
+ AMIRZADE_OGO:0 "àìèðçàäå" #GetTitleHeirOGO
+ SHAHZADE_OGO:0 "øàõçàäå" #GetTitleHeirOGO
+ MIRZA_OGO:0 "ìóðçû" #GetTitleHeirOGO
+ SHAHDOKHT_OGO:0 "øàõäîõò" #GetTitleHeirOGO
+ AMIR_OGO:0 "àìèðà" #GetTitleHeirOGO
+ AMIRAD_OGO:0 "àìèðàäû" #GetTitleHeirOGO
+ VALI_AHAD_OGO:0 "âàëè-àõàäà" #GetTitleHeirOGO
+ NAWABZADA_OGO:0 "íàáîáçàäû" #GetTitleHeirOGO
+ NIZAMZADA_OGO:0 "íèçàìçàäû" #GetTitleHeirOGO
+ RAJKUMAR_OGO:0 "ðàäæêóìàðà" #GetTitleHeirOGO
+ RAJKUMARI_OGO:0 "ðàäæêóìàðè" #GetTitleHeirOGO
+ ABETO_OGO:0 "àáåòî" #GetTitleHeirOGO
+ ###На вопрос дать кому?
+ HEIR_OMU:0 "íàñëåäíèêó" #GetTitleHeirOMU
+ KHANZADEH_OMU:0 "õàíçàäå" #GetTitleHeirOMU
+ KHANUM_OMU:0 "õàíóì" #GetTitleHeirOMU
+ PASHAZADE_OMU:0 "ïàøàçàäå" #GetTitleHeirOMU
+ BEYSADE_OMU:0 "áåéçàäå" #GetTitleHeirOMU
+ BEYSADI_OMU:0 "áåéñàäè" #GetTitleHeirOMU
+ DAUPHIN_OMU:0 "äîôèíó" #GetTitleHeirOMU
+ DAUPHINE_OMU:0 "äîôèíåññå" #GetTitleHeirOMU
+ AMIRZADE_OMU:0 "àìèðçàäå" #GetTitleHeirOMU
+ SHAHZADE_OMU:0 "øàõçàäå" #GetTitleHeirOMU
+ MIRZA_OMU:0 "ìóðçå" #GetTitleHeirOMU
+ SHAHDOKHT_OMU:0 "øàõäîõò" #GetTitleHeirOMU
+ AMIR_OMU:0 "àìèðó" #GetTitleHeirOMU
+ AMIRAD_OMU:0 "àìèðàäå" #GetTitleHeirOMU
+ VALI_AHAD_OMU:0 "âàëè-àõàäó" #GetTitleHeirOMU
+ NAWABZADA_OMU:0 "íàáîáçàäó" #GetTitleHeirOMU
+ NIZAMZADA_OMU:0 "íèçàìçàäó" #GetTitleHeirOMU
+ RAJKUMAR_OMU:0 "ðàäæêóìàðó" #GetTitleHeirOMU
+ RAJKUMARI_OMU:0 "ðàäæêóìàðè" #GetTitleHeirOMU
+ ABETO_OMU:0 "àáåòî" #GetTitleHeirOMU
+ ###На вопрос сделано кем?
+ HEIR_KEM:0 "íàñëåäíèêîì" #GetTitleHeirKEM
+ KHANZADEH_KEM:0 "õàíçàäå" #GetTitleHeirKEM
+ KHANUM_KEM:0 "õàíóì" #GetTitleHeirKEM
+ PASHAZADE_KEM:0 "ïàøàçàäå" #GetTitleHeirKEM
+ BEYSADE_KEM:0 "áåéçàäå" #GetTitleHeirKEM
+ BEYSADI_KEM:0 "áåéñàäè" #GetTitleHeirKEM
+ DAUPHIN_KEM:0 "äîôèíîì" #GetTitleHeirKEM
+ DAUPHINE_KEM:0 "äîôèíåññîé" #GetTitleHeirKEM
+ AMIRZADE_KEM:0 "àìèðçàäå" #GetTitleHeirKEM
+ SHAHZADE_KEM:0 "øàõçàäå" #GetTitleHeirKEM
+ MIRZA_KEM:0 "ìóðçîé" #GetTitleHeirKEM
+ SHAHDOKHT_KEM:0 "øàõäîõò" #GetTitleHeirKEM
+ AMIR_KEM:0 "àìèðîì" #GetTitleHeirKEM
+ AMIRAD_KEM:0 "àìèðàäå" #GetTitleHeirKEM
+ VALI_AHAD_KEM:0 "âàëè-àõàäîì" #GetTitleHeirKEM
+ NAWABZADA_KEM:0 "íàáîáçàäîì" #GetTitleHeirKEM
+ NIZAMZADA_KEM:0 "íèçàìçàäîì" #GetTitleHeirKEM
+ RAJKUMAR_KEM:0 "ðàäæêóìàðîì" #GetTitleHeirKEM
+ RAJKUMARI_KEM:0 "ðàäæêóìàðè" #GetTitleHeirKEM
+ ABETO_KEM:0 "àáåòî" #GetTitleHeirKEM
+ ###На вопрос о ком?
+ HEIR_KOM:0 "íàñëåäíèêå" #GetTitleHeirKOM
+ KHANZADEH_KOM:0 "õàíçàäå" #GetTitleHeirKOM
+ KHANUM_KOM:0 "õàíóì" #GetTitleHeirKOM
+ PASHAZADE_KOM:0 "ïàøàçàäå" #GetTitleHeirKOM
+ BEYSADE_KOM:0 "áåéçàäå" #GetTitleHeirKOM
+ BEYSADI_KOM:0 "áåéñàäè" #GetTitleHeirKOM
+ DAUPHIN_KOM:0 "äîôèíå" #GetTitleHeirKOM
+ DAUPHINE_KOM:0 "äîôèíåññå" #GetTitleHeirKOM
+ AMIRZADE_KOM:0 "àìèðçàäå" #GetTitleHeirKOM
+ SHAHZADE_KOM:0 "øàõçàäå" #GetTitleHeirKOM
+ MIRZA_KOM:0 "ìóðçå" #GetTitleHeirKOM
+ SHAHDOKHT_KOM:0 "øàõäîõò" #GetTitleHeirKOM
+ AMIR_KOM:0 "àìèðå" #GetTitleHeirKOM
+ AMIRAD_KOM:0 "àìèðàäå" #GetTitleHeirKOM
+ VALI_AHAD_KOM:0 "âàëè-àõàäå" #GetTitleHeirKOM
+ NAWABZADA_KOM:0 "íàáîáçàäå" #GetTitleHeirKOM
+ NIZAMZADA_KOM:0 "íèçàìçàäå" #GetTitleHeirKOM
+ RAJKUMAR_KOM:0 "ðàäæêóìàðå" #GetTitleHeirKOM
+ RAJKUMARI_KOM:0 "ðàäæêóìàðè" #GetTitleHeirKOM
+ ABETO_KOM:0 "àáåòî" #GetTitleHeirKOM
+ ###На вопрос вижу кого?
+ HEIR_CHTO:0 "íàñëåäíèêà" #GetTitleHeirCHTO
+ KHANZADEH_KOM:0 "õàíçàäå" #GetTitleHeirCHTO
+ KHANUM_KOM:0 "õàíóì" #GetTitleHeirCHTO
+ PASHAZADE_KOM:0 "ïàøàçàäå" #GetTitleHeirCHTO
+ BEYSADE_KOM:0 "áåéçàäå" #GetTitleHeirCHTO
+ BEYSADI_KOM:0 "áåéñàäè" #GetTitleHeirCHTO
+ DAUPHIN_KOM:0 "äîôèíà" #GetTitleHeirCHTO
+ DAUPHINE_KOM:0 "äîôèíåññó" #GetTitleHeirCHTO
+ AMIRZADE_KOM:0 "àìèðçàäå" #GetTitleHeirCHTO
+ SHAHZADE_KOM:0 "øàõçàäå" #GetTitleHeirCHTO
+ MIRZA_KOM:0 "ìóðçó" #GetTitleHeirCHTO
+ SHAHDOKHT_KOM:0 "øàõäîõò" #GetTitleHeirCHTO
+ AMIR_KOM:0 "àìèðà" #GetTitleHeirCHTO
+ AMIRAD_KOM:0 "àìèðàäå" #GetTitleHeirCHTO
+ VALI_AHAD_KOM:0 "âàëè-àõàäå" #GetTitleHeirCHTO
+ NAWABZADA_KOM:0 "íàáîáçàäå" #GetTitleHeirCHTO
+ NIZAMZADA_KOM:0 "íèçàìçàäå" #GetTitleHeirCHTO
+ RAJKUMAR_KOM:0 "ðàäæêóìàðà" #GetTitleHeirCHTO
+ RAJKUMARI_KOM:0 "ðàäæêóìàðè" #GetTitleHeirCHTO
+ ABETO_KOM:0 "àáåòî" #GetTitleHeirCHTO
+ ########Варианты консортов########
+ ###На вопрос это кто?
+ YEKHE_KHAGAN_KTO:0 "èõ õààí" #GetTitleConsortKTO
+ YEKHE_KHANUM_KTO:0 "èõ õààíóì" #GetTitleConsortKTO
+ PRINCE_CONSORT_KTO:0 "ïðèíö-êîíñîðò" #GetTitleConsortKTO
+ QUEEN_CONSORT_KTO:0 "êîðîëåâà-êîíñîðò" #GetTitleConsortKTO
+ EMPRESS_CONSORT_KTO:0 "èìïåðàòðèöà-êîíñîðò" #GetTitleConsortKTO
+ MARGRAVE_CONSORT_KTO:0 "ìàðêãðàô-êîíñîðò" #GetTitleConsortKTO
+ VICEROY_CONSORT_KTO:0 "âèöå-êîðîëü-êîíñîðò" #GetTitleConsortKTO
+ EMPEROR_CONSORT_KTO:0 "èìïåðàòîð-êîíñîðò" #GetTitleConsortKTO
+ ELECTOR_KTO:0 "êóðôþðñò" #GetTitleConsortKTO
+ ELECTRESS_KTO:0 "êóðôþðñòèíà" #GetTitleConsortKTO
+ SHAH_CONSORT_KTO:0 "øàõ-êîíñîðò" #GetTitleConsortKTO
+ BOQOR_KTO:0 "áîêîð" #GetTitleConsortKTO
+ BOQORAD_KTO:0 "áîêîðàò" #GetTitleConsortKTO
+ ARCHDUKE_CONSORT_KTO:0 "ýðöãåðöîã-êîíñîðò" #GetTitleConsortKTO
+ KING_CONSORT_KTO:0 "êîðîëü-êîíñîðò" #GetTitleConsortKTO
+ HASEKI_SULTAN_KTO:0 "õàñåêè-ñóëòàí" #GetTitleConsortKTO
+ GRAND_DUKE_CONSORT_KTO:0 "âåëèêèé êíÿçü-êîíñîðò" #GetTitleConsortKTO
+ PADISHAH_BEGUM_KTO:0 "ïàäèøàõ-áåãóì" #GetTitleConsortKTO
+ SULTANA_BEGUM_KTO:0 "ñóëòàíà-áåãóì" #GetTitleConsortKTO
+ PESHWIN_KTO:0 "ïåøâèí" #GetTitleConsortKTO
+ JANHOY_KTO:0 "äæàõîé" #GetTitleConsortKTO
+ ITEGE_KTO:0 "èòåãå" #GetTitleConsortKTO
+ CONSORT_KTO:0 "êîíñîðò" #GetTitleConsortKTO
+ EMIR_CONSORT_KTO:0 "ýìèð-êîíñîðò" #GetTitleConsortKTO
+ SULTAN_CONSORT_KTO:0 "ñóëòàí-êîíñîðò" #GetTitleConsortKTO
+ PADISHAH_CONSORT_KTO:0 "ïàäèøàõ-êîíñîðò" #GetTitleConsortKTO
+ ###На вопрос нет кого?
+ YEKHE_KHAGAN_OGO:0 "èõ õààíà" #GetTitleConsortOGO
+ YEKHE_KHANUM_OGO:0 "èõ õààíóì" #GetTitleConsortOGO
+ PRINCE_CONSORT_OGO:0 "ïðèíöà-êîíñîðòà" #GetTitleConsortOGO
+ QUEEN_CONSORT_OGO:0 "êîðîëåâû-êîíñîðòà" #GetTitleConsortOGO
+ EMPRESS_CONSORT_OGO:0 "èìïåðàòðèöû-êîíñîðòà" #GetTitleConsortOGO
+ MARGRAVE_CONSORT_OGO:0 "ìàðêãðàôà-êîíñîðòà" #GetTitleConsortOGO
+ VICEROY_CONSORT_OGO:0 "âèöå-êîðîëÿ-êîíñîðòà" #GetTitleConsortOGO
+ EMPEROR_CONSORT_OGO:0 "èìïåðàòîðà-êîíñîðòà" #GetTitleConsortOGO
+ ELECTOR_OGO:0 "êóðôþðñòà" #GetTitleConsortOGO
+ ELECTRESS_OGO:0 "êóðôþðñòèíû" #GetTitleConsortOGO
+ SHAH_CONSORT_OGO:0 "øàõà-êîíñîðòà" #GetTitleConsortOGO
+ BOQOR_OGO:0 "áîêîðà" #GetTitleConsortOGO
+ BOQORAD_OGO:0 "áîêîðàòû" #GetTitleConsortOGO
+ ARCHDUKE_CONSORT_OGO:0 "ýðöãåðöîãà-êîíñîðòà" #GetTitleConsortOGO
+ KING_CONSORT_OGO:0 "êîðîëÿ-êîíñîðòà" #GetTitleConsortOGO
+ HASEKI_SULTAN_OGO:0 "õàñåêè-ñóëòàí" #GetTitleConsortOGO
+ GRAND_DUKE_CONSORT_OGO:0 "âåëèêîãî êíÿçÿ-êîíñîðòà" #GetTitleConsortOGO
+ PADISHAH_BEGUM_OGO:0 "ïàäèøàõ-áåãóì" #GetTitleConsortOGO
+ SULTANA_BEGUM_OGO:0 "ñóëòàíû-áåãóì" #GetTitleConsortOGO
+ PESHWIN_OGO:0 "ïåøâèí" #GetTitleConsortOGO
+ JANHOY_OGO:0 "äæàõîÿ" #GetTitleConsortOGO
+ ITEGE_OGO:0 "èòåãå" #GetTitleConsortOGO
+ CONSORT_OGO:0 "êîíñîðòà" #GetTitleConsortOGO
+ EMIR_CONSORT_OGO:0 "ýìèðà-êîíñîðòà" #GetTitleConsortOGO
+ SULTAN_CONSORT_OGO:0 "ñóëòàíà-êîíñîðòà" #GetTitleConsortOGO
+ PADISHAH_CONSORT_OGO:0 "ïàäèøàõà-êîíñîðòà" #GetTitleConsortOGO
+ ###На вопрос дать кому?
+ YEKHE_KHAGAN_OMU:0 "èõ õààíó" #GetTitleConsortOMU
+ YEKHE_KHANUM_OMU:0 "èõ õààíóì" #GetTitleConsortOMU
+ PRINCE_CONSORT_OMU:0 "ïðèíöó-êîíñîðòó" #GetTitleConsortOMU
+ QUEEN_CONSORT_OMU:0 "êîðîëåâå-êîíñîðòó" #GetTitleConsortOMU
+ EMPRESS_CONSORT_OMU:0 "èìïåðàòðèöå-êîíñîðòó" #GetTitleConsortOMU
+ MARGRAVE_CONSORT_OMU:0 "ìàðêãðàôó-êîíñîðòó" #GetTitleConsortOMU
+ VICEROY_CONSORT_OMU:0 "âèöå-êîðîëþ-êîíñîðòó" #GetTitleConsortOMU
+ EMPEROR_CONSORT_OMU:0 "èìïåðàòîðó-êîíñîðòó" #GetTitleConsortOMU
+ ELECTOR_OMU:0 "êóðôþðñòó" #GetTitleConsortOMU
+ ELECTRESS_OMU:0 "êóðôþðñòèíå" #GetTitleConsortOMU
+ SHAH_CONSORT_OMU:0 "øàõó-êîíñîðòó" #GetTitleConsortOMU
+ BOQOR_OMU:0 "áîêîðó" #GetTitleConsortOMU
+ BOQORAD_OMU:0 "áîêîðàòå" #GetTitleConsortOMU
+ ARCHDUKE_CONSORT_OMU:0 "ýðöãåðöîãó-êîíñîðòó" #GetTitleConsortOMU
+ KING_CONSORT_OMU:0 "êîðîëþ-êîíñîðòó" #GetTitleConsortOMU
+ HASEKI_SULTAN_OMU:0 "õàñåêè-ñóëòàíå" #GetTitleConsortOMU
+ GRAND_DUKE_CONSORT_OMU:0 "âåëèêîìó êíÿçþ-êîíñîðòó" #GetTitleConsortOMU
+ PADISHAH_BEGUM_OMU:0 "ïàäèøàõ-áåãóì" #GetTitleConsortOMU
+ SULTANA_BEGUM_OMU:0 "ñóëòàíå-áåãóì" #GetTitleConsortOMU
+ PESHWIN_OMU:0 "ïåøâèí" #GetTitleConsortOMU
+ JANHOY_OMU:0 "äæàõîþ" #GetTitleConsortOMU
+ ITEGE_OMU:0 "èòåãå" #GetTitleConsortOMU
+ CONSORT_OMU:0 "êîíñîðòó" #GetTitleConsortOMU
+ EMIR_CONSORT_OMU:0 "ýìèðó-êîíñîðòó" #GetTitleConsortOMU
+ SULTAN_CONSORT_OMU:0 "ñóëòàíó-êîíñîðòó" #GetTitleConsortOMU
+ PADISHAH_CONSORT_OMU:0 "ïàäèøàõó-êîíñîðòó" #GetTitleConsortOMU
+ ###На вопрос приказано кем?
+ YEKHE_KHAGAN_KEM:0 "èõ õààíîì" #GetTitleConsortKEM
+ YEKHE_KHANUM_KEM:0 "èõ õààíóì" #GetTitleConsortKEM
+ PRINCE_CONSORT_KEM:0 "ïðèíöåì-êîíñîðòîì" #GetTitleConsortKEM
+ QUEEN_CONSORT_KEM:0 "êîðîëåâîé-êîíñîðòîì" #GetTitleConsortKEM
+ EMPRESS_CONSORT_KEM:0 "èìïåðàòðèöåé-êîíñîðòîì" #GetTitleConsortKEM
+ MARGRAVE_CONSORT_KEM:0 "ìàðêãðàôîì-êîíñîðòîì" #GetTitleConsortKEM
+ VICEROY_CONSORT_KEM:0 "âèöå-êîðîë¸ì-êîíñîðòîì" #GetTitleConsortKEM
+ EMPEROR_CONSORT_KEM:0 "èìïåðàòîðîì-êîíñîðòîì" #GetTitleConsortKEM
+ ELECTOR_KEM:0 "êóðôþðñòîì" #GetTitleConsortKEM
+ ELECTRESS_KEM:0 "êóðôþðñòèíîé" #GetTitleConsortKEM
+ SHAH_CONSORT_KEM:0 "øàõîì-êîíñîðòîì" #GetTitleConsortKEM
+ BOQOR_KEM:0 "áîêîðîì" #GetTitleConsortKEM
+ BOQORAD_KEM:0 "áîêîðàòîé" #GetTitleConsortKEM
+ ARCHDUKE_CONSORT_KEM:0 "ýðöãåðöîãîì-êîíñîðòîì" #GetTitleConsortKEM
+ KING_CONSORT_KEM:0 "êîðîë¸ì-êîíñîðòîì" #GetTitleConsortKEM
+ HASEKI_SULTAN_KEM:0 "õàñåêè-ñóëòàíîé" #GetTitleConsortKEM
+ GRAND_DUKE_CONSORT_KEM:0 "âåëèêèì êíÿçåì-êîíñîðòîì" #GetTitleConsortKEM
+ PADISHAH_BEGUM_KEM:0 "ïàäèøàõ-áåãóì" #GetTitleConsortKEM
+ SULTANA_BEGUM_KEM:0 "ñóëòàíîé-áåãóì" #GetTitleConsortKEM
+ PESHWIN_KEM:0 "ïåøâèí" #GetTitleConsortKEM
+ JANHOY_KEM:0 "äæàõîåì" #GetTitleConsortKEM
+ ITEGE_KEM:0 "èòåãå" #GetTitleConsortKEM
+ CONSORT_KEM:0 "êîíñîðòîì" #GetTitleConsortKEM
+ EMIR_CONSORT_KEM:0 "ýìèðîì-êîíñîðòîì" #GetTitleConsortKEM
+ SULTAN_CONSORT_KEM:0 "ñóëòàíîì-êîíñîðòîì" #GetTitleConsortKEM
+ PADISHAH_CONSORT_KEM:0 "ïàäèøàõîì-êîíñîðòîì" #GetTitleConsortKEM
+ ###На вопрос о ком?
+ YEKHE_KHAGAN_KOM:0 "èõ õààíå" #GetTitleConsortKOM
+ YEKHE_KHANUM_KOM:0 "èõ õààíóì" #GetTitleConsortKOM
+ PRINCE_CONSORT_KOM:0 "ïðèíöå-êîíñîðòå" #GetTitleConsortKOM
+ QUEEN_CONSORT_KOM:0 "êîðîëåâå-êîíñîðòå" #GetTitleConsortKOM
+ EMPRESS_CONSORT_KOM:0 "èìïåðàòðèöå-êîíñîðòå" #GetTitleConsortKOM
+ MARGRAVE_CONSORT_KOM:0 "ìàðêãðàôå-êîíñîðòå" #GetTitleConsortKOM
+ VICEROY_CONSORT_KOM:0 "âèöå-êîðîëå-êîíñîðòå" #GetTitleConsortKOM
+ EMPEROR_CONSORT_KOM:0 "èìïåðàòîðå-êîíñîðòå" #GetTitleConsortKOM
+ ELECTOR_KOM:0 "êóðôþðñòå" #GetTitleConsortKOM
+ ELECTRESS_KOM:0 "êóðôþðñòèíå" #GetTitleConsortKOM
+ SHAH_CONSORT_KOM:0 "øàõå-êîíñîðòå" #GetTitleConsortKOM
+ BOQOR_KOM:0 "áîêîðå" #GetTitleConsortKOM
+ BOQORAD_KOM:0 "áîêîðàòå" #GetTitleConsortKOM
+ ARCHDUKE_CONSORT_KOM:0 "ýðöãåðöîãå-êîíñîðòå" #GetTitleConsortKOM
+ KING_CONSORT_KOM:0 "êîðîëå-êîíñîðòå" #GetTitleConsortKOM
+ HASEKI_SULTAN_KOM:0 "õàñåêè-ñóëòàí" #GetTitleConsortKOM
+ GRAND_DUKE_CONSORT_KOM:0 "âåëèêîì êíÿçå-êîíñîðòå" #GetTitleConsortKOM
+ PADISHAH_BEGUM_KOM:0 "ïàäèøàõ-áåãóì" #GetTitleConsortKOM
+ SULTANA_BEGUM_KOM:0 "ñóëòàí-áåãóì" #GetTitleConsortKOM
+ PESHWIN_KOM:0 "ïåøâèí" #GetTitleConsortKOM
+ JANHOY_KOM:0 "äæàõîå" #GetTitleConsortKOM
+ ITEGE_KOM:0 "èòåãå" #GetTitleConsortKOM
+ CONSORT_KOM:0 "êîíñîðòå" #GetTitleConsortKOM
+ EMIR_CONSORT_KOM:0 "ýìèðå-êîíñîðòå" #GetTitleConsortKOM
+ SULTAN_CONSORT_KOM:0 "ñóëòàíå-êîíñîðòå" #GetTitleConsortKOM
+ PADISHAH_CONSORT_KOM:0 "ïàäèøàõå-êîíñîðòå" #GetTitleConsortKOM
+ ###На вопрос вижу кого?
+ YEKHE_KHAGAN_CHTO:0 "èõ õààíà" #GetTitleConsortCHTO
+ YEKHE_KHANUM_CHTO:0 "èõ õààíóì" #GetTitleConsortCHTO
+ PRINCE_CONSORT_CHTO:0 "ïðèíöà-êîíñîðòà" #GetTitleConsortCHTO
+ QUEEN_CONSORT_CHTO:0 "êîðîëåâó-êîíñîðòà" #GetTitleConsortCHTO
+ EMPRESS_CONSORT_CHTO:0 "èìïåðàòðèöó-êîíñîðòà" #GetTitleConsortCHTO
+ MARGRAVE_CONSORT_CHTO:0 "ìàðêãðàôà-êîíñîðòà" #GetTitleConsortCHTO
+ VICEROY_CONSORT_CHTO:0 "âèöå-êîðîëÿ-êîíñîðòà" #GetTitleConsortCHTO
+ EMPEROR_CONSORT_CHTO:0 "èìïåðàòîðà-êîíñîðòà" #GetTitleConsortCHTO
+ ELECTOR_CHTO:0 "êóðôþðñòà" #GetTitleConsortCHTO
+ ELECTRESS_CHTO:0 "êóðôþðñòèíó" #GetTitleConsortCHTO
+ SHAH_CONSORT_CHTO:0 "øàõà-êîíñîðòà" #GetTitleConsortCHTO
+ BOQOR_CHTO:0 "áîêîðà" #GetTitleConsortCHTO
+ BOQORAD_CHTO:0 "áîêîðàòó" #GetTitleConsortCHTO
+ ARCHDUKE_CONSORT_CHTO:0 "ýðöãåðöîãà-êîíñîðòà" #GetTitleConsortCHTO
+ KING_CONSORT_CHTO:0 "êîðîëÿ-êîíñîðòà" #GetTitleConsortCHTO
+ HASEKI_SULTAN_CHTO:0 "õàñåêè-ñóëòàí" #GetTitleConsortCHTO
+ GRAND_DUKE_CONSORT_CHTO:0 "âåëèêîãî êíÿçÿ-êîíñîðòà" #GetTitleConsortCHTO
+ PADISHAH_BEGUM_CHTO:0 "ïàäèøàõ-áåãóì" #GetTitleConsortCHTO
+ SULTANA_BEGUM_CHTO:0 "ñóëòàíó-áåãóì" #GetTitleConsortCHTO
+ PESHWIN_CHTO:0 "ïåøâèíó" #GetTitleConsortCHTO
+ JANHOY_CHTO:0 "äæàõîé" #GetTitleConsortCHTO
+ ITEGE_CHTO:0 "èòåãå" #GetTitleConsortCHTO
+ CONSORT_CHTO:0 "êîíñîðòà" #GetTitleConsortCHTO
+ EMIR_CONSORT_CHTO:0 "ýìèðà-êîíñîðòà" #GetTitleConsortCHTO
+ SULTAN_CONSORT_CHTO:0 "ñóëòàíà-êîíñîðòà" #GetTitleConsortCHTO
+ PADISHAH_CONSORT_CHTO:0 "ïàäèøàõà-êîíñîðòà" #GetTitleConsortCHTO
+ ###Версия 1.28
+ CAPTAIN_OGO:0 "êàïèòàíà" #GetTitleOGO
+ GRAND_CAPTAIN_OGO:0 "ãðàíä-êàïèòàíà" #GetTitleOGO
+ GRAND_ADMIRAL_OGO:0 "ãðàíä-àäìèðàëà" #GetTitleOGO
+ CAPTAIN_OMU:0 "êàïèòàíó" #GetTitleOMU
+ GRAND_CAPTAIN_OMU:0 "ãðàíä-êàïèòàíó" #GetTitleOMU
+ GRAND_ADMIRAL_OMU:0 "ãðàíä-àäìèðàëó" #GetTitleOMU
+ CAPTAIN_KEM:0 "êàïèòàíîì" #GetTitleKEM
+ GRAND_CAPTAIN_KEM:0 "ãðàíä-êàïèòàíîì" #GetTitleKEM
+ GRAND_ADMIRAL_KEM:0 "ãðàíä-àäìèðàëîì" #GetTitleKEM
+ CAPTAIN_KTO:0 "êàïèòàí" #GetTitleKTO
+ GRAND_CAPTAIN_KTO:0 "ãðàíä-êàïèòàí" #GetTitleKTO
+ GRAND_ADMIRAL_KTO:0 "ãðàíä-àäìèðàë" #GetTitleKTO
+ CAPTAIN_KOM:0 "êàïèòàíå" #GetTitleKOM
+ GRAND_CAPTAIN_KOM:0 "ãðàíä-êàïèòàíå" #GetTitleKOM
+ GRAND_ADMIRAL_KOM:0 "ãðàíä-àäìèðàëå" #GetTitleKOM
+ CAPTAIN_CHTO:0 "êàïèòàíà" #GetTitleCHTO
+ GRAND_CAPTAIN_CHTO:0 "ãðàíä-êàïèòàíà" #GetTitleCHTO
+ GRAND_ADMIRAL_CHTO:0 "ãðàíä-àäìèðàëà" #GetTitleCHTO
+ PIRATE_PRINCE_OGO:0 "ïðèíöà ïèðàòîâ" #GetTitleOGO
+ PIRATE_KING_OGO:0 "êîðîëÿ ïèðàòîâ" #GetTitleOGO
+ PIRATE_EMPEROR_OGO:0 "èìïåðàòîðà ïèðàòîâ" #GetTitleOGO
+ PIRATE_PRINCESS_OGO:0 "ïðèíöåññû ïèðàòîâ" #GetTitleOGO
+ PIRATE_QUEEN_OGO:0 "êîðîëåâû ïèðàòîâ" #GetTitleOGO
+ PIRATE_EMPRESS_OGO:0 "èìïåðàòðèöû ïèðàòîâ" #GetTitleOGO
+ PIRATE_PRINCE_OMU:0 "ïðèíöó ïèðàòîâ" #GetTitleOMU
+ PIRATE_KING_OMU:0 "êîðîëþ ïèðàòîâ" #GetTitleOMU
+ PIRATE_EMPEROR_OMU:0 "èìïåðàòîðó ïèðàòîâ" #GetTitleOMU
+ PIRATE_PRINCESS_OMU:0 "ïðèíöåññå ïèðàòîâ" #GetTitleOMU
+ PIRATE_QUEEN_OMU:0 "êîðîëåâå ïèðàòîâ" #GetTitleOMU
+ PIRATE_EMPRESS_OMU:0 "èìïåðàòðèöå ïèðàòîâ" #GetTitleOMU
+ PIRATE_PRINCE_KEM:0 "ïðèíöåì ïèðàòîâ" #GetTitleKEM
+ PIRATE_KING_KEM:0 "êîðîë¸ì ïèðàòîâ" #GetTitleKEM
+ PIRATE_EMPEROR_KEM:0 "èìïåðàòîðîì ïèðàòîâ" #GetTitleKEM
+ PIRATE_PRINCESS_KEM:0 "ïðèíöåññîé ïèðàòîâ" #GetTitleKEM
+ PIRATE_QUEEN_KEM:0 "êîðîëåâîé ïèðàòîâ" #GetTitleKEM
+ PIRATE_EMPRESS_KEM:0 "èìïåðàòðèöåé ïèðàòîâ" #GetTitleKEM
+ PIRATE_PRINCE_KTO:0 "ïðèíö ïèðàòîâ" #GetTitleKTO
+ PIRATE_KING_KTO:0 "êîðîëü ïèðàòîâ" #GetTitleKTO
+ PIRATE_EMPEROR_KTO:0 "èìïåðàòîð ïèðàòîâ" #GetTitleKTO
+ PIRATE_PRINCESS_KTO:0 "ïðèíöåññà ïèðàòîâ" #GetTitleKTO
+ PIRATE_QUEEN_KTO:0 "êîðîëåâà ïèðàòîâ" #GetTitleKTO
+ PIRATE_EMPRESS_KTO:0 "èìïåðàòðèöà ïèðàòîâ" #GetTitleKTO
+ PIRATE_PRINCE_KOM:0 "ïðèíöå ïèðàòîâ" #GetTitleKOM
+ PIRATE_KING_KOM:0 "êîðîëå ïèðàòîâ" #GetTitleKOM
+ PIRATE_EMPEROR_KOM:0 "èìïåðàòîðå ïèðàòîâ" #GetTitleKOM
+ PIRATE_PRINCESS_KOM:0 "ïðèíöåññå ïèðàòîâ" #GetTitleKOM
+ PIRATE_QUEEN_KOM:0 "êîðîëåâå ïèðàòîâ" #GetTitleKOM
+ PIRATE_EMPRESS_KOM:0 "èìïåðàòðèöå ïèðàòîâ" #GetTitleKOM
+ PIRATE_PRINCE_CHTO:0 "ïðèíöà ïèðàòîâ" #GetTitleCHTO
+ PIRATE_KING_CHTO:0 "êîðîëÿ ïèðàòîâ" #GetTitleCHTO
+ PIRATE_EMPEROR_CHTO:0 "èìïåðàòîðà ïèðàòîâ" #GetTitleCHTO
+ PIRATE_PRINCESS_CHTO:0 "ïðèíöåññó ïèðàòîâ" #GetTitleCHTO
+ PIRATE_QUEEN_CHTO:0 "êîðîëåâó ïèðàòîâ" #GetTitleCHTO
+ PIRATE_EMPRESS_CHTO:0 "èìïåðàòðèöó ïèðàòîâ" #GetTitleCHTO

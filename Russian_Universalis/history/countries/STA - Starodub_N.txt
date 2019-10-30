@@ -1,0 +1,249 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+primary_culture = russian
+religion = orthodox
+capital = 3707 # Стародуб-на-Клязьме
+
+1217.1.1 = {
+	monarch = {
+		name = "Владимир Всеволодович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1238.1.1 = {
+	monarch = {
+		name = "Иван Всеволодович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1247.1.1 = {
+	monarch = {
+		name = "Михаил Иванович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1281.1.1 = {
+	monarch = {
+		name = "Иван-Калистрат Михайлович"
+		dynasty = "Рюрикович"
+		birth_date = 1260.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1281.1.1 = {
+	heir = {
+		name = "Фёдор"
+		monarch_name = "Фёдор Иванович Благоверный"
+		dynasty = "Рюрикович"
+		birth_date = 1290.1.1
+		death_date = 1330.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1315.1.1 = {
+	monarch = {
+		name = "Фёдор Иванович Благоверный"
+		dynasty = "Рюрикович"
+		birth_date = 1290.1.1
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1315.1.1 = {
+	heir = {
+		name = "Дмитрий"
+		monarch_name = "Дмитрий Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1310.1.1
+		death_date = 1354.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Дмитрий Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1310.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1330.1.1 = {
+	heir = {
+		name = "Иван"
+		monarch_name = "Иван Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1330.1.1
+		death_date = 1363.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+
+1354.1.1 = {
+	monarch = {
+		name = "Иван Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1330.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1354.1.1 = {
+	heir = {
+		name = "Дмитрий"
+		monarch_name = "Дмитрий Иванович"
+		dynasty = "Рюрикович"
+		birth_date = 1350.1.1
+		death_date = 1363.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1363.1.1 = {
+	monarch = {
+		name = "Андрей Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1330.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1363.1.1 = {
+	heir = {
+		name = "Фёдор"
+		monarch_name = "Фёдор Андреевич"
+		dynasty = "Рюрикович"
+		birth_date = 1350.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1380.1.1 = {
+	monarch = {
+		name = "Фёдор Андреевич"
+		dynasty = "Рюрикович"
+		birth_date = 1350.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Фёдор"
+		monarch_name = "Фёдор Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1370.1.1
+		death_date = 1440.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Фёдор Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1425.1.1 = {
+	heir = {
+		name = "Владимир"
+		monarch_name = "Владимир Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1390.1.1
+		death_date = 1459.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 0
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Владимир Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1390.1.1
+		adm = 0
+		dip = 2
+		mil = 0
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Иван"
+		monarch_name = "Иван Фёдорович"
+		dynasty = "Рюрикович"
+		birth_date = 1395.1.1
+		death_date = 1459.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}

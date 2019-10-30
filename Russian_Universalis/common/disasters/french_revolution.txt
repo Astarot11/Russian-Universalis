@@ -1,0 +1,164 @@
+french_revolution = {
+	potential = {
+		NOT = { has_country_flag = had_revolution }
+		tag = FRA
+		is_free_or_tributary_trigger = yes
+		uses_doom = no
+		NOT = { revolution_target_exists = yes }
+		government = monarchy
+		NOT = { has_reform = celestial_empire }
+		normal_or_historical_nations = yes
+	}
+	
+	
+	can_start = {
+		current_age = age_of_revolutions
+		num_of_cities = 30
+		has_any_disaster = no
+		OR = {
+			NOT = { stability =	0 }
+			num_of_loans = 50
+			inflation = 10
+			war_exhaustion = 10
+			NOT = { prestige = 0 }
+		}
+	}
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			stability = 3
+		}
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 100
+			NOT = { prestige = 0 }
+		}
+		modifier = {
+			factor = 1
+			war_exhaustion = 5
+		} 
+		modifier = {
+			factor = 0.5
+			num_of_loans = 10
+			NOT = { num_of_loans = 25 }
+		}	
+		modifier = {
+			factor = 1
+			num_of_loans = 25
+		}	
+		modifier = {
+			factor = 2
+			is_bankrupt = yes
+		}		
+
+	}
+	
+	can_end = {
+		OR = {
+			AND = {
+				stability = 3
+				NOT = { num_of_rebel_controlled_provinces = 1 }
+				government = monarchy
+			}
+			AND = {
+				has_reform = revolutionary_republic_reform
+				stability = 3
+				NOT = { num_of_rebel_controlled_provinces = 1 }
+			}
+			AND = {
+				has_reform = revolutionary_republic_reform
+				is_revolution_target = yes
+				NOT = { num_of_rebel_controlled_provinces = 1 }
+				custom_trigger_tooltip = {
+					tooltip = bonaparte_flag.tooltip
+					has_ruler_flag = bonaparte_flag
+				}
+			}
+			AND = {
+				revolution_target_exists = yes
+				NOT = { FRA = { is_revolution_target = yes } }
+			}
+		}
+	}
+	
+
+	modifier = {
+		global_unrest = 10
+		stability_cost_modifier = 0.1
+	}	
+	
+	
+	on_start = french_revolution.1 #General Estates / Storming of the Bastille
+	on_end = french_revolution.18 #Long live the Republic/Monarchy
+	
+	on_monthly = {
+		events = {
+			french_revolution.2 #The French Revolution
+				 addon.1  #Night of Wonders
+				 addon.2  #Declarations of Human and Citizen Rights
+				 addon.3  #Hike to Versailles
+				 addon.4  #Guillotine Happens
+				 addon.5  #Departments
+				 addon.6  #Shooting on the Field of Mars
+				 addon.7  #Constitution 1791
+				 addon.8  #Fatherland is in Danger
+				 addon.9  #Legislative Assembly
+				 addon.10 #September Killings in Paris
+				 addon.11 #Beginning of Meetings of the Convention
+				 addon.12 #Public Security Committee
+				 french_revolution.5  #Execution of King Louis
+				 addon.13 #Mass Mobilization
+				 addon.14 #Les Enrages
+				 addon.15 #Vendee Wars
+				 addon.16 #Public Rescue Committee
+				 addon.17 #Toulon
+				 french_revolution.3  #The Reign of Terror
+				 addon.18 #Constitution 1793
+				 addon.19 #Defense of the Fatherland
+				 addon.20 #Suspicious Decree
+				 addon.21 #Republican Calendar
+				 addon.22 #Universal Maximum
+				 addon.23 #Marie-Antoinette
+				 addon.24 #Execution of the Girondists
+				 addon.25 #Feast of the Mind
+				 addon.26 #Execution of the Hebertists
+				 addon.27 #Execution of the Dantonists
+				 addon.28 #Prerial Law
+				 french_revolution.4  #The Directory
+				 addon.29 #Execution of the Jacobins
+				 addon.30 #Universal Maximum Cancellation
+				 addon.31 #Prerial Rebellion
+				 addon.32 #Franc Introduction
+				 addon.33 #Constitution 1795
+				 addon.34 #Vendémere Mutiny
+				 addon.35 #Dissolution of the Convention
+				 addon.36 #Conspiracy of Equals
+				 addon.37 #18 Fructidor
+				 french_revolution.7  #Napoléon Bonaparte
+				 addon.38 #Constitution 1799
+				 french_revolution.8  #The Infernal Machine
+				 addon.39 #Concordat of Napoleon
+				 addon.40 #Legion of Honor
+				 addon.41 #Constitution 1802
+				 addon.42 #Louis Antoine
+				 addon.43 #Constitution 1804
+				 french_revolution.9  #Aspirations of an Empire
+		}
+		random_events = {
+			1000 = 0
+			100 = french_revolution.10 #Revolutionary Republic - Manpower Drain
+			100 = french_revolution.11 #Revolutionary Republic - War Exhaustion
+			100 = french_revolution.12 #Revolutionary Republic - Financial Mismanagement
+			100 = french_revolution.13 #Revolutionary Republic - National Debt
+			100 = french_revolution.14 #Revolutionary Republic - Halting Revolution
+			100 = french_revolution.15 #Revolutionary Republic - Instability
+			100 = french_revolution.16 #Revolutionary Republic - Declining Popularity
+			#triggered: french_revolution.6 #The Chouan Revolt
+			#
+		}
+	}
+}

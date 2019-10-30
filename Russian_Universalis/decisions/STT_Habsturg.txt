@@ -1,0 +1,75 @@
+country_decisions = {
+
+  establish_maius = {
+		
+		potential = {
+			OR = {
+				tag = HAB
+				tag = AEM
+				tag = DUA
+			}
+			has_global_flag = golden_bulla
+			NOT = { has_country_modifier = aus_maius }
+			is_emperor = yes
+		}
+		allow = {
+			adm = 3
+			dip = 2
+			is_at_war = no
+			adm_power = 50
+			stability = 3
+			is_emperor = yes
+			imperial_influence = 50
+		}
+		effect = {
+			add_prestige = 15
+			add_stability = -1
+			add_treasury = -50
+			add_adm_power = -50
+			add_imperial_influence = -50
+			hidden_effect = {
+				if = {
+					limit = { imperial_influence = 50 }
+					country_event  = { id = aus_main.1 }
+				}
+				else_if = {
+					limit = { NOT = { imperial_influence = 50 } }
+					country_event  = { id = aus_main.2 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# establish_aulic = {
+		
+		# potential = {
+			# OR = {
+			# tag = HAB
+			# tag = AEM
+			# tag = DUA
+		    # }
+			# is_year = 1360
+			# NOT = { has_country_modifier = aus_aulic }
+		# }
+		# allow = {
+			# is_at_war = no
+			# adm = 2
+			# adm_power = 30
+			# legitimacy = 95
+			# stability = 2
+		# }
+		# effect = {
+			# country_event  = { id = aus_main.4 }
+			# add_stability = -1
+			# add_prestige = 10
+			# add_treasury = -100
+			# add_adm_power = -30
+			# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+}

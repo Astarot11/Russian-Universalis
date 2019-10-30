@@ -1,0 +1,36 @@
+#293 - Smolensk
+
+owner = VYZ
+controller = VYZ
+culture = russian
+religion = orthodox
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = cloth 
+base_manpower = 2
+add_local_autonomy = 75
+capital = "Vyazma"
+is_city = yes	 
+add_core = VYZ
+discovered_by = western
+discovered_by = eastern
+discovered_by = nomad_group
+
+1395.1.1 = { owner = LIT controller = LIT } # Vytautas seizes Smolensk while Yury is away
+1399.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Vytautas is defeated by the Golden Horde, rebel sentiment in Smolensk
+1401.1.1 = { revolt = {} owner = SMO controller = SMO } # Yury takes Smolensk back
+1404.1.1 = { owner = LIT controller = LIT add_core = LIT } # Vytautas strikes back once more
+1453.1.1 = { add_core = MOS }
+1494.1.1 = { controller = MOS owner = MOS }
+1547.1.16 = { owner = TSR controller = TSR add_core = TSR remove_core = MOS } ## Ivav IV - tsar
+1569.7.4 = { remove_core = LIT } # Polish-Lithuanian Commonwealth
+1602.1.1 = { fort_15th = no fort_16th = yes } # Heavily fortified
+1611.1.1 = { controller = PLC }
+1613.1.1 = { controller = TSR } # Poles driven out
+1618.12.11 = { owner = TSR owner = TSR controller = TSR } # Truce of Deulino
+1667.1.1 = { remove_core = LIT remove_core = PLC } # Treaty of Andrusovo
+1711.1.1 = { base_tax = 5 base_production = 5 } # Governmental reforms and the absolutism
+1721.11.2 = { owner = RUS controller = RUS add_core = RUS remove_core = TSR } ## Potr I - imperator
+1812.8.17 = { controller = FRA } # Battle of Smolensk
+1812.11.9 = { controller = RUS }

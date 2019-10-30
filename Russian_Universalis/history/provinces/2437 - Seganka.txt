@@ -1,0 +1,23 @@
+#2437 - Seganka
+
+owner = KDA
+controller = KDA
+add_core = KDA
+culture = ostyaki
+religion = siberian_shamanism
+capital = "Nizyani"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+discovered_by = eastern
+discovered_by = nomad_group
+
+1593.1.1 = {
+	discovered_by = TSR
+	owner = TSR
+	controller = TSR
+	add_core = TSR
+} # Berezov founded
+1721.11.2 = { owner = RUS controller = RUS add_core = RUS remove_core = TSR } ## Potr I - imperator

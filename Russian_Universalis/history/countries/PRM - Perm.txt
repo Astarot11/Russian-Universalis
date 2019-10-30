@@ -1,0 +1,71 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+primary_culture = uralic
+religion = siberian_shamanism
+technology_group = eastern
+capital = 1963	# Cherdyn
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Ермолай I"
+		dynasty = "Великопермский"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Михаил"
+		monarch_name = "Михаил I"
+		dynasty = "Великопермский"
+		birth_date = 1420.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Михаил I"
+		dynasty = "Великопермский"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Матвей"
+		monarch_name = "Матвей I"
+		dynasty = "Великопермский"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1462.1.1 = {
+	religion = orthodox
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Матвей I"
+		dynasty = "Великопермский"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}

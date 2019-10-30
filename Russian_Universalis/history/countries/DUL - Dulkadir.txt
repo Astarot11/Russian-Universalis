@@ -1,0 +1,309 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 332	# Dulkadir
+
+1337.1.1 = {
+	monarch = {
+		name = "Караджа Заин ад-Дин"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1300.1.1
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+}
+
+1337.1.1 = {
+	heir = {
+		name = "Халил Чарс ад-Дин"
+		monarch_name = "Халил Чарс ад-Дин"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1320.1.1
+		death_date = 1386.1.1
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1353.12.11 = {
+	monarch = {
+		name = "Халил Чарс ад-Дин"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1320.1.1
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1356.1.1 = {
+	heir = {
+		name = "Сули Шабан"
+		monarch_name = "Сули Шабан"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1356.1.1
+		death_date = 3000.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1386.1.1 = {
+	monarch = {
+		name = "Сули Шабан"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1320.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1386.1.1 = {
+	heir = {
+		name = "Садака"
+		monarch_name = "Садака"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1340.1.1
+		death_date = 1399.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 1
+	}
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Садака"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1340.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1386.1.1 = {
+	heir = {
+		name = "Мухаммад"
+		monarch_name = "Мухаммад Насир ад-Дин"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1366.1.1
+		death_date = 1442.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Мухаммад Насир ад-Дин"
+		dynasty = Зуль-Кадар
+		birth_date = 1366.1.1
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+	add_piety = 0.25
+}
+
+1398.1.1 = {
+	heir = {
+		name = "Сулайман"
+		monarch_name = "Сулайман"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1398.1.1
+		death_date = 1454.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1420.1.1 = { historical_rival = MAM }	### STT
+
+1442.1.1 = {
+	monarch = {
+		name = "Сулайман"
+		dynasty = Зуль-Кадар
+		birth_date = 1398.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Арслан"
+		monarch_name = "Арслан Малик"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1428.1.1
+		death_date = 1465.1.1     
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+
+1454.1.1 = {
+	monarch = {
+		name = "Арслан Малик"
+		dynasty = Зуль-Кадар
+		birth_date = 1428.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}                                 
+
+1454.1.1 = {
+	heir = {
+		name = "Будак"
+		monarch_name = "Шах-Будак"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1430.1.1
+		death_date = 1492.10.1
+		claim = 75
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Шах-Будак"
+		dynasty = Зуль-Кадар
+		birth_date = 1430.1.1
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Сувар"
+		monarch_name = "Шах-Сувар"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1430.1.1
+		death_date = 1472.1.1    
+		claim = 75
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}                                    
+
+1466.10.1 = {
+	monarch = {
+		name = "Шах-Сувар"
+		dynasty = Зуль-Кадар
+		birth_date = 1430.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1466.10.1 = {
+	heir = {
+		name = "Будак"
+		monarch_name = "Шах-Будак"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1430.1.1
+		death_date = 1492.1.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Шах-Будак"
+		dynasty = Зуль-Кадар
+		birth_date = 1430.1.1
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+} 					
+
+1472.1.1 = {
+	heir = {
+		name = "Бузкурд"
+		monarch_name = "Бузкурд Ала ад-Дин-Даула"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1460.1.1
+		death_date = 1515.6.12
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Бузкурд Ала ад-Дин-Даула"
+		dynasty = Зуль-Кадар
+		birth_date = 1460.1.1
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1479.1.1 = {
+	heir = {
+		name = "Али"
+		monarch_name = "Али"
+		dynasty = "Зуль-Кадар"
+		birth_date = 1479.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+1515.6.12 = {
+	monarch = {
+		name = "Али"
+		dynasty = Зуль-Кадар
+		birth_date = 1479.1.1
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+# Завоёвано Портой
+
+1522.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

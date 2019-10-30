@@ -1,0 +1,579 @@
+# #Grand Duchy Russia
+# rus_government = {
+	# color = { 140 50 50 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# primary_culture = russian
+	# }
+	# max_states = 10
+	
+	# rank = {
+		# 1 = {
+			# global_unrest = -1
+			# land_morale = 0.10
+			# global_autonomy = -0.05
+			# yearly_absolutism = 0.1
+		# }
+		# 2 = {
+			# land_morale = 0.10
+			# global_unrest = -1
+			# global_autonomy = -0.1
+			# yearly_absolutism = 0.2		
+		# }
+		# 3 = {
+			# land_morale = 0.10
+			# global_unrest = -1	
+			# global_autonomy = -0.15
+			# yearly_absolutism = 0.3
+		# }
+	# }
+	# government_abilities = {
+		# russian_mechanic
+	# }
+	# claim_states = yes
+# }
+# rus_imperial_government = {
+	# color = { 140 50 50 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# primary_culture = russian
+	# }
+	
+	# rank = {
+		# 1 = {
+			# land_morale = 0.10
+			# stability_cost_modifier = -0.20
+			# army_tradition_decay = -0.02
+			# global_autonomy = -0.1
+			# yearly_absolutism = 0.1
+		# }
+		# 2 = {
+			# land_morale = 0.10
+			# stability_cost_modifier = -0.20
+			# army_tradition_decay = -0.02
+			# global_autonomy = -0.15
+			# yearly_absolutism = 0.2		
+		# }
+		# 3 = {
+			# land_morale = 0.10
+			# stability_cost_modifier = -0.20
+			# army_tradition_decay = -0.02
+			# global_autonomy = -0.2
+			# yearly_absolutism = 0.3
+		# }
+	# }
+	# government_abilities = {
+		# russian_mechanic
+	# }
+	# claim_states = yes
+# }
+
+# #Prussian Branderburg Empire
+# reich_government = {
+	# color = { 179 100 100 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# culture_group = germanic
+	# }
+			
+	# rank = {
+		# 1 = {
+			# discipline = 0.025
+			# infantry_power = 0.1
+			# production_efficiency = 0.05		
+			# global_autonomy = -0.1
+		# }
+		# 2 = {
+			# discipline = 0.025
+			# infantry_power = 0.1
+			# production_efficiency = 0.05	
+			# global_autonomy = -0.15
+		# }
+		# 3 = {
+			# discipline = 0.025
+			# infantry_power = 0.1
+			# production_efficiency = 0.05	
+			# global_autonomy = -0.2
+		# }
+	# }
+# }
+
+# #Austria Special.
+# kaiserreich_government = {
+	# color = { 179 100 100 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# culture_group = austrian
+	# }
+
+	# rank = {
+		# 1 = {
+			# core_creation = -0.2
+			# vassal_income = 0.10
+			# legitimacy = 0.5
+			# global_autonomy = -0.1
+		# }
+		# 2 = {
+			# core_creation = -0.2
+			# vassal_income = 0.10
+			# legitimacy = 0.5
+			# global_autonomy = -0.15
+		# }
+		# 3 = {
+			# core_creation = -0.2
+			# vassal_income = 0.10
+			# legitimacy = 0.5
+			# global_autonomy = -0.2
+		# }
+	# }
+# }
+
+
+# #Roman Empire Special.
+# byz_government = {
+	# color = { 126  203  120 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# culture_group = byzantine
+	# }
+			
+	# rank = {
+		# 1 = {
+			# production_efficiency = 0.1
+			# diplomatic_upkeep = 1
+			# global_tax_modifier = 0.15
+			# global_autonomy = -0.10
+		# }
+		# 2 = {
+			# production_efficiency = 0.1
+			# diplomatic_upkeep = 1
+			# global_tax_modifier = 0.15
+			# global_autonomy = -0.15
+		# }
+		# 3 = {
+			# production_efficiency = 0.1
+			# diplomatic_upkeep = 1
+			# global_tax_modifier = 0.15
+			# global_autonomy = -0.2
+		# }
+	# }
+# }
+# rome_government = {
+	# color = { 126  203  120 }
+	# monarchy = yes
+	
+	# valid_for_new_country = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# culture_group = latin
+	# }
+
+	# rank = {
+		# 3 = {
+			# global_manpower_modifier = 0.20
+			# diplomatic_upkeep = 2
+			# global_unrest = -2
+		# }
+	# }
+	# fixed_rank = 3
+# }
+# spqr_republic = {
+	# color = { 15 105 165 }	
+	# republic = yes
+	# duration = 4 
+	
+	# valid_for_new_country = no
+	# allow_convert = no
+	
+	# republican_name = yes
+	# royal_marriage = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	# nation_designer_trigger = {
+		# culture_group = byzantine
+	# }
+
+	# has_parliament = yes
+	
+	# rank = {
+		# 1 = {
+			# production_efficiency = 0.05
+			# global_autonomy = -0.05
+			# max_absolutism = -65
+		# }
+		# 2 = {
+			# production_efficiency = 0.1
+			# diplomatic_upkeep = 1
+			# global_autonomy = -0.1
+			# max_absolutism = -50
+		# }
+		# 3 = {
+			# production_efficiency = 0.2
+			# diplomatic_upkeep = 2
+			# global_autonomy = -0.15
+			# max_absolutism = -35
+		# }
+	# }
+	
+# }
+
+# anarhy_government = {
+	# color = { 65 155 220 }
+	# republic = yes
+	# duration = 0
+	
+	# valid_for_new_country = no
+	# allow_convert = no
+	# royal_marriage = yes
+	# republican_name = yes
+	
+	# valid_for_nation_designer = no
+	
+	# has_parliament = yes
+	
+	# rank = {
+		# 1 = {
+			# global_tax_modifier = -0.50
+			# stability_cost_modifier = 0.20
+			# global_unrest = 3
+			# global_autonomy = 0.10
+			# max_absolutism = -50
+		# }
+	# }
+	# fixed_rank = 1
+# }
+
+# turkey_republic = {
+	# color = { 15 105 165 }
+	# republic = yes
+	
+	# duration = 7
+	
+	# valid_for_new_country = no
+	# allow_convert = no	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40	
+	
+	# nation_designer_trigger = {
+		# primary_culture = turkish
+		# religion_group = muslim
+	# }	
+	
+	# has_parliament = yes
+	
+	# republican_name = yes
+	# royal_marriage = no
+
+	# rank = {
+	# 1 = {
+		# global_unrest = -1
+		# stability_cost_modifier = -0.05
+		# global_autonomy = -0.05
+		# max_absolutism = -30
+	# }
+	# 2 = {
+		# global_unrest = -1
+		# stability_cost_modifier = -0.10
+		# land_morale = 0.05
+		# global_autonomy = -0.10
+		# max_absolutism = -30
+	# }
+	# 3 = {	
+		# global_unrest = -1
+		# stability_cost_modifier = -0.15
+		# land_morale = 0.10
+		# global_autonomy = -0.15
+		# max_absolutism = -30
+		# }
+	# }
+# }
+# the_empire_of_the_rising_sun = {
+	# color = { 240 120 5 }
+	# monarchy = yes
+		
+	# valid_for_new_country = no
+	# allow_convert = no
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+		
+	# nation_designer_trigger = {
+		# culture_group = japanese_g
+		# technology_group = chinese
+		# capital_scope = { region = japan_region }
+	# }		
+	
+	# rank = {
+		# 3 = {
+			# infantry_power = 0.20
+			# land_morale = 0.20
+			# global_autonomy = -0.2
+		# }
+	# }
+	# fixed_rank = 3
+# }
+# # Special for the Hetmanat
+# cossack_republic = {
+	# color = { 65 155 220 }
+	# republic = yes
+	# duration = 0 # rule for life.
+	
+	# valid_for_new_country = no
+	# allow_convert = no
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 40
+	
+	# nation_designer_trigger = {
+		# primary_culture = ruthenian
+	# }
+	
+	# republican_name = yes
+	# royal_marriage = yes
+
+	# rank = {
+		# 2 = {
+			# army_tradition = 1
+			# mil_tech_cost_modifier  = -0.10
+			# land_morale = 0.20
+			# cav_to_inf_ratio = 0.10
+			# max_absolutism = -50
+		# }
+	# }
+	# fixed_rank = 2
+# }
+
+# carthage_republic = {
+	# color = { 220 120 20 }
+    # republic = yes
+	# duration = 4
+	
+	# valid_for_new_country = no
+	# allow_convert = no
+	# unique_government = yes
+	# fixed_rank = 3
+	
+	# royal_marriage = yes
+	
+	
+	# rank = {
+		# 3 = {
+			# caravan_power = 0.15
+			# dip_tech_cost_modifier  = -0.05
+			# merchants = 1
+			# global_tax_modifier = 0.15
+			# max_states = 10
+			# max_absolutism = -50
+		# }
+	# }
+	# fixed_rank = 3
+# }
+
+# veche_republic = {
+	# color = { 105 170 220 }
+	# republic = yes
+
+	# valid_for_new_country = no
+	# valid_for_nation_designer = yes
+	# allow_convert = no
+	
+	# duration = 2
+
+	# republican_name = yes
+	# royal_marriage = no
+	
+	# #boost_income = yes
+	# can_use_trade_post = yes
+	# can_form_trade_league = yes
+	# government_abilities = {
+		# russian_mechanic
+	# }
+		
+	# faction = mr_aristocrats
+	# faction = mr_traders
+	# faction = mr_guilds	
+	
+	# rank = {
+		# 1 = {
+			# trade_efficiency = 0.1
+			# merchants = 1
+			# max_absolutism = -50
+			# global_autonomy = -0.02
+		# }
+		# 2 = {
+			# trade_efficiency = 0.15
+			# merchants = 1
+			# max_absolutism = -50
+			# global_autonomy = -0.2
+		# }
+		# 3 = {
+			# trade_efficiency = 0.15
+			# merchants = 1
+			# global_autonomy = -0.10
+			# max_absolutism = -50
+		# }
+	# }
+	# ai_will_do = {
+		# factor = 0	
+	# }
+# }
+
+# knyaz_veche_republic = {
+	# republic = yes
+	# color = { 60 120 180 }
+	
+	# unique_government = yes
+	
+	# valid_for_new_country = no
+	# valid_for_nation_designer = no
+	# allow_convert = no
+
+	# republican_name = no
+	# royal_marriage = yes
+	
+	# #boost_income = yes
+	# can_use_trade_post = yes
+	# #can_form_trade_league = yes
+	# government_abilities = {
+		# russian_mechanic
+	# }
+	
+	# faction = mr_aristocrats
+	# faction = mr_traders
+	# faction = mr_guilds
+
+	# rank = {
+		# 1 = {
+			# land_morale = 0.05
+			# merchants = 1
+			# max_absolutism = -30
+			# global_autonomy = -0.05
+		# }
+		# 2 = {
+			# land_morale = 0.05
+			# merchants = 1
+			# max_absolutism = -30
+			# global_autonomy = -0.10
+		# }
+		# 3 = {
+			# land_morale = 0.1
+			# land_forcelimit_modifier = 0.10
+			# merchants = 1
+			# max_absolutism = -30
+			# global_autonomy = -0.15
+		# }
+	# }
+	# ai_will_do = {
+		# factor = 0	
+	# }
+# }
+
+# #reformed_veche_republic = {
+# #	color = { 105 170 220 }
+# #	republic = yes
+# #	
+# #	valid_for_new_country = no
+# #	
+# #	duration = 4
+# #	
+# #	republican_name = yes
+# #	royal_marriage = no
+# #	
+# #	has_parliament = yes
+# #	government_abilities = {
+# #		russian_mechanic
+# #	}
+# #
+# #	rank = {
+# #		1 = {
+# #			global_unrest = -0.5
+# #			production_efficiency = 0.1
+# #		}
+# #		2 = {
+# #			global_unrest = -1
+# #			production_efficiency = 0.1
+# #			global_autonomy = -0.10
+# #		}
+# #		3 = {
+# #			global_unrest = -1.5
+# #			production_efficiency = 0.1
+# #			stability_cost_modifer = -0.10
+# #			global_autonomy = -0.15
+# #		}
+# #	}
+# #	ai_will_do = {
+# #		factor = 0	
+# #	}
+# #}
+
+# greek_monarchy = {
+	# monarchy = yes
+
+	# color = { 140 120 50 }
+		
+	# unique_government = yes
+	
+	# valid_for_new_country = no
+	# allow_convert = no
+
+	# can_use_trade_post = yes
+	# has_parliament = yes
+	# faction = royalists
+	# faction = republicans
+	
+	# max_states = 2
+	
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 0
+
+	# rank = {
+		# 1 = {
+			# development_cost = -0.1
+			# global_unrest = -1
+			# reduced_liberty_desire = 15
+			# max_absolutism = -30
+			# global_autonomy = -0.0125
+		# }
+		# 2 = {
+			# development_cost = -0.1
+			# global_unrest = -1
+			# reduced_liberty_desire = 15
+			# max_absolutism = -30
+			# global_autonomy = -0.025	
+		# }
+		# 3 = {	
+			# development_cost = -0.1
+			# global_unrest = -1
+			# reduced_liberty_desire = 15
+			# max_absolutism = -30
+			# global_autonomy = -0.05
+		# }
+	# }
+# }

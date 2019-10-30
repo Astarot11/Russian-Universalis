@@ -1,0 +1,579 @@
+country_decisions = {
+
+	stt_rise_timur_conquest_TAB_KRY = { # 3th conquest # from events 
+		major = yes
+		potential = {
+			tag = TIM
+			OR = {
+				has_country_modifier = stt_timur_wartime_1
+				has_global_flag = timur_rules
+			}
+			NOT = { war_with = TAB }
+			NOT = { TAB = { vassal_of = TIM } }
+			TAB = { exists = yes }
+		}
+		allow = {
+			mil_power = 25
+			TAB = { exists = yes }
+			OR = {
+				ai = no
+				is_at_war = no
+			}
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_manpower = 10
+			create_general = { tradition = 50 }
+			declare_war_with_cb = { who = TAB casus_belli = cb_imperial }
+			if = { limit = { NOT = { KRY = { vassal_of = TIM } } } declare_war_with_cb = { who = KRY casus_belli = cb_imperial } }	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	stt_rise_timur_conquest_MUZ = { # conquest MUZ 
+		major = yes
+		potential = {
+			tag = TIM
+			OR = {
+				has_country_modifier = stt_timur_wartime_1
+				has_global_flag = timur_rules
+			}
+			NOT = { war_with = MUZ }
+			NOT = { MUZ = { vassal_of = TIM } }
+			MUZ = { exists = yes }
+			OR = {
+				has_country_flag = timur_prepare_conquest1
+				total_development = 300
+			}
+		}
+		allow = {
+			mil_power = 25
+			MUZ = { exists = yes }
+			OR = {
+				ai = no
+				is_at_war = no
+			}
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_manpower = 5
+			country_event = { id = stt_rise_timur.21 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	stt_rise_timur_conquest_CHG = { #conquest Mogulistan # from events 
+		major = yes
+		potential = {
+			tag = TIM
+			OR = {
+				has_country_modifier = stt_timur_wartime_1
+				has_global_flag = timur_rules
+			}
+			NOT = { is_year = 1420 }
+			NOT = { war_with = CHG }
+			NOT = { CHG = { vassal_of = TIM } }
+			CHG = { exists = yes }
+			NOT = { has_country_flag = timur_go_CHG }
+		}
+		allow = {
+			mil_power = 25
+			total_development = 350
+			CHG = { exists = yes }
+			OR = {
+				ai = no
+				is_at_war = no
+			}
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_manpower = 10
+			create_general = { tradition = 70 }
+			add_casus_belli = { target = CHG type = cb_vassalize_mission months = 600 }
+			set_country_flag = timur_go_CHG
+			tibet_region = { add_claim = ROOT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	stt_rise_timur_conquest_china = { #conquest China # from events 
+		major = yes
+		potential = {
+			tag = TIM
+			OR = {
+				has_country_modifier = stt_timur_wartime_1
+				has_global_flag = timur_rules
+			}
+			NOT = { is_year = 1420 } 
+			NOT = { war_with = CHG }
+			NOT = { CHG = { vassal_of = TIM } }
+			NOT = { has_country_flag = stt_timur_go_china }
+		}
+		allow = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = timur_go_DLH_GLH_TUR_tooltip
+					AND = {
+						OR = {
+							AND = { 
+								TU0 = { exists = no }
+								TUR = { exists = no }
+							}
+							has_country_flag = timur_go_TUR
+						}
+						OR = {
+							DLH = { exists = no }
+							has_country_flag = timur_go_DLH
+						}
+						OR = {
+							GLH = { exists = no }
+							has_country_flag = timur_go_GLH
+						}
+					}
+				}
+				is_year = 1405		
+			}
+			OR = {
+				ai = no
+				is_at_war = no
+			}
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_treasury = 500
+			add_manpower = 10
+			tibet_region = { add_core = ROOT discover_country = ROOT }
+			north_china_region = { add_core = ROOT discover_country = ROOT }
+			south_china_region = { add_core = ROOT }
+			country_event = { id = stt_rise_timur.31 }
+			set_country_flag = stt_timur_go_china
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	stt_rise_timur_integrate_CHG = { #integrate Mogulistan #new
+		major = yes
+		potential = {
+			tag = TIM
+			OR = {
+				has_country_modifier = stt_timur_wartime_1
+				has_global_flag = timur_rules
+			}
+			NOT = { is_year = 1420 }
+			OR = {
+				CHG = { vassal_of = TIM }
+				war_with = CHG
+			}
+		}
+		allow = {
+			CHG = { vassal_of = TIM }
+			CHG = {	
+					years_in_vassalage_under = {
+						who = TIM
+						years = 5
+					}
+					NOT = { total_development = 150 }
+					NOT = { liberty_desire = 50 }
+			}
+			adm_power = 125
+			dip_power = 125
+			stability = 1
+			total_development = 500
+			is_at_war = no
+		}
+		effect = {
+			add_adm_power = -125
+			add_dip_power = -200
+			add_stability = -1
+			if = { limit = { CHG = { NOT = { total_development = 200 } } } inherit = CHG }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 2
+	}
+	
+	stt_rise_timur_conquest_DLH = { #conquest Delhi
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1420 }
+			NOT = { started_in = 1406.1.1 }
+			NOT = { war_with = DLH }
+			NOT = { DLH = { is_subject_of = TIM } }
+			DLH = { exists = yes }
+			has_global_flag = timur_rules
+			OR = {
+				had_country_flag = { flag = timur_prepare_conquest1 days = 900 }
+				has_country_flag = go_glh_dlh_tur_start
+			}
+			NOT = { has_country_flag = timur_go_DLH }
+		}
+		allow = {
+			mil_power = 25
+			total_development = 500
+			persia_region = { owned_by = ROOT } 
+			khorasan_region = { owned_by = ROOT }
+			is_at_war = no
+			NOT = { truce_with = DLH }
+			DLH = { is_neighbor_of = ROOT }
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_army_tradition = 20
+			add_manpower = 10
+			declare_war_with_cb = { who = DLH casus_belli = cb_imperial }
+			set_country_flag = timur_go_DLH
+			hidden_effect = { 
+				if = { limit = { DLH = { ai = yes total_development = 600 } } DLH = { add_disaster_progress = { disaster = delhi_disaster value = 100 } } }
+				if = { limit = { ai = yes } add_treasury = 1000 } 				
+				remove_country_modifier = stt_timur_wartime_1
+				remove_country_modifier = stt_timur_wartime_2
+				remove_country_modifier = stt_timur_wartime_3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				DLH = { total_development = 600 }
+			}
+		}
+		ai_importance = 6
+	}
+	
+	stt_rise_timur_conquest_GLH = { #conquest Golden Horde
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1420 }
+			NOT = { started_in = 1406.1.1 }
+			NOT = { war_with = GLH }
+			NOT = { GLH = { is_subject_of = TIM } }
+			has_global_flag = timur_rules
+			OR = {
+				had_country_flag = { flag = timur_prepare_conquest1 days = 900 }
+				has_country_flag = go_glh_dlh_tur_start
+			}
+			NOT = { has_country_flag = timur_go_GLH }
+		}
+		allow = {
+			mil_power = 25
+			OR = {
+				total_development = 500
+				num_of_cities = 30
+			}
+			persia_region = { owned_by = ROOT } 
+			khorasan_region = { owned_by = ROOT }
+			is_at_war = no
+			NOT = { truce_with = GLH }
+			GLH = { is_neighbor_of = ROOT }
+		}
+		effect = {
+			add_mil_power = -25
+			add_war_exhaustion = -3
+			add_army_tradition = 10
+			add_manpower = 10
+			declare_war_with_cb = { who = GLH casus_belli = cb_imperial }
+			set_country_flag = timur_go_GLH
+			hidden_effect = { 
+				if = { limit = { GLH = { ai = yes total_development = 600 } } GLH = { add_disaster_progress = { disaster = golden_horde_disaster value = 100 } } } 
+				remove_country_modifier = stt_timur_wartime_1
+				remove_country_modifier = stt_timur_wartime_2
+				remove_country_modifier = stt_timur_wartime_3
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { manpower_percentage = 20 }
+				NOT = { stability = 0 }
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					anatolia_region = { type = all owned_by = TU0 }
+					anatolia_region = { type = all owned_by = TUR } 					
+				}
+			}
+		}
+		ai_importance = 4
+	}
+	
+	stt_rise_timur_conquest_TUR = { #conquest Ottoman
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1420 }
+			NOT = { started_in = 1406.1.1 }
+			NOT = { war_with = TUR }
+			NOT = { war_with = TU0 }
+			NOT = { TUR = { is_subject_of = TIM } }
+			NOT = { TU0 = { is_subject_of = TIM } }
+			OR = {
+				TUR = { exists = yes }
+				TU0 = { exists = yes }
+			}
+			has_global_flag = timur_rules
+			OR = {
+				had_country_flag = { flag = timur_prepare_conquest1 days = 900 }
+				has_country_flag = go_glh_dlh_tur_start
+			}
+			NOT = { has_country_flag = timur_go_TUR }
+		}
+		allow = {
+			mil_power = 25
+			total_development = 500
+			persia_region = { owned_by = ROOT } 
+			khorasan_region = { owned_by = ROOT }
+			is_at_war = no
+			NOT = { truce_with = TUR }
+			NOT = { truce_with = TU0 }
+			OR = {
+				TUR = { is_neighbor_of = ROOT }
+				TU0 = { is_neighbor_of = ROOT }
+			}
+		}
+		effect = {
+			add_mil_power = -25
+			add_army_tradition = 15
+			add_war_exhaustion = -3
+			add_manpower = 10
+			if = { 
+				limit = { TUR = { exists = yes } } 
+				declare_war_with_cb = { who = TUR casus_belli = cb_imperial } 
+				else = { declare_war_with_cb = { who = TU0 casus_belli = cb_imperial } }
+			}
+			set_country_flag = timur_go_TUR
+			hidden_effect = {
+				remove_country_modifier = stt_timur_wartime_1
+				remove_country_modifier = stt_timur_wartime_2
+				remove_country_modifier = stt_timur_wartime_3
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { manpower_percentage = 30 }
+					NOT = { treasury = 300 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					anatolia_region = { type = all owned_by = TU0 }
+					anatolia_region = { type = all owned_by = TUR } 					
+				}
+			}
+		}
+		ai_importance = 2
+	}
+
+	timur_military_1 = {
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			NOT = { has_country_modifier = stt_timur_army }
+			NOT = { has_global_flag = timur_death }
+			has_country_flag = timur_can_reform
+		}
+		allow = {
+			mil_power = 300
+			is_free_or_tributary_trigger = yes
+			OR = {
+				ai = yes
+				is_at_war = no
+			}
+			owns_core_province = 446	
+			owns_core_province = 454	
+		}
+		effect = {
+			add_mil_power = -500
+			add_country_modifier = { name = stt_timur_army duration = -1 }			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	timur_military_2 = {
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1410 }
+			has_country_modifier = stt_timur_army
+			has_country_flag = timur_can_reform
+			NOT = { has_country_flag = timur_military_22 }
+		}
+		allow = {
+			total_development = 350
+			mil_power = 250
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_mil_power = -250
+			add_years_of_income = -1
+			add_army_professionalism = 0.2
+			set_country_flag = timur_military_22
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	timur_military_3 = {
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			454 = { owned_by = ROOT }
+			has_country_modifier = stt_timur_army
+			has_country_flag = timur_can_reform
+			NOT = { has_country_modifier = timur_military_timer }
+		}
+		allow = {
+			454 = { controlled_by = ROOT }
+			treasury = 200
+			NOT = { num_of_loans = 1 }
+			NOT = { has_country_modifier = timur_military_timer }
+		}
+		effect = {
+			add_treasury = -200
+			add_war_exhaustion = -0.1
+			add_manpower = 5
+			add_country_modifier = { name = "timur_military_timer" duration = 365 } # 1 year pause
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					manpower_percentage = 80
+					NOT = { treasury = 300 }
+				}
+			}
+		}
+	}
+	
+	timur_military_4 = { #stavka na pehotu
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			has_country_modifier = stt_timur_army
+			has_country_flag = timur_can_reform
+			NOT = { has_country_flag = timur_military_44 }
+		}
+		allow = {
+			mil_power = 250
+			NOT = { num_of_loans = 1 }
+			infantry_fraction = 0.6
+		}
+		effect = {
+			add_mil_power = -250
+			add_years_of_income = -1
+			add_country_modifier = { name = stt_timur_infantry duration = -1 }
+			set_country_flag = timur_military_44
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	timur_military_5 = { #stavka na cavalry
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			has_country_modifier = stt_timur_army
+			has_country_flag = timur_can_reform
+			NOT = { has_country_flag = timur_military_44 }
+		}
+		allow = {
+			mil_power = 250
+			NOT = { num_of_loans = 1 }
+			cavalry_fraction = 0.33
+		}
+		effect = {
+			add_mil_power = -250
+			add_years_of_income = -2
+			add_country_modifier = { name = stt_timur_cavalry duration = -1 }
+			set_country_flag = timur_military_44
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	timur_create_fort = {
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			NOT = { 454 = { has_building = fort_16th } }
+		}
+		allow = {
+			treasury = 250
+			owns_core_province = 454
+			454 = { development = 15 }
+		}
+		effect = {
+			add_treasury = -250
+			454 = { remove_building = fort_15th add_building = fort_16th }
+			add_army_tradition = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	timur_science = {
+		major = yes
+		potential = {
+			tag = TIM
+			NOT = { is_year = 1405 }
+			NOT = { has_country_flag = timur_science_check }
+		}
+		allow = {
+			treasury = 500
+			owns_core_province = 454
+			454 = { development = 25 }
+		}
+		effect = {
+			add_treasury = -500
+			add_innovativeness_big_effect = yes
+			add_innovativeness_big_effect = yes
+			454 = { add_next_institution_embracement = 100 }
+			add_piety = 1
+			set_country_flag = timur_science_check
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
+	

@@ -1,0 +1,9 @@
+# id: Increment when news banner content is changed (this file and game/gfx/interface/news_banner_bg_<language>.dds)
+# steam_depot_id: If set, link button will open steam store page (in steam overlay if available, else external browser)
+# link_button_text: Localization key for link button text (e.g. OPEN_STORE)
+# link_url: Set to open anything else than steam store page in external browser (steam_depot_id <= 0 or not present).
+
+id = 3
+steam_depot_id = 0
+link_button_text = READ_MORE
+link_url = "https://www.vk.cc/8wTL2i"

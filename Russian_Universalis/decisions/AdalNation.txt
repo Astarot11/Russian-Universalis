@@ -1,0 +1,86 @@
+country_decisions = {
+
+	adal_nation = {
+		major = yes
+		potential = {
+			is_year = 1400
+			religion = sunni
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_adal_flag }
+			NOT = { tag = ADA }
+			NOT = { tag = ETH }
+			NOT = { tag = PAP }
+			is_rival = ETH
+			OR = {
+				primary_culture = somali
+				primary_culture = afar
+				primary_culture = harari			
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = ADA }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1212
+			owns_core_province = 1211
+			OR = {
+				owns_core_province = 1215
+				owns_core_province = 2793
+				owns_core_province = 2765
+			}
+		}
+		effect = {
+			change_tag = ADA
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			ifat_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADA
+			}
+			if = {
+				limit = { NOT = { capital = 1211 } }
+				set_capital = 1211
+			}
+			add_core = 1213
+			add_core = 1214
+			add_core = 2761
+			add_core = 2768
+			add_core = 2769
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			add_accepted_culture = somali
+			add_accepted_culture = afar
+			add_accepted_culture = amhara
+			add_accepted_culture = harari
+			set_country_flag = formed_adal_flag
+			add_casus_belli = {
+				target = ETH
+				type = cb_crusade
+				months = 240
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+}

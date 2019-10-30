@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = chechen
+religion = sunni
+technology_group = muslim
+capital = 3665
+government_rank = 1

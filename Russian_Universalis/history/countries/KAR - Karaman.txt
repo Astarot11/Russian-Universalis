@@ -1,0 +1,558 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 324	# Karaman
+religious_school = hanafi_school
+
+1250.1.1 = {
+	monarch = {
+		name = "Нуре-Суфи"
+		dynasty = "Караманогуллар"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1256.1.1 = {
+	monarch = {
+		name = "Бунсуз"
+		dynasty = "Караманогуллар"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1256.6.1 = {
+	monarch = {
+		name = "Караман"
+		dynasty = "Караманогуллар"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1261.1.1 = {
+	monarch = {
+		name = "Мехмет I"
+		dynasty = "Караманогуллар"
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+
+1277.1.1 = {
+	monarch = {
+		name = "Гюнери"
+		dynasty = "Караманогуллар"
+		adm = 4
+		dip = 5
+		mil = 1
+	}
+}
+
+1300.1.1 = {
+	monarch = {
+		name = "Махмут"
+		dynasty = "Караманогуллар"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1308.1.1 = {
+	monarch = {
+		name = "Йахши-Хан"
+		dynasty = "Караманогуллар"
+		birth_date = 1240.1.1
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}
+
+1308.1.1 = {
+	heir = {
+		name = "Сулейман"
+		monarch_name = "Сулейман I"
+		dynasty = "Караманогуллар"
+		birth_date = 1275.1.1
+		death_date = 1349.1.1
+		claim = 95
+		adm = 1
+		dip = 5
+		mil = 1
+	}
+}
+
+1317.1.1 = {
+	monarch = {
+		name = "Сулейман I"
+		dynasty = "Караманогуллар"
+		birth_date = 1275.1.1
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+1317.1.1 = {
+	heir = {
+		name = "Бедреттин Ибрахим"
+		monarch_name = "Ибрахим I"
+		dynasty = "Караманогуллар"
+		birth_date = 1280.1.1
+		death_date = 1349.1.1
+		claim = 95
+		adm = 1
+		dip = 5
+		mil = 1
+	}
+}
+
+1317.6.1 = {
+	monarch = {
+		name = "Ибрахим I"
+		dynasty = "Караманогуллар"
+		birth_date = 1280.1.1
+		adm = 1
+		dip = 5
+		mil = 1
+	}
+}
+
+1320.1.1 = {
+	heir = {
+		name = "Муса"
+		monarch_name = "Муса"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		death_date = 1355.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1341.1.1 = {
+	monarch = {
+		name = "Муса"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1341.1.1 = {
+	heir = {
+		name = "Халил"
+		monarch_name = "Халил-Мирза"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		death_date = 1349.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1345.1.1 = {
+	monarch = {
+		name = "Халил-Мирза"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1345.1.1 = {
+	heir = {
+		name = "Ахмет"
+		monarch_name = "Ахмет"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		death_date = 1349.6.1
+		claim = 95
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}
+
+1349.1.1 = {
+	monarch = {
+		name = "Ахмет"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}
+
+1349.1.1 = {
+	heir = {
+		name = "Шемседдин"
+		monarch_name = "Шемседдин"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		death_date = 1351.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1349.6.1 = {
+	monarch = {
+		name = "Шемседдин"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1349.6.1 = {
+	heir = {
+		name = "Муса"
+		monarch_name = "Муса"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		death_date = 1356.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1352.1.1 = {
+	monarch = {
+		name = "Муса"
+		dynasty = "Караманогуллар"
+		birth_date = 1320.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1351.1.1 = {
+	heir = {
+		name = "Сейфеддин Сулейман"
+		monarch_name = "Сулейман II"
+		dynasty = "Караманогуллар"
+		birth_date = 1340.1.1
+		death_date = 1357.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Сулейман II"
+		dynasty = "Караманогуллар"
+		birth_date = 1340.1.1
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1356.1.1 = {
+	heir = {
+		name = "Алаатин Али"
+		monarch_name = "Али I"
+		dynasty = "Караманогуллар"
+		birth_date = 1345.1.1
+		death_date = 1391.1.1
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+
+1381.1.1 = {
+	monarch = {
+		name = "Али I"
+		dynasty = "Караманогуллар"
+		birth_date = 1345.1.1
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_piety = 0.1
+}
+
+1381.1.1 = {
+	heir = {
+		name = "Мехмет"
+		monarch_name = "Мехмет II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		death_date = 1424.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1391.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1403.1.1 = {
+	monarch = {
+		name = "Мехмет II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1403.1.1 = {
+	heir = {
+		name = "Али"
+		monarch_name = "Али II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		death_date = 1424.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Али II"
+		dynasty = "Караманогуллар"
+		birth_date = 1400.1.1
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1419.1.1 = {
+	heir = {
+		name = "Ибрахим"
+		monarch_name = "Ибрахим II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		death_date = 1416.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}
+
+1419.6.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1420.1.1 = { historical_rival = MAM }	### STT
+
+1421.1.1 = {
+	monarch = {
+		name = "Мехмет II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Ибрахим"
+		monarch_name = "Ибрахим II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		death_date = 1416.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}
+
+
+1403.1.1 = {
+	heir = {
+		name = "Ибрахим"
+		monarch_name = "Ибрахим II"
+		dynasty = "Караманогуллар"
+		birth_date = 1380.1.1
+		death_date = 1416.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+
+
+1424.1.1 = {
+	monarch = {
+		name = "Ибрахим II"
+		dynasty = "Караманогуллар"
+		birth_date = 1409.1.1
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = kind_hearted_personality
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Исхак"
+		monarch_name = "Исхак"
+		dynasty = "Караманогуллар"
+		birth_date = 1424.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Исхак"
+		dynasty = Караманогуллар
+		birth_date = 1400.1.1
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1464.1.1 = {
+	heir = {
+		name = "Пир-Ахмет"
+		monarch_name = "Пир-Ахмет"
+		dynasty = "Караманогуллар"
+		birth_date = 1450.1.1
+		death_date =1474.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+
+
+1465.1.1 = {
+	monarch = {
+		name = "Пир-Ахмет"
+		dynasty = Караманогуллар
+		birth_date = 1400.1.1
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Касим"
+		monarch_name = "Касим"
+		dynasty = "Караманогуллар"
+		birth_date = 1440.1.1
+		death_date = 1464.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Касим"
+		dynasty = "Караманогуллар"
+		birth_date = 1460.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1474.1.1 = {
+	heir = {
+		name = "Махмуд"
+		monarch_name = "Махмуд"
+		dynasty = "Караманогуллар"
+		birth_date = 1470.1.1
+		death_date = 1487.1.1
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 0
+	}
+}
+
+1483.1.1 = {
+	monarch = {
+		name = "Махмуд"
+		dynasty = "Караманогуллар"
+		birth_date = 1470.1.1
+		adm = 2
+		dip = 0
+		mil = 0
+	}
+}
+
+# Annexed by the Ottoman Empire in 1487
+
+1487.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

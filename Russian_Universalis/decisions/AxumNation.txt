@@ -1,0 +1,90 @@
+country_decisions = {
+
+	axum_nation = {
+		major = yes
+		potential = {
+			NOT = {
+				is_year = 1500
+			}
+			religion = coptic
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_axum_flag }
+			NOT = { tag = ADA }
+			NOT = { tag = IFA }
+			NOT = { tag = ETH }
+			OR = {
+				dynasty = "Solomon"
+				dynasty = "Solomonid"
+				dynasty = "Соломон"
+				dynasty = "Соломонид"
+			}
+			OR = {
+				primary_culture = amhara
+				primary_culture = tigray
+				primary_culture = sidamo
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = AXU }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1227
+			OR = {
+				owns_core_province = 2770
+				owns_core_province = 1213
+				owns_core_province = 2767
+			}
+		}
+		effect = {
+			change_tag = AXU
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			horn_of_africa_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_core = AXU
+			}
+			lower_yemen_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_core = AXU
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = { NOT = { capital = 1227 } }
+				set_capital = 1227
+			}
+			add_accepted_culture = somali
+			add_accepted_culture = afar
+			add_accepted_culture = amhara
+			add_accepted_culture = harari
+			add_accepted_culture = tigray
+			set_country_flag = formed_axum_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+}

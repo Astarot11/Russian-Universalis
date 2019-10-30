@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = muslim
+unit_type = sub_saharan
+religion = sunni
+primary_culture = afar
+capital = 3778

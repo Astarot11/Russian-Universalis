@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = pruthenian
+religion = catholic
+government_rank = 1
+capital = 41 # Köningsberg
+
+1561.11.28 = { religion = protestant}

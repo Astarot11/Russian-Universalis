@@ -1,0 +1,79 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 48 177 169 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+
+historical_units = {
+	african_spearmen
+	niger_kongolese_tribal_warfare
+	niger_kongolese_forest_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	niger_kongolese_guerilla_warfare
+	african_mandelaku
+	african_tuareg_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon	
+}
+
+monarch_names = {
+	"Мтезе #0" = 5
+	"Сууна #0" = 5
+	"Камааня #0" = 5
+	"Семакоокиро #0" = 5
+	"Джунджу #0" = 5
+	"Киабагу #0" = 5
+	"Намуггала #0" = 5
+	"Мванга #0" = 5
+	"Маванда #0" = 5
+	"Кикулве #0" = 5
+	"Какулу #0" = 5
+	"Ндавула #0" = 5
+	"Тебандеке #0" = 5
+	"Жууко #0" = 5
+	"Каемба #0" = 5
+	"Мутеби #0" = 5
+	"Катерегга #0" = 5
+	"Кимбугве #0" = 5
+	"Секамааня #0" = 5
+	"Джемба #0" = 5
+	"Мулонда #0" = 5
+	"Накибинге #0" = 5
+	"Кайима #0" = 5
+	"Ттембо #0" = 5
+	"Кимера #0" = 5
+	
+	"Баведде #0" = -1
+	"Сикяиинза #0" = -1
+	"Накаму #0" = -1
+}
+
+leader_names = {
+	Бахима
+	Ваниамбо
+	Базилита #Royal Clan
+	Баренже
+	Базигаба
+	Кизиба
+	Кямутваро
+	Ихангиро
+	Куки
+	Букуку
+}
+
+ship_names = {
+	Налубаал Нянза Киога Семлики Бисина Катонга Мянжа Нкуси Ачва Лугого
+}

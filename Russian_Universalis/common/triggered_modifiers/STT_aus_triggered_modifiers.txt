@@ -1,0 +1,60 @@
+###########################################
+# Triggered modifiers for AEIOU by dorimi
+###########################################
+
+
+aus_golbenbull = {
+	potential = {
+		OR = {
+			tag = HAB
+			tag = AEM
+		}
+		has_global_flag = golden_bulla
+	}
+	trigger = {
+		NOT = { has_country_modifier = aus_maius }
+	}
+	prestige = -1
+}
+
+# aus_noaulic = {
+	# potential = {
+		# OR = {
+			# tag = HAB
+			# tag = AEM
+		# }
+	# }
+	# trigger = {
+		# NOT = { has_country_modifier = aus_aulic }
+	# }
+	# global_tax_modifier = -0.03
+	# stability_cost_modifier = -0.05
+	# diplomatic_reputation = 1
+# }
+
+# aus_yesaulic = {
+	# potential = {
+		# OR = {
+			# tag = HAB
+			# tag = AEM
+		# }
+	# }
+	# trigger = {
+		# has_country_modifier = aus_aulic
+	# }
+	# global_tax_modifier = 0.02
+	# diplomatic_reputation = -1
+# }
+
+emperor_golbenbulla = {
+    potential = {
+	    is_emperor = yes
+		has_global_flag = golden_bulla
+	}
+	
+	trigger = {
+	    is_emperor = yes
+	}
+	
+	imperial_authority = -0.25
+}

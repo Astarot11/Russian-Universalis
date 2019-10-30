@@ -1,0 +1,47 @@
+cultural_theatre = {
+	monthly_splendor = 0.25
+	prestige = 0.5
+}
+
+cultural_opera = {
+	monthly_splendor = 0.5
+	prestige = 1
+}
+
+library_boost = {
+	technology_cost = -0.05
+}
+
+breaking_tavern = {
+	development_cost = 0.05
+}
+
+rebuild_tavern_assholes = {
+	local_build_cost = -0.33
+}
+
+drunk_death = {
+	global_spy_defence = 0.10									  
+	spy_offence = 0.20
+}
+
+sausais_likums = {
+	local_unrest = 5
+}
+
+drunk_province = {
+	local_development_cost = 0.1
+	local_production_efficiency = -0.1
+	local_build_time = 0.1
+}
+
+poor_wood = {
+	build_cost = 0.25
+	ship_durability = -0.05
+}
+
+industrial_birthplace = {
+	local_production_efficiency = 0.15
+	trade_goods_size_modifier = 0.15
+}
+	

@@ -1,0 +1,318 @@
+# country_decisions = {
+
+	# Archon_chain_desigion = {
+		# potential = {
+			# ai = no
+			# NOT = {	has_country_flag = start_archon_chain }
+			# OR = {
+				# italy_region = {
+					# owned_by = ROOT
+					# is_capital = yes
+				# }
+				# balkan_region = {
+					# owned_by = ROOT
+					# is_capital = yes
+				# }
+			# }
+		# }
+		# allow = {
+			# OR = {
+				# italy_region = {
+					# owned_by = ROOT
+					# is_capital = yes
+				# }
+				# balkan_region = {
+					# owned_by = ROOT
+					# is_capital = yes
+				# }
+			# }
+		# }
+		# effect = {
+			# set_country_flag = start_archon_chain
+			# country_event = { id = chosearch.0 }
+		    # add_legitimacy = -5
+			# add_years_of_income = -0.1
+		# }
+		
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
+
+	# Archon_default_gov = {
+		# potential = {
+			# ai = no
+			# has_reform = greek_monarchy
+			# had_country_flag = { flag = start_archon_chain days = 36500 }
+		# }
+		# allow = {
+			# stability  = 3
+			# has_reform = greek_monarchy
+		# }
+		# effect = {
+			# add_years_of_income = 0.5
+			# remove_government_reform = greek_monarchy
+			# set_legacy_government = administrative_monarchy
+		# }
+		
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
+	
+	# Archon_development = {
+		# potential = {
+			# ai = no
+            # has_country_flag = purple_palace_begin
+			# NOT = {
+			# has_country_flag = purple_palace
+			# }
+		# }
+		# allow = {
+			# legitimacy = 100
+			# stability = 2
+		# }
+		# effect = {
+		    # set_country_flag = purple_palace
+		    # add_stability = -2
+			# add_years_of_income = -2.0
+			# add_country_modifier = {
+				# name = "centralization_modifier"
+				# duration = 7300
+			# }
+			# capital_scope = {
+			    # remove_province_modifier = purple_palace
+				# add_permanent_province_modifier = {
+					# name = "purple_palace_2"
+					# duration = -1
+				# }
+				# add_permanent_province_modifier = {
+					# name = "purple_cloth"
+					# duration = -1
+				# }
+			# }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	
+	# immersion_in_ancient_wisdom = {
+		# potential = {
+			# ai = no
+			# has_reform = greek_monarchy
+			# NOT = {
+			# religion = hellenic_pagan
+			# religion = synhellenic_pagan
+			# has_ruler_modifier = "hellenic_ruler"
+			# }
+		# }
+		# allow = {
+			# stability = 3
+		# }
+		# effect = {
+		    # add_ruler_modifier = {
+		            # name = "hellenic_ruler"
+				# duration = -1
+		# }		
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	
+	# bless_capital = {
+		# potential = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# capital_scope = { NOT = { has_province_modifier = bless_capital } }
+		# }
+		# allow = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# capital_scope = { NOT = { has_province_modifier = bless_capital } }
+		# }
+		# effect = {
+			# capital_scope = { add_province_modifier = { name = "bless_capital" duration = 1825 } }
+			# add_legitimacy = 2
+			# add_prestige = 2
+			# add_years_of_income = -0.2
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	
+	# bless_centre_capital = {
+		# potential = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# NOT = {	has_global_flag = bless_centre_flag }
+		# }
+		# allow = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# treasury = 200
+		# }
+		# effect = {
+			# capital_scope = { add_province_modifier = { name = "hellenic_centre" duration = -1 } }
+			# add_prestige = 10
+			# add_treasury = -200
+			# set_global_flag = bless_centre_flag
+		# }
+	# }
+	
+	# restore_pontificate = {
+		# potential = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# NOT = { has_country_flag = restored_pontificate_flag }
+		# }
+		# allow = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# legitimacy = 100
+			# prestige = 20
+			# capital_scope = { 
+				# has_province_modifier = hellenic_centre
+				# development = 20
+				# }
+			# treasury = 200	
+			
+		# }
+		# effect = {
+			# set_country_flag = restored_pontificate_flag
+			# country_event = { id = hhh_religion.0 }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	
+	# pontific_maximus = {
+		# potential = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# NOT = { has_global_flag = pontific_maximus_flag }
+			# has_country_flag = restored_pontificate_flag
+		# }
+		# allow = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# legitimacy = 100
+			# prestige = 20
+			# stability = 2
+			# capital_scope = { 
+				# has_province_modifier = hellenic_centre
+				# development = 20
+				# }
+			# OR = {
+				# owns = 118
+				# owns = 151
+			# }
+			# OR = {
+				# owns = 146
+				# owns = 125
+			# }
+			# if = {
+				# limit = { tag = BYZ }
+				# owns = 118
+			# }
+		# }
+		# effect = {
+			# set_global_flag = pontific_maximus_flag
+			# add_country_modifier = { name = "pontific_maximus" duration = -1 }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	# #Form Megale Hellas
+	# hhh_megali_hellas = {
+		# major = yes
+		# potential = {
+			# NOT = { has_country_flag = formed_hellas_flag }
+			# NOT = { exists = HHH }
+			# primary_culture = high_greek
+			# has_reform = greek_monarchy
+			# OR = {
+				# ai = no
+				# AND = {
+					# ai = yes
+					# num_of_cities = 5
+				# }
+			# }
+		# }
+		# provinces_to_highlight = {}
+		# allow = {
+			# is_free_or_tributary_trigger = yes
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = synhellenic_pagan
+			# }
+			# legitimacy = 100
+			# is_nomad = no
+			# is_at_war = no
+			# num_of_cities = 5
+			# is_statists_in_power = yes
+			# estate_influence = { estate = estate_hhh influence = 80 }
+			# estate_territory = { estate = estate_hhh territory = 2 }
+		# }
+		# effect = {
+			# change_tag = HHH
+			# random_owned_province = {
+				# limit = { culture = high_greek }
+				# add_base_tax = 2
+			# }
+			# western_aegean_area = {
+				# limit = { NOT = { owned_by = ROOT } NOT = { province_id = 143 } }
+				# add_permanent_claim = HHH
+			# }
+			# northern_greece_area = {
+				# limit = { NOT = { owned_by = ROOT } NOT = { province_id = 143 } }
+				# add_permanent_claim = HHH
+			# }
+			# morea_area = {
+				# limit = { NOT = { owned_by = ROOT } NOT = { province_id = 143 } }
+				# add_permanent_claim = HHH
+			# }
+			# sicily_area = {
+				# limit = { NOT = { owned_by = ROOT } }
+				# add_permanent_claim = HHH
+			# }
+			# calabria_area = {
+				# limit = { NOT = { owned_by = ROOT }	}
+				# add_permanent_claim = HHH
+			# }
+			# 201 = { add_permanent_claim = HHH }
+			# 333 = { add_permanent_claim = HHH }
+			# 220 = { add_permanent_claim = HHH }
+			# 1247 = { add_permanent_claim = HHH }
+			# add_prestige = 10
+			# set_country_flag = formed_hellas_flag
+			# if = {
+				# limit = { NOT = { has_idea_group = hellas_ideas } }
+				# country_event = { id = ideagroups.1 } #Swap Ideas
+			# }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+ # }

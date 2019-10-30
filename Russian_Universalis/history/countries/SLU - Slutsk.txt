@@ -1,0 +1,58 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+primary_culture = byelorussian
+religion = orthodox
+capital = 3690 # Слуцк
+
+1161.1.1 = {
+	monarch = {
+		name = "Владимир Мстиславич"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1171.5.10 = {
+	monarch = {
+		name = "Святослав Владимирович"
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1221.6.2 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+
+1309.1.1 = {
+	monarch = {
+		name = "Ростислав Всеволодович" # Рандомное имя. князья на момент 1309 неизвестны
+		dynasty = "Рюрикович"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1326.1.1 = {
+	monarch = {
+		name = "(Вакантно)"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}

@@ -1,0 +1,327 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = abhazian
+religion = orthodox
+technology_group = eastern
+capital = 1856 # Kutaisi
+
+1300.1.1 = {
+	monarch = {
+		name = "Ираклий"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1328.1.1 = {
+	monarch = {
+		name = "Леван I"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1360.1.1 = {
+	monarch = {
+		name = "Тариэл"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1375.1.1 = {
+	monarch = {
+		name = "Соломон III"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1387.1.1 = {
+	monarch = {
+		name = "Леван II"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Теймураз II"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Рабиа"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Соломон IV"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Сустан"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Арзакан"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Саварех"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Бослако"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Кара-бей"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Путо"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Тануриа"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Соломон V"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Георгий I"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Зегнак"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Ростом"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Леван"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1730.8.1 = {
+	monarch = {
+		name = "Мамед"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+
+1750.1.1 = {
+	monarch = {
+		name = "Хутуниа"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Товлак"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1765.1.1 = {
+	monarch = {
+		name = "Зураб"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Келеш Ахмат-бей"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Аслан-бей"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1810.1.1 = {
+	monarch = {
+		name = "Георгий II"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1821.1.1 = {
+	monarch = {
+		name = "Тамара"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1821.6.1 = {
+	monarch = {
+		name = "Хасан-бей"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1821.11.1 = {
+	monarch = {
+		name = "Деметрэ"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1822.1.1 = {
+	monarch = {
+		name = "Хамуд-бей"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1866.1.1 = {
+	monarch = {
+		name = "Георгий III"
+		dynasty = "Чачба"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

@@ -1,0 +1,102 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = nyasa
+religion = shamanism #Fetishism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3581	# Tumbuka
+
+#Tumbuka and Ngonde Kingdoms
+
+#Кисиндиле Clan, Custodians of the Snake Cult
+1444.1.1 = {
+	monarch = {
+		name = "Гонапамуханья" #Fictional
+		dynasty = "Кисиндиле"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Циванге" #Fictional
+		dynasty = "Кисиндиле"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+#Кьюнгу Clan, took control around 1600.
+1590.1.1 = {
+	monarch = {
+		name = "Касьомбе"
+		dynasty = "Кьюнгу" #Used both as title and clan
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Магемо"
+		dynasty = "Кьюнгу"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Мвакалоси"
+		dynasty = "Кьюнгу"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Магемо II"
+		dynasty = "Кьюнгу"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Касьомбе II"
+		dynasty = "Кьюнгу"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+
+
+1785.1.1 = { #-1839
+	monarch = {
+		name = "Мвангонде II"
+		dynasty = "Кьюнгу"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+} 
+
+1790.1.1 = { #Foundation of the Chikulamayembe dynasty.
+	monarch = {
+		name = "Гонапамуханья"
+		dynasty = "Чикуламайембе"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

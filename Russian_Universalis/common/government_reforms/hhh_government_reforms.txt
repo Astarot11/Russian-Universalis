@@ -1,0 +1,48 @@
+####################################
+#
+#Hellenic Monarchy
+#
+####################################
+
+greek_monarchy_legacy = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	monarchy = yes
+	
+	duration = 8
+	modifiers = {
+			development_cost = -0.1
+			global_unrest = -1
+			reduced_liberty_desire = 15
+			max_absolutism = -30
+			max_states = -3
+			global_autonomy = 0.02
+	}
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+		enables_plutocratic_idea_group = yes
+		allow = { has_dlc = "Res Publica" }
+		queen = no
+		heir = no
+		states_general_mechanic = {
+			statists = {
+				diplomatic_reputation = 1
+				global_unrest = -1
+				legitimacy = 0.5
+				global_autonomy = -0.033
+			}
+
+			monarchists = {
+				legitimacy = -0.5
+				global_tax_modifier = 0.10
+				land_morale = 0.05
+				global_autonomy = 0.033
+			}
+		}
+	}
+}

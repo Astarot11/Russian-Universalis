@@ -1,0 +1,100 @@
+country_decisions = {
+
+#Form Jagiellon
+jagiellon = {
+	major = yes
+	potential = {
+		NOT = { exists = JAG }
+		NOT = { tag = PLC }
+		is_free_or_tributary_trigger = yes
+		OR = {
+			tag = LIT
+			tag = POL
+			tag = HUN
+			tag = BOH
+			dynasty = "√едиминович"
+			dynasty = "ягеллон"
+		}
+	}
+	provinces_to_highlight = {
+		OR = {
+			province_id = 257 #Warszawa
+			province_id = 272 #Vilna
+			province_id = 262 #Krakow
+			province_id = 260 #Lubava
+			province_id = 266 #Bohemia
+			province_id = 153 #Pest
+			province_id = 276 #Minsk
+			province_id = 280 #Kiev
+			province_id = 290 #Poltava
+		}
+		NOT = { country_or_vassal_holds = ROOT }
+	}
+	allow = {
+		OR = { 
+			dynasty = "√едиминович"
+			dynasty = "ягеллон"
+			total_development = 1000
+		}
+		adm_tech = 15
+		NOT = { exists = JAG }
+		is_free_or_tributary_trigger = yes
+		stability = 3
+		is_at_war = no
+		owns_or_vassal_of = 257 #Warszawa
+		owns_or_vassal_of = 272 #Vilna
+		owns_or_vassal_of = 262 #Krakow
+		owns_or_vassal_of = 260 #Lubava
+		owns_or_vassal_of = 266 #Bohemia
+		owns_or_vassal_of = 153 #Pest
+		owns_or_vassal_of = 276 #Minsk
+		owns_or_vassal_of = 280 #Kiev
+		owns_or_vassal_of = 290 #Poltava		
+	}
+	effect = {
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		change_tag = JAG
+		country_event = { id = ideagroups.1 } #Swap Ideas
+		set_government_rank = 3
+		set_capital = 260
+		if = {
+			limit = {
+				overlord_of = POL
+				}
+			inherit = POL
+			}
+		if = {
+			limit = {
+				overlord_of = LIT
+				}
+			inherit = LIT
+			}
+		if = {
+			limit = {
+				overlord_of = BOH
+				}
+			inherit = BOH
+			}
+		if = {
+			limit = {
+				overlord_of = HUN
+				}
+			inherit = HUN
+		}
+		if = {
+			limit = {
+				overlord_of = PLC
+				}
+			inherit = PLC
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	ai_importance = 50
+}
+
+}

@@ -1,0 +1,173 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = western
+primary_culture = franconian
+religion = catholic
+capital = 66
+fixed_capital = 66
+ 
+1431.1.1 = {
+    monarch = {
+        name = "Антон"
+        dynasty = "фон Ротенхан"
+        birth_date = 1396.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1459.1.1 = {
+    monarch = {
+        name = "Георг"
+        dynasty = "фон Шамберг"
+        birth_date = 1424.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1475.1.1 = {
+    monarch = {
+        name = "Филипп"
+        dynasty = "фон Геннеберг"
+        birth_date = 1440.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1487.2.1 = {
+    monarch = {
+        name = "Генрих" #Генрих Gro?
+        dynasty = "фон Трокай"
+        birth_date = 1452.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1501.3.30 = {
+    monarch = {
+        name = "Вейт" #Вейт Truchse?
+        dynasty = "фон Поммерсфельден"
+        birth_date = 1466.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1503.9.7 = {
+    monarch = {
+        name = "Георг II" #Георг Marschalk
+        dynasty = "фон Эбнет"
+        birth_date = 1468.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1505.1.30 = {
+    monarch = {
+        name = "Георг III" #Георг Schenk
+        dynasty = "фон Лимпург"
+        birth_date = 1470.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1522.5.31 = {
+    monarch = {
+        name = "Вейганд"
+        dynasty = "фон Редвитц"
+        birth_date = 1487.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1556.5.20 = {
+    monarch = {
+        name = "Георг IV" #Георг Fuchs
+        dynasty = "фон Ругхейм"
+        birth_date = 1521.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1561.5.22 = {
+    monarch = {
+        name = "Вейт II"
+        dynasty = "фон Вюртцбург"
+        birth_date = 1526.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1577.7.8 = {
+    monarch = {
+        name = "Johann Георг Zobel"
+        dynasty = "фон Гебельсштад"
+        birth_date = 1542.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1580.9.7 = {
+    monarch = {
+        name = "Мартин"
+        dynasty = "фон Еуб"
+        birth_date = 1545.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1583.8.26 = {
+    monarch = {
+        name = "Эрнст"
+        dynasty = "фон Менгердорф"
+        birth_date = 1548.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1591.10.21 = {
+    monarch = {
+        name = "Нейтард"
+        dynasty = "фон Тунген"
+        birth_date = 1556.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}
+ 
+1598.12.26 = {
+    monarch = {
+        name = "Йохан Филипп"
+        dynasty = "фон Гейбзаттель"
+        birth_date = 1563.1.1
+        dip = 2
+        adm = 2
+        mil = 2
+    }
+}

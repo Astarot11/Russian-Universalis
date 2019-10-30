@@ -1,0 +1,32 @@
+#874 - Salish
+
+owner = SAL
+controller = SAL
+add_core = SAL
+is_city = yes
+culture = salish
+religion = totemism
+capital = "Salish"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 6 
+discovered_by = north_american
+
+center_of_trade = 1 
+
+1543.1.1 = { discovered_by = SPA } # Sighted by Spanish explorers
+1741.1.1 = { discovered_by = RUS } # Vitus Bering & Aleksei Chirikov
+1851.9.25  = { 	owner = USA 
+		add_core = USA 
+		controller = USA 
+		remove_core = SAL
+		culture = american
+		religion = protestant
+	     }
+1860.1.1 = { base_tax = 4 base_production = 5 base_manpower = 2 }
+1865.1.14  = { capital = "Seattle" }

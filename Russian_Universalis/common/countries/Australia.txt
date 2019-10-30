@@ -1,0 +1,106 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = GBR
+random_nation_chance = 0
+
+color = { 144  60  75 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	economic_ideas
+	plutocracy_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Филлипп #0" = 20
+	"Лачлан #0" = 20
+	"Уильям #0" = 15
+	"Джон #0" = 15
+	"Артур #0" = 10
+	"Томас #0" = 10
+	"Амврос #0" = 0
+	"Ральф #0" = 0
+	"Бенджамин #0" = 0
+	"Брайан #0" = 0
+	"Ричард #0" = 0
+	"Кристофер #0" = 0
+	"Конрад #0" = 0
+	"Дэнис #0" = 0
+	"Дункан #0" = 0
+	"Юстас #0" = 0
+	"Фредерик #0" = 0
+	"Джерард #0" = 0
+	"Грегори #0" = 0
+	"Джордж #0" = 0
+	"Гомер #0" = 0
+	"Джозеф #0" = 0
+	"Юлий #0" = 0
+	"Кевин #0" = 0
+	"Лоуренс #0" = 0
+	"Лирой #0" = 0
+	"Льюис #0" = 0
+	"Мэттью #0" = 0
+	"Майкл #0" = 0
+	"Монтгомери #0" = 0
+	"Никлас #0" = 0
+	"Питер #0" = 0
+	"Рован #0" = 0
+	"Скотт #0" = 0
+	"Сильвестр #0" = 0
+	"Спенсер #0" = 0
+	"Улисс #0" = 0
+	"Виктор #0" = 0
+	
+	"Виктория #0" = -1
+	"Амвросия #0" = -1
+	"Шарлотта #0" = -1
+}
+
+leader_names = { 
+	Бурке Дарлинг
+	Брисбен МакКвари
+	Блайт Кинг Батлер
+	Хантер Филлипп Дэнисон
+	Фицрой Бэлмор
+	Робинсон
+	Лофтус Каррингтон
+	Дафф Хампден Бошамп Росон
+	Челмсфорд Яган 
+	Стрикланд Дэвидсон
+	Грей Флиндерс
+	Басс
+}
+
+ship_names = {
+	Сидней Коромандел
+	Ярра Дамбартон
+	Гасконь Перт
+	Хуон Стюарт
+	Хоксбери Тувумба
+	Мэриборо Норман 
+	Варрамунга Парраматта
+}

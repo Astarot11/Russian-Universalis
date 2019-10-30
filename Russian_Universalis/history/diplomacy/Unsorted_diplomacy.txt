@@ -1,0 +1,325 @@
+# mp balance
+
+vassal = {
+	first = FRA
+	second = AMG
+	start_date = 1310.1.1
+	end_date = 1311.1.1
+}
+
+vassal = {
+	first = ENG
+	second = WLS
+	start_date = 1310.1.1
+	end_date = 1311.1.1
+}
+
+march = {
+	first = CAS
+	second = GAL
+	start_date = 1310.1.1
+	end_date = 1311.1.1
+}
+
+vassal = {
+	first = VEN
+	second = AQU
+	start_date = 1310.1.1
+	end_date = 1310.2.2
+}
+
+vassal = {
+	first = VEN
+	second = NAX
+	start_date = 1310.1.1
+	end_date = 1310.2.2
+}
+
+vassal = {
+	first = ARA
+	second = SAR
+	start_date = 1310.1.1
+	end_date = 1310.2.2
+}
+
+union = {
+	first = ARA
+	second = SIC
+	start_date = 1310.1.1
+	end_date = 1310.2.2
+}
+
+
+# 
+
+vassal = {
+	first = SAV
+	second = VLS
+	start_date = 1399.1.1
+	end_date = 1529.1.1
+}
+
+vassal = {
+	first = MLO
+	second = ULT
+	start_date = 1399.1.1
+	end_date = 1512.1.1
+}
+
+vassal = {
+	first = LAN
+	second = PIO
+	start_date = 1398.1.1
+	end_date = 1509.1.1
+}
+
+
+vassal = {
+	first = PAP
+	second = ANC
+	start_date = 1398.1.1
+	end_date = 1532.1.1
+}
+
+vassal = {
+	first = PAP
+	second = SPO
+	start_date = 1415.1.1
+	end_date = 1540.1.1
+}
+
+vassal = {
+	first = PAP
+	second = PGA
+	start_date = 1415.1.1
+	end_date = 1510.1.1
+}
+
+vassal = {
+	first = BOS
+	second = HUM
+	start_date = 1356.1.1
+	end_date = 1361.1.1
+}
+
+vassal = {
+	first = BOS
+	second = HUM
+	start_date = 1418.1.1
+	end_date = 1482.1.1
+}
+
+vassal = {
+	first = TUR
+	second = HUM
+	start_date = 1482.1.1
+	end_date = 1521.1.1
+}
+
+vassal = {
+	first = SER
+	second = RSK
+	start_date = 1398.1.1
+	end_date = 1459.1.1
+}
+
+union = {
+	first = HUN
+	second = CRO
+	start_date = 1322.1.2
+	end_date = 1526.1.1
+}
+
+march = {
+	first = SCO
+	second = LOI
+	start_date = 1293.1.1
+	end_date = 1493.1.1
+}
+march = {
+	first = NOR
+	second = ORK
+	start_date = 1444.1.1
+	end_date = 1461.12.31
+}
+alliance = {
+	first = ALB
+	second = MON
+	start_date = 1440.1.1
+	end_date = 1463.4.2
+}
+alliance = {
+	first = TEU
+	second = LIV
+	start_date = 1440.1.1
+	end_date = 1448.4.11
+}
+
+#########################################
+union = { #history
+	first = NEV
+	second = FLA
+	start_date = 1305.3.7
+	end_date = 1384.1.1
+}
+ 
+union = { # mp balance
+	first = BUR
+	second = HOL
+	start_date = 1310.1.1
+	end_date = 1310.1.2
+}
+
+#union = {
+#	first = HAI
+#	second = HOL
+#	start_date = 1299.11.10
+#	end_date = 1432.1.1
+#}
+
+union = {
+	first = HUN
+	second = POL
+	start_date = 1370.11.7
+	end_date = 1382.9.11
+}
+
+union = {
+	first = BOH
+	second = TIR
+	start_date = 1307.8.15
+	end_date = 1309.12.12
+}
+
+union = { #mp balance
+	first = HAB
+	second = STY
+	start_date = 1310.1.1
+	end_date = 1310.2.2
+}
+
+union = {
+	first = BOH
+	second = LUX
+	start_date = 1310.8.31
+	end_date = 1354.3.13
+}
+######################################
+union = {
+	first = FRA
+	second = SWI
+	start_date = 1803.2.13
+	end_date = 1813.12.29
+}
+
+union = {
+	first = NAP
+	second = HUN
+	start_date = 1385.12.1
+	end_date = 1386.2.24
+}
+
+union = {
+	first = NAP
+	second = ACH
+	start_date = 1383.7.13
+	end_date = 1386.2.24
+}
+
+union = {
+	first = HUN
+	second = BRA
+	start_date = 1387.3.31
+	end_date = 1388.1.1
+}
+
+############################################
+
+union = {
+	first = FRA
+	second = MLO
+	start_date = 1499.9.6
+	end_date = 1500.2.5
+}
+
+union = {
+	first = FRA
+	second = MLO
+	start_date = 1500.4.10
+	end_date = 1512.6.16
+}
+
+union = {
+	first = FRA
+	second = MLO
+	start_date = 1515.10.8
+	end_date = 1521.11.19
+}
+
+union = {
+	first = FRA
+	second = MLO
+	start_date = 1524.10.3
+	end_date = 1525.2.24
+}
+march = {
+	first = HUN
+	second = MOL
+	start_date = 1345.1.1
+	end_date = 1365.1.1
+}
+
+union = {
+	first = NSI
+	second = GLU
+	start_date = 1300.10.3
+	end_date = 1400.2.24
+}
+
+union = {
+	first = BRY
+	second = CHR
+	start_date = 1300.10.3
+	end_date = 1401.2.24
+}
+
+vassal = {
+	first = LIT
+	second = MSK
+	start_date = 1300.10.3
+	end_date = 1401.2.24
+}
+
+vassal = {
+	first = LIT
+	second = PIN
+	start_date = 1300.10.3
+	end_date = 1401.2.24
+}
+
+vassal = {
+	first = LIT
+	second = KLL
+	start_date = 1300.10.3
+	end_date = 1401.2.24
+}
+
+#Aragon
+vassal = {
+	first = ARA
+	second = SAR
+	start_date = 1326.1.1
+	end_date = 1420.1.1
+}
+alliance = {
+	first = ARA
+	second = SIC
+	start_date = 1300.1.1
+	end_date = 1400.1.1
+}
+vassal = {
+	first = ARA
+	second = SIC
+	start_date = 1401.5.25
+	end_date = 1409.7.25
+}

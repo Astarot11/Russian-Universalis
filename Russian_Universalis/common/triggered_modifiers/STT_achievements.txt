@@ -1,0 +1,515 @@
+# Achievements
+
+
+###### Easy #######
+
+stt_achievements_hab_swiss = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = HAB
+		start_date = 1309.3.9
+		normal_or_historical_nations = yes
+		switzerland_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		romandie_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+}
+
+stt_achievements_hab_australia = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = HAB
+		normal_or_historical_nations = yes
+		australia_region = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+}
+
+stt_achievements_ara_rulit = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		primary_culture = armenian
+		151 = {
+			owned_by = ROOT
+			culture = armenian
+		}
+	}
+}
+
+stt_achievements_true_indep = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = OST
+		all_province = {
+			limit = { culture_group = georgian }
+			owned_by = ROOT
+		}
+	}
+}
+
+stt_achievements_selfdestruction = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		OR = {
+			tag = KNI
+			tag = TEU
+			tag = LIV
+		}
+		any_owned_province = {
+			is_institution_origin = hhh_dt_f
+		}
+		NOT = { is_year = 1312 }
+	}
+}
+
+###### Medium ###########
+
+stt_achievements_habsburger = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = HAB
+		normal_or_historical_nations = yes
+		production_leader = { trade_goods = grain }
+		production_leader = { trade_goods = spices }
+		production_leader = { trade_goods = livestock }
+	}
+}
+
+stt_achievements_charstvo_litovskoe = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = LIT
+		religion = orthodox
+		government_rank = 2
+		start_date = 1309.3.9
+		normal_or_historical_nations = yes
+		russia_region = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+}
+
+stt_achievements_lit_grekcatholic = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = LIT
+		normal_or_historical_nations = yes
+		religion = catholic
+		ruthenia_region = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			religion = grekocatholic
+		}
+	}
+}
+
+stt_achievements_geo_rtveli_suneli = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		culture_group = georgian
+		production_leader = { trade_goods = spices }
+		production_leader = { trade_goods = wine }
+	}
+}
+
+stt_achievements_greek_renessaince = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		culture_group = byzantine
+		NOT = { start_date = 1310.1.1 }
+		NOT = { is_year = 1500 }
+		morea_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+		northern_greece_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+		macedonia_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+		thrace_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+		western_aegean_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+		eastern_aegean_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			development = 20
+		}
+	}
+}
+
+stt_achievements_varyagi = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		religion = norse_pagan_reformed
+		151 = { owned_by = ROOT }
+	}
+}
+
+stt_achievements_third_rome = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = TSR
+		}
+		151 = { owned_by = ROOT }
+		any_country = {
+			tag = TUR
+		}
+	}
+}
+
+stt_achievements_greek_project = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		culture = russian
+		government_rank = 3
+		BYZ = {
+			vassal_of = ROOT
+			dynasty = ROOT
+		}
+		western_aegean_area = { type = all owned_by = BYZ is_city = yes }
+		thrace_area = { type = all owned_by = BYZ is_city = yes }
+		macedonia_area = { type = all owned_by = BYZ is_city = yes }
+		northern_greece_area = { type = all owned_by = BYZ is_city = yes }
+		morea_area = { type = all owned_by = BYZ is_city = yes }
+	}
+}
+
+stt_achievements_horti_fleet = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = HUN
+		normal_or_historical_nations = yes
+		navy_tradition = 100
+		NOT = {
+			any_country = {
+				OR = {
+					num_of_galley = HUN
+					num_of_heavy_ship = HUN
+					num_of_light_ship
+					num_of_transport = HUN
+				}
+			}
+		}
+	}
+}
+
+###### Hard #######
+
+stt_achievements_hab_unite = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = HAB
+		normal_or_historical_nations = yes
+		all_country = { capital_scope = { continent = europe } religion_group = christian dynasty = HAB }
+	}
+}
+
+stt_achievements_turok_1309 = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = TUR
+		start_date = 1309.3.9
+		normal_or_historical_nations = yes
+		NOT = { is_year = 1354 }
+		anatolia_region = { type = all country_or_non_sovereign_subject_holds = TUR }
+		BYZ = { exists = no }
+	}
+	
+}
+
+stt_achievements_hun_pentarchy = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = HUN
+		normal_or_historical_nations = yes
+		religion = orthodox
+		2313 = {
+			owned_by = ROOT
+			religion = orthodox
+		}
+		358 = {
+			owned_by = ROOT
+			religion = orthodox
+		}
+		151 = {
+			owned_by = ROOT
+			religion = orthodox
+		}
+		118 = {
+			owned_by = ROOT
+			religion = orthodox
+		}
+		379 = {
+			owned_by = ROOT
+			religion = orthodox
+		}
+	}
+	
+}
+
+
+stt_achievements_timurs_china = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = TIM
+		start_date = 1370.4.10
+		normal_or_historical_nations = yes
+		has_ruler = "Тимур"
+		south_china_region = { type = all owned_by = TIM is_city = yes }
+		north_china_region = { type = all owned_by = TIM is_city = yes }
+	}
+	
+}
+
+stt_achievements_velis_new_time = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		OR = {
+			tag = BYZ
+			was_tag = BYZ
+		}
+		normal_or_historical_nations = yes
+		NOT = { start_date = 1310.1.1 }
+		NOT = { is_year = 1380 }
+		anatolia_region = { type = all owned_by = ROOT is_city = yes }
+		balkan_region = { type = all owned_by = ROOT is_city = yes }
+	}
+	
+}
+
+stt_achievements_imperium_yus = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		OR = {
+			tag = BYZ
+			was_tag = BYZ
+		}
+		start_date = 1444.1.1
+		NOT = { is_year = 1680 }
+		normal_or_historical_nations = yes
+		lower_andalucia_area = { type = all owned_by = ROOT is_city = yes }
+		upper_andalucia_area = { type = all owned_by = ROOT is_city = yes }
+		anatolia_region = { type = all owned_by = ROOT is_city = yes }
+		balkan_region = { type = all owned_by = ROOT is_city = yes }
+		italy_region = { type = all owned_by = ROOT is_city = yes }
+		egypt_region = { type = all owned_by = ROOT is_city = yes }
+		maghreb_region = { type = all owned_by = ROOT is_city = yes }
+	}
+}
+
+stt_achievements_soviet_union = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = DIT
+		has_reform = peasants_republic
+		russia_region = { type = all owned_by = ROOT is_city = yes }
+		baltic_region = { type = all owned_by = ROOT is_city = yes }
+		crimea_region = { type = all owned_by = ROOT is_city = yes }
+		caucasia_region = { type = all owned_by = ROOT is_city = yes }
+		kazakhstan_area = { type = all owned_by = ROOT is_city = yes }
+	}
+}
+
+
+########## INSANE #################
+stt_achievements_timurs_conquest = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = TIM
+		normal_or_historical_nations = yes
+		NOT = {
+			any_country = {
+				NOT = {
+					OR = {
+						tag = ROOT
+						AND = {
+							is_subject_of = ROOT
+							NOT = { is_subject_of_type = tributary_state }
+						}
+					}
+				}
+				exists = yes
+			}
+		}
+	}
+}
+
+stt_achievements_wrong_islam = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		religion_group = muslim
+		NOT = {
+			any_province = {
+				OR = {
+					trade_goods = wine
+					trade_goods = livestock
+				}
+				NOT = { owned_by = ROOT }
+			}
+		}
+	}
+}
+
+stt_achievements_charlemagne = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		OR = {
+			was_tag = LOR 
+			was_tag = BUR
+		}
+		tag = WEK
+		NOT = { is_year = 1550 }
+		iberia_region = { type = all owned_by = ROOT is_city = yes }
+		france_region = { type = all owned_by = ROOT is_city = yes }
+		low_countries_region = { type = all owned_by = ROOT is_city = yes }
+		italy_region = { type = all owned_by = ROOT is_city = yes }
+		north_german_region = { type = all owned_by = ROOT is_city = yes }
+		south_german_region = { type = all owned_by = ROOT is_city = yes }
+		balkan_region = { type = all owned_by = ROOT is_city = yes }
+		poland_region = { type = all owned_by = ROOT is_city = yes }
+	}
+}

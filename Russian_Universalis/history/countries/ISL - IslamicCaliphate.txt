@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = ottoman
+primary_culture = turkish
+religion = sunni
+capital = 151	# Constantinople
+
+1750.1.1 = { government = republic
+set_legacy_government = constitutional_republic }

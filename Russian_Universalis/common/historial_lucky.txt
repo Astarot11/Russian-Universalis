@@ -1,0 +1,118 @@
+# Order here is the priority for taking them, if trigger is true.
+
+CAS = {
+	NOT = { 
+		exists = SPA 
+		is_year = 1700
+	}
+}
+
+SPA = {
+	NOT = { 
+		exists = CAS
+		is_year = 1700
+	}
+}
+
+TUR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+TU0 = { 					###STT 
+	NOT = { 
+		exists = TUR
+	}
+} #NewOsmans
+
+RUS = {
+	always = yes
+}
+
+MOS = {
+	NOT = { 
+		exists = RUS
+	}
+}
+
+GBR = {
+	always = yes
+}
+
+ENG = {
+	NOT = { 
+		exists = GBR
+	}
+}
+
+FRA = {
+	always = yes
+}
+
+HAB = {
+	always = yes
+}
+
+PRU = { 					###STT 
+	is_year = 1650
+}
+
+NED = {
+	always = yes
+}
+
+POR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+BRA = {
+	always = yes
+}
+SWE = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+POL = {
+	NOT = {
+		exists = PLC
+	}
+}
+
+PLC = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+LIT = { 					###STT 
+	NOT = { 
+		junior_union_with = POL
+		senior_union_with = POL
+		is_year = 1450
+		total_development = 500
+	}
+}
+
+BUR = { 					###STT 
+	NOT = {
+		total_development = 200
+		#num_of_unions = 2
+		is_year = 1444
+	}
+}
+
+GLH = {						###STT 
+	NOT = { is_year = 1340 }
+}
+
+AZT = { always = yes }		###STT 
+
+CSU = { always = yes }		###STT 
+
+PAP = { 					###STT 
+	NOT = { num_of_cities = 10 }
+}

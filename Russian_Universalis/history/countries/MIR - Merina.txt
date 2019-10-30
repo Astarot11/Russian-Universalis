@@ -1,0 +1,358 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = madagasque
+religion = shamanism #Fetishism
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1792	# Imerina
+
+1440.1.1 = {
+	monarch = {
+		name = "Андрианампандрандрандава"
+		dynasty = "Вазимба"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Андрианмасинидохафандрана"
+		dynasty = "Вазимба"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Рафандрампохи"
+		dynasty = "Вазимба"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Андрианмпандраманенитра"
+		dynasty = "Вазимба"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Рангита"
+		female = yes
+		dynasty = "Вазимба"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Рафохи"
+		female = yes
+		dynasty = "Вазимба"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Андриаманело"
+		monarch_name = "Андриаманело"
+		dynasty = "Мерина"
+		birth_date = 1520.1.1
+		death_date = 1575.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Андриаманело"
+		dynasty = "Мерина"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Раламбо"
+		monarch_name = "Раламбо"
+		dynasty = "Мерина"
+		birth_date = 1540.1.1
+		death_date = 1612.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Раламбо"
+		dynasty = "Мерина"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Андрианжака"
+		monarch_name = "Андрианжака"
+		dynasty = "Мерина"
+		birth_date = 1570.1.1
+		death_date = 1630.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Андрианжака"
+		dynasty = "Мерина"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1612.1.1 = {
+	heir = {
+		name = "Андрианцитакатрандриана"
+		monarch_name = "Андрианцитакатрандриана"
+		dynasty = "Мерина"
+		birth_date = 1590.1.1
+		death_date = 1650.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Андрианцитакатрандриана"
+		dynasty = "Мерина"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1630.1.1 = {
+	heir = {
+		name = "Андрианцимитовиаминандриандехибе"
+		monarch_name = "Андрианцимитовиаминандриандехибе"
+		dynasty = "Мерина"
+		birth_date = 1630.1.1
+		death_date = 1670.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Андрианцимитовиаминандриандехибе"
+		dynasty = "Мерина"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Разакацитакатрандриана"
+		monarch_name = "Разакацитакатрандриана"
+		dynasty = "Мерина"
+		birth_date = 1630.1.1
+		death_date = 1670.1.1
+		claim = 60
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Разакацитакатрандриана"
+		dynasty = "Мерина"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Андриамасинавалона"
+		monarch_name = "Андриамасинавалона"
+		dynasty = "Мерина"
+		birth_date = 1630.1.1
+		death_date = 1670.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Андриамасинавалона"
+		dynasty = "Мерина"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1675.1.1 = {
+	heir = {
+		name = "Андрианцимитовиаминандриандразака"
+		monarch_name = "Андрианцимитовиаминандриандразака"
+		dynasty = "Мерина"
+		birth_date = 1650.1.1
+		death_date = 1710.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Андрианцимитовиаминандриандразака"
+		dynasty = "Мерина"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Андриамбеломасина"
+		monarch_name = "Андриамбеломасина"
+		dynasty = "Мерина"
+		birth_date = 1730.1.1
+		death_date = 1770.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Андриамбеломасина"
+		dynasty = "Мерина"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Андрианджафи"
+		monarch_name = "Андрианджафи"
+		dynasty = "Мерина"
+		birth_date = 1750.1.1
+		death_date = 1787.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Андрианджафи"
+		dynasty = "Мерина"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Андрианампоинимерина"
+		monarch_name = "Андрианампоинимерина"
+		dynasty = "Мерина"
+		birth_date = 1750.1.1
+		death_date = 1810.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Андрианампоинимерина"
+		dynasty = "Мерина"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1793.1.1 = {
+	heir = {
+		name = "Радама"
+		monarch_name = "Радама"
+		dynasty = "Мерина"
+		birth_date = 1793.1.1
+		death_date = 1828.7.27
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1810.1.1 = {
+	monarch = {
+		name = "Радама"
+		dynasty = "Мерина"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

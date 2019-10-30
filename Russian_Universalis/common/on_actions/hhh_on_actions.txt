@@ -1,0 +1,20 @@
+on_four_year_pulse_3  = {
+	random_events = {	
+		100 = event_estate_hhh.4
+		100 = event_estate_hhh.5
+		100 = event_estate_hhh.5
+		100 = event_estate_hhh.10
+		100 = event_estate_hhh.12
+		100 = event_estate_hhh.11
+		100 = event_estate_hhh.13
+		100 = hhh_religion.3
+		100 = hhh_religion.1
+		100 = hhh_religion.4
+		60 = hhh_religion.6
+		100 = hhh_religion.7
+		100 = hhh_religion.8
+		60 = hhh_religion.9
+		100 = hhh_religion.10
+		60 = hhh_religion.11
+	}
+}

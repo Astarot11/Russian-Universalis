@@ -1,0 +1,77 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = luba
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3540 # Upemba
+
+1430.1.1 = {
+	monarch = {
+		name = "Ниембо"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} #All fictional
+
+1490.1.1 = {
+	monarch = {
+		name = "Нгой"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 
+
+1540.1.1 = {
+	monarch = {
+		name = "Кисуку"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 
+
+1600.1.1 = {
+	monarch = {
+		name = "Нилемба"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 
+
+1660.1.1 = {
+	monarch = {
+		name = "Каншимбу"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 
+
+1720.1.1 = {
+	monarch = {
+		name = "Дибве"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 
+
+1780.1.1 = {
+	monarch = {
+		name = "Маниема"
+		dynasty = "Киконджа"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+} 

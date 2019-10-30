@@ -1,0 +1,39 @@
+#2762 - Damot
+
+owner = DAM
+controller = DAM
+add_core = DAM
+add_core = ETH
+culture = amhara 
+religion = coptic
+capital = "Nekemte"
+is_city = yes
+base_manpower = 2
+trade_goods = gold
+hre = no
+base_tax = 2 
+base_production = 2
+estate = estate_nobles
+discovered_by = ETH
+discovered_by = ADA
+discovered_by = NUB
+discovered_by = ZAN
+discovered_by = ZIM
+discovered_by = AJU
+discovered_by = MBA
+discovered_by = MDI
+discovered_by = MLI
+discovered_by = SFA
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = east_african
+
+1580.1.1 = {
+	culture = oromo
+}
+1670.1.1 = { #Damot is more closely integrated from around this time and onwards, with regular visits from emperors, etc.
+	owner = ETH
+	controller = ETH
+	add_core = ETH
+}

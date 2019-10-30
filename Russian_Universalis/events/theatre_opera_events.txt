@@ -1,0 +1,87 @@
+namespace = theatrecultral
+country_event = {
+	id = theatre.19955588
+	title = "theatre.EVTNAME19955588"
+	desc = "theatre.EVTDESC19955588"
+	picture = culture_event_picture
+	fire_only_once = yes
+	trigger = {
+		theatre = 10
+		NOT = { has_country_modifier = cultural_theatre }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "theatre.EVTOPTA19955588"
+		add_country_modifier = {
+			name = "cultural_theatre"
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = theatre.19955589
+	title = "theatre.EVTNAME19955589"
+	desc = "theatre.EVTDESC19955589"
+	picture = culture_event_picture
+	fire_only_once = yes
+	trigger = {
+		NOT = { theatre = 10 }
+		has_country_modifier = cultural_theatre
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "theatre.EVTOPTA19955589"
+		remove_country_modifier = cultural_theatre
+	}
+}
+country_event = {
+	id = theatre.19955590
+	title = "theatre.EVTNAME19955590"
+	desc = "theatre.EVTDESC19955590"
+	picture = culture_event_picture
+	fire_only_once = yes
+	trigger = {
+		plato_opera = 10
+		NOT = { has_country_modifier = cultural_opera }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "theatre.EVTOPTA19955590"
+		add_country_modifier = {
+			name = "cultural_opera"
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = theatre.19955591
+	title = "theatre.EVTNAME19955591"
+	desc = "theatre.EVTDESC19955591"
+	picture = culture_event_picture
+	fire_only_once = yes
+	trigger = {
+		NOT = { opera = 10 }
+		has_country_modifier = cultural_opera
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "theatre.EVTOPTA19955591"
+		remove_country_modifier = cultural_opera
+	}
+}

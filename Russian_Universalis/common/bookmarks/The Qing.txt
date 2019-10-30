@@ -1,0 +1,8 @@
+bookmark =
+{
+	name = "The_Qing_NAME"
+	desc = "The_Qing_DESC"
+	date = 1636.5.15
+	country = QNG	easy_country = QNG	country = MNG
+	
+}

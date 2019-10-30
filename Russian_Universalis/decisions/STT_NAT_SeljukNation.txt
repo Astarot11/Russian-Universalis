@@ -1,0 +1,106 @@
+country_decisions = {
+
+	seljuk_nation = {
+		major = yes
+		potential = {
+			NOT = { is_year = 1500 }
+			NOT = { exists = SEL }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = PER }
+			OR = {
+			      tag = AKK
+				  tag = QAR
+			}
+			OR = {
+				owns = 429			
+				owns = 416
+				owns = 418
+				owns = 382
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 429		# Esfahan
+				province_id = 416
+				province_id = 418
+				province_id = 382
+				province_id = 444		# Charjui
+				province_id = 446		# Herat	
+				province_id = 442		# Bukhara
+				province_id = 436		# Qaen
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+		    NOT = { is_year = 1500 }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 429			# Esfahan
+			owns_core_province = 416
+			owns_core_province = 418
+			owns_core_province = 382
+			OR = {
+				owns_core_province = 444		# Charjui
+				owns_core_province = 446		# Herat	
+			}
+			OR = {
+				owns_core_province = 442		# Bukhara
+				owns_core_province = 436		# Qaen
+			}
+		}
+		effect = {
+			anatolia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SEL
+			}
+			persia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SEL
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SEL
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = SEL
+			if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = muslim
+				change_unit_type = muslim
+			}
+			define_ruler = {
+				name = "Сельджук ибн Дукак"
+				dynasty = "Сельджукид"
+				adm = 2
+				dip = 2
+				mil = 5
+			}
+			define_heir = {
+				name = "Мелик-шах"
+				dynasty = "Сельджукид"
+				adm = 1
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+}

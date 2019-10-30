@@ -1,0 +1,78 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = kuba
+religion = shamanism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3523	# Kuba
+
+#Initial rulers fictional, supposedly rulers go back to the founding by Woot.
+1444.1.1 = { #Fictional
+	monarch = {
+		name = "Бопе Мобинджи"
+		dynasty = "Куба"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1510.1.1 = { #Fictional
+	monarch = {
+		name = "Бопе Мобинджи II"
+		dynasty = "Куба"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1580.1.1 = { #Fictional
+	monarch = {
+		name = "Микопе Мобинджи"
+		dynasty = "Куба"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1625.1.1 = { #The Great Centralizer
+	monarch = {
+		name = "Шиам а-Мбул"
+		dynasty = "Куба"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Миша ми-Шиаанг"
+		dynasty = "Куба"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1776.1.1 = {
+	monarch = {
+		name = "Ката Мбула"
+		dynasty = "Куба"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1810.1.1 = {
+	monarch = {
+		name = "Микопе Мбула"
+		dynasty = "Куба"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

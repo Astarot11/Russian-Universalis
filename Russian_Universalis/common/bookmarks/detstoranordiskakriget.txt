@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "DETSTORANORDISKAKRIGET_WAR_NAME"
+	desc = "DETSTORANORDISKAKRIGET_WAR_DESC"
+	date = 1699.12.10
+	
+	country = SWE
+	easy_country = SWE	country = DAN
+	easy_country = DAN	country = PLC	easy_country = PLC	country = TSR
+	easy_country = TSR
+	easy_country = SAX	}

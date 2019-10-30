@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = azerbaijani
+technology_group = muslim
+religion = shiite
+capital = 2207
+religious_school = jafari_school
+government_rank = 1

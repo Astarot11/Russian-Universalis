@@ -1,0 +1,373 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = ganda
+religion = shamanism #Fetishism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3559 # Bunyoro
+
+1444.1.1 = {
+	monarch = {
+		name = "Рикиду"
+		dynasty = "Бабито"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Оцаки"
+		monarch_name = "Оцаки"
+		dynasty = "Бабито"
+		birth_date = 1444.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Оцаки"
+		dynasty = "Бабито"
+		birth_date = 1444.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Виньи"
+		monarch_name = "Виньи I"
+		dynasty = "Бабито"
+		birth_date = 1480.1.1
+		death_date = 1560.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Виньи I"
+		dynasty = "Бабито"
+		birth_date = 1480.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Олими"
+		monarch_name = "Олими I"
+		dynasty = "Бабито"
+		birth_date = 1510.1.1
+		death_date = 1580.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Олими I"
+		dynasty = "Бабито"
+		birth_date = 1510.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Виньи"
+		monarch_name = "Виньи II"
+		dynasty = "Бабито"
+		birth_date = 1550.1.1
+		death_date = 1630.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Виньи II"
+		dynasty = "Бабито"
+		birth_date = 1550.1.1
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Олими"
+		monarch_name = "Олими II"
+		dynasty = "Бабито"
+		birth_date = 1580.1.1
+		death_date = 1650.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Олими II"
+		dynasty = "Бабито"
+		birth_date = 1580.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1620.1.1 = {
+	heir = {
+		name = "Ньярва"
+		monarch_name = "Ньярва"
+		dynasty = "Бабито"
+		birth_date = 1620.1.1
+		death_date = 1665.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Ньярва"
+		dynasty = "Бабито"
+		birth_date = 1620.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Квамали"
+		monarch_name = "Квамали"
+		dynasty = "Бабито"
+		birth_date = 1650.1.1
+		death_date = 1690.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Квамали"
+		dynasty = "Бабито"
+		birth_date = 1650.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1665.1.1 = {
+	heir = {
+		name = "Масамба"
+		monarch_name = "Масамба"
+		dynasty = "Бабито"
+		birth_date = 1665.1.1
+		death_date = 1720.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Масамба"
+		dynasty = "Бабито"
+		birth_date = 1665.1.1
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Анабвани"
+		monarch_name = "Анабвани I"
+		dynasty = "Бабито"
+		birth_date = 1670.1.1
+		death_date = 1695.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1692.1.1 = {
+	monarch = {
+		name = "Анабвани I"
+		dynasty = "Бабито"
+		birth_date = 1670.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Кьебамбе I"
+		dynasty = "Бабито"
+		birth_date = 1675.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1694.1.1 = {
+	heir = {
+		name = "Виньи"
+		monarch_name = "Виньи III"
+		dynasty = "Бабито"
+		birth_date = 1682.1.1
+		death_date = 1705.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Виньи III"
+		dynasty = "Бабито"
+		birth_date = 1682.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Ньяика"
+		monarch_name = "Ньяика"
+		dynasty = "Бабито"
+		birth_date = 1685.1.1
+		death_date = 1706.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1705.1.1 = {
+	monarch = {
+		name = "Ньяика"
+		dynasty = "Бабито"
+		birth_date = 1685.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Кьебамбе II"
+		dynasty = "Бабито"
+		birth_date = 1688.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Олими III"
+		dynasty = "Бабито"
+		birth_date = 1685.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Духага"
+		monarch_name = "Духага"
+		dynasty = "Бабито"
+		birth_date = 1700.1.1
+		death_date = 1782.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Духага"
+		dynasty = "Бабито"
+		birth_date = 1700.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Олими IV"
+		dynasty = "Бабито"
+		birth_date = 1750.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Ньямутукура"
+		dynasty = "Бабито"
+		birth_date = 1770.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

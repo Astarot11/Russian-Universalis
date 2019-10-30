@@ -1,0 +1,253 @@
+purple_palace = {
+	province_trade_power_value = 10
+	province_trade_power_modifier = 0.10
+	local_development_cost = -0.025
+	local_manpower_modifier = 0.1
+	local_hostile_attrition = 1
+	picture = "province_trade_power_value"
+}
+
+purple_palace_2 = {
+	local_institution_spread = 0.10
+	province_trade_power_modifier = 0.15
+	province_trade_power_value = 15
+	local_development_cost = -0.05
+	local_manpower_modifier = 0.25
+	local_hostile_attrition = 2
+	picture = "province_trade_power_value"
+}
+
+Archon_resists = {
+   diplomatic_reputation = -1.0
+   diplomatic_annexation_cost = 0.25
+   vassal_income = -0.1
+   legitimacy = -0.5
+   }
+   
+Archon_adm = {
+   legitimacy = 0.15
+   state_maintenance_modifier = -0.1
+}   
+
+Archon_dip = {
+  improve_relation_modifier = 0.1
+  diplomatic_reputation = 0.5
+  }
+  
+Archon_mil = {
+  army_tradition = 0.5
+}  
+
+archon_elect = {
+  legitimacy = 0.05
+}
+
+Archon_take_power = {
+  global_unrest = 1
+  yearly_corruption = 0.2
+}
+
+purple_guardy = {
+  infantry_power = 0.10
+  cavalry_power = 0.05
+  drill_gain_modifier = 0.2
+  drill_decay_modifier = -0.1
+  land_maintenance_modifier = 0.2
+}
+
+purple_archons = {
+  possible_mercenaries = -0.1
+  infantry_power = -0.05
+  global_manpower_modifier = 0.15
+}
+
+purple_upset = {
+  global_unrest = 2
+  land_morale = -0.05
+}
+
+nonstable_goverment = {
+}
+
+hellenic_heresy = {  
+  local_manpower_modifier = -0.4
+  local_unrest = 4
+  local_tax_modifier = -0.33
+  local_autonomy = 0.05
+}
+
+hellenic_ruler = {
+  global_unrest = 1
+  tolerance_heathen = 1
+}
+
+hellenic_fervor = {
+  global_missionary_strength = 0.06
+  global_unrest = 3
+}
+
+christian_opinions = {
+  improve_relation_modifier = 0.05
+}
+
+appearance_ares = {
+   land_morale = 0.10
+   discipline = -0.025
+   global_regiment_cost = -0.15
+}
+
+athenians_spirit = {
+   local_development_cost = -0.1
+}
+
+christian_upset = {
+  local_manpower_modifier = -0.4
+  local_unrest = 4
+  local_tax_modifier = -0.33
+  local_autonomy = 0.05
+}
+
+purple_cloth = {
+    trade_goods_size = 3.0
+}
+
+authority_delegator = {
+	stability_cost_modifier = 0.5 
+}
+
+archon_hard_way = {
+	diplomatic_reputation = -1
+	development_cost = 0.15
+	global_tax_modifier = -0.15
+	production_efficiency = -0.15
+	interest = 2
+	advisor_cost = -0.15
+	advisor_pool = 2
+}
+
+archon_soft_way = {
+	diplomatic_reputation = -0.5
+	development_cost = 0.1
+	global_tax_modifier = -0.05
+	production_efficiency = -0.1
+	interest = 1
+}
+
+hellenic_centre = {
+	local_missionary_strength = -0.05
+}
+
+bless_capital = {
+	local_defensiveness = 1.0
+}
+
+pontific_harsh_low = {
+	tolerance_heathen = -1
+	global_missionary_strength = 0.0025
+	global_heretic_missionary_strength = 0.005
+}
+
+pontific_harsh_high = {
+	tolerance_heathen = -2
+	global_missionary_strength = 0.005
+	global_heretic_missionary_strength = 0.005
+	global_unrest = 1
+}
+
+pontific_toleran_low = {
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	global_heretic_missionary_strength = -0.0025
+}
+
+pontific_toleran_high = {
+	tolerance_heathen = 2
+	tolerance_heretic = 1
+	global_missionary_strength = -0.005
+	global_unrest = 1
+}
+
+pontific_maximus = {
+	stability_cost_modifier = -0.1
+}
+
+pontificus_concentrate = {
+	missionaries = 1
+}
+
+rage_of_neptun = {
+	local_manpower_modifier = -0.1
+	local_unrest = 1
+	local_tax_modifier = -0.1
+	local_autonomy = 0.025
+}
+
+harsh_rage_of_neptun = {
+	local_manpower_modifier = -0.2
+	local_unrest = 2
+	local_tax_modifier = -0.2
+	local_autonomy = 0.05
+}
+
+hermes_traders = {
+	trade_efficiency = 0.15
+	trade_steering = 0.25
+}
+
+ares_warriors = {
+	infantry_power = 0.05
+	army_tradition = 0.25
+}
+
+harsh_inquisition_1 = {
+	tolerance_own = 1
+	global_heretic_missionary_strength = 0.0025
+	tolerance_heathen = -1
+	tolerance_heretic = -1
+	global_unrest = 1
+}
+harsh_inquisition_2 = {
+	tolerance_own = 2
+	global_missionary_strength = 0.0025
+	global_heretic_missionary_strength = 0.0025
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	global_unrest = 1.5
+	global_manpower_modifier = -0.1
+}
+harsh_inquisition_3 = {
+	tolerance_own = 2
+	global_missionary_strength = 0.005
+	global_heretic_missionary_strength = 0.0025
+	tolerance_heathen = -3
+	tolerance_heretic = -3
+	global_unrest = 2
+	global_manpower_modifier = -0.15
+}
+strong_inquisition = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	tolerance_heathen = -1
+	tolerance_heretic = -1
+	global_unrest = 1
+}
+cut_down_inquisition_1 = {
+	tolerance_own = -1
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+}
+cut_down_inquisition_2 = {
+	tolerance_own = -2
+	tolerance_heathen = 2
+	tolerance_heretic = 2
+}
+down_inquisition = {
+	tolerance_own = -1
+	tolerance_heathen = 1
+	tolerance_heretic = 2
+}
+
+crisis_managment = {
+	election_cycle = -4
+	stability_cost_modifier = -0.35
+}

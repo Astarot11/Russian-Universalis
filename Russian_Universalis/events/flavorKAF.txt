@@ -1,0 +1,95 @@
+########################################
+# Events for Kaffa
+########################################
+
+
+namespace = flavor_kaf
+normal_or_historical_nations = yes
+
+# Spawn Kaffa
+province_event = {
+	id = flavor_kaf.1
+	title = flavor_kaf.1.t
+	desc = flavor_kaf.1.d
+	picture = NAVAL_MILITARY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		NOT = { exists = KAF }
+		is_year = 1390
+		2757 = {
+			is_empty = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = { 
+		name = flavor_kaf.1.a
+		2757 = {
+			add_core = KAF
+			cede_province = KAF
+			change_trade_goods = gold
+		}
+		horn_of_africa_region = {
+			owner = { country_event = { id = flavor_kaf.2 } }
+		}
+	}
+}
+
+# Event to send to other province owners of the area when Kaffa is formed.
+country_event = {
+	id = flavor_kaf.2
+	title = flavor_kaf.2.t
+	desc = flavor_kaf.2.d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = flavor_kaf.2.a
+		tooltip = {
+			2757 = {
+				add_core = KAF
+				cede_province = KAF
+			}
+		}
+	}
+}
+
+# add 2759 to Kaffa
+province_event = {
+	id = flavor_kaf.3
+	title = flavor_kaf.3.t
+	desc = flavor_kaf.3.d
+	picture = NAVAL_MILITARY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1391
+		2759 = {
+			is_empty = yes
+		}
+		exists = KAF
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = { 
+		name = flavor_kaf.3.a
+		2759 = {
+			add_core = KAF
+			cede_province = KAF
+			change_trade_goods = grain
+		}
+	}
+}

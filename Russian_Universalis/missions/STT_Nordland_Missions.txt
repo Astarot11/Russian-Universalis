@@ -1,0 +1,1411 @@
+NDL_temples = {
+	slot = 7
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_gods_temple = {
+		icon = NDL_temple_3
+		position = 2
+		required_missions = { ndl_united_scandinavia }
+		trigger = {
+		   religion = norse_pagan_reformed
+		   temple = 25
+		}
+		effect = {
+			add_country_modifier = {
+				name = "gods_temple"
+				duration = -1		
+			}
+		}
+	}
+    
+	ndl_konyng_temple = {
+		icon = NDL_temple_2
+		position = 3
+		required_missions = { ndl_gods_temple }
+		trigger = {
+		   religion = norse_pagan_reformed
+		   temple = 50
+		}
+		effect = {
+		    remove_country_modifier = gods_temple
+			add_country_modifier = {
+				name = "konyng_temple"
+				duration = -1		
+			}
+		}
+	}
+    
+	ndl_great_temple = {
+		icon = NDL_temple_1
+		position = 4
+		required_missions = { ndl_konyng_temple }
+		trigger = {
+		   religion = norse_pagan_reformed
+		   cathedral = 80
+		}
+		effect = {
+		    remove_country_modifier = konyng_temple
+			add_country_modifier = {
+				name = "great_temple"
+				duration = -1		
+			}
+		}
+	}
+}
+
+NDL_diplomatic_reforms = {
+	slot = 6
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_diplomatic_reform_one = {
+		icon = mission_rb_monopolize_the_channel
+		position = 2
+		required_missions = { ndl_united_scandinavia } 
+		trigger = {
+		   religion = norse_pagan_reformed
+		   is_at_war = no
+		   advisor = diplomat
+		   adm = 2
+		   dip = 3
+		   dip_power = 400
+		   adm_power = 100
+		   stability = 1
+		}
+		effect = {
+		    add_prestige = 15
+			add_dip_power = -400
+			add_adm_power = -100
+			remove_country_modifier = norse_pagan_reform_one
+			add_country_modifier = {
+				name = "norse_pagan_reform_two"
+				duration = -1
+			}
+		}
+	}
+	
+	ndl_diplomatic_reform_two = {
+		icon = mission_alliances
+		position = 3
+		required_missions = { ndl_diplomatic_reform_one } 
+		trigger = {
+		   religion = norse_pagan_reformed
+		   is_at_war = no
+		   advisor = diplomat
+		   adm = 3
+		   dip = 4
+		   dip_power = 600
+		   adm_power = 200
+		   stability = 2
+		}
+		effect = {
+		    add_prestige = 35
+			add_dip_power = -600
+			add_adm_power = -200
+			remove_country_modifier = norse_pagan_reform_two
+			add_country_modifier = {
+				name = "norse_pagan_reform_finish"
+				duration = -1
+			}
+		}
+	}
+
+    ndl_diplomatic_reform_finish = {
+		icon = NDL_dip_reform_finish
+		position = 4
+		required_missions = { ndl_diplomatic_reform_two } 
+		trigger = {
+		   religion = norse_pagan_reformed
+		   is_at_war = no
+		   advisor = diplomat
+		   adm = 3
+		   dip = 5
+		   dip_power = 850
+		   adm_power = 300
+		   stability = 2
+		}
+		effect = {
+		    add_prestige = 50
+			add_dip_power = -850
+			add_adm_power = -300
+			remove_country_modifier = norse_pagan_reform_finish
+			add_country_modifier = {
+				name = "norse_pagan_reform_bonus"
+				duration = 3650
+			}
+		}
+	}
+}
+
+
+NDL_jomsvikings = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_jomsvikings = {
+		icon = NDL_jomsvikings_orden
+		position = 1
+		required_missions = {  } #None
+		trigger = {
+		   religion = norse_pagan_reformed
+		   is_at_war = no
+		   years_of_income = 1.5
+		   prestige = 50
+		   adm_power = 200
+		   dip_power = 250
+		   mil_power = 450
+		}
+		effect = {	
+		  add_adm_power = -200
+		  add_dip_power = -250
+		  add_dip_power = -450
+		  add_years_of_income = -1.5
+          custom_tooltip = jomsviking_provs	
+           hidden_effect = {		  
+		   14 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    }
+		   }
+		   25 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    }
+		   }
+		   1983 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    }
+		   }
+		   1981 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    }
+		   }
+		   1930 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    } 
+		   }
+		   3208 = {
+		    add_province_modifier = {
+			  name = "jomsviking_prov"
+			  duration = -1
+		    }
+		   }
+		  }
+		}
+	}
+}
+
+NDL_antichristian = {
+	slot = 5
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_antichristians = {
+		icon = NDL_antichristians
+		position = 1
+		required_missions = {  } #None
+		trigger = {
+		   religion = norse_pagan_reformed
+		   advisor = inquisitor
+		   adm_power = 150
+		   religious_unity = 1
+		   NOT = { has_idea_group = humanist_ideas }
+		}
+		effect = {
+		    add_adm_power = -150
+			add_country_modifier = {
+				name = "antichristan_edict"
+				duration = -1		
+			}
+		}
+	}
+}
+
+NDL_united_sca = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_united_scandinavia = {
+		icon = NDL_Scandinavia
+		position = 1
+		required_missions = {  } #None
+		provinces_to_highlight = {
+			OR = {
+				area = northern_norway
+				area = lapland_area
+				area = finland_area
+				area = finnish_karelia_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			northern_norway = {
+				owned_by = ROOT	
+				type = all
+			}
+			lapland_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			finland_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			finnish_karelia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "united_sca"
+				duration = -1
+			}
+			scandinavia_region = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT			
+			}
+		}
+	}
+}
+
+NDL_baltic_sea = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_holstein = {
+		icon = mission_dominate_home_trade_node
+		position = 2
+		required_missions = { ndl_united_scandinavia }
+		provinces_to_highlight = {
+			OR = {
+				area = holstein_area
+				area = mecklenburg_area
+				}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			holstein_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			mecklenburg_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}
+		
+		effect = {
+		    add_mercantilism = 2 {
+			}
+		    vorpommern_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hinter_pommern_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			45 = { 
+				add_province_modifier = {
+					name = "lubek_trade"
+					duration = 5475
+				}
+			}
+		}
+	}
+	
+	ndl_pomerania = {
+		icon = STT_BYZ_mission_varangian_guard
+		position = 3
+		required_missions = { ndl_holstein }
+		provinces_to_highlight = {
+			OR = {
+				area = vorpommern_area
+				area = hinter_pommern_area
+				}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			vorpommern_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			hinter_pommern_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}
+		
+		effect = {
+		    east_prussia_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			west_prussia_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ndl_prussia = {
+		icon = NDL_teutons_vs_pagans
+		position = 4
+		required_missions = { ndl_pomerania }
+		provinces_to_highlight = {
+			OR = {
+				area = east_prussia_area
+				area = west_prussia_area
+				}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			east_prussia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			west_prussia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			NOT = {
+			     exists = TEU 
+			}
+		}
+		effect = {
+		    add_prestige = 15 {
+            }
+			east_prussia_area = {
+			     add_province_modifier = {
+				    name = "prussian_christian_unrest"
+					duration = 3650
+				}	
+			}
+			west_prussia_area = {
+			     add_province_modifier = {
+				    name = "prussian_christian_unrest"
+					duration = 3650
+				}	
+	        }
+        }
+    }	
+}	
+
+NDL_colon_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	NDL_discover_greenland = {
+		icon = NDL_discover_greenland
+		position = 2
+		required_missions = { ndl_united_scandinavia } 
+		trigger = {
+		    religion = norse_pagan_reformed
+			navy_size_percentage = 0.95
+			years_of_income = 3.0
+		}
+		
+		effect = {
+			add_years_of_income = -3.0
+			1481 = {
+				discover_country = NDL
+			}
+			1924 = {
+				discover_country = NDL
+			}
+			1482 = {
+				discover_country = NDL
+			}
+			1484 = {
+				discover_country = NDL
+			}
+			1104 = {
+				discover_country = NDL
+			}
+			1105 = {
+				discover_country = NDL
+			}
+			3185 = {
+				discover_country = NDL
+			}
+			add_country_modifier = { 
+				name = "ndl_colon_boom" 
+				duration = 14600 
+			}
+		}
+	}
+	
+	NDL_greenland = {
+		icon = mission_colonial
+		position = 3
+		required_missions = { NDL_discover_greenland }
+		trigger = {
+		    religion = norse_pagan_reformed
+			any_owned_province = {
+				limit = {
+					province_id = 1104
+					province_id = 1105
+					province_id = 3185
+				}
+				development = 12
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = "boom_economy" 
+				duration = 3650 
+			}
+		}
+	}
+	
+	NDL_discover_winland = {
+		icon = NDL_discover_vinland
+		position = 4
+		required_missions = { NDL_greenland }
+		trigger = {
+		    religion = norse_pagan_reformed
+			navy_size_percentage = 0.95
+			years_of_income = 3.0
+		}
+		
+		effect = {
+			add_years_of_income = -3.0
+			1496 = {
+				discover_country = NDL
+			}
+			1493 = {
+				discover_country = NDL
+			}
+			1495 = {
+				discover_country = NDL
+			}
+			1490 = {
+				discover_country = NDL
+			}
+			980 = {
+				discover_country = NDL
+			}
+			2573 = {
+				discover_country = NDL
+			}
+			981 = {
+				discover_country = NDL
+			}
+			add_country_modifier = { 
+				name = "ndl_colon_boom" 
+				duration = 5475
+			}
+		}
+	}
+	
+	NDL_colonize_winland = {
+		icon = mission_rb_colonise_canada
+		position = 5
+		required_missions = { NDL_discover_winland }
+		trigger = {
+		    religion = norse_pagan_reformed
+			980 = { country_or_non_sovereign_subject_holds = ROOT }
+			2573 = { country_or_non_sovereign_subject_holds = ROOT }
+			981 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		effect = {
+		    create_conquistador = 75
+		}
+	}
+
+	NDL_colonize_north_america = {
+		icon = mission_rb_the_thirteen_colonies
+		position = 6
+		required_missions = { NDL_colonize_winland }
+		
+		provinces_to_highlight = {
+			OR = {
+				colonial_region = colonial_eastern_america
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			custom_trigger_tooltip = {
+			  tooltip = ndl_colonize_north_america_tooltip
+			    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			    value = 5
+				OR = {
+			      colonial_region = colonial_eastern_america
+			      is_city = yes
+			    }
+		      }	
+			}  
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = "ndl_colon_win" 
+				duration = -1
+			}
+		}
+	}
+}
+
+NDL_britania_expansion = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+		
+	ndl_begin_expansion = {
+		icon = NDL_drakkars
+		position = 2
+		required_missions = { ndl_united_scandinavia }
+		trigger = {
+		    religion = norse_pagan_reformed
+			army_size_percentage = 0.8
+			navy_size_percentage = 0.8
+			num_of_admirals = 1
+			num_of_generals = 2
+			prestige = 70
+		}
+		
+		effect = {
+		    add_yearly_manpower = 0.75 {
+	        }
+			369 = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			253 = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			3025 = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			3290 = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			add_country_modifier = {
+				name = "gods_bless"
+				duration = 3650
+			}
+		}
+	}
+
+    ndl_scotland_island = {
+		icon = mission_invade_island
+		position = 3
+		required_missions = { ndl_begin_expansion }
+        provinces_to_highlight = {
+			OR = {
+				province_id = 369
+				province_id = 253
+				province_id = 3025
+				province_id = 3290
+				}
+		}		
+		trigger = {
+		    religion = norse_pagan_reformed
+			369 = {
+				owned_by = ROOT	
+			}
+			253 = {
+				owned_by = ROOT	
+			}
+			3025 = {
+				owned_by = ROOT	
+			}
+			3290 = {
+				owned_by = ROOT	
+			}
+		}
+		
+		effect = {
+			highlands_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			lowlands_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}	
+
+	ndl_scotland = {
+		icon = mission_rb_rule_britannia_scottish_version
+		position = 4
+		required_missions = { ndl_scotland_island }
+		provinces_to_highlight = {
+			OR = {
+				area = highlands_area
+				area = lowlands_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			highlands_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			lowlands_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}
+		
+		effect = {
+		    3025 = {
+			     add_building = shipyard {
+				 }
+		    }
+			3086 = {
+			     add_building = shipyard {
+				 }
+		    }
+			3279 = {
+			     add_building = shipyard {
+				 }
+		    }
+			248 = {
+			     add_building = shipyard {
+				 }
+		    }
+            ulster_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			leinster_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+            connacht_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+            }
+            munster_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+            }			
+		}
+	}
+	
+	ndl_irland = {
+		icon = mission_rb_rule_britannia_irish_version
+		position = 5
+		required_missions = { ndl_scotland }
+		provinces_to_highlight = {
+			OR = {
+				area = ulster_area
+				area = leinster_area
+				area = connacht_area
+				area = munster_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			ulster_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			leinster_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			connacht_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			munster_area = {
+				owned_by = ROOT	
+				type = all
+		    }
+		}
+		
+		effect = {
+			northern_england_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+            }
+            mercia_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+            }
+            wales_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT			
+			}
+			add_country_modifier = {
+				name = "great_viking_army"
+				duration = 1825
+            }
+		}
+	}
+	
+	ndl_central_britannia = {
+		icon = mission_rb_conquer_brittany
+		position = 6
+		required_missions = { ndl_irland }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = mercia_area
+				area = wales_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			northern_england_area = {
+			     owned_by = ROOT	
+				 type = all	
+			}
+			mercia_area = {
+			     owned_by = ROOT	
+				 type = all
+			}
+			wales_area = {
+			     owned_by = ROOT	
+				 type = all
+			}
+		}
+		
+		effect = {
+            british_isles_region = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT			
+			}				
+		}
+	}
+	
+	ndl_attack_britania = {
+		icon = mission_rb_scottish_conquer_london
+		position = 7
+		required_missions = { ndl_central_britannia }
+		provinces_to_highlight = {
+			OR = {
+				region = british_isles_region
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			british_isles_region = {
+			     owned_by = ROOT	
+				 type = all	
+			}
+		}
+		
+		effect = {
+            british_isles_region = {
+			     add_province_modifier = {
+				    name = "ndl_britain_asimilation"
+					duration = 9125
+				}	
+			}			
+		}
+	}
+}
+
+NDL_east_expansion = {
+	slot = 2
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_begin_invasion = {
+		icon = NDL_viking_axe
+		position = 2
+		required_missions = { ndl_united_scandinavia }
+		trigger = {
+		    religion = norse_pagan_reformed
+			army_size_percentage = 0.8
+			num_of_generals = 2
+			prestige = 40
+		}	
+		
+		effect = {
+		    add_mil_power = 250 {
+			}
+			ingria_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			novgorod_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}	
+			pskov_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			add_country_modifier = {
+				name = "freya_bless"
+				duration = 1825
+			}
+		}
+	}
+	
+	ndl_novgorod = {
+		icon = mission_conquer_novgorod
+		position = 3
+		required_missions = { ndl_begin_invasion }
+        provinces_to_highlight = {
+			OR = {
+				area = ingria_area
+				area = novgorod_area
+				area = pskov_area
+			}
+        }			
+		trigger = {
+		    religion = norse_pagan_reformed
+			ingria_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    novgorod_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    pskov_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}
+			
+		effect = {
+			estonia_ingria_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			livonia_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}	
+			curonia_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+		}
+	}
+
+	ndl_livonia = {
+		icon = STT_BYZ_mission_varangian_guard
+		position = 4
+		required_missions = { ndl_novgorod }
+        provinces_to_highlight = {
+			OR = {
+				area = estonia_ingria_area
+				area = livonia_area
+				area = curonia_area
+			}
+        }			
+		trigger = {
+		    religion = norse_pagan_reformed
+			estonia_ingria_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    livonia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    curonia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			NOT = {
+			     exists = LIV 
+			}
+		}	
+		effect = {
+		    add_country_modifier = { 
+				name = "framganga_rus" 
+				duration = 3650
+			}
+		    smolensk_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+		    bryansk_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			minsk_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			pripyat_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			white_ruthenia_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+		}
+	}
+
+	ndl_framganga_rutenia = {
+		icon = NDL_viking_battle
+		position = 5
+		required_missions = { ndl_livonia }
+        provinces_to_highlight = {
+			OR = {
+			    area = smolensk_area
+				area = bryansk_area
+				area = minsk_area
+				area = pripyat_area
+				area = white_ruthenia_area
+			}
+        }			
+		trigger = {
+		    religion = norse_pagan_reformed
+			smolensk_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			bryansk_area = {
+				owned_by = ROOT	
+				type = all
+			}
+			minsk_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    pripyat_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    white_ruthenia_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}	
+		effect = {
+		    smolensk_area = {
+			     add_province_modifier = {
+				    name = "pagan_priest"
+					duration = 3650
+				}	
+			}
+			bryansk_area = {
+			     add_province_modifier = {
+				    name = "pagan_priest"
+					duration = 3650
+				}	
+			}
+			minsk_area = {
+			     add_province_modifier = {
+				    name = "pagan_priest"
+					duration = 3650
+				}	
+			}
+			pripyat_area = {
+			     add_province_modifier = {
+				    name = "pagan_priest"
+					duration = 3650
+				}	
+			}
+			white_ruthenia_area = {
+			     add_province_modifier = {
+				    name = "pagan_priest"
+					duration = 3650
+				}	
+			}
+			west_dniepr_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+			east_dniepr_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+		}
+	}
+
+	ndl_framganga_kiev = {
+		icon = mission_restore_kiev
+		position = 6
+		required_missions = { ndl_framganga_rutenia }
+        provinces_to_highlight = {
+			OR = {
+				area = west_dniepr_area
+				area = east_dniepr_area
+			}
+        }			
+		trigger = {
+		    religion = norse_pagan_reformed
+			west_dniepr_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		    east_dniepr_area = {
+				owned_by = ROOT	
+				type = all
+			}
+		}	
+		effect = {
+			add_accepted_culture = stt_plu_ruthenian
+			add_country_modifier = { 
+				name = "united_rusinia" 
+				duration = 7300
+			}
+			ruthenia_region = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT	
+			}
+		}
+	}
+}
+	
+NDL_west_coast_expansion = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = NDL
+	}
+	has_country_shield = yes
+	
+	ndl_privateer_golandia = {
+		icon = mission_corsairs_of_the_north_sea
+		position = 2
+		required_missions = { ndl_united_scandinavia }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1269
+				province_id = 97
+				province_id = 98
+				province_id = 99
+				province_id = 3022
+				province_id = 100
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			1269 = {
+				privateer_power = {
+					country = ROOT
+					share = 10
+				}
+			}
+			97 = {
+			    has_province_modifier = slaves_raided = {
+				}
+			}
+			98 = {
+			    has_province_modifier = slaves_raided = {
+				}
+			}
+			99 = {
+			    has_province_modifier = slaves_raided = {
+				}
+			}
+			3022 = {
+			    has_province_modifier = slaves_raided = {
+				}
+			}
+			100 = {
+			    has_province_modifier = slaves_raided = {
+				}
+			}
+		}
+		
+		effect = {
+		    add_treasury = 2776 {
+			97 = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			98 = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			99 = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			3022 = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			100 = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	ndl_coast_golandia = {
+		icon = mission_raid_on_genoa
+		position = 3
+		required_missions = { ndl_privateer_golandia }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 97
+				province_id = 98
+				province_id = 99
+				province_id = 3022
+				province_id = 100
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			97 = {
+				owned_by = ROOT	
+			}
+			98 = {
+				owned_by = ROOT	
+			}
+			99 = {
+				owned_by = ROOT	
+			}
+			3022 = {
+				owned_by = ROOT	
+			}
+			100 = {
+				owned_by = ROOT	
+			}
+		}
+		
+		effect = {
+			normandy_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ndl_normandia = {
+		icon = NDL_Normandy
+		position = 4
+		required_missions = { ndl_coast_golandia }
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			normandy_area = {
+			    owned_by = ROOT
+				type = all
+			}
+		}
+		
+		effect = {
+			brittany_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ndl_brittany = {
+		icon = STT_BYZ_mission_varangian_guard
+		position = 5
+		required_missions = { ndl_normandia }
+		provinces_to_highlight = {
+			OR = {
+				area = brittany_area
+			}
+		}
+		trigger = {
+		    religion = norse_pagan_reformed
+			brittany_area = {
+			    owned_by = ROOT
+				type = all
+			}
+			NOT = {
+			exists = BRI
+			}
+		}
+		effect = {
+			guyenne_area = {
+			     limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}

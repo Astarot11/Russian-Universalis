@@ -1,0 +1,6 @@
+government = republic
+set_legacy_government = administrative_republic 
+primary_culture = venetian
+religion = catholic
+technology_group = western
+capital = 108

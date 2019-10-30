@@ -1,0 +1,38 @@
+#   Dawaro
+DWR = {
+	color1= { 200 15 200  }
+	color2= { 26 210 52  }
+	color3= { 200 15 200  }
+}
+#   Arababni
+BBI = {
+	color1= { 40 163 56  }
+	color2= { 56 202 34  }
+	color3= { 40 163 56   }
+}
+#   Gojjam
+GOJ = {
+    color1= { 40 250 160  }
+    color2= { 175 15 27 }
+    color3= { 188 148 70  }
+}
+#   Dahlak
+DHA = {
+    color1= { 50 200 150  }
+    color2= { 175 15 154 }
+    color3= { 79 148 45  }
+}
+#   Ifat
+IFA = {
+    color1= { 72 85 212  }
+    color2= { 175 54 18 }
+    color3= { 77 148 90  }
+}
+# Axum
+AXU= {
+    color1= { 15 85 140  }
+    color2= { 101 200 18 }
+    color3= { 233 54 90  }
+}
+
+

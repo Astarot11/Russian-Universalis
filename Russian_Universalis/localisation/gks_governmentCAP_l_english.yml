@@ -1,0 +1,470 @@
+﻿l_english:
+ ###На вопрос в чем?
+ UNITED_PROVINCES_GDE_CAP:0 "Ñîåäèí¸ííûõ ïðîâèíöèÿõ" #GetGovernmentGDE_CAP
+ FEDERAL_KINGDOM_GDE_CAP:0 "Ôåäåðàëüíîì êîðîëåâñòâå" #GetGovernmentGDE_CAP
+ FEDERAL_EMPIRE_GDE_CAP:0 "Ôåäåðàëüíîé èìïåðèè" #GetGovernmentGDE_CAP
+ REPUBLIC_GDE_CAP:0 "Ðåñïóáëèêå" #GetGovernmentGDE_CAP
+ GREAT_REPUBLIC_GDE_CAP:0 "Âåëèêîé ðåñïóáëèêå" #GetGovernmentGDE_CAP
+ DUCHY_GDE_CAP:0 "Ãåðöîãñòâå" #GetGovernmentGDE_CAP
+ KINGDOM_GDE_CAP:0 "Êîðîëåâñòâå" #GetGovernmentGDE_CAP
+ EMPIRE_GDE_CAP:0 "Èìïåðèè" #GetGovernmentGDE_CAP
+ EARLDOM_GDE_CAP:0 "Ýðëñòâå" #GetGovernmentGDE_CAP
+ DAIMYO_GDE_CAP:0 "Äàéì¸" #GetGovernmentGDE_CAP
+ KHANATE_GDE_CAP:0 "Õàíñòâå" #GetGovernmentGDE_CAP
+ PRINCEDOM_GDE_CAP:0 "Êíÿæåñòâå" #GetGovernmentGDE_CAP
+ GRAND_DUCHY_GDE_CAP:0 "Âåëèêîì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ ARCHDUCHY_GDE_CAP:0 "Ýðöãåðöîãñòâå" #GetGovernmentGDE_CAP
+ LORDSHIP_GDE_CAP:0 "Âëàäåíèè" #GetGovernmentGDE_CAP
+ MARCH_GDE_CAP:0 "Ìàðêå" #GetGovernmentGDE_CAP
+ VICEROYALTY_GDE_CAP:0 "Âèöå-êîðîëåâñòâå" #GetGovernmentGDE_CAP
+ IMAMATE_GDE_CAP:0 "Èìàìàòå" #GetGovernmentGDE_CAP
+ GREAT_IMAMATE_GDE_CAP:0 "Âåëèêîì èìàìàòå" #GetGovernmentGDE_CAP
+ EMIRATE_GDE_CAP:0 "Ýìèðàòå" #GetGovernmentGDE_CAP
+ SULTANATE_GDE_CAP:0 "Ñóëòàíàòå" #GetGovernmentGDE_CAP
+ MALIKATE_GDE_CAP:0 "Ìàëèêàòå" #GetGovernmentGDE_CAP
+ SHEIKHDOM_GDE_CAP:0 "Øåéõñòâå" #GetGovernmentGDE_CAP
+ SHAHDOM_GDE_CAP:0 "Øàõñòâå" #GetGovernmentGDE_CAP
+ BEYLIK_GDE_CAP:0 "Áåéëèêå" #GetGovernmentGDE_CAP
+ DESPOTATE_GDE_CAP:0 "Äåñïîòàòå" #GetGovernmentGDE_CAP
+ NAWABATE_GDE_CAP:0 "Íàâàáàòå" #GetGovernmentGDE_CAP
+ NIZAMATE_GDE_CAP:0 "Íèçàìàòå" #GetGovernmentGDE_CAP
+ MONG_GDE_CAP:0 "Ìîíãå" #GetGovernmentGDE_CAP
+ GRAND_PRINCIPALITY_GDE_CAP:0 "Âåëèêîì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ ALTEPETL_GDE_CAP:0 "Àëüòåïåòëå" #GetGovernmentGDE_CAP
+ ALTEPETL_FEDERATION_GDE_CAP:0 "Àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentGDE_CAP
+ BISHOPRIC_GDE_CAP:0 "Åïèñêîïñòâå" #GetGovernmentGDE_CAP
+ ARCHBISHOPRIC_GDE_CAP:0 "Àðõèåïèñêîïñòâå" #GetGovernmentGDE_CAP
+ PATRIARCHATE_GDE_CAP:0 "Ïàòðèàðõàòå" #GetGovernmentGDE_CAP
+ DESPOTISM_GDE_CAP:0 "Äåñïîòèè" #GetGovernmentGDE_CAP
+ DICTATORSHIP_GDE_CAP:0 "Äèêòàòóðå" #GetGovernmentGDE_CAP
+ PRESIDENTIAL_DICTATORSHIP_GDE_CAP:0 "Ïðåçèäåíòñêîé äèêòàòóðå" #GetGovernmentGDE_CAP
+ METROPOLIS_GDE_CAP:0 "Ìèòðîïîëèè" #GetGovernmentGDE_CAP
+ GREAT_METROPOLIS_GDE_CAP:0 "Âåëèêîé ìèòðîïîëèè" #GetGovernmentGDE_CAP
+ HORDE_GDE_CAP:0 "Îðäå" #GetGovernmentGDE_CAP
+ KHAGANATE_GDE_CAP:0 "Êàãàíàòå" #GetGovernmentGDE_CAP
+ CHIEFDOM_GDE_CAP:0 "Âîæäåñòâå" #GetGovernmentGDE_CAP
+ TRIBAL_KINGDOM_GDE_CAP:0 "Ïëåìåííîì êîðîëåâñòâå" #GetGovernmentGDE_CAP
+ TRIBAL_EMPIRE_GDE_CAP:0 "Ïëåìåííîé èìïåðèè" #GetGovernmentGDE_CAP
+ GRAND_CHIEFDOM_GDE_CAP:0 "Âåðõîâíîì âîæäåñòâå" #GetGovernmentGDE_CAP
+ GREAT_CHIEFDOM_GDE_CAP:0 "Âåëèêîì âîæäåñòâå" #GetGovernmentGDE_CAP
+ HOLY_STATE_GDE_CAP:0 "Öåðêîâíîì ãîñóäàðñòâå" #GetGovernmentGDE_CAP
+ HIGH_IMAMATE_GDE_CAP:0 "Âåðõîâíîì èìàìàòå" #GetGovernmentGDE_CAP
+ HOLY_EMPIRE_GDE_CAP:0 "Òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentGDE_CAP
+ GREAT_EMIRATE_GDE_CAP:0 "Âåëèêîì ýìèðàòå" #GetGovernmentGDE_CAP
+ PASHALIK_GDE_CAP:0 "Ýÿëåòå" #GetGovernmentGDE_CAP
+ SOGN_GDE_CAP:0 "Ñîãíå" #GetGovernmentGDE_CAP
+ HERRED_GDE_CAP:0 "Ñîòíå" #GetGovernmentGDE_CAP
+ BONDEVALDE_GDE_CAP:0 "Áîíäåâåëüäå" #GetGovernmentGDE_CAP
+ MISL_GDE_CAP:0 "Ìèñàëå" #GetGovernmentGDE_CAP
+ CONFEDERATION_GDE_CAP:0 "Êîíôåäåðàöèè" #GetGovernmentGDE_CAP
+ TRIBE_GDE_CAP:0 "Ïëåìåíè" #GetGovernmentGDE_CAP
+ HOLY_PRINCIPALITY_GDE_CAP:0 "Öåðêîâíîì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ TSARDOM_GDE_CAP:0 "Öàðñòâå" #GetGovernmentGDE_CAP
+ GRAND_PRINCEDOM_GDE_CAP:0 "Âåëèêîì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ GREAT_PRINCEDOM_GDE_CAP:0 "Ñâåòëåéøåì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ MONASTIC_ORDER_GDE_CAP:0 "Âîåííî-ìîíàøåñêîì îðäåíå" #GetGovernmentGDE_CAP
+ GRAND_REPUBLIC_GDE_CAP:0 "Âåëèêîé ðåñïóáëèêå" #GetGovernmentGDE_CAP
+ FEDERAL_REPUBLIC_GDE_CAP:0 "Ôåäåðàëüíîé ðåñïóáëèêå" #GetGovernmentGDE_CAP
+ CAH_GDE_CAP:0 "Êàõå" #GetGovernmentGDE_CAP
+ KUCHKABAL_GDE_CAP:0 "Êó÷êàáàëå" #GetGovernmentGDE_CAP
+ GREAT_LEAGUE_GDE_CAP:0 "Âåëèêîé ëèãå" #GetGovernmentGDE_CAP
+ PAPACY_GDE_CAP:0 "Ïàïñòâå" #GetGovernmentGDE_CAP
+ COLONY_GDE_CAP:0 "Êîëîíèè" #GetGovernmentGDE_CAP
+ SHOGUNATE_GDE_CAP:0 "Ñ¸ãóíàòå" #GetGovernmentGDE_CAP
+ INDEP_DAIMYO_GDE_CAP:0 "Íåçàâèñèìîì äàéì¸" #GetGovernmentGDE_CAP
+ GRAND_INDEP_DAIMYO_GDE_CAP:0 "Ãëàâíîì äàéì¸" #GetGovernmentGDE_CAP
+ GREAT_INDEP_DAIMYO_GDE_CAP:0 "Âåëèêîì äàéì¸" #GetGovernmentGDE_CAP
+ HETMANATE_GDE_CAP:0 "Ãåòìàíùèíå" #GetGovernmentGDE_CAP
+ GRAND_HETMANATE_GDE_CAP:0 "Áîëüøîé ãåòìàíùèíå" #GetGovernmentGDE_CAP
+ GREAT_HETMANATE_GDE_CAP:0 "Âåëèêîì ãåòìàíàòå" #GetGovernmentGDE_CAP
+ SHARIFATE_GDE_CAP:0 "Øàðèôàòå" #GetGovernmentGDE_CAP
+ GREAT_SHARIFATE_GDE_CAP:0 "Âåëèêîì øàðèôàòå" #GetGovernmentGDE_CAP
+ GRAND_SHARIFATE_GDE_CAP:0 "Âûñøåì øàðèôàòå" #GetGovernmentGDE_CAP
+ BARANGAY_GDE_CAP:0 "Áàðàíãàå" #GetGovernmentGDE_CAP
+ GRAND_BARANGAY_GDE_CAP:0 "Áîëüøîì áàðàíãàå" #GetGovernmentGDE_CAP
+ GREAT_BARANGAY_GDE_CAP:0 "Âåëèêîì áàðàíãàå" #GetGovernmentGDE_CAP
+ PARLIAMENT_OF_HEAVEN_GDE_CAP:0 "Ïàðëàìåíòå Íåáåñ" #GetGovernmentGDE_CAP
+ REVOLUTIONARY_PEASANT_REPUBLIC_GDE_CAP:0 "Êðåñòüÿíñêîé õóíòå" #GetGovernmentGDE_CAP
+ FREE_CITY_GDE_CAP:0 "Âîëüíîì ãîðîäå" #GetGovernmentGDE_CAP
+ SERENE_REPUBLIC_GDE_CAP:0 "Ñâåòëåéøåé ðåñïóáëèêå" #GetGovernmentGDE
+ ###На вопрос кому?
+ UNITED_PROVINCES_OMU_CAP:0 "Ñîåäèí¸ííûì ïðîâèíöèÿì" #GetGovernmentOMU_CAP
+ FEDERAL_KINGDOM_OMU_CAP:0 "Ôåäåðàëüíîìó êîðîëåâñòâó" #GetGovernmentOMU_CAP
+ FEDERAL_EMPIRE_OMU_CAP:0 "Ôåäåðàëüíîé èìïåðèè" #GetGovernmentOMU_CAP
+ REPUBLIC_OMU_CAP:0 "Ðåñïóáëèêå" #GetGovernmentOMU_CAP
+ GREAT_REPUBLIC_OMU_CAP:0 "Âåëèêîé ðåñïóáëèêå" #GetGovernmentOMU_CAP
+ DUCHY_OMU_CAP:0 "Ãåðöîãñòâó" #GetGovernmentOMU_CAP
+ KINGDOM_OMU_CAP:0 "Êîðîëåâñòâó" #GetGovernmentOMU_CAP
+ EMPIRE_OMU_CAP:0 "Èìïåðèè" #GetGovernmentOMU_CAP
+ EARLDOM_OMU_CAP:0 "Ýðëñòâó" #GetGovernmentOMU_CAP
+ DAIMYO_OMU_CAP:0 "Äàéì¸" #GetGovernmentOMU_CAP
+ KHANATE_OMU_CAP:0 "Õàíñòâó" #GetGovernmentOMU_CAP
+ PRINCEDOM_OMU_CAP:0 "Êíÿæåñòâó" #GetGovernmentOMU_CAP
+ GRAND_DUCHY_OMU_CAP:0 "Âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ ARCHDUCHY_OMU_CAP:0 "Ýðöãåðöîãñòâó" #GetGovernmentOMU_CAP
+ LORDSHIP_OMU_CAP:0 "Âëàäåíèþ" #GetGovernmentOMU_CAP
+ MARCH_OMU_CAP:0 "Ìàðêå" #GetGovernmentOMU_CAP
+ VICEROYALTY_OMU_CAP:0 "Âèöå-êîðîëåâñòâó" #GetGovernmentOMU_CAP
+ IMAMATE_OMU_CAP:0 "Èìàìàòó" #GetGovernmentOMU_CAP
+ GREAT_IMAMATE_OMU_CAP:0 "Âåëèêîìó èìàìàòó" #GetGovernmentOMU_CAP
+ EMIRATE_OMU_CAP:0 "Ýìèðàòó" #GetGovernmentOMU_CAP
+ SULTANATE_OMU_CAP:0 "Ñóëòàíàòó" #GetGovernmentOMU_CAP
+ MALIKATE_OMU_CAP:0 "Ìàëèêàòó" #GetGovernmentOMU_CAP
+ SHEIKHDOM_OMU_CAP:0 "Øåéõñòâó" #GetGovernmentOMU_CAP
+ SHAHDOM_OMU_CAP:0 "Øàõñòâó" #GetGovernmentOMU_CAP
+ BEYLIK_OMU_CAP:0 "Áåéëèêó" #GetGovernmentOMU_CAP
+ DESPOTATE_OMU_CAP:0 "Äåñïîòàòó" #GetGovernmentOMU_CAP
+ NAWABATE_OMU_CAP:0 "Íàâàáàòó" #GetGovernmentOMU_CAP
+ NIZAMATE_OMU_CAP:0 "Íèçàìàòó" #GetGovernmentOMU_CAP
+ MONG_OMU_CAP:0 "Ìîíãó" #GetGovernmentOMU_CAP
+ GRAND_PRINCIPALITY_OMU_CAP:0 "Âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ ALTEPETL_OMU_CAP:0 "Àëüòåïåòëþ" #GetGovernmentOMU_CAP
+ ALTEPETL_FEDERATION_OMU_CAP:0 "Àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentOMU_CAP
+ BISHOPRIC_OMU_CAP:0 "Åïèñêîïñòâó" #GetGovernmentOMU_CAP
+ ARCHBISHOPRIC_OMU_CAP:0 "Àðõèåïèñêîïñòâó" #GetGovernmentOMU_CAP
+ PATRIARCHATE_OMU_CAP:0 "Ïàòðèàðõàòó" #GetGovernmentOMU_CAP
+ DESPOTISM_OMU_CAP:0 "Äåñïîòèè" #GetGovernmentOMU_CAP
+ DICTATORSHIP_OMU_CAP:0 "Äèêòàòóðå" #GetGovernmentOMU_CAP
+ PRESIDENTIAL_DICTATORSHIP_OMU_CAP:0 "Ïðåçèäåíòñêîé äèêòàòóðå" #GetGovernmentOMU_CAP
+ METROPOLIS_OMU_CAP:0 "Ìèòðîïîëèè" #GetGovernmentOMU_CAP
+ GREAT_METROPOLIS_OMU_CAP:0 "Âåëèêîé ìèòðîïîëèè" #GetGovernmentOMU_CAP
+ HORDE_OMU_CAP:0 "Îðäå" #GetGovernmentOMU_CAP
+ KHAGANATE_OMU_CAP:0 "Êàãàíàòó" #GetGovernmentOMU_CAP
+ CHIEFDOM_OMU_CAP:0 "Âîæäåñòâó" #GetGovernmentOMU_CAP
+ TRIBAL_KINGDOM_OMU_CAP:0 "Ïëåìåííîìó êîðîëåâñòâó" #GetGovernmentOMU_CAP
+ TRIBAL_EMPIRE_OMU_CAP:0 "Ïëåìåííîé èìïåðèè" #GetGovernmentOMU_CAP
+ GRAND_CHIEFDOM_OMU_CAP:0 "Âåðõîâíîìó âîæäåñòâó" #GetGovernmentOMU_CAP
+ GREAT_CHIEFDOM_OMU_CAP:0 "Âåëèêîìó âîæäåñòâó" #GetGovernmentOMU_CAP
+ HOLY_STATE_OMU_CAP:0 "Öåðêîâíîìó ãîñóäàðñòâó" #GetGovernmentOMU_CAP
+ HIGH_IMAMATE_OMU_CAP:0 "Âåðõîâíîìó èìàìàòó" #GetGovernmentOMU_CAP
+ HOLY_EMPIRE_OMU_CAP:0 "Òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentOMU_CAP
+ GREAT_EMIRATE_OMU_CAP:0 "Âåëèêîìó ýìèðàòó" #GetGovernmentOMU_CAP
+ PASHALIK_OMU_CAP:0 "Ýÿëåòó" #GetGovernmentOMU_CAP
+ SOGN_OMU_CAP:0 "Ñîãíó" #GetGovernmentOMU_CAP
+ HERRED_OMU_CAP:0 "Ñîòíó" #GetGovernmentOMU_CAP
+ BONDEVALDE_OMU_CAP:0 "Áîíäåâåëüäó" #GetGovernmentOMU_CAP
+ MISL_OMU_CAP:0 "Ìèñàëþ" #GetGovernmentOMU_CAP
+ CONFEDERATION_OMU_CAP:0 "Êîíôåäåðàöèè" #GetGovernmentOMU_CAP
+ TRIBE_OMU_CAP:0 "Ïëåìåíè" #GetGovernmentOMU_CAP
+ HOLY_PRINCIPALITY_OMU_CAP:0 "Öåðêîâíîìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ TSARDOM_OMU_CAP:0 "Öàðñòâó" #GetGovernmentOMU_CAP
+ GRAND_PRINCEDOM_OMU_CAP:0 "Âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ GREAT_PRINCEDOM_OMU_CAP:0 "Ñâåòëåéøåìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ MONASTIC_ORDER_OMU_CAP:0 "Âîåííî-ìîíàøåñêîìó îðäåíó" #GetGovernmentOMU_CAP
+ GRAND_REPUBLIC_OMU_CAP:0 "Âåëèêîé ðåñïóáëèêå" #GetGovernmentOMU_CAP
+ FEDERAL_REPUBLIC_OMU_CAP:0 "Ôåäåðàëüíîé ðåñïóáëèêå" #GetGovernmentOMU_CAP
+ CAH_OMU_CAP:0 "Êàõå" #GetGovernmentOMU_CAP
+ KUCHKABAL_OMU_CAP:0 "Êó÷êàáàëå" #GetGovernmentOMU_CAP
+ GREAT_LEAGUE_OMU_CAP:0 "Âåëèêîé ëèãå" #GetGovernmentOMU_CAP
+ PAPACY_OMU_CAP:0 "Ïàïñòâó" #GetGovernmentOMU_CAP
+ COLONY_OMU_CAP:0 "Êîëîíèè" #GetGovernmentOMU_CAP
+ SHOGUNATE_OMU_CAP:0 "Ñ¸ãóíàòó" #GetGovernmentOMU_CAP
+ INDEP_DAIMYO_OMU_CAP:0 "Íåçàâèñèìîìó äàéì¸" #GetGovernmentOMU_CAP
+ GRAND_INDEP_DAIMYO_OMU_CAP:0 "Ãëàâíîìó äàéì¸" #GetGovernmentOMU_CAP
+ GREAT_INDEP_DAIMYO_OMU_CAP:0 "Âåëèêîìó äàéì¸" #GetGovernmentOMU_CAP
+ HETMANATE_OMU_CAP:0 "Ãåòìàíùèíå" #GetGovernmentOMU_CAP
+ GRAND_HETMANATE_OMU_CAP:0 "Áîëüøîé ãåòìàíùèíå" #GetGovernmentOMU_CAP
+ GREAT_HETMANATE_OMU_CAP:0 "Âåëèêîìó ãåòìàíàòó" #GetGovernmentOMU_CAP
+ SHARIFATE_OMU_CAP:0 "Øàðèôàòó" #GetGovernmentOMU_CAP
+ GREAT_SHARIFATE_OMU_CAP:0 "Âåëèêîìó øàðèôàòó" #GetGovernmentOMU_CAP
+ GRAND_SHARIFATE_OMU_CAP:0 "Âûñøåìó øàðèôàòó" #GetGovernmentOMU_CAP
+ BARANGAY_OMU_CAP:0 "Áàðàíãàþ" #GetGovernmentOMU_CAP
+ GRAND_BARANGAY_OMU_CAP:0 "Áîëüøîìó áàðàíãàþ" #GetGovernmentOMU_CAP
+ GREAT_BARANGAY_OMU_CAP:0 "Âåëèêîìó áàðàíãàþ" #GetGovernmentOMU_CAP
+ PARLIAMENT_OF_HEAVEN_OMU_CAP:0 "Ïàðëàìåíòó Íåáåñ" #GetGovernmentOMU_CAP
+ REVOLUTIONARY_PEASANT_REPUBLIC_OMU_CAP:0 "Êðåñòüÿíñêîé õóíòå" #GetGovernmentOMU_CAP
+ FREE_CITY_OMU_CAP:0 "Âîëüíîìó ãîðîäó" #GetGovernmentOMU_CAP
+ SERENE_REPUBLIC_OMU_CAP:0 "Ñâåòëåéøåé ðåñïóáëèêå" #GetGovernmentOMU
+ ###На вопрос нет кого?
+ UNITED_PROVINCES_OGO_CAP:0 "Ñîåäèí¸ííûõ ïðîâèíöèé" #GetGovernmentOGO_CAP
+ FEDERAL_KINGDOM_OGO_CAP:0 "Ôåäåðàëüíîãî êîðîëåâñòâà" #GetGovernmentOGO_CAP
+ FEDERAL_EMPIRE_OGO_CAP:0 "Ôåäåðàëüíîé èìïåðèè" #GetGovernmentOGO_CAP
+ REPUBLIC_OGO_CAP:0 "Ðåñïóáëèêè" #GetGovernmentOGO_CAP
+ GREAT_REPUBLIC_OGO_CAP:0 "Âåëèêîé ðåñïóáëèêè" #GetGovernmentOGO_CAP
+ DUCHY_OGO_CAP:0 "Ãåðöîãñòâà" #GetGovernmentOGO_CAP
+ KINGDOM_OGO_CAP:0 "Êîðîëåâñòâà" #GetGovernmentOGO_CAP
+ EMPIRE_OGO_CAP:0 "Èìïåðèè" #GetGovernmentOGO_CAP
+ EARLDOM_OGO_CAP:0 "Ýðëñòâà" #GetGovernmentOGO_CAP
+ DAIMYO_OGO_CAP:0 "Äàéì¸" #GetGovernmentOGO_CAP
+ KHANATE_OGO_CAP:0 "Õàíñòâà" #GetGovernmentOGO_CAP
+ PRINCEDOM_OGO_CAP:0 "Êíÿæåñòâà" #GetGovernmentOGO_CAP
+ GRAND_DUCHY_OGO_CAP:0 "Âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ ARCHDUCHY_OGO_CAP:0 "Ýðöãåðöîãñòâà" #GetGovernmentOGO_CAP
+ LORDSHIP_OGO_CAP:0 "Âëàäåíèÿ" #GetGovernmentOGO_CAP
+ MARCH_OGO_CAP:0 "Ìàðêè" #GetGovernmentOGO_CAP
+ VICEROYALTY_OGO_CAP:0 "Âèöå-êîðîëåâñòâà" #GetGovernmentOGO_CAP
+ IMAMATE_OGO_CAP:0 "Èìàìàòà" #GetGovernmentOGO_CAP
+ GREAT_IMAMATE_OGO_CAP:0 "Âåëèêîãî èìàìàòà" #GetGovernmentOGO_CAP
+ EMIRATE_OGO_CAP:0 "Ýìèðàòà" #GetGovernmentOGO_CAP
+ SULTANATE_OGO_CAP:0 "Ñóëòàíàòà" #GetGovernmentOGO_CAP
+ MALIKATE_OGO_CAP:0 "Ìàëèêàòà" #GetGovernmentOGO_CAP
+ SHEIKHDOM_OGO_CAP:0 "Øåéõñòâà" #GetGovernmentOGO_CAP
+ SHAHDOM_OGO_CAP:0 "Øàõñòâà" #GetGovernmentOGO_CAP
+ BEYLIK_OGO_CAP:0 "Áåéëèêà" #GetGovernmentOGO_CAP
+ DESPOTATE_OGO_CAP:0 "Äåñïîòàòà" #GetGovernmentOGO_CAP
+ NAWABATE_OGO_CAP:0 "Íàâàáàòà" #GetGovernmentOGO_CAP
+ NIZAMATE_OGO_CAP:0 "Íèçàìàòà" #GetGovernmentOGO_CAP
+ MONG_OGO_CAP:0 "Ìîíãà" #GetGovernmentOGO_CAP
+ GRAND_PRINCIPALITY_OGO_CAP:0 "Âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ ALTEPETL_OGO_CAP:0 "Àëüòåïåòëè" #GetGovernmentOGO_CAP
+ ALTEPETL_FEDERATION_OGO_CAP:0 "Àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentOGO_CAP
+ BISHOPRIC_OGO_CAP:0 "Åïèñêîïñòâà" #GetGovernmentOGO_CAP
+ ARCHBISHOPRIC_OGO_CAP:0 "Àðõèåïèñêîïñòâà" #GetGovernmentOGO_CAP
+ PATRIARCHATE_OGO_CAP:0 "Ïàòðèàðõàòà" #GetGovernmentOGO_CAP
+ DESPOTISM_OGO_CAP:0 "Äåñïîòèè" #GetGovernmentOGO_CAP
+ DICTATORSHIP_OGO_CAP:0 "Äèêòàòóðû" #GetGovernmentOGO_CAP
+ PRESIDENTIAL_DICTATORSHIP_OGO_CAP:0 "Ïðåçèäåíòñêîé äèêòàòóðû" #GetGovernmentOGO_CAP
+ METROPOLIS_OGO_CAP:0 "Ìèòðîïîëèè" #GetGovernmentOGO_CAP
+ GREAT_METROPOLIS_OGO_CAP:0 "Âåëèêîé ìèòðîïîëèè" #GetGovernmentOGO_CAP
+ HORDE_OGO_CAP:0 "Îðäû" #GetGovernmentOGO_CAP
+ KHAGANATE_OGO_CAP:0 "Êàãàíàòà" #GetGovernmentOGO_CAP
+ CHIEFDOM_OGO_CAP:0 "Âîæäåñòâà" #GetGovernmentOGO_CAP
+ TRIBAL_KINGDOM_OGO_CAP:0 "Ïëåìåííîãî êîðîëåâñòâà" #GetGovernmentOGO_CAP
+ TRIBAL_EMPIRE_OGO_CAP:0 "Ïëåìåííîé èìïåðèè" #GetGovernmentOGO_CAP
+ GRAND_CHIEFDOM_OGO_CAP:0 "Âåðõîâíîãî âîæäåñòâà" #GetGovernmentOGO_CAP
+ GREAT_CHIEFDOM_OGO_CAP:0 "Âåëèêîãî âîæäåñòâà" #GetGovernmentOGO_CAP
+ HOLY_STATE_OGO_CAP:0 "Öåðêîâíîãî ãîñóäàðñòâà" #GetGovernmentOGO_CAP
+ HIGH_IMAMATE_OGO_CAP:0 "Âåðõîâíîãî èìàìàòà" #GetGovernmentOGO_CAP
+ HOLY_EMPIRE_OGO_CAP:0 "Òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentOGO_CAP
+ GREAT_EMIRATE_OGO_CAP:0 "Âåëèêîãî ýìèðàòà" #GetGovernmentOGO_CAP
+ PASHALIK_OGO_CAP:0 "Ýÿëåòà" #GetGovernmentOGO_CAP
+ SOGN_OGO_CAP:0 "Ñîãíà" #GetGovernmentOGO_CAP
+ HERRED_OGO_CAP:0 "Ñîòíè" #GetGovernmentOGO_CAP
+ BONDEVALDE_OGO_CAP:0 "Áîíäåâåëüäà" #GetGovernmentOGO_CAP
+ MISL_OGO_CAP:0 "Ìèñàëÿ" #GetGovernmentOGO_CAP
+ CONFEDERATION_OGO_CAP:0 "Êîíôåäåðàöèè" #GetGovernmentOGO_CAP
+ TRIBE_OGO_CAP:0 "Ïëåìåíè" #GetGovernmentOGO_CAP
+ HOLY_PRINCIPALITY_OGO_CAP:0 "Öåðêîâíîãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ TSARDOM_OGO_CAP:0 "Öàðñòâà" #GetGovernmentOGO_CAP
+ GRAND_PRINCEDOM_OGO_CAP:0 "Âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ GREAT_PRINCEDOM_OGO_CAP:0 "Ñâåòëåéøåãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ MONASTIC_ORDER_OGO_CAP:0 "Âîåííî-ìîíàøåñêîãî îðäåíà" #GetGovernmentOGO_CAP
+ GRAND_REPUBLIC_OGO_CAP:0 "Âåëèêîé ðåñïóáëèêè" #GetGovernmentOGO_CAP
+ FEDERAL_REPUBLIC_OGO_CAP:0 "Ôåäåðàëüíîé ðåñïóáëèêè" #GetGovernmentOGO_CAP
+ CAH_OGO_CAP:0 "Êàõè" #GetGovernmentOGO_CAP
+ KUCHKABAL_OGO_CAP:0 "Êó÷êàáàëè" #GetGovernmentOGO_CAP
+ GREAT_LEAGUE_OGO_CAP:0 "Âåëèêîé ëèãè" #GetGovernmentOGO_CAP
+ PAPACY_OGO_CAP:0 "Ïàïñòâà" #GetGovernmentOGO_CAP
+ COLONY_OGO_CAP:0 "Êîëîíèè" #GetGovernmentOGO_CAP
+ SHOGUNATE_OGO_CAP:0 "Ñ¸ãóíàòà" #GetGovernmentOGO_CAP
+ INDEP_DAIMYO_OGO_CAP:0 "Íåçàâèñèìîãî äàéì¸" #GetGovernmentOGO_CAP
+ GRAND_INDEP_DAIMYO_OGO_CAP:0 "Ãëàâíîãî äàéì¸" #GetGovernmentOGO_CAP
+ GREAT_INDEP_DAIMYO_OGO_CAP:0 "Âåëèêîãî äàéì¸" #GetGovernmentOGO_CAP
+ HETMANATE_OGO_CAP:0 "Ãåòìàíùèíû" #GetGovernmentOGO_CAP
+ GRAND_HETMANATE_OGO_CAP:0 "Áîëüøîé ãåòìàíùèíû" #GetGovernmentOGO_CAP
+ GREAT_HETMANATE_OGO_CAP:0 "Âåëèêîãî ãåòìàíàòà" #GetGovernmentOGO_CAP
+ SHARIFATE_OGO_CAP:0 "Øàðèôàòà" #GetGovernmentOGO_CAP
+ GREAT_SHARIFATE_OGO_CAP:0 "Âåëèêîãî øàðèôàòà" #GetGovernmentOGO_CAP
+ GRAND_SHARIFATE_OGO_CAP:0 "Âûñøåãî øàðèôàòà" #GetGovernmentOGO_CAP
+ BARANGAY_OGO_CAP:0 "Áàðàíãàÿ" #GetGovernmentOGO_CAP
+ GRAND_BARANGAY_OGO_CAP:0 "Áîëüøîãî áàðàíãàÿ" #GetGovernmentOGO_CAP
+ GREAT_BARANGAY_OGO_CAP:0 "Âåëèêîãî áàðàíãàÿ" #GetGovernmentOGO_CAP
+ PARLIAMENT_OF_HEAVEN_OGO_CAP:0 "Ïàðëàìåíòà Íåáåñ" #GetGovernmentOGO_CAP
+ REVOLUTIONARY_PEASANT_REPUBLIC_OGO_CAP:0 "Êðåñòüÿíñêîé õóíòû" #GetGovernmentOGO_CAP
+ FREE_CITY_OGO_CAP:0 "Âîëüíîãî ãîðîäà" #GetGovernmentOGO_CAP
+ ###На вопрос вижу что?
+ UNITED_PROVINCES_CHTO_CAP:0 "Ñîåäèí¸ííûå ïðîâèíöèè" #GetGovernmentCHTO_CAP
+ FEDERAL_KINGDOM_CHTO_CAP:0 "Ôåäåðàëüíîå êîðîëåâñòâî" #GetGovernmentCHTO_CAP
+ FEDERAL_EMPIRE_CHTO_CAP:0 "Ôåäåðàëüíóþ èìïåðèþ" #GetGovernmentCHTO_CAP
+ REPUBLIC_CHTO_CAP:0 "Ðåñïóáëèêó" #GetGovernmentCHTO_CAP
+ GREAT_REPUBLIC_CHTO_CAP:0 "Âåëèêóþ ðåñïóáëèêó" #GetGovernmentCHTO_CAP
+ DUCHY_CHTO_CAP:0 "Ãåðöîãñòâî" #GetGovernmentCHTO_CAP
+ KINGDOM_CHTO_CAP:0 "Êîðîëåâñòâî" #GetGovernmentCHTO_CAP
+ EMPIRE_CHTO_CAP:0 "Èìïåðèþ" #GetGovernmentCHTO_CAP
+ EARLDOM_CHTO_CAP:0 "Ýðëñòâî" #GetGovernmentCHTO_CAP
+ DAIMYO_CHTO_CAP:0 "Äàéì¸" #GetGovernmentCHTO_CAP
+ KHANATE_CHTO_CAP:0 "Õàíñòâî" #GetGovernmentCHTO_CAP
+ PRINCEDOM_CHTO_CAP:0 "Êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ GRAND_DUCHY_CHTO_CAP:0 "Âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ ARCHDUCHY_CHTO_CAP:0 "Ýðöãåðöîãñòâî" #GetGovernmentCHTO_CAP
+ LORDSHIP_CHTO_CAP:0 "Âëàäåíèå" #GetGovernmentCHTO_CAP
+ MARCH_CHTO_CAP:0 "Ìàðêó" #GetGovernmentCHTO_CAP
+ VICEROYALTY_CHTO_CAP:0 "Âèöå-êîðîëåâñòâî" #GetGovernmentCHTO_CAP
+ IMAMATE_CHTO_CAP:0 "Èìàìàò" #GetGovernmentCHTO_CAP
+ GREAT_IMAMATE_CHTO_CAP:0 "Âåëèêèé èìàìàò" #GetGovernmentCHTO_CAP
+ EMIRATE_CHTO_CAP:0 "Ýìèðàò" #GetGovernmentCHTO_CAP
+ SULTANATE_CHTO_CAP:0 "Ñóëòàíàò" #GetGovernmentCHTO_CAP
+ MALIKATE_CHTO_CAP:0 "Ìàëèêàò" #GetGovernmentCHTO_CAP
+ SHEIKHDOM_CHTO_CAP:0 "Øåéõñòâî" #GetGovernmentCHTO_CAP
+ SHAHDOM_CHTO_CAP:0 "Øàõñòâî" #GetGovernmentCHTO_CAP
+ BEYLIK_CHTO_CAP:0 "Áåéëèê" #GetGovernmentCHTO_CAP
+ DESPOTATE_CHTO_CAP:0 "Äåñïîòàò" #GetGovernmentCHTO_CAP
+ NAWABATE_CHTO_CAP:0 "Íàâàáàò" #GetGovernmentCHTO_CAP
+ NIZAMATE_CHTO_CAP:0 "Íèçàìàò" #GetGovernmentCHTO_CAP
+ MONG_CHTO_CAP:0 "Ìîíã" #GetGovernmentCHTO_CAP
+ GRAND_PRINCIPALITY_CHTO_CAP:0 "Âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ ALTEPETL_CHTO_CAP:0 "Àëüòåïåòëü" #GetGovernmentCHTO_CAP
+ ALTEPETL_FEDERATION_CHTO_CAP:0 "Àëüòåïåòëüñêóþ ôåäåðàöèþ" #GetGovernmentCHTO_CAP
+ BISHOPRIC_CHTO_CAP:0 "Åïèñêîïñòâî" #GetGovernmentCHTO_CAP
+ ARCHBISHOPRIC_CHTO_CAP:0 "Àðõèåïèñêîïñòâî" #GetGovernmentCHTO_CAP
+ PATRIARCHATE_CHTO_CAP:0 "Ïàòðèàðõàò" #GetGovernmentCHTO_CAP
+ DESPOTISM_CHTO_CAP:0 "Äåñïîòèþ" #GetGovernmentCHTO_CAP
+ DICTATORSHIP_CHTO_CAP:0 "Äèêòàòóðó" #GetGovernmentCHTO_CAP
+ PRESIDENTIAL_DICTATORSHIP_CHTO_CAP:0 "Ïðåçèäåíòñêóþ äèêòàòóðó" #GetGovernmentCHTO_CAP
+ METROPOLIS_CHTO_CAP:0 "Ìèòðîïîëèþ" #GetGovernmentCHTO_CAP
+ GREAT_METROPOLIS_CHTO_CAP:0 "Âåëèêóþ ìèòðîïîëèþ" #GetGovernmentCHTO_CAP
+ HORDE_CHTO_CAP:0 "Îðäó" #GetGovernmentCHTO_CAP
+ KHAGANATE_CHTO_CAP:0 "Êàãàíàò" #GetGovernmentCHTO_CAP
+ CHIEFDOM_CHTO_CAP:0 "Âîæäåñòâî" #GetGovernmentCHTO_CAP
+ TRIBAL_KINGDOM_CHTO_CAP:0 "Ïëåìåííîå êîðîëåâñòâî" #GetGovernmentCHTO_CAP
+ TRIBAL_EMPIRE_CHTO_CAP:0 "Ïëåìåííóþ èìïåðèþ" #GetGovernmentCHTO_CAP
+ GRAND_CHIEFDOM_CHTO_CAP:0 "Âåðõîâíîå âîæäåñòâî" #GetGovernmentCHTO_CAP
+ GREAT_CHIEFDOM_CHTO_CAP:0 "Âåëèêîå âîæäåñòâî" #GetGovernmentCHTO_CAP
+ HOLY_STATE_CHTO_CAP:0 "Öåðêîâíîå ãîñóäàðñòâî" #GetGovernmentCHTO_CAP
+ HIGH_IMAMATE_CHTO_CAP:0 "Âåðõîâíûé èìàìàò" #GetGovernmentCHTO_CAP
+ HOLY_EMPIRE_CHTO_CAP:0 "Òåîêðàòè÷åñêóþ èìïåðèþ" #GetGovernmentCHTO_CAP
+ GREAT_EMIRATE_CHTO_CAP:0 "Âåëèêèé ýìèðàò" #GetGovernmentCHTO_CAP
+ PASHALIK_CHTO_CAP:0 "Ýÿëåò" #GetGovernmentCHTO_CAP
+ SOGN_CHTO_CAP:0 "Ñîãí" #GetGovernmentCHTO_CAP
+ HERRED_CHTO_CAP:0 "Ñîòíþ" #GetGovernmentCHTO_CAP
+ BONDEVALDE_CHTO_CAP:0 "Áîíäåâåëüä" #GetGovernmentCHTO_CAP
+ MISL_CHTO_CAP:0 "Ìèñàëü" #GetGovernmentCHTO_CAP
+ CONFEDERATION_CHTO_CAP:0 "Êîíôåäåðàöèþ" #GetGovernmentCHTO_CAP
+ TRIBE_CHTO_CAP:0 "Ïëåìÿ" #GetGovernmentCHTO_CAP
+ HOLY_PRINCIPALITY_CHTO_CAP:0 "Öåðêîâíîå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ TSARDOM_CHTO_CAP:0 "Öàðñòâî" #GetGovernmentCHTO_CAP
+ GRAND_PRINCEDOM_CHTO_CAP:0 "Âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ GREAT_PRINCEDOM_CHTO_CAP:0 "Ñâåòëåéøåå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ MONASTIC_ORDER_CHTO_CAP:0 "Âîåííî-ìîíàøåñêèé îðäåí" #GetGovernmentCHTO_CAP
+ GRAND_REPUBLIC_CHTO_CAP:0 "Âåëèêóþ ðåñïóáëèêó" #GetGovernmentCHTO_CAP
+ FEDERAL_REPUBLIC_CHTO_CAP:0 "Ôåäåðàëüíóþ ðåñïóáëèêó" #GetGovernmentCHTO_CAP
+ CAH_CHTO_CAP:0 "Êàõ" #GetGovernmentCHTO_CAP
+ KUCHKABAL_CHTO_CAP:0 "Êó÷êàáàëü" #GetGovernmentCHTO_CAP
+ GREAT_LEAGUE_CHTO_CAP:0 "Âåëèêóþ ëèãó" #GetGovernmentCHTO_CAP
+ PAPACY_CHTO_CAP:0 "Ïàïñòâî" #GetGovernmentCHTO_CAP
+ COLONY_CHTO_CAP:0 "Êîëîíèþ" #GetGovernmentCHTO_CAP
+ SHOGUNATE_CHTO_CAP:0 "Ñ¸ãóíàò" #GetGovernmentCHTO_CAP
+ INDEP_DAIMYO_CHTO_CAP:0 "Íåçàâèñèìîãî äàéì¸" #GetGovernmentCHTO_CAP
+ GRAND_INDEP_DAIMYO_CHTO_CAP:0 "Ãëàâíîãî äàéì¸" #GetGovernmentCHTO_CAP
+ GREAT_INDEP_DAIMYO_CHTO_CAP:0 "Âåëèêîãî äàéì¸" #GetGovernmentCHTO_CAP
+ HETMANATE_CHTO_CAP:0 "Ãåòìàíùèíó" #GetGovernmentCHTO_CAP
+ GRAND_HETMANATE_CHTO_CAP:0 "Áîëüøóþ ãåòìàíùèíó" #GetGovernmentCHTO_CAP
+ GREAT_HETMANATE_CHTO_CAP:0 "Âåëèêèé ãåòìàíàò" #GetGovernmentCHTO_CAP
+ SHARIFATE_CHTO_CAP:0 "Øàðèôàò" #GetGovernmentCHTO_CAP
+ GREAT_SHARIFATE_CHTO_CAP:0 "Âåëèêèé øàðèôàò" #GetGovernmentCHTO_CAP
+ GRAND_SHARIFATE_CHTO_CAP:0 "Âûñøèé øàðèôàò" #GetGovernmentCHTO_CAP
+ BARANGAY_CHTO_CAP:0 "Áàðàíãàé" #GetGovernmentCHTO_CAP
+ GRAND_BARANGAY_CHTO_CAP:0 "Áîëüøîé áàðàíãàé" #GetGovernmentCHTO_CAP
+ GREAT_BARANGAY_CHTO_CAP:0 "Âåëèêîé áàðàíãàé" #GetGovernmentCHTO_CAP
+ PARLIAMENT_OF_HEAVEN_CHTO_CAP:0 "Ïàðëàìåíò Íåáåñ" #GetGovernmentCHTO_CAP
+ REVOLUTIONARY_PEASANT_REPUBLIC_CHTO_CAP:0 "Êðåñòüÿíñêóþ õóíòó" #GetGovernmentCHTO_CAP
+ FREE_CITY_CHTO_CAP:0 "Âîëüíûé ãîðîä" #GetGovernmentCHTO_CAP
+ ###На вопрос кем?
+ UNITED_PROVINCES_KEM_CAP:0 "Ñîåäèí¸ííûìè ïðîâèíöèÿìè" #GetGovernmentKEM_CAP
+ FEDERAL_KINGDOM_KEM_CAP:0 "Ôåäåðàëüíûì êîðîëåâñòâîì" #GetGovernmentKEM_CAP
+ FEDERAL_EMPIRE_KEM_CAP:0 "Ôåäåðàëüíîé èìïåðèåé" #GetGovernmentKEM_CAP
+ REPUBLIC_KEM_CAP:0 "Ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ GREAT_REPUBLIC_KEM_CAP:0 "Âåëèêîé ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ DUCHY_KEM_CAP:0 "Ãåðöîãñòâîì" #GetGovernmentKEM_CAP
+ KINGDOM_KEM_CAP:0 "Êîðîëåâñòâîì" #GetGovernmentKEM_CAP
+ EMPIRE_KEM_CAP:0 "Èìïåðèåé" #GetGovernmentKEM_CAP
+ EARLDOM_KEM_CAP:0 "Ýðëñòâîì" #GetGovernmentKEM_CAP
+ DAIMYO_KEM_CAP:0 "Äàéì¸" #GetGovernmentKEM_CAP
+ KHANATE_KEM_CAP:0 "Õàíñòâîì" #GetGovernmentKEM_CAP
+ PRINCEDOM_KEM_CAP:0 "Êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ GRAND_DUCHY_KEM_CAP:0 "Âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ ARCHDUCHY_KEM_CAP:0 "Ýðöãåðöîãñòâîì" #GetGovernmentKEM_CAP
+ LORDSHIP_KEM_CAP:0 "Âëàäåíèåì" #GetGovernmentKEM_CAP
+ MARCH_KEM_CAP:0 "Ìàðêîé" #GetGovernmentKEM_CAP
+ VICEROYALTY_KEM_CAP:0 "Âèöå-êîðîëåâñòâîì" #GetGovernmentKEM_CAP
+ IMAMATE_KEM_CAP:0 "Èìàìàòîì" #GetGovernmentKEM_CAP
+ GREAT_IMAMATE_KEM_CAP:0 "Âåëèêèì èìàìàòîì" #GetGovernmentKEM_CAP
+ EMIRATE_KEM_CAP:0 "Ýìèðàòîì" #GetGovernmentKEM_CAP
+ SULTANATE_KEM_CAP:0 "Ñóëòàíàòîì" #GetGovernmentKEM_CAP
+ MALIKATE_KEM_CAP:0 "Ìàëèêàòîì" #GetGovernmentKEM_CAP
+ SHEIKHDOM_KEM_CAP:0 "Øåéõñòâîì" #GetGovernmentKEM_CAP
+ SHAHDOM_KEM_CAP:0 "Øàõñòâîì" #GetGovernmentKEM_CAP
+ BEYLIK_KEM_CAP:0 "Áåéëèêîì" #GetGovernmentKEM_CAP
+ DESPOTATE_KEM_CAP:0 "Äåñïîòàòîì" #GetGovernmentKEM_CAP
+ NAWABATE_KEM_CAP:0 "Íàâàáàòîì" #GetGovernmentKEM_CAP
+ NIZAMATE_KEM_CAP:0 "Íèçàìàòîì" #GetGovernmentKEM_CAP
+ MONG_KEM_CAP:0 "Ìîíãîì" #GetGovernmentKEM_CAP
+ GRAND_PRINCIPALITY_KEM_CAP:0 "Âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ ALTEPETL_KEM_CAP:0 "Àëüòåïåòëåì" #GetGovernmentKEM_CAP
+ ALTEPETL_FEDERATION_KEM_CAP:0 "Àëüòåïåòëüñêîé ôåäåðàöèåé" #GetGovernmentKEM_CAP
+ BISHOPRIC_KEM_CAP:0 "Åïèñêîïñòâîì" #GetGovernmentKEM_CAP
+ ARCHBISHOPRIC_KEM_CAP:0 "Àðõèåïèñêîïñòâîì" #GetGovernmentKEM_CAP
+ PATRIARCHATE_KEM_CAP:0 "Ïàòðèàðõàòîì" #GetGovernmentKEM_CAP
+ DESPOTISM_KEM_CAP:0 "Äåñïîòèåé" #GetGovernmentKEM_CAP
+ DICTATORSHIP_KEM_CAP:0 "Äèêòàòóðîé" #GetGovernmentKEM_CAP
+ PRESIDENTIAL_DICTATORSHIP_KEM_CAP:0 "Ïðåçèäåíòñêîé äèêòàòóðîé" #GetGovernmentKEM_CAP
+ METROPOLIS_KEM_CAP:0 "Ìèòðîïîëèåé" #GetGovernmentKEM_CAP
+ GREAT_METROPOLIS_KEM_CAP:0 "Âåëèêîé ìèòðîïîëèåé" #GetGovernmentKEM_CAP
+ HORDE_KEM_CAP:0 "Îðäîé" #GetGovernmentKEM_CAP
+ KHAGANATE_KEM_CAP:0 "Êàãàíàòîì" #GetGovernmentKEM_CAP
+ CHIEFDOM_KEM_CAP:0 "Âîæäåñòâîì" #GetGovernmentKEM_CAP
+ TRIBAL_KINGDOM_KEM_CAP:0 "Ïëåìåííûì êîðîëåâñòâîì" #GetGovernmentKEM_CAP
+ TRIBAL_EMPIRE_KEM_CAP:0 "Ïëåìåííîé èìïåðèåé" #GetGovernmentKEM_CAP
+ GRAND_CHIEFDOM_KEM_CAP:0 "Âåðõîâíûì âîæäåñòâîì" #GetGovernmentKEM_CAP
+ GREAT_CHIEFDOM_KEM_CAP:0 "Âåëèêèì âîæäåñòâîì" #GetGovernmentKEM_CAP
+ HOLY_STATE_KEM_CAP:0 "Öåðêîâíûì ãîñóäàðñòâîì" #GetGovernmentKEM_CAP
+ HIGH_IMAMATE_KEM_CAP:0 "Âåðõîâíûì èìàìàòîì" #GetGovernmentKEM_CAP
+ HOLY_EMPIRE_KEM_CAP:0 "Òåîêðàòè÷åñêîé èìïåðèåé" #GetGovernmentKEM_CAP
+ GREAT_EMIRATE_KEM_CAP:0 "Âåëèêèì ýìèðàòîì" #GetGovernmentKEM_CAP
+ PASHALIK_KEM_CAP:0 "Ýÿëåòîì" #GetGovernmentKEM_CAP
+ SOGN_KEM_CAP:0 "Ñîãíîì" #GetGovernmentKEM_CAP
+ HERRED_KEM_CAP:0 "Ñîòíåé" #GetGovernmentKEM_CAP
+ BONDEVALDE_KEM_CAP:0 "Áîíäåâåëüäîì" #GetGovernmentKEM_CAP
+ MISL_KEM_CAP:0 "Ìèñàëåì" #GetGovernmentKEM_CAP
+ CONFEDERATION_KEM_CAP:0 "Êîíôåäåðàöèåé" #GetGovernmentKEM_CAP
+ TRIBE_KEM_CAP:0 "Ïëåìåíåì" #GetGovernmentKEM_CAP
+ HOLY_PRINCIPALITY_KEM_CAP:0 "Öåðêîâíûì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ TSARDOM_KEM_CAP:0 "Öàðñòâîì" #GetGovernmentKEM_CAP
+ GRAND_PRINCEDOM_KEM_CAP:0 "Âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ GREAT_PRINCEDOM_KEM_CAP:0 "Ñâåòëåéøèì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ MONASTIC_ORDER_KEM_CAP:0 "Âîåííî-ìîíàøåñêèì îðäåíîì" #GetGovernmentKEM_CAP
+ GRAND_REPUBLIC_KEM_CAP:0 "Âåëèêîé ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ FEDERAL_REPUBLIC_KEM_CAP:0 "Ôåäåðàëüíîé ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ CAH_KEM_CAP:0 "Êàõîì" #GetGovernmentKEM_CAP
+ KUCHKABAL_KEM_CAP:0 "Êó÷êàáàëåì" #GetGovernmentKEM_CAP
+ GREAT_LEAGUE_KEM_CAP:0 "Âåëèêîé ëèãîé" #GetGovernmentKEM_CAP
+ PAPACY_KEM_CAP:0 "Ïàïñòâîì" #GetGovernmentKEM_CAP
+ COLONY_KEM_CAP:0 "Êîëîíèåé" #GetGovernmentKEM_CAP
+ SHOGUNATE_KEM_CAP:0 "Ñ¸ãóíàòîì" #GetGovernmentKEM_CAP
+ INDEP_DAIMYO_KEM_CAP:0 "Íåçàâèñèìûì äàéì¸" #GetGovernmentKEM_CAP
+ GRAND_INDEP_DAIMYO_KEM_CAP:0 "Ãëàâíûì äàéì¸" #GetGovernmentKEM_CAP
+ GREAT_INDEP_DAIMYO_KEM_CAP:0 "Âåëèêèì äàéì¸" #GetGovernmentKEM_CAP
+ HETMANATE_KEM_CAP:0 "Ãåòìàíùèíîé" #GetGovernmentKEM_CAP
+ GRAND_HETMANATE_KEM_CAP:0 "Áîëüøîé ãåòìàíùèíîé" #GetGovernmentKEM_CAP
+ GREAT_HETMANATE_KEM_CAP:0 "Âåëèêèì ãåòìàíàòîì" #GetGovernmentKEM_CAP
+ SHARIFATE_KEM_CAP:0 "Øàðèôàòîì" #GetGovernmentKEM_CAP
+ GREAT_SHARIFATE_KEM_CAP:0 "Âåëèêèì øàðèôàòîì" #GetGovernmentKEM_CAP
+ GRAND_SHARIFATE_KEM_CAP:0 "Âûñøèì øàðèôàòîì" #GetGovernmentKEM_CAP
+ BARANGAY_KEM_CAP:0 "Áàðàíãàåì" #GetGovernmentKEM_CAP
+ GRAND_BARANGAY_KEM_CAP:0 "Áîëüøèì áàðàíãàåì" #GetGovernmentKEM_CAP
+ GREAT_BARANGAY_KEM_CAP:0 "Âåëèêèì áàðàíãàåì" #GetGovernmentKEM_CAP
+ PARLIAMENT_OF_HEAVEN_KEM_CAP:0 "Ïàðëàìåíòîì Íåáåñ" #GetGovernmentKEM_CAP
+ REVOLUTIONARY_PEASANT_REPUBLIC_KEM_CAP:0 "Êðåñòüÿíñêîé õóíòîé" #GetGovernmentKEM_CAP
+ FREE_CITY_KEM_CAP:0 "Âîëüíûì ãîðîäîì" #GetGovernmentKEM_CAP
+ SERENE_REPUBLIC_KEM_CAP:0 "Câåòëåéøåé ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ ###Версия 1.28
+ PIRATE_REPUBLIC_GDE_CAP:0 "Ïèðàòñêîé ðåñïóáëèêå" #GetGovernmentGDE_CAP
+ PIRATE_CONFEDERACY_GDE_CAP:0 "Ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentGDE_CAP
+ GRAND_PIRATE_CONFEDERACY_GDE_CAP:0 "Áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentGDE_CAP
+ PIRATE_REPUBLIC_OMU_CAP:0 "Ïèðàòñêîé ðåñïóáëèêå" #GetGovernmentOMU_CAP
+ PIRATE_CONFEDERACY_OMU_CAP:0 "Ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOMU_CAP
+ GRAND_PIRATE_CONFEDERACY_OMU_CAP:0 "Áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOMU_CAP
+ PIRATE_REPUBLIC_OGO_CAP:0 "Ïèðàòñêîé ðåñïóáëèêè" #GetGovernmentOGO_CAP
+ PIRATE_CONFEDERACY_OGO_CAP:0 "Ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOGO_CAP
+ GRAND_PIRATE_CONFEDERACY_OGO_CAP:0 "Áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOGO_CAP
+ PIRATE_REPUBLIC_CHTO_CAP:0 "Ïèðàòñêóþ ðåñïóáëèêó" #GetGovernmentCHTO_CAP
+ PIRATE_CONFEDERACY_CHTO_CAP:0 "Ïèðàòñêóþ êîíôåäåðàöèþ" #GetGovernmentCHTO_CAP
+ GRAND_PIRATE_CONFEDERACY_CHTO_CAP:0 "Áîëüøóþ ïèðàòñêóþ êîíôåäåðàöèþ" #GetGovernmentCHTO_CAP
+ PIRATE_REPUBLIC_KEM_CAP:0 "Ïèðàòñêîé ðåñïóáëèêîé" #GetGovernmentKEM_CAP
+ PIRATE_CONFEDERACY_KEM_CAP:0 "Ïèðàòñêîé êîíôåäåðàöèåé" #GetGovernmentKEM_CAP
+ GRAND_PIRATE_CONFEDERACY_KEM_CAP:0 "Áîëüøîé ïèðàòñêîé êîíôåäåðàöèåé" #GetGovernmentKEM_CAP
+ PIRATE_PRINCIPALITY_GDE_CAP:0 "Ïèðàòñêîì êíÿæåñòâå" #GetGovernmentGDE_CAP
+ PIRATE_KINGDOM_GDE_CAP:0 "Êîðîëåâñòâå ïèðàòîâ" #GetGovernmentGDE_CAP
+ PIRATE_EMPIRE_GDE_CAP:0 "Èìïåðèè ïèðàòîâ" #GetGovernmentGDE_CAP
+ PIRATE_PRINCIPALITY_OMU_CAP:0 "Ïèðàòñêîìó êíÿæåñòâó" #GetGovernmentOMU_CAP
+ PIRATE_KINGDOM_OMU_CAP:0 "Êîðîëåâñòâó ïèðàòîâ" #GetGovernmentOMU_CAP
+ PIRATE_EMPIRE_OMU_CAP:0 "Èìïåðèè ïèðàòîâ" #GetGovernmentOMU_CAP
+ PIRATE_PRINCIPALITY_OGO_CAP:0 "Ïèðàòñêîãî êíÿæåñòâà" #GetGovernmentOGO_CAP
+ PIRATE_KINGDOM_OGO_CAP:0 "Êîðîëåâñòâà ïèðàòîâ" #GetGovernmentOGO_CAP
+ PIRATE_EMPIRE_OGO_CAP:0 "Èìïåðèè ïèðàòîâ" #GetGovernmentOGO_CAP
+ PIRATE_PRINCIPALITY_CHTO_CAP:0 "Ïèðàòñêîå êíÿæåñòâî" #GetGovernmentCHTO_CAP
+ PIRATE_KINGDOM_CHTO_CAP:0 "Êîðîëåâñòâî ïèðàòîâ" #GetGovernmentCHTO_CAP
+ PIRATE_EMPIRE_CHTO_CAP:0 "Èìïåðèþ ïèðàòîâ" #GetGovernmentCHTO_CAP
+ PIRATE_PRINCIPALITY_KEM_CAP:0 "Ïèðàòñêèì êíÿæåñòâîì" #GetGovernmentKEM_CAP
+ PIRATE_KINGDOM_KEM_CAP:0 "Êîðîëåâñòâîì ïèðàòîâ" #GetGovernmentKEM_CAP
+ PIRATE_EMPIRE_KEM_CAP:0 "Èìïåðèåé ïèðàòîâ" #GetGovernmentKEM_CAP

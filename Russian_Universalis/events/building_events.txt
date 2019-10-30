@@ -1,0 +1,214 @@
+namespace = bilding_evtet
+country_event = {
+	id = bilding_evtet.1
+	title = bilding_evtet.EVTNAME1
+	desc = bilding_evtet.EVTDESC1
+	picture = burn_haus_event_picture
+	fire_only_once = yes
+	trigger = {
+		any_owned_province = {
+			has_building = tavern
+		}
+	}
+	
+	is_mtth_scaled_to_size = 1
+	
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.5
+			NOT = { library = 10 }
+		}
+		modifier = {
+			factor = 1.25
+			library = 10
+		}
+	}
+	
+	option = {
+		name = "bilding_evtet.EVTOPTA1"
+		add_province_modifier = {
+			name = breaking_tavern
+			duration = 7300
+		}
+	}
+	option = {
+		name = "bilding_evtet.EVTOPTB1"
+		add_stability = -2
+		add_treasury = -100
+	}
+	option = {
+		name = "bilding_evtet.EVTOPTC1"
+		add_province_modifier = {
+			name = rebuild_tavern_assholes
+			duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = bilding_evtet.2
+	title = bilding_evtet.EVTNAME2
+	desc = bilding_evtet.EVTDESC2
+	picture = hung_event_picture
+	fire_only_once = yes
+	trigger = {
+		any_owned_province = {
+			has_building = tavern
+		}
+		has_dlc = "Mare Nostrum"
+		any_known_country = {
+			has_spy_network_in = {
+				who = ROOT
+				value = 25
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.8
+			NOT = { library = 10 }
+		}
+		modifier = {
+			factor = 0.4
+			library = 10
+		}
+	}
+
+	option = {
+		name = "bilding_evtet.EVTOPTA2"
+		add_province_modifier = {
+			name = drunk_death
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = bilding_evtet.3
+	title = bilding_evtet.EVTNAME3
+	desc = bilding_evtet.EVTDESC3
+	picture = street_event_picture
+	fire_only_once = yes
+	trigger = {
+		any_owned_province = {
+			has_building = tavern
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.8
+			owner = { NOT = { adm = 3 } }
+		}
+		modifier = {
+			factor = 0.3
+			any_owned_province = {
+				has_building = drunk_province
+			}
+		}
+		modifier = {
+			factor = 0.1
+			any_owned_province = {
+				has_building = sausais_likums
+			}
+		}
+	}
+
+	option = {
+		name = "bilding_evtet.EVTOPTA3"
+		add_province_modifier = {
+			name = sausais_likums
+			duration = 7300
+		}
+	}
+	option = {
+		name = "bilding_evtet.EVTOPTB3"
+		add_province_modifier = {
+			name = drunk_province
+			duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = bilding_evtet.5
+	title = bilding_evtet.EVTNAME5
+	desc = bilding_evtet.EVTDESC5
+	picture = CITY_DEVELOPMENT_eventPicture
+	fire_only_once = yes
+	trigger = {
+		any_owned_province = {
+			has_building = carpenter
+		}
+		treasury = 100
+		NOT = {
+			has_country_modifier = poor_wood
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		
+		modifier = {
+			factor = 0.4
+			owner = { NOT = { treasury = 500 } }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { treasury = 500 }
+		}
+	}
+
+	option = {
+		name = "bilding_evtet.EVTOPTA5"
+		add_treasury = -200
+	}
+	option = {
+		name = "bilding_evtet.EVTOPTB5"
+		add_country_modifier = { 
+			name = poor_wood
+			duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = bilding_evtet.11
+	title = bilding_evtet.EVTNAME11
+	desc = bilding_evtet.EVTDESC11
+	picture = CITY_DEVELOPMENT_eventPicture
+	fire_only_once = yes
+	trigger = {
+		any_owned_province = {
+			has_building = carpenter
+		}
+		stability = 1
+		is_in_deficit = no
+		is_at_war = no
+	}
+
+	mean_time_to_happen = {
+		months = 100
+		
+		modifier = {
+			factor = 0.2
+			owner = { NOT = { full_idea_group = economic_ideas } }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { full_idea_group = economic_ideas }
+		}
+	}
+
+	option = {
+		name = "bilding_evtet.EVTOPTA11"
+		add_stability = 2
+	}
+}

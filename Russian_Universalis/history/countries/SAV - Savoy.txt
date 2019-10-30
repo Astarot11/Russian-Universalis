@@ -1,0 +1,707 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = piedmontese
+religion = catholic
+technology_group = western
+capital = 205 # Chambery
+add_army_professionalism = 0.05
+
+1032.1.1 = {
+	monarch = {
+		name = "Гумберт I Белорукий"
+		dynasty = "Савойский"
+		birth_date = 970.1.1
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+
+1047.1.1 = {
+	monarch = {
+		name = "Амадей I Хвост"
+		dynasty = "Савойский"
+		birth_date = 995.1.1
+		adm = 0
+		dip = 1
+		mil = 3
+	}
+}
+
+1051.1.1 = {
+	monarch = {
+		name = "Оттон I"
+		dynasty = "Савойский"
+		birth_date = 1021.1.1
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}
+
+1060.3.16 = {
+	monarch = {
+		name = "Пьер I"
+		dynasty = "Савойский"
+		birth_date = 1048.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1078.8.9 = {
+	monarch = {
+		name = "Амадей II"
+		dynasty = "Савойский"
+		birth_date = 1050.1.1
+		adm = 5
+		dip = 4
+		mil = 0
+	}
+}
+
+1080.1.26 = {
+	monarch = {
+		name = "Гумберт II Сильный"
+		dynasty = "Савойский"
+		birth_date = 1065.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1103.10.14 = {
+	monarch = {
+		name = "Амадей III"
+		dynasty = "Савойский"
+		birth_date = 1095.1.1
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+
+1148.8.1 = {
+	monarch = {
+		name = "Гумберт III"
+		dynasty = "Савойский"
+		birth_date = 1136.8.4
+		adm = 0
+		dip = 5
+		mil = 1
+	}
+}
+
+1189.3.4 = {
+	monarch = {
+		name = "Томас I"
+		dynasty = "Савойский"
+		birth_date = 1178.5.20
+		adm = 0
+		dip = 4
+		mil = 3
+	}
+}
+
+1233.3.6 = {
+	monarch = {
+		name = "Амадей IV"
+		dynasty = "Савойский"
+		birth_date = 1197.1.1
+		adm = 0
+		dip = 4
+		mil = 1
+	}
+}
+
+1253.7.13 = {
+	monarch = {
+		name = "Бонифаций I"
+		dynasty = "Савойский"
+		birth_date = 1244.12.1
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}
+
+1263.6.7 = {
+	monarch = {
+		name = "Пьер II Маленький Карл Великий"
+		dynasty = "Савойский"
+		birth_date = 1203.1.1
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1263.1.1 = {
+	heir = {
+		name = "Филипп"
+		monarch_name = "Филипп I"
+		dynasty = "Савойский"
+		birth_date = 1207.1.1
+		death_date = 1285.8.16
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 5
+	}
+}
+
+1268.5.15 = {
+	monarch = {
+		name = "Филипп I"
+		dynasty = "Савойский"
+		birth_date = 1207.1.1
+		adm = 1
+		dip = 0
+		mil = 5
+	}
+}
+
+1285.8.16 = {
+	monarch = {
+		name = "Амадей V Великий"
+		dynasty = "Савойский"
+		birth_date = 1253.1.1
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1285.8.16 = {
+	heir = {
+		name = "Эдуард"
+		monarch_name = "Эдуард I Либерал"
+		dynasty = "Савойский"
+		birth_date = 1284.2.8
+		death_date = 1329.11.4
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+
+1323.10.16 = {
+	monarch = {
+		name = "Эдуард I Либерал"
+		dynasty = "Савойский"
+		birth_date = 1284.2.8
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+
+1329.11.4 = {
+	monarch = {
+		name = "Жанна"
+		dynasty = "Савойская"
+		birth_date = 1310.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1323.10.16 = {
+	heir = {
+		name = "Жанна Византийская"
+		monarch_name = "Анна"
+		dynasty = "Савойская"
+		birth_date = 1306.1.1
+		death_date = 1329.11.22 #1359.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+		female = yes
+	}
+}
+
+1329.11.22 = {
+	monarch = {
+		name = "Аймон I"
+		dynasty = "Савойский"
+		birth_date = 1291.12.15
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1334.1.4 = {
+	heir = {
+		name = "Амадей"
+		monarch_name = "Амадей VI"
+		dynasty = "Савойский"
+		birth_date = 1334.1.4
+		death_date = 1383.3.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1343.6.22 = {
+	monarch = {
+		name = "Амадей VI"
+		dynasty = "Савойский"
+		birth_date = 1334.1.4
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1360.2.24 = {
+	heir = {
+		name = "Амадей"
+		monarch_name = "Амадей VII"
+		dynasty = "Савойский"
+		birth_date = 1360.2.24
+		death_date = 1391.11.1
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 0
+	}
+}
+
+1383.3.1 = {
+	monarch = {
+		name = "Амадей VII"
+		dynasty = "Савойский"
+		birth_date = 1360.2.24
+		adm = 5
+		dip = 2
+		mil = 0
+	}
+}
+
+1383.9.4 = {
+	heir = {
+		name = "Амадей"
+		monarch_name = "Амадей VIII"
+		dynasty = "Савойский"
+		birth_date = 1383.9.4
+		death_date = 1451.1.7
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1391.11.1 = {
+	monarch = {
+		name = "Амадей VIII"
+		dynasty = "Савойский"
+		birth_date = 1338.9.4
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1413.2.21 = {
+	heir = {
+		name = "Людовик"
+		monarch_name = "Людовик I"
+		dynasty = "Савойский"
+		birth_date = 1413.2.21
+		death_date = 1465.1.29
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+1434.11.2 = {
+	monarch = {
+		name = "Людовик I"
+		dynasty = "Савойский"
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+1435.2.1 = {
+	heir = {
+		name = "Амадей"
+		monarch_name = "Амадей IX"
+		dynasty = "Савойский"
+		birth_date = 1435.2.1
+		death_date = 1472.3.30
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+
+1465.1.30 = {
+	monarch = {
+		name = "Амадей IX"
+		dynasty = "Савойский"
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+
+1465.8.17 = {
+	heir = {
+		name = "Филиберт"
+		monarch_name = "Филиберт I"
+		dynasty = "Савойский"
+		birth_date = 1465.8.17
+		death_date = 1482.9.22
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1472.3.31 = {
+	monarch = {
+		name = "Филиберт I"
+		dynasty = "Савойский"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1472.3.31 = {
+	heir = {
+		name = "Карл"
+		monarch_name = "Карл I"
+		dynasty = "Савойский"
+		birth_date = 1468.3.29
+		death_date = 1490.3.13
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1482.9.23 = {
+	monarch = {
+		name = "Карл I"
+		dynasty = "Савойский"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1489.6.23 = {
+	heir = {
+		name = "Карл"
+		monarch_name = "Карл II"
+		dynasty = "Савойский"
+		birth_date = 1489.6.23
+		death_date = 1496.4.16
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1490.3.14 = {
+	monarch = {
+		name = "Карл II"
+		dynasty = "Савойский"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1490.3.14 = {
+	heir = {
+		name = "Филипп"
+		monarch_name = "Филипп II"
+		dynasty = "Савойский"
+		birth_date = 1438.2.5
+		death_date = 1497.11.7
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1496.4.17 = {
+	monarch = {
+		name = "Филипп II"
+		dynasty = "Савойский"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1496.4.17 = {
+	heir = {
+		name = "Филиберт"
+		monarch_name = "Филиберт II"
+		dynasty = "Савойский"
+		birth_date = 1480.4.10
+		death_date = 1504.9.10
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1497.11.8 = {
+	monarch = {
+		name = "Филиберт II"
+		dynasty = "Савойский"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1497.11.8 = {
+	heir = {
+		name = "Карл"
+		monarch_name = "Карл II"
+		dynasty = "Савойский"
+		birth_date = 1486.10.10
+		death_date = 1553.8.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1499.1.1 = {
+	capital = 1875 # Cuneo
+}
+1504.9.11 = {
+	monarch = {
+		name = "Карл II"
+		dynasty = "Савойский"
+		birth_date = 1486.10.10
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1528.7.8 = {
+	heir = {
+		name = "Эммануил Филиберт"
+		monarch_name = "Эммануил Филиберт I"
+		dynasty = "Савойский"
+		birth_date = 1528.7.8
+		death_date = 1580.8.30
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+		leader = {	
+			name = "Эммануил Филиберт"
+			type = general
+		
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 1
+		}
+	}
+}
+
+1529.1.1 = {
+	capital = 205 # Chambery
+}
+
+1538.6.17 = {
+	capital = 102 # Nice
+}
+1553.8.18 = { government = monarchy
+add_government_reform = autocracy_reform }
+
+1553.8.18 = {
+	monarch = {
+		name = "Эммануил Филиберт I"
+		dynasty = "Савойский"
+		adm = 5
+		dip = 5
+		mil = 4
+		leader = {	
+			name = "Эммануил Филиберт"
+			type = general
+		
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 1
+		}
+	}
+}
+
+1562.1.12 = {
+	heir = {
+		name = "Карл Эммануил"
+		monarch_name = "Карл Эммануил I"
+		dynasty = "Савойский"
+		birth_date = 1562.1.12
+		death_date = 1630.7.26
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+		leader = {	name = "Карл Эммануил"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 0}
+	}
+}
+
+1563.2.7 = {
+	capital = 103 #Torino
+}
+	
+1580.8.31 = {
+	monarch = {
+		name = "Карл Эммануил I"
+		dynasty = "Савойский"
+		adm = 2
+		dip = 3
+		mil = 3
+		leader = {	name = "Карл Эммануил I"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 0}
+	}
+}
+
+1587.5.8 = {
+	heir = {
+		name = "Виктор Амадей"
+		monarch_name = "Виктор Амадей I"
+		dynasty = "Савойский"
+		birth_date = 1587.5.8
+		death_date = 1637.10.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+		leader = {	name = "Виктор Амадей I"        	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+		
+1630.7.27 = {
+	monarch = {
+		name = "Виктор Амадей I"
+		dynasty = "Савойский"
+		adm = 4
+		dip = 4
+		mil = 2
+		leader = {	name = "Виктор Амадей I"        	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1632.9.14 = {
+	heir = {
+		name = "Франциск Гиацинт"
+		monarch_name = "Франциск Гиацинт I"
+		dynasty = "Савойский"
+		birth_date = 1632.9.14
+		death_date = 1638.10.4
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1637.10.8 = {
+	monarch = {
+		name = "Франциск Гиацинт I"
+		dynasty = "Савойский"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1637.10.8 = {
+	heir = {
+		name = "Карл Эммануил"
+		monarch_name = "Карл Эммануил II"
+		dynasty = "Савойский"
+		birth_date = 1634.6.20
+		death_date = 1675.6.12
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1638.1.1 = { leader = {	name = "Томас ди Савойя"     	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1656.1.1 } }
+
+1638.10.5 = {
+	monarch = {
+		name = "Карл Эммануил II"
+		dynasty = "Савойский"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1666.5.14 = {
+	heir = {
+		name = "Виктор Амадей"
+		monarch_name = "Виктор Амадей II"
+		dynasty = "Савойский"
+		birth_date = 1666.5.14
+		death_date = 1732.10.31
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+		leader = { name = "Виктор Амадей II"	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Виктор Амадей II"
+		dynasty = "Савойский"
+		adm = 4
+		dip = 6
+		mil = 5
+		leader = { name = "Виктор Амадей II"	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}
+
+1699.6.5 = {
+	heir = {
+		name = "Виктор Амадей"
+		monarch_name = "Виктор Амадей III"
+		dynasty = "Савойский"
+		birth_date = 1699.6.5
+		death_date = 1715.3.22
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

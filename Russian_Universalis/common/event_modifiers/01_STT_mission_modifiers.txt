@@ -1,0 +1,208 @@
+south_achivment = {	### STT
+    diplomatic_reputation = 1.00
+    core_creation = -0.15
+}
+
+north_achivment = {	### STT
+	ae_impact = -0.15
+	trade_efficiency = 0.05
+}
+
+east_achivment = {	### STT
+	diplomatic_annexation_cost = -0.35
+	discipline = 0.025
+}
+
+east_achivment_2 = {	### STT
+	colonists = 1
+}
+
+new_muslim_lands = {	### STT
+	local_missionary_strength = 0.03
+}
+
+siberian_development = {	### STT
+	local_development_cost = -0.2 
+}
+
+china_trade = {	### STT
+	merchants = 1
+	trade_efficiency = 0.05
+}
+
+new_flot_bases = {	### STT
+	naval_forcelimit_modifier = 0.05 
+}
+
+russian_sea_empire = {	### STT
+	naval_maintenance_modifier = -0.15
+}
+
+far_east_integration = {	### STT
+	local_culture_conversion_cost = -0.35 
+}
+  
+japan_morale = {	### STT
+	land_morale = 0.05
+}
+
+russian_india = {	### STT
+	merchants = 1
+	trade_efficiency = 0.125
+}
+
+control_of_caucasus = {	### STT
+	discipline = 0.03
+}
+
+slavyn_unity = {	### STT
+	culture_conversion_cost = -0.15 
+}
+
+russian_tsargrad = {	### STT
+	missionaries = 1
+	local_missionary_strength = 0.015 
+}
+
+west_achivment = { 	### STT
+	technology_cost = -0.05 
+}
+cossak_territory = { 
+    local_unrest = 2.00
+	local_manpower_modifier = 0.35
+	local_defensiveness = 0.35
+	local_tax_modifier = -0.33
+	local_production_efficiency = -0.3
+}
+conquest_of_persia = {
+   merchants = 1
+   trade_efficiency = 0.15
+}
+conquest_of_east_anatolia = {
+   leader_siege = 1
+   leader_land_shock = 1
+}
+rodina_rurikovich = ( 
+     
+     legitimacy = 1
+}
+
+controller_of_baltic = { 
+   global_institution_spread = 0.05
+   naval_forcelimit_modifier = 0.25
+   global_ship_cost = -0.25
+   heavy_ship_power = 0.15
+   galley_power = 0.15
+}
+
+poland_epiphany = { 
+   local_missionary_strength = 0.05
+   local_unrest = -2.00
+}
+
+return_of_prarodina = {
+   global_unrest = -2.00
+   legitimacy = 1
+   num_accepted_cultures = 2
+   years_of_nationalism = -5
+   tolerance_heretic = 1
+   tolerance_heathen = 1
+}
+russian_bulgaria = {
+   institution_spread_from_true_faith = 0.15
+}
+russian_greece = {
+   navy_tradition = 2
+   leader_naval_shock = 2
+   shock_damage = 0.15
+   heavy_ship_power = 0.1
+   galley_power = 0.1
+}
+russian_rim = {
+    missionaries = 1
+	local_missionary_strength = 0.015 
+}
+
+rost_postavok = { 
+global_trade_power = 0.25
+}     
+siberian_ambition = { 
+local_development_cost = -0.2
+local_culture_conversion_cost = -0.35
+}
+rus_cental = { 
+  global_unrest = -1.50
+}
+russian_prikazy = { 
+  stability_cost_modifier = -0.075
+  state_maintenance_modifier = -0.075 
+  yearly_corruption = 0.02  
+}  
+delenie_1 = {
+  max_states = 5
+} 
+
+delenie_2 = { 
+  max_states = 10
+  core_creation = -0.125
+  development_cost = -0.075
+}
+
+delenie_3 = { 
+  max_states = 15
+  core_creation = -0.2
+  development_cost = -0.15
+  global_autonomy = -0.05  
+}
+
+rus_religion_1_modifier = { 
+  global_missionary_strength = 0.02
+  legitimacy = 0.25
+} 
+russian_duma = {
+  global_tax_modifier = 0.05
+  idea_cost = -0.05
+  advisor_cost = -0.075
+  advisor_pool = 1
+} 
+
+russian_senate = { 
+  global_tax_modifier = 0.05
+  idea_cost = -0.1
+  advisor_cost = -0.125
+  advisor_pool = 2
+}
+
+russian_collegii = { 
+   stability_cost_modifier = -0.15
+   state_maintenance_modifier = -0.15
+   yearly_corruption = 0.05
+} 
+
+rus_sinod = {
+   global_unrest = -1
+   num_accepted_cultures = 2
+   religious_unity = 0.1
+}
+
+rus_secularization_modifier = {
+   global_tax_modifier = 0.125
+}
+
+svoboda_very = {  
+   global_unrest = -3
+   num_accepted_cultures = 5
+   religious_unity = 0.5
+   tolerance_heretic = 5
+   tolerance_heathen = 5
+}
+
+russian_trade_reform = {
+   trade_range_modifier = 0.5
+   trade_steering = 0.25
+   trade_efficiency = 0.15
+}
+   
+
+  
+   

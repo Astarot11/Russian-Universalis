@@ -1,0 +1,27 @@
+#1207 - Ogaden
+
+culture = somali
+religion = sunni
+capital = "Bale"
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9 
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+discovered_by = ETH	### STT
+discovered_by = ADA	### STT
+discovered_by = NUB	### STT
+discovered_by = ZAN	### STT
+discovered_by = AJU	### STT
+discovered_by = MBA	### STT
+discovered_by = MDI	### STT
+discovered_by = MLI	### STT
+discovered_by = SFA	### STT
+discovered_by = ZIM	### STT
+discovered_by = east_african
+
+
+1550.1.1 = { discovered_by = TUR }

@@ -1,0 +1,48 @@
+# 2190 - Qaraqorum
+
+owner = YUA			### STT
+controller = YUA	### STT
+add_core = YUA		### STT
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Qaraqorum"
+trade_goods = cloth
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group 
+center_of_trade = 1 
+
+1310.1.1 = { owner = KHA controller = KHA remove_core = KHA add_core = KHA }
+1310.1.2 = { owner = YUA controller = YUA add_core = YUA }#Multiplayer balans
+1368.1.1 = {	### STT
+	owner = KHA
+	controller = KHA
+	add_core = KHA
+}
+1444.1.1 = {			### STT
+	owner = OIR
+	controller = OIR
+	add_core = OIR
+} # Mark?rgis Khan of the Gold Family rises to power after Esen's death.
+1635.4.1 = {
+	owner = KLK
+	controller = KLK
+	add_core = KLK
+}
+1688.1.1 = {
+	owner = ZUN
+	controller = ZUN
+}
+1697.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Outer Mongolia intergrated into Qing
+1709.1.1 = { discovered_by = SPA }

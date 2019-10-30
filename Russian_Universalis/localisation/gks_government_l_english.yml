@@ -1,0 +1,472 @@
+﻿l_english:
+ ###На вопрос в чем?
+ UNITED_PROVINCES_GDE:0 "cîåäèí¸ííûõ ïðîâèíöèÿõ" #GetGovernmentGDE
+ FEDERAL_KINGDOM_GDE:0 "ôåäåðàëüíîì êîðîëåâñòâå" #GetGovernmentGDE
+ FEDERAL_EMPIRE_GDE:0 "ôåäåðàëüíîé èìïåðèè" #GetGovernmentGDE
+ REPUBLIC_GDE:0 "ðåñïóáëèêå" #GetGovernmentGDE
+ GREAT_REPUBLIC_GDE:0 "âåëèêîé ðåñïóáëèêå" #GetGovernmentGDE
+ DUCHY_GDE:0 "ãåðöîãñòâå" #GetGovernmentGDE
+ KINGDOM_GDE:0 "êîðîëåâñòâå" #GetGovernmentGDE
+ EMPIRE_GDE:0 "èìïåðèè" #GetGovernmentGDE
+ EARLDOM_GDE:0 "ýðëñòâå" #GetGovernmentGDE
+ DAIMYO_GDE:0 "äàéì¸" #GetGovernmentGDE
+ KHANATE_GDE:0 "õàíñòâå" #GetGovernmentGDE
+ PRINCEDOM_GDE:0 "êíÿæåñòâå" #GetGovernmentGDE
+ GRAND_DUCHY_GDE:0 "âåëèêîì êíÿæåñòâå" #GetGovernmentGDE
+ ARCHDUCHY_GDE:0 "ýðöãåðöîãñòâå" #GetGovernmentGDE
+ LORDSHIP_GDE:0 "âëàäåíèè" #GetGovernmentGDE
+ MARCH_GDE:0 "ìàðêå" #GetGovernmentGDE
+ VICEROYALTY_GDE:0 "âèöå-êîðîëåâñòâå" #GetGovernmentGDE
+ IMAMATE_GDE:0 "èìàìàòå" #GetGovernmentGDE
+ GREAT_IMAMATE_GDE:0 "âåëèêîì èìàìàòå" #GetGovernmentGDE
+ EMIRATE_GDE:0 "ýìèðàòå" #GetGovernmentGDE
+ SULTANATE_GDE:0 "ñóëòàíàòå" #GetGovernmentGDE
+ MALIKATE_GDE:0 "ìàëèêàòå" #GetGovernmentGDE
+ SHEIKHDOM_GDE:0 "øåéõñòâå" #GetGovernmentGDE
+ SHAHDOM_GDE:0 "øàõñòâå" #GetGovernmentGDE
+ BEYLIK_GDE:0 "áåéëèêå" #GetGovernmentGDE
+ DESPOTATE_GDE:0 "äåñïîòàòå" #GetGovernmentGDE
+ NAWABATE_GDE:0 "íàâàáàòå" #GetGovernmentGDE
+ NIZAMATE_GDE:0 "íèçàìàòå" #GetGovernmentGDE
+ MONG_GDE:0 "ìîíãå" #GetGovernmentGDE
+ GRAND_PRINCIPALITY_GDE:0 "âåëèêîì êíÿæåñòâå" #GetGovernmentGDE
+ ALTEPETL_GDE:0 "àëüòåïåòëå" #GetGovernmentGDE
+ ALTEPETL_FEDERATION_GDE:0 "àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentGDE
+ BISHOPRIC_GDE:0 "åïèñêîïñòâå" #GetGovernmentGDE
+ ARCHBISHOPRIC_GDE:0 "àðõèåïèñêîïñòâå" #GetGovernmentGDE
+ PATRIARCHATE_GDE:0 "ïàòðèàðõàòå" #GetGovernmentGDE
+ DESPOTISM_GDE:0 "äåñïîòèè" #GetGovernmentGDE
+ DICTATORSHIP_GDE:0 "äèêòàòóðå" #GetGovernmentGDE
+ PRESIDENTIAL_DICTATORSHIP_GDE:0 "ïðåçèäåíòñêîé äèêòàòóðå" #GetGovernmentGDE
+ METROPOLIS_GDE:0 "ìèòðîïîëèè" #GetGovernmentGDE
+ GREAT_METROPOLIS_GDE:0 "âåëèêîé ìèòðîïîëèè" #GetGovernmentGDE
+ HORDE_GDE:0 "îðäå" #GetGovernmentGDE
+ KHAGANATE_GDE:0 "êàãàíàòå" #GetGovernmentGDE
+ CHIEFDOM_GDE:0 "âîæäåñòâå" #GetGovernmentGDE
+ TRIBAL_KINGDOM_GDE:0 "ïëåìåííîì êîðîëåâñòâå" #GetGovernmentGDE
+ TRIBAL_EMPIRE_GDE:0 "ïëåìåííîé èìïåðèè" #GetGovernmentGDE
+ GRAND_CHIEFDOM_GDE:0 "âåðõîâíîì âîæäåñòâå" #GetGovernmentGDE
+ GREAT_CHIEFDOM_GDE:0 "âåëèêîì âîæäåñòâå" #GetGovernmentGDE
+ HOLY_STATE_GDE:0 "öåðêîâíîì ãîñóäàðñòâå" #GetGovernmentGDE
+ HIGH_IMAMATE_GDE:0 "âåðõîâíîì èìàìàòå" #GetGovernmentGDE
+ HOLY_EMPIRE_GDE:0 "òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentGDE
+ GREAT_EMIRATE_GDE:0 "âåëèêîì ýìèðàòå" #GetGovernmentGDE
+ PASHALIK_GDE:0 "ýÿëåòå" #GetGovernmentGDE
+ SOGN_GDE:0 "ñîãíå" #GetGovernmentGDE
+ HERRED_GDE:0 "ñîòíå" #GetGovernmentGDE
+ BONDEVALDE_GDE:0 "áîíäåâåëüäå" #GetGovernmentGDE
+ MISL_GDE:0 "ìèñàëå" #GetGovernmentGDE
+ CONFEDERATION_GDE:0 "êîíôåäåðàöèè" #GetGovernmentGDE
+ TRIBE_GDE:0 "ïëåìåíè" #GetGovernmentGDE
+ HOLY_PRINCIPALITY_GDE:0 "öåðêîâíîì êíÿæåñòâå" #GetGovernmentGDE
+ TSARDOM_GDE:0 "öàðñòâå" #GetGovernmentGDE
+ GRAND_PRINCEDOM_GDE:0 "âåëèêîì êíÿæåñòâå" #GetGovernmentGDE
+ GREAT_PRINCEDOM_GDE:0 "ñâåòëåéøåì êíÿæåñòâå" #GetGovernmentGDE
+ MONASTIC_ORDER_GDE:0 "âîåííî-ìîíàøåñêîì îðäåíå" #GetGovernmentGDE
+ GRAND_REPUBLIC_GDE:0 "âåëèêîé ðåñïóáëèêå" #GetGovernmentGDE
+ FEDERAL_REPUBLIC_GDE:0 "ôåäåðàëüíîé ðåñïóáëèêå" #GetGovernmentGDE
+ CAH_GDE:0 "êàõå" #GetGovernmentGDE
+ KUCHKABAL_GDE:0 "êó÷êàáàëå" #GetGovernmentGDE
+ GREAT_LEAGUE_GDE:0 "âåëèêîé ëèãå" #GetGovernmentGDE
+ PAPACY_GDE:0 "ïàïñòâå" #GetGovernmentGDE
+ COLONY_GDE:0 "êîëîíèè" #GetGovernmentGDE
+ SHOGUNATE_GDE:0 "ñ¸ãóíàòå" #GetGovernmentGDE
+ INDEP_DAIMYO_GDE:0 "íåçàâèñèìîì äàéì¸" #GetGovernmentGDE
+ GRAND_INDEP_DAIMYO_GDE:0 "ãëàâíîì äàéì¸" #GetGovernmentGDE
+ GREAT_INDEP_DAIMYO_GDE:0 "âåëèêîì äàéì¸" #GetGovernmentGDE
+ HETMANATE_GDE:0 "ãåòìàíùèíå" #GetGovernmentGDE
+ GRAND_HETMANATE_GDE:0 "áîëüøîé ãåòìàíùèíå" #GetGovernmentGDE
+ GREAT_HETMANATE_GDE:0 "âåëèêîì ãåòìàíàòå" #GetGovernmentGDE
+ SHARIFATE_GDE:0 "øàðèôàòå" #GetGovernmentGDE
+ GREAT_SHARIFATE_GDE:0 "âåëèêîì øàðèôàòå" #GetGovernmentGDE
+ GRAND_SHARIFATE_GDE:0 "âûñøåì øàðèôàòå" #GetGovernmentGDE
+ BARANGAY_GDE:0 "áàðàíãàå" #GetGovernmentGDE
+ GRAND_BARANGAY_GDE:0 "áîëüøîì áàðàíãàå" #GetGovernmentGDE
+ GREAT_BARANGAY_GDE:0 "âåëèêîì áàðàíãàå" #GetGovernmentGDE
+ PARLIAMENT_OF_HEAVEN_GDE:0 "ïàðëàìåíòå Íåáåñ" #GetGovernmentGDE
+ REVOLUTIONARY_PEASANT_REPUBLIC_GDE:0 "êðåñòüÿíñêîé õóíòå" #GetGovernmentGDE
+ FREE_CITY_GDE:0 "âîëüíîì ãîðîäå" #GetGovernmentGDE
+ SERENE_REPUBLIC_GDE:0 "câåòëåéøåé ðåñïóáëèêå" #GetGovernmentGDE
+ ###На вопрос кому?
+ UNITED_PROVINCES_OMU:0 "cîåäèí¸ííûì ïðîâèíöèÿì" #GetGovernmentOMU
+ FEDERAL_KINGDOM_OMU:0 "ôåäåðàëüíîìó êîðîëåâñòâó" #GetGovernmentOMU
+ FEDERAL_EMPIRE_OMU:0 "ôåäåðàëüíîé èìïåðèè" #GetGovernmentOMU
+ REPUBLIC_OMU:0 "ðåñïóáëèêå" #GetGovernmentOMU
+ GREAT_REPUBLIC_OMU:0 "âåëèêîé ðåñïóáëèêå" #GetGovernmentOMU
+ DUCHY_OMU:0 "ãåðöîãñòâó" #GetGovernmentOMU
+ KINGDOM_OMU:0 "êîðîëåâñòâó" #GetGovernmentOMU
+ EMPIRE_OMU:0 "èìïåðèè" #GetGovernmentOMU
+ EARLDOM_OMU:0 "ýðëñòâó" #GetGovernmentOMU
+ DAIMYO_OMU:0 "äàéì¸" #GetGovernmentOMU
+ KHANATE_OMU:0 "õàíñòâó" #GetGovernmentOMU
+ PRINCEDOM_OMU:0 "êíÿæåñòâó" #GetGovernmentOMU
+ GRAND_DUCHY_OMU:0 "âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU
+ ARCHDUCHY_OMU:0 "ýðöãåðöîãñòâó" #GetGovernmentOMU
+ LORDSHIP_OMU:0 "âëàäåíèþ" #GetGovernmentOMU
+ MARCH_OMU:0 "ìàðêå" #GetGovernmentOMU
+ VICEROYALTY_OMU:0 "âèöå-êîðîëåâñòâó" #GetGovernmentOMU
+ IMAMATE_OMU:0 "èìàìàòó" #GetGovernmentOMU
+ GREAT_IMAMATE_OMU:0 "âåëèêîìó èìàìàòó" #GetGovernmentOMU
+ EMIRATE_OMU:0 "ýìèðàòó" #GetGovernmentOMU
+ SULTANATE_OMU:0 "ñóëòàíàòó" #GetGovernmentOMU
+ MALIKATE_OMU:0 "ìàëèêàòó" #GetGovernmentOMU
+ SHEIKHDOM_OMU:0 "øåéõñòâó" #GetGovernmentOMU
+ SHAHDOM_OMU:0 "øàõñòâó" #GetGovernmentOMU
+ BEYLIK_OMU:0 "áåéëèêó" #GetGovernmentOMU
+ DESPOTATE_OMU:0 "äåñïîòàòó" #GetGovernmentOMU
+ NAWABATE_OMU:0 "íàâàáàòó" #GetGovernmentOMU
+ NIZAMATE_OMU:0 "íèçàìàòó" #GetGovernmentOMU
+ MONG_OMU:0 "ìîíãó" #GetGovernmentOMU
+ GRAND_PRINCIPALITY_OMU:0 "âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU
+ ALTEPETL_OMU:0 "àëüòåïåòëþ" #GetGovernmentOMU
+ ALTEPETL_FEDERATION_OMU:0 "àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentOMU
+ BISHOPRIC_OMU:0 "åïèñêîïñòâó" #GetGovernmentOMU
+ ARCHBISHOPRIC_OMU:0 "àðõèåïèñêîïñòâó" #GetGovernmentOMU
+ PATRIARCHATE_OMU:0 "ïàòðèàðõàòó" #GetGovernmentOMU
+ DESPOTISM_OMU:0 "äåñïîòèè" #GetGovernmentOMU
+ DICTATORSHIP_OMU:0 "äèêòàòóðå" #GetGovernmentOMU
+ PRESIDENTIAL_DICTATORSHIP_OMU:0 "ïðåçèäåíòñêîé äèêòàòóðå" #GetGovernmentOMU
+ METROPOLIS_OMU:0 "ìèòðîïîëèè" #GetGovernmentOMU
+ GREAT_METROPOLIS_OMU:0 "âåëèêîé ìèòðîïîëèè" #GetGovernmentOMU
+ HORDE_OMU:0 "îðäå" #GetGovernmentOMU
+ KHAGANATE_OMU:0 "êàãàíàòó" #GetGovernmentOMU
+ CHIEFDOM_OMU:0 "âîæäåñòâó" #GetGovernmentOMU
+ TRIBAL_KINGDOM_OMU:0 "ïëåìåííîìó êîðîëåâñòâó" #GetGovernmentOMU
+ TRIBAL_EMPIRE_OMU:0 "ïëåìåííîé èìïåðèè" #GetGovernmentOMU
+ GRAND_CHIEFDOM_OMU:0 "âåðõîâíîìó âîæäåñòâó" #GetGovernmentOMU
+ GREAT_CHIEFDOM_OMU:0 "âåëèêîìó âîæäåñòâó" #GetGovernmentOMU
+ HOLY_STATE_OMU:0 "öåðêîâíîìó ãîñóäàðñòâó" #GetGovernmentOMU
+ HIGH_IMAMATE_OMU:0 "âåðõîâíîìó èìàìàòó" #GetGovernmentOMU
+ HOLY_EMPIRE_OMU:0 "òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentOMU
+ GREAT_EMIRATE_OMU:0 "âåëèêîìó ýìèðàòó" #GetGovernmentOMU
+ PASHALIK_OMU:0 "ýÿëåòó" #GetGovernmentOMU
+ SOGN_OMU:0 "ñîãíó" #GetGovernmentOMU
+ HERRED_OMU:0 "ñîòíó" #GetGovernmentOMU
+ BONDEVALDE_OMU:0 "áîíäåâåëüäó" #GetGovernmentOMU
+ MISL_OMU:0 "ìèñàëþ" #GetGovernmentOMU
+ CONFEDERATION_OMU:0 "êîíôåäåðàöèè" #GetGovernmentOMU
+ TRIBE_OMU:0 "ïëåìåíè" #GetGovernmentOMU
+ HOLY_PRINCIPALITY_OMU:0 "öåðêîâíîìó êíÿæåñòâó" #GetGovernmentOMU
+ TSARDOM_OMU:0 "öàðñòâó" #GetGovernmentOMU
+ GRAND_PRINCEDOM_OMU:0 "âåëèêîìó êíÿæåñòâó" #GetGovernmentOMU
+ GREAT_PRINCEDOM_OMU:0 "ñâåòëåéøåìó êíÿæåñòâó" #GetGovernmentOMU
+ MONASTIC_ORDER_OMU:0 "âîåííî-ìîíàøåñêîìó îðäåíó" #GetGovernmentOMU
+ GRAND_REPUBLIC_OMU:0 "âåëèêîé ðåñïóáëèêå" #GetGovernmentOMU
+ FEDERAL_REPUBLIC_OMU:0 "ôåäåðàëüíîé ðåñïóáëèêå" #GetGovernmentOMU
+ CAH_OMU:0 "êàõå" #GetGovernmentOMU
+ KUCHKABAL_OMU:0 "êó÷êàáàëå" #GetGovernmentOMU
+ GREAT_LEAGUE_OMU:0 "âåëèêîé ëèãå" #GetGovernmentOMU
+ PAPACY_OMU:0 "ïàïñòâó" #GetGovernmentOMU
+ COLONY_OMU:0 "êîëîíèè" #GetGovernmentOMU
+ SHOGUNATE_OMU:0 "ñ¸ãóíàòó" #GetGovernmentOMU
+ INDEP_DAIMYO_OMU:0 "íåçàâèñèìîìó äàéì¸" #GetGovernmentOMU
+ GRAND_INDEP_DAIMYO_OMU:0 "ãëàâíîìó äàéì¸" #GetGovernmentOMU
+ GREAT_INDEP_DAIMYO_OMU:0 "âåëèêîìó äàéì¸" #GetGovernmentOMU
+ HETMANATE_OMU:0 "ãåòìàíùèíå" #GetGovernmentOMU
+ GRAND_HETMANATE_OMU:0 "áîëüøîé ãåòìàíùèíå" #GetGovernmentOMU
+ GREAT_HETMANATE_OMU:0 "âåëèêîìó ãåòìàíàòó" #GetGovernmentOMU
+ SHARIFATE_OMU:0 "øàðèôàòó" #GetGovernmentOMU
+ GREAT_SHARIFATE_OMU:0 "âåëèêîìó øàðèôàòó" #GetGovernmentOMU
+ GRAND_SHARIFATE_OMU:0 "âûñøåìó øàðèôàòó" #GetGovernmentOMU
+ BARANGAY_OMU:0 "áàðàíãàþ" #GetGovernmentOMU
+ GRAND_BARANGAY_OMU:0 "áîëüøîìó áàðàíãàþ" #GetGovernmentOMU
+ GREAT_BARANGAY_OMU:0 "âåëèêîìó áàðàíãàþ" #GetGovernmentOMU
+ PARLIAMENT_OF_HEAVEN_OMU:0 "ïàðëàìåíòó Íåáåñ" #GetGovernmentOMU
+ REVOLUTIONARY_PEASANT_REPUBLIC_OMU:0 "êðåñòüÿíñêîé õóíòå" #GetGovernmentOMU
+ FREE_CITY_OMU:0 "âîëüíîìó ãîðîäó" #GetGovernmentOMU
+ SERENE_REPUBLIC_OMU:0 "câåòëåéøåé ðåñïóáëèêå" #GetGovernmentOMU
+ ###На вопрос нет кого?
+ UNITED_PROVINCES_OGO:0 "cîåäèí¸ííûõ ïðîâèíöèé" #GetGovernmentOGO
+ FEDERAL_KINGDOM_OGO:0 "ôåäåðàëüíîãî êîðîëåâñòâà" #GetGovernmentOGO
+ FEDERAL_EMPIRE_OGO:0 "ôåäåðàëüíîé èìïåðèè" #GetGovernmentOGO
+ REPUBLIC_OGO:0 "ðåñïóáëèêè" #GetGovernmentOGO
+ GREAT_REPUBLIC_OGO:0 "âåëèêîé ðåñïóáëèêè" #GetGovernmentOGO
+ DUCHY_OGO:0 "ãåðöîãñòâà" #GetGovernmentOGO
+ KINGDOM_OGO:0 "êîðîëåâñòâà" #GetGovernmentOGO
+ EMPIRE_OGO:0 "èìïåðèè" #GetGovernmentOGO
+ EARLDOM_OGO:0 "ýðëñòâà" #GetGovernmentOGO
+ DAIMYO_OGO:0 "äàéì¸" #GetGovernmentOGO
+ KHANATE_OGO:0 "õàíñòâà" #GetGovernmentOGO
+ PRINCEDOM_OGO:0 "êíÿæåñòâà" #GetGovernmentOGO
+ GRAND_DUCHY_OGO:0 "âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO
+ ARCHDUCHY_OGO:0 "ýðöãåðöîãñòâà" #GetGovernmentOGO
+ LORDSHIP_OGO:0 "âëàäåíèÿ" #GetGovernmentOGO
+ MARCH_OGO:0 "ìàðêè" #GetGovernmentOGO
+ VICEROYALTY_OGO:0 "âèöå-êîðîëåâñòâà" #GetGovernmentOGO
+ IMAMATE_OGO:0 "èìàìàòà" #GetGovernmentOGO
+ GREAT_IMAMATE_OGO:0 "âåëèêîãî èìàìàòà" #GetGovernmentOGO
+ EMIRATE_OGO:0 "ýìèðàòà" #GetGovernmentOGO
+ SULTANATE_OGO:0 "ñóëòàíàòà" #GetGovernmentOGO
+ MALIKATE_OGO:0 "ìàëèêàòà" #GetGovernmentOGO
+ SHEIKHDOM_OGO:0 "øåéõñòâà" #GetGovernmentOGO
+ SHAHDOM_OGO:0 "øàõñòâà" #GetGovernmentOGO
+ BEYLIK_OGO:0 "áåéëèêà" #GetGovernmentOGO
+ DESPOTATE_OGO:0 "äåñïîòàòà" #GetGovernmentOGO
+ NAWABATE_OGO:0 "íàâàáàòà" #GetGovernmentOGO
+ NIZAMATE_OGO:0 "íèçàìàòà" #GetGovernmentOGO
+ MONG_OGO:0 "ìîíãà" #GetGovernmentOGO
+ GRAND_PRINCIPALITY_OGO:0 "âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO
+ ALTEPETL_OGO:0 "àëüòåïåòëè" #GetGovernmentOGO
+ ALTEPETL_FEDERATION_OGO:0 "àëüòåïåòëüñêîé ôåäåðàöèè" #GetGovernmentOGO
+ BISHOPRIC_OGO:0 "åïèñêîïñòâà" #GetGovernmentOGO
+ ARCHBISHOPRIC_OGO:0 "àðõèåïèñêîïñòâà" #GetGovernmentOGO
+ PATRIARCHATE_OGO:0 "ïàòðèàðõàòà" #GetGovernmentOGO
+ DESPOTISM_OGO:0 "äåñïîòèè" #GetGovernmentOGO
+ DICTATORSHIP_OGO:0 "äèêòàòóðû" #GetGovernmentOGO
+ PRESIDENTIAL_DICTATORSHIP_OGO:0 "ïðåçèäåíòñêîé äèêòàòóðû" #GetGovernmentOGO
+ METROPOLIS_OGO:0 "ìèòðîïîëèè" #GetGovernmentOGO
+ GREAT_METROPOLIS_OGO:0 "âåëèêîé ìèòðîïîëèè" #GetGovernmentOGO
+ HORDE_OGO:0 "îðäû" #GetGovernmentOGO
+ KHAGANATE_OGO:0 "êàãàíàòà" #GetGovernmentOGO
+ CHIEFDOM_OGO:0 "âîæäåñòâà" #GetGovernmentOGO
+ TRIBAL_KINGDOM_OGO:0 "ïëåìåííîãî êîðîëåâñòâà" #GetGovernmentOGO
+ TRIBAL_EMPIRE_OGO:0 "ïëåìåííîé èìïåðèè" #GetGovernmentOGO
+ GRAND_CHIEFDOM_OGO:0 "âåðõîâíîãî âîæäåñòâà" #GetGovernmentOGO
+ GREAT_CHIEFDOM_OGO:0 "âåëèêîãî âîæäåñòâà" #GetGovernmentOGO
+ HOLY_STATE_OGO:0 "öåðêîâíîãî ãîñóäàðñòâà" #GetGovernmentOGO
+ HIGH_IMAMATE_OGO:0 "âåðõîâíîãî èìàìàòà" #GetGovernmentOGO
+ HOLY_EMPIRE_OGO:0 "òåîêðàòè÷åñêîé èìïåðèè" #GetGovernmentOGO
+ GREAT_EMIRATE_OGO:0 "âåëèêîãî ýìèðàòà" #GetGovernmentOGO
+ PASHALIK_OGO:0 "ýÿëåòà" #GetGovernmentOGO
+ SOGN_OGO:0 "ñîãíà" #GetGovernmentOGO
+ HERRED_OGO:0 "ñîòíè" #GetGovernmentOGO
+ BONDEVALDE_OGO:0 "áîíäåâåëüäà" #GetGovernmentOGO
+ MISL_OGO:0 "ìèñàëÿ" #GetGovernmentOGO
+ CONFEDERATION_OGO:0 "êîíôåäåðàöèè" #GetGovernmentOGO
+ TRIBE_OGO:0 "ïëåìåíè" #GetGovernmentOGO
+ HOLY_PRINCIPALITY_OGO:0 "öåðêîâíîãî êíÿæåñòâà" #GetGovernmentOGO
+ TSARDOM_OGO:0 "öàðñòâà" #GetGovernmentOGO
+ GRAND_PRINCEDOM_OGO:0 "âåëèêîãî êíÿæåñòâà" #GetGovernmentOGO
+ GREAT_PRINCEDOM_OGO:0 "ñâåòëåéøåãî êíÿæåñòâà" #GetGovernmentOGO
+ MONASTIC_ORDER_OGO:0 "âîåííî-ìîíàøåñêîãî îðäåíà" #GetGovernmentOGO
+ GRAND_REPUBLIC_OGO:0 "âåëèêîé ðåñïóáëèêè" #GetGovernmentOGO
+ FEDERAL_REPUBLIC_OGO:0 "ôåäåðàëüíîé ðåñïóáëèêè" #GetGovernmentOGO
+ CAH_OGO:0 "êàõè" #GetGovernmentOGO
+ KUCHKABAL_OGO:0 "êó÷êàáàëè" #GetGovernmentOGO
+ GREAT_LEAGUE_OGO:0 "âåëèêîé ëèãè" #GetGovernmentOGO
+ PAPACY_OGO:0 "ïàïñòâà" #GetGovernmentOGO
+ COLONY_OGO:0 "êîëîíèè" #GetGovernmentOGO
+ SHOGUNATE_OGO:0 "ñ¸ãóíàòà" #GetGovernmentOGO
+ INDEP_DAIMYO_OGO:0 "íåçàâèñèìîãî äàéì¸" #GetGovernmentOGO
+ GRAND_INDEP_DAIMYO_OGO:0 "ãëàâíîãî äàéì¸" #GetGovernmentOGO
+ GREAT_INDEP_DAIMYO_OGO:0 "âåëèêîãî äàéì¸" #GetGovernmentOGO
+ HETMANATE_OGO:0 "ãåòìàíùèíû" #GetGovernmentOGO
+ GRAND_HETMANATE_OGO:0 "áîëüøîé ãåòìàíùèíû" #GetGovernmentOGO
+ GREAT_HETMANATE_OGO:0 "âåëèêîãî ãåòìàíàòà" #GetGovernmentOGO
+ SHARIFATE_OGO:0 "øàðèôàòà" #GetGovernmentOGO
+ GREAT_SHARIFATE_OGO:0 "âåëèêîãî øàðèôàòà" #GetGovernmentOGO
+ GRAND_SHARIFATE_OGO:0 "âûñøåãî øàðèôàòà" #GetGovernmentOGO
+ BARANGAY_OGO:0 "áàðàíãàÿ" #GetGovernmentOGO
+ GRAND_BARANGAY_OGO:0 "áîëüøîãî áàðàíãàÿ" #GetGovernmentOGO
+ GREAT_BARANGAY_OGO:0 "âåëèêîãî áàðàíãàÿ" #GetGovernmentOGO
+ PARLIAMENT_OF_HEAVEN_OGO:0 "ïàðëàìåíòà Íåáåñ" #GetGovernmentOGO
+ REVOLUTIONARY_PEASANT_REPUBLIC_OGO:0 "êðåñòüÿíñêîé õóíòû" #GetGovernmentOGO
+ FREE_CITY_OGO:0 "âîëüíîãî ãîðîäà" #GetGovernmentOGO
+ SERENE_REPUBLIC_OGO:0 "câåòëåéøåé ðåñïóáëèêè" #GetGovernmentOGO
+ ###На вопрос вижу что?
+ UNITED_PROVINCES_CHTO:0 "cîåäèí¸ííûå ïðîâèíöèè" #GetGovernmentCHTO
+ FEDERAL_KINGDOM_CHTO:0 "ôåäåðàëüíîå êîðîëåâñòâî" #GetGovernmentCHTO
+ FEDERAL_EMPIRE_CHTO:0 "ôåäåðàëüíóþ èìïåðèþ" #GetGovernmentCHTO
+ REPUBLIC_CHTO:0 "ðåñïóáëèêó" #GetGovernmentCHTO
+ GREAT_REPUBLIC_CHTO:0 "âåëèêóþ ðåñïóáëèêó" #GetGovernmentCHTO
+ DUCHY_CHTO:0 "ãåðöîãñòâî" #GetGovernmentCHTO
+ KINGDOM_CHTO:0 "êîðîëåâñòâî" #GetGovernmentCHTO
+ EMPIRE_CHTO:0 "èìïåðèþ" #GetGovernmentCHTO
+ EARLDOM_CHTO:0 "ýðëñòâî" #GetGovernmentCHTO
+ DAIMYO_CHTO:0 "äàéì¸" #GetGovernmentCHTO
+ KHANATE_CHTO:0 "õàíñòâî" #GetGovernmentCHTO
+ PRINCEDOM_CHTO:0 "êíÿæåñòâî" #GetGovernmentCHTO
+ GRAND_DUCHY_CHTO:0 "âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO
+ ARCHDUCHY_CHTO:0 "ýðöãåðöîãñòâî" #GetGovernmentCHTO
+ LORDSHIP_CHTO:0 "âëàäåíèå" #GetGovernmentCHTO
+ MARCH_CHTO:0 "ìàðêó" #GetGovernmentCHTO
+ VICEROYALTY_CHTO:0 "âèöå-êîðîëåâñòâî" #GetGovernmentCHTO
+ IMAMATE_CHTO:0 "èìàìàò" #GetGovernmentCHTO
+ GREAT_IMAMATE_CHTO:0 "âåëèêèé èìàìàò" #GetGovernmentCHTO
+ EMIRATE_CHTO:0 "ýìèðàò" #GetGovernmentCHTO
+ SULTANATE_CHTO:0 "ñóëòàíàò" #GetGovernmentCHTO
+ MALIKATE_CHTO:0 "ìàëèêàò" #GetGovernmentCHTO
+ SHEIKHDOM_CHTO:0 "øåéõñòâî" #GetGovernmentCHTO
+ SHAHDOM_CHTO:0 "øàõñòâî" #GetGovernmentCHTO
+ BEYLIK_CHTO:0 "áåéëèê" #GetGovernmentCHTO
+ DESPOTATE_CHTO:0 "äåñïîòàò" #GetGovernmentCHTO
+ NAWABATE_CHTO:0 "íàâàáàò" #GetGovernmentCHTO
+ NIZAMATE_CHTO:0 "íèçàìàò" #GetGovernmentCHTO
+ MONG_CHTO:0 "ìîíã" #GetGovernmentCHTO
+ GRAND_PRINCIPALITY_CHTO:0 "âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO
+ ALTEPETL_CHTO:0 "àëüòåïåòëü" #GetGovernmentCHTO
+ ALTEPETL_FEDERATION_CHTO:0 "àëüòåïåòëüñêóþ ôåäåðàöèþ" #GetGovernmentCHTO
+ BISHOPRIC_CHTO:0 "åïèñêîïñòâî" #GetGovernmentCHTO
+ ARCHBISHOPRIC_CHTO:0 "àðõèåïèñêîïñòâî" #GetGovernmentCHTO
+ PATRIARCHATE_CHTO:0 "ïàòðèàðõàò" #GetGovernmentCHTO
+ DESPOTISM_CHTO:0 "äåñïîòèþ" #GetGovernmentCHTO
+ DICTATORSHIP_CHTO:0 "äèêòàòóðó" #GetGovernmentCHTO
+ PRESIDENTIAL_DICTATORSHIP_CHTO:0 "ïðåçèäåíòñêóþ äèêòàòóðó" #GetGovernmentCHTO
+ METROPOLIS_CHTO:0 "ìèòðîïîëèþ" #GetGovernmentCHTO
+ GREAT_METROPOLIS_CHTO:0 "âåëèêóþ ìèòðîïîëèþ" #GetGovernmentCHTO
+ HORDE_CHTO:0 "îðäó" #GetGovernmentCHTO
+ KHAGANATE_CHTO:0 "êàãàíàò" #GetGovernmentCHTO
+ CHIEFDOM_CHTO:0 "âîæäåñòâî" #GetGovernmentCHTO
+ TRIBAL_KINGDOM_CHTO:0 "ïëåìåííîå êîðîëåâñòâî" #GetGovernmentCHTO
+ TRIBAL_EMPIRE_CHTO:0 "ïëåìåííóþ èìïåðèþ" #GetGovernmentCHTO
+ GRAND_CHIEFDOM_CHTO:0 "âåðõîâíîå âîæäåñòâî" #GetGovernmentCHTO
+ GREAT_CHIEFDOM_CHTO:0 "âåëèêîå âîæäåñòâî" #GetGovernmentCHTO
+ HOLY_STATE_CHTO:0 "öåðêîâíîå ãîñóäàðñòâî" #GetGovernmentCHTO
+ HIGH_IMAMATE_CHTO:0 "âåðõîâíûé èìàìàò" #GetGovernmentCHTO
+ HOLY_EMPIRE_CHTO:0 "òåîêðàòè÷åñêóþ èìïåðèþ" #GetGovernmentCHTO
+ GREAT_EMIRATE_CHTO:0 "âåëèêèé ýìèðàò" #GetGovernmentCHTO
+ PASHALIK_CHTO:0 "ýÿëåò" #GetGovernmentCHTO
+ SOGN_CHTO:0 "ñîãí" #GetGovernmentCHTO
+ HERRED_CHTO:0 "ñîòíþ" #GetGovernmentCHTO
+ BONDEVALDE_CHTO:0 "áîíäåâåëüä" #GetGovernmentCHTO
+ MISL_CHTO:0 "ìèñàëü" #GetGovernmentCHTO
+ CONFEDERATION_CHTO:0 "êîíôåäåðàöèþ" #GetGovernmentCHTO
+ TRIBE_CHTO:0 "ïëåìÿ" #GetGovernmentCHTO
+ HOLY_PRINCIPALITY_CHTO:0 "öåðêîâíîå êíÿæåñòâî" #GetGovernmentCHTO
+ TSARDOM_CHTO:0 "öàðñòâî" #GetGovernmentCHTO
+ GRAND_PRINCEDOM_CHTO:0 "âåëèêîå êíÿæåñòâî" #GetGovernmentCHTO
+ GREAT_PRINCEDOM_CHTO:0 "ñâåòëåéøåå êíÿæåñòâî" #GetGovernmentCHTO
+ MONASTIC_ORDER_CHTO:0 "âîåííî-ìîíàøåñêèé îðäåí" #GetGovernmentCHTO
+ GRAND_REPUBLIC_CHTO:0 "âåëèêóþ ðåñïóáëèêó" #GetGovernmentCHTO
+ FEDERAL_REPUBLIC_CHTO:0 "ôåäåðàëüíóþ ðåñïóáëèêó" #GetGovernmentCHTO
+ CAH_CHTO:0 "êàõ" #GetGovernmentCHTO
+ KUCHKABAL_CHTO:0 "êó÷êàáàëü" #GetGovernmentCHTO
+ GREAT_LEAGUE_CHTO:0 "âåëèêóþ ëèãó" #GetGovernmentCHTO
+ PAPACY_CHTO:0 "ïàïñòâî" #GetGovernmentCHTO
+ COLONY_CHTO:0 "êîëîíèþ" #GetGovernmentCHTO
+ SHOGUNATE_CHTO:0 "ñ¸ãóíàò" #GetGovernmentCHTO
+ INDEP_DAIMYO_CHTO:0 "íåçàâèñèìîãî äàéì¸" #GetGovernmentCHTO
+ GRAND_INDEP_DAIMYO_CHTO:0 "ãëàâíîãî äàéì¸" #GetGovernmentCHTO
+ GREAT_INDEP_DAIMYO_CHTO:0 "âåëèêîãî äàéì¸" #GetGovernmentCHTO
+ HETMANATE_CHTO:0 "ãåòìàíùèíó" #GetGovernmentCHTO
+ GRAND_HETMANATE_CHTO:0 "áîëüøóþ ãåòìàíùèíó" #GetGovernmentCHTO
+ GREAT_HETMANATE_CHTO:0 "âåëèêèé ãåòìàíàò" #GetGovernmentCHTO
+ SHARIFATE_CHTO:0 "øàðèôàò" #GetGovernmentCHTO
+ GREAT_SHARIFATE_CHTO:0 "âåëèêèé øàðèôàò" #GetGovernmentCHTO
+ GRAND_SHARIFATE_CHTO:0 "âûñøèé øàðèôàò" #GetGovernmentCHTO
+ BARANGAY_CHTO:0 "áàðàíãàé" #GetGovernmentCHTO
+ GRAND_BARANGAY_CHTO:0 "áîëüøîé áàðàíãàé" #GetGovernmentCHTO
+ GREAT_BARANGAY_CHTO:0 "âåëèêîé áàðàíãàé" #GetGovernmentCHTO
+ PARLIAMENT_OF_HEAVEN_CHTO:0 "ïàðëàìåíò Íåáåñ" #GetGovernmentCHTO
+ REVOLUTIONARY_PEASANT_REPUBLIC_CHTO:0 "êðåñòüÿíñêóþ õóíòó" #GetGovernmentCHTO
+ FREE_CITY_CHTO:0 "âîëüíûé ãîðîä" #GetGovernmentCHTO
+ SERENE_REPUBLIC_CHTO:0 "câåòëåéøóþ ðåñïóáëèêó" #GetGovernmentCHTO
+ ###На вопрос кем?
+ UNITED_PROVINCES_KEM:0 "cîåäèí¸ííûìè ïðîâèíöèÿìè" #GetGovernmentKEM
+ FEDERAL_KINGDOM_KEM:0 "ôåäåðàëüíûì êîðîëåâñòâîì" #GetGovernmentKEM
+ FEDERAL_EMPIRE_KEM:0 "ôåäåðàëüíîé èìïåðèåé" #GetGovernmentKEM
+ REPUBLIC_KEM:0 "ðåñïóáëèêîé" #GetGovernmentKEM
+ GREAT_REPUBLIC_KEM:0 "âåëèêîé ðåñïóáëèêîé" #GetGovernmentKEM
+ DUCHY_KEM:0 "ãåðöîãñòâîì" #GetGovernmentKEM
+ KINGDOM_KEM:0 "êîðîëåâñòâîì" #GetGovernmentKEM
+ EMPIRE_KEM:0 "èìïåðèåé" #GetGovernmentKEM
+ EARLDOM_KEM:0 "ýðëñòâîì" #GetGovernmentKEM
+ DAIMYO_KEM:0 "äàéì¸" #GetGovernmentKEM
+ KHANATE_KEM:0 "õàíñòâîì" #GetGovernmentKEM
+ PRINCEDOM_KEM:0 "êíÿæåñòâîì" #GetGovernmentKEM
+ GRAND_DUCHY_KEM:0 "âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM
+ ARCHDUCHY_KEM:0 "ýðöãåðöîãñòâîì" #GetGovernmentKEM
+ LORDSHIP_KEM:0 "âëàäåíèåì" #GetGovernmentKEM
+ MARCH_KEM:0 "ìàðêîé" #GetGovernmentKEM
+ VICEROYALTY_KEM:0 "âèöå-êîðîëåâñòâîì" #GetGovernmentKEM
+ IMAMATE_KEM:0 "èìàìàòîì" #GetGovernmentKEM
+ GREAT_IMAMATE_KEM:0 "âåëèêèì èìàìàòîì" #GetGovernmentKEM
+ EMIRATE_KEM:0 "ýìèðàòîì" #GetGovernmentKEM
+ SULTANATE_KEM:0 "ñóëòàíàòîì" #GetGovernmentKEM
+ MALIKATE_KEM:0 "ìàëèêàòîì" #GetGovernmentKEM
+ SHEIKHDOM_KEM:0 "øåéõñòâîì" #GetGovernmentKEM
+ SHAHDOM_KEM:0 "øàõñòâîì" #GetGovernmentKEM
+ BEYLIK_KEM:0 "áåéëèêîì" #GetGovernmentKEM
+ DESPOTATE_KEM:0 "äåñïîòàòîì" #GetGovernmentKEM
+ NAWABATE_KEM:0 "íàâàáàòîì" #GetGovernmentKEM
+ NIZAMATE_KEM:0 "íèçàìàòîì" #GetGovernmentKEM
+ MONG_KEM:0 "ìîíãîì" #GetGovernmentKEM
+ GRAND_PRINCIPALITY_KEM:0 "âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM
+ ALTEPETL_KEM:0 "àëüòåïåòëåì" #GetGovernmentKEM
+ ALTEPETL_FEDERATION_KEM:0 "àëüòåïåòëüñêîé ôåäåðàöèåé" #GetGovernmentKEM
+ BISHOPRIC_KEM:0 "åïèñêîïñòâîì" #GetGovernmentKEM
+ ARCHBISHOPRIC_KEM:0 "àðõèåïèñêîïñòâîì" #GetGovernmentKEM
+ PATRIARCHATE_KEM:0 "ïàòðèàðõàòîì" #GetGovernmentKEM
+ DESPOTISM_KEM:0 "äåñïîòèåé" #GetGovernmentKEM
+ DICTATORSHIP_KEM:0 "äèêòàòóðîé" #GetGovernmentKEM
+ PRESIDENTIAL_DICTATORSHIP_KEM:0 "ïðåçèäåíòñêîé äèêòàòóðîé" #GetGovernmentKEM
+ METROPOLIS_KEM:0 "ìèòðîïîëèåé" #GetGovernmentKEM
+ GREAT_METROPOLIS_KEM:0 "âåëèêîé ìèòðîïîëèåé" #GetGovernmentKEM
+ HORDE_KEM:0 "îðäîé" #GetGovernmentKEM
+ KHAGANATE_KEM:0 "êàãàíàòîì" #GetGovernmentKEM
+ CHIEFDOM_KEM:0 "âîæäåñòâîì" #GetGovernmentKEM
+ TRIBAL_KINGDOM_KEM:0 "ïëåìåííûì êîðîëåâñòâîì" #GetGovernmentKEM
+ TRIBAL_EMPIRE_KEM:0 "ïëåìåííîé èìïåðèåé" #GetGovernmentKEM
+ GRAND_CHIEFDOM_KEM:0 "âåðõîâíûì âîæäåñòâîì" #GetGovernmentKEM
+ GREAT_CHIEFDOM_KEM:0 "âåëèêèì âîæäåñòâîì" #GetGovernmentKEM
+ HOLY_STATE_KEM:0 "öåðêîâíûì ãîñóäàðñòâîì" #GetGovernmentKEM
+ HIGH_IMAMATE_KEM:0 "âåðõîâíûì èìàìàòîì" #GetGovernmentKEM
+ HOLY_EMPIRE_KEM:0 "òåîêðàòè÷åñêîé èìïåðèåé" #GetGovernmentKEM
+ GREAT_EMIRATE_KEM:0 "âåëèêèì ýìèðàòîì" #GetGovernmentKEM
+ PASHALIK_KEM:0 "ýÿëåòîì" #GetGovernmentKEM
+ SOGN_KEM:0 "ñîãíîì" #GetGovernmentKEM
+ HERRED_KEM:0 "ñîòíåé" #GetGovernmentKEM
+ BONDEVALDE_KEM:0 "áîíäåâåëüäîì" #GetGovernmentKEM
+ MISL_KEM:0 "ìèñàëåì" #GetGovernmentKEM
+ CONFEDERATION_KEM:0 "êîíôåäåðàöèåé" #GetGovernmentKEM
+ TRIBE_KEM:0 "ïëåìåíåì" #GetGovernmentKEM
+ HOLY_PRINCIPALITY_KEM:0 "öåðêîâíûì êíÿæåñòâîì" #GetGovernmentKEM
+ TSARDOM_KEM:0 "öàðñòâîì" #GetGovernmentKEM
+ GRAND_PRINCEDOM_KEM:0 "âåëèêèì êíÿæåñòâîì" #GetGovernmentKEM
+ GREAT_PRINCEDOM_KEM:0 "ñâåòëåéøèì êíÿæåñòâîì" #GetGovernmentKEM
+ MONASTIC_ORDER_KEM:0 "âîåííî-ìîíàøåñêèì îðäåíîì" #GetGovernmentKEM
+ GRAND_REPUBLIC_KEM:0 "âåëèêîé ðåñïóáëèêîé" #GetGovernmentKEM
+ FEDERAL_REPUBLIC_KEM:0 "ôåäåðàëüíîé ðåñïóáëèêîé" #GetGovernmentKEM
+ CAH_KEM:0 "êàõîì" #GetGovernmentKEM
+ KUCHKABAL_KEM:0 "êó÷êàáàëåì" #GetGovernmentKEM
+ GREAT_LEAGUE_KEM:0 "âåëèêîé ëèãîé" #GetGovernmentKEM
+ PAPACY_KEM:0 "ïàïñòâîì" #GetGovernmentKEM
+ COLONY_KEM:0 "êîëîíèåé" #GetGovernmentKEM
+ SHOGUNATE_KEM:0 "ñ¸ãóíàòîì" #GetGovernmentKEM
+ INDEP_DAIMYO_KEM:0 "íåçàâèñèìûì äàéì¸" #GetGovernmentKEM
+ GRAND_INDEP_DAIMYO_KEM:0 "ãëàâíûì äàéì¸" #GetGovernmentKEM
+ GREAT_INDEP_DAIMYO_KEM:0 "âåëèêèì äàéì¸" #GetGovernmentKEM
+ HETMANATE_KEM:0 "ãåòìàíùèíîé" #GetGovernmentKEM
+ GRAND_HETMANATE_KEM:0 "áîëüøîé ãåòìàíùèíîé" #GetGovernmentKEM
+ GREAT_HETMANATE_KEM:0 "âåëèêèì ãåòìàíàòîì" #GetGovernmentKEM
+ SHARIFATE_KEM:0 "øàðèôàòîì" #GetGovernmentKEM
+ GREAT_SHARIFATE_KEM:0 "âåëèêèì øàðèôàòîì" #GetGovernmentKEM
+ GRAND_SHARIFATE_KEM:0 "âûñøèì øàðèôàòîì" #GetGovernmentKEM
+ BARANGAY_KEM:0 "áàðàíãàåì" #GetGovernmentKEM
+ GRAND_BARANGAY_KEM:0 "áîëüøèì áàðàíãàåì" #GetGovernmentKEM
+ GREAT_BARANGAY_KEM:0 "âåëèêèì áàðàíãàåì" #GetGovernmentKEM
+ PARLIAMENT_OF_HEAVEN_KEM:0 "ïàðëàìåíòîì Íåáåñ" #GetGovernmentKEM
+ REVOLUTIONARY_PEASANT_REPUBLIC_KEM:0 "êðåñòüÿíñêîé õóíòîé" #GetGovernmentKEM
+ FREE_CITY_KEM:0 "âîëüíûì ãîðîäîì" #GetGovernmentKEM
+ SERENE_REPUBLIC_KEM:0 "câåòëåéøåé ðåñïóáëèêîé" #GetGovernmentKEM
+ ###Версия 1.28
+ PIRATE_REPUBLIC_GDE:0 "ïèðàòñêîé ðåñïóáëèêå" #GetGovernmentGDE
+ PIRATE_CONFEDERACY_GDE:0 "ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentGDE
+ GRAND_PIRATE_CONFEDERACY_GDE:0 "áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentGDE
+ PIRATE_REPUBLIC_OMU:0 "ïèðàòñêîé ðåñïóáëèêå" #GetGovernmentOMU
+ PIRATE_CONFEDERACY_OMU:0 "ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOMU
+ GRAND_PIRATE_CONFEDERACY_OMU:0 "áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOMU
+ PIRATE_REPUBLIC_OGO:0 "ïèðàòñêîé ðåñïóáëèêè" #GetGovernmentOGO
+ PIRATE_CONFEDERACY_OGO:0 "ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOGO
+ GRAND_PIRATE_CONFEDERACY_OGO:0 "áîëüøîé ïèðàòñêîé êîíôåäåðàöèè" #GetGovernmentOGO
+ PIRATE_REPUBLIC_CHTO:0 "ïèðàòñêóþ ðåñïóáëèêó" #GetGovernmentCHTO
+ PIRATE_CONFEDERACY_CHTO:0 "ïèðàòñêóþ êîíôåäåðàöèþ" #GetGovernmentCHTO
+ GRAND_PIRATE_CONFEDERACY_CHTO:0 "áîëüøóþ ïèðàòñêóþ êîíôåäåðàöèþ" #GetGovernmentCHTO
+ PIRATE_REPUBLIC_KEM:0 "ïèðàòñêîé ðåñïóáëèêîé" #GetGovernmentKEM
+ PIRATE_CONFEDERACY_KEM:0 "ïèðàòñêîé êîíôåäåðàöèåé" #GetGovernmentKEM
+ GRAND_PIRATE_CONFEDERACY_KEM:0 "áîëüøîé ïèðàòñêîé êîíôåäåðàöèåé" #GetGovernmentKEM
+ PIRATE_PRINCIPALITY_GDE:0 "ïèðàòñêîì êíÿæåñòâå" #GetGovernmentGDE
+ PIRATE_KINGDOM_GDE:0 "êîðîëåâñòâå ïèðàòîâ" #GetGovernmentGDE
+ PIRATE_EMPIRE_GDE:0 "èìïåðèè ïèðàòîâ" #GetGovernmentGDE
+ PIRATE_PRINCIPALITY_OMU:0 "ïèðàòñêîìó êíÿæåñòâó" #GetGovernmentOMU
+ PIRATE_KINGDOM_OMU:0 "êîðîëåâñòâó ïèðàòîâ" #GetGovernmentOMU
+ PIRATE_EMPIRE_OMU:0 "èìïåðèè ïèðàòîâ" #GetGovernmentOMU
+ PIRATE_PRINCIPALITY_OGO:0 "ïèðàòñêîãî êíÿæåñòâà" #GetGovernmentOGO
+ PIRATE_KINGDOM_OGO:0 "êîðîëåâñòâà ïèðàòîâ" #GetGovernmentOGO
+ PIRATE_EMPIRE_OGO:0 "èìïåðèè ïèðàòîâ" #GetGovernmentOGO
+ PIRATE_PRINCIPALITY_CHTO:0 "ïèðàòñêîå êíÿæåñòâî" #GetGovernmentCHTO
+ PIRATE_KINGDOM_CHTO:0 "êîðîëåâñòâî ïèðàòîâ" #GetGovernmentCHTO
+ PIRATE_EMPIRE_CHTO:0 "èìïåðèþ ïèðàòîâ" #GetGovernmentCHTO
+ PIRATE_PRINCIPALITY_KEM:0 "ïèðàòñêèì êíÿæåñòâîì" #GetGovernmentKEM
+ PIRATE_KINGDOM_KEM:0 "êîðîëåâñòâîì ïèðàòîâ" #GetGovernmentKEM
+ PIRATE_EMPIRE_KEM:0 "èìïåðèåé ïèðàòîâ" #GetGovernmentKEM

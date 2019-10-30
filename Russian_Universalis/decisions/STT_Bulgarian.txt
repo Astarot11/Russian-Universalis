@@ -1,0 +1,21 @@
+country_decisions = {
+	bulgarian_empire = {
+	major = yes
+		potential = {
+			tag = BUL
+			religion = orthodox
+			primary_culture = bulgarian
+			NOT = { government_rank = 3 }
+		}
+		allow = {
+			adm_power = 100
+			stability = 1
+			is_free_or_tributary_trigger = yes
+			num_of_cities = 25
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 10
+		}
+	}
+}

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = sorbian
+religion = catholic
+capital = 60 # Lausitz
+government_rank = 1
+technology_group = western

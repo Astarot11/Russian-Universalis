@@ -1,0 +1,382 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_age_of_feudalism"
+		texturefile = "gfx/interface/ages/age_of_feudalism.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_5"
+		texturefile = "gfx/interface/ages/age_indicator_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_age_s"
+		texturefile = "gfx/interface/ages/icon_age_s.dds"
+		noOfFrames = 7
+	}	
+
+	spriteType = {
+		name = "GFX_icon_age_l"
+		texturefile = "gfx/interface/ages/icon_age_l.dds"
+		noOfFrames = 7
+	}	
+	spriteType = {
+		name = "GFX_icon_age_of_feudalism_g"
+		texturefile = "gfx/interface/ages/icon_age_of_feudalism_g.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_g"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_g.dds"
+	}
+	spriteType = {
+		name = "GFX_age_of_enlightenment"
+		texturefile = "gfx/interface/ages/age_of_enlightenment.tga"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_s"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_s.dds"
+	}	
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_l"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_l.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_industrialism_g"
+		texturefile = "gfx/interface/ages/icon_age_of_industrialism_g.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_revolutions_g"
+		texturefile = "gfx/interface/ages/icon_age_of_revolutions_g.dds"
+	}
+
+ # Age of Feudalism Objectives
+	spriteType = {
+		name = "GFX_obj_high_prestige"
+		texturefile = "gfx/interface/ages/obj_high_prestige.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_2_centers_of_trade"
+		texturefile = "gfx/interface/ages/obj_2_centers_of_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_20_development_city"
+		texturefile = "gfx/interface/ages/obj_20_development_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_papal_controller"
+		texturefile = "gfx/interface/ages/obj_papal_controller.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_one_union"
+		texturefile = "gfx/interface/ages/obj_one_union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_two_continents_f"
+		texturefile = "gfx/interface/ages/obj_two_continents_f.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_introduce_cannon"
+		texturefile = "gfx/interface/ages/obj_introduce_cannon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_royal_marriages"
+		texturefile = "gfx/interface/ages/obj_royal_marriages.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_obj_many_vassals_f"		
+		texturefile = "gfx/interface/ages/obj_many_vassals_f.dds"
+	}
+	# Age of Discovery Objectives
+	
+	spriteType = {
+		name = "GFX_obj_early_empire"
+		texturefile = "gfx/interface/ages/obj_early_empire.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_obj_home_trade"		
+		texturefile = "gfx/interface/ages/obj_home_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_obj_merchants"		
+		texturefile = "gfx/interface/ages/obj_merchants.dds"
+	}
+	
+	# Age of Feudalism Abilities
+	spriteType = {
+		name = "GFX_ab_allow_feudal_de_jure_law_f"
+		texturefile = "gfx/interface/ages/ab_allow_feudal_de_jure_law_f.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_transfer_vassal_wargoal_f"
+		texturefile = "gfx/interface/ages/ab_transfer_vassal_wargoal_f.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_ab_attack_bonus_in_capital_terrain_f"
+		texturefile = "gfx/interface/ages/ab_attack_bonus_in_capital_terrain_f.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ab_ottoman_siege_ability_f"
+		texturefile = "gfx/interface/ages/ab_ottoman_siege_ability_f.dds"
+	}	
+
+
+	spriteType = {
+		name = "GFX_ab_justified_wars_f"
+		texturefile = "gfx/interface/ages/ab_justified_wars_f.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_cavalry_armies_f"
+		texturefile = "gfx/interface/ages/ab_cavalry_armies_f.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_free_war_taxes_f"
+		texturefile = "gfx/interface/ages/ab_free_war_taxes_f.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_golden_horde"
+		texturefile = "gfx/interface/ages/ab_golden_horde.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_england_longbowmen"
+		texturefile = "gfx/interface/ages/ab_england_longbowmen.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ab_bohemian_empire"
+		texturefile = "gfx/interface/ages/ab_bohemian_empire.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ab_chevauchee"
+		texturefile = "gfx/interface/ages/ab_chevauchee.dds"
+	}		
+	spriteType = {
+		name = "GFX_ab_viking_legacy"
+		texturefile = "gfx/interface/ages/ab_viking_legacy.dds"
+	}
+	#Age of Discovery
+	spriteType = {
+		name = "GFX_ab_new_world"
+		texturefile = "gfx/interface/ages/ab_new_world.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_centralization"
+		texturefile = "gfx/interface/ages/ab_centralization.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_create_empire"
+		texturefile = "gfx/interface/ages/ab_create_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_espionageup"
+		texturefile = "gfx/interface/ages/ab_espionageup.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_renaissance"
+		texturefile = "gfx/interface/ages/ab_renaissance.dds"
+	}
+	#Age of enlightenment
+	spriteType = {
+		name = "GFX_age_of_enlightenment"
+		texturefile = "gfx/interface/ages/age_of_enlightenment.tga"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_s"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_s.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_l"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_l.dds"
+	}	
+	spriteType = {
+		name = "GFX_icon_age_of_enlightenment_g"
+		texturefile = "gfx/interface/ages/icon_age_of_enlightenment_g.dds"
+	}
+	#Enlightenment objetives
+	spriteType = {
+		name = "GFX_obj_great_minds"
+		texturefile = "gfx/interface/ages/obj_universities.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_land_reforms"
+		texturefile = "gfx/interface/ages/obj_100_development.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_merchant_fleet"
+		texturefile = "gfx/interface/institutions/global_trade.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_enlightened_ruler"
+		texturefile = "gfx/interface/institutions/enlightenment.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_early_imperialism"
+		texturefile = "gfx/interface/ages/obj_two_continents.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_scientific_revolution"
+		texturefile = "gfx/interface/ages/obj_two_institutions.dds"
+	}	
+	spriteType = {
+		name = "GFX_obj_early_industrialization"
+		texturefile = "gfx/interface/buildings/manufactory_weapons.tga"
+	}	
+	
+	#Enlightenment abilities
+	spriteType = {
+		name = "GFX_ab_prestigious_court"
+		texturefile = "gfx/prestigious_court.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_repopulation_policy"
+		texturefile = "gfx/repopulation_policy.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_population_census"
+		texturefile = "gfx/population_census.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_classical_art"
+		texturefile = "gfx/classical_art.tga"
+	}	
+	spriteType = {
+		name = "GFX_ab_meritocratic_promotion"
+		texturefile = "gfx/meritocratic_promotion.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_new_doctrine"
+		texturefile = "gfx/new_doctrine.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_letter_marks"
+		texturefile = "gfx/letter_marks.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_royal_manufactories"
+		texturefile = "gfx/royal_manufactories.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_sanitation"
+		texturefile = "gfx/sanitation.tga"
+	}	
+	spriteType = {
+		name = "GFX_ab_colonial_assemblies"
+		texturefile = "gfx/colonial_assemblies.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_open_western"
+		texturefile = "gfx/western_openess.tga"
+	}
+	#Age of industrialism
+	spriteType = {
+		name = "GFX_age_of_industrialism"
+		texturefile = "gfx/interface/ages/age_of_industrialism.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_industrialism_s"
+		texturefile = "gfx/interface/ages/icon_age_of_industrialism_s.dds"
+	}	
+	spriteType = {
+		name = "GFX_icon_age_of_industrialism_l"
+		texturefile = "gfx/interface/ages/icon_age_of_industrialism_l.dds"
+	}	
+	spriteType = {
+		name = "GFX_icon_age_of_industrialism_g"
+		texturefile = "gfx/interface/ages/icon_age_of_industrialism_g.dds"
+	}
+	#Industrialism objetives
+	spriteType = {
+		name = "GFX_obj_booming_production"
+		texturefile = "gfx/interface/ages/obj_booming_production.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_industrialization"
+		texturefile = "gfx/interface/ages/obj_industrialization.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_rise_of_american_civilization"
+		texturefile = "gfx/interface/ages/obj_rise_of_american_civilization.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_opera_ballet"
+		texturefile = "gfx/interface/ages/obj_opera_ballet.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_monarchy_still_in_fashion"
+		texturefile = "gfx/interface/ages/obj_monarchy_still_in_fashion.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_modern_firearms"
+		texturefile = "gfx/interface/ages/obj_modern_firearms.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_pagan_rome"
+		texturefile = "gfx/interface/ages/obj_pagan_rome.dds"
+	}
+	
+	#Industrialism abilities
+	spriteType = {
+		name = "GFX_ab_military_science_i"
+		texturefile = "gfx/interface/ages/ab_military_science_i.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_ballistics_i"
+		texturefile = "gfx/interface/ages/ab_ballistics_i.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_sanitation_i"
+		texturefile = "gfx/interface/ages/ab_sanitation_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_civil_engineering_i"
+		texturefile = "gfx/interface/ages/ab_civil_engineering_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_gatling_guns_i"
+		texturefile = "gfx/interface/ages/ab_gatling_guns_i.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_stock_exchange_i"
+		texturefile = "gfx/interface/ages/ab_stock_exchange_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_railroad_i"
+		texturefile = "gfx/interface/ages/ab_railroad_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_germany_ruhr_valley_i"
+		texturefile = "gfx/interface/ages/ab_germany_ruhr_valley_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_usa_mannifest_destiny_i"
+		texturefile = "gfx/interface/ages/ab_usa_mannifest_destiny_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_japan_meiji_restoration_i"
+		texturefile = "gfx/interface/ages/ab_japan_meiji_restoration_i.dds"
+	}	
+	spriteType = {
+		name = "GFX_ab_brazil_minas_geraes_i"
+		texturefile = "gfx/interface/ages/ab_brazil_minas_geraes_i.dds"
+	}	
+}

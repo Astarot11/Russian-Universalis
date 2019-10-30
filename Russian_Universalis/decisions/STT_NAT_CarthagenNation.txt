@@ -1,0 +1,108 @@
+country_decisions = {
+
+	carthagen_nation = {
+		major = yes
+		potential = {
+			NOT = { is_year = 1520 }
+			NOT = { exists = CAR }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			OR = {
+				tag = ALG
+				tag = MOR
+				tag = TUN
+				tag = FEZ
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 344		# Marrakesh
+				province_id = 338       # Al-Djazair
+				province_id = 341       # Tunis
+				province_id = 354       # Tripoli
+				province_id = 221       # Mursia
+				province_id = 343		# Fez
+				province_id = 227		# Lisboa
+				province_id = 220	    # Valencia 
+				province_id = 217		# Madrid
+				province_id = 333		# Palma
+				province_id = 127		# Cagliari
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+		    NOT = { is_year = 1520 }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 344			# Marrakesh
+			owns_core_province = 338            # Al-Djazair
+			owns_core_province = 341            # Tunis
+			owns_core_province = 354            # Tripoli
+			owns_core_province = 221            # Mursia
+			OR = {
+				owns_core_province = 343		# Fez
+				owns_core_province = 227		# Lisboa
+			}
+			OR = {
+				owns_core_province = 	220	    # Valencia 
+				owns_core_province = 217		# Madrid
+			}
+			OR = {
+				owns_core_province = 333		# Palma
+				owns_core_province = 127		# Cagliari
+			}			
+		}
+		effect = { 
+			maghreb_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAR
+			}
+			iberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAR
+			}
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAR
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+                        }
+            add_prestige = 25
+			change_tag = CAR
+			set_government_rank = 3
+			set_capital = 341
+			change_government = republic
+			add_government_reform = carthage_republic
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 2
+	}
+	
+}

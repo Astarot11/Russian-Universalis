@@ -1,0 +1,230 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1030	# owari
+
+1440.1.1 = {
+	monarch = {
+		name = "Хасанага"
+		dynasty = "Ода"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = incorruptible_personality
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Тошисада"
+		dynasty = "Ода"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1495.7.26 = {
+	monarch = {
+		name = "Тосада"
+		dynasty = "Ода"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1495.9.1 = {
+	monarch = {
+		name = "Томура"
+		dynasty = "Ода"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1503.1.1 = {
+	monarch = {
+		name = "Татсусада"
+		dynasty = "Ода"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1513.5.5 = {
+	monarch = {
+		name = "Тацукацу"
+		dynasty = "Ода"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Нобусада"
+		dynasty = "Ода"
+		birth_date = 1490.1.1
+		death_date = 1538.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Нобухидэ"
+		monarch_name = "Нобухидэ"
+		dynasty = "Ода"
+		birth_date = 1510.1.1
+		death_date = 1551.4.8
+		claim = 80
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1527.1.1 = { 
+	monarch = {
+		name = "Нобухидэ"
+		dynasty = "Ода"
+		birth_date = 1510.1.1
+		death_date = 1551.4.8
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1534.6.23 = {
+	heir = {
+		name = "Нобунага"
+		monarch_name = "Нобунага"
+		dynasty = "Ода"
+		birth_date = 1534.6.23
+		death_date = 1582.6.21
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+	
+1551.4.8 = { 
+	monarch = {
+		name = "Нобунага"
+		dynasty = "Ода"
+		birth_date = 1534.6.23
+		death_date = 1582.6.21
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = midas_touched_personality
+}
+
+1557.1.1 = {
+	heir = {
+		name = "Нобутада"
+		monarch_name = "Нобутада"
+		dynasty = "Ода"
+		birth_date = 1557.1.1
+		death_date = 1582.6.21
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1567.1.1 = {
+	capital = 1835 # Nobunaga moved the capital to Gifu in Mino
+}
+
+1573.7.3 = {
+	add_government_reform = shogunate
+	government_rank = 2
+}
+
+1579.1.1 = {
+	capital = 1020 # Nobunaga moved the capital to Azuchi in Omi
+}
+
+# Oda Nobunaga was assasinated and Toyotomi Hideyoshi rised as Oda successor
+
+1582.6.21 = { 
+	monarch = {
+		name = "Хидейёши"
+		dynasty = "Тойотоми"
+		birth_date = 1537.3.17
+#		death_date = 1598.9.18
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = infertile_personality
+}
+
+1583.1.1 = {
+	capital = 1021 # Hideyoshi moved the capital to Osaka in Settsu
+}
+
+1591.11.1 = {
+	heir = {
+		name = "Хидетсугу"
+		monarch_name = "Хидетсугу"
+		dynasty = "Тойотоми"
+		birth_date = 1568.1.1
+		death_date = 1595.8.20
+		claim = 80
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1593.8.29 = {
+	heir = {
+		name = "Хедеёри"
+		monarch_name = "Хедеёри"
+		dynasty = "Тойотоми"
+		birth_date = 1593.8.29
+		death_date = 1615.6.4
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1598.9.18 = {
+	monarch = {
+		name = "Хедеёри"
+		dynasty = "Тойотоми"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1603.3.24 = {
+	government = monarchy
+add_government_reform = daimyo
+	government_rank = 1
+}

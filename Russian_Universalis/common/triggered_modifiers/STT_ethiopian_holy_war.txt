@@ -1,0 +1,41 @@
+# STT_ethiopian_holy_war = {
+	# potential = {
+	# }
+	# trigger = {
+		# tag = ETH
+		# is_year = 1309
+		# NOT = {
+			# is_year = 1340
+		# }
+		# NOT = {
+			# num_of_cities = 14
+		# }
+		# ai = yes
+	# }
+	# land_morale = 0.20
+	# manpower = 1.0
+	# global_unrest = -5
+	# land_forcelimit = 2.0
+	# land_maintenance = 1.0
+	# global_manpower_modifier = 0.5
+	# global_tax_modifier = 2.0
+	# prestige = 1
+# }
+
+# STT_Ifat_decline = {
+	# potential = {
+	# }
+	# trigger = {
+		# tag = IFA
+		# is_year = 1315
+		# NOT = {
+			# is_year = 1340
+		# }
+		# NOT = {
+			# num_of_cities = 6
+		# }
+		# ai = yes
+	# }
+	# land_morale = -0.10
+	# manpower = -0.2
+# }

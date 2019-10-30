@@ -1,0 +1,90 @@
+country_decisions = {
+
+	ava_nation_pyn = {
+		major = yes
+		potential = {
+			TAG = PYN
+			is_year = 1363
+			NOT = { exists = AVA }
+			NOT = { is_year = 1500 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 584
+				province_id = 585
+				province_id = 581
+				province_id = 2399
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			NOT = { exists = SIQ }
+            owns_core_province = 584
+			owns_core_province = 585
+			owns_core_province = 581
+			owns_core_province = 2399
+		}
+	 	effect = {
+			change_tag = AVA
+			584 = {
+				move_capital_effect = yes
+			}
+			upper_burma_area = {
+				add_core = AVA
+			}
+			add_prestige = 25
+			swap_non_generic_missions = yes			
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}
+
+country_decisions = {
+
+	ava_nation_siq = {
+		major = yes
+		potential = {
+			tag = SIQ
+			is_year = 1363
+			NOT = { exists = AVA }
+			NOT = { is_year = 1500 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3458
+				province_id = 3459
+				province_id = 581
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			NOT = { exists = PYN }
+            owns_core_province = 3458
+			owns_core_province = 3459
+			owns_core_province = 581
+		}
+	 	effect = {
+			change_tag = AVA
+			584 = {
+				move_capital_effect = yes
+			}
+			coromandel_region = {
+				add_core = AVA
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

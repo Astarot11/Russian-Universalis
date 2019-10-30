@@ -1,0 +1,99 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sort_overex"	
+		texturefile = "gfx//interface//sort_overext.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_sort_overex_88"	
+		texturefile = "gfx//interface//sort_overext88.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_sort_state_unrest_stt"
+		texturefile = "gfx/interface/sort_state_unrest_stt.dds"
+	}	
+	
+	textSpriteType = {
+		name = "GFX_sort_button_90_stt"
+		texturefile = "gfx//interface//sort_90_stt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sort_giveupcore"	
+		texturefile = "gfx//interface//sort_giveupcore.dds"
+		loadType = "INGAME"
+	}
+
+	textSpriteType = {	
+		name = "GFX_button_straight_115_32_notext"
+		texturefile = "gfx/interface/button_straight_115_32.dds"
+	}
+
+	spriteType = {
+		name = "GFX_province_coreprogress_frame_stt"
+		texturefile = "gfx/interface/province_coreprogress_frame_stt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_overex_entry_frame_stt"
+		texturefile = "gfx/interface/overex_entry_frame_stt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_culture_name_sort_stt"
+		texturefile = "gfx//interface//culture_name_sort_stt.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_culture_bonus_sort_stt"
+		texturefile = "gfx//interface//culture_bonus_sort_stt.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_province_coreprogress_bar_stt"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/province_coreprogress_green_stt.dds"
+		texturefile2 = "gfx/interface/province_coreprogress_black_stt.dds"
+		size = { x = 116 y = 28 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	textSpriteType = {
+		name = "GFX_sort_62_dev_stt"
+		texturefile = "gfx/interface/sort_62_dev_stt.dds"
+	}
+	
+	textSpriteType = {
+		name = "GFX_sort_88_stt"
+		texturefile = "gfx/interface/sort_88_stt.dds"
+	}
+}
+
+bitmapfonts = {
+
+	# Global text colorings
+	textcolors = {
+		M = { 35 206 255 }
+		W = { 255 255 255 }
+		B = { 0 0 255 }
+		G = { 0 255 0 }
+		R = { 255 50 50 }
+		b = { 0 0 0 }
+		g = { 176 176 176 }
+		Y = { 255 189 0 }
+		T = { 0 255 239 }
+		O = { 255 130 0 }
+		l = { 154 193 75 }
+	}
+	
+	bitmapfont = {
+		name = "garamond_12b"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+}

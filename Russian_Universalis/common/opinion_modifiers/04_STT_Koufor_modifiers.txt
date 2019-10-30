@@ -1,0 +1,34 @@
+BYZ_the_encouragement_of_the_pope = {
+	opinion = -50
+	yearly_decay = 2
+}
+BYZ_refusal_of_the_pope = {
+	opinion = -150
+	yearly_decay = 2.5
+}
+BYZ_wrath_of_the_pope = {
+	opinion = -200
+	yearly_decay = 3
+}
+BYZ_small_help_from_pope = {
+	opinion = 10
+	yearly_decay = 1
+}
+BYZ_significant_help_from_pope = {
+	opinion = 50
+	yearly_decay = 2
+}
+BYZ_weighty_help_from_pope = {
+	opinion = 75
+	yearly_decay = 3
+}
+BYZ_important_help_from_pope = {
+	opinion = 100
+	yearly_decay = 3.8
+}
+BYZ_small_coalition {
+	opinion = -150
+	yearly_decay = 4
+	years = 10
+}
+

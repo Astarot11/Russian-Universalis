@@ -1,0 +1,79 @@
+government = tribal
+add_government_reform = tribal_kingdom #Various constallations of Makua Tribes
+primary_culture = makua
+religion = shamanism #Fetishism
+technology_group = central_african
+unit_type = sub_saharan
+capital = 3585	# Makua
+
+#Dates are fictional, names are from various Makua Chiefs the Portuguese report having dealt with.
+1444.1.1 = {
+	monarch = {
+		name = "Галло"
+		dynasty = "Макуа"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Бано"
+		dynasty = "Макуа"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Мауруса"
+		dynasty = "Макуа"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Чиканда"
+		dynasty = "Макуа"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Мауруса II"
+		dynasty = "Макуа"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1730.1.1 = {
+	capital = 4036 #Yao
+	monarch = {
+		name = "Чикоаве"
+		dynasty = "Вайяо"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+} 
+
+1780.1.1 = {
+	monarch = {
+		name = "Каромбое"
+		dynasty = "Вайяо"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+} 

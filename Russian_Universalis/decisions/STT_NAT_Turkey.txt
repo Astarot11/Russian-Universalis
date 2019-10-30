@@ -1,0 +1,46 @@
+country_decisions = {
+
+	turkey_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = SLA }
+			NOT = { exists = TRK }
+			OR = {
+				tag = TUR
+				AND = {
+					primary_culture = turkish
+					religion_group = muslim
+				}
+			}
+			religion_group = muslim
+			is_colonial_nation = no
+			government = republic			
+		}
+		allow = {
+			OR = {
+				AND = { ai = no adm_tech = 12 }
+				adm_tech = 22
+			}
+			government = republic
+			stability = 1
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 30
+			change_tag = TRK
+			add_government_reform = turkey_republic_reform
+			set_government_rank = 2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

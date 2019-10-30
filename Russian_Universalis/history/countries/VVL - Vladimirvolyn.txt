@@ -1,0 +1,8 @@
+government = monarchy
+
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+primary_culture = russian
+religion = orthodox
+capital = 279

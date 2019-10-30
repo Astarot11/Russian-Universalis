@@ -1,0 +1,139 @@
+namespace = gconfederation
+
+country_event = {
+	id = gconfederation.1 
+	title = "gconfederation.1.t" 
+	desc = "gconfederation.1.d"
+	picture = ANGRY_MOB_eventPicture
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "gconfederation.1.a" 
+		ai_chance = {
+			factor = 50 
+			modifier = {
+				factor = 20
+				is_subject_of = NDB
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = NDB
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = NDB
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { 
+					total_development = 100 
+				}
+			}
+			modifier = {
+				factor = 1.15
+				marriage_with = NDB
+			}
+		}
+		NDB = { inherit = ROOT }
+	}
+	option = {
+		name = "gconfederation.1.b" 
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				alliance_with = AEM
+			}
+			modifier = {
+				factor = 2
+				alliance_with = HAB
+			}
+			modifier = {
+				factor = 2
+				alliance_with = DUA
+			}
+			modifier = {
+				factor = 10
+				total_development = 150
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = NDB
+					value = 100
+				}
+			}
+		}
+		every_owned_province = {
+			add_permanent_claim = NDB
+		}
+	}
+}
+
+country_event = {
+	id = gconfederation.2 
+	title = "gconfederation.2.t" 
+	desc = "gconfederation.2.d"
+	picture = ANGRY_MOB_eventPicture
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "gconfederation.2.a" 
+		ai_chance = {
+			factor = 50 
+			modifier = {
+				factor = 20
+				is_subject_of = SGU
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = SGU
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = SGU
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { 
+					total_development = 100 
+				}
+			}
+			modifier = {
+				factor = 1.15
+				marriage_with = SGU
+			}
+		}
+		SGU = { inherit = ROOT }
+	}
+	option = {
+		name = "gconfederation.2.b" 
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 10
+				total_development = 100
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = SGU
+					value = -100
+				}
+			}
+		}
+		every_owned_province = {
+			add_permanent_claim = SGU
+		}
+	}
+}

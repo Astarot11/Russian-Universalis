@@ -1,0 +1,127 @@
+####################################
+#
+#Hellenic Monarchy
+#
+####################################
+
+greek_monarchy = {
+	icon = "constitution"
+	allow_normal_conversion = no
+	
+	potential = {
+		has_country_flag = purple_palace_begin
+	}
+	
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	legacy_equivalent = greek_monarchy_legacy
+	maintain_dynasty = yes
+	
+	
+	
+	modifiers = {
+			development_cost = -0.1
+			global_unrest = -1
+			reduced_liberty_desire = 15
+			max_absolutism = -30
+			max_states = -3
+			global_autonomy = 0.02
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		can_use_trade_post = yes
+		has_parliament = yes
+		allow = { has_dlc = "Res Publica" }
+		queen = no
+		heir = no
+		has_term_election = yes
+		duration = 8
+		states_general_mechanic = {
+			statists = {
+				diplomatic_reputation = 1
+				legitimacy = 1.0
+				global_autonomy = -0.033
+			}
+
+			monarchists = {
+				legitimacy = -1.0
+				global_tax_modifier = 0.10
+				land_morale = 0.05
+				global_autonomy = 0.033
+			}
+		}
+	}
+}
+
+#2
+
+gm_archons_cycle = {
+	icon = "assembly_hall"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = greek_monarchy
+	}
+	modifiers = {
+		election_cycle = -2
+		cavalry_power = 0.1
+		cavalry_cost = -0.2
+		cav_to_inf_ratio = 0.25		
+	}
+}
+
+gm_ruler_cycle = {
+	icon = "man_and_children"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = greek_monarchy
+	}
+	modifiers = {
+		election_cycle = 2
+		max_states = 5
+	}
+}
+
+#3
+
+gm_free_policies = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = greek_monarchy
+	}
+	modifiers = {
+		election_cycle = 2
+		min_autonomy = 25
+		ae_impact = -0.1
+	}
+}
+
+gm_free_cities = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = greek_monarchy
+	}
+	modifiers = {
+		merchants = 1
+		war_exhaustion = -0.02
+		election_cycle = -1
+	}
+}
+
+gm_despots_governors = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = greek_monarchy
+	}
+	modifiers = {
+		election_cycle = 1
+		max_states = 1
+	}
+}
