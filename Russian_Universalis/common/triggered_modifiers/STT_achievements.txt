@@ -67,9 +67,11 @@ stt_achievements_true_indep = {
 	}
 	trigger = {
 		tag = OST
-		all_province = {
-			limit = { culture_group = georgian }
-			owned_by = ROOT
+		NOT = {
+			any_province = {
+				culture_group = georgian
+				NOT = { owned_by = ROOT }
+			}
 		}
 	}
 }
