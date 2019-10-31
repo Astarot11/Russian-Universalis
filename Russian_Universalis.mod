@@ -1,4 +1,4 @@
-supported_version="1.29.1.0"
+supported_version="1.29.*.*"
 tags={
 	"Events"
 	"Fixes"
