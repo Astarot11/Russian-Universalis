@@ -23,7 +23,7 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-
+1365.1.1 = { religion = confucianism }
 1392.1.1 = { owner = KOR add_core = KOR controller = KOR remove_core = KYO }
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1592.6.11 = { controller = JAP unrest = 5 } # Japanese invasion
