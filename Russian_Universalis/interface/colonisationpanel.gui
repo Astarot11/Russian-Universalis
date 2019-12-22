@@ -868,7 +868,7 @@ guiTypes = {
 					position = { x = 15 y = 13 }
 					textureFile = ""
 					font = "vic_18"
-					text = "SELECT_PROVINCE"	
+					text = "SEL_PROV_GKS"	
 					maxWidth = 280
 					maxHeight = 24	
 					format = centre

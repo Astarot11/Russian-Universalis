@@ -1678,6 +1678,13 @@ guiTypes = {
 						format = centre
 					}
 
+					guiButtonType = {
+						name = "checksum_click_button"
+						position = { x = -20 y = 32 }
+						quadTextureSprite = "GFX_frontend_checksum"
+						size = { x=260 y=24}
+					}
+
 					instantTextBoxType = {
 						name = "num_players"
 						position = { x = 20 y = 52 }
@@ -1888,12 +1895,12 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_status_label"
-						position = { x = 20 y = 174 }
+						position = { x = -15 y = 174 } #x = 20
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
-						maxWidth = 175
+						maxWidth = 240 #175
 						maxHeight = 24
 						format = centre
 						fixedsize = yes

@@ -680,7 +680,7 @@ guiTypes = {
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
 				clicksound = back_click
-				text = "BONUS_STT"
+				text = "BONUS_GKS"
 				font = "vic_18"
 			}
 
@@ -734,7 +734,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			text = "COUNTRY_MODIFIERS_STT"	#Изменил на свой
+			text = "COUNTRY_MODIFIERS_GKS"	#Изменил на свой
 			maxWidth = 136
 			maxHeight = 32
 			format = center #Центровка

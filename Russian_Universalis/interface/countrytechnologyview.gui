@@ -107,9 +107,8 @@ guiTypes = {
 			iconType = {
 				name = "bg"
 				spriteType ="GFX_country_institutions_overlay"	
-				position = { x = -18 y = -152 }
+				position = { x = -19 y = -152 }
 				orientation = "UPPER_LEFT"
-				allwaystransparent = yes
 			}
 			
 			instantTextBoxType = {

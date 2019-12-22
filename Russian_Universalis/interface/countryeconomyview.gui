@@ -268,7 +268,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
-			text = "WAR_EXHAUSTION_STT"	# Заменил своим
+			text = "WAR_EXHAUSTION_GKS"	# Заменил своим
 			maxWidth = 64
 			maxHeight = 32
 			format = centre
