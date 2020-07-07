@@ -1,10 +1,10 @@
 #734 - Gangwon
 
-owner = KYO
-controller = KYO
-add_core = KYO
+owner = YUA
+controller = YUA
+add_core = YUA
 culture = korean
-religion = mahayana
+religion = confucianism
 capital = "Jecheon"
 trade_goods = fish
 hre = no
@@ -12,12 +12,18 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-
+add_core = KOR
 discovered_by = chinese
 discovered_by = nomad_group
 
-1365.1.1 = { religion = confucianism }
-1392.1.1 = { owner = KOR add_core = KOR controller = KOR remove_core = KYO }
+1310.1.1 = { owner = KOR controller = KOR remove_core = YUA }#Multiplayer balans
+1310.1.2 = { owner = YUA controller = YUA add_core = YUA }#Multiplayer balans
+1368.1.1 = {
+	owner = KHA
+	controller = KHA
+	add_core = KHA
+}
+1392.1.1 = { owner = KOR add_core = KOR controller = KOR }
 1542.1.1 = { discovered_by = POR }
 1637.1.1 = { add_core = MNG } # Tributary of Qing China
 1644.1.1 = { add_core = MCH remove_core = MNG } # Part of the Manchu empire

@@ -1,4 +1,4 @@
-name = "Вторая биджапурско-бидарская война"
+name = "Вторая Биджапури-Бидарийская война"
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war

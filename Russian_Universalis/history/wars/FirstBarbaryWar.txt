@@ -1,4 +1,4 @@
-name = "Первая пиратская война"
+name = "Первая берберийская война"
 war_goal = {
 	type = superiority_insult_mutual
 	casus_belli = cb_insult
@@ -13,16 +13,16 @@ war_goal = {
 
 1803.10.1 = {
 	battle = {
-		name = "Триполи"
+		name = "Tripoli"
 		location = 1313
 		attacker = {
-			commander = "Гассан-Бей"	# Hassan Bey
+			commander = "Hassan Bey"	# Hassan Bey
 			heavy_ship = 8
 			losses = 2	# percent
 			country = TRP
 		}
 		defender = {
-			commander = "Эдвард Пребл"	# Edward Preble
+			commander = "Edward Preble"	# Edward Preble
 			heavy_ship = 7
 			losses = 2	# percent
 			country = USA
@@ -33,16 +33,16 @@ war_goal = {
 
 1805.4.27 = {
 	battle = {
-		name = "Дерне"
+		name = "Derne"
 		location = 1313
 		attacker = {
-			commander = "Гассан-Бей"	# Hassan Bey
+			commander = "Hassan Bey"	# Hassan Bey
 			infantry = 700
 			losses = 25	# percent
 			country = TRP
 		}
 		defender = {
-			commander = "Уильям Итон"	# William Eaton
+			commander = "William Eaton"	# William Eaton
 			infantry = 4000
 			losses = 3	# percent
 			country = USA

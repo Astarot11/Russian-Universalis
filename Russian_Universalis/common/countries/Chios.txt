@@ -1,0 +1,62 @@
+graphical_culture = westerngfx
+
+color = { 255  56  56 }
+
+historical_idea_groups = {
+	trade_ideas
+	plutocracy_ideas
+	administrative_ideas
+	maritime_ideas
+	innovativeness_ideas
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Бенедетто #5" = 80
+	"Палеолого #2" = 60
+	"Мартино #3" = 60
+	"Франческо #0" = 20
+	"Джованни #0" = 20
+	"Пагано #0" = 20
+	"Джорджо #0" = 15
+	"Луиджи #0" = 15
+	"Антонио Мария #0" = 10
+}
+
+leader_names = {
+	"Адорно" "Арборио Мелла" "Бальби" "Брачелли" "Бриньоле" "Буонапарте" "ди Буска"
+	"Кампи" "ди Кампофрегозо" "дель Каррето" "Каттанео" "Чеба" "Чентурионе" "Клаварецца" "Кибо"
+	"Дория ди Мельфи" "Дория-Ланди" "Дураццо" "де Феррари" "ди Форнари" "де Франки"
+	"Гарбарино" "Гаттилузио" "Джентиле" "Джустиниани" "Гримальди ди Буска" "ди Гримальди"
+	"Империале" "Инврея" "Леркари" "Ломелли" "Лонго" "де Мари" "Негроне" "да Нови" "Одони"
+	"Палеолог Монферрат" "Паллавичини" "Пико" "Пиньоло" "Промонторио" "делла Ровере"
+	"Сале" "Сенарега" "Серра" "Спинола" "делла Торре" "Венерозо" "Вивальди"
+}
+
+ship_names = {
+	"Бекиньяна" "Монаджина" "Маркезе Дория" "Перла" "Пирамиде" "Темперанца"
+	"Виттория" "Сан-Витторио" "Негрона" "Монарка" "Урания" "Ира" "Баккана"
+}
+
+army_names = {
+	"Армия пров. $PROVINCE$"
+}

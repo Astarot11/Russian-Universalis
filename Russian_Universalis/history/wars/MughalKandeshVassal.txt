@@ -1,4 +1,4 @@
-name = "Акбарская война с Кандеши"
+name = "Кандешская война Акбара"
 war_goal = {
 	type = take_capital_vassalize
 	casus_belli = cb_vassalize_mission

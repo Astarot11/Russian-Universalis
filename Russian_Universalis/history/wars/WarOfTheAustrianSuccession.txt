@@ -1,4 +1,4 @@
-name = "Война за Австрийское наследство"
+name = "Война за австрийское наследство"
 
 war_goal = {
 	type = take_capital_throne
@@ -23,17 +23,17 @@ war_goal = {
 
 1741.4.10 = {
 	battle = {
-		name = "Мольвиц"
+		name = "Mollwitz"
 		location = 264
 		attacker = {
-			commander = "Фридрих II Великий"	# Frederick the Great & Kurt Christoph Graf von Schwerin
+			commander = "Frederick the Great"	# Frederick the Great & Kurt Christoph Graf von Schwerin
 			infantry = 15000
 			cavalry = 7000
 			losses = 5	# percent	
 			country = PRU
 		}
 		defender = {
-			commander = "Райнхард фон Найперг"
+			commander = "Reinhard von Neipperg"
 			infantry = 10000
 			cavalry = 6000
 			losses = 10	# percent
@@ -56,17 +56,17 @@ war_goal = {
 
 1743.6.16 = {
 	battle = {
-		name = "Деттинген"
+		name = "Dettingen"
 		location = 68
 		attacker = {
-			commander = "Адриен-Морис де Ноай"	# duc de Noailles
+			commander = "duc de Noailles"	# duc de Noailles
 			infantry = 50000
 			cavalry = 20000
 			losses = 12	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Георг II"	# George II
+			commander = "George II"	# George II
 			infantry = 35000
 			cavalry = 15000
 			losses = 1	# percent
@@ -89,17 +89,17 @@ war_goal = {
 
 1745.5.11 = {
 	battle = {
-		name = "Фонтенуа"
+		name = "Fontenoy"
 		location = 88
 		attacker = {
-			commander = "Мориц Саксонский"	# Moritz Graf von Sachsen
+			commander = "Moritz Graf von Sachsen"	# Moritz Graf von Sachsen
 			infantry = 30000
 			cavalry = 18000
 			losses = 7	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Герцог Камберлендский"	# William Augustus, Duke of Cumberland
+			commander = "William Augustus"	# William Augustus, Duke of Cumberland
 			infantry = 33000
 			cavalry = 15000
 			losses = 6	# percent

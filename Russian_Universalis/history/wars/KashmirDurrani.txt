@@ -1,4 +1,4 @@
-name = "Кашимирская война за независимость"
+name = "Кашмирская война за независимость"
 war_goal = {
 	type = defend_capital_independence
 	casus_belli = cb_independence_war

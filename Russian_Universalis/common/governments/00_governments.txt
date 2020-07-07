@@ -31,6 +31,7 @@ monarchy = {
 				#Hellenic Monarchy
 				greek_monarchy #STT
 				stt_byzantium_empire #STT
+				rome_government
 			}
 		}
 		hereditary_vs_nobility = {
@@ -390,14 +391,14 @@ native = {
 	color = { 194 127 209 }
 }
 
-anarhy_government = { #STT
-	basic_reform = anarhy_basic_reform
+# anarhy_government = { #STT
+	# basic_reform = anarhy_basic_reform
 
-	legacy_government = {
-		anarhy_government_legacy
-	}
-	color = { 233 160 209 }
-}
+	# legacy_government = {
+		# anarhy_government_legacy
+	# }
+	# color = { 233 160 209 }
+# }
 
 stt_timurids_government = { #STT !ONLY FOR TIMUR !
 	basic_reform = stt_timurids_basic_reform

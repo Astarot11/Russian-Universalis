@@ -1391,7 +1391,7 @@ national_focus = DIP
 
 1659.5.25 = {
 	monarch = {
-		name = "Парлмент"
+		name = "Парламент"
 		adm = 2
 		dip = 2
 		mil = 2

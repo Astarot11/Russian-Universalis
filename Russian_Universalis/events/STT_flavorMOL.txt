@@ -19,7 +19,10 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		tag = GLH
+		OR = {
+			tag = GLH
+			tag = GOL
+		}
 		OR = {
 			has_disaster = golden_horde_disaster
 			is_year = 1340
@@ -78,6 +81,8 @@ country_event = {
 					manuever = 3
 					siege = 1
 				}
+				change_government = monarchy
+				set_legacy_government = principality_legacy
 				create_marriage = HUN
 				add_manpower = 10
 				infantry = capital
@@ -215,7 +220,12 @@ country_event = {
 			limit = { moldavia_area = { NOT = { religion = orthodox } } }
 			moldavia_area = { change_religion = orthodox }
 		}
-		GLH = { release = MOL }
+		GLH = {  
+			every_owned_province = {
+				limit = { area = moldavia_area }
+				cede_province = MOL
+			}
+		}
 		if = {
 			limit = { moldavia_area = { is_core = GLH } }
 			moldavia_area = { remove_core = GLH } 
@@ -247,6 +257,29 @@ country_event = {
 			}
 		} 	
 	}
+	
+	option = {
+		name = "STT_flavor_mol.3.b"
+		trigger = { ai = no }
+		GLH = { add_prestige = -10 }
+		MOL = { create_alliance = HUN }
+		hidden_effect = { 
+			MOL = { 
+				define_ruler = {
+					name = "Драгош I"
+					dynasty = "Драгошести"
+					mil = 6
+				}
+				define_ruler_to_general = {
+					fire = 4
+					shock = 4
+					manuever = 3
+					siege = 1
+				}
+				add_manpower = 10
+			}
+		} 	
+	}
 			
 }
 
@@ -269,6 +302,7 @@ country_event = {
 			1756 = { controlled_by = MOL }
 			3130 = { controlled_by = MOL }
 		}
+		MOL = { exists = yes is_subject = no }
 		NOT = { MOL = { march_of = GLH } }
 		NOT = { MOL = { vassal_of = GLH } }
 		NOT = { MOL = { has_country_flag = moldova_hun } }
@@ -411,7 +445,7 @@ country_event = {
 		name = "STT_flavor_mol.6.a2"
 		ai_chance = { factor = 10 }
 		add_prestige = -25
-		1952 = { add_local_autonomy = 50 }
+		1952 = { add_local_autonomy = 100 }
 	}
 }
 
@@ -593,14 +627,14 @@ country_event = {
 	option = {
 		name = "STT_flavor_mol.10.a1"
 		add_casus_belli = {
-		target = MOL
-		type = cb_vassalize_mission
-		months = 120
+			target = MOL
+			type = cb_vassalize_mission
+			months = 120
 		}
 	}
 	option = {
 		name = "STT_flavor_mol.10.a2"
-		trigger = { MOL = { has_country_flag = moldova_civil } } 
+		trigger = { MOL = { has_country_flag = moldova_civil ai = yes } }  # 04.02.20
 		vassalize = MOL
 	}
 }

@@ -1,0 +1,266 @@
+tithing_cancellation = {
+	global_tax_modifier = 0.1
+}
+
+field_of_mars = {
+	local_manpower_modifier = -0.2
+	local_unrest = 2
+}
+
+declarations_of_human_and_citizen_rights = {
+	stability_cost_modifier = 0.1
+	glodal_unrest = -1
+	tolerance_own = 2
+	tolerance_heathen = 2
+	tolerance_heretic = 2
+	num_accepted_cultures = 2
+	promote_culture_cost = -0.5
+	global_institution_spread = 0.1
+	culture_conversion_cost = 0.25
+	land_maintenance_modifier = 0.10
+	religious_unity = -0.1
+	global_missionary_strength = -0.01
+}
+
+departments = {
+	administrative_efficiency = 0.05
+	harsh_treatment_cost = -0.2
+	autonomy_change_time = -0.2
+}
+
+fatherland_is_in_danger = {
+	land_morale = 0.1
+	reinforce_speed = 0.05
+	add_yearly_manpower = 0.1
+	manpower_recovery_speed = 0.1
+	war_exhaustion_cost = -0.1
+	land_maintenance_modifier = 0.10
+	army_tradition_decay = 0.05
+	discipline = -0.1
+	global_tax_modifier = -0.1
+	production_efficiency = -0.1
+	war_exhaustion = 0.1
+}
+
+legislative_assembly = {
+	republican_tradition = 0.25
+	reform_progress_growth = 0.5
+	stability_cost_modifier = 0.1
+}
+
+constitution_1791 = {
+	all_power_cost = -0.1
+	advisor_cost = 0.25
+	reelection_cost = 0.15
+	stability_cost_modifier = 0.1
+}
+
+metric_system_of_weights_modifier = {
+	innovativeness_gain = 0.05
+}
+
+monument_protection_departments_modifier  = {
+	prestige_decay = -0.005
+}
+
+volunteer_battalions_modifier = {
+	land_morale = 0.05
+	manpower_recovery_speed = 0.05
+}
+
+national_convention = {
+	global_unrest = 3
+	global_spy_defence = 0.1
+	global_institution_spread = 0.1
+	technology_cost = -0.1
+}
+
+public_security_committee = {
+	global_unrest = -1
+}
+
+mass_mobilization_modifier = {
+	global_manpower = 150
+	army_tradition = 3
+	land_morale = -0.15
+	global_tax_modifier = -0.15
+	production_efficiency = -0.3
+	free_leader_pool = 1
+	leader_cost = -0.1
+	war_exhaustion = 0.2
+}
+
+public_rescue_committee = {
+	global_unrest = -1
+	global_spy_defence = 0.1
+}
+
+universal_maximum = {
+	inflation_reduction = 0.25
+}
+
+constitution_1793 = {
+	global_tax_modifier = -0.05
+	stability_cost_modifier = 0.2
+	global_institution_spread = 0.1
+}
+
+suspicious_decree = {
+	global_tax_modifier = 0.2
+	army_tradition = -1
+	manpower_recovery_speed = -0.1
+}
+
+defense_of_the_fatherland = {
+	manpower_recovery_speed = 0.25
+	reinforce_speed = 0.1
+	infantry_cost = -0.1
+	global_own_trade_power = -0.2
+	trade_efficiency = -0.2
+	global_tax_modifier = -0.1
+	production_efficiency = -0.2
+	build_time = 0.2
+	war_exhaustion = 0.1
+}
+
+prerial_law = {
+	global_tax_modifier = -0.05
+	production_efficiency = -0.05
+	army_tradition = -0.2
+	navy_tradition = -0.2
+	manpower_recovery_speed = -1
+	sailors_recovery_speed = -0.1
+}
+
+directory = {
+	yearly_corruption = 1
+	global_unrest = 1
+	manpower_recovery_speed = 0.25
+	army_tradition_decay = -0.1
+	loot_amount = 0.1
+	}
+
+constitution_1795 = {
+	stability_cost_modifier = -0.1
+	republican_tradition = -0.15
+}
+
+constitution_1799 = {
+	stability_cost_modifier = -0.2
+	republican_tradition = -0.25
+}
+
+constitution_1802 = {
+	stability_cost_modifier = -0.3
+	republican_tradition = -0.5
+}
+
+constitution_1804 = {
+	stability_cost_modifier = -0.5
+	republican_tradition = -1
+	global_unrest = -1
+}
+
+army_reorganization = {
+	land_morale = 0.05
+	drill_gain_modifier = 0.1
+}
+
+corps_system = {
+	movement_speed = 0.1
+	land_attrition = -0.05
+}
+
+france_into_germany = {
+	ae_impact = -0.10
+}
+
+france_into_italy = {
+	ae_impact = -0.10
+}
+
+the_spread_of_revolution = {
+	fabricate_claims_cost = -0.1
+	claim_duration = 0.2
+}
+
+natural_borders = {
+	enemy_core_creation = 0.2
+}
+
+french_control = {
+	local_autonomy = -0.05
+}
+
+naval_base_in_mediterranean_sea = {
+	local_ship_cost = -0.10
+	local_ship_repair = 0.2
+}
+
+secularization_of_rome = {
+	inflation_action_cost = -0.2
+	inflation_reduction = -0.1
+	development_cost = -0.1
+	interest = -1
+}
+
+union_of_german_lands = {
+	liberty_desire = -10
+	vassal_income = 0.2
+}
+
+napoleon_codex = {
+	adm_tech_cost_modifier = -0.1
+	administrative_efficiency = 0.05
+}
+
+french_national_bank = {
+	global_unrest = -0.5
+	stability_cost_modifier = -0.1
+}
+
+polish_legions = {
+	vassal_forcelimit_bonus = 0.1
+}
+
+captured_metropolis = {
+	global_unrest = 2
+	global_autonomy = 0.15
+	years_of_nationalism = 10
+}
+
+new_orders_in_the_fleet = {
+	navy_tradition_decay = 0.1
+	global_ship_cost = 0.1
+	naval_morale = -0.1
+}
+
+triumphal_arch = {
+	prestige = 1
+	legitimacy = 0.5
+	picture = "triumphal_arch"
+}
+
+place_de_la_concorde = {
+	prestige = 1
+	republican_tradition = 0.5
+	picture = "place_de_la_concorde"
+}
+
+battle_of_valmy = {
+	land_morale = 0.025
+	republican_tradition = 0.05
+}
+
+concordat = {
+	tolerance_own = 1
+	religious_unity = 0.05
+	stability_cost = 0.05
+	missionary_maintenance_cost = 0.1
+}
+
+talleyrand = {
+	diplomats = 1
+	spy_offence = 0.1
+	yearly_corruption = 2.5
+}

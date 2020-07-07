@@ -1,0 +1,27 @@
+country_decisions = {
+	stt_reforming_government = {
+		major = yes
+		potential = {
+			technology_group = north_american
+			has_country_modifier = stt_reforming_government_modifier
+			has_country_flag = stt_reforming_government.4
+			NOT = { has_country_flag = stt_reforming_government_decision }
+		}
+		allow = {
+			any_owned_province = {
+				has_port = yes
+			}
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			random_owned_province = {
+				limit = { has_port = yes }
+				light_ship = ROOT
+				light_ship = ROOT
+				light_ship = ROOT
+			}
+			set_country_flag = stt_reforming_government_decision
+		}
+	}
+}

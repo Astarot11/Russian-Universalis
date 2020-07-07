@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 9  9  103 }
+color = { 110 160 190 }
 
 historical_idea_groups = {
 	religious_ideas

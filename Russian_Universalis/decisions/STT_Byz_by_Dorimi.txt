@@ -338,10 +338,11 @@ country_decisions = {
 				tag = ROM
 			}
 			NOT = { has_ruler_modifier = byz_heir_adopted }
+			NOT = { government = republic }
+			NOT = { government = theocracy } 
 			ai = no
 			NOT = { is_year = 1533 }
 			has_heir = no
-			
 		}
 		allow = {
 			is_lesser_in_union = no
@@ -367,6 +368,7 @@ country_decisions = {
 	major = yes
 		potential = {
 			NOT = { government_rank = 3 }
+			is_vassal = no
 			OR = {
 				tag = ROM
 				tag = BYZ

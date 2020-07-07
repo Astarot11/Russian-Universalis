@@ -18,6 +18,8 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = PAP }
+			NOT = { tag = TU0 }
+			NOT = { tag = TUR }
 			NOT = { exists = MGE }
 		}
 		provinces_to_highlight = {
@@ -125,7 +127,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			owns = 4338
+			owns = 2212
 			OR = {
 				tag = YUA
 				tag = GLH

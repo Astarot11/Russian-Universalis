@@ -15,17 +15,17 @@ war_goal = {
 
 1622.5.6 = {
 	battle = {
-		name = "Вимпфен"
+		name = "Wimpfen"
 		location = 74
 		attacker = {
-			commander = "Иоганн Церклас Тилли"	# Johann Tserclaes von Tilly
+			commander = "Johann Tserclaes von Tilly"	# Johann Tserclaes von Tilly
 			infantry = 15400
 			cavalry = 7000
 			losses = 20 	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Фридрих фон Баден"	# Friedrich of Baden
+			commander = "Friedrich von Baden"	# Friedrich of Baden
 			infantry = 10200
 			cavalry = 4000
 			losses = 75	# percent
@@ -38,17 +38,17 @@ war_goal = {
 
 1622.6.22 = {
 	battle = {
-		name = "Хёхст"
+		name = "Hцchst"
 		location = 83
 		attacker = {
-			commander = "Иоганн Церклас Тилли"	# Johann Tserclaes von Tilly
+			commander = "Johann Tserclaes von Tilly"	# Johann Tserclaes von Tilly
 			infantry = 16000
 			cavalry = 7000
 			losses = 3	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Христиан"	# Christian
+			commander = "Christian"	# Christian
 			infantry = 4500
 			cavalry = 7000
 			losses = 17	# percent

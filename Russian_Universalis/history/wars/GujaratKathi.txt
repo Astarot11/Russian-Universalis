@@ -1,4 +1,4 @@
-name = "Катиаварская война"
+name = "Война Катхари"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

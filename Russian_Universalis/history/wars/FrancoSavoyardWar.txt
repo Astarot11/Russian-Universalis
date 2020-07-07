@@ -1,4 +1,4 @@
-name = "Савойско-французская война"
+name = "Франко-Савойская война"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

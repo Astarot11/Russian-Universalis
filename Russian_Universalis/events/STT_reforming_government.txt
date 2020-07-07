@@ -1,0 +1,606 @@
+#Ивенты для индейцев Северной Америки
+
+namespace = stt_reforming_government
+normal_or_historical_nations = yes
+
+#Древняя легенда
+country_event = {
+	id = stt_reforming_government.1
+	title = "stt_reforming_government.1.title"
+	desc = "stt_reforming_government.1.desc"
+
+	picture = PRAYING_eventPicture
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	trigger = {
+		current_age = age_of_feudalism
+		ai = no
+		technology_group = north_american
+		NOT = { has_country_flag = stt_reforming_government.1 }
+		NOT = { has_country_flag = stt_reforming_government.3 }
+	}
+	
+	immediate = {
+		set_country_flag = stt_reforming_government.1
+	}
+		
+	option = {
+		name = "stt_reforming_government.1.a"
+		custom_tooltip = stt_reforming_government.1.tooltip
+		set_country_flag = stt_reforming_government.1.true
+	}
+	option = {
+		name = "stt_reforming_government.1.b"
+	}
+}
+
+#Информация от других племен
+country_event = {
+	id = stt_reforming_government.2
+	title = "stt_reforming_government.2.title"
+	desc = "stt_reforming_government.2.desc"
+
+	picture = EXPLORERS_eventPicture
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	trigger = {
+		ai = no
+		technology_group = north_american
+		has_country_flag = stt_reforming_government.1.true
+		NOT = { has_country_flag = stt_reforming_government.2 }
+	}
+	immediate = {
+		set_country_flag = stt_reforming_government.2
+	}
+	option = {
+		name = "stt_reforming_government.2.a"
+	}
+}
+
+#Исследование корабля
+country_event = {
+	id = stt_reforming_government.3
+	title = "stt_reforming_government.3.title"
+	desc = {
+		trigger = { has_country_flag = stt_reforming_government.1.true }
+		desc = "stt_reforming_government.3.1.desc"
+	}
+	desc = {
+		trigger = { NOT = { has_country_flag = stt_reforming_government.1.true }}
+		desc = "stt_reforming_government.3.2.desc"
+	}
+	
+	picture = EXPLORERS_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		OR = {
+			current_age = age_of_feudalism
+			current_age = age_of_discovery
+		}
+		technology_group = north_american
+		OR = {
+			982 = {
+				has_great_project = RU_shipwreck_1
+				owned_by = ROOT
+			}
+			986 = {
+				has_great_project = RU_shipwreck_2 
+				owned_by = ROOT
+			}
+			2578 = { 
+				has_great_project = RU_shipwreck_3 
+				owned_by = ROOT
+			}
+			2574 = {
+				has_great_project = RU_shipwreck_4 
+				owned_by = ROOT
+			}
+			2573 = {
+				has_great_project = RU_shipwreck_5 
+				owned_by = ROOT
+			}
+		}
+	}
+	option = {
+		name = "stt_reforming_government.3.a"
+		custom_tooltip = stt_reforming_government.3.tooltip
+		add_country_modifier = { 
+			name = stt_reforming_government_modifier
+			duration = 3650
+		}
+		add_adm_power = -300
+		set_country_flag = stt_reforming_government.3
+	}
+	option = {
+		name = "stt_reforming_government.3.b"
+	}
+}
+
+#Окончание исследования
+country_event = {
+	id = stt_reforming_government.4
+	title = "stt_reforming_government.4.title"
+	desc = "stt_reforming_government.4.desc"
+	
+	picture = LIBERUM_VETO_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 2
+			average_unrest = 1
+		}
+		modifier = {
+			factor = 2
+			average_unrest = 5
+		}
+		modifier = {
+			factor = 2
+			average_unrest = 10
+		}
+	}
+	
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	option = {
+		name = "stt_reforming_government.4.a"
+		clr_country_flag = stt_reforming_government.3
+		set_country_flag = stt_reforming_government.4
+		add_adm_tech = 3
+		add_dip_tech = 3
+		add_mil_tech = 3
+		add_idea_group = exploration_ideas
+		add_idea = quest_for_the_new_world
+		hide_ambient_object = RU_shipwreck_1
+		hide_ambient_object = RU_shipwreck_2
+		hide_ambient_object = RU_shipwreck_3
+		hide_ambient_object = RU_shipwreck_4
+		hide_ambient_object = RU_shipwreck_5
+		add_prestige = 10
+	}
+}
+
+#Промежуточные ивенты
+
+#Голод
+country_event = {
+	id = stt_reforming_government.5
+	title = "stt_reforming_government.5.title"
+	desc = "stt_reforming_government.5.desc"
+	
+	picture = FAMINE_eventPicture
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			average_unrest = 1
+		}
+	}
+	
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	
+	option = {
+		name = "stt_reforming_government.5.a"
+		add_dip_power = -200
+		every_owned_province = {
+			add_unrest = 5
+			add_devastation = 50
+		}
+	}
+	option = {
+		name = "stt_reforming_government.5.b"
+		add_stability = -1
+		every_owned_province = {
+			add_unrest = 5
+			add_devastation = 50
+		}
+	}
+}
+
+#Восстание народа
+country_event = {
+	id = stt_reforming_government.6
+	title = "stt_reforming_government.6.title"
+	desc = "stt_reforming_government.6.desc"
+	
+	picture = ANGRY_MOB_eventPicture
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			average_unrest = 10
+		}
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+		average_unrest = 5
+	}
+	
+	option = {
+		name = "stt_reforming_government.6.a"
+		random_owned_province = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 2
+			}
+		}
+		add_stability = -3
+	}
+}
+
+#Недовольство народа
+country_event = {
+	id = stt_reforming_government.7
+	title = "stt_reforming_government.7.title"
+	desc = "stt_reforming_government.7.desc"
+	
+	picture = ACCUSATION_eventPicture
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			average_unrest = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_unrest = 10
+		}
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+		average_unrest = 1
+	}
+	
+	option = {
+		name = "stt_reforming_government.7.a"
+		add_mil_power = -200
+		every_owned_province = {
+			add_unrest = 10
+		}
+	}
+	
+	option = {
+		name = "stt_reforming_government.7.b"
+		add_stability = -1
+		every_owned_province = {
+			add_unrest = 10
+		}
+	}
+}
+
+#Нехватка ресурсов
+country_event = {
+	id = stt_reforming_government.8
+	title = "stt_reforming_government.8.title"
+	desc = "stt_reforming_government.8.desc"
+	
+	picture = BANKRUPTCY_eventPicture
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	
+	option = {
+		name = "stt_reforming_government.8.a"
+		add_years_of_income = -1.5
+	}
+	
+	option = {
+		name = "stt_reforming_government.8.b"
+		add_stability = -1
+		every_owned_province = {
+			add_unrest = 5
+		}
+	}
+}
+
+#Холод
+country_event = {
+	id = stt_reforming_government.9
+	title = "stt_reforming_government.9.title"
+	desc = "stt_reforming_government.9.desc"
+	
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+		is_month = 10
+		NOT = { is_month = 4 }
+	}
+	
+	option = {
+		name = "stt_reforming_government.9.a"
+		add_adm_power = -200
+	}
+	
+	option = {
+		name = "stt_reforming_government.9.b"
+		add_stability = -1
+		every_owned_province = {
+			add_unrest = 5
+		}
+	}
+}
+
+#Нападение туземцев
+country_event = {
+	id = stt_reforming_government.10
+	title = "stt_reforming_government.10.title"
+	desc = "stt_reforming_government.10.desc"
+	
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	
+	option = {
+		name = "stt_reforming_government.10.a"
+		add_mil_power = -200
+	}
+	
+	option = {
+		name = "stt_reforming_government.10.b"
+		add_years_of_income = -0.5
+		every_owned_province = {
+			add_devastation = 50
+		}
+	}
+}
+
+#Болезнь
+country_event = {
+	id = stt_reforming_government.11
+	title = "stt_reforming_government.11.title"
+	desc = "stt_reforming_government.11.desc"
+	
+	picture = PLAGUE_eventPicture
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	
+	option = {
+		name = "stt_reforming_government.11.a"
+		add_adm_power = -200
+	}
+	
+	option = {
+		name = "stt_reforming_government.11.b"
+		add_stability = -1
+		every_owned_province = {
+			add_unrest = 5
+		}
+	}
+}
+
+#Урожай
+country_event = {
+	id = stt_reforming_government.12
+	title = "stt_reforming_government.12.title"
+	desc = "stt_reforming_government.12.desc"
+	
+	picture = FARMING_eventPicture
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+		is_month = 4
+		NOT = { is_month = 10 }
+	}
+	
+	option = {
+		name = "stt_reforming_government.12.a"
+		add_adm_power = 100
+		add_treasury = 50
+		every_owned_province = {
+			add_unrest = -10
+		}
+	}
+}
+
+#Оптимизм
+country_event = {
+	id = stt_reforming_government.13
+	title = "stt_reforming_government.13.title"
+	desc = "stt_reforming_government.13.desc"
+	
+	picture = LIBERUM_VETO_eventPicture
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	trigger = {
+		has_country_flag = stt_reforming_government.3
+	}
+	
+	option = {
+		name = "stt_reforming_government.13.a"
+		every_owned_province = {
+			add_unrest = -10
+		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+	}
+}
+
+#Ивенты Гренландии
+
+#Западное поселение
+#province_event = {
+#	id = stt_reforming_government.14
+#	title = "stt_reforming_government.14.title"
+#	desc = "stt_reforming_government.14.desc"
+#	
+#	picture = FAMINE_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	mean_time_to_happen = {
+#		years = 30
+#	}
+#	
+#	trigger = {
+#		NOT = { is_year = 1450 }
+#		province_id = 1105
+#		is_city = yes
+#	}
+#	
+#	option = {
+#		name = "stt_reforming_government.14.a"
+#		add_colonysize = -1000
+#	}
+#}
+
+#Восточное поселение
+#province_event = {
+#	id = stt_reforming_government.15
+#	title = "stt_reforming_government.15.title"
+#	desc = "stt_reforming_government.15.desc"
+#	
+#	picture = FAMINE_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	mean_time_to_happen = {
+#		years = 100
+#	}
+#	
+#	trigger = {
+#		NOT = { is_year = 1450 }
+#		province_id = 1104
+#		is_city = yes
+#	}
+#	
+#	option = {
+#		name = "stt_reforming_government.15.a"
+#		add_colonysize = -1000
+#	}
+#}
+
+#Исследование Греналандии
+country_event = {
+	id = stt_reforming_government.16
+	title = "stt_reforming_government.16.title"
+	desc = "stt_reforming_government.16.desc"
+	
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		technology_group = north_american
+		has_country_flag = stt_reforming_government_decision
+		NOT = { has_country_flag = stt_reforming_government.16 }
+		OR = {
+			AND = {
+				has_discovered = 1104
+				1104 = { is_city = yes }
+			}
+			AND = {
+				has_discovered = 1105
+				1105 = { is_city = yes }
+			}
+		}
+	}
+	
+	option = {
+		name = "stt_reforming_government.16.a"
+		set_country_flag = stt_reforming_government.16
+		country_event = { 
+			id = stt_reforming_government.18
+			days = 365
+			random = 365
+			tooltip = stt_reforming_government.16.tooltip
+		}
+	}
+}
+
+country_event = {
+	id = stt_reforming_government.17
+	title = "stt_reforming_government.17.title"
+	desc = "stt_reforming_government.17.desc"
+	
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		technology_group = north_american
+		has_country_flag = stt_reforming_government_decision
+		NOT = { has_country_flag = stt_reforming_government.16 }
+		has_discovered = 1104
+		has_discovered = 1105
+		1104 = { is_city = no }
+		1105 = { is_city = no }
+	}
+	
+	option = {
+		name = "stt_reforming_government.17.a"
+		set_country_flag = stt_reforming_government.16
+		add_adm_power = 100
+	}
+}
+
+#Конечный ивент
+country_event = {
+	id = stt_reforming_government.18
+	title = "stt_reforming_government.18.title"
+	desc = "stt_reforming_government.18.desc"
+	
+	picture = REFORM_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "stt_reforming_government.18.a"
+		change_government = monarchy
+		add_adm_power = 200
+		add_dip_power = 200
+		add_mil_power = 200
+	}
+	option = {
+		name = "stt_reforming_government.18.b"
+		change_government = republic
+		add_adm_power = 200
+		add_dip_power = 200
+		add_mil_power = 200
+	}
+}

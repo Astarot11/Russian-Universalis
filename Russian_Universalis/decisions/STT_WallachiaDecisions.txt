@@ -1,0 +1,359 @@
+country_decisions = {
+
+	wallachia2 = { #Перенос столицы в Бухарест
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_1 }
+		}
+		allow = {
+			is_at_war = no
+			stability = 3
+			controls = 3131
+			legitimacy = 100
+		}
+		effect = {
+			3131 = {
+					move_capital_effect = yes
+					add_base_tax = 2
+					add_base_manpower = 2
+					add_base_production = 2
+			}
+			set_country_flag = wallachia_pot_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia3 = { #Основание Угровлашской митрополии
+		potential = {
+			tag = WAL
+			NOT = { has_country_modifier = wallachia_mod_1 }
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_year = 1351
+		}
+		effect = {
+			BYZ = { add_opinion = { who = WAL modifier = wallachia_op_up_1 } }
+			BUL = { add_opinion = { who = WAL modifier = wallachia_op_down_1 } }
+				add_country_modifier = {
+					name = "wallachia_mod_1"
+					duration = -1
+				}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia4 = { #Военная реформа
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_2 }
+		}
+		allow = {
+			army_tradition = 50
+			treasury = 200
+			stability = 1
+		}
+		effect = {
+			set_country_flag = wallachia_pot_2
+			add_country_modifier = {
+					name = "wallachia_mod_2"
+					duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia5 = { #Создание судебника
+		potential = {
+				tag = WAL
+				NOT = { has_country_flag = wallachia_pot_3 }
+		}
+		allow = {
+			treasury = 150
+			stability = 3
+		}
+		effect = {
+			set_country_flag = wallachia_pot_3
+			add_country_modifier = {
+				name = "wallachia_mod_3"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia6 = { #Допустить малых бояр в высший совет князя
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_4 }
+		}
+		allow = {
+			prestige = 50
+			num_of_cities = 20
+		}
+		effect = {
+			set_country_flag = wallachia_pot_4
+			add_country_modifier = {
+				name = "wallachia_mod_4"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia7 = { #Дозволить туркам скупать недвижимость
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_5 }
+		}
+		allow = {
+			OR = {
+				is_neighbor_of = TU0
+				is_neighbor_of = TUR
+			}
+			is_at_war = no
+			legitimacy = 100
+			prestige = 40
+		}
+		effect = {
+			set_country_flag = wallachia_pot_5
+			add_treasury = 800
+			add_country_modifier = {
+					name = "wallachia_mod_5"
+					duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia8 = { #Призвать потомков императоров Византии на валашеский трон
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_6 }
+		}
+		allow = {
+			OR = {
+				has_regency = yes
+				has_heir = no
+			}
+			NOT = { exists = BYZ }
+		}
+		effect = {
+			set_country_flag = wallachia_pot_6
+			define_ruler = {
+				name = "Щербан II"
+					dynasty = "Кантакузин Бесараб"
+				adm = 5
+				dip = 4
+				mil = 4
+				age = 38
+					claim = 100
+			}
+			morea_area = { add_core = ROOT } 
+			thrace_area = { add_core = ROOT }
+			add_stability = -2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia9 = { #Лишить турков земель внутри страны
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_7 }
+			has_country_modifier = wallachia_mod_5
+		}
+		allow = { 
+			treasury = 400
+			is_at_war = no
+			is_defender_of_faith = yes
+		}
+		effect = {
+			set_country_flag = wallachia_pot_7
+			3131 = { spawn_rebels = { type = sunni_rebels size = 1 } }
+			161 = { spawn_rebels = { type = sunni_rebels size = 1 } }
+			160 = { spawn_rebels = { type = sunni_rebels size = 1 } }
+			3132 = { spawn_rebels = { type = sunni_rebels size = 1 } }
+			add_treasury = 400
+			remove_country_modifier = wallachia_mod_5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia10 = { #Создание тайной шпионской сети в Константинополе
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_8 }
+		}
+		allow = {
+			OR = {
+				is_vassal = yes
+    			truce_with = TUR
+			}
+		}
+		effect = {
+			set_country_flag = wallachia_pot_8
+			add_treasury = -300
+			add_country_modifier = {
+					name = "wallachia_mod_8"
+					duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia11 = { #Реорганизация войск
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_9 }
+		}
+		allow = {
+			stability = 3
+			MIL = 5
+			mil_tech = 15
+			treasury = 500	
+		}
+		effect = {
+			set_country_flag = wallachia_pot_9
+			add_treasury = -500
+			add_country_modifier = {
+				name = "wallachia_mod_9"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia12 = { #Повлиять на выборы господаря Молдавии
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_10 }
+		}
+		allow = {
+			exists = MOL
+			is_vassal = yes
+			treasury = 200
+		}
+		effect = {
+			set_country_flag = wallachia_pot_10
+			add_treasury = -200
+			MOL = {
+				define_ruler = {
+					name = "Димитрашко"
+					dynasty = "Кантакузин Бесараб"
+					adm = 5
+					dip = 4
+					mil = 4
+					age = 22
+					claim = 100
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	wallachia13 = { #Открыть греческий квартал в Бухаресте
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_11 }
+		}
+		allow = {
+			is_at_war = no
+			stability = 3
+			controls = 3131
+			is_neighbor_of = BYZ
+			exists = BYZ
+			treasury = 200
+		}
+		effect = {
+			add_treasury = -200
+			3131 = {
+				add_base_tax = 1
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			set_country_flag = wallachia_pot_11
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	wallachia14 = { #Начать проводить ежегодную ярмарку в Бухаресте
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_12 }
+		}
+		allow = {
+			treasurer = 3
+			stability = 3
+		}
+		effect = {
+			add_treasury = 200
+			set_country_flag = wallachia_pot_12
+			add_country_modifier = {
+				name = "wallachia_mod_12"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wallachia15 = { #Применить тактику выжженной земли
+		potential = {
+			tag = WAL
+			NOT = { has_country_flag = wallachia_pot_13 }
+			NOT = { has_country_modifier = wallachia_mod_13 }
+		}
+		allow = {
+			army reformer = 3
+			stability = 3
+			OR = {
+				defensive_war_with = TUR
+    			defensive_war_with = TU0
+			}
+		}
+		effect = {
+			160 = {
+				add_base_tax = -1
+				add_base_production = -1
+			}
+			3776 = {
+				add_base_tax = -1
+				add_base_production = -1
+			}
+			set_country_flag = wallachia_pot_13
+			add_country_modifier = {
+				name = "wallachia_mod_13"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -6,4 +6,19 @@ objectTypes = {
 		cull_distance = 700.0f
 	}
 }
-	
+
+objectTypes = {
+	pdxmesh = {
+		name = "RU_lighthouse"
+		file = "gfx/models/Mapitems/RU_lighthouse.mesh"
+		scale = 1.0
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "RU_shipwreck"
+		file = "gfx/models/Mapitems/RU_shipwreck.mesh"
+		scale = 0.5
+	}
+}

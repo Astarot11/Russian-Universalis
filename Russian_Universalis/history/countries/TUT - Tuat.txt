@@ -1,0 +1,7 @@
+government_rank = 1
+government = republic
+add_government_reform = peasants_republic #Achtundvierziger 
+technology_group = muslim
+religion = jewish
+primary_culture = hebrew
+capital = 3631 #Ditmarschen

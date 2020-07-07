@@ -3,9 +3,7 @@ STT_byz_mission_one = {
     generic = no 
     ai = yes 
     has_country_shield = yes 
-    potential = {
-			tag = BYZ
-	}
+    potential = { tag = BYZ }
 	STT_byz_mission_university = { #1.1
         icon = mission_generic_old_university
         position = 1
@@ -22,7 +20,7 @@ STT_byz_mission_one = {
 			NOT = {
 				num_of_loans = 1
 			}
-        }
+		}
         effect = {
 			add_prestige = 25
 			add_adm_power = -350
@@ -49,7 +47,7 @@ STT_byz_mission_one = {
 			adm_power = 50
 			mil_power = 200
 			stability = 0
-			treasury = 150
+			years_of_income = 0.65
 			NOT = {
 				num_of_loans = 3
 			}
@@ -58,24 +56,10 @@ STT_byz_mission_one = {
 			add_prestige = 10
 			add_adm_power = -50
 			add_mil_power = -200
-			add_treasury = -150
-			1773 = {
-				add_province_modifier = {
-					name = "restore_hexamilion"
-					duration = -1
-				}
-			}	
-			145 = {
-				add_province_modifier = {
+			add_years_of_income = -0.65
+			add_country_modifier = {
 				name = "restore_hexamilion"
-				duration = -1
-				}
-			}
-			3775 = {
-				add_province_modifier = {
-					name = "restore_hexamilion"
-					duration = -1
-				}
+				duration = 18250
 			}
 		}
 	}
@@ -142,6 +126,9 @@ STT_byz_mission_one = {
 			dip_power = 100
 			mil_power = 400
 			stability = 3
+			NOT = {
+				corruption = 2
+			}
         }
         effect = {
 			add_prestige = 20
@@ -173,7 +160,7 @@ STT_byz_mission_one = {
 			}
         }
         effect = {
-			country_event = { id = stt_byz.3}
+			country_event = { id = stt_byz.3 }
 			add_adm_power = -100
 			add_dip_power = -150
 			add_mil_power = -50
@@ -401,6 +388,13 @@ STT_byz_mission_one = {
 				}
 				add_permanent_claim = ROOT
 			}
+			sfax_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	recover_tripoli = { #1.12
@@ -412,12 +406,17 @@ STT_byz_mission_one = {
 		provinces_to_highlight = {
 			OR = {
 				area = tripolitania_area
+				area = sfax_area
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
 			patriarch_authority = 0.35
 			tripolitania_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sfax_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -432,6 +431,27 @@ STT_byz_mission_one = {
 				add_permanent_claim = ROOT
 			}
 			kabylia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			constantine_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			gafsa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			touggourt_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -450,23 +470,45 @@ STT_byz_mission_one = {
 			OR = {
 				area = tunisia_area
 				area = kabylia_area
+				area = gafsa_area
+				area = constantine_area
 			}
 			NOT = { owned_by = ROOT }
+			is_city = yes 
 		}
 		trigger = {
 			patriarch_authority = 0.4
-			tunisia_area = {
-				type = all
-				owned_by = ROOT
-			}
+			tunisia_area = { type = all OR = { owned_by = BYZ NOT = { is_city = yes }}}
 			kabylia_area = {
 				type = all
 				owned_by = ROOT
 			}
+			constantine_area = {
+				type = all
+				owned_by = ROOT
+			}
+			gafsa_area = { type = all OR = { owned_by = BYZ NOT = { is_city = yes }}}
 		}
 		effect = {
 			add_patriarch_authority = -0.04
+			hidden_effect = {
+				2454 = { change_province_name = "Сикка Венерия" rename_capital = "Сикка Венерия" }
+				3311 = { change_province_name = "Арена" rename_capital = "Арена" }
+				3907 = { change_province_name = "Гигтис" rename_capital = "Гигтис" }
+				3908 = { change_province_name = "Такапи" rename_capital = "Такапи" }
+				3914 = { change_province_name = "Киллиум" rename_capital = "Киллиум" }
+				3921 = { change_province_name = "Тагаст" rename_capital = "Тагаст" }
+				3923 = { change_province_name = "Марцимани" rename_capital = "Марцимани" }
+			}
+			custom_tooltip = STT_BYZ_new_name
 			algiers_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tlemcen_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -481,6 +523,13 @@ STT_byz_mission_one = {
 				add_permanent_claim = ROOT
 			}
 			northern_morocco_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ain_oussera_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -500,8 +549,10 @@ STT_byz_mission_one = {
 				area = algiers_area
 				area = fez_area
 				area = northern_morocco_area
+				area = tlemcen_area
 			}
 			NOT = { owned_by = ROOT }
+			is_city = yes 
 		}
 		trigger = {
 			patriarch_authority = 0.45
@@ -509,10 +560,11 @@ STT_byz_mission_one = {
 				type = all
 				owned_by = ROOT
 			}
-			fez_area = {
+			tlemcen_area = {
 				type = all
 				owned_by = ROOT
 			}
+			fez_area = { type = all OR = { owned_by = BYZ NOT = { is_city = yes }}}
 			northern_morocco_area = {
 				type = all
 				owned_by = ROOT
@@ -520,6 +572,7 @@ STT_byz_mission_one = {
 		}
 		effect = {
 			add_patriarch_authority = -0.04
+			3928 = { change_province_name = "Тангартия" rename_capital = "Тангартия" }
 			maghreb_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -589,8 +642,8 @@ STT_byz_mission_one = {
 				region = maghreb_region
 			}
 			is_city = yes
-			OR = 
-			{ 	NOT = { religion = ROOT }
+			OR = {
+			 	NOT = { religion = ROOT }
 				NOT = { owned_by = ROOT }
 			}
 		}
@@ -636,6 +689,7 @@ STT_byz_mission_one = {
 			STT_BYZ_mission_conquer_portugalia
 		}
         trigger = {
+			is_year = 1455
 			dip = 3
 			adm_power = 50
 			dip_power = 500
@@ -792,14 +846,19 @@ STT_byz_mission_two = {
         position = 1
         trigger = {
             151 = { owned_by = ROOT }
-			dynasty = "Палеолог"
+			OR = {
+				AND = {
+					dynasty = "Палеолог"
+					dip_power = 100
+				}
+				dip_power = 300
+			}	
 			is_year = 1410
 			is_at_war = no
 			adm = 3
 			dip = 3
 			mil = 2
 			adm_power = 150
-			dip_power = 100
 			mil_power = 50
 			legitimacy = 80
 			stability = 1
@@ -810,16 +869,24 @@ STT_byz_mission_two = {
 			}
         }
         effect = {
+			if = {
+				limit = {
+					dynasty = "Палеолог"
+				}
+				add_dip_power = -100
+			}
+			else = {
+				add_dip_power = -300
+			}
 			add_prestige = 10
 			add_adm_power = -150
-			add_dip_power = -100
 			add_mil_power = -50
 			add_years_of_income = -0.55
 			#add_treasury = -150
 			add_country_modifier = {
 				name = "byz_book"
 				duration = -1
-			}		
+			}
         }
     }
 	
@@ -831,13 +898,14 @@ STT_byz_mission_two = {
 			145 = { owned_by = ROOT }
 			3265 = { owned_by = ROOT }
 			NOT = { is_year = 1500 }
-			NOT = { total_development = 300 }
+			NOT = { total_development = 325 }
 			OR = {
 			war_with = TUR
 			war_with = TU0
 			}
 			# PAP = { has_opinion = { who = BYZ value = 50 } }
 			# has_opinion = { who = PAP value = 80 }
+			# NOT = { has_opinion = { who = SER value = -55 } }
 			dip = 2
 			dip_power = 100
 			legitimacy = 65
@@ -893,6 +961,9 @@ STT_byz_mission_two = {
 			dip_power = 500
 			mil_power = 200
 			stability = 2
+			NOT = {
+				corruption = 2
+			}
         }
         effect = {
 			add_prestige = 10
@@ -1032,16 +1103,16 @@ STT_byz_mission_two = {
 					every_owned_province = {
 						limit = {
 							OR = {
-							area = serbia_area
-							area = bosnia_area
-							area = chernogoria_area
-							area = rashka_area
-							area = gerzigovina_area
+								area = serbia_area
+								area = bosnia_area
+								area = chernogoria_area
+								area = rashka_area
+								area = gerzigovina_area
 							}
 							NOT = { is_core = ROOT }
 							OR = {
-							culture = serbian
-							culture = albanian
+								culture = serbian
+								culture = albanian
 							}
 						}
 						add_province_modifier = {
@@ -1114,7 +1185,7 @@ STT_byz_mission_two = {
 		}
 	}
 	recover_sicily = { #2.10
-		icon = mission_sea_battles
+		icon = mission_flag_sicily
 		position = 10
 		required_missions = { recover_south_italy }
 		provinces_to_highlight = {
@@ -1383,7 +1454,7 @@ STT_byz_mission_two = {
 						duration = 5475
 					}
 				}
-			}	
+			}
 			else = {
 				add_dip_power = 400
 				every_owned_province = {
@@ -1727,7 +1798,7 @@ STT_byz_mission_three = {
 			tag = BYZ
 	}
 	STT_byz_mission_sacred_palace = { #3.1
-        icon = STT_BYZ_mission_palace
+        icon = STT_BYZ_take_constantinople
         position = 1
         trigger = {
             151 = { owned_by = ROOT }
@@ -1817,6 +1888,9 @@ STT_byz_mission_three = {
 			dip_power = 100
 			mil_power = 100
 			stability = 2
+			NOT = {
+				corruption = 2
+			}
         }
         effect = {
 			add_prestige = 15
@@ -2211,38 +2285,38 @@ STT_byz_mission_three = {
 			}
 		}
 	}
-	STT_byz_mission_build_temples = { #3.10
-		icon = mission_european_church
-		position = 10
-		trigger = {
-			temple = 50
-		}
-		effect = {
-			add_adm_power = 50
-			add_country_modifier = {
-				name = "STT_BYZ_building_temples"
-				duration = -1
-			}
-		}
-	}
-	STT_byz_mission_build_cathedrals = { #3.11
-		icon = STT_byz_mission_build_cathedrals
-		position = 11
-		required_missions = { STT_byz_mission_build_temples }
-		trigger = {
-			cathedral = 75
-		}
-		effect = {
-			add_adm_power = 100
-			remove_country_modifier = STT_BYZ_building_temples
-			add_country_modifier = {
-				name = "STT_BYZ_building_cathedrals"
-				duration = -1
-			}
-		}
-	}
+	# STT_byz_mission_build_temples = { #3.10
+		# icon = mission_european_church
+		# position = 10
+		# trigger = {
+			# temple = 50
+		# }
+		# effect = {
+			# add_adm_power = 50
+			# add_country_modifier = {
+				# name = "STT_BYZ_building_temples"
+				# duration = -1
+			# }
+		# }
+	# }
+	# STT_byz_mission_build_cathedrals = { #3.11
+		# icon = STT_byz_mission_build_cathedrals
+		# position = 11
+		# required_missions = { STT_byz_mission_build_temples }
+		# trigger = {
+			# cathedral = 75
+		# }
+		# effect = {
+			# add_adm_power = 100
+			# remove_country_modifier = STT_BYZ_building_temples
+			# add_country_modifier = {
+				# name = "STT_BYZ_building_cathedrals"
+				# duration = -1
+			# }
+		# }
+	# }
 	STT_byz_mission_conquer_central_italy = { #3.12
-	icon = STT_byz_mission_conquer_central_italy
+	icon = mission_papacy
 		position = 12
 		required_missions = { STT_byz_mission_convert_south_italy }
 		provinces_to_highlight = {
@@ -2317,7 +2391,7 @@ STT_byz_mission_three = {
 		}
 	}
 	convert_rome = { #3.14
-		icon = mission_pf_cross
+		icon = STT_byz_mission_conquer_central_italy
 		position = 14
 		required_missions = {
 			the_pentarchy_pp
@@ -2450,36 +2524,36 @@ STT_byz_mission_three = {
 			}
 		}
 	}
-	STT_byz_mission_build_workshops = { #3.18
-		icon = STT_byz_mission_build_workshops
-		position = 18
-		trigger = {
-			workshop = 50
-		}
-		effect = {
-			add_dip_power = 50
-			add_country_modifier = {
-				name = "STT_BYZ_building_workshops"
-				duration = -1
-			}
-		}
-	}
-	STT_byz_mission_build_counting_houses = { #3.19
-		icon = mission_trade_company_region_abroad
-		position = 19
-		required_missions = { STT_byz_mission_build_workshops }
-		trigger = {
-			counting_house = 75
-		}
-		effect = {
-			add_dip_power = 100
-			remove_country_modifier = STT_BYZ_building_workshops
-			add_country_modifier = {
-				name = "STT_BYZ_building_counting_houses"
-				duration = -1
-			}
-		}
-	}
+	# STT_byz_mission_build_workshops = { #3.18
+		# icon = STT_byz_mission_build_workshops
+		# position = 18
+		# trigger = {
+			# workshop = 50
+		# }
+		# effect = {
+			# add_dip_power = 50
+			# add_country_modifier = {
+				# name = "STT_BYZ_building_workshops"
+				# duration = -1
+			# }
+		# }
+	# }
+	# STT_byz_mission_build_counting_houses = { #3.19
+		# icon = mission_trade_company_region_abroad
+		# position = 19
+		# required_missions = { STT_byz_mission_build_workshops }
+		# trigger = {
+			# counting_house = 75
+		# }
+		# effect = {
+			# add_dip_power = 100
+			# remove_country_modifier = STT_BYZ_building_workshops
+			# add_country_modifier = {
+				# name = "STT_BYZ_building_counting_houses"
+				# duration = -1
+			# }
+		# }
+	# }
 }
 STT_byz_mission_four = {
     slot = 4
@@ -2536,6 +2610,9 @@ STT_byz_mission_four = {
 			NOT = {
 				num_of_loans = 5
 			}
+			NOT = {
+				corruption = 3
+			}
         }
         effect = {
 			add_prestige = 15
@@ -2567,7 +2644,7 @@ STT_byz_mission_four = {
 		trigger = {
             151 = { owned_by = ROOT }
 			is_at_war = no
-			NOT = {has_country_modifier = byz_stabilization}
+			NOT = { has_country_modifier = byz_stabilization }
 			adm_power = 150
 			dip_power = 150
 			mil_power = 150
@@ -2577,6 +2654,9 @@ STT_byz_mission_four = {
 			#treasury = 
 			NOT = {
 				num_of_loans = 3
+			}
+			NOT = {
+				corruption = 2
 			}
         }
         effect = {
@@ -2635,20 +2715,6 @@ STT_byz_mission_four = {
 		}
 		effect = {
 			add_patriarch_authority = 0.1
-			aleppo_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			syria_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			custom_tooltip = byz_description_acculturation
 			hidden_effect = {
 				if = {
@@ -2796,9 +2862,9 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = nicaea_area
-						area = menteshe_area
-						area = aydin_area
+							area = nicaea_area
+							area = menteshe_area
+							area = aydin_area
 						}
 					}
 					change_culture = greek
@@ -3051,10 +3117,10 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = kastamonu_area
-						area = hudavendigar_area
-						area = angora_area
-						area = karaman_area
+							area = kastamonu_area
+							area = hudavendigar_area
+							area = angora_area
+							area = karaman_area
 						}
 					}
 					change_culture = greek
@@ -3069,10 +3135,10 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = kastamonu_area
-						area = hudavendigar_area
-						area = angora_area
-						area = karaman_area
+							area = kastamonu_area
+							area = hudavendigar_area
+							area = angora_area
+							area = karaman_area
 						}
 					}
 					if = {
@@ -3161,6 +3227,8 @@ STT_byz_mission_four = {
 							OR = {
 								culture = turkish
 								culture = pontic_greek
+								culture = cappadocian
+								culture = cilician
 								culture = armenian
 								culture = lazian
 							}
@@ -3182,6 +3250,8 @@ STT_byz_mission_four = {
 							OR = {
 								culture = turkish
 								culture = pontic_greek
+								culture = cappadocian
+								culture = cilician
 								culture = armenian
 								culture = lazian
 							}
@@ -3283,9 +3353,9 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = pontus_area
-						area = rum_area
-						area = cilicia_area
+							area = pontus_area
+							area = rum_area
+							area = cilicia_area
 						}
 					}
 					change_culture = greek
@@ -3328,7 +3398,7 @@ STT_byz_mission_four = {
 		provinces_to_highlight = {
 			OR = {
 				area = aleppo_area
-				area = syria_area
+				area = antioch_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -3342,7 +3412,7 @@ STT_byz_mission_four = {
 				owned_by = ROOT
 				religion = ROOT
 			}
-			syria_area = {
+			antioch_area = {
 				type = all
 				owned_by = ROOT
 				religion = ROOT
@@ -3360,7 +3430,7 @@ STT_byz_mission_four = {
 								duration = 3650
 								}
 						}
-						syria_area = {
+						antioch_area = {
 								add_province_modifier = { #+3 к беспорядкам
 								name = "byz_recover_area1.1"
 								duration = 3650
@@ -3372,12 +3442,14 @@ STT_byz_mission_four = {
 						limit = {
 							OR = {
 								area = aleppo_area
-								area = syria_area
+								area = antioch_area
 							}
 							NOT = { is_core = ROOT }
 							OR = {
 								culture = al_suryah_arabic
 								culture = turkish
+								culture = antioch
+								culture = cilician
 							}
 						}
 						add_province_modifier = {
@@ -3389,13 +3461,15 @@ STT_byz_mission_four = {
 						limit = {
 							OR = {
 								area = aleppo_area
-								area = syria_area
+								area = antioch_area
 							}
 							is_core = ROOT
 							NOT = { nationalism = 1 }
 							OR = {
 								culture = al_suryah_arabic
 								culture = turkish
+								culture = antioch
+								culture = cilician
 							}
 						}
 						add_province_modifier = {
@@ -3414,7 +3488,7 @@ STT_byz_mission_four = {
 		provinces_to_highlight = {
 			OR = {
 				area = aleppo_area
-				area = syria_area
+				area = antioch_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -3431,7 +3505,7 @@ STT_byz_mission_four = {
 					NOT = { nationalism = 1 }
 					type = all
 				}
-				syria_area = {
+				antioch_area = {
 					owned_by = ROOT
 					is_core = ROOT
 					religion = ROOT
@@ -3448,7 +3522,7 @@ STT_byz_mission_four = {
 					NOT = { nationalism = 1 }
 					type = all
 				}
-				syria_area = {
+				antioch_area = {
 					owned_by = ROOT
 					is_core = ROOT
 					religion = ROOT
@@ -3464,7 +3538,7 @@ STT_byz_mission_four = {
 				add_base_tax = 2
 				add_base_production = 2 }
 			random_owned_province = {
-				limit = { area = syria_area }
+				limit = { area = antioch_area }
 				add_base_production = 1
 				add_base_manpower = 2 }
 			if = {
@@ -3475,8 +3549,8 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = aleppo_area
-						area = syria_area
+							area = aleppo_area
+							area = antioch_area
 						}
 					}
 					change_culture = greek
@@ -3491,8 +3565,8 @@ STT_byz_mission_four = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = aleppo_area
-						area = syria_area
+							area = aleppo_area
+							area = antioch_area
 						}
 					}
 					if = {
@@ -3517,6 +3591,10 @@ STT_byz_mission_four = {
 		required_missions = { recover_jerusalem }
 		provinces_to_highlight = {
 			area = palestine_area
+			area = tripoly_area
+			area = syria_area
+			area = galilee_area
+			area = al_karak_area
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { religion = ROOT }
@@ -3524,7 +3602,27 @@ STT_byz_mission_four = {
 		}
 		trigger = {
 			religion = ROOT
+			syria_area = {
+				type = all
+				owned_by = ROOT
+				religion = ROOT
+			}
+			galilee_area = {
+				type = all
+				owned_by = ROOT
+				religion = ROOT
+			}
+			tripoly_area = {
+				type = all
+				owned_by = ROOT
+				religion = ROOT
+			}
 			palestine_area = {
+				type = all
+				owned_by = ROOT
+				religion = ROOT
+			}
+			al_karak_area = {
 				type = all
 				owned_by = ROOT
 				religion = ROOT
@@ -3536,17 +3634,35 @@ STT_byz_mission_four = {
 			hidden_effect = {
 				if = {
 					limit = { ai = yes }
-						aleppo_area = {
-								add_province_modifier = { #+3 к беспорядкам
+						galilee_area = {
+							add_province_modifier = { #+3 к беспорядкам
 								name = "byz_recover_area1.1"
 								duration = 3650
-								}
+							}
 						}
 						syria_area = {
-								add_province_modifier = { #+3 к беспорядкам
+							add_province_modifier = { #+3 к беспорядкам
 								name = "byz_recover_area1.1"
 								duration = 3650
-								}
+							}
+						}
+						tripoly_area = {
+							add_province_modifier = { #+3 к беспорядкам
+								name = "byz_recover_area1.1"
+								duration = 3650
+							}
+						}
+						palestine_area = {
+							add_province_modifier = { #+3 к беспорядкам
+								name = "byz_recover_area1.1"
+								duration = 3650
+							}
+						}
+						al_karak_area = {
+							add_province_modifier = { #+3 к беспорядкам
+								name = "byz_recover_area1.1"
+								duration = 3650
+							}
 						}
 				}
 				else = {
@@ -3554,6 +3670,10 @@ STT_byz_mission_four = {
 						limit = {
 							OR = {
 								area = palestine_area
+								area = tripoly_area
+								area = syria_area
+								area = galilee_area
+								area = al_karak_area
 							}
 							NOT = { is_core = ROOT }
 							OR = {
@@ -3571,6 +3691,10 @@ STT_byz_mission_four = {
 						limit = {
 							OR = {
 								area = palestine_area
+								area = tripoly_area
+								area = syria_area
+								area = galilee_area
+								area = al_karak_area
 							}
 							is_core = ROOT
 							NOT = { nationalism = 1 }
@@ -3634,6 +3758,8 @@ STT_byz_mission_four = {
 				area = central_egypt_area
 				area = upper_egypt_area
 				area = tripolitania_area
+				area = cairo_area
+				area = damietta_area
 			}
 			is_city = yes
 			OR = 
@@ -3641,62 +3767,15 @@ STT_byz_mission_four = {
 			}
 		}
 		trigger = {
-			hidden_effect = {
-				cyrenaica_area = {
-					type = all
-					OR = {
-						AND = {
-						owned_by = BYZ
-						}
-					NOT = { is_city = yes }
-					}
-				}
-				libyan_desert_area = { type = all OR = { owned_by = BYZ NOT = { is_city = yes }}}
-				bulgaria_area = { type = all owned_by = BYZ }
-				east_bulgaria_area = { type = all owned_by = BYZ }
-				vidin_area = { type = all owned_by = BYZ }
-				tarnovo_area = { type = all owned_by = BYZ }
-				serbia_area = { type = all owned_by = BYZ }
-				chernogoria_area = { type = all owned_by = BYZ }
-				rashka_area = { type = all owned_by = BYZ }
-				albania_area = { type = all owned_by = BYZ }
-				thrace_area = { type = all owned_by = BYZ }
-				macedonia_area = { type = all owned_by = BYZ }
-				morea_area = { type = all owned_by = BYZ }
-				northern_greece_area = { type = all owned_by = BYZ }
-				eastern_aegean_area = { type = all owned_by = BYZ }
-				western_aegean_area = { type = all owned_by = BYZ }
-				pontus_area = { type = all owned_by = BYZ }
-				menteshe_area = { type = all owned_by = BYZ }
-				aydin_area = { type = all owned_by = BYZ }
-				kastamonu_area = { type = all owned_by = BYZ }
-				rum_area = { type = all owned_by = BYZ }
-				karaman_area = { type = all owned_by = BYZ }
-				hudavendigar_area = { type = all owned_by = BYZ }
-				cilicia_area = { type = all owned_by = BYZ }
-				dulkadir_area = { type = all owned_by = BYZ }
-				erzurum_area = { type = all owned_by = BYZ }
-				rakka_area = { type = all owned_by = BYZ }
-				aleppo_area = { type = all owned_by = BYZ }
-				syria_area = { type = all owned_by = BYZ }
-				palestine_area = { type = all owned_by = BYZ }
-				sharqiya_area = { type = all owned_by = BYZ }
-				gharbia_area = { type = all owned_by = BYZ }
-				central_egypt_area = { type = all owned_by = BYZ }
-				upper_egypt_area = { type = all owned_by = BYZ }
-				tripolitania_area = { type = all owned_by = BYZ }
-				owns = 3752
-				owns = 3096
-			}
 			custom_trigger_tooltip = {
 				tooltip = BYZ_diocese_system
 				cyrenaica_area = {
 					type = all
 					OR = {
 						AND = {
-						owned_by = BYZ
+							owned_by = BYZ
 						}
-					NOT = { is_city = yes }
+						NOT = { is_city = yes }
 					}
 				}
 				libyan_desert_area = { type = all OR = { owned_by = BYZ NOT = { is_city = yes }}}
@@ -3733,12 +3812,24 @@ STT_byz_mission_four = {
 				central_egypt_area = { type = all owned_by = BYZ }
 				upper_egypt_area = { type = all owned_by = BYZ }
 				tripolitania_area = { type = all owned_by = BYZ }
+				cairo_area = { type = all owned_by = BYZ }
+				damietta_area = { type = all owned_by = BYZ }
 				owns = 3752
 				owns = 3096
 			}
 			has_country_modifier = the_theme_system
 		}
 		effect = {
+			hidden_effect = {
+				2325 = { change_province_name = "Параэтониум" rename_capital = "Параэтониум" }
+				3120 = { change_province_name = "Арра" rename_capital = "Арра" }
+				3848 = { change_province_name = "Тортоса" rename_capital = "Тортоса" }
+				3849 = { change_province_name = "Александретта" rename_capital = "Александретта" }
+				3859 = { change_province_name = "Бирта" rename_capital = "Бирта" }
+				3880 = { change_province_name = "Скифополис" rename_capital = "Скифополис" }
+				3883 = { change_province_name = "Аила" rename_capital = "Аила" }
+			}
+			custom_tooltip = STT_BYZ_new_name
 			add_prestige = 50 #STT
 			add_adm_power = 150 #STT
 			add_dip_power = 150 #STT
@@ -3940,6 +4031,9 @@ STT_byz_mission_five = {
 			dip_power = 350
 			mil_power = 100
 			stability = 2
+			NOT = {
+				corruption = 2
+			}
         }
         effect = {
 			add_prestige = 15
@@ -4114,6 +4208,20 @@ STT_byz_mission_five = {
 				}
 				add_permanent_claim = ROOT
 			}
+			aleppo_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			antioch_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			north_kurdistan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -4134,7 +4242,7 @@ STT_byz_mission_five = {
 		provinces_to_highlight = {
 			OR = {
 				area = aleppo_area
-				area = syria_area
+				area = antioch_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -4143,16 +4251,23 @@ STT_byz_mission_five = {
 				type = all
 				owned_by = ROOT
 			}
-			syria_area = {
+			antioch_area = {
 				type = all
 				owned_by = ROOT
 			}
 		}
 		effect = {
-			palestine_area = {
+			syria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tripoly_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -4165,19 +4280,77 @@ STT_byz_mission_five = {
 			}
 		}
 	}
-	#5.13
-	recover_jerusalem = { #5.14
-		icon = STT_byz_mission_recover_jerusalem
-		position = 14
+	STT_BYZ_mission_recover_tripoli_and_syria = { #5.13
+		icon = STT_mission_arab
+		position = 13
 		required_missions = {
 			recover_antioch
 		}
 		provinces_to_highlight = {
-			area = palestine_area
+			OR = {
+				area = tripoly_area
+				area = syria_area
+			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
+			tripoly_area = {
+				type = all
+				owned_by = ROOT
+			}
+			syria_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			galilee_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			palestine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			al_karak_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	recover_jerusalem = { #5.14
+		icon = mission_jerusalem
+		position = 14
+		required_missions = {
+			STT_BYZ_mission_recover_tripoli_and_syria
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = galilee_area
+				area = al_karak_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			galilee_area = {
+				type = all
+				owned_by = ROOT
+			}
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+			}
+			al_karak_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -4198,7 +4371,14 @@ STT_byz_mission_five = {
 				}
 				add_permanent_claim = ROOT
 			}
-			sharqiya_area = {
+			damietta_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sharqiya_area = { 
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -4213,7 +4393,7 @@ STT_byz_mission_five = {
 		provinces_to_highlight = {
 			OR = {
 				area = gharbia_area
-				area = central_egypt_area
+				area = damietta_area
 				area = sharqiya_area
 			}
 			NOT = { owned_by = ROOT }
@@ -4226,7 +4406,7 @@ STT_byz_mission_five = {
 				type = all
 				owned_by = ROOT
 			}
-			central_egypt_area = {
+			damietta_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -4237,6 +4417,20 @@ STT_byz_mission_five = {
 		}
 		effect = {
 			add_patriarch_authority = 0.1
+			cairo_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			central_egypt_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			libyan_desert_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -4305,35 +4499,35 @@ STT_byz_mission_five = {
 			}
 		}
 		effect = {
-			hail_area = { #•аиль
+			hail_area = { #Хаиль
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
-			unaiza_area = { #Ќедж
+			unaiza_area = { #Недж
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
-			dawasir_area = { #Ќаджран
+			dawasir_area = { #Наджран
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
-			najd_area = { #ќль-•аса
+			najd_area = { #Эль-Хаса
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
-			yemen_area = { #Ќижний ‰емен
+			yemen_area = { #Нижний Йемен
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
@@ -4344,7 +4538,7 @@ STT_byz_mission_five = {
 		}
 	}
 	STT_BYZ_mission_conquer_arabia = { #5.17
-		icon = STT_BYZ_mission_conquer_arabia
+		icon = mission_muslim_warrior
 		position = 17
 		required_missions = { 
 			STT_BYZ_mission_persian_gulf
@@ -4484,6 +4678,20 @@ STT_byz_mission_six = {
 				name = "byz_south_greece"
 				duration = 3650
 		    }
+			western_aegean_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			eastern_aegean_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	###6.4###
@@ -4606,12 +4814,12 @@ STT_byz_mission_six = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-			province_id = 3096
-			province_id = 3752
-			area = bulgaria_area
-			area = east_bulgaria_area
-			area = vidin_area
-			area = tarnovo_area
+				province_id = 3096
+				province_id = 3752
+				area = bulgaria_area
+				area = east_bulgaria_area
+				area = vidin_area
+				area = tarnovo_area
 			}
 			NOT = { owned_by = ROOT } 
 		}
@@ -5034,10 +5242,9 @@ STT_byz_mission_six = {
 			add_patriarch_authority = -0.04
 		}
 	}
-	#6.12
-	reestablish_the_theme_system_pp = { #6.13
+	reestablish_the_theme_system_pp = { #6.12
 		icon = mission_asian_trader
-		position = 13
+		position = 12
 		required_missions = { 
 			STT_BYZ_mission_recover_eastern_anatolia
 		}
@@ -5104,44 +5311,65 @@ STT_byz_mission_six = {
 		effect = {
 			hidden_effect = {
 				149 = { change_province_name = "Адрианополь" rename_capital = "Адрианополь" }
+				151 = { change_province_name = "Константинополь" rename_capital = "Константинополь" }
 				316 = { change_province_name = "Оптиматы" rename_capital = "Никомедия" }
 				317 = { change_province_name = "Опсикий" rename_capital = "Прусса" }
 				318 = { change_province_name = "Смирна" rename_capital = "Смирна" }
 				319 = { change_province_name = "Ликия" rename_capital = "Ликия" }
-				#322 = { change_province_name = "Кютахья" rename_capital = "Кютахья" } #STT
-				322 = { change_province_name = "Фригия" rename_capital = "Фригия" } #STT
+				322 = { change_province_name = "Котяйон" rename_capital = "Котяйон" } #STT
 				323 = { change_province_name = "Иконий" rename_capital = "Икониум" }
 				324 = { change_province_name = "Ларинда" rename_capital = "Ларинда" }
 				325 = { change_province_name = "Пафлагония" rename_capital = "Амастрис" }
 				326 = { change_province_name = "Галатия" rename_capital = "Ангира" }
 				328 = { change_province_name = "Синоп" rename_capital = "Синоп" }
 				329 = { change_province_name = "Себастия" rename_capital = "Себастия" }
-				330 = { change_province_name = "Трапезунд" rename_capital = "Трапезунд" }
+				331 = { change_province_name = "Феодосиополь" rename_capital = "Феодосиополь" }
+				332 = { change_province_name = "Германикея" rename_capital = "Германикея" }
 				327 = { change_province_name = "Киликея" rename_capital = "Атана" }
 				1846 = { change_province_name = "Армениакон" rename_capital = "Амасея" }
 				1848 = { change_province_name = "Анатоликон" rename_capital = "Анатоликон" }
-				151 = { change_province_name = "Константинополь" rename_capital = "Константинополь" }
 				2296 = { change_province_name = "Абидос" rename_capital = "Пигай" }
-				2297 = { change_province_name = "Фракиссия" rename_capital = "Магнисия" }
+				2297 = { change_province_name = "Бергамон" rename_capital = "Бергамон" }
 				2298 = { change_province_name = "Атталия" rename_capital = "Атталия" }
 				2299 = { change_province_name = "Букеларии" rename_capital = "Клавдиполь" }
 				2300 = { change_province_name = "Каппадокия" rename_capital = "Тавиум" }
 				2301 = { change_province_name = "Харсиан" rename_capital = "Цесария" }
-				2302 = { change_province_name = "Селевкия" rename_capital = "Кермараг" }
-				2304 = { change_province_name = "Амиссос" rename_capital = "Амиссос" }
+				2302 = { change_province_name = "Анемурион" rename_capital = "Анемурион" }
+				2305 = { change_province_name = "Кельцене" rename_capital = "Кельцене" }
 				2750 = { change_province_name = "Филиппополь" rename_capital = "Филиппополь" }
 				#STT
-				2304 = { change_province_name = "Мезия" rename_capital = "Мезия" }
 				3106 = { change_province_name = "Траянополис" rename_capital = "Траянополис" }
 				3108 = { change_province_name = "Гарсаруа" rename_capital = "Гарсаруа" }
+				3109 = { change_province_name = "Каларонос" rename_capital = "Каларонос" }
 				3110 = { change_province_name = "Тралл" rename_capital = "Тралл" }
 				3111 = { change_province_name = "Халдия" rename_capital = "Халдия" }
+				3112 = { change_province_name = "Гангры" rename_capital = "Гангры" }
 				3114 = { change_province_name = "Мелитена" rename_capital = "Мелитена" }
+				3122 = { change_province_name = "Хосомачон" rename_capital = "Хосомачон" }
 				3128 = { change_province_name = "Дорилей" rename_capital = "Дорилей" }
 				3261 = { change_province_name = "Аморион" rename_capital = "Аморион" }
 				3262 = { change_province_name = "Ликанда" rename_capital = "Ликанда" }
 				3263 = { change_province_name = "Архелай" rename_capital = "Архелай" }
 				3264 = { change_province_name = "Стримон" rename_capital = "Стримон" }
+				3636 = { change_province_name = "Селевкия" rename_capital = "Селевкия" }
+				3639 = { change_province_name = "Дидима" rename_capital = "Дидима" }
+				3640 = { change_province_name = "Фиатира" rename_capital = "Фиатира" }
+				3641 = { change_province_name = "Палеокастрон" rename_capital = "Палеокастрон" }
+				3644 = { change_province_name = "Иераполь" rename_capital = "Иераполь" }
+				3645 = { change_province_name = "Усакейон" rename_capital = "Усакейон" }
+				3648 = { change_province_name = "Лагия" rename_capital = "Лагия" }
+				3651 = { change_province_name = "Тавия" rename_capital = "Тавия" }
+				3652 = { change_province_name = "Юстинианополь" rename_capital = "Юстинианополь" }
+				3653 = { change_province_name = "Евдокия" rename_capital = "Евдокия" }
+				3656 = { change_province_name = "Пафра" rename_capital = "Пафра" }
+				3657 = { change_province_name = "Акротири" rename_capital = "Акротири" }
+				3661 = { change_province_name = "Котиара" rename_capital = "Котиара" }
+				3851 = { change_province_name = "Клавдиполис" rename_capital = "Клавдиполис" }
+				3855 = { change_province_name = "Тея" rename_capital = "Тея" }
+				3853 = { change_province_name = "Зефирия" rename_capital = "Зефирия" }
+				3858 = { change_province_name = "Магнесия" rename_capital = "Магнесия" }
+				3860 = { change_province_name = "Самосата" rename_capital = "Самосата" }
+				3861 = { change_province_name = "Ромкла" rename_capital = "Ромкла" }
 			}
 			custom_tooltip = reestablishing_themes_names_tooltip
 			add_prestige = 50 #STT
@@ -5172,11 +5400,12 @@ STT_byz_mission_six = {
 			}
 		}
 	}
-	STT_byz_mission_recover_edessa = { #6.14
+	STT_byz_mission_recover_edessa = { #6.13
 		icon = STT_byz_mission_recover_edessa
-		position = 14
+		position = 13
 		required_missions = { 
 			reestablish_the_theme_system_pp
+			recover_antioch
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -5214,6 +5443,7 @@ STT_byz_mission_six = {
 			}
 		}
 	}
+	#6.14
 	#6.15
 	STT_BYZ_mission_persian_gulf = { #6.16
 		icon = STT_BYZ_mission_persian_gulf
@@ -5230,11 +5460,11 @@ STT_byz_mission_six = {
 		}
 		trigger = {
 			patriarch_authority = 0.75
-			rakka_area = {
+			iraq_arabi_area = {
 				type = all
 				owned_by = ROOT
 			}
-			al_jazira_area = {
+			basra_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -5373,26 +5603,23 @@ STT_byz_mission_seven = {
 		}
 		provinces_to_highlight = {
 			OR = {
-			province_id = 142
-			province_id = 151
-			province_id = 163
-			province_id = 3003
-			province_id = 164
-			province_id = 3659
-			province_id = 320
-			province_id = 2348
+				area = western_aegean_area
+				area = eastern_aegean_area
+				province_id = 142
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			owns = 151
 			owns = 142
-			owns = 163
-			owns = 3003
-			owns = 164
-			owns = 3659
-			owns = 320
-			owns = 2348
+			owns = 151
+			western_aegean_area = {
+				type = all
+				owned_by = ROOT
+			}
+			eastern_aegean_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		effect = {
 			add_prestige = 10
@@ -5405,7 +5632,15 @@ STT_byz_mission_seven = {
 			add_country_modifier = {
 				name = "byz_islands_around_greece"
 				duration = 3650
-		    }	
+		    }
+			3951 = { change_province_name = "Китира" rename_capital = "Китира" }
+			cyprus_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	STT_byz_mission_recover_cyprus = { #7.5
@@ -5416,24 +5651,19 @@ STT_byz_mission_seven = {
         }
 		provinces_to_highlight = {
 			OR = {
-				province_id = 321
-				province_id = 3660
+				area = cyprus_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { owned_by = ROOT }
 		}
         trigger = {
             owns = 151
-			owns = 321
-			owns = 3660
+			cyprus_area = {
+				type = all
+				owned_by = ROOT
+			}
         }
         effect = {
-			321 = {
-				add_province_modifier = {
-					name = "byz_recover_greeks"
-					duration = 5475
-				}
-			}
-			3660 = {
+			cyprus_area = {
 				add_province_modifier = {
 					name = "byz_recover_greeks"
 					duration = 5475
@@ -5666,6 +5896,8 @@ STT_byz_mission_seven = {
 								culture = turkish
 								culture = pontic_greek
 								culture = armenian
+								culture = cappadocian
+								culture = cilician
 								culture = kurdish
 							}
 						}
@@ -5687,7 +5919,9 @@ STT_byz_mission_seven = {
 								culture = turkish
 								culture = pontic_greek
 								culture = armenian
-								culture = lazian
+								culture = cappadocian
+								culture = cilician
+								culture = kurdish
 							}
 						}
 						add_province_modifier = {
@@ -5787,9 +6021,9 @@ STT_byz_mission_seven = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = pontus_area
-						area = rum_area
-						area = cilicia_area
+							area = pontus_area
+							area = rum_area
+							area = cilicia_area
 						}
 					}
 					change_culture = greek
@@ -5804,9 +6038,9 @@ STT_byz_mission_seven = {
 				every_owned_province = {
 					limit = {
 						OR = {
-						area = erzurum_area
-						area = dulkadir_area
-						area = north_kurdistan_area
+							area = erzurum_area
+							area = dulkadir_area
+							area = north_kurdistan_area
 						}
 					}
 					if = {

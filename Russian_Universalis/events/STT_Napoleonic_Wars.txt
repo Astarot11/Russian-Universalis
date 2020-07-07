@@ -1,0 +1,99 @@
+#Pilnitsa Declaration
+country_event = {
+	id = addon.39
+	title = "addon.39"
+	desc = "addon.39.desc"
+	picture = addon.39
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	OR = {
+	has_country_flag = revolution
+	has_reform = revolutionary_republic_reform
+	}
+	has_country_flag = had_execution_of_king_louis_event_flag
+	is_year = 1789
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+	name = "addon.39.a"
+	PRU = { add_historical_rival = FRA }
+	HAB = { add_historical_rival = FRA }
+	HAB = { create_alliance = PRU }
+	}
+}
+
+#Break with Russia
+country_event = {
+	id = addon.44
+	title = "addon.44"
+	desc = "addon.44.desc"
+	picture = addon.44
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	OR = {
+	has_country_flag = revolution
+	has_reform = revolutionary_republic_reform
+	has_reform = revolutionary_empire_reform
+		}
+	has_country_flag = fra_monarch_executed
+	is_year = 1789
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+	name = "addon.44.a"
+	RUS = { 
+	add_opinion = {
+    who = FRA
+    modifier = execution_of_louis_XVI
+			}
+		}
+	}
+}
+
+#Napoleon's Concordat
+country_event = {
+	id = addon.45
+	title = "addon.45"
+	desc = "addon.45.desc"
+	picture = addon.45
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	OR = {
+	has_country_flag = revolution
+	has_reform = revolutionary_republic_reform
+	has_reform = revolutionary_empire_reform
+		}
+	is_year = 1800
+	exists = PAP
+	NOT = { war_with = PAP }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+	name = "addon.45.a"
+	add_country_modifier = {
+	name = concordat
+	duration = 36500
+		}
+	}
+}

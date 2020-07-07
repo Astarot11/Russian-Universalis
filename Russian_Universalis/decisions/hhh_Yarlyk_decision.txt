@@ -3,7 +3,10 @@ country_decisions = {
 	knyaz_off_notif = {
 		major = yes
 		potential = {
+			OR = {
 			primary_culture = russian
+			primary_culture = ryazanian
+			}
 			has_ruler_modifier = great_knyaz
 			exists = GLH
 			NOT = { has_global_flag = knyaz_off_notification }
@@ -21,7 +24,10 @@ country_decisions = {
 	knyaz_on_notif = {
 		major = yes
 		potential = {
+			OR = {
 			primary_culture = russian
+			primary_culture = ryazanian
+			}
 			has_ruler_modifier = great_knyaz
 			exists = GLH
 			has_global_flag = knyaz_off_notification
@@ -40,7 +46,10 @@ country_decisions = {
 	knyaz_claimant = {
 		major = yes
 		potential = {
+			OR = {
 			primary_culture = russian
+			primary_culture = ryazanian
+			}
 			is_subject_of_type = tributary_state
 			exists = GLH
 			exists = VLD
@@ -207,6 +216,7 @@ country_decisions = {
 						is_subject_of_type = tributary_state
 						primary_culture = russian
 						primary_culture = novgorodian
+						primary_culture = ryazanian
 						NOT = { total_development = 31 }
 						}
 						culture_group = east_slavic
@@ -235,7 +245,10 @@ country_decisions = {
 		}
 		allow = {
 			any_known_country = {
+				OR = {
 				primary_culture = russian
+				primary_culture = ryazanian
+				}
 				is_subject_of_type = tributary_state
 				reverse_has_opinion = { who = GLH value = 5 } 
 			}			
@@ -256,7 +269,10 @@ country_decisions = {
 							random_country = {
 								limit = {
 									reverse_has_opinion = { who = GLH value = 5 } 
+									OR = {
 									primary_culture = russian
+									primary_culture = ryazanian
+										}
 									is_subject_of_type = tributary_state
 								}
 								country_event = { id = rushorde.1 }

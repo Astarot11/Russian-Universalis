@@ -13,17 +13,17 @@ war_goal = {
 
 1454.9.18 = {
 	battle = {
-		name = "Хойнице"
+		name = "Chojnice"
 		location = 48
 		attacker = {
-			commander = "Казимир IV"		# Casimir IV
+			commander = "Casimir IV"		# Casimir IV
 			infantry = 3000
 			cavalry = 16000
 			losses = 17		# percent
 			country = POL
 		}
 		defender = {
-			commander = "Бернард Шумборский"		# Bernard Szumborski
+			commander = "Bernard Szumborski"		# Bernard Szumborski
 			infantry = 6000
 			cavalry = 9000
 			losses = 1		# percent
@@ -36,17 +36,17 @@ war_goal = {
 
 1462.9.17 = {
 	battle = {
-		name = "Жарновец"
+		name = "Swiecino"
 		location = 43
 		attacker = {
-			commander = "Петр Дунин"		# Piotr Dunin
+			commander = "Piotr Dunin"		# Piotr Dunin
 			infantry = 1200
 			cavalry = 900
 			losses = 15		# percent
 			country = POL
 		}
 		defender = {
-			commander = "Фриц Равенек"		# Fritz Raweneck
+			commander = "Fritz Raweneck"		# Fritz Raweneck
 			infantry = 1600
 			cavalry = 1000
 			losses = 50		# percent

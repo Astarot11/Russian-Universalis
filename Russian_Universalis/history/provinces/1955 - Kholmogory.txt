@@ -3,7 +3,7 @@
 owner = NOV 
 controller = NOV 
 culture = novgorodian
-religion = orthodox
+religion = slavic
 hre = no
 base_tax = 1 
 base_production = 1
@@ -22,7 +22,7 @@ discovered_by = western
 extra_cost = 15
 
  
-
+1472.1.1 = { religion = orthodox }
 1478.1.15 = {
 	owner = MOS
 	controller = MOS

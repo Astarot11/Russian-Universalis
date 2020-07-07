@@ -14,7 +14,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_steel_mill"
-		texturefile = "gfx//interface//buildings//steel_mill.dds"
+		texturefile = "gfx//interface//buildings//steel_mill.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -250,6 +250,49 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//northamerica_canal_system.tga"
 		loadType = "INGAME"
 	}
+	######################################################################
+	####################################################################
+	spriteType = {
+		name = "GFX_fort_14th"
+		texturefile = "gfx//interface//buildings//latin_fort000.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_easterngfx"
+		texturefile = "gfx//interface//buildings//eastern_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_muslimgfx"
+		texturefile = "gfx//interface//buildings//muslim_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_africangfx"
+		texturefile = "gfx//interface//buildings//african_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_chinesegfx"
+		texturefile = "gfx//interface//buildings//chinese_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_indiangfx"
+		texturefile = "gfx//interface//buildings//indian_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_northamericagfx"
+		texturefile = "gfx//interface//buildings//northamerica_fort00.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_14th_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort00.dds"
+		loadType = "INGAME"
+	}
+	
 }
 	######################################################################
 	####################################################################

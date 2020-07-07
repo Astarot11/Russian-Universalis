@@ -1,4 +1,4 @@
-name = "Second Ottoman-Byzantine War"
+name = "Вторая Византийско-Османская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

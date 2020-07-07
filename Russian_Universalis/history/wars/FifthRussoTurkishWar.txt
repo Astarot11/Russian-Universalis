@@ -1,4 +1,4 @@
-name = "Пятая русско-турецкая война"
+name = "Пятая Русско-Турецкая война"
 war_goal = {
 	type = take_capital_liberation
 	casus_belli = cb_liberation

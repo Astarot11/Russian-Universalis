@@ -1,6 +1,6 @@
 owner = ATH
 controller = ATH
-culture = greek
+culture = arvanite
 religion = orthodox
 capital = "Фивы"
 trade_goods = fish

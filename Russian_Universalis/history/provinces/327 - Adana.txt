@@ -2,7 +2,7 @@
 
 owner = KIL			### STT
 controller = KIL	### STT
-culture = armenian
+culture = cilician
 religion = coptic
 capital = "Адана"	### STT
 trade_goods = cotton

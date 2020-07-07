@@ -180,7 +180,7 @@ guiTypes = {
 		{
 			name ="strengthen_government"
 			quadTextureSprite= "GFX_standard_button_224"
-			position = { x= 56 y = 188 }
+			position = { x= 56 y = 170 }
 			buttonText = "STRENGTHEN_GOVERNMENT"
 			buttonFont = "vic_18"
 		}
@@ -680,7 +680,7 @@ guiTypes = {
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
 				clicksound = back_click
-				text = "BONUS_GKS"
+				text = "BONUS_STT"
 				font = "vic_18"
 			}
 
@@ -734,7 +734,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			text = "COUNTRY_MODIFIERS_GKS"	#Изменил на свой
+			text = "COUNTRY_MODIFIERS_STT"	#Изменил на свой
 			maxWidth = 136
 			maxHeight = 32
 			format = center #Центровка

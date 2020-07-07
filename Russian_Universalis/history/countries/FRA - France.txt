@@ -1358,7 +1358,7 @@ add_government_reform = autocracy_reform }
 		name = "Учредительное собрание"
 		adm = 3
 		dip = 1
-		mil = 2
+		mil = 3
 		regent = yes
 	}
 }
@@ -1380,8 +1380,11 @@ add_government_reform = autocracy_reform }
 
 #1792.4.1 = { leader = {	name = "Франсуа Келлерман"	type = general		fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1814.4.6 } }
 
-1792.9.21 = { government = republic add_government_reform = revolutionary_republic_reform revolution_target = yes government_rank = 3 } # The establishment of the First Republic
-
+1792.9.21 = {
+	government = republic
+	add_government_reform = revolutionary_republic_reform
+	revolution_target = yes government_rank = 3
+} # The establishment of the First Republic
 #1792.9.21 = { leader = {	name = "Андре Массена"		type = general		fire = 4	shock = 5	manuever = 4	siege = 2 	death_date = 1814.4.6 } } # Removed /SWЦ
 #1792.9.21 = { leader = {	name = "Жан Виктор Моро"	type = general		fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 1813.9.2 } }
 #1792.9.21 = { leader = {	name = "Никола Удино"	type = general		fire = 5	shock = 3	manuever = 3	siege = 1	death_date = 1814.4.6 } }
@@ -1392,14 +1395,14 @@ add_government_reform = autocracy_reform }
 1792.9.21 = {
 	monarch = {
 		name = "Национальный конвент"
-		adm = 2
+		adm = 3
 		dip = 0
-		mil = 1
+		mil = 4
 		regent = yes
 	}
 }
 
-#1793.1.21 = { leader = {	name = "Жан Б. Жардан"	type = general		fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1814.4.6 } }
+#1793.1.21 = { leader = {	name = "Жан-Батист Журдан"	type = general		fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1814.4.6 } }
 
 1793.1.21 = { leader = {	name = "Клод Виктор-Перрен"	type = general		fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1814.4.6 } }
 
@@ -1407,14 +1410,14 @@ add_government_reform = autocracy_reform }
 
 1794.1.1 = { leader = { name = "Никола Сульт"		type = general		fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1851.11.26 } }
 
-1794.1.1 = { leader = { name = "Жан Б. Бернадотт"	type = general		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1810.11.2 } }
+1794.1.1 = { leader = { name = "Жан-Батист Бернадотт"	type = general		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1810.11.2 } }
 
-1794.1.1 = { leader = { name = "Л. Гувион Сен-Сир"	type = general		fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1814.4.6 } }
+1794.1.1 = { leader = { name = "Лоран де Гувион Сен-Сир"	type = general		fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1814.4.6 } }
 
 1793.4.20 = {
 	monarch = {
 		name = "Комитет общественного спасения"
-		adm = 3
+		adm = 5
 		dip = 0
 		mil = 2
 		regent = yes
@@ -1426,22 +1429,22 @@ add_government_reform = autocracy_reform }
 1794.7.27 = {
 	monarch = {
 		name = "Исполнительная Директория"
-		adm = 2
+		adm = 3
 		dip = 0
-		mil = 3
+		mil = 4
 		regent = yes
 	}
 }
 
 1795.9.23 = { add_country_modifier = { name = constitution_1795 } remove_country_modifier = constitution_1793 }
 
-1796.1.1 = { leader = {	name = "Пьер Шарль Вильнёв" type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1805.10.21 } }
+1796.1.1 = { leader = {	name = "Пьер-Шарль де Вильнёв" type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1805.10.21 } }
 
 1796.8.1 = { leader = {	name = "Мишель Ней"		type = general		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1815.12.7 } }
 
 1797.1.1 = { leader = { name = "Этьен Макдональд"	type = general		fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 1814.4.11 } }
 
-1797.1.1 = { leader = { name = "Франсуа Лефевр"	type = general		fire = 3	shock = 3	manuever = 3	siege = 2	death_date = 1807.7.9 } }
+1797.1.1 = { leader = { name = "Франсуа Жозеф Лефевр"	type = general		fire = 3	shock = 3	manuever = 3	siege = 2	death_date = 1807.7.9 } }
 
 1799.1.1 = { leader = { name = "Эдуар Мортье"	type = general		fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1835.7.28 } }
 

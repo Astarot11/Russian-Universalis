@@ -1,3 +1,5 @@
+#3336 - Tazirbu
+
 culture = berber
 religion = sunni
 capital = "Tazirbu"

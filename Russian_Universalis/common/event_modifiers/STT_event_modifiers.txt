@@ -1,0 +1,5 @@
+stt_reforming_government_modifier = {
+	technology_cost = -0.33
+	idea_cost = -0.05
+	stability_cost_modifier = 0.33
+}

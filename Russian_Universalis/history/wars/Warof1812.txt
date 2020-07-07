@@ -1,4 +1,4 @@
-name = "Англо-американская война"
+name = "Война 1812 года"
 
 war_goal = {
 	type = superiority_trade_mutual
@@ -12,16 +12,16 @@ war_goal = {
 
 1812.8.15 = {
 	battle = {
-		name = "Детройт"
+		name = "Detroit"
 		location = 944
 		attacker = {
-			commander = "Уильям Халл"	# William Hull
+			commander = "William Hull"	# William Hull
 			infantry = 2500
 			losses = 1	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Исаак Брок"	# Isaac Brock
+			commander = "Isaac Brock"	# Isaac Brock
 			infantry = 1250
 			losses = 1	# percent
 			country = GBR
@@ -32,16 +32,16 @@ war_goal = {
 
 1812.10.13 = {
 	battle = {
-		name = "Квинстон-Хайтс"
+		name = "Queenston Heights"
 		location = 986
 		attacker = {
-			commander = "Стефан ван Ренсселаер"	# Stephen Van Rensselaer
+			commander = "Stephen Van Rensselaer"	# Stephen Van Rensselaer
 			infantry = 1500
 			losses = 2	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Исаак Брок"	# Isaac Brock 
+			commander = "Isaac Brock"	# Isaac Brock 
 			infantry = 1300
 			losses = 1	# percent
 			country = GBR
@@ -52,16 +52,16 @@ war_goal = {
 
 1812.11.20 = {
 	battle = {
-		name = "Лаколь-Миллс"
+		name = "Lacolle Mills"
 		location = 994
 		attacker = {
-			commander = "Генри Диборн"	# Henry Dearborn
+			commander = "Henry Dearborn"	# Henry Dearborn
 			infantry = 600
 			losses = 2	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Шарль де Салаберри"	# Charles de Salaberry
+			commander = "Charles de Salaberry"	# Charles de Salaberry
 			infantry = 500
 			losses = 0	# percent
 			country = GBR
@@ -72,16 +72,16 @@ war_goal = {
 
 1813.2.22 = {
 	battle = {
-		name = "Огденсбург"
+		name = "Ogdensburg"
 		location = 964
 		attacker = {
-			commander = "Бенджамин Форсайт"	# Benjamin Forsyth
+			commander = "Benjamin Forsyth"	# Benjamin Forsyth
 			infantry = 250
 			losses = 36	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Джордж Макдоннелл"	# George MacDonnell
+			commander = "George MacDonnell"	# George MacDonnell
 			infantry = 500
 			losses = 11	# percent
 			country = GBR
@@ -92,16 +92,16 @@ war_goal = {
 
 1813.4.27 = {
 	battle = {
-		name = "Йорк"
+		name = "York"
 		location = 986
 		attacker = {
-			commander = "Зебулон Пайк"	# Zebulon Pike 
+			commander = "Zebulon Pike "	# Zebulon Pike 
 			infantry = 2000
 			losses = 16	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Роджер Шиффе"	# Roger Sheaffe
+			commander = "Roger Sheaffe"	# Roger Sheaffe
 			infantry = 700
 			losses = 21	# percent
 			country = GBR
@@ -112,16 +112,16 @@ war_goal = {
 
 1813.6.6 = {
 	battle = {
-		name = "Стони-Крик"
+		name = "Stoney Creek"
 		location = 987
 		attacker = {
-			commander = "Джон Чандлер"	# John Chandler
+			commander = "John Chandler"	# John Chandler
 			infantry = 3400
 			losses = 2	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Джон Винсент"	# John Vincent
+			commander = "John Vincent"	# John Vincent
 			infantry = 700
 			losses = 3	# percent
 			country = GBR
@@ -132,16 +132,16 @@ war_goal = {
 
 1813.10.25 = {
 	battle = {
-		name = "Шатогуе"
+		name = "Chateauguay"
 		location = 994
 		attacker = {
-			commander = "Уэйд Хэмптон"	# Wade Hampton
+			commander = "Wade Hampton"	# Wade Hampton
 			infantry = 4000
 			losses = 1	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Шарль де Салаберри"	# Charles de Salaberry
+			commander = "Charles de Salaberry"	# Charles de Salaberry
 			infantry = 570
 			losses = 1	# percent
 			country = GBR
@@ -152,16 +152,16 @@ war_goal = {
 
 1813.11.11 = {
 	battle = {
-		name = "Ферма Крайслера"
+		name = "Crysler's farm"
 		location = 989
 		attacker = {
-			commander = "Джеймс Уилкинсон"	# James Wilkinson
+			commander = "James Wilkinson"	# James Wilkinson
 			infantry = 2500
 			losses = 1	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Уильям Малкастер"	# William Mulcaster
+			commander = "William Mulcaster"	# William Mulcaster
 			infantry = 800
 			losses = 4	# percent
 			country = GBR
@@ -172,16 +172,16 @@ war_goal = {
 
 1814.7.5 = {
 	battle = {
-		name = "Чиппава"
+		name = "Chippawa"
 		location = 987
 		attacker = {
-			commander = "Джейкоб Браун"	# Jacob Brown
+			commander = "Jacob Brown"	# Jacob Brown
 			infantry = 3500
 			losses = 2	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Файнеас Риалл"	# Phineas Riall
+			commander = "Phineas Riall"	# Phineas Riall
 			infantry = 2000
 			losses = 7	# percent
 			country = GBR
@@ -192,16 +192,16 @@ war_goal = {
 
 1814.8.24 = {
 	battle = {
-		name = "Бладенсбург"
+		name = "Bladensburg"
 		location = 953
 		attacker = {
-			commander = "Уильям Уиндер"	# William H. Winder
+			commander = "William H. Winder"	# William H. Winder
 			infantry = 4500
 			losses = 1	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Роберт Росс"	# Robert Ross
+			commander = "Robert Ross"	# Robert Ross
 			infantry = 7000
 			losses = 1	# percent
 			country = GBR
@@ -212,16 +212,16 @@ war_goal = {
 
 1814.9.6 = {
 	battle = {
-		name = "Платтсбург"
+		name = "Plattsburgh"
 		location = 964
 		attacker = {
-			commander = "Томас Макдонау"	# Thomas MacDonough
+			commander = "Thomas MacDonough"	# Thomas MacDonough
 			infantry = 3400
 			losses = 6	# percent
 			country = USA
 		}
 		defender = {
-			commander = "Джордж Превост"	# George Prevost
+			commander = "George Prevost"	# George Prevost
 			infantry = 11000
 			losses = 3	# percent
 			country = GBR

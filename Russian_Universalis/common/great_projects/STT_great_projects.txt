@@ -7,6 +7,7 @@ stt_asofia = {
 	time = 120
 }
 kremlin = {
+	ambient_object = nammi_kremlin_entity
 	province = 295
 	time = 120
 }
@@ -42,6 +43,7 @@ alhambra = {
 	time = 120
 }
 alex_mayak = {
+	ambient_object = RU_lighthouse
 	province = 358
 	time = 120
 }
@@ -58,6 +60,7 @@ atesgah = {
 	time = 120
 }
 tower = {
+	ambient_object = nammi_tower_of_london_entity
 	province = 236
 	time = 120
 }
@@ -76,4 +79,29 @@ zam_if = {
 aachen_palace = {
 	province = 201
 	time = 120
+}
+RU_shipwreck_1 = {
+	ambient_object = RU_shipwreck_1
+	province = 982
+	time = 0
+}
+RU_shipwreck_2 = {
+	ambient_object = RU_shipwreck_2
+	province = 986
+	time = 0
+}
+RU_shipwreck_3 = {
+	ambient_object = RU_shipwreck_3
+	province = 2578
+	time = 0
+}
+RU_shipwreck_4 = {
+	ambient_object = RU_shipwreck_4
+	province = 2574
+	time = 0
+}
+RU_shipwreck_5 = {
+	ambient_object = RU_shipwreck_5
+	province = 2573
+	time = 0
 }

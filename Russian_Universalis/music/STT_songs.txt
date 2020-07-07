@@ -16,3 +16,15 @@ song = {
 		}
 	}
 }
+song = {
+	name = "Adrian Von Ziegler - Из эпохи пиратов"
+	chance = {
+        modifier = {
+			factor = 1.35
+			tag = KNI
+		}
+		modifier = {
+			factor = 1
+		}
+	}
+}

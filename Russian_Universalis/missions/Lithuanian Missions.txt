@@ -964,6 +964,7 @@ lithuanian_missions_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_accepted_culture = ryazanian
 		}
 	}
 	lithuania_conquer_tambov = {

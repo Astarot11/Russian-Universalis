@@ -31,4 +31,8 @@ BYZ_small_coalition {
 	yearly_decay = 4
 	years = 10
 }
-
+BYZ_friends {
+	opinion = 50
+	yearly_decay = 5
+	years = 10
+}

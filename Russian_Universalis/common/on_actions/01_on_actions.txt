@@ -129,6 +129,8 @@ on_startup = {
 		stt_startgame.5 #dan' orde
 		stt_startgame.7 #achivki
 		stt_wek.200 #fort v konstantinopole
+		stt_k_gen.1 #scenario 1310 pirates
+		stt_k_gen.22 #scenario 1309 for byzantium
 	}
 	if = {
 		limit = {
@@ -265,7 +267,19 @@ on_startup = {
 			duration = -1
 	}
 	}
-}
+	if = {
+		limit = {
+			tag = NOR
+			NOT = { started_in = 1400.1.1 }
+		}
+		random_list = {
+			20 = { 982 = { add_great_project = RU_shipwreck_1 } }
+			20 = { 986 = { add_great_project = RU_shipwreck_2 } }
+			20 = { 2578 = { add_great_project = RU_shipwreck_3 } }
+			20 = { 2574 = { add_great_project = RU_shipwreck_4 } }
+			20 = { 2573 = { add_great_project = RU_shipwreck_5 } }
+		}
+	}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
 }
 

@@ -1,4 +1,4 @@
-name = "Четвертая турецко-австрийская война" 
+name = "Четвёртая Османо-Габсбургская война" 
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

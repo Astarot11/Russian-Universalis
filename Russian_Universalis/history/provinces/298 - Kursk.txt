@@ -2,7 +2,7 @@
 
 owner = RIL
 controller = RIL
-culture = russian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 2

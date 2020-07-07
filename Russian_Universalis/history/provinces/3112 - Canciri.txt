@@ -1,10 +1,8 @@
-#2300 - Bozok
-
 owner = GRM
 controller = GRM
 culture = turkish
 religion = sunni
-capital = "Canciri"
+capital = "Чанкыры"
 trade_goods = wool
 hre = no
 base_tax = 2 

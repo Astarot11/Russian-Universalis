@@ -1,4 +1,4 @@
-name = "Индийская кампания войны за австрийское наследство"
+name = "Первая Карнатикская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

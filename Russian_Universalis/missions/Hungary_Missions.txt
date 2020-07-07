@@ -279,12 +279,29 @@ hun_south_group = {
 		position = 6
 		
 		provinces_to_highlight = {
-			area = bulgaria_area
+			OR = {
+				area = bulgaria_area
+				area = vidin_area
+				area = tarnovo_area
+				area = east_bulgaria_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
 			bulgaria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			vidin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tarnovo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_bulgaria_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -357,6 +374,27 @@ hun_ottoman_group = {
 				add_permanent_claim = ROOT
 			}
 			bulgaria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			vidin_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tarnovo_area = { 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			east_bulgaria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }

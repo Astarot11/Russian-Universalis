@@ -1,4 +1,4 @@
-name = "Русско-персидская война"
+name = "Русско-Персидская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

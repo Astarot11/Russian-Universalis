@@ -1,0 +1,10 @@
+wallachia_op_up_1 = {
+	opinion = 100
+	years = 10
+	yearly_decay = 1
+}
+wallachia_op_down_1 = {
+	opinion = -100
+	years = 10
+	yearly_decay = 1
+}

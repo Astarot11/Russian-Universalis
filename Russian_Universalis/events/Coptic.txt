@@ -26,10 +26,7 @@ country_event = {
 
 	trigger = {
 		owns = 1227
-		OR = {
 			religion = coptic
-			uses_blessings = yes
-		}
 		has_dlc = "Rights of Man"
 	}
 
@@ -83,10 +80,7 @@ country_event = {
 			}
 			has_country_flag = alexandria_mission_flag
 		}
-		OR = {
 			religion = coptic
-			uses_blessings = yes
-		}
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_alexandria_liberated } #Cancels Mission 
 	}
@@ -187,10 +181,7 @@ country_event = {
 			has_country_flag = yerevan_mission_flag
 		}
 		owns = 419
-		OR = {
 			religion = coptic
-			uses_blessings = yes
-		}
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_yerevan_liberated }
 	}
@@ -251,10 +242,7 @@ country_event = {
 			has_country_flag = antioch_mission_flag
 		}
 		owns = 2313
-		OR = {
 			religion = coptic
-			uses_blessings = yes
-		}
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_conquest_of_antioch }
 	}
@@ -313,10 +301,7 @@ country_event = {
 		1234 = {
 			religion = coptic
 		}
-		OR = {
 			religion = coptic
-			uses_blessings = yes
-		}
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_qasr_ibrim_liberated }
 	}

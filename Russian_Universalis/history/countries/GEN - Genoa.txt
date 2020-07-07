@@ -5,6 +5,8 @@ mercantilism = 0.25
 primary_culture = ligurian
 religion = catholic
 technology_group = western
+historical_rival = SRU
+historical_friend = SCH
 capital = 101	# Genova
 fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
 

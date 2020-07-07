@@ -1,4 +1,4 @@
-name = "Russo-Swedish War"
+name = "Русско-Шведская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -8,14 +8,12 @@ war_goal = {
 # Russo-Polish War
 1656.6.1 = {
 	add_attacker = TSR
-	
 	add_defender = SWE
 }
 
 
 1661.6.21 = {
 	rem_defender = SWE
-	
 	rem_attacker = TSR
 }
 

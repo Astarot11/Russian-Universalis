@@ -1,4 +1,4 @@
-name = "Итало-французская война"
+name = "Франко-Итальянская война"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core
@@ -32,10 +32,10 @@ war_goal = {
 
 1544.4.11 = {
 	battle = {
-		name = "Черезоле"
+		name = "Ceresole"
 		location = 103
 		attacker = {
-			commander = "Франсуа де Вандом"	# Francois de Vendome
+			commander = "Francois de Vendome"	# Francois de Vendome
 			infantry = 15000
 			cavalry = 2000
 			artillery = 20
@@ -43,7 +43,7 @@ war_goal = {
 			country = FRA
 		}
 		defender = {
-			commander = "Маркиз дель Васто" 	# Marques del Vasto
+			commander = "Marques del Vasto" 	# Marques del Vasto
 			infantry = 18000
 			cavalry = 1500
 			artillery = 25
@@ -56,17 +56,17 @@ war_goal = {
 
 1545.7.18 = {
 	battle = {
-		name = "Солент"
+		name = "Solent"
 		location = 1272
 		attacker = {
-			commander = "Клод д'Аннебо"	# Claude d'Annebault
+			commander = "Claude d'Annebault"	# Claude d'Annebault
 			heavy_ship = 80 
 			light_ship = 60
 			losses = 10	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Джон Дадли"	# John Dudley
+			commander = "John Dudley"	# John Dudley
 			heavy_ship = 70
 			light_ship = 20
 			losses = 5	# percent

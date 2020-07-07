@@ -14,6 +14,7 @@ country_decisions = {
 			OR = {
 				primary_culture = novgorodian
 				primary_culture = russian
+				primary_culture = ryazanian
 			}
 			government = monarchy
 		}
@@ -213,6 +214,7 @@ country_decisions = {
 				tag = VNO
 				primary_culture = russian
 				primary_culture = novgorodian
+				primary_culture = ryazanian
 			}
 			government = republic
 			OR = {

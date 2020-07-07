@@ -1,4 +1,4 @@
-name = "Третья гаджапатийско-сангамская война"
+name = "Третья война Гаджапати и Сангама"
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war

@@ -1,4 +1,4 @@
-name = "Русско-турецкая война"
+name = "Русско-Турецкая война"
 war_goal = {
 	type = take_border
 	casus_belli = cb_insult

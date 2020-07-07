@@ -642,3 +642,41 @@ stt_reform_the_byzantine_senate = {
 		yearly_corruption = 0.15
 	}
 }
+
+rome_government = {
+	icon = "stt_rome_government"
+	allow_normal_conversion = yes	
+	lock_level_when_selected = yes # заблокировать возможность менять на другие реформы на данном уровне реформ? Ответ да
+	fixed_rank = 3
+	potential = {
+		NOT = { map_setup = map_setup_random }
+			tag = ROM
+			government = monarchy
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+			}
+		}
+	#условие для использования (чтобы была видна для той или иной страны)
+	valid_for_new_country = no #доступна для выделяемых стран или нет
+	valid_for_nation_designer = yes #доступна ли для конструктора наций или нет
+	nation_designer_cost = 40
+	allow_convert = no
+	modifiers = {
+		administrative_efficiency = 0.1
+		max_states = 20
+		global_unrest = -2
+		development_cost = -0.10
+		max_absolutism = 10
+	}
+	conditional = {
+		monarchy = yes
+		has_parliament = yes
+		republican_name = no
+		royal_marriage = no
+		claim_states = yes
+		rulers_can_be_generals = yes
+		heirs_can_be_generals = yes
+		allow_force_tributary = yes
+	}
+}

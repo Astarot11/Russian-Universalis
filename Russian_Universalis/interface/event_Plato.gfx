@@ -1,0 +1,25 @@
+spriteTypes = { 
+	spriteType = { 
+		name = "plato_culture_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/plato_culture_event_picture.dds" 
+	}
+	spriteType = { 
+		name = "plato_book_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/plato_book_event_picture.dds" 
+	}
+	spriteType = { 
+		name = "street_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/street_event_picture.dds" 
+	}
+	spriteType = { 
+		name = "burn_haus_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/burn_haus_event_picture.dds" 
+	}
+	spriteType = { 
+		name = "hung_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/hung_event_picture.dds" 
+	}
+	spriteType = { 
+		name = "industri_event_picture" 
+		texturefile = "gfx/event_pictures/event_Plato/industri_event_picture.dds" 
+	}

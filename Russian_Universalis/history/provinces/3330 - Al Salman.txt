@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = HUL
 add_core = ANA
+discovered_by = TUT
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

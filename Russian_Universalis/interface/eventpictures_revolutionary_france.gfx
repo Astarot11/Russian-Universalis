@@ -1,0 +1,231 @@
+spriteTypes = { 
+spriteType = { 
+name = "addon.1" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.1.dds" 
+}
+
+spriteType = { 
+name = "addon.2" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.2.dds" 
+}
+
+spriteType = { 
+name = "addon.3" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.3.dds" 
+}
+
+spriteType = { 
+name = "addon.4" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.4.dds" 
+}
+
+spriteType = { 
+name = "addon.5" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.5.dds" 
+}
+
+spriteType = { 
+name = "addon.6" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.6.dds" 
+}
+
+spriteType = { 
+name = "addon.7" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.7.dds" 
+}
+
+spriteType = { 
+name = "addon.8" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.8.dds" 
+}
+
+spriteType = { 
+name = "addon.9" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.9.dds" 
+}
+
+spriteType = { 
+name = "addon.10" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.10.dds" 
+}
+	
+spriteType = { 
+name = "addon.11" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.11.dds" 
+}
+
+spriteType = { 
+name = "addon.12" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.12.dds" 
+}
+
+spriteType = { 
+name = "addon.13" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.13.dds" 
+}
+
+spriteType = { 
+name = "addon.14" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.14.dds" 
+}
+
+spriteType = { 
+name = "addon.15" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.15.dds" 
+}
+
+spriteType = { 
+name = "addon.16" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.16.dds" 
+}
+
+spriteType = { 
+name = "addon.17" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.17.dds" 
+}
+
+spriteType = { 
+name = "addon.18" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.18.dds" 
+}
+
+spriteType = { 
+name = "addon.19" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.19.dds" 
+}
+
+spriteType = { 
+name = "addon.20" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.20.dds" 
+}
+
+spriteType = { 
+name = "addon.21" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.21.dds" 
+}
+
+spriteType = { 
+name = "addon.22" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.22.dds" 
+}
+
+spriteType = { 
+name = "addon.23" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.23.dds" 
+}
+
+spriteType = { 
+name = "addon.24" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.24.dds" 
+}
+
+spriteType = { 
+name = "addon.25" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.25.dds" 
+}
+
+spriteType = { 
+name = "addon.26" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.26.dds" 
+}
+
+spriteType = { 
+name = "addon.27" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.27.dds" 
+}
+
+spriteType = { 
+name = "addon.28" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.28.dds" 
+}
+
+spriteType = { 
+name = "addon.29" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.29.dds" 
+}
+
+spriteType = { 
+name = "addon.30" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.30.dds" 
+}
+
+spriteType = { 
+name = "addon.31" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.31.dds" 
+}
+
+spriteType = { 
+name = "addon.32" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.32.dds" 
+}
+
+spriteType = { 
+name = "addon.33" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.33.dds" 
+}
+
+spriteType = { 
+name = "addon.34" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.34.dds" 
+}
+
+spriteType = { 
+name = "addon.35" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.35.dds" 
+}
+
+spriteType = { 
+name = "addon.36" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.36.dds" 
+}
+
+spriteType = { 
+name = "addon.37" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.37.dds" 
+}
+
+spriteType = { 
+name = "addon.38" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.38.dds" 
+}
+
+spriteType = { 
+name = "addon.39" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.39.dds" 
+}
+
+spriteType = { 
+name = "addon.40" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.40.dds" 
+}
+
+spriteType = { 
+name = "addon.41" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.41.dds" 
+}
+
+spriteType = { 
+name = "addon.42" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.42.dds" 
+}
+
+spriteType = { 
+name = "addon.43" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.43.dds" 
+}
+
+spriteType = { 
+name = "addon.44" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.44.dds" 
+}
+
+spriteType = { 
+name = "addon.45" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.45.dds" 
+	}
+	
+spriteType = { 
+name = "addon.46" 
+texturefile = "gfx/event_pictures/event_revolutionary_france/addon.46.dds" 
+	}	
+}

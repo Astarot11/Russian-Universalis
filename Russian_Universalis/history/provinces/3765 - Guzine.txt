@@ -1,3 +1,5 @@
+#3765 - Guzine
+
 owner = BYZ
 controller = BYZ
 culture = albanian
@@ -15,14 +17,10 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
-1348.1.1 = { 
-	owner = SGT
-	controller = SGT
-	add_core = SGT
-}
+1348.1.1 = {  owner = SGT controller = SGT add_core = SGT }
 1366.1.1 = { owner = ALB controller = ALB add_core = ALB }
 1431.1.1 = { add_core = TU0 }
-1478.6.16 = { owner = TUR controller = TUR }
+1478.6.16 = { owner = TUR controller = TUR add_core = TUR remove_core = TU0 }
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 0  }
 1687.1.1 = { unrest = 6 } # Christian counteroffensive against the Ottomans

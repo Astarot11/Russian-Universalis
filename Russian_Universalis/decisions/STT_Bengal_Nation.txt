@@ -3,7 +3,6 @@ country_decisions = {
 	bengal_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = BNG }
 			primary_culture = bengali
 			OR = {
 				ai = no

@@ -1,0 +1,170 @@
+namespace = slavic_pagan_namespace
+province_event = {
+	id = slavic_pagan_namespace.1
+	title = "slavic_pagan_namespace_1_title"
+	desc = "slavic_pagan_namespace_1_desc"
+	picture = ORTHODOX_eventPicture
+	trigger = {
+	religion = slavic
+	owner = {
+			religion = catholic
+		}
+	NOT = {
+		has_province_modifier = religious_place
+	}
+			}
+	
+	mean_time_to_happen = {
+		months = 72
+		
+		modifier = {
+			factor = 0.3
+			owner = { is_defender_of_faith = yes }
+		}
+		modifier = {
+			factor = 0.4
+			owner = { tag = PAP }
+		}
+		modifier = {
+			factor = 0.2
+			owner = { is_emperor = yes }
+		}
+	}
+	
+	option = {
+		name = slavic_pagan_namespace.1.a
+		set_estate = estate_nobles
+		change_religion = orthodox
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_nationalism = 10
+		ai_chance = {
+			factor = 100
+			}
+	}
+	
+	option = {
+		name = slavic_pagan_namespace.1.b
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+		spawn_rebels = {
+		type = noble_rebels
+		size = 5
+					}
+		ai_chance = {
+			factor = 0
+			}
+	}
+	
+}
+	
+	
+	country_event = {
+	id = slavic_pagan_namespace.2
+	title = "slavic_pagan_namespace.2.t"
+	desc = "slavic_pagan_namespace.2.d"
+	picture = REFORM_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+	    name = "slavic_pagan_namespace.2.a"
+		ai_chance = {
+		    factor = 60
+			}
+		add_stability = -2
+		change_religion = slavic
+		add_country_modifier = {
+			name = "orthodox_resistance"
+			duration = 900
+		}
+		add_country_modifier = {
+			name = "slavic_pagan_reform_finish"
+			duration = -1
+		}
+		random_owned_province = {
+		    spawn_rebels = {
+			    type = orthodox_rebels
+				size = 2
+			}
+		}
+	}
+
+	option = {
+	    name = "slavic_pagan_namespace.2.b"
+		ai_chance = {
+		    factor = 40
+			}
+		add_stability = -3
+		add_adm_power = -100
+		change_religion = slavic
+		add_country_modifier = {
+			name = "orthodox_resistance"
+			duration = 1500
+		}
+		add_country_modifier = {
+			name = "slavic_missionaries"
+			duration = 1500
+		}
+		add_country_modifier = {
+			name = "slavic_pagan_reform_finish"
+			duration = -1
+		}
+		random_owned_province = {
+		    spawn_rebels = {
+			    type = orthodox_rebels
+				size = 4
+			}
+		}
+		random_owned_province = {
+		    spawn_rebels = {
+			    type = orthodox_rebels
+				size = 4
+			}
+		}
+	}
+}
+
+
+	country_event = {
+	id = slavic_pagan_namespace.3
+	title = "slavic_pagan_namespace.3.t"
+	desc = "slavic_pagan_namespace.3.d"
+	picture = ORTHODOX_eventPicture
+	trigger = {
+	religion = slavic
+	tag = VIA
+	is_year = 1435
+			}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	fire_only_once = yes
+		
+	option = {
+	    name = "slavic_pagan_namespace.3.a"
+		ai_chance = {
+		    factor = 95
+			}
+		add_adm_power = 100
+		change_religion = orthodox
+	}
+	
+	option = {
+	    name = "slavic_pagan_namespace.3.b"
+		ai_chance = {
+		    factor = 5
+			}
+	}
+	
+	}

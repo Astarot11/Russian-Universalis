@@ -1,0 +1,104 @@
+#Slavic
+perun = 
+{
+	legitimacy = 1
+	horde_unity = 1
+	republican_tradition = 0.5
+	stability_cost_modifier = -0.15
+	
+	allow = { religion = slavic }
+	sprite = 19
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}			
+	}	
+}
+
+mokosh =
+{
+	development_cost = -0.10
+	build_cost = -0.15
+	
+	allow = { religion = slavic }
+	sprite = 20
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}			
+	}
+}
+
+veles = 
+{
+	technology_cost = -0.05
+	prestige = 1
+	
+	allow = { religion = slavic }
+	sprite = 21
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_diplomat
+		}		
+	}	
+}
+
+
+stribog = 
+{
+	fire_damage = 0.1
+	naval_morale = 0.1
+	
+	allow = { religion = slavic }
+	sprite = 23
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}	
+	}	
+}
+
+svarog = 
+{
+	production_efficiency = 0.1
+	idea_cost = -0.05
+	
+	allow = { religion = slavic }
+	sprite = 22
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}			
+	}	
+}

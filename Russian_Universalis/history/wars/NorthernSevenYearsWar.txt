@@ -1,4 +1,4 @@
-name = "Северная семилетняя война"
+name = "Северная Семилетняя война"
 war_goal = {
 	type = take_capital_personal_union
 	casus_belli = cb_restore_personal_union
@@ -14,17 +14,17 @@ war_goal = {
 
 1565.10.20 = {
 	battle = {
-		name = "Аксторна"
+		name = "Axtorna"
 		location = 26
 		attacker = {
-			commander = "Дениэль Ранцу"	# Daniel Rantzau
+			commander = "Daniel Rantzau"	# Daniel Rantzau
 			infantry = 5000 # Estimate
 			cavalry = 2500 # Estimate
 			losses = 20	#percent
 			country = DAN
 		}
 		defender = {
-			commander = "Якоб Хенрикссон"	# Jacob Henriksson Hдstesko
+			commander = "Jacob Henriksson Hдstesko"	# Jacob Henriksson Hдstesko
 			infantry = 8000 # Estimate
 			cavalry = 3000 # Estimate
 			losses = 14	#percent

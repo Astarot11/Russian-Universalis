@@ -1,4 +1,4 @@
-name = "Гаджапатийское вторжение в Андхру"
+name = "Вторжение Гаджапати в прибрежную Андхру"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

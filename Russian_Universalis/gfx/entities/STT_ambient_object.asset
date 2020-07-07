@@ -1,0 +1,4 @@
+entity = {
+	name = "RU_lighthouse"
+	pdxmesh = "RU_lighthouse"		
+}

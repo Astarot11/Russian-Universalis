@@ -1,7 +1,7 @@
 #322 - Küthaya
 
-owner = BYZ
-controller = BYZ
+owner = GRM
+controller = GRM
 culture = turkish
 religion = sunni
 capital = "Êóòàõüş"
@@ -11,8 +11,8 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
-add_core = BYZ
-fort_15th = yes
+add_core = GRM
+fort_14th = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

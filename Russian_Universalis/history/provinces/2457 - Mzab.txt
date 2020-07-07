@@ -1,10 +1,10 @@
-# - Mzab
+#2457 - Mzab
 
 owner = MZB
 controller = MZB
 culture = berber
 religion = ibadi
-capital = "Ghardaia"
+capital = "Гардабия"
 trade_goods = livestock
 hre = no
 base_tax = 1 

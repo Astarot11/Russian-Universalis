@@ -1,8 +1,8 @@
 #1752 - Rzhev
 
-owner = MRM
-controller = MRM
-culture = russian
+owner = RYA
+controller = RYA
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 2 
@@ -11,7 +11,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Kadom"
 is_city = yes
-add_core = MRM
+add_core = RYA
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
@@ -19,10 +19,16 @@ discovered_by = nomad_group
 1381.1.1 = { owner = MRM controller = MRM add_core = MRM }
 1393.1.1 = { owner = MOS controller = MOS add_core = MOS }
 1450.1.1 = { discovered_by = SIB }
-1452.1.1 = { owner = QAS controller = QAS culture = kazani religion = sunni } # The Qasim Khanate
+1452.1.1 = { owner = QAS controller = QAS add_core = QAS culture = kazani religion = sunni } # The Qasim Khanate
+1521.8.1 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+} # Ryazan annexed by Vasily III
+1547.1.16 = { owner = TSR controller = TSR add_core = TSR remove_core = MOS } ## Ivav IV - tsar
+1550.1.1 = { remove_core = RYA remove_core = PNS }
 1598.1.7 = { unrest = 5 base_manpower = 6 } # "Time of troubles", peasantry brought into serfdom
 1613.3.3 = { unrest = 0 } # Order returned, Romanov dynasty
-1681.1.1 = { owner = TSR controller = TSR add_core = TSR remove_core = QAS culture = mordvin religion = siberian_shamanism } # Absorbed into Russia after the death of Fatima Soltan
 1711.1.1 = { base_tax = 7 base_production = 7 } # Governmental reforms and the absolutism
 1721.11.2 = { owner = RUS controller = RUS add_core = RUS remove_core = TSR } ## Potr I - imperator
 1767.1.1 = { base_tax = 8 base_production = 8 } # Legislative reform

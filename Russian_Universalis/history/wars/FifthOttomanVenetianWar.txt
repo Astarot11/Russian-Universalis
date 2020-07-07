@@ -1,4 +1,4 @@
-name = "Пятая венециано-турецкая война"
+name = "Пятая Турецко-Венецианская война"
 war_goal = {
 	type = superiority_crusade
 	casus_belli = cb_crusade
@@ -16,16 +16,16 @@ war_goal = {
 
 1571.10.7 = { 
 	battle = { 
-		name = "Лепанто" 
+		name = "Lepanto" 
 		location = 1312
 		attacker = { 
-			commander = "Хуан Австрийский"			# John of Austria
+			commander = "John of Austria"			# John of Austria
 			galley = 210
 			losses = 6			# percent 
 			country = SPA
 		} 
 		defender = { 
-			commander = "Али-паша"			# Ali Pasha
+			commander = "Ali Pasha"			# Ali Pasha
 			galley = 260
 			losses = 90			# percent 
 			country = TUR

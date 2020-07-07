@@ -1,6 +1,8 @@
+#2449 - Jufra
+
 culture = berber
 religion = sunni
-capital = "Jufra"
+capital = "Зелла"
 trade_goods = livestock
 hre = no
 base_tax = 1 

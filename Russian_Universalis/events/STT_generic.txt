@@ -1,0 +1,1404 @@
+namespace = stt_k_gen
+
+#Госпитальеры
+country_event = {
+	id = stt_k_gen.1
+	title = stt_k_gen.1.t
+	desc = stt_k_gen.1.d
+	picture = hospitaliers_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {	
+		has_country_modifier = stt_k_gen_start
+		tag = KNI
+	}
+	immediate = {
+		hidden_effect = {
+			SCH = { country_event = { id = stt_k_gen.2 days = 3 } }
+			NGR = { country_event = { id = stt_k_gen.3 days = 3 } }
+			TUN = { country_event = { id = stt_k_gen.4 days = 4 } }
+			KRS = { country_event = { id = stt_k_gen.5 days = 2 } }
+			SRU = { country_event = { id = stt_k_gen.5 days = 2 } }
+			GRM = { country_event = { id = stt_k_gen.5 days = 2 } }
+			AYD = { country_event = { id = stt_k_gen.5 days = 2 } }
+			MEN = { country_event = { id = stt_k_gen.5 days = 2 } }
+			CCZ = { country_event = { id = stt_k_gen.6 days = 1 } }
+			BYZ = { country_event = { id = stt_k_gen.23 days = 1 } }
+		}
+	}
+	option = {
+		name = stt_k_gen.1.1
+		ai_chance = { factor = 30 }
+		SCH = { country_event = { id = stt_k_gen.7 } days = 5 }
+		
+	}
+	option = {
+		name = stt_k_gen.1.2
+		ai_chance = { factor = 15 }
+		every_province = {
+			limit = { is_core = MEN }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_one"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.1.3
+		ai_chance = { factor = 15 }
+		every_province = {
+			limit = { is_core = AYD }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_two"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.1.4
+		ai_chance = { factor = 5 }
+		every_province = {
+			limit = { is_core = KRS }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_zero"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.1.5
+		ai_chance = { factor = 35 }
+		capital_scope = { add_base_production = 1 add_base_tax = 1 add_base_manpower = 1 infantry = KNI cavalry = KNI }
+		add_stability = 1
+	}
+}
+#Хиос
+country_event = {
+	id = stt_k_gen.2
+	title = stt_k_gen.2.t
+	desc = stt_k_gen.2.d
+	picture = supply_ship_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = SCH
+	}
+	
+	option = {
+		name = stt_k_gen.2.1
+		ai_chance = { factor = 10 }
+		every_province = {
+			limit = { is_core = AYD }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_two"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.2.2
+		ai_chance = { factor = 5 }
+		every_province = {
+			limit = { is_core = KRS }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_zero"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.2.3
+		ai_chance = { factor = 10 }
+		BYZ = { country_event = { id = stt_k_gen.10 } }
+		
+	}
+	option = {
+		name = stt_k_gen.2.4
+		ai_chance = { factor = 40 }
+		GEN = { country_event = { id = stt_k_gen.13 } }
+		
+	}
+	option = {
+		name = stt_k_gen.2.5
+		ai_chance = { factor = 35 }
+		capital_scope = { add_base_production = 2 add_base_tax = 2 add_base_manpower = 1  }
+		add_stability = 1
+	}
+}
+#Негропонт
+country_event = {
+	id = stt_k_gen.3
+	title = stt_k_gen.3.t
+	desc = stt_k_gen.3.d
+	picture = latin_empire_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = NGR
+	}
+
+	option = {
+		name = stt_k_gen.3.1
+		ai_chance = { factor = 10 }
+		every_province = {
+			limit = { is_core = KRS }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_zero"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.3.2
+		ai_chance = { factor = 20 }
+		every_province = {
+			limit = { is_core = ATH }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_one"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.3.3
+		ai_chance = { factor = 15 }
+		every_province = {
+			limit = { is_core = THS }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_one"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.3.4
+		ai_chance = { factor = 10 }
+		every_province = {
+			limit = { is_core = ACH }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_two"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.3.5
+		ai_chance = { factor = 45 }
+		add_stability = 1
+		capital_scope = {
+			add_base_manpower = 3
+			add_permanent_province_modifier = {
+				name = BYZ_wall444
+				duration = 10950
+			}
+		}
+	}
+}
+#Тунис
+country_event = {
+	id = stt_k_gen.4
+	title = stt_k_gen.4.t
+	desc = stt_k_gen.4.d
+	picture = mamluk_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TUN
+	}
+	
+	option = {
+		name = stt_k_gen.4.1
+		ai_chance = { factor = 10 }
+		TUN = { add_historical_rival = CCZ }
+		CCZ = { add_historical_rival = TUN }
+		add_prestige = 10
+		every_province = {
+			limit = { is_core = CCZ }
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_four"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.4.2
+		ai_chance = { factor = 35 }
+		add_adm_power = -50
+		add_dip_power = -25
+		add_mil_power = -50
+		add_manpower = -5
+		3913 = { cede_province = TUN add_core = TUN }
+	}
+	option = {
+		name = stt_k_gen.4.3
+		ai_chance = { factor = 10 }
+		add_adm_power = -50
+		add_dip_power = -25
+		add_mil_power = -50
+		add_manpower = -5
+		3926 = { cede_province = TUN add_core = TUN add_permanent_claim = TLC }
+	}
+	option = {
+		name = stt_k_gen.4.4
+		ai_chance = { factor = 15 }
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -50
+		add_treasury = -100
+		random_list = {
+			35 = {
+				country_event = {
+					id = stt_k_gen.16 #успех по возвращению
+					days = 1
+				}
+			}
+			65 = {
+				country_event = {
+					id = stt_k_gen.17 #провал
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = stt_k_gen.4.5
+		ai_chance = { factor = 10 }
+		add_dip_power = -25
+		add_mil_power = -50
+		every_province = {
+			limit = {
+				owned_by = TRP
+				is_core = ROOT
+			}
+			cede_province = TUN
+		}
+		random_list = {
+			45 = {
+				TRP = { add_liberty_desire = 90 }
+			}
+			35 = {
+				TRP = { add_liberty_desire = 60 }
+			}
+			20 = {
+				TRP = { add_liberty_desire = 40 }
+			}
+		}
+	}
+	option = {
+		name = stt_k_gen.4.6
+		ai_chance = { factor = 20 }
+		add_stability = 1
+		capital_scope = { add_base_production = 1 add_base_tax = 2 add_base_manpower = 2 }
+	}
+}
+#Бейлики
+country_event = {
+	id = stt_k_gen.5
+	title = stt_k_gen.5.t
+	desc = stt_k_gen.5.d
+	picture = arab_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			tag = KRS
+			tag = SRU
+			tag = GRM
+			tag = AYD
+			tag = MEN
+		}
+	}
+
+	option = {
+		name = stt_k_gen.5.1
+		ai_chance = { factor = 15 }
+		nicaea_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+		name = stt_k_gen.5.2
+		ai_chance = { factor = 15 }
+		aydin_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+		name = stt_k_gen.5.3
+		ai_chance = { factor = 15 }
+		menteshe_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+		name = stt_k_gen.5.4
+		ai_chance = { factor = 15 }
+		karaman_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+		name = stt_k_gen.5.5
+		ai_chance = { factor = 10 }
+		trigger = {
+			OR = {
+				tag = KRS
+				tag = AYD
+				tag = MEN
+			}
+		}
+		add_country_modifier = {
+			name = stt_k_gen_pirates
+			duration = 3650
+		}
+		capital_scope = { galley = ROOT galley = ROOT galley = ROOT galley = ROOT }
+		add_sailors = 200
+	}
+	option = {
+		name = stt_k_gen.5.6
+		ai_chance = { factor = 30 }
+		capital_scope = {
+			add_base_production = 1
+			add_base_manpower = 2
+			add_permanent_province_modifier = {
+				name = BYZ_wall444
+				duration = 10950
+			}
+		}
+		add_stability = 1
+	}
+}
+#Кефалония и Закинфа
+country_event = {
+	id = stt_k_gen.6
+	title = stt_k_gen.6.t
+	desc = stt_k_gen.6.d
+	picture = strange_knights_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CCZ
+	}
+
+	option = {
+		name = stt_k_gen.6.1
+		ai_chance = { factor = 15 }
+		every_province = {
+			limit = {
+				is_core = EPI
+				NOT = { is_core = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_zero"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.6.2
+		ai_chance = { factor = 5 }
+		145 = { add_permanent_claim = ROOT }
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_four"
+			duration = 1825
+		}
+	}
+	option = {
+		name = stt_k_gen.6.3
+		ai_chance = { factor = 15 }
+		every_province = {
+			limit = { is_core = BNS }
+			add_claim = ROOT
+		}
+		add_country_modifier = {
+			name = "stt_k_gen_start_nationalisation_three"
+			duration = 1825
+		}
+		CCZ = { declare_war_with_cb = { who = BNS casus_belli = "cb_privateers" } }
+		if = {
+			limit = { ai = yes }
+			CCZ = { add_treasury = 200 }
+			capital_scope = { infantry = CCZ cavalry = CCZ transport = CCZ transport  = CCZ transport  = CCZ }
+		}
+		else = {
+			capital_scope = { infantry = CCZ transport = CCZ transport  = CCZ }
+		}
+	}
+	option = {
+		name = stt_k_gen.6.4
+		ai_chance = { factor = 35 }
+		capital_scope = {
+			add_base_production = 1
+			add_base_manpower = 2
+			add_permanent_province_modifier = {
+				name = BYZ_wall444
+				duration = 10950
+			}
+		}
+		add_stability = 1
+	}
+	option = {
+		name = stt_k_gen.6.5
+		ai_chance = { factor = 30 }
+		add_country_modifier = {
+			name = stt_k_gen_pirates
+			duration = 3650
+		}
+		capital_scope = { galley = ROOT galley = ROOT galley = ROOT galley = ROOT }
+		add_sailors = 200
+	}
+}
+#Госпитальеры>Хиосу: союз с Хиосом
+country_event = {
+	id = stt_k_gen.7
+	title = stt_k_gen.7.t
+	desc = stt_k_gen.7.d
+	picture = hospitaliers_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = SCH
+	}
+	
+	option = { 
+		name = stt_k_gen.7.1 #союз
+		ai_chance = { factor = 80 }
+		KNI = { country_event = { id = stt_k_gen.8 } }
+	}
+	option = { 
+		name = stt_k_gen.7.2 #отказ от союза
+		ai_chance = { factor = 20 }
+		KNI = { country_event = { id = stt_k_gen.9 } }
+		add_prestige = 10
+	}
+}
+#Госпитальеры<От Хиоса: Госпитальеры и Хиос заключают союз 
+country_event = {
+	id = stt_k_gen.8
+	title = stt_k_gen.8.t
+	desc = stt_k_gen.8.d
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	major = yes
+	trigger = {
+		tag = KNI
+	}
+	
+	option = { 
+		name = stt_k_gen.8.1
+		KNI = { add_manpower = -1 add_treasury = -50 add_prestige = 10 }
+		SCH = { add_prestige = 5 add_treasury = 50 }
+		3950 = { remove_core = SCH }
+		2348 = { infantry = SCH }
+		KNI = { create_alliance = SCH }
+	}
+}
+#Госпитальеры<От Хиоса: Хиос отказывает в союзе 
+country_event = {
+	id = stt_k_gen.9
+	title = stt_k_gen.9.t
+	desc = stt_k_gen.9.d
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = KNI
+	}
+	
+	option = { 
+		name = stt_k_gen.9.1
+		add_prestige = -25
+	}
+}
+#Хиос>Византии: союз с Византией
+country_event = {
+	id = stt_k_gen.10
+	title = stt_k_gen.10.t
+	desc = stt_k_gen.10.d
+	picture = discussion_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.10.1 #союз
+		ai_chance = { factor = 70 }
+		SCH = { country_event = { id = stt_k_gen.11 } }
+		custom_tooltip = BYZ_new_treasury
+	}
+	option = { 
+		name = stt_k_gen.10.2 #отказ
+		ai_chance = { factor = 30 }
+		SCH = { country_event = { id = stt_k_gen.12 } }
+	}
+}
+#Хиос<От Византии: Византия и Хиос заключают союз 
+country_event = {
+	id = stt_k_gen.11
+	title = stt_k_gen.11.t
+	desc = stt_k_gen.11.d
+	picture = edict_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = SCH
+	}
+	
+	option = { 
+		name = stt_k_gen.11.1 #союз
+		ai_chance = { factor = 25 }
+		SCH = { create_alliance = BYZ add_sailors = -150 add_manpower = -2 add_prestige = 10
+			add_country_modifier = {
+				name = "stt_k_gen_start_diplomatic_expenses"
+				duration = 1825
+			}
+		}
+		2348 = { remove_core = BYZ }
+		3857 = { remove_core = BYZ }
+		BYZ = { add_treasury = 250 add_prestige = -10 add_legitimacy = -10 }
+		151 = { galley = BYZ galley = BYZ }
+	}
+}
+#Хиос<От Византии: Византия и Хиос разрывают связи
+country_event = {
+	id = stt_k_gen.12
+	title = stt_k_gen.12.t
+	desc = stt_k_gen.12.d
+	picture = edict_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = SCH
+	}
+	
+	option = { 
+		name = stt_k_gen.12.1 #союз
+		ai_chance = { factor = 25 }
+		BYZ = { add_historical_rival = SCH }
+		SCH = { add_historical_rival = BYZ }
+		add_prestige = -25
+	}
+}
+#Хиос>Генуе: союз с Генуей
+country_event = {
+	id = stt_k_gen.13
+	title = stt_k_gen.13.t
+	desc = stt_k_gen.13.d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GEN
+	}
+	
+	option = { 
+		name = stt_k_gen.13.1 #союз
+		ai_chance = { factor = 95 }
+		SCH = { country_event = { id = stt_k_gen.14 } }
+	}
+	option = { 
+		name = stt_k_gen.13.2 #отказ
+		ai_chance = { factor = 5 }
+		SCH = { country_event = { id = stt_k_gen.15 } }
+	}
+}
+#Хиос<От Генуи: Генуя и Хиос заключают союз 
+country_event = {
+	id = stt_k_gen.14
+	title = stt_k_gen.14.t
+	desc = stt_k_gen.14.d
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = SCH
+	}
+	
+	option = { 
+		name = stt_k_gen.14.1 #союз
+		ai_chance = { factor = 25 }
+		SCH = { create_alliance = GEN
+			add_country_modifier = {
+				name = "stt_k_gen_start_diplomatic_expenses"
+				duration = 1825
+			}
+		}
+		GEN = { add_treasury = 250 add_sailors = -200 add_manpower = -2 }
+		2348 = { galley = SCH galley = SCH transport = SCH }
+		add_prestige = 10
+	}
+}
+#Хиос<От Генуи: Генуя и Хиос становятся врагами
+country_event = {
+	id = stt_k_gen.15
+	title = stt_k_gen.15.t
+	desc = stt_k_gen.15.d
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = SCH
+	}
+	
+	option = { 
+		name = stt_k_gen.15.1 #союз
+		ai_chance = { factor = 25 }
+		GEN = { add_historical_rival = SCH }
+		SCH = { add_historical_rival = GEN }
+		2348 = { add_permanent_claim = GEN }
+		3857 = { add_permanent_claim = GEN }
+		add_prestige = -10
+	}
+}
+#Тунис берет Джербу
+country_event = {
+	id = stt_k_gen.16
+	title = stt_k_gen.16.t
+	desc = stt_k_gen.16.d
+	picture = muslim_killers_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TUN
+	}
+	
+	option = {
+		name = stt_k_gen.16.1
+		2954 = { cede_province = TUN }
+		SIC = { country_event = { id = stt_k_gen.18 } }
+	}
+}
+#Тунис провалил операцию
+country_event = {
+	id = stt_k_gen.17
+	title = stt_k_gen.17.t
+	desc = stt_k_gen.17.d
+	picture = hospitaliers_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TUN
+	}
+	
+	option = { 
+		name = stt_k_gen.17.1 
+		add_prestige = -15
+	}
+}
+#Джерба взята Тунисом!
+country_event = {
+	id = stt_k_gen.18
+	title = stt_k_gen.18.t
+	desc = stt_k_gen.18.d
+	picture = muslim_killers_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	trigger = {
+		tag = SIC
+	}
+	
+	option = { 
+		name = stt_k_gen.18.1
+		ai_chance = { factor = 75 }
+		TUN = { country_event = { id = stt_k_gen.19 } }
+		random_list = {
+			55 = { ARA = { country_event = { id = stt_k_gen.20 days = 1 } } }
+			45 = {
+				custom_tooltip = SIC_new_soldiers
+				hidden_effect = { capital_scope = { infantry = SIC infantry = SIC infantry = SIC cavalry = SIC } }
+			}
+		}
+	}	
+	option = { 
+		name = stt_k_gen.18.2
+		ai_chance = { factor = 25 }
+		add_prestige = -10
+	}
+}
+#Сицилия объявляет войну Тунису
+country_event = {
+	id = stt_k_gen.19
+	title = stt_k_gen.19.t
+	desc = stt_k_gen.19.d
+	picture = charge_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = TUN
+	}
+	
+	immediate = { SIC = { declare_war_with_cb = { who = TUN casus_belli = "cb_crusade" } } }
+	option = { 
+		name = stt_k_gen.19.1
+		ai_chance = { factor = 60 }
+		add_prestige = 5
+	}
+}
+#Арагон узнает о войне
+country_event = {
+	id = stt_k_gen.20
+	title = stt_k_gen.20.t
+	desc = stt_k_gen.20.d
+	picture = charge_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ARA
+	}
+	
+	option = { 
+		name = stt_k_gen.20.1
+		ai_chance = { factor = 60 }
+		TUN = { country_event = { id = stt_k_gen.21 } }
+	}
+	option = { 
+		name = stt_k_gen.20.2
+		ai_chance = { factor = 40 }
+		add_prestige = 25
+		add_legitimacy = -25
+	}
+}
+#Арагон объявляет войну Тунису
+country_event = {
+	id = stt_k_gen.21
+	title = stt_k_gen.21.t
+	desc = stt_k_gen.21.d
+	picture = crusaders_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = TUN
+	}
+	immediate = { ARA = { declare_war_with_cb = { who = TUN casus_belli = "cb_crusade" } } }
+	option = { 
+		name = stt_k_gen.21.1
+		add_prestige = 5
+	}
+}
+#Византия: 1309
+country_event = {
+	id = stt_k_gen.22
+	title = stt_k_gen.22.t
+	desc = stt_k_gen.22.d
+	picture = basileus_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = stt_k_gen_start_byz
+		tag = BYZ
+	}	
+	immediate = {
+		hidden_effect = {
+			SCH = { country_event = { id = stt_k_gen.2 days = 3 } }
+			NGR = { country_event = { id = stt_k_gen.3 days = 3 } }
+			TUN = { country_event = { id = stt_k_gen.4 days = 4 } }
+			KRS = { country_event = { id = stt_k_gen.5 days = 2 } }
+			SRU = { country_event = { id = stt_k_gen.5 days = 2 } }
+			GRM = { country_event = { id = stt_k_gen.5 days = 2 } }
+			AYD = { country_event = { id = stt_k_gen.5 days = 2 } }
+			MEN = { country_event = { id = stt_k_gen.5 days = 2 } }
+			CCZ = { country_event = { id = stt_k_gen.6 days = 1 } }
+		}
+	}
+	
+	option = { 
+		name = stt_k_gen.22.1
+		ai_chance = { factor = 25 }
+		add_adm_power = -25
+		add_mil_power = -50
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				OR = {
+					area = nicaea_area
+					area = aydin_area
+				}
+				fort_level = 1
+			}
+			add_province_modifier = {
+				name = BYZ_wall444
+				duration = 3650
+			}
+		}
+		add_country_modifier = {
+			name = stt_k_contents_of_the_fortresses
+			duration = 3650
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.2
+		ai_chance = { factor = 15 }
+		add_stability = 2
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
+		add_mil_power = -50
+		add_treasury = -150
+		add_country_modifier = {
+			name = stt_k_protection_from_the_instigators
+			duration = 5475
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.3
+		ai_chance = { factor = 10 }
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				culture = albanian
+			}
+			add_province_modifier = {
+				name = stt_k_albania_protection
+				duration = 3650
+			}
+			add_local_autonomy = 10
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.4
+		ai_chance = { factor = 10 }
+		trigger = { has_opinion = { who = SER value = -55 } }
+		SER = { country_event = { id = stt_k_gen.24 } }
+		custom_tooltip = stt_k_alliance_ser
+		
+	}
+	option = { 
+		name = stt_k_gen.22.5
+		ai_chance = { factor = 10 }
+		trigger = {
+			NOT = {
+				OR = {
+					BUL = { is_rival = BYZ }
+					BYZ = { is_rival = BUL }
+				}
+			}
+		}
+		BUL = { country_event = { id = stt_k_gen.28 } }
+		custom_tooltip = stt_k_alliance_bul
+	}
+	
+	option = {
+		name = stt_k_gen.22.6
+		EPI = {
+			add_spy_network_from = {
+				who = BYZ
+				value = 90
+			}
+		}
+		add_dip_power = -50
+		add_treasury = -50
+	}
+	option = { 
+		name = stt_k_gen.22.7
+		TRE = {
+			add_spy_network_from = {
+				who = BYZ
+				value = 90
+			}
+		}
+		add_dip_power = -50
+		add_treasury = -50
+	}
+	option = { 
+		name = stt_k_gen.22.8
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = ACH
+					owned_by = ATH
+				}
+			}
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 3650
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+	option = { 
+		name = stt_k_gen.22.9
+		every_province = {
+			limit = { owned_by = THS }
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 5475
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+	option = { 
+		name = stt_k_gen.22.10
+		every_province = {
+			limit = {
+				owned_by = VEN
+				OR = { area = western_aegean_area area = eastern_aegean_area }
+			}
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 3650
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+}
+#Византия: 1310
+country_event = {
+	id = stt_k_gen.23
+	title = stt_k_gen.22.t
+	desc = stt_k_gen.22.d
+	picture = basileus_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.22.1
+		ai_chance = { factor = 25 }
+		add_adm_power = -25
+		add_mil_power = -50
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				OR = {
+					area = nicaea_area
+					area = aydin_area
+				}
+				fort_level = 1
+			}
+			add_province_modifier = {
+				name = BYZ_wall444
+				duration = 3650
+			}
+		}
+		add_country_modifier = {
+			name = stt_k_contents_of_the_fortresses
+			duration = 3650
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.2
+		ai_chance = { factor = 15 }
+		add_stability = 2
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
+		add_mil_power = -50
+		add_treasury = -150
+		add_country_modifier = {
+			name = stt_k_protection_from_the_instigators
+			duration = 5475
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.3
+		ai_chance = { factor = 10 }
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				culture = albanian
+			}
+			add_province_modifier = {
+				name = stt_k_albania_protection
+				duration = 3650
+			}
+			add_local_autonomy = 10
+		}
+	}
+	option = { 
+		name = stt_k_gen.22.4
+		ai_chance = { factor = 10 }
+		trigger = { has_opinion = { who = SER value = -55 } }
+		SER = { country_event = { id = stt_k_gen.24 } }
+		custom_tooltip = stt_k_alliance_ser
+		
+	}
+	option = { 
+		name = stt_k_gen.22.5
+		ai_chance = { factor = 10 }
+		trigger = {
+			NOT = {
+				OR = {
+					BUL = { is_rival = BYZ }
+					BYZ = { is_rival = BUL }
+				}
+			}
+		}
+		BUL = { country_event = { id = stt_k_gen.28 } }
+		custom_tooltip = stt_k_alliance_bul
+	}
+	
+	option = {
+		name = stt_k_gen.22.6
+		EPI = {
+			add_spy_network_from = {
+				who = BYZ
+				value = 90
+			}
+		}
+		add_dip_power = -50
+		add_treasury = -50
+	}
+	option = { 
+		name = stt_k_gen.22.7
+		TRE = {
+			add_spy_network_from = {
+				who = BYZ
+				value = 90
+			}
+		}
+		add_dip_power = -50
+		add_treasury = -50
+	}
+	option = { 
+		name = stt_k_gen.22.8
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = ACH
+					owned_by = ATH
+				}
+			}
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 3650
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+	option = { 
+		name = stt_k_gen.22.9
+		every_province = {
+			limit = { owned_by = THS }
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 5475
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+	option = { 
+		name = stt_k_gen.22.10
+		every_province = {
+			limit = {
+				owned_by = VEN
+				OR = { area = western_aegean_area area = eastern_aegean_area }
+			}
+			add_province_modifier = {
+				name = stt_k_byz_separatism
+				duration = 3650
+			}
+		}
+		add_treasury = -150
+		add_adm_power = -25
+		add_dip_power = -50
+		add_mil_power = -25
+	}
+}
+
+#Византия>Сербии: союз
+country_event = {
+	id = stt_k_gen.24
+	title = stt_k_gen.24.t
+	desc = stt_k_gen.24.d
+	picture = basileus_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SER
+	}
+	
+	option = { 
+		name = stt_k_gen.24.1
+		ai_chance = { factor = 50 }
+		BYZ = { country_event = { id = stt_k_gen.25 } }
+		custom_tooltip = stt_k_treasury_ser_byz 
+	}
+	option = { 
+		name = stt_k_gen.24.2
+		ai_chance = { factor = 35 }
+		BYZ = { country_event = { id = stt_k_gen.26 } }
+		custom_tooltip = stt_k_insult_ser_byz 
+		add_prestige = 10
+		add_treasury = -5
+	}
+	option = { 
+		name = stt_k_gen.24.3
+		ai_chance = { factor = 15 }
+		BYZ = { country_event = { id = stt_k_gen.27 } }
+		custom_tooltip = stt_k_war_ser_byz
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				culture = serbian
+			}
+			add_permanent_claim = SER
+		}
+	}
+}
+#Византия<От Сербии: Византия и Сербия заключают союз
+country_event = {
+	id = stt_k_gen.25
+	title = stt_k_gen.25.t
+	desc = stt_k_gen.25.d
+	picture = byzantium_alliance_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.25.1
+		add_prestige = 15
+		every_province = {
+			limit = {
+				owned_by = BYZ
+				culture = serbian
+			}
+			cede_province = SER
+			add_core = SER
+			remove_core = BYZ
+		}
+		BYZ = {
+			create_alliance = SER
+			remove_historical_rival = SER
+			add_historical_friend = SER
+			add_treasury = 500
+			add_manpower = 7
+			capital_scope = {
+				infantry = BYZ infantry = BYZ infantry = BYZ cavalry = BYZ
+			}
+		}
+		SER = {
+			remove_historical_rival = BYZ
+			add_historical_friend = BYZ
+			add_treasury = -150
+			add_manpower = -7
+			add_country_modifier = {
+				name = "stt_k_gen_start_diplomatic_expenses"
+				duration = 1825
+			}
+		}
+	}
+}
+#Византия<От Сербии: Сербия оскорбляет Византию
+country_event = {
+	id = stt_k_gen.26
+	title = stt_k_gen.26.t
+	desc = stt_k_gen.26.d
+	picture = discussion_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.26.1
+		add_prestige = -25
+		add_treasury = 5
+		add_casus_belli = {
+			target = SER
+			type = cb_border_war
+			months = 180
+		}
+		every_province = {
+			limit = { owned_by = SER }
+			add_claim = BYZ
+		}
+	}
+}
+#Византия<От Сербии: Сербия объявляет войну Византии
+country_event = {
+	id = stt_k_gen.27
+	title = stt_k_gen.27.t
+	desc = stt_k_gen.27.d
+	picture = discussion_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = BYZ
+	}
+	immediate = { SER = { declare_war_with_cb = { who = BYZ casus_belli = "cb_annex" } } }
+	option = {
+		name = stt_k_gen.27.1
+		SER = {
+			add_prestige = -15
+			add_country_modifier = {
+				name = "stt_k_gen_start_diplomatic_censure"
+				duration = 9125
+			}
+		}
+		every_province = {
+			limit = { owned_by = SER }
+			add_claim = BYZ
+		}
+	}
+}
+#Византия>Болгарии: предложение союза
+country_event = {
+	id = stt_k_gen.28
+	title = stt_k_gen.28.t
+	desc = stt_k_gen.28.d
+	picture = basileus_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BUL
+	}
+	
+	option = { 
+		name = stt_k_gen.28.1
+		ai_chance = { factor = 80 }
+		BYZ = { country_event = { id = stt_k_gen.29 } }
+		custom_tooltip = stt_k_treasury_bul_byz 
+	}
+	option = { 
+		name = stt_k_gen.28.2
+		ai_chance = { factor = 20 }
+		BYZ = { country_event = { id = stt_k_gen.30 } }
+		custom_tooltip = stt_k_insult_bul_byz 
+		add_prestige = 20
+		BUL = { add_historical_rival = BYZ }
+	}
+}
+#Византия<От Болгарии: Византия и Болгария заключают союз
+country_event = {
+	id = stt_k_gen.29
+	title = stt_k_gen.29.t
+	desc = stt_k_gen.29.d
+	picture = byzantium_alliance_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.29.1
+		add_prestige = 15
+		every_province = {
+			limit = {
+				owned_by = BUL
+			}
+			remove_core = BYZ
+		}
+		BYZ = {
+			create_alliance = BUL
+			add_historical_friend = BUL
+			add_treasury = 400
+			add_manpower = 7
+			capital_scope = {
+				infantry = BYZ infantry = BYZ cavalry = BYZ
+			}
+		}
+		BUL = {
+			add_historical_friend = BYZ
+			add_treasury = -100
+			add_manpower = -7
+			add_country_modifier = {
+				name = "stt_k_gen_start_diplomatic_expenses"
+				duration = 1825
+			}
+		}
+	}
+}
+#Византия<От Болгарии: Болгария оскорблена от слов Византии
+country_event = {
+	id = stt_k_gen.30
+	title = stt_k_gen.30.t
+	desc = stt_k_gen.30.d
+	picture = discussion_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = { 
+		name = stt_k_gen.30.1
+		add_prestige = -10
+		add_historical_rival = BUL
+	}
+}

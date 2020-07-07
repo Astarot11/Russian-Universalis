@@ -1,0 +1,5 @@
+#3937 - Moroccan mountains
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

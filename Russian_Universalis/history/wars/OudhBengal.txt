@@ -1,4 +1,4 @@
-name = "Аудское вторжение в Бенгалию"
+name = "Вторжение в Бенгалию"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

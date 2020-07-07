@@ -1,13 +1,13 @@
-namespace = theatrecultral
+namespace = platocultral
 country_event = {
-	id = theatre.19955588
-	title = "theatre.EVTNAME19955588"
-	desc = "theatre.EVTDESC19955588"
-	picture = culture_event_picture
-	fire_only_once = yes
+	id = plato_theatre.19955588
+	title = "plato_theatre.EVTNAME19955588"
+	desc = "plato_theatre.EVTDESC19955588"
+	picture = plato_culture_event_picture
+	
 	trigger = {
 		theatre = 10
-		NOT = { has_country_modifier = cultural_theatre }
+		NOT = { has_country_modifier = plato_cultural_theatre }
 	}
 	
 	mean_time_to_happen = {
@@ -15,22 +15,22 @@ country_event = {
 	}
 	
 	option = {
-		name = "theatre.EVTOPTA19955588"
+		name = "plato_theatre.EVTOPTA19955588"
 		add_country_modifier = {
-			name = "cultural_theatre"
+			name = "plato_cultural_theatre"
 			duration = -1
 		}
 	}
 }
 country_event = {
-	id = theatre.19955589
-	title = "theatre.EVTNAME19955589"
-	desc = "theatre.EVTDESC19955589"
-	picture = culture_event_picture
-	fire_only_once = yes
+	id = plato_theatre.19955589
+	title = "plato_theatre.EVTNAME19955589"
+	desc = "plato_theatre.EVTDESC19955589"
+	picture = plato_culture_event_picture
+	
 	trigger = {
 		NOT = { theatre = 10 }
-		has_country_modifier = cultural_theatre
+		has_country_modifier = plato_cultural_theatre
 	}
 	
 	mean_time_to_happen = {
@@ -38,19 +38,19 @@ country_event = {
 	}
 	
 	option = {
-		name = "theatre.EVTOPTA19955589"
-		remove_country_modifier = cultural_theatre
+		name = "plato_theatre.EVTOPTA19955589"
+		remove_country_modifier = plato_cultural_theatre
 	}
 }
 country_event = {
-	id = theatre.19955590
-	title = "theatre.EVTNAME19955590"
-	desc = "theatre.EVTDESC19955590"
-	picture = culture_event_picture
-	fire_only_once = yes
+	id = plato_theatre.19955590
+	title = "plato_theatre.EVTNAME19955590"
+	desc = "plato_theatre.EVTDESC19955590"
+	picture = plato_culture_event_picture
+	
 	trigger = {
-		plato_opera = 10
-		NOT = { has_country_modifier = cultural_opera }
+		opera = 10
+		NOT = { has_country_modifier = plato_cultural_opera }
 	}
 	
 	mean_time_to_happen = {
@@ -58,22 +58,22 @@ country_event = {
 	}
 	
 	option = {
-		name = "theatre.EVTOPTA19955590"
+		name = "plato_theatre.EVTOPTA19955590"
 		add_country_modifier = {
-			name = "cultural_opera"
+			name = "plato_cultural_opera"
 			duration = -1
 		}
 	}
 }
 country_event = {
-	id = theatre.19955591
-	title = "theatre.EVTNAME19955591"
-	desc = "theatre.EVTDESC19955591"
-	picture = culture_event_picture
-	fire_only_once = yes
+	id = plato_theatre.19955591
+	title = "plato_theatre.EVTNAME19955591"
+	desc = "plato_theatre.EVTDESC19955591"
+	picture = plato_culture_event_picture
+	
 	trigger = {
 		NOT = { opera = 10 }
-		has_country_modifier = cultural_opera
+		has_country_modifier = plato_cultural_opera
 	}
 	
 	mean_time_to_happen = {
@@ -81,7 +81,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "theatre.EVTOPTA19955591"
-		remove_country_modifier = cultural_opera
+		name = "plato_theatre.EVTOPTA19955591"
+		remove_country_modifier = plato_cultural_opera
 	}
 }

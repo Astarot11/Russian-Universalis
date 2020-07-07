@@ -1,4 +1,4 @@
-name = "Война второй коалиции"
+name = "Война Второй коалиции"
 
 war_goal = {
 	type = superiority_revolution
@@ -46,16 +46,16 @@ war_goal = {
 
 1799.3.25 = {
 	battle = {
-		name = "Штоккас"
+		name = "Stockash"
 		location = 69
 		attacker = {
-			commander = "Жан-Батист Журдан"	# Jean-Baptiste Jourdan
+			commander = "Jean-Baptiste Jourdan"	# Jean-Baptiste Jourdan
 			infantry = 40000
 			losses = 10	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Эрцгерцог Карл"	# Archduke Charles
+			commander = "Archduke Charles"	# Archduke Charles
 			infantry = 60000
 			losses = 5	# percent
 			country = HAB
@@ -66,16 +66,16 @@ war_goal = {
 
 1799.4.16 = {
 	battle = {
-		name = "Табор"
+		name = "Tabor"
 		location = 379
 		attacker = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 4000
 			losses = 1	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Ахмед Аль-Джаззар"	# Ahmad Basha al-Jazzar
+			commander = "Ahmad Basha al-Jazzar"	# Ahmad Basha al-Jazzar
 			infantry = 25000
 			losses = 1	# percent
 			country = TUR
@@ -86,16 +86,16 @@ war_goal = {
 
 1799.4.27 = {
 	battle = {
-		name = "Кассано"
+		name = "Cassano"
 		location = 104
 		attacker = {
-			commander = "Жан-Виктор Моро"	# General Moreau
+			commander = "General Moreau"	# General Moreau
 			infantry = 35000
 			losses = 6	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Суворов"	# Alexander Suvorov
+			commander = "Alexander Suvorov"	# Alexander Suvorov
 			infantry = 36000
 			losses = 3	# percent
 			country = RUS
@@ -106,16 +106,16 @@ war_goal = {
 
 1799.6.4 = {
 	battle = {
-		name = "Цюрих"
+		name = "Zьrich"
 		location = 166
 		attacker = {
-			commander = "Андре Массена"	# Andrй Massйna
+			commander = "Andrй Massйna"	# Andrй Massйna
 			infantry = 30000
 			losses = 6	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Эрцгерцог Карл"	# Archduke Charles
+			commander = "Archduke Charles"	# Archduke Charles
 			infantry = 40000
 			losses = 9	# percent
 			country = HAB
@@ -126,16 +126,16 @@ war_goal = {
 
 1799.6.17 = {
 	battle = {
-		name = "Треббия"
+		name = "Trebbia"
 		location = 105
 		attacker = {
-			commander = "Эттьен Макдональд"	# Йtienne MacDonald
+			commander = "Йtienne MacDonald"	# Йtienne MacDonald
 			infantry = 33500
 			losses = 5	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Суворов"	# Alexander Suvorov
+			commander = "Alexander Suvorov"	# Alexander Suvorov
 			infantry = 33000
 			losses = 18	# percent
 			country = RUS
@@ -151,17 +151,17 @@ war_goal = {
 
 1799.8.15 = {
 	battle = {
-		name = "Нови"
+		name = "Novi"
 		location = 103
 		attacker = {
-			commander = "Бартелеми Жубер"	# Barthйlemy Catherine Joubert
+			commander = "Barthйlemy Catherine Joubert"	# Barthйlemy Catherine Joubert
 			infantry = 35000
 			artillery = 20
 			losses = 35	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Суворов"	# Alexander Suvorov
+			commander = "Alexander Suvorov"	# Alexander Suvorov
 			infantry = 51500
 			artillery = 25
 			losses = 16	# percent
@@ -173,16 +173,16 @@ war_goal = {
 
 1799.9.25 = {
 	battle = {
-		name = "Цюрих"
+		name = "Zьrich"
 		location = 166
 		attacker = {
-			commander = "Андре Массена"	# Andrй Massйna
+			commander = "Andrй Massйna"	# Andrй Massйna
 			infantry = 75000
 			losses = 20	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Суворов"	# Alexander Suvorov
+			commander = "Alexander Suvorov"	# Alexander Suvorov
 			infantry = 60000
 			losses = 37	# percent
 			country = RUS
@@ -197,16 +197,16 @@ war_goal = {
 
 1800.4.6 = {
 	battle = {
-		name = "Генуя"
+		name = "Genoa"
 		location = 101
 		attacker = {
-			commander = "Андре Массена"	# Andrй Massйna
+			commander = "Andrй Massйna"	# Andrй Massйna
 			infantry = 18000
 			losses = 60	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Михаэль фон Мелас"	# Michael von Melas
+			commander = "Michael von Melas"	# Michael von Melas
 			infantry = 40000
 			losses = 43	# percent
 			country = HAB
@@ -217,17 +217,17 @@ war_goal = {
 
 1800.6.14 = {
 	battle = {
-		name = "Маренго"
+		name = "Marengo"
 		location = 103
 		attacker = {
-			commander = "Наполеон Бонапарт"	# Napoleon Bonaparte
+			commander = "Napoleon Bonaparte"	# Napoleon Bonaparte
 			infantry = 28000
 			artillery = 25
 			losses = 4	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Михаэль фон Мелас"	# Michael von Melas
+			commander = "Michael von Melas"	# Michael von Melas
 			infantry = 31000
 			artillery = 100
 			losses = 3	# percent
@@ -239,17 +239,17 @@ war_goal = {
 
 1800.12.3 = {
 	battle = {
-		name = "Гогенлинден"
+		name = "Hohenlinden"
 		location = 65
 		attacker = {
-			commander = "Жан-Виктор Моро"	# Jean Victor Marie Moreau
+			commander = "Jean Victor Marie Moreau"	# Jean Victor Marie Moreau
 			infantry = 56000
 			artillery = 25
 			losses = 11	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Иоганн Австрийский"	# Archduke Johann of Austria
+			commander = "Johann of Austria"	# Archduke Johann of Austria
 			infantry = 64000
 			artillery = 100
 			losses = 13	# percent
@@ -269,16 +269,16 @@ war_goal = {
 
 1801.3.8 = {
 	battle = {
-		name = "Абукир"
+		name = "Abukir"
 		location = 358
 		attacker = {
-			commander = "Луи Фриан"	# Louis Friant
+			commander = "Louis Friant"	# Louis Friant
 			infantry = 5000
 			losses = 25	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Ральф Аберкромби"	# Ralph Abercromby
+			commander = "Ralph Abercromby"	# Ralph Abercromby
 			infantry = 2000
 			losses = 55	# percent
 			country = GBR

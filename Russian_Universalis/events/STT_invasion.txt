@@ -99,7 +99,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    months = 1
+	    days = 5
 	}
 	
 	immediate  = {
@@ -182,13 +182,11 @@ country_event = {
 			infantry = ROOT
 			infantry = ROOT
 			infantry = ROOT
-			infantry = ROOT
-			cavalry = ROOT
 			cavalry = ROOT
 			cavalry = ROOT
 			cavalry = ROOT
 		}
-		create_general = { tradition = 72 }
+		create_general = { tradition = 70 }
 		hidden_effect = { define_heir_to_general = { fire = 2 shock = 3 manuever = 2 siege = 2 } }
 	}
 }
@@ -235,7 +233,7 @@ country_event = {
 	title = stt_wek.t.6
 	desc = stt_wek.de.6
 	
-	picture = CONQUEST_eventPicture
+	picture = hospitaliers_eventPicture
 	
 	fire_only_once = yes
 	
@@ -247,15 +245,14 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    months = 2
+	    days = 1
 	}
-	
+	immediate = { 320 = { cede_province = KNI } }
 	option = {
 	    name = stt_wek.6.a1
 		ai_chance = { factor = 90 }
 		add_prestige = -10
         320 = {
-		    cede_province = KNI
 			hidden_effect = {
 			    build_to_forcelimit = {
                     galley = 0.33
@@ -276,7 +273,7 @@ country_event = {
 				    attach_leader = "Фульк де Вилларе"
 			    }
 			}	
-		}	
+		}
 	}
 	
 	option = {
@@ -284,7 +281,6 @@ country_event = {
 		ai_chance = { factor = 10 }
 		add_prestige = 10
 	    hidden_effect = {
-		    release = KNI
             320 = {
 			    if = {
 		            limit = {
@@ -322,7 +318,28 @@ country_event = {
 		}
 		declare_war = KNI
 	}
-}	
+	option = {
+	    name = stt_wek.6.a3 #Начать игру за рыцарей
+		ai_chance = { factor = 0 }
+		custom_tooltip = KNI_greece_game
+		hidden_effect = {
+			switch_tag = KNI
+			 320 = {
+				infantry = KNI
+			    infantry = KNI
+			    infantry = KNI
+			    infantry = KNI
+			    cavalry = KNI
+			    cavalry = KNI
+				build_to_forcelimit = {
+                    galley = 0.33
+                    light_ship = 0.17
+                    transport = 0.5
+                }
+		    }
+		}
+	}
+}
 
 #colonial growth
 
@@ -1108,7 +1125,7 @@ country_event = { ###STT FOR FRIDRIH
 		NOT = { has_country_flag = stt_byz_lost_const }
 	}
 	immediate = { 
-		151 = { remove_building = fort_15th add_building = fort_17th } 
+		151 = { remove_building = fort_15th add_building = fort_16th } 
 		if = { 
 			limit = { BYZ = { ai = yes } } 
 			BYZ = { add_country_modifier = { name = ai_boost_wall  duration = -1 } } 
@@ -1196,36 +1213,6 @@ country_event = { ### STT FOR FRIDRIH
 			   NOT = { religion = orthodox }
 			}
 		add_opinion = { who = FROM modifier = fall_byz_opinion }
-		}
-	}
-}
-
-#Cyprus reconquest
-country_event = {
-    id = stt_wek.22
-	title = stt_wek.22.t
-	desc = stt_wek.22.d
-	
-	picture = SIEGE_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = CYP
-		is_year = 1308
-		NOT = { is_year = 1330 }
-	}	
-	
-	option = {
-	    name = stt_wek.22.a
-		321 = {
-		    add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 5
-		}
-		every_province = {
-			limit = { is_core = KOJ }
-			add_core = ROOT
 		}
 	}
 }

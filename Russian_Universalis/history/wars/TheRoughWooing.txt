@@ -1,4 +1,4 @@
-name = "Грубое сватовство"
+name = "Грубые ухаживания"
 
 war_goal = {
 	type = take_capital_throne

@@ -1,4 +1,4 @@
-name = "Третья англо-майсурская война" #Third Anglo-Mysore War
+name = "Третья Англо-Майсурская война" #Third Anglo-Mysore War
 
 war_goal = {
 	type = take_claim

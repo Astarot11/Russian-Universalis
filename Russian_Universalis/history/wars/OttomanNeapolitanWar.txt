@@ -1,4 +1,4 @@
-name = "Турецко-неаполитанская война"
+name = "Османо-Неаполитанская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

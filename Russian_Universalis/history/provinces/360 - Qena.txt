@@ -7,8 +7,8 @@ religion = sunni
 capital = "Quenah"
 trade_goods = grain
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 3
+base_production = 3
 base_manpower = 2
 is_city = yes
 add_core = MAM
@@ -31,12 +31,7 @@ discovered_by = MDI
 discovered_by = MLI
 discovered_by = SFA
 
-1517.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-	remove_core = MAM
-} # Invaded by the Ottomans
+1517.1.1 = { owner = TUR controller = TUR add_core = TUR remove_core = MAM } # Invaded by the Ottomans
 1520.11.10 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } # Mameluk Uprising under Canbirdi Ghazeli
 1521.1.1 = { revolt = {} controller = TUR }
 1586.1.1 = { unrest = 2 } # Beginning of oppositions

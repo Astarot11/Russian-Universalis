@@ -139,21 +139,21 @@ mam_north_missions = {
 			}
 		}
 		effect = {
-			syrian_desert_area = {
+			hejaz_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			nafud_area = {
+			hail_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			tabuk_area = {
+			unaiza_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -167,26 +167,36 @@ mam_north_missions = {
 		required_missions = { mam_alexandria_trade }
 		provinces_to_highlight = {
 			OR = {
-				area = syrian_desert_area
-				area = nafud_area
-				area = tabuk_area
+				area = hejaz_area
+				area = hail_area
+				area = unaiza_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			is_city = yes 
 		}
 		trigger = {
-			syrian_desert_area = {
+			hejaz_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					NOT = { is_city = yes }
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
-			nafud_area = {
+			hail_area= {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					NOT = { is_city = yes }
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
-			tabuk_area = {
+			unaiza_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					NOT = { is_city = yes }
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
 		}
 		effect = {
@@ -201,28 +211,6 @@ mam_north_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			327 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			2302 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
 			karaman_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -231,6 +219,20 @@ mam_north_missions = {
 				add_permanent_claim = ROOT
 			}
 			dulkadir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			rum_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			cilicia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -247,8 +249,8 @@ mam_north_missions = {
 				area = aleppo_area
 				area = karaman_area
 				area = dulkadir_area
-				province_id = 327
-				province_id = 2302
+				area = rum_area
+				area = cilicia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -259,17 +261,19 @@ mam_north_missions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			327 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2302 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			karaman_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			dulkadir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			rum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cilicia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -301,5 +305,292 @@ mam_north_missions = {
 				add_claim = ROOT
 			}
 		}
+	}
+}
+
+mam_six_missions = {
+	slot = 6
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = MAM
+	}
+	STT_mam_devastation_one = {
+		icon = STT_mission_desert
+        position = 1
+		completed_by = 1351.12.31
+		trigger = {
+			if = {
+				limit = { ai = yes }
+				is_at_war = no
+				adm_power = 200
+			}
+			else = {
+				is_at_war = no
+				adm = 3
+				mil = 4
+				stability = 2
+				years_of_income = 1
+				NOT = {
+					num_of_loans = 3
+				}
+				NOT = {
+					corruption = 2
+				}
+				adm_power = 500
+				dip_power = 350
+				mil_power = 450
+				all_owned_province = {
+					NOT = {
+						devastation = 1
+					}
+				}
+				NOT = { total_development = 525 }
+			}
+		}
+		effect = {
+			remove_country_modifier = mam_devastation_one
+			add_country_modifier = {
+				name = "mam_devastation_two"
+				duration = -1
+			}
+			add_country_modifier = {
+				name = "mam_devastation_one_result"
+				duration = 3650
+			}
+			add_prestige = 20
+			if = {
+				limit = { ai = yes }
+				add_adm_power = -200
+			}
+			else = {
+				add_adm_power = -500
+				add_dip_power = -350
+				add_mil_power = -450
+				add_years_of_income = -1
+			}
+        }
+	}
+	STT_mam_devastation_two = {
+		icon = STT_mission_migration
+        position = 2
+		completed_by = 1364.12.31
+		required_missions = { STT_mam_devastation_one }
+		trigger = {
+			NOT = { has_country_modifier = mam_devastation_one_result }
+			if = {
+				limit = { ai = yes }
+				is_at_war = no
+				adm_power = 350
+			}
+			else = {
+				is_at_war = no
+				adm = 3
+				dip = 2
+				mil = 5
+				stability = 3
+				years_of_income = 1.2
+				NOT = {
+					num_of_loans = 1
+				}
+				NOT = {
+					corruption = 1
+				}
+				adm_power = 450
+				dip_power = 200
+				mil_power = 400
+				all_owned_province = {
+					NOT = {
+						devastation = 1
+					}
+				}
+				NOT = { total_development = 550 }
+			}
+		}
+		effect = {
+			remove_country_modifier = mam_devastation_two
+			add_country_modifier = {
+				name = "mam_devastation_two_result"
+				duration = 3650
+			}
+			add_prestige = 25
+			if = {
+				limit = { ai = yes }
+				add_adm_power = -350
+			}
+			else = {
+				add_adm_power = -450
+				add_dip_power = -200
+				add_mil_power = -400
+				add_years_of_income = -1.2
+			}
+		}
+	}
+}
+mam_seven_missions = {
+	slot = 7
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = MAM
+	}
+	STT_mam_stability_one = {
+		icon = STT_mission_rebels
+        position = 1
+		completed_by = 1351.12.31
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = antioch_area
+				province_id = 3868
+				province_id = 2314
+				province_id = 3856
+				province_id = 3861
+				province_id = 332
+				province_id = 1234
+				province_id = 2322
+			}
+			OR = {
+				NOT = { unrest = 1 }
+				NOT = { owned_by = ROOT	}
+			}
+		}
+		trigger = {
+			years_of_income = 0.35
+			is_at_war = no
+			if = {
+				limit = { ai = yes }
+				adm_power = 250
+				dip_power = 400
+				mil_power = 300
+				stability = 0
+			}
+			else = {
+				adm = 3
+				mil = 4
+				stability = 2
+				adm_power = 250
+				dip_power = 250
+				mil_power = 300
+				aleppo_area = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+					type = all
+				}
+				antioch_area = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+					type = all
+				}
+				3868 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				2314 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				3856 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				3861 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				332 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				1234 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+				2322 = {
+					owned_by = ROOT
+					is_core = ROOT
+					NOT = { unrest = 1 }
+				}
+			}
+		}
+		effect = {
+			remove_country_modifier = mam_stability_one
+			add_country_modifier = {
+				name = "mam_stability_two"
+				duration = -1
+			}
+			add_prestige = 20
+			add_years_of_income = -0.35
+			if = {
+				limit = { ai = yes }
+				add_adm_power = -250
+				add_dip_power = -400
+				add_mil_power = -300
+			}
+			else = {
+				add_adm_power = -250
+				add_dip_power = -250
+				add_mil_power = -300
+			}
+		}
+	}
+	STT_mam_stability_two = {
+		icon = STT_mission_religion_three
+        position = 2
+		completed_by = 1364.12.31
+		required_missions = { STT_mam_stability_one }
+		trigger = {
+			is_at_war = no
+			years_of_income = 0.5
+			if = {
+				limit = { ai = yes }
+				adm_power = 150
+				dip_power = 450
+				mil_power = 400
+				religious_unity = 0.75
+				stability = 1
+			}
+			else = {
+				adm = 3
+				dip = 3
+				mil = 4
+				stability = 3
+				adm_power = 150
+				dip_power = 200
+				mil_power = 400
+				OR = {
+					religious_unity = 1
+					all_owned_province = {
+						religion = sunni
+					}
+				}
+			}
+		}
+		effect = {
+			remove_country_modifier = mam_stability_two
+			add_prestige = 25
+			add_years_of_income = -0.5
+			if = {
+				limit = { ai = yes }
+				add_adm_power = -150
+				add_dip_power = -450
+				add_mil_power = -400
+			}
+			else = {
+				add_adm_power = -150
+				add_dip_power = -200
+				add_mil_power = -400
+			}
+        }
 	}
 }

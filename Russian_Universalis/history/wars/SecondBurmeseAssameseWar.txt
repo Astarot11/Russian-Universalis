@@ -1,4 +1,4 @@
-name = "Вторая бурманско-ассамская война"
+name = "Вторая Бирманско-Ассамская война"
 war_goal = {
 	type = superiority_insult_mutual
 	casus_belli = cb_insult

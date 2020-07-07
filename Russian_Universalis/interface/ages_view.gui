@@ -32,51 +32,56 @@ guiTypes = {
 			position = { x= 35 y = -29}
 			#upsound = age_of_discovery
 
-			iconType = {
+			iconType = {								# STT RU
 				name ="frame"
-				spriteType = "GFX_age_indicator_5"
-				position = { x= 0 y = 7 }
+				spriteType = "GFX_age_indicator_4"
+				position = { x = 23 y = 7 }				
+				}
+			iconType = {								# STT RU
+				name ="frame2"
+				spriteType = "GFX_age_indicator_8"
+				position = { x = 465 y = 7 }			
 				}
 			iconType = {
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 7 }
+				position = { x= 2 y = 22 }	
 				frame = 1
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 37 }
+				position = { x= 13 y = 72 }
 				frame = 2
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 67 }
+				position = { x= 13 y = 113 }
 				frame = 3
 				}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 97 }
+				position = { x= 13 y = 155 }
 				frame = 4
 				}
 			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 127 }
+				position = { x= 467 y = 24 }
 				frame = 5
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 157 }
+				position = { x= 467 y = 66 }
 				frame = 6
 				}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 467 y = 108 }
 				frame = 7
 				}
 		}
@@ -86,50 +91,55 @@ guiTypes = {
 			position = { x= 35 y = -29}
 			upsound = age_of_discovery
 
-			iconType = {
+			iconType = {								# STT RU
 				name ="frame"
-				spriteType = "GFX_age_indicator_4"
-				position = { x= 0 y = 7 }
+				spriteType = "GFX_age_indicator_3"
+				position = { x = 23 y = 7 }				
+				}
+			iconType = {								# STT RU
+				name ="frame2"
+				spriteType = "GFX_age_indicator_8"
+				position = { x = 465 y = 7 }			
 				}
 			iconType = { ### STT 5
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 }
+				position = { x= 7 y = 21 }
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 37 } ### STT
+				position = { x= 2 y = 64 } ### STT
 				frame = 2
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 67 } ### STT
+				position = { x= 13 y = 113 }
 				frame = 3
 				}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 97 } ### STT
+				position = { x= 13 y = 155 }
 				frame = 4
 				}
-				iconType = {
+			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 127 }
+				position = { x= 467 y = 24 }
 				frame = 5
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 157 } ### STT
+				position = { x= 467 y = 66 }
 				frame = 6
 				}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 467 y = 108 }
 				frame = 7
 				}
 		}			
@@ -139,49 +149,54 @@ guiTypes = {
 			position = { x= 35 y = -29}
 			upsound = age_of_reformation
 
-			iconType = {
+			iconType = {								# STT RU
 				name ="frame"
-				spriteType = "GFX_age_indicator_3"
-				position = { x= 0 y = 7 }
+				spriteType = "GFX_age_indicator_2"
+				position = { x = 23 y = 7 }				
+				}
+			iconType = {								# STT RU
+				name ="frame2"
+				spriteType = "GFX_age_indicator_8"
+				position = { x = 465 y = 7 }			
 				}
 			iconType = { ### STT 5
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 } ### STT
+				position = { x= 7 y = 21 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -15 y = 37 } ### STT
+				position = { x= 7 y = 63 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 67 } ### STT
+				position = { x= 2 y = 105 } ### STT
 				frame = 3
 				}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 97 } ### STT
+				position = { x= 13 y = 155 }
 				frame = 4
 				}
-				iconType = {
+			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 127 }
+				position = { x= 467 y = 24 }
 				frame = 5
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 157 } ### STT
+				position = { x= 467 y = 66 }
 				frame = 6
 				}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 467 y = 108 }
 				frame = 7
 				}
 		}	
@@ -191,48 +206,53 @@ guiTypes = {
 			position = { x= 35 y = -29}
 			upsound = age_of_absolutism
 
-			iconType = {
+			iconType = {								# STT RU
 				name ="frame"
-				spriteType = "GFX_age_indicator_2"
-				position = { x= 0 y = 7 }
+				spriteType = "GFX_age_indicator_1"
+				position = { x = 23 y = 7 }				
+				}
+			iconType = {								# STT RU
+				name ="frame2"
+				spriteType = "GFX_age_indicator_8"
+				position = { x = 465 y = 7 }			
 				}
 			iconType = { ### STT 5
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 } ### STT
+				position = { x= 7 y = 21 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -15 y = 37 } ### STT
+				position = { x= 7 y = 63 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -15 y = 67 } ### STT
+				position = { x= 7 y = 105 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 97 } ### STT
+				position = { x= 2 y = 148 } ### STT
 				frame = 4
 				}
 			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 127 }
+				position = { x= 467 y = 24 }
 				frame = 5
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 157 } ### STT
+				position = { x= 467 y = 66 }
 				frame = 6
 				}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 467 y = 108 }
 				frame = 7
 				}
 		}
@@ -245,46 +265,51 @@ guiTypes = {
 			iconType = {
 				name ="frame"
 				spriteType = "GFX_age_indicator_1"
-				position = { x= 0 y = 7 }
+				position = { x = 23 y = 7 }			# STT RU x = 0
+				}
+			iconType = {
+				name ="frame2"
+				spriteType = "GFX_age_indicator_5"
+				position = { x = 465 y = 7 }			# STT RU x = 0
 				}
 			iconType = { ### STT
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 }
+				position = { x= 7 y = 21 }
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -15 y = 37 } ### STT
+				position = { x= 7 y = 63 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -15 y = 67 } ### STT
+				position = { x= 7 y = 105 } ### STT
 				}				
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -15 y = 97 } ### STT
+				position = { x= 7 y = 147 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 127 }
+				position = { x= 465 y = 22 }
 				frame = 5
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 157 } ### STT
+				position = { x= 465 y = 73 } ### STT
 				frame = 6
 			}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 465 y = 114 }
 				frame = 7
-				}
+			}
 		}
 		
 		WindowType = {
@@ -295,45 +320,50 @@ guiTypes = {
 			iconType = {
 				name ="frame"
 				spriteType = "GFX_age_indicator_1"
-				position = { x= 0 y = 7 }
+				position = { x = 23 y = 7 }			# STT RU x = 0
+				}
+			iconType = {
+				name ="frame2"
+				spriteType = "GFX_age_indicator_6"
+				position = { x = 465 y = 7 }			# STT RU x = 0
 				}
 			iconType = { ### STT
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 }
+				position = { x= 7 y = 21 }
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -15 y = 37 } ### STT
+				position = { x= 7 y = 63 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -15 y = 67 } ### STT
+				position = { x= 7 y = 105 } ### STT
 				}				
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -15 y = 97 } ### STT
+				position = { x= 7 y = 147 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -15 y = 127 }
+				position = { x= 467 y = 21 }
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 157 } ### STT
+				position = { x= 465 y = 64 } ### STT
 				frame = 6
 			}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -15 y = 187 }
+				position = { x= 465 y = 114 }
 				frame = 7
-				}
+			}
 		}
 		
 		WindowType = {
@@ -344,42 +374,47 @@ guiTypes = {
 			iconType = {
 				name ="frame"
 				spriteType = "GFX_age_indicator_1"
-				position = { x= 0 y = 7 }
+				position = { x = 23 y = 7 }			# STT RU x = 0
+				}
+			iconType = {
+				name ="frame2"
+				spriteType = "GFX_age_indicator_7"
+				position = { x = 465 y = 7 }			# STT RU x = 0
 				}
 			iconType = { ### STT
 				name ="icon_age_of_feudalism"
 				spriteType = "GFX_icon_age_of_feudalism_g"
-				position = { x= -15 y = 7 }
+				position = { x= 7 y = 21 }
 				}
 			iconType = {
 				name ="icon_age_of_discovery"
 				spriteType = "GFX_icon_age_of_discovery_g"
-				position = { x= -15 y = 37 } ### STT
+				position = { x= 7 y = 63 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_reformation"
 				spriteType = "GFX_icon_age_of_reformation_g"
-				position = { x= -15 y = 67 } ### STT
+				position = { x= 7 y = 105 } ### STT
 				}				
 			iconType = {
 				name ="icon_age_of_absolutism"
 				spriteType = "GFX_icon_age_of_absolutism_g"
-				position = { x= -15 y = 97 } ### STT
+				position = { x= 7 y = 147 } ### STT
 				}
 			iconType = {
 				name ="icon_age_of_enlightenment"
 				spriteType = "GFX_icon_age_of_enlightenment_g"
-				position = { x= -30 y = 127 }
+				position = { x= 467 y = 21 }
 			}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_of_revolutions_g"
-				position = { x= -15 y = 157 } ### STT
+				position = { x= 467 y = 63 } ### STT
 			}
 			iconType = {
 				name ="icon_age_of_industrialism"
 				spriteType = "GFX_icon_age_l"
-				position = { x= -30 y = 187 }
+				position = { x= 465 y = 106 }
 				frame = 7
 				}
 			

@@ -1,4 +1,4 @@
-name = "Вступление к польско-шведской войне"
+name = "Прелюдия к Польско-Шведской войне"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne

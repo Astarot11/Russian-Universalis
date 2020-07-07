@@ -1,4 +1,4 @@
-name = "Вторая англо-маратхская война"
+name = "Вторая Англо-Маратхская война"
 war_goal = {
 	type = take_capital_imperial
 	casus_belli = cb_imperial
@@ -12,16 +12,16 @@ war_goal = {
 
 1803.9.11 = {
 	battle = {
-		name = "Дели"
+		name = "Delhi"
 		location = 522
 		attacker = {
-			commander = "Джерард Лейк"	# Gerard Lake
+			commander = "Gerard Lake"	# Gerard Lake
 			infantry = 4500
 			losses = 7	# percent
 			country = GBR
 		}
 		defender = {
-			commander = "Буркин"	# Bourquin
+			commander = "Bourquin"	# Bourquin
 			infantry = 19000
 			losses = 40	# percent
 			country = GWA
@@ -32,17 +32,17 @@ war_goal = {
 
 1803.9.23 = {
 	battle = {
-		name = "Ассайе"
+		name = "Assaye"
 		location = 545
 		attacker = {
-			commander = "Артур Уэлсли"	# Arthur Wellesley
+			commander = "Arthur Wellesley"	# Arthur Wellesley
 			infantry = 4500
 			cavalry = 2000
 			losses = 56	# percent
 			country = GBR
 		}
 		defender = {
-			commander = "Рагходжи Бхонсле"	# Ragojee Bhonsla
+			commander = "Ragojee Bhonsla"	# Ragojee Bhonsla
 			infantry = 50000
 			artillery = 100
 			losses = 12	# percent

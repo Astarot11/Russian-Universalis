@@ -1,4 +1,4 @@
-name = "Пятая турецко-персидская война"
+name = "Пятая Османо-Сефевидская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

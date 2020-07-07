@@ -11,17 +11,17 @@ war_goal = {
 
 1531.4.1 = {
 	battle = {
-		name = "Пуна"
+		name = "Punб"
 		location = 816
 		attacker = {
-			commander = "Франсиско Писарро"	# Francisco Pizarro
+			commander = "Francisco Pizarro"	# Francisco Pizarro
 			infantry = 160
 			cavalry = 30
 			losses = 1	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Тумбала"	#
+			commander = "Tumbala"	#
 			infantry = 3000
 			losses = 14	# percent
 			country = INC
@@ -32,10 +32,10 @@ war_goal = {
 
 1532.11.16 = {
 	battle = {
-		name = "Кахамарка"
+		name = "Cajamarca"
 		location = 813
 		attacker = {
-			commander = "Франсиско Писарро"	# Francisco Pizarro
+			commander = "Francisco Pizarro"	# Francisco Pizarro
 			infantry = 110
 			cavalry = 70
 			artillery = 5
@@ -43,7 +43,7 @@ war_goal = {
 			country = SPA
 		}
 		defender = {
-			commander = "Атауальпа"	# Atahualpa
+			commander = "Atahualpa"	# Atahualpa
 			infantry = 6000
 			losses = 70	# percent
 			country = INC

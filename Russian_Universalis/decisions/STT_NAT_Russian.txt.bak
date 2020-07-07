@@ -1,0 +1,338 @@
+country_decisions = {
+
+	russian_tsardom = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = TSR }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = NOV }
+			NOT = { tag = VNO }
+			NOT = { tag = SLA }
+			NOT = { exists = RUS }
+			OR = {
+				primary_culture = novgorodian
+				primary_culture = russian
+			}
+			government = monarchy
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 295	# Moskva
+				province_id = 310	# Novgorod
+				province_id = 301	# Ryazan
+				province_id = 314	# Vologda
+				province_id = 294	# Tver
+				province_id = 308	# Yaroslavl
+				province_id = 306	# Nijni-Novgorod
+				province_id = 1079	# Vyatka
+				province_id = 274	# Pscov
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			if = {
+				limit = { has_dlc = "Dharma" }
+				NOT = { has_reform = states_general_reform }
+			}
+			adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 295	# Moskva
+			owns_core_province = 310	# Novgorod
+			owns_core_province = 301	# Ryazan
+			owns_core_province = 314	# Vologda
+			owns_core_province = 294	# Tver
+			owns_core_province = 308	# Yaroslavl
+			owns_core_province = 306	# Nijni-Novgorod
+			OR = {
+				owns_core_province = 1079		# Vyatka
+				owns_core_province = 274		# Pscov
+			}
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = TSR
+			add_government_reform = tsardom
+			if = { 
+				limit = { has_country_modifier = perma_knyaz }
+				remove_country_modifier = perma_knyaz
+				add_country_modifier = {
+				name = "stt_rus_tsar"
+				duration = 36500 #100 
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			### Pernament!
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			}
+			estonia_ingria_area  = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			} 
+			livonia_area  = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			}
+			curonia_area  = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			} 
+			karelia_area  = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			}
+			crimea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TSR
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 1800 # 5 years
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	velikiy_novgorod = {
+		major = yes
+		potential = {
+			NOT = { exists = VNO }
+			tag = NOV
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 310	# Novgorod
+				province_id = 314	# Vologda
+				province_id = 294	# Tver
+				province_id = 308	# Yaroslavl
+				province_id = 275	# Polotsk
+				province_id = 274	# Pskov
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			adm_tech = 8
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 310	# Novgorod
+			owns_core_province = 314	# Vologda
+			OR = {
+				owns = 294		# Tver
+				owns = 308		# Yaroslavl	
+			}
+			OR = {
+				owns = 275		# Polotsk
+				owns = 274		# Pskov
+			}			
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = VNO
+			310 = { change_province_name = "Великий Новгород" rename_capital = "Великий Новгород" }
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 1800
+			}
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = VNO
+			}
+			karelia_area  = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = VNO
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = VNO
+			}
+			baltic_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = VNO
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+	russian_republic = { ### after VNO
+		major = yes
+		potential = {		    
+			NOT = { exists = RUS }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = TSR }
+			NOT = { tag = MOS }
+			OR = {
+				tag = VNO
+				primary_culture = russian
+				primary_culture = novgorodian
+			}
+			government = republic
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 295	# Moskva
+				province_id = 310	# Novgorod
+				province_id = 294	# Tver
+				province_id = 308	# Yaroslavl
+				province_id = 301	# Ryazan
+				province_id = 293	# Smolensk
+				province_id = 274	# Pskov
+				province_id = 307	# Vladimir
+			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			adm_tech = 12
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 295			# Moskva
+			owns_core_province = 310			# Novgorod
+			OR = {
+				owns_core_province = 294		# Tver
+				owns_core_province = 308	# Yaroslavl
+				}
+			OR = {
+				owns_core_province = 301		# Ryazan
+				owns_core_province = 293		# Smolensk
+				}
+			OR = {
+				owns_core_province = 274		# Pskov
+				owns_core_province = 307		# Vladimir
+			}	
+		}
+		effect = {
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 35
+			change_tag = RUS
+			set_government_rank = 3
+			add_government_reform = constitutional_republic
+			country_event = { id = ideagroups.1 } #Swap Ideas
+			# finland_area = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# russia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# crimea_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# poland_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# baltic_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# ruthenia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# central_asia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# caucasia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# west_siberia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+			# east_siberia_region = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+				# }
+				# add_permanent_claim = RUS
+			# }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 4
+	}
+	
+
+}
+	

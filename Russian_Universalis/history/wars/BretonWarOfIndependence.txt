@@ -1,4 +1,4 @@
-name = "Война Бретани за независимость"
+name = "Бретонская война за независимость"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

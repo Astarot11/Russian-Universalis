@@ -11,8 +11,10 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
+
 add_core = KOJ
 fort_15th = yes
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
@@ -33,26 +35,9 @@ discovered_by = SFA
 
 1310.1.1 = { owner = KOJ controller = KOJ remove_core = MAM } #Multiplayer balans
 1310.1.2 = { controller = MAM owner = MAM add_core = MAM } #Multiplayer balans
-
-1263.1.1 = {
-	owner = MAM
-	controller = MAM
-	add_core = MAM
-}
-
-1359.1.1 = {
-	add_core = KOJ
-}
-
-1400.1. = {
-	remove_core = KOJ
-}
-
-1516.8.24 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Part of the Ottoman Empire
+1263.1.1 = { owner = MAM controller = MAM add_core = MAM }
+1359.1.1 = { remove_core = KOJ }
+1516.8.24 = { owner = TUR controller = TUR add_core = TUR } # Part of the Ottoman Empire
 1665.1.1 = { unrest = 4 }
 1669.1.1 = { unrest = 2 } # Ottoman attempts to pacify unruly tribes 
 1670.1.1 = { unrest = 0 }

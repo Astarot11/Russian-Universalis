@@ -1,4 +1,4 @@
-name = "Претензии на Восточную Фризию"
+name = "Восточно-Фризская война"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne

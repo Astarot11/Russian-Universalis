@@ -2109,7 +2109,6 @@ fixed_capital = 151 # Cannot move capital away from this province & no power cos
 	    name = "byz_mission_cultural_crisis_two"
 		duration = -1
 	}
-	
 	remove_country_modifier = byz_mission_army_crisis_one
 	remove_country_modifier = byz_mission_economic_crisis_one
 	remove_country_modifier = byz_mission_cultural_crisis_one

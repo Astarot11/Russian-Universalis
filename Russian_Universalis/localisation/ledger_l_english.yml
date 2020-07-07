@@ -197,7 +197,7 @@
  LEDGER_TRADENODE:0 "Òîðãîâûé óçåë"
  LEDGER_SCORE_PLACEMENT:0 "Ìåñòî"
  LEDGER_GREAT_POWERS:0 "Âåëèêèå äåðæàâû"
- GREAT_POWER_RANK:0 "Ìåñòî"
+ GREAT_POWER_RANK:0 "Ìåñòî §Y$NUM$§!"
  LEDGER_GREAT_POWER_SCORE:0 "Âåëèêîäåðæàâíûé ðåéòèíã"
  LEDGER_TECH_COST:0 "Ñòîèìîñòü òåõíîëîãèé"
  LEDGER_GREAT_POWER_RANK_DETERMINED_BY:0 "Äåðæàâà ñ íàèâûñøèì âåëèêîäåðæàâíûì ðåéòèíãîì çàíèìàåò íèçøåå ìåñòî."

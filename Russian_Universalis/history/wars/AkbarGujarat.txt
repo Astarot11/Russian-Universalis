@@ -1,4 +1,4 @@
-name = "Могольско-гуджаратская война"
+name = "Первая Могольско-Гуджаратская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

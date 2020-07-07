@@ -535,6 +535,10 @@ base_values = {
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.5
+	land_forcelimit_modifier = -0.1
+	global_manpower_modifier = -0.1
+	global_sailors_modifier = -0.1
+	naval_forcelimit_modifier = -0.1
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -801,6 +805,7 @@ free_city_in_hre = {
 
 member_in_hre = {
 	diplomatic_reputation = 1
+	ae_impact = 0.15
 }
 
 #for each non-core if in the empire, and also a prince.
@@ -862,6 +867,13 @@ devotion = {
 meritocracy = {
 	global_spy_defence = 1.0
 	advisor_cost = -0.5
+	development_cost = -0.2
+	administrative_efficiency = 0.1
+}
+
+# Multiplied by 50 - meritocracy
+low_meritocracy = {
+	yearly_corruption = 0.2 #i.e. 0.1 at 0 Meritocracy
 }
 
 corruption = {
@@ -1103,6 +1115,7 @@ high_army_professionalism = {
 	fire_damage = 0.1
 	shock_damage = 0.1
 	siege_ability = 0.2
+	land_maintenance_modifier = 0.3
 }
 
 streltsy_modifier = {

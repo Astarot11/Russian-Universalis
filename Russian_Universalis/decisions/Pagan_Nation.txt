@@ -3,7 +3,6 @@ country_decisions = {
 	pagan_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = PAG }
 			OR = {
 				primary_culture = burmese
 				primary_culture = shan
@@ -17,6 +16,7 @@ country_decisions = {
 				province_id = 588
 				province_id = 2399
 				province_id = 3451
+				province_id = 586
 				province_id = 1815
 			}
 			OR = {
@@ -32,6 +32,7 @@ country_decisions = {
 			owns_core_province = 588
 			owns_core_province = 2399
 			owns_core_province = 3451
+			owns_core_province = 586
 			owns_core_province = 1815
 		}
 	 	effect = {

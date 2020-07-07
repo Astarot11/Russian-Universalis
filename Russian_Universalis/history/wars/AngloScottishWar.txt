@@ -1,4 +1,4 @@
-name = "Англо-шотландская война"
+name = "Англо-Шотландская война"
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war

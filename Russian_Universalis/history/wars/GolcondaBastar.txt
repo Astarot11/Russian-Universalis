@@ -1,4 +1,4 @@
-name = "Голкондско-бастарская война" #Unsuccessfull attack
+name = "Голконда-Бастарская война" #Unsuccessfull attack
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war

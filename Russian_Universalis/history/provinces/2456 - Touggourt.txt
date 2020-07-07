@@ -1,10 +1,10 @@
-# - Touggourt
+#2456 - Touggourt
 
 owner = TGT
 controller = TGT
 culture = berber
 religion = sunni
-capital = "Touggourt"
+capital = "Туггурт"
 trade_goods = spices
 hre = no
 base_tax = 1 

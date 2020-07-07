@@ -1,4 +1,4 @@
-name = "Польско-турецкая война"
+name = "Турецко-Польская война"
 war_goal = {
 	type = defend_country_faith
 	casus_belli = cb_defender_of_the_faith
@@ -15,17 +15,17 @@ war_goal = {
 # Battle of Cosmin Forest
 1497.10.26 = { 
 	battle = { 
-		name = "Косминский лес" 
+		name = "Cosmin Forest" 
 		location = 268
 		attacker = { 
-			commander = "Ян I Ольбрахт"			# Jan I Olbracht of Poland
+			commander = "Jan I Olbracht"			# Jan I Olbracht of Poland
 			infantry = 55000
 			cavalry =  20000
 			losses = 7			# percent 
 			country = POL
 		} 
 		defender = { 
-			commander = "Стефан III"			# Stephen III of Moldavia
+			commander = "Stephen III of Moldavia"			# Stephen III of Moldavia
 			infantry = 25000
 			cavalry = 7000
 			losses = 3			# percent 

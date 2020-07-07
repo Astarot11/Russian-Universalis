@@ -1,0 +1,1102 @@
+#‘айл включает модификаторы из следующих файлов, которые были объединены в этот: stt_ger_modifiers,stt_byz_modifiers, stt_rus_modifiers, stt_hab_modifiers_stt_dorimi_hre_coronation ##
+
+#hre coronation
+dorimi_crown = {
+	diplomatic_reputation = -1
+}
+
+dorimi_orb = {
+	legitimacy = -1
+}
+
+dorimi_sword = {
+	prestige = -0.75
+}
+
+dorimi_cross = {
+	prestige = -0.75
+}
+
+dorimi_coronation = {
+	imperial_authority = 0.25
+	prestige = 2
+	legitimacy = 2
+	diplomatic_reputation = 2
+	papal_influence = 3
+}
+
+#stt_byz_modifiers koufor 31.01.2019
+
+restore_hexamilion = {
+	local_defensiveness = 0.1
+	garrison_size = 0.05
+}
+byz_bride = {
+	heir_chance = 0.20
+	stability_cost_modifier = 0.1
+}
+stt_byz_bride = {
+	heir_chance = 0.25
+	stability_cost_modifier = 0.1
+}
+byz_book = {
+	idea_cost = -0.05
+	legitimacy = 0.1
+}
+byz_echinades = {
+	prestige_from_naval = 0.05
+	defensiveness = 0.10
+}
+byz_greek_fire = {
+	naval_morale = 0.10
+	global_tax_modifier = -0.05
+}
+byz_senate = {
+	stability_cost_modifier = 0.25
+	core_creation = -0.1
+	improve_relation_modifier = 0.05
+}
+byz_sacred_palace = {
+	legitimacy = 0.25
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.1
+	stability_cost_modifier = 0.10
+	global_spy_defence = -0.15
+}
+byz_varangian_guard = {
+	land_morale = 0.075
+	mercenary_discipline = 0.075
+	mercenary_cost = 0.3
+	possible_mercenaries = -0.65
+}
+byz_varangian_regiment = {
+	land_morale = 0.1
+	mercenary_discipline = 0.15
+	mercenary_cost = 0.45
+	possible_mercenaries = -0.9
+}
+
+byz_uni = {
+	advisor_pool = 1
+	advisor_cost = -0.1
+	idea_cost = -0.05
+	global_tax_modifier = -0.05
+}
+byz_land = {
+	land_morale = 0.12
+	naval_morale = -0.2
+	land_forcelimit_modifier = 0.15
+	naval_forcelimit_modifier = -0.3
+	army_tradition = 0.2
+	mil_tech_cost_modifier = -0.05
+	dip_tech_cost_modifier = 0.05
+	prestige_from_land = 0.15
+}
+byz_navy = {
+	naval_morale = 0.3
+	land_morale = -0.2
+	land_forcelimit_modifier = -0.3
+	naval_forcelimit_modifier = 0.15
+	navy_tradition = 0.2
+	dip_tech_cost_modifier = -0.05
+	mil_tech_cost_modifier = 0.05
+	prestige_from_naval = 0.15
+}
+byz_siege = {
+	defensiveness = -0.25 #защита крепости -25%
+	siege_ability = 0.1 #осадной умение +10%
+	reinforce_speed = 0.1 #скорость пополнения полков +10%
+	fort_maintenance_modifier = -0.15 #содержание крепости +20%
+	artillery_bonus_vs_fort = 1 # бонус артиллерии против крепости +1
+	garrison_size = -0.2 # размер гарнизона -20%
+}
+byz_defence = {
+	defensiveness = 0.1 #защита крепости +10%
+	siege_ability = -0.25 #осадной умение -25%
+	reinforce_speed = -0.2 #скорость пополнения полков -20%
+	fort_maintenance_modifier = 0.3 #содержание крепости 30%
+	hostile_attrition = 0.5 # истощение вражеских армий +1
+	garrison_size = 0.1 # размер гарнизона +10%
+}
+
+byz_liar = {
+	spy_offence = 0.1
+}
+byz_caution = {
+	global_spy_defence = 0.1
+}
+byz_stabilization = {
+	global_unrest = -2
+}
+byz_stabilization_two = {
+	global_unrest = -2
+	legitimacy = 0.15
+	prestige = 0.25
+}
+byz_recover_area1.1 = { # хороший модификатор для ИИ после захвата земель
+	local_unrest = 3
+}
+byz_recover_area1.2 = { #модификатор для ИИ после аккультурации
+	local_unrest = 3
+	local_tax_modifier = -0.75
+	local_production_efficiency = -0.75
+	local_manpower_modifier = -0.75
+}
+byz_recover_area2 = { #модификатор для игрока после захвата земель, где не были корки изначально
+	years_of_nationalism = -5
+	local_tax_modifier = -1
+	local_production_efficiency = -1
+	local_manpower_modifier = -1
+	local_unrest = -3
+	local_culture_conversion_cost = -0.45
+}
+byz_recover_area3 = { #хороший модификатор для игрока после захвата земель, если были изначально корки
+	local_culture_conversion_cost = -0.3
+}
+byz_recover_greeks = {
+	local_build_cost = -0.2
+	local_build_time = -0.25
+	local_development_cost = -0.15
+}
+byz_anatolian_empire = {
+	legitimacy = 0.25
+	prestige = 1
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	manpower_recovery_speed = 0.1
+	global_unrest = -1 
+}
+byz_council = {
+	tolerance_heretic = 1
+	improve_relation_modifier = 0.1
+}
+byz_council2 = {
+	global_missionary_strength = 0.05
+	improve_relation_modifier = 0.1
+}
+byz_council3 = {
+	global_missionary_strength = 0.02
+	stability_cost_modifier = -0.2
+	tolerance_heretic = 1
+	global_tax_modifier = 0.1
+	improve_relation_modifier = 0.1
+}
+byz_ancestors = {
+	improve_relation_modifier = -0.3
+}
+byz_ceasar = {
+	legitimacy = 1
+	prestige = 2
+}
+#the one who restored Senate
+byz_consul = {
+	prestige_decay = -0.01
+}
+
+#the one who conquers Asia
+byz_conqueror = {
+	prestige = 1
+}
+#appoint heir
+byz_heir_adopted = {	
+	legitimacy = -0.1
+}
+
+#arrival of Gustiniani
+byz_gustiniani = {	
+	land_morale = 0.13
+	naval_morale = 0.13
+}
+
+#visiting senate sessions
+byz_forsenate = {	
+	prestige = 1
+}
+
+#visiting Uni
+byz_foruniver = {	
+	prestige = 1
+}
+
+byz_books = {	
+	prestige_decay = -0.01
+}
+
+#######################
+#
+# new added after 28.10.2013
+# отредачено koufor 31.01.2019
+#################
+
+byz_barbarium = {
+	global_spy_defence = 0.25
+	global_tax_modifier = -0.10
+}
+
+byz_callsenate = {
+	global_tax_modifier = -0.05
+	stability_cost_modifier = -0.50
+	prestige = -1
+}
+
+byz_mission_army_crisis_one = {
+    global_spy_defence = -0.40
+	naval_morale = -0.20
+	naval_forcelimit_modifier = -0.35
+	global_sailors_modifier = -0.40
+	sailors_recovery_speed = -0.30
+	land_morale = -0.15
+	discipline = -0.075
+	merc_maintenance_modifier = 0.35
+	land_forcelimit_modifier = -0.55
+	global_manpower_modifier = -0.55
+	manpower_recovery_speed = -0.40
+}
+
+byz_mission_army_crisis_two = {
+    global_spy_defence = -0.25
+	naval_morale = -0.15
+	naval_forcelimit_modifier = -0.2
+	global_sailors_modifier = -0.25
+	sailors_recovery_speed = -0.20
+	land_morale = -0.10
+	discipline = -0.05
+	merc_maintenance_modifier = 0.30
+	land_forcelimit_modifier = -0.4
+	global_manpower_modifier = -0.35
+	manpower_recovery_speed = -0.20
+}
+
+byz_mission_army_crisis_three = {
+    global_spy_defence = -0.10
+	naval_morale = -0.10
+	naval_forcelimit_modifier = -0.1
+	global_sailors_modifier = -0.10
+	sailors_recovery_speed = -0.10
+	discipline = -0.025
+	merc_maintenance_modifier = 0.15
+	land_forcelimit_modifier = -0.15
+	global_manpower_modifier = -0.20
+	manpower_recovery_speed = -0.10
+}
+
+byz_mission_economic_crisis_one = {
+    global_tax_modifier = -0.30
+	production_efficiency = -0.25
+	state_maintenance_modifier = 0.20
+	global_trade_power = -0.20
+	province_trade_power_modifier = -0.20
+	inflation_reduction = -0.2
+	stability_cost_modifier = 0.25
+	global_unrest = 3
+	yearly_corruption = 0.15
+}
+
+byz_mission_economic_crisis_two = {
+    global_tax_modifier = -0.15
+	production_efficiency = -0.15
+	global_trade_power = -0.10
+	state_maintenance_modifier = 0.10
+	province_trade_power_modifier = -0.10
+	inflation_reduction = -0.1
+	stability_cost_modifier = 0.15
+	global_unrest = 1.5
+	yearly_corruption = 0.05
+}
+
+byz_mission_diplomatic_crisis_one = {
+    core_creation = 0.20
+	ae_impact = 0.50
+	improve_relation_modifier = -0.25
+	diplomatic_reputation = -2
+	diplomatic_upkeep = -1
+	diplomatic_annexation_cost = 0.30
+}
+
+byz_mission_diplomatic_crisis_two = {
+    core_creation = 0.10
+	ae_impact = 0.25
+	improve_relation_modifier = -0.15
+	diplomatic_reputation = -1
+	diplomatic_annexation_cost = 0.15
+}
+
+byz_mission_cultural_crisis_one = {
+    num_accepted_cultures = -2
+    global_missionary_strength = -0.015
+	culture_conversion_cost = 1.5
+	tolerance_heretic = -2
+	tolerance_heathen = -4
+	global_institution_spread = -0.20
+	embracement_cost = 0.20
+}
+
+byz_mission_cultural_crisis_two = {
+    num_accepted_cultures = -1
+    global_missionary_strength = -0.0075
+	culture_conversion_cost = 0.75
+	tolerance_heretic = -1
+	tolerance_heathen = -2
+	global_institution_spread = -0.10
+	embracement_cost = 0.10
+}
+
+byz_army_success = {
+    army_tradition = 1
+}
+
+byz_economic_success = {
+    global_trade_power = 0.10
+	global_tax_modifier = 0.10
+	production_efficiency = 0.10
+}
+
+byz_diplomatic_success = {
+    prestige_decay = -0.03
+	improve_relation_modifier = 0.15
+	diplomatic_reputation = 1
+}
+
+byz_cultural_success = {
+    culture_conversion_cost = -0.10
+	global_institution_spread = 0.10
+	embracement_cost = -0.10
+}
+
+byz_south_greece = {
+	land_morale = 0.1
+	global_unrest = -1.5
+	defensiveness = 0.2
+}
+byz_islands_around_greece = {
+	land_forcelimit_modifier = 0.1
+	core_creation = -0.05
+	improve_relation_modifier = 0.05
+}
+byz_recover_greece = {
+	diplomatic_reputation = 1
+	yearly_corruption = -0.1
+}
+#reconquest_athens = {
+	improve_relation_modifier = -0.1
+	manpower_recovery_speed = 0.05
+	global_regiment_recruit_speed = -0.05
+	reinforce_speed = 0.05
+	global_manpower_modifier = 0.1
+	core_creation = -0.05
+	ae_impact = 0.2
+}
+
+#reconquest_three = {
+	improve_relation_modifier = -0.3
+	core_creation = -0.05
+	ae_impact = 0.25
+}
+
+#return_greeks = {
+	global_unrest = 4
+	global_tax_modifier = -0.15
+	global_manpower_modifier = -0.1
+}
+#stt_byz_modifiers koufor 02.03.2019
+
+reject_an_offer = {
+	land_morale = 0.05
+	defensiveness = 0.1
+}
+byz_ask_for_help_from_the_pope = {
+	diplomatic_reputation = -1
+}
+byz_accept_small_requirements_from_the_pope = {
+	tolerance_heretic = 2
+	global_unrest = 3
+}
+byz_accept_significant_requirements_from_the_pope = {
+	tolerance_heretic = 3.5
+	global_unrest = 4.5
+}
+wrath_of_the_pope = {
+	ae_impact = 0.3
+}
+byz_accept_weighty_requirements_from_the_pope = {
+	tolerance_heretic = 5
+	global_unrest = 6
+	global_heretic_missionary_strength = -0.05
+}
+byz_accept_requirements_orthodox = {
+	tolerance_heretic = -2.5
+	tolerance_own = 1.5
+}
+byz_instability = {
+	stability_cost_modifier = 1
+}
+	
+byz_europe = {
+	diplomatic_reputation = 2
+	improve_relation_modifier = 0.10
+	diplomatic_upkeep = -1
+}
+STT_BYZ_building_temples = {
+	missionary_maintenance_cost = -0.05
+}
+
+STT_BYZ_building_cathedrals = {
+	missionary_maintenance_cost = -0.1
+	global_unrest = -0.5
+}
+STT_BYZ_conquer_region = {
+	local_missionary_strength = 0.015
+}
+byz_discover_corps = {
+	merchants = -1
+	diplomats = -1
+	colonists = 1
+}
+byz_new_people = {
+	global_colonial_growth = 20
+}
+STT_BYZ_building_workshops = {
+	local_build_time = -0.1
+}
+STT_BYZ_building_counting_houses = {
+	local_build_time = -0.1
+	local_build_cost = -0.05
+}
+the_diocese_system = {
+	max_states = 5
+	global_manpower_modifier = 0.3
+	global_autonomy = 0.05
+	}
+stt_byz_chastening_of_mekka = {
+	local_development_cost = 0.1
+	local_autonomy = -0.05
+	local_unrest = -4
+}
+defender_byz = {
+	defensiveness = 0.75
+	diplomatic_upkeep = 3
+}
+BYZ_war_TUR_AI = {
+    infantry_cost = -0.3
+    cavalry_cost = -0.3
+    global_tax_modifier = 0.3
+    infantry_power = 0.08
+	cavalry_power = 0.08
+	land_morale = 0.18
+	land_maintenance_modifier = -0.35
+	merc_maintenance_modifier = -0.35
+	manpower_recovery_speed = 0.25
+	land_forcelimit_modifier = 0.45
+	global_regiment_recruit_speed = -0.25
+	reinforce_speed = 0.25
+	recover_army_morale_speed = 0.25
+	siege_ability = 0.17
+	defensiveness = 0.17
+	hostile_attrition = 0.25
+	all_power_cost = -0.35
+}
+
+#stt_byz_modifiers koufor 31.05.2020
+
+BYZ_wall444 = {
+	garrison_growth = 0.2
+	local_defensiveness = 0.1
+}
+byz_demoralization = {
+	land_morale = -0.2
+}
+byz_demoralization_two = {
+	land_morale = -0.2
+}
+byz_demoralization_three = {
+	all_power_cost = 70
+}
+stt_k_road_reform = {
+	development_cost = -0.02
+	trade_efficiency = 0.02
+	caravan_power = 0.02
+	global_tax_modifier = 0.02
+	administrative_efficiency = 0.01
+}
+stt_k_road_system = {
+	development_cost = -0.04
+	trade_efficiency = 0.04
+	caravan_power = 0.04
+	global_tax_modifier = 0.04
+	administrative_efficiency = 0.02
+}
+stt_k_system_of_channels = {
+	development_cost = -0.04
+	trade_efficiency = 0.04
+	caravan_power = 0.04
+	global_tax_modifier = 0.04
+}
+stt_k_control_over_water = {
+	development_cost = -0.08
+	trade_efficiency = 0.08
+	caravan_power = 0.08
+	global_tax_modifier = 0.08
+}
+stt_k_development_of_capital = {
+	local_development_cost = -0.15
+	local_monthly_devastation = -0.05
+	local_build_cost = -0.1
+	local_build_time = -0.2
+	local_tax_modifier = 0.5
+}
+stt_k_development_of_capital_area = {
+	local_development_cost = -0.1
+	local_monthly_devastation = -0.02
+	local_build_cost = -0.1
+	local_build_time = -0.1
+}
+stt_k_development_and_prosperity = {
+	local_unrest = -5
+	local_monthly_devastation = -0.15
+	local_tax_modifier = 0.25
+	local_production_efficiency = 0.25
+	local_manpower_modifier = 0.15
+}
+stt_k_accelerated_development = {
+	local_development_cost = -0.35
+	local_manpower_modifier = 0.25
+	local_tax_modifier = 0.25
+	local_production_efficiency = 0.25
+}
+stt_k_the_great_capital = {
+	local_development_cost = -0.15
+	local_tax_modifier = 0.25
+	local_production_efficiency = 0.25
+	global_institution_spread = 0.05
+	embracement_cost = -0.05
+	advisor_cost = -0.05
+}
+stt_k_the_capital_of_capitals = {
+	local_development_cost = -0.3
+	local_tax_modifier = 1
+	local_production_efficiency = 1
+	all_power_cost = -0.05
+	global_institution_spread = 0.1
+	embracement_cost = -0.1
+	advisor_cost = -0.1
+}
+stt_k_magnificent_century = {
+	advisor_pool = 1
+	diplomats = 1
+	free_leader_pool = 1
+	stability_cost_modifier = -0.15
+	war_exhaustion = -0.03
+	advisor_cost = -0.25
+}
+stt_k_to_perpetuate_acts = {
+	culture_conversion_cost = -0.05
+	core_creation = -0.05
+	prestige_decay = -0.01
+}
+stt_k_promotion_of_trade = {
+	merchants = 1
+	trade_efficiency = 0.05
+	production_efficiency = 0.05
+	global_tax_modifier = 0.05
+	development_cost = -0.1
+}
+stt_k_distribution_of_wealth = {
+	merchants = 1
+	trade_efficiency = 0.05
+	production_efficiency = 0.05
+	global_tax_modifier = 0.1
+	development_cost = -0.1
+	inflation_reduction = 0.01
+}
+stt_k_control_of_finances = {
+	merchants = 1
+	trade_efficiency = 0.05
+	global_trade_power = 0.05
+	production_efficiency = 0.1
+	global_tax_modifier = 0.15
+	development_cost = -0.1
+	inflation_reduction = 0.02
+}
+stt_k_trading_empire = {
+	global_trade_power = 0.05
+	province_trade_power_modifier = 0.05
+	trade_steering = 0.1
+	inflation_reduction = 0.03
+}
+stt_k_comfortable_service = {
+	land_morale = 0.03
+	discipline = 0.015
+	land_maintenance_modifier = 0.05
+}
+stt_k_draft_reform = {
+	land_morale = 0.05
+	discipline = 0.025
+	land_maintenance_modifier = 0.1
+	army_tradition_decay = -0.0025
+	army_tradition = 0.15
+	recover_army_morale_speed = 0.05
+}
+stt_k_military_center = {
+	land_morale = 0.1
+	discipline = 0.05
+	land_maintenance_modifier = 0.15
+	army_tradition_decay = -0.005
+	army_tradition = 0.25
+	yearly_army_professionalism = 0.001
+	recover_army_morale_speed = 0.1
+}
+stt_k_pro_army_one = {
+	army_tradition = 0.5
+	army_tradition_decay = -0.005
+}
+stt_k_pro_army_two = {
+	army_tradition = 0.75
+	army_tradition_decay = -0.01
+}
+stt_k_pro_army_three = {
+	land_morale = 0.1
+	discipline = 0.05
+	land_maintenance_modifier = 0.15
+	army_tradition_decay = -0.005
+	mil_tech_cost_modifier = -0.1
+}
+stt_k_spending_on_the_army = {
+	land_maintenance_modifier = -0.1
+	infantry_cost = -0.1
+	cavalry_cost = -0.075
+	artillery_cost = -0.05
+	yearly_army_professionalism = -0.003
+}
+stt_k_to_build_fortifications = {
+	defensiveness = 0.05
+	garrison_size = 0.05
+	local_monthly_devastation = -0.01
+}
+stt_k_to_build_forts = {
+	defensiveness = 0.1
+	garrison_size = 0.1
+	local_monthly_devastation = -0.02
+	fort_maintenance_modifier = 0.1
+	hostile_attrition = 0.25
+}
+stt_k_to_build_fortress = {
+	defensiveness = 0.15
+	garrison_size = 0.15
+	local_monthly_devastation = -0.03
+	fort_maintenance_modifier = 0.15
+	hostile_attrition = 0.5
+}
+stt_k_new_lands = {
+	range = 0.1
+	colonist_placement_chance = 0.05
+	global_tax_modifier = -0.1
+	global_colonial_growth = 10
+	native_assimilation = 0.1
+}
+stt_k_navy_reform = {
+	naval_morale = 0.1
+	naval_maintenance_modifier = 0.1
+	naval_forcelimit_modifier = 0.1
+	global_sailors_modifier = 0.1
+}
+stt_k_progressing_society = {
+	global_unrest = 2
+	technology_cost = -0.05
+	idea_cost = -0.05
+	global_institution_spread = 0.1
+}
+stt_k_technological_breakthrough = {
+	technology_cost = -0.05
+	idea_cost = -0.05
+	global_institution_spread = 0.1
+	advisor_cost = -0.1
+	embracement_cost = -0.1
+}
+stt_k_whisper_in_the_dark = {
+	rebel_support_efficiency = 0.2
+	spy_offence = 0.1
+	siege_ability = 0.05
+}
+stt_k_attention_to_diplomacy = {
+	dip_advisor_cost = 0.15
+	diplomatic_upkeep = 1
+	envoy_travel_time = -0.15
+}
+stt_k_swarm_of_vassals = {
+	diplomatic_annexation_cost = -0.1
+	reduced_liberty_desire = 10
+}
+stt_k_gen_start = {
+	global_tax_income = 1
+}
+stt_k_gen_start_byz = {
+	global_tax_income = 1
+}
+stt_k_gen_start_nationalisation_zero = {
+	core_creation = -0.05
+}
+stt_k_gen_start_nationalisation_one = {
+	core_creation = -0.1
+}
+stt_k_gen_start_nationalisation_two = {
+	core_creation = -0.15
+}
+stt_k_gen_start_nationalisation_three = {
+	core_creation = -0.2
+}
+stt_k_gen_start_nationalisation_four = {
+	core_creation = -0.25
+}
+stt_k_gen_start_diplomatic_expenses = {
+	global_tax_modifier = -0.85
+}
+stt_k_gen_pirates = {
+	naval_morale = 0.1
+}
+stt_k_contents_of_the_fortresses = {
+	global_tax_modifier = -0.1
+}
+stt_k_protection_from_the_instigators = {
+	global_spy_defence = 0.25
+	all_power_cost = 1.5
+	yearly_corruption = -0.15
+}
+stt_k_albania_protection = {
+	local_unrest = -5
+	local_missionary_strength = -0.025
+}
+stt_k_gen_start_diplomatic_censure = {
+	diplomatic_reputation = -10
+	improve_relation_modifier = -0.5
+}
+stt_k_byz_separatism = {
+	local_unrest = 10
+}
+
+TUR_war_time = {
+    infantry_cost = -0.50
+    cavalry_cost = -0.50
+    global_tax_income = 96
+    infantry_power = 0.15
+	cavalry_power = 0.15
+	land_morale = 0.15
+	land_maintenance_modifier = -0.75
+	merc_maintenance_modifier = -0.75
+	manpower_recovery_speed = 0.50
+	land_forcelimit_modifier = 0.95
+	global_regiment_recruit_speed = -0.5
+	reinforce_speed = 0.5
+	recover_army_morale_speed = 0.5
+	siege_ability = 0.33
+	defensiveness = 0.33
+	all_power_cost = -0.1
+}
+
+TUR_war_time_player = {
+    infantry_cost = -0.5
+    cavalry_cost = -0.5
+    global_tax_income = 96
+    infantry_power = 0.1
+	land_morale = 0.1
+	land_maintenance_modifier = -0.75
+	merc_maintenance_modifier = -0.5
+	manpower_recovery_speed = 0.50
+	land_forcelimit_modifier = 1.25
+	global_regiment_recruit_speed = -0.5
+	reinforce_speed = 0.75
+	recover_army_morale_speed = 0.25
+	siege_ability = 0.5
+	core_creation = -0.25
+}
+
+ger_hommage = {
+	prestige = -1
+	global_tax_modifier = -0.05
+	#icon = 6
+}
+
+ger_yeslandtag = {
+	adm_tech_cost_modifier = -0.05
+	global_tax_modifier = 0.05
+	stability_cost_modifier = 0.15
+	diplomatic_reputation = -1
+	#icon = 5
+}
+
+ger_nolandtag = {
+	global_tax_modifier = -0.02
+	stability_cost_modifier = -0.05
+	diplomatic_reputation = 1
+	#icon = 5
+}
+
+byz_refugees = { 
+	local_unrest = 3
+	local_monthly_devastation = 0.25
+}
+
+#Rus modifiers
+
+rus_pomestie = {
+	cavalry_cost = -0.1
+	cavalry_power = 0.1
+	#icon = 8
+}
+
+rus_zemsky = {
+	dip_tech_cost_modifier = 0.1
+	diplomatic_upkeep = 1
+	stability_cost_modifier = -0.15
+	#icon = 6
+}
+
+rus_duma = {
+	adm_tech_cost_modifier = -0.1
+	global_tax_modifier = 0.02
+	stability_cost_modifier = 0.15
+	#icon = 5
+}
+
+rus_raskol = {
+	global_missionary_strength = 0.03
+	tolerance_heretic = -3
+	tolerance_heathen = -2
+	global_unrest = 2
+	missionaries = 1
+	#icon = 10
+}
+
+rus_admiralty = {
+	global_manpower_modifier = -0.1
+	heavy_ship_cost = -0.1
+	light_ship_cost = -0.1
+	ship_recruit_speed = -0.2
+	naval_morale = 0.1
+	global_tax_modifier = -0.05
+	naval_forcelimit_modifier = 0.25
+	#icon = 7
+}
+
+rus_foreign = {
+	land_maintenance_modifier = 0.10
+	global_manpower_modifier = -0.15
+	land_attrition = -0.1
+	discipline = 0.025
+	infantry_power = 0.1
+	infantry_cost = 0.1
+	#icon = 8
+}
+
+rus_titular = {
+	land_forcelimit_modifier = 0.1
+	land_maintenance_modifier = -0.1
+	global_manpower_modifier = 0.1
+	global_regiment_recruit_speed = -0.1
+	land_morale = 0.10
+	discipline = -0.05
+	#icon = 8
+}
+
+rus_monetary = {
+	adm_tech_cost_modifier = -0.02
+	global_own_trade_power = -0.05
+	global_tax_modifier = 0.05
+	inflation_reduction = 0.01
+	global_unrest = 1
+	#icon = 3
+}
+
+rus_starosta = {
+	adm_tech_cost_modifier = -0.05
+	global_tax_modifier = 0.05
+	diplomatic_upkeep = -1
+	stability_cost_modifier = -0.05
+	#icon = 6
+}
+
+rus_heraldry = {
+	prestige = 1
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.10
+	stability_cost_modifier = 0.1
+	global_tax_modifier = -0.05
+	#icon = 9
+}
+
+rus_trading = {
+	global_trade_power = 0.1
+	global_own_trade_power = 0.05
+	trade_efficiency = 0.1
+	trade_steering = 0.03
+	global_tax_modifier = -0.05
+	#icon = 6
+}
+NOV_k_free_trade = {
+	trade_efficiency = 0.15
+}
+
+rus_hommage_modifer = {
+	prestige = -1
+	global_tax_modifier = -0.30
+	global_trade_power = -0.30
+}
+
+gol_hommage_modifer = {
+	prestige = 1
+	global_tax_modifier = 0.30
+	global_trade_power = 0.30
+}
+
+baltic_fleet = {
+    naval_forcelimit = 15
+	global_sailors = 1000
+}
+
+blacksea_fleet = {
+    naval_forcelimit = 15
+	global_sailors = 1000
+}
+
+time_of_troubles_12 = {
+	land_forcelimit_modifier = -0.80
+}
+
+#Aus (hab) modifiers 
+
+aus_maius = {
+	prestige = 1
+}
+aus_aulic = {
+	adm_tech_cost_modifier = -0.05
+	global_tax_modifier = 0.05
+	stability_cost_modifier = 0.15
+}
+dual_monarchy = {
+	prestige = -2
+}
+
+############### Knights #################
+
+kni_stabilization_at_Rhodos = {
+	local_unrest = -3
+	local_missionary_strength = -0.055
+}
+
+kni_changed_cultures = {
+	global_manpower_modifier = 0.15
+	garrison_size = 0.3
+	global_garrison_growth = 0.25
+	harsh_treatment_cost = 0.5
+	tolerance_heretic = 1
+}
+kni_saved_cultures = {
+	global_manpower_modifier = -0.1
+	tolerance_heretic = -1.5
+	culture_conversion_cost = -0.3
+	harsh_treatment_cost = -0.2
+}
+kni_alliance_with_pape = {
+	papal_influence = 0.25
+}
+kni_build_temples = {
+	global_missionary_strength = 0.015
+	missionary_maintenance_cost = -0.05
+}
+kni_build_workshops = {
+	production_efficiency = 0.25
+}
+kni_build_taverns = {
+	years_of_nationalism = -5
+}
+kni_build_castles = {
+	fort_maintenance_modifier = -0.4
+}
+kni_more_buildings = {
+	allowed_num_of_buildings = 3
+}
+kni_build_courthouse = {
+	max_states = 1
+}
+kni_message_from_pape = {
+	papal_influence = 0.5
+	devotion = 0.5
+	prestige = 0.25
+}
+kni_relations_with_cyprus = {
+	devotion = 0.25
+	prestige = 0.15
+}
+kni_buyout = {
+	global_tax_modifier = -0.2
+}
+kni_profit = {
+	global_tax_modifier = 0.2
+}
+kni_chastening_of_constantinopol  = {
+	local_development_cost = 0.1
+	local_autonomy = -0.05
+	local_unrest = -4
+}
+kni_have_iron = {
+	infantry_cost = -0.25
+	cavalry_cost = -0.1
+}
+kni_professional_army = {
+	army_tradition_decay = -0.015
+}
+
+############### Mameluks #################
+
+mam_devastation_one	= {
+	global_tax_modifier = -0.35
+	production_efficiency = -0.3
+	global_manpower_modifier = -0.4
+	land_forcelimit_modifier = -0.25
+}
+
+mam_devastation_one_result	= {
+	prestige = 0.25
+	legitimacy = 0.1
+}
+
+mam_devastation_two = {
+	global_tax_modifier = -0.15
+	production_efficiency = -0.15
+	global_manpower_modifier = -0.2
+	land_forcelimit_modifier = -0.1
+}
+
+mam_devastation_two_result	= {
+	prestige = 0.5
+	legitimacy = 0.25
+}
+
+mam_stability_one = {
+	stability_cost_modifier = 0.4
+	global_unrest = 3
+	global_missionary_strength = -0.02
+}
+
+mam_stability_two = {
+	stability_cost_modifier = 0.15
+	global_unrest = 1
+	global_missionary_strength = -0.01
+}
+
+mam_devastation = {
+	local_monthly_devastation = 0.35
+	local_build_cost = 0.3
+	local_build_time = 0.5
+	local_development_cost = 0.4
+}
+
+############### Common modifiers #################
+
+religious_place = {
+	local_missionary_strength = -0.035
+}
+
+# old_fort = {
+	# fort_maintenance_modifier = -0.85
+	# garrison_size = -0.6
+# }

@@ -6,7 +6,7 @@ culture = bozo
 is_city = yes
 base_manpower = 3
 religion = shamanism
-capital = "Jenne"
+capital = "Дженне"
 trade_goods = cloth
 hre = no
 base_tax = 7 
@@ -16,6 +16,11 @@ native_hostileness = 7
 add_core = JNN
 discovered_by = sub_saharan
 fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = religious_place
+	duration = -1
+}
 
 1469.1.1 = { unrest = 3 } # Songhai raids devastate region
 1472.1.1 = { unrest = 6 } # Songhai raids devastate region
@@ -34,8 +39,4 @@ fort_15th = yes
  # revival as Bambara restore strong state presence under Mamali Kulibali in region
 1756.1.1 = { unrest = 9 } # Denkoro seizes power in wake of father Mamali's death, civil war
 1766.1.1 = { unrest = 0 } # Ngolo Diarra restores authortiy of Segu state, ends civil war
-1819.1.1 = {
-	owner = ZAF
-	controller = ZAF
-	add_core = ZAF
-} # The Massina Empire, recylcing the JNN tag
+1819.1.1 = { owner = ZAF controller = ZAF add_core = ZAF } # The Massina Empire, recylcing the JNN tag

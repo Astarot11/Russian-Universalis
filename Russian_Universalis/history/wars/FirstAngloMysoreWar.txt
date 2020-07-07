@@ -1,4 +1,4 @@
-name = "Первая англо-майсурская война"
+name = "Первая Англо-Майсурская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

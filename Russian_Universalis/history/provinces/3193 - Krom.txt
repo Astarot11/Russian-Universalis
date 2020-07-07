@@ -2,7 +2,7 @@
 
 owner = KR0
 controller = KR0
-culture = russian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 1

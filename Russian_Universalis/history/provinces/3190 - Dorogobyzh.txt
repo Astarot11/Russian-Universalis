@@ -2,7 +2,7 @@
 
 owner = DRB
 controller = DRB
-culture = russian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 2

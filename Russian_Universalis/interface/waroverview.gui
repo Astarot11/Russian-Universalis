@@ -185,7 +185,7 @@ guiTypes = {
 		iconType = {
 			name = "war_cb_icon"
 			spriteType = "GFX_cb_core"
-			position = { x = 90 y = 85 }
+			position = { x = 140 y = 95 }
 			orientation = "UPPER_LEFT"
 		}
 
@@ -259,7 +259,7 @@ guiTypes = {
 		}			
 		
 		instantTextBoxType={
-			position = {x = 160 y = 93 }
+			position = {x = 153 y = 93 }
 			name = "war_goal_title"
 			font = "vic_18"
 			borderSize = {x = 8 y = 0}	

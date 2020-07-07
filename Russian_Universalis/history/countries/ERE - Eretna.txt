@@ -7,14 +7,24 @@ technology_group = ottoman
 capital = 329	# Sivas
 religious_school = hanafi_school
 
+1308.1.10 = {
+	monarch = {
+		name = "(Междуцарствие)"
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}
+
 1335.1.1 = {
 	monarch = {
 		name = "Эретна Ала ад-Дин ибн Джафар"
 		dynasty = "Эретнаогуллар"
 		birth_date = 1300.1.1
-		adm = 2
+		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
 }
 

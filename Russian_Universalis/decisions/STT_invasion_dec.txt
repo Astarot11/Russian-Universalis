@@ -298,264 +298,7 @@ country_decisions = {
 	## BYZ ##
 	#########
 
-#    BYZ_army_reform1 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_army_crisis1
-		}
-		
-		allow = {
-		    mil_power = 500
-			adm_power = 100
-			MIL = 4
-		}
-		
-		effect = {
-		    add_mil_power = -500
-			add_adm_power = -100
-			remove_country_modifier = BYZ_army_crisis1
-			add_country_modifier = {
-			    name = BYZ_army_crisis2
-				duration = -1
-			}
-		}
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}	
-	
-#	BYZ_army_reform2 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_army_crisis2
-		}
-		
-		allow = {
-		    mil_power = 400
-			adm_power = 200
-			MIL = 4
-			ADM = 3
-		}
-		
-		effect = {
-		    add_adm_power = -200
-		    add_mil_power = -400
-			remove_country_modifier = BYZ_army_crisis2
-			add_country_modifier = {
-			    name = BYZ_army_crisis3
-				duration = -1
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}	
-	
-#	BYZ_army_reform3 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_army_crisis3
-		}
-		
-		allow = {
-		    mil_power = 300
-			adm_power = 100
-			dip_power = 100
-			MIL = 5
-			ADM = 3
-			DIP = 3
-		}
-		
-		effect = {
-		    add_adm_power = -100
-		    add_mil_power = -300
-			add_dip_power = -100
-			remove_country_modifier = BYZ_army_crisis3
-			add_country_modifier = {
-			    name = BYZ_army_success
-				duration = 1825
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}	
-	
-#	BYZ_economic_reform1 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_economic_crisis1
-		}
-		
-		allow = {
-		    adm_power = 400
-			dip_power = 200
-			ADM = 4
-			DIP = 2
-		}
-		
-		effect = {
-		    add_adm_power = -400
-			add_dip_power = -200
-			remove_country_modifier = BYZ_economic_crisis1
-			add_country_modifier = {
-			    name = BYZ_economic_crisis2
-				duration = -1
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
-	
-#	BYZ_economic_reform2 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_economic_crisis2
-		}
-		
-		allow = {
-		    adm_power = 400
-			dip_power = 100
-			mil_power = 100
-			ADM = 4
-			DIP = 3
-		}
-		
-		effect = {
-		    add_adm_power = -400
-			add_dip_power = -100
-			add_mil_power = -100
-			remove_country_modifier = BYZ_economic_crisis2
-			add_country_modifier = {
-			    name = BYZ_economic_success
-				duration = 1825
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
-	
-#	BYZ_diplomatic_reform1 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_diplomacy_crisis1
-		}
-		
-		allow = {
-			dip_power = 500
-			mil_power = 100
-			DIP = 4
-		}
-		
-		effect = {
-			add_dip_power = -500
-			add_mil_power = -100
-			remove_country_modifier = BYZ_diplomacy_crisis1
-			add_country_modifier = {
-			    name = BYZ_diplomacy_crisis2
-				duration = -1
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
-	
-#	BYZ_diplomatic_reform2 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_diplomacy_crisis2
-		}
-		
-		allow = {
-			dip_power = 400
-			mil_power = 200
-			MIL = 3
-			DIP = 5
-		}
-		
-		effect = {
-			add_dip_power = -400
-			add_mil_power = -200
-			remove_country_modifier = BYZ_diplomacy_crisis2
-			add_country_modifier = {
-			    name = BYZ_diplomacy_success
-				duration = 3650
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
-	
-#	BYZ_cultural_reform1 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_cultural_crisis1
-		}
-		
-		allow = {
-			dip_power = 300
-			mil_power = 200
-			adm_power = 100
-			MIL = 5
-			DIP = 3
-		}
-		
-		effect = {
-			add_dip_power = -300
-			add_mil_power = -200
-			add_adm_power = -100
-			remove_country_modifier = BYZ_cultural_crisis1
-			add_country_modifier = {
-			    name = BYZ_cultural_crisis2
-				duration = -1
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
-	
-#	BYZ_cultural_reform2 = {
-	    major = yes
-		potential = {
-		    has_country_modifier = BYZ_cultural_crisis2
-		}
-		
-		allow = {
-			dip_power = 300
-			mil_power = 100
-			adm_power = 200
-			ADM = 3
-			DIP = 5
-		}
-		
-		effect = {
-			add_dip_power = -300
-			add_mil_power = -100
-			add_adm_power = -200
-			remove_country_modifier = BYZ_cultural_crisis2
-			add_country_modifier = {
-			    name = BYZ_cultural_success
-				duration = 9125
-			}
-        }
-		
-		ai_will_do = {
-		    factor = 1000
-		}
-	}
+
 	
 
     ##########
@@ -750,4 +493,144 @@ country_decisions = {
 	        factor = 1000
         }
 	}
+	
+	
+    #######################
+	## Dimitr AKA Azurka ##
+	#######################
+	
+	creat_israel = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = restored_israel }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = PAP }
+			NOT = { tag = TRE }
+			NOT = { tag = BYZ }
+			NOT = { exists = ISR }
+			religion_group = jewish_group
+		}
+		allow = {
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+				has_owner_religion = yes
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			379 = {
+				move_capital_effect = yes
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+			change_tag = ISR
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_owner_religion = yes
+					}
+					change_culture = hebrew
+				}
+			}
+			change_primary_culture = hebrew
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			add_legitimacy = 50
+			add_prestige = 50
+			add_core = 379
+			country_event = { id = ideagroups.1 } #Swap Ideas
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = restored_israel
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	accept_slavic_religion = {
+	    major = yes
+	    potential = {
+		    OR = {
+			    primary_culture = ryazanian
+				primary_culture = byelorussian
+				primary_culture = russian
+				primary_culture = novgorodian
+				primary_culture = ruthenian
+			}
+			NOT = { is_year = 1550 }
+			NOT = { religion = slavic }
+			NOT = { tag = VIA }
+		}
+		
+		allow = {
+			NOT = { patriarch_authority = 0.05 }
+		    num_of_owned_provinces_with = {
+			    value = 3
+				religion = slavic
+			}
+			is_free_or_tributary_trigger = yes
+			num_of_infantry = 20
+			adm_power = 150
+		}
+		
+		effect = {
+			add_adm_power = -150
+		    country_event = {
+			    id = slavic_pagan_namespace.2
+			}
+		}
+		
+		ai_will_do = {
+		    factor = 0
+		}
+	}
+	
+	diplomatic_reform_slavic_religion = {
+	    major = yes
+	    potential = {
+		    OR = {
+			    primary_culture = ryazanian
+				primary_culture = byelorussian
+				primary_culture = russian
+				primary_culture = novgorodian
+				primary_culture = ruthenian
+			}
+			religion = slavic
+			has_country_modifier = slavic_pagan_reform_finish
+		}
+		
+		allow = {
+			is_at_war = no
+		    advisor = diplomat
+		    dip_power = 300
+		    stability = 1
+			religion = slavic
+		}
+		
+		effect = {
+		    add_dip_power = -300
+			remove_country_modifier = slavic_pagan_reform_finish
+		}
+		
+		ai_will_do = {
+		    factor = 100
+		}
+	}
+}
 }

@@ -1,0 +1,31 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+##########################################################################
+# HARD - DO NOT REMOVE OR RENAME ANY OF THESE
+##########################################################################
+
+##############
+# TIMED
+##############
+
+execution_of_marie_antoinette = {
+	opinion = -20
+	yearly_decay = 2
+}
+
+feast_of_the_mind = {
+	opinion = -20
+	yearly_decay = 4
+}
+
+execution_of_louis_antoine = {
+	opinion = -20
+	yearly_decay = 4
+}
+
+execution_of_louis_XVI = {
+	opinion = -200
+	yearly_decay = 20
+}

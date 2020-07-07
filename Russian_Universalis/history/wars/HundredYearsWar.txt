@@ -17,16 +17,16 @@ war_goal = {
 
 1450.4.15 = {
 	battle = {
-		name = "Форминьи"
+		name = "Formigny"
 		location = 168
 		attacker = {
-			commander = "Томас Кириэл"	# Thomas Kyriell
+			commander = "Thomas Kyriell"	# Thomas Kyriell
 			infantry = 4000
 			losses = 63	# percent
 			country = ENG
 		}
 		defender = {
-			commander = "Граф де Клермон"	# Comte de Clermont
+			commander = "Comte de Clermont"	# Comte de Clermont
 			infantry = 5000
 			losses = 6	# percent
 			country = FRA
@@ -41,17 +41,17 @@ war_goal = {
 
 1453.7.17 = {
 	battle = {
-		name = "Кастийон"
+		name = "Castillon"
 		location = 174
 		attacker = {
-			commander = "Джон Тальбот"	# John Talbot
+			commander = "John Talbot"	# John Talbot
 			infantry = 5000
 			cavalry = 500
 			losses = 60	# percent
 			country = ENG
 		}
 		defender = {
-			commander = "Жан Бюро"	# Jean Bureau
+			commander = "Jean Bureau"	# Jean Bureau
 			infantry = 10500
 			cavalry = 1000
 			losses = 1	# percent

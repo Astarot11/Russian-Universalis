@@ -3,7 +3,7 @@
 owner = YAR
 controller = YAR
 culture = novgorodian
-religion = orthodox
+religion = slavic
 hre = no
 base_tax = 1 
 base_production = 2
@@ -16,7 +16,7 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 
-
+1342.1.1 = { religion = orthodox }
 1358.1.1 = { owner = MLG add_core = MLG controller = MLG }
 1358.1.1 = { capital = "”сть-»жина" }
 1383.1.1 = { owner = MOS add_core = MOS controller = MOS }

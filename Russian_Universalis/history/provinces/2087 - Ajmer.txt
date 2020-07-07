@@ -19,52 +19,24 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 
+add_permanent_province_modifier = {
+	name = religious_center
+	duration = -1
+}
+
 1300.1.1 = { controller = DLH owner = DLH add_core = DLH }
 1310.1.1 = { owner = MAW controller = MAW add_core = MAW remove_core = DLH }#Multiplayer balans
 1310.1.2 = { controller = DLH owner = DLH add_core = DLH}#Multiplayer balans
-
 1406.1.1 = { controller = MER owner = MER add_core = MER }
-
-1530.1.1 = {
-	owner = MUG
-	controller = MUG
-	add_core = MUG
-} # Mughal Conquest
-1540.1.1 = {
-	owner = MAW
-	controller = MAW
-} # Rajput again after the fall of Delhi
-1543.1.1 = {
-	owner = BNG
-	controller = BNG
-} # Conquered by Sher Shah Sur
-1553.1.1 = {
-	owner = DLH
-	controller = DLH
-	add_core = DLH
-} # Split of Suri Empire
+1530.1.1 = { owner = MUG controller = MUG add_core = MUG } # Mughal Conquest
+1540.1.1 = { owner = MAW controller = MAW } # Rajput again after the fall of Delhi
+1543.1.1 = { owner = BNG controller = BNG } # Conquered by Sher Shah Sur
+1553.1.1 = { owner = DLH controller = DLH add_core = DLH } # Split of Suri Empire
 1558.1.1 = { controller = MUG }
-1558.2.1 = {
-	owner = MUG
-	add_core = MUG
-	remove_core = DLH
-}
+1558.2.1 = { owner = MUG add_core = MUG remove_core = DLH }
 1690.1.1 = { discovered_by = ENG }
 1707.3.15 = { controller = MER } # Independent
-1707.4.1 = {
-	owner = MAW
-	controller = MAW
-	remove_core = MUG
-} # Independent
+1707.4.1 = { owner = MAW controller = MAW remove_core = MUG } # Independent
 1707.5.12 = { discovered_by = GBR }
-1756.1.1 = {
-	owner = GWA
-	controller = GWA
-	add_core = GWA
-}
-1818.6.3 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = GWA
-}
+1756.1.1 = { owner = GWA controller = GWA add_core = GWA }
+1818.6.3 = { owner = GBR controller = GBR add_core = GBR remove_core = GWA }

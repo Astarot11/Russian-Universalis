@@ -16,29 +16,6 @@ war_goal = {
 	add_defender = TU0
 }
 
-1444.11.10 = { 
-	battle = { 
-		name = "Битва при Варне" 
-		location = 152
-		attacker = { 
-			commander = "Владислав III Варненчик"
-			infantry = 30000
-			cavalry = 0
-			artillery = 0
-			losses = 70		# percent 
-			country = POL
-		} 
-		defender = { 
-			commander = "Мурад II"
-			infantry = 60000
-			cavalry = 0
-			artillery = 0
-			losses = 20		# percent 
-			country = TUR
-		} 
-		result = no
-	} 
-}
 
 1444.11.10 = {
 	rem_attacker = POL

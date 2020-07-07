@@ -1,4 +1,4 @@
-name = "Турецко-валахская война"
+name = "Османо-Валашская война"
 war_goal = {
 	type = take_capital_disloyal
 	casus_belli = cb_disloyal_vassal
@@ -12,17 +12,17 @@ war_goal = {
 
 1595.8.13 = {
 	battle = {
-		name = "Калугарени"
+		name = "Calugareni"
 		location = 161
 		attacker = {
-			commander = "Синан-паша"	# Sinan Pasha
+			commander = "Sinan Pasha"	# Sinan Pasha
 			infantry = 86000
 			cavalry = 42000
 			losses = 10	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Михай Храбрый"	# Michael the Brave
+			commander = "Michael the Brave"	# Michael the Brave
 			infantry = 15000
 			cavalry = 8000
 			losses = 5	# percent

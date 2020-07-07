@@ -1,4 +1,4 @@
-name = "Виджаянагарское завоевание Андхры"
+name = "Виджаянагарское завоевание прибрежной Андхры"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

@@ -1,4 +1,4 @@
-name = "Война за Португальское наследство"
+name = "Война за португальское наследство"
 succession = POR
 war_goal = {
 	type = take_capital_throne
@@ -14,17 +14,17 @@ war_goal = {
 
 1580.8.25 = {
 	battle = {
-		name = "Алькантара"
+		name = "Battle of Alcantara"
 		location = 227
 		attacker = {
-			commander = "Герцог Альба"	# Duque de Alba
+			commander = "Duque de Alba"	# Duque de Alba
 			infantry = 15000
 			cavalry = 5000
 			losses = 20	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Антонио I"	# Antуnio I
+			commander = "Antуnio I"	# Antуnio I
 			infantry = 18000
 			cavalry = 6000
 			losses = 80	# percent

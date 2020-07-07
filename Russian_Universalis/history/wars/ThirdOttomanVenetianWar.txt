@@ -1,4 +1,4 @@
-name = "Третья венециано-турецкая война"
+name = "Третья Турецко-Венецианская война"
 
 war_goal = {
 	type = take_claim
@@ -14,16 +14,16 @@ war_goal = {
 # Battle of Zonchio
 1499.8.25 = { 
 	battle = { 
-		name = "Зончо" 
+		name = "Zonchio" 
 		location = 1312
 		attacker = { 
-			commander = "Кемаль Рейс"			# Kemal Reis
+			commander = "Kemal Reis"			# Kemal Reis
 			galley = 82
 			losses = 1			# percent 
 			country = TUR
 		} 
 		defender = { 
-			commander = "Антонио Гримани"		# Antonio Grimani
+			commander = "Antonio Grimani"		# Antonio Grimani
 			galley = 64
 			losses = 13			# percent 
 			country = VEN

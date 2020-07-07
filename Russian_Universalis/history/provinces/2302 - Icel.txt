@@ -1,10 +1,10 @@
-#2302 - Iзel
+#2302 - Iзel/Anamur
 
 owner = KIL			### STT
 controller = KIL	### STT
-culture = armenian
+culture = cilician
 religion = coptic
-capital = "Эрменек"	### STT
+capital = "Анамур"	### STT
 trade_goods = naval_supplies
 hre = no
 base_tax = 3 
@@ -20,12 +20,10 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 
-1375.1.1 = { owner = KAR add_core = KAR controller = KAR culture = turkish religion = sunni }
-1483.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-}
+1375.1.1 = { owner = KAR add_core = KAR controller = KAR }
+1425.1.1 = { religion = sunni }
+1445.1.1 = { culture = turkish }
+1483.1.1 = { owner = TUR controller = TUR add_core = TUR }
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war
 1513.1.1 = { revolt = {} controller = TUR }
 1658.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Revolt of Abaza Hasan Pasha, centered on Aleppo, extending into Anatolia

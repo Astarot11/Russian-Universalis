@@ -1,8 +1,8 @@
-name = "Багхельская война"
+name = "Первая Багелийская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
-	province = 2097 # Bagelkhand
+	province = 2097 # Baghelkhand
 }
 
 1562.1.1 = {

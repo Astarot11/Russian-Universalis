@@ -1,0 +1,68 @@
+# Мамлюки и Дулкариды
+guarantee  = {
+	first = MAM
+	second = DUL
+	start_date = 1338.1.1
+	end_date = 1357.1.1
+}
+vassal = {
+	first = MAM
+	second = DUL
+	start_date = 1357.1.1
+	end_date = 1475.1.1
+}
+vassal = {
+	first = MAM
+	second = FAD
+	start_date = 1309.1.1
+	end_date = 1515.1.
+}
+#Сеньория Хиоса
+guarantee  = {
+	first = BYZ
+	second = SCH
+	start_date = 1309.1.1
+	end_date = 1315.1.1
+}
+
+alliance = {
+	first = SCH
+	second = KNI
+	start_date = 1314.1.1
+	end_date = 1329.1.1
+}
+
+#Сеньория Негрпонта
+alliance = {
+	first = VEN
+	second = NGR
+	start_date = 1309.1.1
+	end_date = 1365.1.1
+}
+vassal = {
+	first = VEN
+	second = NGR
+	start_date = 1365.1.1
+	end_date = 1390.1.1
+}
+#Герцогства Неопатрия
+vassal = {
+	first = SIC
+	second = ATH
+	start_date = 1312.1.1
+	end_date = 1390.1.
+}
+vassal = {
+	first = SIC
+	second = NEO
+	start_date = 1320.1.1
+	end_date = 1390.1.
+}
+
+#Тунис и вассалы
+vassal = {
+	first = TUN
+	second = TRP
+	start_date = 1308.1.1
+	end_date = 1398.1.1
+}

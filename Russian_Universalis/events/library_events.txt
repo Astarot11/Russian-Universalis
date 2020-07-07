@@ -1,0 +1,40 @@
+namespace = plato_library
+country_event = {
+	id = plato_library.1001
+	title = "plato_library.EVTNAME1001"
+	desc = "plato_library.EVTDESC1001"
+	picture = plato_book_event_picture
+	
+	trigger = {
+		library = 10
+		NOT = { has_country_modifier = plato_library_boost }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "plato_library.EVTOPTA1001"
+		add_country_modifier = {
+			name = "plato_library_boost"
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = plato_library.2002
+	title = "plato_library.EVTNAME2002"
+	desc = "plato_library.EVTDESC2002"
+	picture = plato_book_event_picture
+	
+	trigger = {
+		NOT = { library = 10 }
+		has_country_modifier = plato_library_boost
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "plato_library.EVTOPTA2002"
+		remove_country_modifier = plato_library_boost
+	}
+}

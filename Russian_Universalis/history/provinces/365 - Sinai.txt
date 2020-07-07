@@ -1,17 +1,19 @@
-#365 - Sinai
+#365 - Sinai;Et Tur
 
 owner = MAM
 controller = MAM
-culture = al_misr_arabic
+culture = bedouin_arabic
 religion = sunni
-capital = "At Tur"
+capital = "ές-Òσπ"
 trade_goods = gems
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
 is_city = yes
+
 add_core = MAM
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western

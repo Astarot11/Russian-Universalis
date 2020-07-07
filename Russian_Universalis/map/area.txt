@@ -8,7 +8,7 @@ western_mediterrenean_area = {
 }
 
 eastern_mediterrenean_area = {
-	1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1319 1320 1932
+	1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1319 1320 1932 
 }
 
 black_sea_area = {
@@ -1042,7 +1042,7 @@ armenia_area = { #3
 }
 
 north_kurdistan_area = { #3
-	418 2306 2307 3122 3688 3805
+	418 2306 2307 3122 3688 3805 3865 3866
 }
 
 shirvan_area = { #3
@@ -1102,11 +1102,11 @@ angora_area = {
 }
 
 karaman_area = { #3 
-	323 324 1848 3108 3657 3261
+	323 324 1848 3108 3657 3261 3852
 }
 
 menteshe_area = { #4
-	319 2298 3109 3638 3637
+	319 2298 3109 3638 3637 3851
 }
 
 hudavendigar_area = { #4 (Anatolia Eyalet except for Kastamonu and the future Aydin eyalet)
@@ -1114,35 +1114,55 @@ hudavendigar_area = { #4 (Anatolia Eyalet except for Kastamonu and the future Ay
 }
 
 aydin_area = { #4
-	318 2297 3110 3639 3640 
+	318 2297 3110 3639 3640 3844 3858
 }
 
 kastamonu_area = { #3
 	325 2299 3643 3647 3650
 }
 
-cilicia_area = {
-    3262 3113 327 2302 3636
+cyprus_area = {
+	321 3660 3840 3841
 }
 
-aleppo_area = { #5
-	377 2313 3120 1849
+cilicia_area = {
+    3262 3113 327 2302 3636 3843 3853
 }
 
 syria_area = { #3
-	378 382 1855
+	 382 405 3846 3847 3869 3870 
+}
+
+antioch_area = {
+	2313 3845 3849 3850 3855
+}
+
+aleppo_area = { #5
+	377 3120 1849 3854 3867
+}
+
+tripoly_area = {
+	378 3848 3871 3872 3873
+}
+
+al_karak_area = {
+	380 381 3880 3881 3882 3883 3884
 }
 
 palestine_area = { #4
-	364 379 380 381 1854
+	364 379 1854 3878 3879
+}
+
+galilee_area = {
+	1855 3874 3875 3876 3877
 }
 
 dulkadir_area = { # 3 +Kayseri +ayntab
-	332 2303 3114 3658 3654
+	332 2303 3114 3658 3654 3856 3860 3861
 }
 
-eastern_aegean_area = { #3 - Eastern part of the Archipelago Eyalet +crete
-	320 321 2348 3660
+eastern_aegean_area = { #3 - Eastern part of the Archipelago Eyalet + cyprus
+	320 2348 3842 3857 3939 3950
 }
 
 al_jazira_area = { #4
@@ -1184,51 +1204,83 @@ oman_area = { #6
 #lower_egypt:
 
 tripolitania_area = { #4
-	355 2451 354 2452 3313
+	355 2451 354 2452 3270 3313 3903
 }
 
-cyrenaica_area = { #3
-	356 357 2326 3314
+damietta_area = {
+	363 3293 3887 3888
 }
 
 fezzan_area = { #3
-	2448 2449 2474 2475 3336 3825
+	2448 2449 2450 2474 2475 3271 3336 3825
 }
 
-tunisia_area = { #7
-	341 353 2453 2454 2455 2473 2954 3308
+biskra_area = {
+	351 3272 3311 3312 3919 3920
+}
+
+ain_oussera_area = {
+	2458 2462 3309 3924 3926 3927 3928 
+}
+
+gafsa_area = {
+	352 3308 3909 3914 3915 3916 3918
+}
+
+constantine_area = {
+	340 2454 3836 3921 3922 3923
 }
 
 kabylia_area = { #5
-	339 340 351 1882 2458 3306 3307 3312 3836
+	339 1882 3306 3307 3925 
 }
 
 algiers_area = { #7
-	336 337 338 2459 2461 2462 2463 3302 3303 3309
+	338 2459 3303 3929 3930 3931
+}
+
+tunisia_area = { #7
+	341 2455 2473  3911 3912 3913  
+}
+
+touggourt_area = {
+	2456 2457 2472 3837 3838 3839 3917
 }
 
 north_saharan_area = { #6
-	350 352 2450 2456 2457 2472 3304 3310 3311 3305 3837 3838 3839
+	349 350 3294 3304 3310 3305 
 }
 
 tafilalt_area = { #3 (Tafilalt+Draa)
-	346 2460 2466 2464 3294 349
+	346 2460 2464 3933 3943 3944 3948
+}
+
+sfax_area = {
+	353 2453 2954 3905 3907 3908 3910
 }
 
 sus_area = { #4
-	347 348 1110 3299 3826 3827
+	347 348 1110 3299 3826 3827 2466
 }
 
 marrekesh_area = { #5
-	344 345 2468 2469 2470 3298
+	344 345 2468 2469 2470 3298 3947 
 }
 
 fez_area = { #5
-	335 343 2465 2467 3297 3295 3296 3301
+	343  2467 3295 3297 3938 3940  
+}
+
+saida_area = {
+	2463 2465 3932 3934 3935 3941 3942
 }
 
 northern_morocco_area = { #3
-	334 342 1751
+	334 342 1751 3945 3946 
+}
+
+tlemcen_area = {
+	335 336 337 2461 3296 3301 3302
 }
 
 ########################################
@@ -1512,7 +1564,7 @@ dendi_area = { #4
 }
 
 azbin_area = { #8
-    1156 2272 2273 2274 2275 2276 2277 2475
+    1156 2272 2273 2274 2275 2276 2277 2475 3904
 }
 
 atacora_oueme_area = { #5
@@ -2797,42 +2849,50 @@ khorasan_area = {
 	436 446 2221 2235 2236 3800
 }
 
-libyan_desert_area = {
-	1233 2318 2325 3823 3824
-}
-
-gharbia_area = {
-	358 362 2316 3292 3293
-}
-
 sharqiya_area = {
-	363 365 2315 3266 3291
+	365 2315 2320 3266 3885 3886
 }
 
-central_egypt_area = {
-	359 361 2317 2319 2320
+libyan_desert_area = {
+	1233 2318 2325 3823 3824 3896
 }
 
 upper_egypt_area = {
-	360 1231 2321
+	360 1231 2321 3291 3897 3898 3899
+}
+
+gharbia_area = {
+	358 362 2316 3292
+}
+
+cairo_area = {
+	359 361 3889 3890
+}
+
+central_egypt_area = {
+	2317 2319 3891 3892 3894 3895
+}
+
+cyrenaica_area = { #3
+	356 357 2326 3314 3900 3901 3902
 }
 
 # eastern_mediterrenean_islands_area = {
 # }
 
 western_aegean_area = {
-	163 164 3003 3265 3659 
+	163 164 3003 3265 3659 3951
 }
 
 # odishi_area = {
 # }
 
 rakka_area = {
-	405 407 2314 3118
+	407 2314 3118 3859 3862 3863 3864 3868
 }
 
 south_kurdistan_area = {
-	415 2211 3115 3116
+	415 2211 3115 3116 
 }
 
 # east_china_sea_islands_area = {
@@ -2860,7 +2920,7 @@ south_kurdistan_area = {
 # }
 
 north_korea_area = {
-	732 733 1845 2742 2743 2744 3342 3349
+	732 733 1845 2742 2743 2744 3342 3349 
 }
 
 hejaz_area = {

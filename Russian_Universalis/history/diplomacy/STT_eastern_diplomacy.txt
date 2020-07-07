@@ -94,10 +94,3 @@ start_date = 1309.1.1
 end_date = 1351.1.1
 }
 
-dependency = {
-subject_type = "tributary_state"
-first = YUA
-second = KYO
-start_date = 1309.1.1
-end_date = 1351.1.1
-}

@@ -1,3 +1,4 @@
+
 namespace = stt_startgame
 
 country_event = { # help for otto

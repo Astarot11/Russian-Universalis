@@ -1,4 +1,4 @@
-name = "Вторая англо-голландская война"
+name = "Вторая Англо-Голландская война"
 war_goal = {
 	type = superiority_trade_mutual
 	casus_belli = cb_trade_war
@@ -11,16 +11,16 @@ war_goal = {
 
 1665.6.13 = {
 	battle = {
-		name = "Лоустофт"
+		name = "Lowestoft"
 		location = 1270
 		attacker = {
-			commander = "Герцог Йоркский"	# James Stuart
+			commander = "James Stuart"	# James Stuart
 			heavy_ship = 109
 			losses = 1	# percent
 			country = ENG
 		}
 		defender = {
-			commander = "Якоб ван Вассенар Обдам"	# Jacob van Wassenaer Obdam
+			commander = "Jacob van Wassenaer Obdam"	# Jacob van Wassenaer Obdam
 			heavy_ship = 103
 			losses = 16	# percent
 			country = NED
@@ -31,16 +31,16 @@ war_goal = {
 
 1666.6.1 = {
 	battle = {
-		name = "Норт-Форленд"
+		name = "North Foreland"
 		location = 1271
 		attacker = {
-			commander = "Джордж Монк"	# George Monck
+			commander = "George Monck"	# George Monck
 			heavy_ship = 79
 			losses = 13	# percent
 			country = ENG
 		}
 		defender = {
-			commander = "Михаэль де Рюйтер"	# Michiel de Ruyter
+			commander = "Michiel de Ruyter"	# Michiel de Ruyter
 			heavy_ship = 84
 			losses = 5	# percent
 			country = NED

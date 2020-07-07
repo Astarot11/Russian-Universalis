@@ -1,4 +1,4 @@
-name = "Шведско-датская война"
+name = "Шведско-Датская война"
 
 war_goal = {
 	type = take_capital_personal_union

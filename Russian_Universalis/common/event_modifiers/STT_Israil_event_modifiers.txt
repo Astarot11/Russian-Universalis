@@ -1,0 +1,30 @@
+orthodox_campaign = {
+	land_morale = 0.1
+	recover_army_morale_speed = 0.05
+}
+
+fragile_peace = {
+	ae_impact = 0.2
+	diplomatic_reputation = 1
+	unjustified_demands = 0.2
+	improve_relation_modifier = 0.35
+	justify_trade_conflict_cost = 0.2
+}
+
+profitable_loans = {
+	interest = -1
+	global_tax_modifier = 0.05
+}
+
+restored_temple_mount = {
+	religious_unity = 0.2
+	global_missionary_strength = 0.02
+}
+provisional_self_government = {
+	local_autonomy = 0.1
+	local_unrest = -1
+}
+new_fortresses = {
+	fort_maintenance_modifier = 0.1
+	defensiveness = 0.2
+}

@@ -1,4 +1,4 @@
-name = "Третья англо-маратхская война"
+name = "Третья Англо-Маратхская война"
 
 war_goal = {
 	type = take_capital_imperial

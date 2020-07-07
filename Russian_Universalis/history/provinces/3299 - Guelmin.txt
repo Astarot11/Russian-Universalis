@@ -1,6 +1,8 @@
+#3299 - Guelmin
+
 culture = berber
 religion = sunni
-capital = "Guelmin"
+capital = "Гулимин"
 trade_goods = unknown
 hre = no
 base_tax = 1 

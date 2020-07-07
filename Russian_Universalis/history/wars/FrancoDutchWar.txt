@@ -1,4 +1,4 @@
-name = "Франко-голландская война"
+name = "Франко-Голландская война"
 war_goal = {
 	type = superiority_insult
 	casus_belli = cb_dishonored_call
@@ -15,17 +15,17 @@ war_goal = {
 
 1672.6.7 = { 
 	battle = { 
-		name = "Солебэй" 
+		name = "Solebay" 
 		location = 1270
 		attacker = { 
-			commander = "Герцог Йоркский"		# James Stuart
+			commander = "James Stuart"		# James Stuart
 			heavy_ship = 73
 			light_ship = 20
 			losses = 1		# percent 
 			country = ENG
 		} 
 		defender = { 
-			commander = "Михаэль де Рюйтер"		# Michiel de Ruyter
+			commander = "Michiel de Ruyter"		# Michiel de Ruyter
 			heavy_ship = 46
 			light_ship = 29
 			losses = 1		# percent 
@@ -37,10 +37,10 @@ war_goal = {
 
 1673.6.13 = { 
 	battle = { 
-		name = "Маастрихт" 
+		name = "Maastricht" 
 		location = 93
 		attacker = { 
-			commander = "Людовик XIV"		# Louis XIV
+			commander = "Louis XIV"		# Louis XIV
 			infantry = 24000
 			cavalry = 16000
 			artillery = 100
@@ -48,7 +48,7 @@ war_goal = {
 			country = FRA
 		} 
 		defender = { 
-			commander = "Жак де Фарио"		# Jacques de Fariaux
+			commander = "Jacques de Fariaux"		# Jacques de Fariaux
 			infantry = 4500
 			cavalry = 1200
 			losses = 20		# percent 
@@ -78,10 +78,10 @@ war_goal = {
 
 1674.8.11 = { 
 	battle = { 
-		name = "Сенеф" 
+		name = "Seneffe" 
 		location = 91
 		attacker = { 
-			commander = "Принц Конде"		# Louis II
+			commander = "Louis II"		# Louis II
 			infantry = 30000
 			cavalry = 14000
 			artillery = 55
@@ -89,7 +89,7 @@ war_goal = {
 			country = FRA
 		} 
 		defender = { 
-			commander = "Вильгельм III"		# William III of Orange
+			commander = "William III"		# William III of Orange
 			infantry = 40000
 			cavalry = 22500
 			artillery = 65
@@ -108,10 +108,10 @@ war_goal = {
 
 1675.6.28 = { 
 	battle = { 
-		name = "Фербеллин" 
+		name = "Fehrbellin" 
 		location = 50
 		attacker = {
-			commander = "Вальдемар фон Врангель"	# Waldemar von Wrangel
+			commander = "Waldemar von Wrangel"	# Waldemar von Wrangel
 			infantry = 7000
 			cavalry = 4000
 			artillery = 30
@@ -119,7 +119,7 @@ war_goal = {
 			country = SWE
 		} 
 		defender = { 
-			commander = "Георг фон Дерффлингер"		# Georg von Derfflinger
+			commander = "Georg von Derfflinger"		# Georg von Derfflinger
 			cavalry = 5600
 			artillery = 15
 			losses = 9		# percent 
@@ -131,17 +131,17 @@ war_goal = {
 
 1676.8.17 = { 
 	battle = { 
-		name = "Хальмстад" 
+		name = "Halmstad" 
 		location = 26
 		attacker = {
-			commander = "Карл XI"		# Karl XI
+			commander = "Karl XI"		# Karl XI
 			infantry = 2800
 			cavalry = 1000
 			losses = 26		# percent 
 			country = SWE
 		} 
 		defender = { 
-			commander = "Яков Дункан"		# Jakob Duncan
+			commander = "Jacob Duncan"		# Jakob Duncan
 			infantry = 3000
 			cavalry = 1000
 			losses = 3		# percent 
@@ -153,17 +153,17 @@ war_goal = {
 
 1676.12.4 = { 
 	battle = { 
-		name = "Лунд" 
+		name = "Lund" 
 		location = 6
 		attacker = {
-			commander = "Карл XI"		# Karl XI
+			commander = "Karl XI"		# Karl XI
 			infantry = 4000
 			cavalry = 500
 			losses = 2		# percent 
 			country = SWE
 		} 
 		defender = { 
-			commander = "Кристиан V"		# Christian V
+			commander = "Christian V"		# Christian V
 			infantry = 3000
 			cavalry = 400
 			losses = 55		# percent 
@@ -175,17 +175,17 @@ war_goal = {
 
 1677.7.14 = { 
 	battle = { 
-		name = "Ландскрона" 
+		name = "Landskrona" 
 		location = 6
 		attacker = { 
-			commander = "Карл XI"		# Karl XI & Simon Grundel-Helmfelt
+			commander = "Karl XI"		# Karl XI & Simon Grundel-Helmfelt
 			infantry = 9000
 			cavalry = 4000
 			losses = 5		# percent 
 			country = SWE
 		} 
 		defender = { 
-			commander = "Кристиан V"		# Christian V
+			commander = "Christian V"		# Christian V
 			infantry = 5000
 			cavalry = 7000
 			losses = 21		# percent 

@@ -2,8 +2,8 @@ government = republic
 add_government_reform = veche_republic
 government_rank = 1
 mercantilism = 0.30
-primary_culture = russian
-religion = orthodox
+primary_culture = novgorodian
+religion = slavic
 technology_group = eastern
 #historical_rival = MOS
 capital = 1079
@@ -18,4 +18,6 @@ fixed_capital = 1079 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
+
+1440.1.1 = { religion = orthodox }
 

@@ -48,7 +48,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 4 y = 40}
-			text = "PATRIARCHAL_BLESSINGS"	
+			text = "ALL_BLESSINGS"	
 			maxWidth = 584
 			maxHeight = 32
 			alwaystransparent = yes
@@ -288,6 +288,42 @@ guiTypes = {
 			name = "blessing_button"
 			position = { x=-5 y = -26}
 			quadTextureSprite ="GFX_copts_blessing_select"
+			buttonFont = "vic_18"
+		}
+		
+		iconType =
+		{
+			name = "blessing_icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x= -6 y = -27 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+	}
+	
+	#Jewish_sel_blessing
+	
+		windowType = {
+		name = "jewish_blessingitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=24 y=24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		
+		iconType =
+		{
+			name = "blessing_icon_slot"
+			spriteType = "GFX_copts_blessing_slot"
+			position = { x= -3 y = -24 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "blessing_button"
+			position = { x=-5 y = -26}
+			quadTextureSprite ="GFX_jewish_blessing_select"
 			buttonFont = "vic_18"
 		}
 		

@@ -13,17 +13,17 @@ war_goal = {
 
 1499.2.20 = { 
 	battle = { 
-		name = "Гард" 
+		name = "Hard" 
 		location = 73
 		attacker = { 
-			commander = "Максимилиан"
+			commander = "Maximilian"
 			infantry = 9800
 			artillery = 15
 			losses = 20		# percent
 			country = HAB
 		} 
 		defender = { 
-			commander = "Вильгельм Телль"
+			commander = "Wilhelm Tell"
 			infantry = 4200
 			losses = 6		# percent 
 			country = SWI

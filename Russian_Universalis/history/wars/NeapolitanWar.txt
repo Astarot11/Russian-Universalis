@@ -12,17 +12,17 @@ war_goal = {
 
 1815.5.2 = {
 	battle = {
-		name = "Толентино"
+		name = "Tolentino"
 		location = 119
 		attacker = {
-			commander = "Иоахим Мюрат"	# Joachim Murat
+			commander = "Joachim Murat"	# Joachim Murat
 			infantry = 15700
 			cavalry = 3500
 			losses = 6	# percent
 			country = NAP
 		}
 		defender = {
-			commander = "Фредерик Бьянчи"	# Frederick Bianchi
+			commander = "Frederick Bianchi"	# Frederick Bianchi
 			infantry = 12000
 			cavalry = 1500
 			artillery = 28

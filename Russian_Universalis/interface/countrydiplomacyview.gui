@@ -79,7 +79,7 @@ guiTypes = {
 		{
 			name ="countryshield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= -6 y = 124 }
+			position = { x= -6 y = 112 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
@@ -88,7 +88,7 @@ guiTypes = {
 		{
 			name ="countryshield_glow"
 			quadTextureSprite = "GFX_shield_thin_great_power_glow"
-			position = { x= -6 y = 124 }
+			position = { x= -6 y = 112 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -147,7 +147,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "label_fog"
-			position = { x = 132 y = 145 }
+			position = { x = 132 y = 143 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -812,7 +812,7 @@ guiTypes = {
 			name = "diplomatic_listbox"
 			backGround = ""
 			position = { x=30 y=335 }
-			size = { x=230 y=228 }
+			size = { x=250 y=228 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.5
@@ -936,7 +936,7 @@ guiTypes = {
 	
 		guiButtonType = {
 			name = "button_createvassals"
-			position = { x=394 y =523 }
+			position = { x=394 y =520 }
 			quadTextureSprite ="GFX_button_homecountry"	
 			shortcut = "z"
 		}
@@ -1104,7 +1104,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType= {
-			position = { x = 315 y = 300 } #x = 345 y = 320 Поднял надпись
+			position = { x = 315 y = 320 } #x = 345 y = 320 Поднял надпись
 			name = "provincelist_label"
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}	
@@ -1512,7 +1512,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 65 y =3 }
+			position = { x = 38 y =1 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
@@ -1543,7 +1543,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "provinces"
-				position = { x = 60 y = 27 }
+				position = { x = 35 y = 27 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}
@@ -1557,7 +1557,7 @@ guiTypes = {
 		{
 			name ="vassal_selection_button"
 			quadTextureSprite= "GFX_shield_medium"
-			position = { x= -25 y = -5 }
+			position = { x= -25 y = -10 }
 			Orientation = "UPPER_LEFT"
 
 			tooltip = ""
@@ -1863,7 +1863,7 @@ guiTypes = {
 	
 		instantTextBoxType = {
 			name = "country_opinion_2"
-			position = { x = 161 y = 5 } #x = 162 y = 3
+			position = { x = 150 y = 4 } #x = 162 y = 3
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -1877,7 +1877,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_opinion"
-			position = { x = 132 y = 5 } #x = 132 y = 3
+			position = { x = 120 y = 4 } #x = 132 y = 3
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	

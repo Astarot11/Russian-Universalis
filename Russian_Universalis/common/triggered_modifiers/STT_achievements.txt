@@ -67,11 +67,9 @@ stt_achievements_true_indep = {
 	}
 	trigger = {
 		tag = OST
-		NOT = {
-			any_province = {
-				culture_group = georgian
-				NOT = { owned_by = ROOT }
-			}
+		all_province = {
+			limit = { culture_group = georgian }
+			owned_by = ROOT
 		}
 	}
 }
@@ -93,6 +91,86 @@ stt_achievements_selfdestruction = {
 			is_institution_origin = hhh_dt_f
 		}
 		NOT = { is_year = 1312 }
+	}
+}
+
+stt_achievements_new_genoa = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = SCH
+		start_date = 1310.8.15
+		NOT = { is_year = 1500 }
+		GEN = { exists = NO }
+		liguria_area = {
+			owned_by = SCH
+			is_core = SCH
+			type = all
+		}
+		eastern_aegean_area = {
+			owned_by = SCH
+			is_core = SCH
+			type = all
+		}
+		corsica_sardinia_area = {
+			owned_by = SCH
+			is_core = SCH
+			type = all
+		}
+		crimea_area = {
+			owned_by = SCH
+			is_core = SCH
+			type = all
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_constantinople_powerful
+			151 = { has_most_province_trade_power = SCH }
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_venice_powerful
+			112 = { has_most_province_trade_power = SCH }
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_genua_powerful
+			101 = { has_most_province_trade_power = SCH }
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_constantinople_powerful_half
+			151 = { trade_share = { country = SCH share = 50 } }
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_venice_powerful_half
+			112 = { trade_share = { country = SCH share = 50 } }
+		}
+		custom_trigger_tooltip = {
+			tooltip = sch_achievement_genua_powerful_half
+			101 = { trade_share = { country = SCH share = 50 } }
+		}
+		full_idea_group = economic_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = naval_ideas
+	}
+}
+
+stt_achievements_wal_dracula = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = WAL
+		normal_or_historical_nations = yes
+		NOT = { diplomatic_reputation = -3 }
+		transylvania_area = { 
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
 	}
 }
 
@@ -288,6 +366,44 @@ stt_achievements_horti_fleet = {
 		}
 	}
 }
+stt_achievements_two_philadelfia = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = PHI
+		start_date = 1337.1.1
+		capital = 3844
+		NOT = { is_year = 1650 }
+		aydin_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			religion = orthodox
+			culture = greek
+			type = all
+		}
+		tobol_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			religion = orthodox
+			culture = greek
+			type = all
+		}
+		development_in_provinces = {
+			value = 120
+			area = aydin_area
+		}
+		development_in_provinces = {
+			value = 60
+			area = tobol_area
+		}
+		capital_scope = { development = 60 }
+		2369 = { development = 30 }
+	}
+}
 
 ###### Hard #######
 
@@ -441,6 +557,21 @@ stt_achievements_soviet_union = {
 	}
 }
 
+stt_achievements_isr_kosherno = {
+	potential = {
+		has_global_flag = stt_achievements
+		ironman = yes
+		normal_province_values = yes
+		ai = no
+	}
+	trigger = {
+		tag = ISR
+		normal_or_historical_nations = yes
+		all_country = {
+			NOT = { monthly_income = ISR }	
+		}
+	}
+
 
 ########## INSANE #################
 stt_achievements_timurs_conquest = {
@@ -513,5 +644,338 @@ stt_achievements_charlemagne = {
 		south_german_region = { type = all owned_by = ROOT is_city = yes }
 		balkan_region = { type = all owned_by = ROOT is_city = yes }
 		poland_region = { type = all owned_by = ROOT is_city = yes }
+	}
+}
+
+stt_achievements_empire_of_the_knights_hospitaller = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = KNI
+		total_development = 2500
+		start_date = 1310.8.15
+		NOT = { is_year = 1750 }
+		government_rank = 3
+		primary_culture = joannites
+		all_owned_province = {
+			culture = joannites
+			OR = {
+				religion = orthodox
+				religion = catholic
+			}
+		}
+		2313 = { owned_by = ROOT }
+		379 = { owned_by = ROOT }
+		if = {
+			limit = {
+				KNI = { religion = orthodox }
+			}
+				118 = { owned_by = ROOT }
+		}
+		else = {
+			limit = {
+				KNI = { religion = catholic }
+			}
+				151 = { owned_by = ROOT }
+		}
+		full_idea_group = religious_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = naval_ideas
+	}
+}
+
+stt_achievements_the_keepers_of_europe = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = CCZ
+		start_date = 1310.8.15
+		NOT = { is_year = 1700 }
+		full_idea_group = spy_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
+		full_idea_group = offensive_ideas
+		num_of_galley = 500
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_balkan
+			balkan_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_crimea
+			crimea_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_carpathia
+			carpathia_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_caucasia
+			caucasia_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_anatolia
+			anatolia_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_mashriq
+			mashriq_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_egypt
+			damietta_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			gharbia_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			cyrenaica_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			2325 = { owned_by = ROOT is_core = ROOT }
+			3266 = { owned_by = ROOT is_core = ROOT }
+			3885 = { owned_by = ROOT is_core = ROOT }
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_maghreb
+			maghreb_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_italy
+			italy_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_iberia
+			iberia_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_france
+			france_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_low_countries
+			low_countries_region = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ccz_achievement_england
+			devon_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			wessex_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			wales_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			east_anglia_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			mercia_area = {
+				if = {
+					limit = { has_port = yes } 
+					owned_by = ROOT
+					is_core = ROOT
+				}
+				type = all
+			}
+			3093 = { owned_by = ROOT is_core = ROOT }
+		}
+	}
+}
+stt_achievements_negroponte = {
+	potential = {
+		has_global_flag = stt_achievements
+		normal_province_values = yes
+		ironman = yes
+		ai = no
+	}
+	trigger = {
+		tag = NGR
+		start_date = 1310.8.15
+		NOT = { is_year = 1650 }
+		alliance_with = PAP
+		118 = { owned_by = PAP is_core = PAP }
+		PAP = { NOT = { num_of_cities = 2 } }
+		balkan_region = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		anatolia_region = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		italy_region = {
+			type = all
+				OR = {
+					owned_by = PAP
+					owned_by = NGR
+				}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ngr_achievement_egypt
+			egypt_region = { type = all OR = { owned_by = ROOT NOT = { is_city = yes }}}
+		}
+		antioch_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		aleppo_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		tripoly_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		syria_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		al_karak_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		galilee_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		palestine_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
+		rakka_area = {
+			owned_by = ROOT
+			is_core = ROOT
+			type = all
+		}
 	}
 }

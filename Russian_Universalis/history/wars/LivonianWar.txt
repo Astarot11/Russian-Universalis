@@ -6,7 +6,7 @@ war_goal = {
 }
 
 1558.1.22 = {
-	add_attacker = TSR #STT
+	add_attacker = TSR
 	add_defender = LIV
 	add_defender = POL
 	add_defender = LIT
@@ -28,16 +28,16 @@ war_goal = {
 
 1581.11.2 = {
 	battle = {
-		name = "Битва под Псковом"
+		name = "Pskov"
 		location = 274
 		attacker = {
-			commander = "Иван Шуйский"	# Ivan Shuisky
+			commander = "Ivan Shuisky"	# Ivan Shuisky
 			infantry = 15000
 			losses = 10	#percent
-			country = TSR #STT
+			country = RUS
 		}
 		defender = {
-			commander = "Степан Баторий"	# Stefan Bathory
+			commander = "Stefan Bathory"	# Stefan Bathory
 			infantry = 35000
 			cavalry = 10000
 			artillery = 50
@@ -56,5 +56,5 @@ war_goal = {
 # Treaty of Plussa
 1583.8.10 = {
 	rem_defender = SWE
-	rem_attacker = TSR #STT
+	rem_attacker = TSR
 }

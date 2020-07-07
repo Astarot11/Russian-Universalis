@@ -1,4 +1,4 @@
-name = "Вторжение Шах-Джахана в Персию" 
+name = "Вторжение шаха Джахана в Персию" 
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

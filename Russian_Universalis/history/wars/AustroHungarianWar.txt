@@ -1,4 +1,4 @@
-name = "Австро-венгерская война"
+name = "Австро-Венгерская война"
 war_goal = {
 	type = superiority_loan
 	casus_belli = cb_loan_cancelled
@@ -11,16 +11,16 @@ war_goal = {
 
 1484.5.11 = {
 	battle = {
-		name = "Лейцерсдорф"
+		name = "Leitzersdorf"
 		location = 64
 		attacker = {
-			commander = "Матьяш Хуньяди"	# Matthias Corvinus
+			commander = "Matthias Corvinus"	# Matthias Corvinus
 			infantry = 5800
 			losses = 10	# percent
 			country = HUN
 		}
 		defender = {
-			commander = "Фердинанд III"	# Ferdinand III
+			commander = "Ferdinand III"	# Ferdinand III
 			infantry = 4500
 			losses = 20	# percent
 			country = HAB

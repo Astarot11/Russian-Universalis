@@ -1,4 +1,4 @@
-name = "Вторая польско-шведская война"
+name = "Вторая Польско-Шведская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

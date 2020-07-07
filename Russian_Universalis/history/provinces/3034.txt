@@ -2,7 +2,7 @@
 
 owner = EPI
 controller = EPI
-culture = greek
+culture = epirus
 religion = orthodox
 capital = "Arta"
 trade_goods = fish
@@ -19,11 +19,7 @@ discovered_by = eastern
 discovered_by = western
 
 1337.1.1 = { owner = BYZ  controller = BYZ }
-1348.1.1 = { 
-	owner = SGT
-	controller = SGT
-	add_core = SGT
-}
+1348.1.1 = { owner = SGT controller = SGT add_core = SGT }
 1360.1.1 = { owner = EPI controller = EPI }
 1449.1.1 = { owner = TU0 controller = TU0 add_core = TU0 }
 1453.5.29 = { owner = TUR controller = TUR add_core = TUR remove_core = TU0 }

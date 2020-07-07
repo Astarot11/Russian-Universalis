@@ -1,4 +1,4 @@
-name = "Первая польско-шведская война"
+name = "Первая Польско-Шведская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -12,17 +12,17 @@ war_goal = {
 
 1605.9.27 = {
 	battle = {
-		name = "Кирхгольм"
+		name = "Kircholm"
 		location = 38
 		attacker = {
-			commander = "Ян Кароль Ходкевич"	# Jan Karol Chodkiewicz
+			commander = "Jan Karol Chodkiewicz"	# Jan Karol Chodkiewicz
 			infantry = 1300
 			cavalry = 2500
 			losses = 21	# percent
 			country = PLC
 		}
 		defender = {
-			commander = "Карл IX"	# Karl IX
+			commander = "Karl IX"	# Karl IX
 			infantry = 9000
 			cavalry = 3000
 			losses = 59	# percent

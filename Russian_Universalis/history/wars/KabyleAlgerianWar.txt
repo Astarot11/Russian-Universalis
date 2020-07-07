@@ -1,4 +1,4 @@
-name = "Кабильское опустошение Митиджа"
+name = "Разрушение Митиджи"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

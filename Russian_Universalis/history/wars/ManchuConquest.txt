@@ -1,4 +1,4 @@
-name = "Маньчжурское завоевание Китая"
+name = "Маньчжурское завоевание"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

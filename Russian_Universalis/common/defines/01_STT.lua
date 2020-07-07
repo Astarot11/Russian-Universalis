@@ -53,6 +53,7 @@ NDefines.NCountry.COLONY_VIOLAION_PAPAL_INFLUENCE_COST = -1							-- -10
 NDefines.NCountry.DEBT_LIMIT_ADM = -999						
 NDefines.NCountry.DEBT_LIMIT_DIP = -999							
 NDefines.NCountry.DEBT_LIMIT_MIL = -999		
+NDefines.NCountry.MIGRATION_COOLDOWN = 12	
 
 --NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0.0005
 --NDefines.NCountry.PS_ADVANCE_TECH = 640

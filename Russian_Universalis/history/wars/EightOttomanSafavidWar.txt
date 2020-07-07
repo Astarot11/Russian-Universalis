@@ -1,4 +1,4 @@
-name = "Восьмая турецко-персидская война"
+name = "Восьмая Османо-Сефевидская война"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

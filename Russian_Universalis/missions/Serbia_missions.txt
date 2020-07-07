@@ -1,73 +1,5 @@
-ser_extra_diplomatic_missions = {
+ser_one = {
 	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		primary_culture = serbian
-		NOT = {
-			tag = MON
-			tag = BOS
-			tag = HUM
-			tag = RSK
-		}
-	}
-	has_country_shield = yes
-	
-	ser_friendship_rus = {
-		icon = mission_alliances
-		required_missions = { ser_friendship_bul }
-		position = 3
-		
-		trigger = {
-			OR = {
-				RUS = {
-					has_opinion = {
-						who = SER
-						value = 100
-					}	
-				}
-				NOV = {
-					has_opinion = {
-						who = SER
-						value = 100
-					}	
-				}
-				MOS = {
-					has_opinion = {
-						who = SER
-						value = 100
-					}	
-				}
-			}
-		}
-		
-		effect = {
-			add_prestige = 10
-		}
-	}
-	
-	ser_war_konst = {
-		icon = ser_tsa
-		required_missions = { ser_war_frakia }
-		position = 7
-		
-		provinces_to_highlight = {
-			province_id = 151
-		}
-		
-		trigger = {
-			SER = { owns = 151 }
-		}
-		
-		effect = {
-			add_prestige = 20
-		}
-	}
-	
-}
-
-ser_diplomatic_missions = {
-	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -88,9 +20,15 @@ ser_diplomatic_missions = {
 		
 		trigger = {
 			BOS = {
-				has_opinion = {
-					who = SER
-					value = 50
+				OR = {
+					has_opinion = {
+						who = SER
+						value = 50
+					}
+					has_opinion = {
+						who = SGT
+						value = 50
+					}
 				}	
 			}
 		}
@@ -98,7 +36,7 @@ ser_diplomatic_missions = {
 		effect = {
 			add_trust = {
 				who = BOS
-				value = 5
+				value = 10
 				mutual = yes
 			}
 		}
@@ -111,17 +49,22 @@ ser_diplomatic_missions = {
 		
 		trigger = {
 			BUL = {
-				has_opinion = {
-					who = SER
-					value = 50
+				OR = {
+					has_opinion = {
+						who = SER
+						value = 50
+					}
+					has_opinion = {
+						who = SGT
+						value = 50
+					}
 				}	
 			}
 		}
-		
 		effect = {
 			add_trust = {
 				who = BUL
-				value = 5
+				value = 15
 				mutual = yes
 			}
 		}
@@ -134,47 +77,110 @@ ser_diplomatic_missions = {
 		
 		trigger = {
 			VEN = {
-				has_opinion = {
-					who = SER
-					value = 50
+				OR = {
+					has_opinion = {
+						who = SER
+						value = 50
+					}
+					has_opinion = {
+						who = SGT
+						value = 50
+					}
 				}	
 			}
 		}
-		
 		effect = {
-			add_prestige = 5
+			add_prestige = 10
+			add_mercantilism = 1
 			add_trust = {
 				who = VEN
-				value = 5
+				value = 10
 				mutual = yes
 			}
 		}
 	}
-	
-	
-	ser_friendship_rag = {
+	ser_friendship_rus = {
 		icon = mission_alliances
 		required_missions = { ser_friendship_ven }
 		position = 4
 		
 		trigger = {
-			RAG = {
-				has_opinion = {
-					who = SER
-					value = 50
-				}	
+			OR = {
+				RUS = {
+					OR = {
+						has_opinion = {
+							who = SER
+							value = 100
+						}
+						has_opinion = {
+							who = SGT
+							value = 100
+						}
+					}
+				}
+				NOV = {
+					OR = {
+						has_opinion = {
+							who = SER
+							value = 100
+						}
+						has_opinion = {
+							who = SGT
+							value = 100
+						}
+					}	
+				}
+				MOS = {
+					OR = {
+						has_opinion = {
+							who = SER
+							value = 100
+						}
+						has_opinion = {
+							who = SGT
+							value = 100
+						}
+					}	
+				}
 			}
 		}
-		
 		effect = {
-			add_prestige = 5
-			add_trust = {
-				who = RAG
-				value = 5
-				mutual = yes
+			add_prestige = 20
+			add_country_modifier = {
+				name = "influential_diplomacy"
+				duration = 18250 #50 years
 			}
 		}
 	}
+	
+	# ser_friendship_rag = {
+		# icon = mission_alliances
+		# required_missions = { ser_friendship_ven }
+		# position = 4
+		
+		# trigger = {
+			# RAG = {
+				# OR = {
+					# has_opinion = {
+						# who = SER
+						# value = 50
+					# }
+					# has_opinion = {
+						# who = SGT
+						# value = 50
+					# }
+				# }	
+			# }
+		# }
+		# effect = {
+			# add_prestige = 5
+			# add_trust = {
+				# who = RAG
+				# value = 5
+				# mutual = yes
+			# }
+		# }
+	# }
 	
 	ser_war_fess = {
 		icon = ser_fes
@@ -183,19 +189,25 @@ ser_diplomatic_missions = {
 		completed_by = 1348.1.1
 		
 		provinces_to_highlight = {
-			province_id = 147
-			province_id = 148
+			OR = {	
+				province_id = 147
+				province_id = 148
+				province_id = 3773
+				province_id = 3761
+			}
+			NOT = { owned_by = ROOT } 
 		}
-		
 		trigger = {
-			SER = { owns = 147 }
-			SER = { owns = 148 }
+			147 = { owned_by = ROOT }
+			148 = { owned_by = ROOT }
+			3761 = { owned_by = ROOT }
+			3773 = { owned_by = ROOT }
 		}
-		
 		effect = {
-			3264 = { add_claim = SER }
-			149 = { add_claim = SER }
-			3105 = { add_claim = SER }
+			3264 = { add_claim = ROOT }
+			149 = { add_claim = ROOT }
+			3105 = { add_claim = ROOT }
+			3760 = { add_claim = ROOT }
 		}
 	}
 	
@@ -205,90 +217,54 @@ ser_diplomatic_missions = {
 		position = 6
 		
 		provinces_to_highlight = {
-			province_id = 149
-			province_id = 3264
-			province_id = 3105
-		}
-		
-		trigger = {
-			SER = { owns = 149 }
-			SER = { owns = 3264 }
-			SER = { owns = 3105 }
-		}
-		
-		effect = {
-			3106 = { add_claim = SER }
-			151 = { add_claim = SER }
-		}
-	}
-	
-	ser_war_hum = {
-		icon = ser_hum
-		required_missions = { ser_war_beograd }
-		position = 7
-		
-		provinces_to_highlight = {
-			province_id = 139
-			province_id = 3099
-			province_id = 1831
-			province_id = 3100
-		}
-		
-		trigger = {
-			SER = { owns = 139 }
-			SER = { owns = 3099 }
-			SER = { owns = 1831 }
-			SER = { owns = 3100 }
-		}
-		
-		effect = {
-			137 = { add_claim = SER }
-		}
-	}
-	
-	ser_war_rag = {
-		icon = ser_rag
-		required_missions = { ser_war_hum }
-		position = 7
-		
-		provinces_to_highlight = {
-			province_id = 137
-		}
-		
-		trigger = {
-			SER = { owns = 137 }
-		}
-		
-		effect = {
-			add_prestige = 5
-		}
-	}
-	
-	ser_trade_rag = {
-		icon = mission_dominate_home_trade_node
-		required_missions = { ser_war_rag }
-		position = 8
-		
-		trigger = {
-			137 = {
-				trade_share = {
-					country = SER
-					share = 25
-				}
+			OR = {
+				province_id = 149
+				province_id = 3264
+				province_id = 3105
+				province_id = 3760
 			}
+			NOT = { owned_by = ROOT } 
+		}
+		
+		trigger = {
+			149 = { owned_by = ROOT }
+			3264 = { owned_by = ROOT }
+			3105 = { owned_by = ROOT }
+			3760 = { owned_by = ROOT }
 		}
 		
 		effect = {
-			 137 = {
-				add_base_tax = 2
-				add_prestige = 10
-			 }
+			3106 = { add_claim = ROOT }
+			151 = { add_claim = ROOT }
+		}
+	}
+	
+	ser_war_konst = {
+		icon = ser_tsa
+		required_missions = { ser_war_frakia }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {	
+				province_id = 151
+				province_id = 3106
+			}
+			NOT = { owned_by = ROOT } 
+		}
+		trigger = {
+			151 = { owned_by = ROOT }
+			3106 = { owned_by = ROOT }
+		}
+		
+		effect = {
+			add_prestige = 20
+			add_legitimacy = 10
 		}
 	}
 }
 
-ser_war_missions = {
-	slot = 3
+ser_two = {
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -318,7 +294,9 @@ ser_war_missions = {
 		}
 		
 		effect = {
-			1853 = { add_claim = SER }
+			1853 = { add_permanent_claim = ROOT }
+			3001 = { add_permanent_claim = ROOT }
+			3762 = { add_permanent_claim = ROOT }
 		}
 	}
 	
@@ -329,18 +307,25 @@ ser_war_missions = {
 		completed_by = 1348.1.1
 		
 		provinces_to_highlight = {
-			province_id = 1853
-			province_id = 3001
+			OR = {
+				province_id = 1853
+				province_id = 3001
+				province_id = 3762
+			}
+			NOT = { owned_by = ROOT } 
 		}
 		
 		trigger = {
-			SER = { owns = 1853 owns = 3001 }
+			1853 = { owned_by = ROOT }
+			3001 = { owned_by = ROOT }
+			3762 = { owned_by = ROOT }
 		}
 		
 		effect = {
-			3098 = { add_claim = SER }
-			3102 = { add_claim = SER }
-			143 = { add_claim = SER }
+			3098 = { add_claim = ROOT }
+			3102 = { add_claim = ROOT }
+			143 = { add_claim = ROOT }
+			3765 = { add_claim = ROOT }
 		}
 	}
 	
@@ -351,23 +336,44 @@ ser_war_missions = {
 		completed_by = 1348.1.1
 		
 		provinces_to_highlight = {
-			province_id = 3098
-			province_id = 3012
-			province_id = 143
+			OR = {
+				province_id = 3098
+				province_id = 3102
+				province_id = 143
+				province_id = 3765
+			}
+			NOT = { owned_by = ROOT } 
 		}
 		
 		trigger = {
-			SER = { owns = 3098  owns = 3102  owns = 143 }
+			3098 = { owned_by = ROOT }
+			3102 = { owned_by = ROOT }
+			143 = { owned_by = ROOT }
+			3765 = { owned_by = ROOT }
 		}
 		
 		effect = {
-			148 = { add_claim = SER }
-			147 = { add_claim = SER }
-			143 = { add_claim = SER }
-			3103 = { add_claim = SER }
-			3036 = { add_claim = SER }
-			3034 = { add_claim = SER }
-			144 = { add_claim = SER }
+			1853 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT
+			}
+			148 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT  
+			}
 		}
 	}
 	
@@ -378,14 +384,20 @@ ser_war_missions = {
 		completed_by = 1348.1.1
 		
 		provinces_to_highlight = {
-			province_id = 3013
-			province_id = 3036
-			province_id = 144
-			province_id = 3034
+			OR = {
+				province_id = 142
+				province_id = 3036
+				province_id = 144
+				province_id = 3034
+			}
+			NOT = { owned_by = ROOT } 
 		}
 		
 		trigger = {
-			SER = { owns = 3013 owns = 3036 owns = 144 owns = 3034 }
+			142 = { owned_by = ROOT } 
+			3036 = { owned_by = ROOT } 
+			144 = { owned_by = ROOT }
+			3034 = { owned_by = ROOT }
 		}
 		
 		effect = {
@@ -393,99 +405,83 @@ ser_war_missions = {
 		}
 	}
 	
-	ser_war_bos = {
-		icon = ser_bos
-		required_missions = { ser_war_epir }
+	SerbiaGreeceTsardom_nation = {
+		icon = STT_mission_sergre 
+		required_missions = { ser_war_epir ser_war_fess ser_admin_byz_2 }
 		position = 6
-		
-		provinces_to_highlight = {
-			province_id = 3002
-			province_id = 140
-			province_id = 1828
-		}
+		completed_by = 1350.1.1
 		
 		trigger = {
-			SER = { owns = 3002 }
-			SER = { owns = 140 }
-			SER = { owns = 1828 }
+			is_free_or_tributary_trigger = yes
+		    NOT = { is_year = 1400 }
+			NOT = { tag = SGT }
+			adm_tech = 5
+			is_subject = no
+			is_at_war = no
+			hidden_effect = {
+				accepted_culture = greek
+				accepted_culture = epirus
+			}
+			custom_trigger_tooltip = {
+				tooltip = SER_accepted_culture
+					accepted_culture = greek
+					accepted_culture = epirus
+			}
+			owns_core_province = 143 # Albania
+			owns_core_province = 3001 # Skopje
+            owns_core_province = 3034 # Arta
+			owns_core_province = 147 # Thessaly
+			owns_core_province = 144 # Epir
+			owns_core_province = 1853 # Kastoria
 		}
-		
-		effect = {
-			1767 = { add_claim = SER }
-			3284 = { add_claim = SER }
-			3150 = { add_claim = SER }
-			131 = { add_claim = SER }
-			152 = { add_claim = SER }
-		}
-	}
-	
-	ser_war_hrv = {
-		icon = ser_hrv
-		required_missions = { ser_war_bos }
-		position = 7
-		
-		provinces_to_highlight = {
-			province_id = 1767
-			province_id = 3284
-			province_id = 3150
-			province_id = 131
-			province_id = 152
-		}
-		
-		trigger = {
-			SER = { owns = 1767 owns = 3284 owns = 3150 owns = 131 owns = 152 }
-		}
-		
-		effect = {
-			3047 = { add_claim = SER }
-			129 = { add_claim = SER }
-			130 = { add_claim = SER }
-			1769 = { add_claim = SER }
-		}
-	}
-	
-	ser_war_slovenia = {
-		icon = ser_slv
-		required_missions = { ser_war_hrv ser_war_dalmatia }
-		position = 8
-		
-		provinces_to_highlight = {
-			province_id = 3047
-			province_id = 129
-			province_id = 130
-			province_id = 1769
-		}
-		
-		trigger = {
-			SER = { owns = 3047 owns = 129 owns = 130 owns = 1769 }
-		}
-		
-		effect = {
-			128 = { add_claim = SER }
-		}
-	}
-	
-	ser_war_slovenia_2 = {
-		icon = ser_kar
-		required_missions = { ser_war_slovenia }
-		position = 9
-		
-		provinces_to_highlight = {
-			province_id = 128
-		}
-		
-		trigger = {
-			SER = { owns = 128 }
-		}
-		
-		effect = {
-			128 = { change_culture = slovene }
+	 	effect = {
+		    morea_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ROOT
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ROOT
+			}
+			macedonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ROOT
+			}
+			thrace_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ROOT
+			}
+			if = {
+				limit = { 
+					NOT = { government_rank = 3 } 
+					}
+				set_government_rank = 3
+			}
+		    add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			change_tag = SGT
+			add_prestige = 50
+			country_event = { id = ideagroups.1 } #Swap Ideas
 		}
 	}
 }
 
-ser_admin_missions = {
-	slot = 4
+ser_three = {
+	slot = 3
 	generic = no
 	ai = yes
 	potential = {
@@ -501,8 +497,7 @@ ser_admin_missions = {
 	
 	
 	ser_admin_church = {
-		icon = mission_high_income
-		required_missions = { }
+		icon = mission_hands_praying
 		position = 1
 		completed_by = 1348.1.1
 		
@@ -512,7 +507,6 @@ ser_admin_missions = {
 				loyalty = 60
 			}
 		}
-		
 		effect = {
 			add_estate_loyalty = {
 				estate = estate_church
@@ -522,7 +516,7 @@ ser_admin_missions = {
 	}
 	
 	ser_admin_church_2 = {
-		icon = mission_high_income
+		icon = STT_mission_religion_three
 		required_missions = { ser_admin_church }
 		position = 2
 		completed_by = 1348.1.1
@@ -537,7 +531,7 @@ ser_admin_missions = {
 	}
 	
 	ser_admin_church_3 = {
-		icon = mission_high_income
+		icon = mission_european_church
 		required_missions = { ser_admin_church_2 }
 		position = 3
 		completed_by = 1348.1.1
@@ -559,103 +553,434 @@ ser_admin_missions = {
 		completed_by = 1350.1.1
 		
 		trigger = {
-			SER = { owns = 3001 }
-			is_core = 3001 
+			3001 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
 		}
-		
 		effect = {
 			3001 = {
-				add_local_autonomy = -5
+				add_local_autonomy = -10
 			}
 		}
 	}
 	
 	ser_admin_byz_2 = {
-		icon = mission_high_income
+		icon = STT_BYZ_mission_senate3
 		required_missions = { ser_admin_byz ser_war_albania }
 		position = 5
 		completed_by = 1350.1.1
-		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3098
+				province_id = 3102
+				province_id = 143
+				province_id = 3765
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT } 
+			}
+		}
 		trigger = {
 			is_core = 3098
 			is_core = 3102
 			is_core = 143
+			is_core = 3765
 		}
 		
 		effect = {
 			3098 = {
-				add_local_autonomy = -5
+				add_local_autonomy = -10
+			}
+			3765 = {
+				add_local_autonomy = -10
 			}
 			3102 = {
-				add_local_autonomy = -5
+				add_local_autonomy = -10
 			}
 			143 = {
-				add_local_autonomy = -5
+				add_local_autonomy = -10
 			}
-			add_administrative_efficiency = 0.05
 			add_stability = 1
 		}
 	}
+}
+
+ser_four = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = serbian
+		NOT = {
+			tag = MON
+			tag = BOS
+			tag = HUM
+			tag = RSK
+		}
+	}
+	has_country_shield = yes
 	
-	ser_war_beograd = {
-		icon = ser_beo
-		required_missions = { ser_war_epir ser_war_fess }
-		position = 6
+	ser_war_hum = {
+		icon = ser_hum
+		required_missions = { ser_new_army }
+		position = 2
 		
 		provinces_to_highlight = {
-			province_id = 3151
-			province_id = 3035
+			OR = {
+				province_id = 139
+				province_id = 3099
+				province_id = 1831
+				province_id = 3100
+			}
+			NOT = { owned_by = ROOT } 
 		}
-		
 		trigger = {
-			SER = { owns = 3151 owns = 3035 }
+			139 = { owned_by = ROOT }
+			3099 = { owned_by = ROOT }
+			1831 = { owned_by = ROOT }
+			3100 = { owned_by = ROOT }
 		}
-		
 		effect = {
-			add_legitimacy = 20
-			add_republican_tradition = 20
+			137 = { add_claim = ROOT }
 		}
 	}
 	
-	ser_war_dalmatia = {
-		icon = ser_dal
-		required_missions = { ser_war_beograd }
-		position = 7
+	ser_war_rag = {
+		icon = ser_rag
+		required_missions = { ser_war_hum }
+		position = 3
 		
 		provinces_to_highlight = {
-			province_id = 1826
-			province_id = 3283
-			province_id = 3101
-			province_id = 136
+			province_id = 137
 		}
-		
 		trigger = {
-			SER = { owns = 1826 owns = 3283 owns = 3101 owns = 136 }
+			137 = { owned_by = ROOT }
 		}
-		
 		effect = {
 			add_prestige = 5
 		}
 	}
 	
-	ser_war_banat = {
-		icon = ser_ban
-		required_missions = { ser_war_dalmatia }
-		position = 8
+	ser_trade_rag = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ser_war_rag }
+		position = 4
 		
 		provinces_to_highlight = {
-			province_id = 1954
+			province_id = 137
+		}
+		trigger = {
+			137 = {
+				OR = {
+					trade_share = {
+						country = SER
+						share = 25
+					}
+					trade_share = {
+						country = SGT
+						share = 25
+					}
+					trade_share = {
+						country = YUG
+						share = 25
+					}
+				}
+			}
+		}
+		effect = {
+			 137 = {
+				add_base_tax = 2
+				add_prestige = 10
+			 }
+		}
+	}
+}
+ser_five = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = serbian
+		NOT = {
+			tag = MON
+			tag = BOS
+			tag = HUM
+			tag = RSK
+		}
+	}
+	has_country_shield = yes
+	
+	ser_new_army = {
+        icon = mission_assemble_an_army
+        position = 1
+        trigger = {
+			is_at_war = no
+			army_size_percentage = 0.8
+        }
+        effect = {
+			add_prestige = 10
+			add_army_tradition = 15
+			add_army_professionalism = 0.05
+			bosnia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			chernogoria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	
+	ser_war_bos = {
+		icon = ser_bos
+		required_missions = { ser_new_army }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = bosnia_area
+			}
+			NOT = { owned_by = ROOT } 
 		}
 		
 		trigger = {
-			SER = { owns = 1954 }
+			bosnia_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		
 		effect = {
-			1954 = {
-				change_culture = serbian
+			croatia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
 	
+	ser_war_hrv = {
+		icon = ser_hrv
+		required_missions = { ser_war_bos }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = croatia_area
+			}
+			NOT = { owned_by = ROOT } 
+		}
+		
+		trigger = {
+			croatia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			carinthia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+}
+
+ser_six = {
+	slot = 6
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = serbian
+		NOT = {
+			tag = MON
+			tag = BOS
+			tag = HUM
+			tag = RSK
+		}
+	}
+	has_country_shield = yes
+	
+	ser_war_beograd = {
+		icon = ser_beo
+		required_missions = { ser_new_army }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3151
+				province_id = 3035
+			}
+			NOT = { owned_by = ROOT }			
+		}
+		
+		trigger = {
+			3151 = { owned_by = ROOT } 
+			3035 = { owned_by = ROOT }
+		}
+		
+		effect = {
+			add_legitimacy = 20
+			add_republican_tradition = 20
+			banat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	ser_war_banat = {
+		icon = ser_ban
+		required_missions = { ser_war_beograd }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = banat_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			banat_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+				banat_area = {
+					change_culture = serbian
+				}
+		}
+	}
+	ser_war_slovenia = {
+		icon = ser_slv
+		required_missions = { ser_war_hrv ser_war_dalmatia }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = carinthia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			carinthia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			3835 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT
+			}
+			128 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	
+	ser_war_slovenia_2 = {
+		icon = ser_kar
+		required_missions = { ser_war_slovenia }
+		position = 5
+		
+		provinces_to_highlight = {
+			province_id = 128
+		}
+		trigger = {
+			128 = { owned_by = ROOT }
+			3835 = { owned_by = ROOT }
+		}
+		effect = {
+			128 = { change_culture = slovene }
+			3835 = { change_culture = slovene }
+		}
+	}
+}
+ser_seven = {
+	slot = 7
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = serbian
+		NOT = {
+			tag = MON
+			tag = BOS
+			tag = HUM
+			tag = RSK
+		}
+	}
+	has_country_shield = yes
+	
+	ser_new_fleet = {
+        icon = mission_sea_battles
+        position = 1
+		
+		trigger = {
+			is_at_war = no
+			transport_fraction = 0.6
+			galley_fraction = 0.25
+        }
+        effect = {
+			add_prestige = 10
+			add_navy_tradition = 15
+			east_adriatic_coast_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	
+	ser_war_dalmatia = {
+		icon = ser_dal
+		required_missions = { ser_new_fleet }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = east_adriatic_coast_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			east_adriatic_coast_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_mercantilism = 5
+		}
+	}
 }

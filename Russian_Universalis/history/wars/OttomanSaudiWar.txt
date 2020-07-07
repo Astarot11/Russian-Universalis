@@ -1,4 +1,4 @@
-name = "Турецко-саудовская война"
+name = "Османо-Саудовская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -12,16 +12,16 @@ war_goal = {
 
 1811.1.1 = {
 	battle = {
-		name = "Янбу"
+		name = "Yanbu"
 		location = 384
 		attacker = {
-			commander = "Тусун-паша"	# Tusun Pasha
+			commander = "Tusun Pasha"	# Tusun Pasha
 			infantry = 10000
 			losses = 0	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Сауд аль-Кабир"	# Saud AL-Kabeer
+			commander = "Saud AL-Kabeer"	# Saud AL-Kabeer
 			infantry = 70
 			losses = 1	# percent
 			country = NAJ
@@ -32,16 +32,16 @@ war_goal = {
 
 1812.1.1 = {
 	battle = {
-		name = "Аль-Сафра"
+		name = "Al-Safra"
 		location = 384
 		attacker = {
-			commander = "Тусун-паша"	# Tusun Pasha
+			commander = "Tusun Pasha"	# Tusun Pasha
 			infantry = 8000
 			losses = 25	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Сауд аль-Кабир"	# Saud AL-Kabeer
+			commander = "Saud AL-Kabeer"	# Saud AL-Kabeer
 			infantry = 10000
 			losses = 8	# percent
 			country = NAJ
@@ -52,16 +52,16 @@ war_goal = {
 
 1812.6.1 = {
 	battle = {
-		name = "Медина"
+		name = "Medina"
 		location = 384
 		attacker = {
-			commander = "Тусун-паша"	# Tusun Pasha
+			commander = "Tusun Pasha"	# Tusun Pasha
 			infantry = 20000
 			losses = 2	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Сауд аль-Кабир"	# Saud AL-Kabeer
+			commander = "Saud AL-Kabeer"	# Saud AL-Kabeer
 			infantry = 10000
 			losses = 1	# percent
 			country = NAJ
@@ -72,16 +72,16 @@ war_goal = {
 
 1813.1.1 = {
 	battle = {
-		name = "Джедда"
+		name = "Jeddah"
 		location = 385
 		attacker = {
-			commander = "Тусун-паша"	# Tusun Pasha
+			commander = "Tusun Pasha"	# Tusun Pasha
 			infantry = 25000
 			losses = 1	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Сауд аль-Кабир"	# Saud AL-Kabeer
+			commander = "Saud AL-Kabeer"	# Saud AL-Kabeer
 			infantry = 2000
 			losses = 40	# percent
 			country = NAJ
@@ -92,16 +92,16 @@ war_goal = {
 
 1813.1.20 = {
 	battle = {
-		name = "Мекка"
+		name = "Mecca"
 		location = 385
 		attacker = {
-			commander = "Тусун-паша"	# Tusun Pasha
+			commander = "Tusun Pasha"	# Tusun Pasha
 			infantry = 22000
 			losses = 0	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Сауд аль-Кабир"	# Faisal bin Saud
+			commander = "Faisal bin Saud"	# Faisal bin Saud
 			infantry = 1000
 			losses = 1	# percent
 			country = NAJ
@@ -112,16 +112,16 @@ war_goal = {
 
 1818.1.1 = {
 	battle = {
-		name = "Неджд"
+		name = "Najd"
 		location = 392
 		attacker = {
-			commander = "Ибрагим-паша"	# Ibrahim Pasha
+			commander = "Ibrahim Pasha"	# Ibrahim Pasha
 			infantry = 30000
 			losses = 3	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Абдулла I" 	# Abdullah I
+			commander = "Abdullah I" 	# Abdullah I
 			infantry = 6000
 			losses = 83	# percent
 			country = NAJ
@@ -132,17 +132,17 @@ war_goal = {
 
 1818.9.1 = {
 	battle = {
-		name = "Дирия"
+		name = "Diriyah"
 		location = 394
 		attacker = {
-			commander = "Ибрагим-паша"	# Ibrahim Pasha
+			commander = "Ibrahim Pasha"	# Ibrahim Pasha
 			infantry = 30000
 			artillery = 30
 			losses = 2	# percent
 			country = TUR
 		}
 		defender = {
-			commander = "Абдулла I"	# Abdullah I
+			commander = "Abdullah I"	# Abdullah I
 			infantry = 2000
 			losses = 85	# percent
 			country = NAJ

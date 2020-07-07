@@ -3,16 +3,18 @@ add_government_reform = autocracy_reform
 government_rank = 3
 primary_culture = pontic_greek
 add_accepted_culture = greek
+add_accepted_culture = lazian
 religion = orthodox
 technology_group = eastern
 historical_friend = FEO
+historical_friend = SME
 capital = 330	# Trebizond
 fixed_capital = 330 # Cannot move capital away from this province & no power cost to move to it
 
 1204.1.1 = {
 	monarch = {
 		name = "Алексей I"
-		dynasty = "Великий Великий Комнин"
+		dynasty = "Великий Комнин"
 		birth_date = 1181.1.1
 		adm = 3
 		dip = 3
@@ -169,13 +171,16 @@ fixed_capital = 330 # Cannot move capital away from this province & no power cos
 
 1340.4.6 = {
 	monarch = {
+		country_of_origin = BYZ
 		name = "Ирина"
 		dynasty = "Палеолог"
+		culture = greek
 		birth_date = 1315.1.1
 		adm = 2
 		dip = 1
 		mil = 2
 		female = yes
+		claim = 50
 	}
 }
 
@@ -298,7 +303,7 @@ fixed_capital = 330 # Cannot move capital away from this province & no power cos
 	monarch = {
 		name = "Давид"
 		dynasty = "Великий Комнин"
-		adm = 3
+		adm = 6
 		dip = 0
 		mil = 1
 	}

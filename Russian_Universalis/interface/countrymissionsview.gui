@@ -39,7 +39,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 750 y = -10 }
+			position = { x = 514 y = -1 }
 			quadTextureSprite ="GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
@@ -48,10 +48,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 138 y =78 }
+			position = { x = 15 y =78 }
 			textureFile = ""
 			font = "vic_29s"
-			borderSize = {x = 4 y = -1}
+			borderSize = {x = 4 y = 4}
 			text = "HEADER_MISSIONS"
 			maxWidth = 512
 			maxHeight = 32
@@ -62,7 +62,7 @@ guiTypes = {
 			name ="countrymissionsview_missions_gridbox_listbox"
 			position = { x=10 y =122}
 			backGround=""
-			size = { x=750 y=412 }
+			size = { x=1036 y=412 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -75,15 +75,15 @@ guiTypes = {
 		name = "countrymissionsview_missions_gridbox_listbox_entry"
 		position = { x=0 y=0 }
 		show_position = { x=0 y =140 }
-		size = { x=735 y=500 }
+		size = { x=530 y=500 }
 		moveable = 0
 		
 		gridBoxType = {
 			name = "countrymissionsview_missions_gridbox"
 			position = { x = 0 y = 0 }
-			size = { width = 800 height = 400 }
+			size = { width = 400 height = 400 }
 			slotsize = { width = 104 height = 152 }
-			max_slots_horizontal = 5
+			max_slots_horizontal = 10
 			format = "UPPER_LEFT"
 		}
 	}

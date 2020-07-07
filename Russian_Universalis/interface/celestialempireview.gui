@@ -35,7 +35,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "emperor_label"
-			position = { x = 154 y = 261 } # Поднял вверх на 6 пунктов
+			position = { x = 154 y = 262 } # Поднял вверх на 6 пунктов
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}

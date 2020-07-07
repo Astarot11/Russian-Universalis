@@ -2,7 +2,7 @@
 
 owner = TRU
 controller = TRU
-culture = russian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 1 
@@ -18,7 +18,8 @@ discovered_by = nomad_group
 
 1356.1.1 = { owner = LIT add_core = LIT controller = LIT }
 1450.1.1 = { discovered_by = SIB }
-1566.1.1 = { owner = TSR controller = TSR add_core = TSR remove_core = TRU }
+1503.4.1 = { owner = MOS controller = MOS add_core = MOS add_local_autonomy = -50 } # Treaty of the Annunciation
+1547.1.16 = { owner = TSR controller = TSR add_core = TSR remove_core = MOS remove_core = TRU } ## Ivav IV - tsar
 1598.1.7 = { unrest = 5 } # "Time of troubles"
 1611.1.1 = { controller = PLC } # Polish occupation
 1613.3.3 = { unrest = 0 } # Order returned, Romanov dynasty

@@ -1,10 +1,10 @@
-#2448 - Fezzan
+#2448 - Murzuk
 
 owner = FZA
 controller = FZA 
 culture = berber
 religion = sunni
-capital = "Murzuk"
+capital = "Μσπησκ"
 trade_goods = ivory
 hre = no
 base_tax = 1 

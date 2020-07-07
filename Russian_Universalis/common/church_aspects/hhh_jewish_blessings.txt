@@ -1,0 +1,107 @@
+blessings_commandments = {
+	is_blessing = yes
+
+	modifier = {
+		global_missionary_strength = 0.015
+		tolerance_own = 2
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = jewish
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.9
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.7
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.5
+			}
+		}
+	}
+}
+
+justified_return_of_land = {
+	is_blessing = yes
+
+	modifier = {
+		unjustified_demands = -1
+		ae_impact = -0.10
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = jewish
+			}
+		}
+	}
+}
+
+birkat_a_gomel = {
+	is_blessing = yes
+
+	modifier = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+	ai_will_do = {
+	factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = jewish
+			}
+		}
+	}
+}
+
+blessing_of_pleasure = {
+	is_blessing = yes
+
+	modifier = {
+		production_efficiency = 0.1
+		development_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = jewish
+			}
+		}
+	}
+}
+
+defend_the_motherland = {
+	is_blessing = yes
+
+	modifier = {
+		land_morale = 0.10
+		defensiveness = 0.20
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = jewish
+			}
+		}
+	}
+}

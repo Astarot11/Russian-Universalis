@@ -1,4 +1,4 @@
-name = "Мугало-персидская война"
+name = "Третья Могольско-Персидская война за Кандагар"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

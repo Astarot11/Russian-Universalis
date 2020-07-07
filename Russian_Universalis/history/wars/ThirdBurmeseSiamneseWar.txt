@@ -1,4 +1,4 @@
-name = "Третья бурмано-сиамская война"
+name = "Третья Бирманско-Сиамская война"
 
 war_goal = {
 	type = take_capital_vassalize

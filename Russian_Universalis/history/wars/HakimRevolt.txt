@@ -1,4 +1,4 @@
-name = "Хакимское возвращение Индостана"
+name = "Завоевание Хакимом Индостана"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne

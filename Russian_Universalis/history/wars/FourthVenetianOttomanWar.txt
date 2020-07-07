@@ -1,4 +1,4 @@
-name = "Четвертая венециано-турецкая война"
+name = "Четвёртая Турецко-Венецианская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -28,16 +28,16 @@ war_goal = {
 # Battle of Preveza
 1538.9.28 = { 
 	battle = { 
-		name = "Превеза" 
+		name = "Preveza" 
 		location = 1312
 		attacker = { 
-			commander = "Хайраддин Барбаросса"			# Barbarossa Hayreddin Pasha
+			commander = "Barbarossa Hayreddin Pasha"			# Barbarossa Hayreddin Pasha
 			galley = 122
 			losses = 0			# percent 
 			country = TUR
 		} 
 		defender = { 
-			commander = "Андреа Дория"		# Andrea Doria
+			commander = "Andrea Doria"		# Andrea Doria
 			galley = 302
 			losses = 49			# percent 
 			country = GEN

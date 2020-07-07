@@ -335,8 +335,20 @@ country_event = { #Husayn rebellion
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = go_rebellion
-			if = { limit = { AFG = { exists = yes } } every_owned_province = { limit = { is_core = AFG } cede_province = AFG } }
-			if = { limit = { AFG = { exists = no } } release = AFG }
+			set_country_flag = timur_angry_up
+			if = { 
+				limit = { 
+					AFG = { exists = yes } 
+				} 
+				random_owned_province = { limit = { is_capital = no } cede_province = AFG set_province_flag = timur_land }
+				every_owned_province = { limit = { is_core = AFG } cede_province = AFG set_province_flag = timur_land } 
+			}
+			if = { 
+				limit = { 
+					AFG = { exists = no } 
+				} 
+				release = AFG 
+			}
 			AFG = { define_ruler = { name = "Хусейн" dynasty = "Тбиат" culture = uzbehk } 
 			infantry = capital infantry = capital infantry = capital infantry = capital  infantry = capital infantry = capital infantry = capital infantry = capital infantry = capital infantry = capital 
 			cavalry = capital cavalry = capital cavalry = capital cavalry = capital cavalry = capital cavalry = capital #10 infantry 6 cavalry
@@ -363,7 +375,7 @@ country_event = { #Timur go help Husayn
 	trigger = {
 		tag = TRS
 		has_country_flag = timur_angry
-		war_with = AFG
+		has_country_flag = timur_angry_up
 	}
 	
 	mean_time_to_happen = {
@@ -373,6 +385,7 @@ country_event = { #Timur go help Husayn
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = timur_angry
+			clr_country_flag = timur_angry_up
 			set_country_flag = timur_help_hus
 		}
 	}		
@@ -380,8 +393,8 @@ country_event = { #Timur go help Husayn
 	option = {
 	    name = stt_rise_timur.8.a
 		AFG = { infantry = capital infantry = capital infantry = capital infantry = capital infantry = capital 
-		define_general = { name = "Тимур Тимурид" fire = 4 shock = 8 manuever = 6 siege = 3 }
-		add_country_modifier = { name = stt_timur_wartime_1 duration = -1 }
+			define_general = { name = "Тимур Тимурид" fire = 4 shock = 8 manuever = 6 siege = 3 }
+			add_country_modifier = { name = stt_timur_wartime_1 duration = -1 }
 		}
 	}
 }
@@ -478,7 +491,17 @@ country_event = { #Timur win again
 	option = {
 	    name = stt_rise_timur.11.a
 		AFG = { kill_ruler = yes }
-		inherit = AFG
+		if = { # 03.02.20
+			limit = { is_subject = no }
+			inherit = AFG
+		}
+		else = {
+			every_province = { 
+				limit = { has_province_flag = timur_land } 
+				clr_province_flag = timur_land 
+				owner = { cede_province = TRS } 
+			} 
+		}
 	}
 }
 
@@ -931,7 +954,16 @@ country_event = { # conquest all persia
 							
 	option = {
 	    name = stt_rise_timur.22.a
-		random_country = { limit = { NOT = { vassal_of = TIM } NOT = { truce_with = ROOT } has_country_flag = timur_persia_target ai = yes } declare_war_with_cb = { who = ROOT casus_belli = cb_imperial } } 
+		random_country = { 
+			limit = { 
+				NOT = { vassal_of = TIM } 
+				NOT = { truce_with = ROOT } 
+				has_country_flag = timur_persia_target 
+				ai = yes 
+				is_subject = no # 03.02.20
+			} 
+			declare_war_with_cb = { who = ROOT casus_belli = cb_imperial } 
+		} 
 	}
 }
 

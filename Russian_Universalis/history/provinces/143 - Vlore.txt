@@ -4,7 +4,7 @@ owner = BYZ
 controller = BYZ
 culture = albanian
 religion = orthodox
-capital = "Vlorë"
+capital = "Âë¸ðà"
 trade_goods = wool #or salt
 hre = no
 base_tax = 4
@@ -22,14 +22,10 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-1348.1.1 = { 
-	owner = SGT
-	controller = SGT
-	add_core = SGT
-}
+1348.1.1 = {  owner = SGT controller = SGT add_core = SGT }
 1366.1.1 = { owner = ALB controller = ALB add_core = ALB }
 1431.1.1 = { add_core = TU0 }
-1478.6.16 = { owner = TUR controller = TUR }
+1478.6.16 = { owner = TUR controller = TUR add_core = TUR remove_core = TU0 }
 1520.1.1 = { religion = sunni } # Predominant religion under Turkish rule
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 0  }

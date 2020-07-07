@@ -1,16 +1,31 @@
 #1104 - Eiriksfjord
 
-culture = inuit
-religion = siberian_shamanism
+culture = norwegian
+religion = catholic
 capital = "Eiriksfjord"
 trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
+is_city = yes
+owner = NOR
+controller = NOR
+add_core = NOR
+discovered_by = NOR
 native_size = 5
 native_ferocity = 2
 native_hostileness = 9
+
+1420.1.1 = {
+	owner = ---
+	controller = ---
+	remove_core = NOR
+	is_city = no
+	trade_goods = unknown
+	culture = inuit
+	religion = siberian_shamanism
+}
 
 1720.1.1 = { discovered_by = DAN }
 1721.1.1 = {

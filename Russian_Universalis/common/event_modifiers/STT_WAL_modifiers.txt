@@ -1,0 +1,48 @@
+wallachia_mod_1 = {
+	legitimacy = 0.5
+	stability_cost_modifier = -0.1
+}
+wallachia_mod_2 = {
+	land_maintenance_modifier = -0.1
+	discipline = 0.025
+}
+wallachia_mod_3 = {
+	stability_cost_modifier = -0.1
+	yearly_corruption = -0.05
+}
+wallachia_mod_4 = {
+	yearly_corruption = +0.05
+	idea_cost = -0.05
+	core_creation = -0.10
+}
+wallachia_mod_5 = {
+	global_tax_modifier = -0.05
+	production_efficiency = -0.05
+	global_missionary_strength = -0.01
+	culture_conversion_cost = +0.2
+	prestige_decay = +0.02
+}
+
+wallachia_mod_8 = {
+	spy_offence = 0.1
+	global_spy_defence = 0.1
+	rebel_support_efficiency = 0.5	
+}
+wallachia_mod_9 = {
+	land_maintenance_modifier = 0.1
+	fire_damage = 0.05
+	land_forcelimit_modifier = 0.2
+	land_attrition = -0.1
+}
+
+wallachia_mod_12 = {
+		merchants = 1
+}
+wallachia_mod_13 = {
+		local_hostile_attrition = 5
+		local_defensiveness = 0.5
+		land_morale = -0.02
+}
+the_heir_in_captivity = {
+		legitimacy = -0.1
+}

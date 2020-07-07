@@ -1,4 +1,4 @@
-name = "Бирмано-китайская война"
+name = "Бирманско-Китайская война"
 war_goal = {
 	type = take_capital_fabricated_claims
 	casus_belli = cb_fabricated_claims

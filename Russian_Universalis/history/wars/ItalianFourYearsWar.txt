@@ -1,4 +1,4 @@
-name = "Итальянская четырехлетняя война"
+name = "Итальянская Четырехлетняя война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -20,16 +20,16 @@ war_goal = {
 
 1522.4.27 = {
 	battle = {
-		name = "Бикокка"
+		name = "Bicocca"
 		location = 104
 		attacker = {
-			commander = "Виконт де Лотрек"	# Vicomte de Lautrec
+			commander = "Vicomte de Lautrec"	# Vicomte de Lautrec
 			infantry = 22000
 			losses = 17	#percent
 			country = FRA
 		}
 		defender = {
-			commander = "Проспер Колонна"	# Prosper Colonna
+			commander = "Prospero Colonna"		# Prospero Colonna
 			infantry = 7500
 			losses = 3	#percent
 			country = PAP
@@ -40,10 +40,10 @@ war_goal = {
 
 1525.2.24 = {
 	battle = {
-		name = "Павия"
+		name = "Pavia"
 		location = 104
 		attacker = {
-			commander = "Франциск I"	# Francis I
+			commander = "Francis I"	# Francis I
 			infantry = 17000
 			cavalry = 7000
 			artillery = 50
@@ -51,7 +51,7 @@ war_goal = {
 			country = FRA
 		}
 		defender = {
-			commander = "Карл де Ланной"	# Charles de Lannoy
+			commander = "Charles de Lannoy"	# Charles de Lannoy
 			infantry = 20000
 			cavalry = 4500
 			artillery = 20

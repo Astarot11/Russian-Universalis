@@ -1,4 +1,4 @@
-name = "Таликотская война"
+name = "Декканская война против Виджаянагара"
 war_goal = {
 	type = superiority_punitive
 	casus_belli = cb_super_badboy
@@ -15,17 +15,17 @@ war_goal = {
 # Battle of Talikota
 1565.1.26 = {
 	battle = {
-		name = "Таликота"
+		name = "Talikota"
 		location = 532
 		attacker = {
-			commander = "Низам Шах"	# Nizam Shah I
+			commander = "Nizam Shah I"	# Nizam Shah I
 			infantry = 80000
 			cavalry = 30000
 			losses = 30	# percent
 			country = GOC
 		}
 		defender = {
-			commander = "Рамарая"	# Rama Raya
+			commander = "Rama Raya Aravidu"	# Rama Raya
 			infantry = 140000
 			cavalry = 10000
 			losses = 70	# percent

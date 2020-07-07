@@ -1,4 +1,4 @@
-name = "Шведская освободительная война"
+name = "Война за независимость Швеции"
 
 war_goal = {
 	type = defend_capital_independence

@@ -6,21 +6,51 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_age_indicator_1"
+		texturefile = "gfx/interface/ages/age_indicator_1.dds"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_2"
+		texturefile = "gfx/interface/ages/age_indicator_2.dds"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_3"
+		texturefile = "gfx/interface/ages/age_indicator_3.dds"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_4"
+		texturefile = "gfx/interface/ages/age_indicator_4.dds"
+	}
+	spriteType = {
 		name = "GFX_age_indicator_5"
 		texturefile = "gfx/interface/ages/age_indicator_5.dds"
 	}
-
+	spriteType = {
+		name = "GFX_age_indicator_6"
+		texturefile = "gfx/interface/ages/age_indicator_6.dds"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_7"
+		texturefile = "gfx/interface/ages/age_indicator_7.dds"
+	}
+	spriteType = {
+		name = "GFX_age_indicator_8"
+		texturefile = "gfx/interface/ages/age_indicator_8.dds"
+	}
 	spriteType = {
 		name = "GFX_icon_age_s"
 		texturefile = "gfx/interface/ages/icon_age_s.dds"
 		noOfFrames = 7
 	}	
-
 	spriteType = {
 		name = "GFX_icon_age_l"
 		texturefile = "gfx/interface/ages/icon_age_l.dds"
 		noOfFrames = 7
-	}	
+	}
+	spriteType = {
+		name = "GFX_age_base"
+		texturefile = "gfx/interface/ages/age_base.dds"
+	}
 	spriteType = {
 		name = "GFX_icon_age_of_feudalism_g"
 		texturefile = "gfx/interface/ages/icon_age_of_feudalism_g.dds"

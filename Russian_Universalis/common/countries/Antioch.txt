@@ -1,6 +1,4 @@
-#Country Name: Please see filename.
-
-graphical_culture = weasterngfx
+graphical_culture = westerngfx
 
 color = { 51  102  255 }
 
@@ -17,14 +15,17 @@ historical_idea_groups = {
 
 historical_units = {
 	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
 	french_caracolle
+	irish_charge
 	anglofrench_line
 	french_dragoon
-	prussian_frederickian
-	prussian_uhlan
+	british_redcoat
+	british_hussar
+	british_square
 	mixed_order_infantry
 	open_order_cavalry
 	napoleonic_square
@@ -32,56 +33,55 @@ historical_units = {
 }
 
 monarch_names = {
-	"Godfrey #1" = 60
-	"Baldwin #5" = 60
-	"Henry #2" = 40
-	"Amalric #2" = 30
-	"John #2" = 10
-	"Fulk #1" = 10
-	"Conrad #3" = 10
-	"Sibylla #1" = -5
-	"Isabella #2" = -10
-	"Melisende #1" = -5
-	"Maria #1" = -5
-	"Guy #1" = 5
-	"Hugues #1" = 5
+	"Годфри #1" = 60
+	"Болдуин #5" = 60
+	"Генри #2" = 40
+	"Амальрик #2" = 30
+	"Джон #2" = 10
+	"Фулк #1" = 10
+	"Конрад #3" = 10
+	"Сибилла #1" = -5
+	"Изабелла #2" = -10
+	"Мелисандра #1" = -5
+	"Мария #1" = -5
+	"Фаддей #1" = 5
+	"Хуги #1" = 5
 }
 
 ship_names = {
-	"The Holy Cross"
-	"The Grail"
-	"The Faithful"
-	"Hammer of God"
-	"True Believer"
-	"The Cleansing"
-	"Baldwin's Gate"
-	"The Rapture"
-	"God Will Know His Own"
-	Paladin
-	Purifier
-	Crusader
-	Guardian
-	Pilgrim
-	Absolution
-	Avenger
-	Vindicator
-	"The Scourge"
+	"Святой крест"
+	"Грааль"
+	"Верный"
+	"Молот Божий"
+	"Истинно верующий"
+	"Хозяш сосущий"
+	"Очищение"
+	"Ворота Болдуина"
+	"Всохищение"
+	"Паладин"
+	"Очиститель"
+	"Крестоносец"
+	"Блюститель"
+	"Паломник"
+	"Отпущение грехов"
+	"Мститель"
+	"Поборник"
+	"Плеть"
 }
 
 leader_names = { 
-	Bragadin 
-	Crispo
-	Doria	
-	Fadrigue
-	Lusignans
-	Melissinos 
-	Plethon
-	Rendis
-	Saraceno 
-	Tocco
-	Maxwell
-	Duncan Douglas Selkirk
-	Schrьder Sauerzapff Minucci Sulerzycki Stichsenstein Hagedorn Arenberg
-	"de La Barthe" "de La Ferrandie" "de La Galissoniиre" "de La Mothe" "de La Motte d'Airan" "de La Porte" "Le Tellier" "de Lhйry" "de Luynes"
-	"di Paesana" "Paleologi Montferrato" Pallavicini Paradisi Petrucci Pico Pignatelli "dalla Rosa" "della Rovere"
+	"Брагадин"
+	"Криспо"
+	"Дория"
+	"Фадриге"
+	"Лузиньян"
+	"Меллисино"
+	"Плефон"
+	"Ренди"
+	"Сарасено"
+	"Токко"
+	"Максвелл"
+	"Дункакн"
+	"Дуглас"
+	"Селкирк"
 }

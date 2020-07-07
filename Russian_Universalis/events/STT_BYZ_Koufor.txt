@@ -1,0 +1,1786 @@
+namespace = stt_byz
+normal_or_historical_nations = yes
+
+#Byzantium_battle_strategy
+namespace = stt_byz
+country_event = {
+    id = stt_byz.1
+	title = stt_byz.1.t
+	desc = stt_byz.1.d
+	
+	picture = land_or_navy_eventPicture 
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = {
+	    name = stt_byz.1.a
+		add_mil_power = -150
+		add_country_modifier = {
+			name = "byz_land"
+			duration = -1
+		}
+	}
+	option = {	
+		name = stt_byz.1.b
+		add_dip_power = -200
+		add_country_modifier = {
+			name = "byz_navy"
+			duration = -1
+		}
+	}
+}
+
+#Byzantium_war_strategy
+country_event = {
+    id = stt_byz.2
+	title = stt_byz.2.t
+	desc = stt_byz.2.d
+	
+	picture = siege_or_defence_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = {
+	    name = stt_byz.2.a
+		add_mil_power = -150
+		add_country_modifier = {
+			name = "byz_siege"
+			duration = 18250
+		}
+	}
+	option = {	
+		name = stt_byz.2.b
+		add_dip_power = -150
+		add_country_modifier = {
+			name = "byz_defence"
+			duration = 18250
+		}
+	}
+}
+
+#Byzantium_diplomatic_corps
+country_event = {
+    id = stt_byz.3
+	title = stt_byz.3.t
+	desc = stt_byz.3.d
+	
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = {
+	    name = stt_byz.3.a
+		add_dip_power = -100
+		add_country_modifier = {
+				name = "byz_liar"
+				duration = 36500
+		}
+	}
+	option = {	
+		name = stt_byz.3.b
+		add_mil_power = -100
+		add_country_modifier = {
+				name = "byz_caution"
+				duration = 36500
+		}
+	}
+}
+
+#РљРѕРЅСЃС‚Р°РЅС‚РёРЅРѕРїРѕР»СЊ РїСЂРѕСЃРёС‚ Рѕ РїРѕРјРѕС‰Рё
+country_event = {
+    id = stt_byz.24
+	title = stt_byz.24.t
+	desc = stt_byz.24.d
+	picture = dark_time_Constantinople_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_byz.24.1
+		ai_chance = { factor = 100 }
+		BYZ = { country_event = {
+				id = stt_byz.4
+				days = 2
+			}
+		}
+	}
+	option = {
+	    name = stt_byz.24.2
+		ai_chance = { factor = 0 }
+		BYZ = { country_event = {
+				id = stt_byz.5
+				days = 2
+			}
+		}	
+	}
+}
+
+
+#Р—Р°РїСЂРѕСЃРёС‚СЊ Сѓ Р•РІСЂРѕРїС‹ РїРѕРјРѕС‰СЊ 
+country_event = {
+    id = stt_byz.4
+	title = stt_byz.4.t
+	desc = stt_byz.4.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.4.1 #РњС‹ Р±СѓРґРµРј СЂР°РґС‹ РґР°Р¶Рµ СЃР°РјРѕР№ РЅРµР·РЅР°С‡РёС‚РµР»СЊРЅРѕР№ РїРѕРјРѕС‰Рё
+		ai_chance = { factor = 15 }
+		hidden_effect = {
+			random_list = {
+				1 = {
+					country_event = {
+						id = stt_byz.5
+						days = 15
+					}
+				}
+				1 = {
+					country_event = {
+						id = stt_byz.6
+						days = 15
+					}
+				}
+				98 = {
+					country_event = {
+						id = stt_byz.4.1
+						days = 15
+					}
+				}
+			}
+		}
+		add_dip_power = -50
+		add_country_modifier = {
+			name = "byz_ask_for_help_from_the_pope"
+			duration = 9125
+		}
+	}
+	option = {
+	    name = stt_byz.4.2 #РњС‹ РїСЂРѕСЃРёРј РїРѕРјРѕС‡СЊ РЅР°Рј РІ СЌС‚РѕР№ РЅРµСЂР°РІРЅРѕР№ РІРѕР№РЅРµ!
+		ai_chance = { factor = 20 }
+		hidden_effect = {
+			random_list = {
+				3 = {
+					country_event = {
+						id = stt_byz.5
+						days = 15
+					}
+				}
+				1 = {
+					country_event = {
+						id = stt_byz.6
+						days = 15
+					}
+				}
+				97 = {
+					country_event = {
+						id = stt_byz.4.2
+						days = 15
+					}
+				}
+			}
+		}
+		add_dip_power = -100
+		add_country_modifier = {
+			name = "byz_ask_for_help_from_the_pope"
+			duration = 9125
+		}
+	}
+	# option = {
+	    # name = stt_byz.4.3 #РњС‹ РЅР°РґРµРµРјСЃСЏ РїРѕР»СѓС‡РёС‚СЊ РґРѕСЃС‚РѕР№РЅСѓСЋ РїРѕРјРѕС‰СЊ
+		# ai_chance = { factor = 35 }
+		# # country_event = { id = stt_byz.4.3.1}
+		# add_dip_power = -150
+		# add_country_modifier = {
+			# name = "byz_ask_for_help_from_the_pope"
+			# duration = 9125
+		# }
+	# }
+	# option = {
+	    # name = stt_byz.4.4 #РњС‹ РЅР°РґРµРµРјСЃСЏ РїРѕР»СѓС‡РёС‚СЊ РїРѕРјРѕС‰СЊ СЃРѕ РІСЃРµР№ Р•РІСЂРѕРїС‹!
+		# ai_chance = { factor = 11 }
+		# # country_event = { id = stt_byz.4.4.1}
+		# add_dip_power = -200
+		# add_country_modifier = {
+			# name = "byz_ask_for_help_from_the_pope"
+			# duration = 9125
+		# }
+	# }
+	# option = {
+	    # name = stt_byz.4.5 #РњС‹ Р·Р°РїР»Р°С‚РёРј РІСЃРµРј, С‡РµРј С‚РѕР»СЊРєРѕ СЃРјРѕР¶РµРј, Р»РёС€СЊ Р±С‹ РІС‹ РїРѕРјРѕРіР»Рё!
+		# ai_chance = { factor = 7 }
+		# # country_event = { id = stt_byz.4.5.1}
+		# add_dip_power = -250
+		# add_country_modifier = {
+			# name = "byz_ask_for_help_from_the_pope"
+			# duration = 9125
+		# }
+	# }
+	option = {
+	    name = stt_byz.4.6 #РЈР·СЂРё, РїР°РїР°, РєР°Рє РјС‹ РїРѕРІРµСЂРіРЅРµРј РІСЂР°РіРѕРІ СЃРІРѕРёС…!
+		ai_chance = { factor = 12 }
+		country_event = {
+			id = stt_byz.11
+			days = 30
+		}
+		add_dip_power = -100
+		add_mil_power = -100
+		add_country_modifier = {
+			name = "reject_an_offer"
+			duration = 3650
+		}
+	}
+}
+
+#Byzantium_establish_europe РџСЂРёРѕР±РѕРґСЂРµРЅРёРµ РџР°РїС‹ 
+country_event = {
+    id = stt_byz.5
+	title = stt_byz.5.t
+	desc = stt_byz.5.d
+	picture = RELIGION_eventPicture #POPE_PREACHING_eventPicture RELIGION_eventPicture RELIGIOUS_WARS_eventPicture #Refusal of the Pope - РћС‚РєР°Р· РџР°РїС‹ Pope is in hesitation - РџР°РїР° РІ РЅРµСЂРµС€РёС‚РµР»СЊРЅРѕСЃС‚Рё
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.5.1 #РћРЅ РїСЂРѕРЅРёРєРЅРµС‚СЃСЏ РЅР°С€РёРј С‡СѓРґРµСЃРЅС‹Рј РєРѕРїСЊРµРј! РќРѕ РЅРµ СЃРµР№С‡Р°СЃ...
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_the_encouragement_of_the_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_the_encouragement_of_the_pope
+		}
+	}
+}
+
+#Byzantium_establish_europe РћС‚РєР°Р· РџР°РїС‹
+country_event = {
+    id = stt_byz.6
+	title = stt_byz.6.t
+	desc = stt_byz.6.d
+	picture = RELIGION_eventPicture #POPE_PREACHING_eventPicture RELIGION_eventPicture RELIGIOUS_WARS_eventPicture #Refusal of the Pope - РћС‚РєР°Р· РџР°РїС‹ Pope is in hesitation - РџР°РїР° РІ РЅРµСЂРµС€РёС‚РµР»СЊРЅРѕСЃС‚Рё
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.6.1 #РќСѓ С‡С‚Рѕ Р¶Рµ, РїРѕР·Р°Р±РѕС‚РёРјСЃСЏ Рѕ СЃРµР±Рµ СЃР°РјРё
+		ai_chance = { factor = 40 }
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_refusal_of_the_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_refusal_of_the_pope
+		}
+	}
+	option = {
+	    name = stt_byz.4.6 #РЈР·СЂРё, РїР°РїР°, РєР°Рє РјС‹ РїРѕРІРµСЂРіРЅРµРј РІСЂР°РіРѕРІ СЃРІРѕРёС…!
+		ai_chance = { factor = 60 }
+		add_dip_power = -100
+		add_mil_power = -100
+		add_country_modifier = {
+			name = "reject_an_offer"
+			duration = 3650
+		}
+		country_event = {
+			id = stt_byz.11
+			days = 30
+		}
+	}
+}
+
+#Byzantium_establish_europe Р’С‹Р±РѕСЂ РѕС‚РІРµС‚Р° "РњС‹ Р±СѓРґРµРј СЂР°РґС‹ РґР°Р¶Рµ СЃР°РјРѕР№ РЅРµР·РЅР°С‡РёС‚РµР»СЊРЅРѕР№ РїРѕРјРѕС‰Рё"
+country_event = {
+    id = stt_byz.4.1
+	title = stt_byz.4.1.t
+	desc = stt_byz.4.1.d
+	
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.4.1.1.1
+		ai_chance = { factor = 15 }
+		country_event = {
+			id = stt_byz.8
+			days = 15
+		}
+		add_dip_power = -10
+	}
+	option = {
+	    name = stt_byz.4.1.1.2
+		ai_chance = { factor = 35 }
+		country_event = {
+			id = stt_byz.9
+			days = 15
+		}
+		add_dip_power = -10
+		add_adm_power = -10
+	}
+	option = {
+	    name = stt_byz.4.1.1.3
+		ai_chance = { factor = 50 }
+		country_event = {
+			id = stt_byz.10
+			days = 15
+		}
+		add_dip_power = -10
+		add_adm_power = -10
+		add_mil_power = -10
+	}
+}
+
+#Byzantium_establish_europe Р’С‹Р±РѕСЂ РѕС‚РІРµС‚Р° "РњС‹ РїСЂРѕСЃРёРј РїРѕРјРѕС‡СЊ РЅР°Рј РІ СЌС‚РѕР№ РЅРµСЂР°РІРЅРѕР№ РІРѕР№РЅРµ!"
+country_event = {
+    id = stt_byz.4.2
+	title = stt_byz.4.2.t
+	desc = stt_byz.4.2.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.4.2.1.1
+		ai_chance = { factor = 20 }
+		country_event = {
+			id = stt_byz.9
+			days = 15
+		}
+		add_dip_power = -25
+	}
+	option = {
+	    name = stt_byz.4.2.1.2
+		ai_chance = { factor = 35 }
+		country_event = {
+			id = stt_byz.10
+			days = 15
+		}
+		add_dip_power = -25
+		add_adm_power = -25
+	}
+	option = {
+	    name = stt_byz.4.2.1.3
+		ai_chance = { factor = 45 }
+		country_event = {
+			id = stt_byz.12
+			days = 15
+		}
+		add_dip_power = -25
+		add_adm_power = -25
+		add_mil_power = -25
+		# every_country = {
+		        # limit = {
+			        # religion = catholic
+			    # }
+				# set_country_flag = stt_byz_small_help
+		# }
+	}
+}
+
+#РџР°РїР° РІС‹СЃС‹Р»Р°РµС‚ СЃСЂРµРґСЃС‚РІР° РѕС‚ РёРІРµРЅС‚Р° 4.1.1
+country_event = {
+    id = stt_byz.8
+	title = stt_byz.8.t
+	desc = stt_byz.8.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.8.1
+		add_treasury = 75
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_small_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_small_help_from_pope
+		}
+	}
+}
+#РџР°РїР° РІС‹СЃС‹Р»Р°РµС‚ СЃСЂРµРґСЃС‚РІР° РѕС‚ РёРІРµРЅС‚Р° 4.1.2
+country_event = {
+    id = stt_byz.9
+	title = stt_byz.9.t
+	desc = stt_byz.9.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.9.1
+		add_treasury = 125
+		add_manpower = 5
+		random_owned_province = {
+			limit = { controlled_by = ROOT  }
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+			}
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_significant_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_significant_help_from_pope
+		}
+		add_country_modifier = {
+			name = "byz_accept_small_requirements_from_the_pope"
+			duration = 9125
+		}
+	}
+}
+#РџР°РїР° РІС‹СЃС‹Р»Р°РµС‚ СЃСЂРµРґСЃС‚РІР° РѕС‚ РёРІРµРЅС‚Р° 4.1.3
+country_event = {
+    id = stt_byz.10
+	title = stt_byz.10.t
+	desc = stt_byz.10.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.10.1
+		add_treasury = 200
+		add_manpower = 2
+		random_owned_province = {
+			limit = { controlled_by = ROOT  }
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				cavalry = ROOT
+			}
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_weighty_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_weighty_help_from_pope
+		}
+		add_country_modifier = {
+			name = "byz_accept_significant_requirements_from_the_pope"
+			duration = 9125
+		}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.15
+				days = 150
+			}
+		}
+	}
+}
+
+#Byzantium_establish_europe РџР°РїР° РІ СЏСЂРѕСЃС‚Рё
+
+country_event = {
+    id = stt_byz.11
+	title = stt_byz.11.t
+	desc = stt_byz.11.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.11.1 #РџСѓСЃС‚СЊ Р·Р»РёС‚СЃСЏ СЃРєРѕР»СЊРєРѕ СѓРіРѕРґРЅРѕ, РІСЃС‘ СЂР°РІРЅРѕ Р РёРј Р±СѓРґРµС‚ РЅР°С€РёРј...
+		add_country_modifier = {
+			name = "wrath_of_the_pope"
+			duration = 9125
+		}
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_wrath_of_the_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_wrath_of_the_pope
+		}
+	}
+}
+
+#РџР°РїР° РІС‹СЃС‹Р»Р°РµС‚ СЃСЂРµРґСЃС‚РІР° РѕС‚ РёРІРµРЅС‚Р° 4.2.3
+country_event = {
+    id = stt_byz.12
+	title = stt_byz.12.t
+	desc = stt_byz.12.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.12.1
+		add_treasury = 250
+		add_manpower = 5
+		random_owned_province = {
+			limit = { controlled_by = ROOT  }
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				infantry = ROOT
+				cavalry = ROOT
+				cavalry = ROOT
+				cavalry = ROOT
+			}
+		add_opinion = {
+			who = PAP
+			modifier = BYZ_important_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = PAP
+			modifier = BYZ_important_help_from_pope
+		}
+		add_country_modifier = {
+			name = "byz_accept_weighty_requirements_from_the_pope"
+			duration = 9125
+		}
+		create_general = { tradition = 55 }
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.13
+				days = 25
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.15
+				days = 120
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.16
+				days = 150
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.17
+				days = 200
+			}
+		}
+	}
+}
+
+#РњР°Р»Р°СЏ РїРѕРјРѕС€СЊ РѕС‚ РљРёРїСЂР°
+country_event = {
+    id = stt_byz.13
+	title = stt_byz.13.t
+	desc = stt_byz.13.d
+	picture = supply_ship_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.13.1
+        add_treasury = 75
+		add_manpower = 2
+		151 = {
+			limit = { controlled_by = ROOT  }
+			transport = ROOT
+			light_ship = ROOT
+			galley = ROOT
+			galley = ROOT
+		}
+		add_opinion = {
+			who = CYP
+			modifier = BYZ_important_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = CYP
+			modifier = BYZ_important_help_from_pope
+		}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.14
+				days = 15
+			}
+		}
+	}
+}
+#РџРѕРјРѕС‰СЊ Р Р°РіСѓР·С‹
+country_event = {
+    id = stt_byz.14
+	title = stt_byz.14.t
+	desc = stt_byz.14.d
+	picture = supply_ship_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.14.1
+        add_treasury = 50
+		add_manpower = 1
+		145 = {
+			limit = { controlled_by = ROOT  }
+			transport = ROOT
+			galley = ROOT
+			light_ship = ROOT
+		}
+		add_opinion = {
+			who = RAG
+			modifier = BYZ_weighty_help_from_pope
+		}
+		reverse_add_opinion = {
+			who = RAG
+			modifier = BYZ_weighty_help_from_pope
+		}
+	}
+}
+#Р‘СѓРЅС‚ РєСЂРµСЃС‚СЊСЏРЅ
+country_event = {
+    id = stt_byz.15
+	title = stt_byz.15.t
+	desc = stt_byz.15.d
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.15.1
+        random_owned_province = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 10
+			}
+		}
+	}
+}
+#Р‘СѓРЅС‚ РґРІРѕСЂСЏРЅ
+country_event = {
+    id = stt_byz.16
+	title = stt_byz.16.t
+	desc = stt_byz.16.d
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.16.1
+        random_owned_province = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 10
+			}
+		}
+	}
+}
+#Р‘СѓРЅС‚ РїСЂР°РІРѕСЃР»Р°РІРЅС‹С…
+country_event = {
+    id = stt_byz.17
+	title = stt_byz.17.t
+	desc = stt_byz.17.d
+	picture = STREET_SPEECH_eventPicture 
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.17.1
+        ai_chance = { factor = 65 }
+		random_owned_province = {
+			spawn_rebels = {
+				type = religious_rebels
+				size = 10
+			}
+		}
+	}
+	option = {
+		name = stt_byz.17.2
+		ai_chance = { factor = 35 }
+        hidden_effect = {
+			country_event = {
+				id = stt_byz.18
+				days = 10
+			}
+		}
+		add_country_modifier = {
+				name = "byz_accept_requirements_orthodox"
+				duration = 3650
+		}
+	}
+}
+#Р‘СѓРЅС‚ РєР°С‚РѕР»РёРєРѕРІ
+country_event = {
+    id = stt_byz.18
+	title = stt_byz.18.t
+	desc = stt_byz.18.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.18.1
+        ai_chance = { factor = 55 }
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.23
+				days = 10
+			}
+		}
+		remove_country_modifier = byz_accept_requirements_orthodox
+	}
+	option = {
+		name = stt_byz.18.2
+		ai_chance = { factor = 45 }
+        random_owned_province = {
+			spawn_rebels = {
+				type = catholic_rebels 
+				size = 10
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = catholic_rebels 
+				size = 10
+			}
+		}
+		country_event = {
+				id = stt_byz.11
+				days = 30
+			}
+		hidden_effect = {
+			country_event = {
+				id = stt_byz.21
+				days = 40
+			}
+		}
+	}
+}
+#Р РµР·РЅСЏ: РЅР°С‡Р°Р»Рѕ
+country_event = {
+    id = stt_byz.23
+	title = stt_byz.23.t
+	desc = stt_byz.23.d
+	picture = chaos_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.23.1
+        random_owned_province = {
+			spawn_rebels = {
+				type = religious_rebels
+				size = 10
+			}
+			spawn_rebels = {
+				type = catholic_rebels 
+				size = 10
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = religious_rebels
+				size = 10
+			}
+			spawn_rebels = {
+				type = catholic_rebels 
+				size = 10
+			}
+			add_base_tax = -2
+			add_base_production = -2
+			add_base_manpower = -2
+		}
+		add_country_modifier = {
+				name = "byz_instability"
+				duration = 3650
+		}
+		add_stability = -1
+		country_event = {
+				id = stt_byz.19
+				days = 1
+		}
+	}
+}
+
+#Р РµР·РЅСЏ: РІС‹Р±РѕСЂ
+country_event = {
+    id = stt_byz.19
+	title = stt_byz.19.t
+	desc = stt_byz.19.d
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.19.1
+		ai_chance = { factor = 70 }
+		country_event = {
+				id = stt_byz.20
+				days = 20
+		}
+	}
+	option = {
+		name = stt_byz.19.2
+		ai_chance = { factor = 30 }
+		add_stability = -1
+		add_ruler_personality = craven_personality
+		country_event = {
+				id = stt_byz.21
+				days = 30
+		}
+	}
+}
+
+#Р›Р°С‚РёРЅСЃРєР°СЏ РёРјРїРµСЂРёСЏ
+country_event = {
+    id = stt_byz.20
+	title = stt_byz.20.t
+	desc = stt_byz.20.d
+	picture = latin_empire_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+		name = stt_byz.20.1
+		ai_chance = { factor = 75 }
+		custom_tooltip = LAE_greece
+			hidden_effect = {    
+				every_owned_province = {
+					limit = { religion = catholic }
+					change_religion = orthodox
+					add_base_tax = -1
+					add_base_production = -1
+					add_base_manpower = -1
+				}
+			}
+			3265 = {
+				add_base_tax = 7
+				add_base_production = 7
+				add_base_manpower = 7
+				change_religion = catholic
+				change_culture = venetian
+				cede_province = LAE
+				add_core = VEN
+				remove_core = BYZ
+				add_core = LAE
+				hidden_effect = {
+					build_to_forcelimit = {
+						galley = 0.5
+						light_ship = 0.05
+						transport = 0.4
+					}
+				}
+				if = {
+		            limit = {
+						NOT = {
+							fort_level = 2
+						}
+			        }
+				    add_building = fort_15th
+		        }
+				hidden_effect = {    
+					KNI = {
+						define_ruler = {
+							name = "РўРµРѕРґРѕСЂ"
+							dynasty = "РґРµ Р’РёР»Р»Р°СЂРµ"
+							age = 30
+							claim = 100
+							regency = no
+							female = no
+							attach_leader = "РўРµРѕРґРѕСЂ РґРµ Р’РёР»Р»Р°СЂРµ"
+						}
+					}
+				}
+			}
+			hidden_effect = {
+				thrace_area = {
+					add_permanent_claim = LAE }
+				3264 =  { add_permanent_claim = LAE }
+				148 = { add_permanent_claim = LAE }
+			}
+		remove_country_modifier = byz_instability
+		add_stability = 1
+		add_prestige = -20
+		add_patriarch_authority = -0.5
+		country_event = {
+				id = stt_byz.22
+				days = 1
+		}
+	}
+	option = {
+		name = stt_byz.20.2
+		ai_chance = { factor = 25 }
+		remove_country_modifier = byz_instability
+		add_stability = 1
+		add_patriarch_authority = 0.35
+		add_prestige = 35
+		country_event = {
+				id = stt_byz.25
+				days = 30
+			}
+		remove_country_modifier = byz_accept_weighty_requirements_from_the_pope
+		remove_country_modifier = byz_accept_requirements_orthodox
+	}
+	option = {
+	name = stt_byz.20.3
+		hidden_effect = {    
+			every_owned_province = {
+				limit = { religion = catholic }
+				change_religion = orthodox
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+			}
+		}
+		3265 = {
+			add_base_tax = 7
+			add_base_production = 7
+			add_base_manpower = 7
+			change_religion = catholic
+			change_culture = venetian
+			cede_province = LAE
+			add_core = VEN
+			remove_core = BYZ
+			add_core = LAE
+			hidden_effect = {
+				build_to_forcelimit = {
+					galley = 0.5
+					light_ship = 0.05
+					transport = 0.4
+				}
+			}
+			if = {
+		        limit = {
+					NOT = {
+						fort_level = 2
+					}
+			    }
+				add_building = fort_15th
+		    }
+			hidden_effect = {    
+				LAE = {
+					define_ruler = {
+						name = "РўРµРѕРґРѕСЂ"
+						dynasty = "РґРµ Р’РёР»Р»Р°СЂРµ"
+						age = 30
+						claim = 100
+						regency = no
+						female = no
+						attach_leader = "РўРµРѕРґРѕСЂ РґРµ Р’РёР»Р»Р°СЂРµ"
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			thrace_area = { add_permanent_claim = LAE }
+			3264 =  { add_permanent_claim = LAE }
+			148 = { add_permanent_claim = LAE }
+		}
+		remove_country_modifier = byz_instability
+		add_stability = 1
+		add_prestige = -20
+		add_patriarch_authority = -0.5
+		country_event = {
+				id = stt_byz.22
+				days = 1
+		}
+		hidden_effect = {
+			switch_tag = LAE
+		}
+		custom_tooltip = LAE_greece_game
+	}
+}
+#РћР±СЉСЏРІР»РµРЅРёРµ РљСЂРµСЃС‚РѕРІРѕРіРѕ РїРѕС…РѕРґР°
+country_event = {
+    id = stt_byz.21
+	title = stt_byz.21.t
+	desc = stt_byz.21.d
+	picture = dark_time_Constantinople_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.21.1 
+		BYZ = { add_historical_rival = PAP}
+		PAP = { add_historical_rival = BYZ}
+		add_country_modifier = {
+			name = "reject_an_offer"
+			duration = 3650
+		}
+		country_event = {
+				id = stt_byz.25
+				days = 2
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = PAP }
+					NOT = { alliance_with = BYZ }
+					NOT = { alliance_with = HUN }
+					OR = {
+						capital_scope = { region = balkan_region }
+						capital_scope = { region = italy_region }
+						capital_scope = { region = carpathia_region }
+					}
+					religion = catholic
+					stability = 1
+					total_development = 200
+					NOT = { total_development = 350 }
+				}
+				set_country_flag = stt_small_crusade
+			}
+			HUN = {
+				if = {
+					limit = { is_rival = BYZ }
+					set_country_flag = stt_small_crusade
+				}
+			}
+		}
+	}
+}
+#Р“СЂРµРєРё Р±РµРіСѓС‚ СЃ РњРёР»РёС‚РёРЅРё
+country_event = {
+    id = stt_byz.22
+	title = stt_byz.22.t
+	desc = stt_byz.22.d
+	picture = FAMINE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.22.1 
+		random_owned_province = {
+			change_religion = orthodox
+			change_culture = greek
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+	}
+}
+#РљСЂРµСЃС‚РѕРІС‹Р№ РїРѕС…РѕРґ РЅР°С‡Р°Р»СЃСЏ
+country_event = {
+    id = stt_byz.25
+	title = stt_byz.25.t
+	desc = stt_byz.25.d
+	picture = dark_time_Constantinople_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_byz.25.1
+		clr_country_flag = stt_small_crusade
+		hidden_effect = {
+			every_country = {
+				limit = {
+				has_country_flag = stt_small_crusade }
+				add_opinion = {
+					who = BYZ
+					modifier = BYZ_small_coalition
+				}
+			form_coalition_against = BYZ
+			clr_country_flag = stt_small_crusade
+			}
+			PAP = {
+				form_coalition_against = BYZ
+				# declare_war_with_cb = { who = BYZ casus_belli = "cb_super_badboy" }
+			}
+			BYZ = {
+				declare_war_with_cb = { who = PAP casus_belli = "cb_heretic" }
+			}
+		}
+		# clr_country_flag = stt_small_crusade     cb_crusade cb_heretic
+	}
+}
+
+country_event = {
+    id = stt_byz.50
+	title = stt_byz.50.t
+	desc = stt_byz.50.d
+	
+	picture = chaos_eventPicture
+	
+	trigger = {
+		tag = BYZ
+		ai = no
+		is_year = 1308
+		NOT = { is_year = 1313 }
+		BYZ = { war_with = TU0 }
+		OR = {
+			316 = { NOT = { fort_level = 2 } }
+			317 = { NOT = { fort_level = 1 } }
+			318 = { NOT = { fort_level = 1 } }
+			3844 = { NOT = { fort_level = 1 } }
+		}
+	}
+		
+	option = {
+	    name = stt_byz.50.1
+		if = {
+			limit ={
+				OR = {
+					316 = { NOT = { fort_level = 2 } }
+					317 = { NOT = { fort_level = 1 } }
+					318 = { NOT = { fort_level = 1 } }
+					3844 = { NOT = { fort_level = 1 } }
+				}
+			}
+			random_list = {
+				33 = { add_country_modifier = { name = "byz_demoralization" duration = 1825 } add_prestige = -20 }
+				33 = { add_country_modifier = { name = "byz_demoralization_two" duration = 18250 } add_prestige = -20 }
+				34 = { add_country_modifier = { name = "byz_demoralization_three" duration = 1825 } add_prestige = -20 }
+			}
+		}
+	}
+}
+
+country_event = {
+    id = stt_byz.100
+	title = stt_byz.100.t
+	desc = stt_byz.100.d
+	
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	option = {
+	    name = stt_byz.100.1
+		add_dip_power = -250
+		add_country_modifier = {
+				name = "byz_discover_corps"
+				duration = 36500
+			}
+		}
+	option = {
+		name = stt_byz.100.2
+		add_dip_power = -450
+		add_treasury = -1000
+		add_country_modifier = {
+				name = "byz_discover_corps"
+				duration = -1
+			}
+		}
+}
+country_event = {
+	id = stt_byz.101
+	title = stt_byz.101.t
+	desc = stt_byz.101.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = stt_byz.101.1
+		385 = {
+			add_loot_from_rich_province_general_effect = {
+				LOOTER = owner #BYZ
+			}
+			add_province_modifier = {
+				name = "stt_byz_chastening_of_mekka"
+				duration = -1
+			}
+			add_base_tax = -7
+			add_base_production = -7
+			add_base_manpower = -7
+			change_religion = orthodox
+			change_culture = greek
+		}
+	}
+}
+country_event = {
+	id = stt_byz.102
+	title = stt_byz.102.t
+	desc = stt_byz.102.d
+	picture = RELIGIOUS_WARS_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = stt_byz.102.1
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_tax = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_tax = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_tax = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_production = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_production = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_production = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_manpower = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_manpower = 1
+			change_culture = greek
+		}
+		random_owned_province = {
+			limit = { region = arabia_region }
+			add_base_manpower = 1
+			change_culture = greek
+		}
+	}
+}
+# every_country = {
+	# limit =
+		# { NOT = { tag = PAP }
+		# NOT = { alliance_with = TUR }
+		# OR = {
+			# capital_scope = { region = balkan_region }
+			# capital_scope = { region = carpathia_region }
+		# }
+		# religion = catholic
+		# stability = 1
+		# total_development = 100 }
+	# country_event = { id = stt_wek.26 }
+# }
+
+#major = yes СЃРѕРѕР±С‰РµРЅРёРµ РґР»СЏ РІСЃРµС…
+#win = yes
+#change_technology_group = western
+#change_unit_type = western
+#declare_war = KNI - РѕР±СЉСЏРІРёС‚СЊ РІРѕР№РЅСѓ
+#clr_country_flag
+#set_country_flag 
+#РўСЂР°РїРµР·СѓРЅРґ РІС‹РґРІРёРіР°РµС‚ С‚СЂРµР±РѕРІР°РЅРёСЏ РЅР° РїСЂРµРµРјСЃС‚РІРµРЅРЅРѕСЃС‚СЊ РїСЂР°РІРѕСЃР»Р°РІРёСЏ
+
+country_event = {
+	id = stt_byz.200
+	title = stt_byz.200.t 
+	desc = stt_byz.200.d 
+	picture = CIVIL_WAR_eventPicture 
+	is_triggered_only = yes 
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.200.1 #РїСЂРѕСЃС‚Рѕ РІРѕР№РЅР°
+		add_adm_power = -50
+		add_dip_power = -100
+		add_mil_power = -150
+		custom_tooltip = STT_BYZ_just_war #Р‘СѓРґРµС‚ РѕР±СЉСЏРІР»РµРЅР° РІРѕР№РЅР° РІСЃРµРј СЃС‚СЂР°РЅР°Рј, РІР»Р°РґРµСЋС‰РёРј С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕР№ РїСЂРѕРІРёРЅС†РёРµР№ РІ РЎР»РѕРІРµРЅРёРё 
+		# hidden_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = stt_byz_country_carinthia
+				}
+				add_opinion = {
+					who = BYZ
+					modifier = BYZ_small_coalition
+				}
+				form_coalition_against = BYZ
+				country_event = { id = stt_byz.201 }
+				# BYZ = {
+					# declare_war_with_cb = { who = PREV casus_belli = "cb_imperial" }
+				# }
+				#clr_country_flag = stt_byz_country_carinthia
+				
+			}
+			# random_country = {
+				# limit = {
+					# has_country_flag = stt_byz_country_carinthia
+				# }
+				# THIS = { declare_war_with_cb = { who = BYZ casus_belli = "cb_imperial" } }
+			# }
+		#}
+	}
+}
+country_event = {
+	id = stt_byz.201
+	title = stt_byz.201.t 
+	desc = stt_byz.201.d 
+	picture = CIVIL_WAR_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = stt_byz.201.1 #РїСЂРѕСЃС‚Рѕ РІРѕР№РЅР°
+		every_country = {
+			limit = {
+				has_country_flag = stt_byz_country_carinthia
+			}
+			create_alliance = PREV
+		}
+		add_country_modifier = {
+				name = "defender_byz"
+				duration = 3650
+			}
+		BYZ = { country_event = { id = stt_byz.202 } }
+	}
+}
+
+country_event = {
+	id = stt_byz.202
+	title = stt_byz.202.t 
+	desc = stt_byz.202.d 
+	picture = CIVIL_WAR_eventPicture 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate  = {
+	    hidden_effect = {
+		BYZ = { declare_war_with_cb = { who = FROM casus_belli = "cb_imperial" } }
+		}
+	}
+	
+	option = {
+	    name = stt_byz.202.1 #РїСЂРѕСЃС‚Рѕ РІРѕР№РЅР°
+		add_mil_power = -1
+	}
+}
+
+#Захват Магнесии
+country_event = {
+	id = stt_byz.301
+	title = stt_byz.301.t 
+	desc = stt_byz.301.d 
+	picture = arab_eventPicture 
+	fire_only_once = yes
+	trigger = {
+		tag = SRU
+		is_year = 1308
+		NOT = { is_year = 1313 }
+		3858 = { owned_by = BYZ }
+		BYZ = { war_with = TU0 }
+	}
+	mean_time_to_happen = {
+	    months = 3
+	}
+	option = {
+	    name = stt_byz.301.1
+		ai_chance = { factor = 85 }
+		3858 = {
+		    cede_province = SRU
+			add_core = SRU
+			hidden_effect = {
+			    build_to_forcelimit = {
+                    galley = 0.33
+                    light_ship = 0.1
+                    transport = 0.1
+                }
+			}
+		}
+		BYZ = { country_event = { id = stt_byz.302 } }
+	}
+	option = {
+	    name = stt_byz.301.2
+		ai_chance = { factor = 15 }
+		3858 = {
+		    cede_province = SRU
+			add_core = SRU
+			hidden_effect = {
+			    build_to_forcelimit = {
+                    galley = 0.33
+                    light_ship = 0.1
+                    transport = 0.1
+                }
+			}
+		}
+		declare_war_with_cb = { who = BYZ casus_belli = "cb_super_badboy" }
+		add_prestige = 15
+		BYZ = { country_event = { id = stt_byz.310 } }
+	}
+}
+#Захват Магнесии Саруханом
+country_event = {
+	id = stt_byz.302
+	title = stt_byz.302.t 
+	desc = stt_byz.302.d 
+	picture = arab_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.302.1
+		ai_chance = { factor = 20 }
+		add_war_exhaustion = 4
+		declare_war_with_cb = { who = SRU casus_belli = "cb_super_badboy" }	
+	}
+	option = {
+	    name = stt_byz.302.2
+		ai_chance = { factor = 80 }
+		add_prestige = -20
+		add_legitimacy = -10
+		custom_tooltip = BYZ_retreat_SRU
+		hidden_effect = {
+			3640 = { remove_core = BYZ }
+			3858 = { remove_core = BYZ change_religion = sunni change_culture = turkish  add_base_tax = -1 add_base_production = -2 add_base_manpower = -1 }
+			318 = { add_base_tax = 1 add_base_production = 2 add_base_manpower = 1 }
+		}
+		318 = {
+			add_province_modifier = {
+					name = "byz_refugees"
+					duration = 1825
+			}
+		}
+	}
+}
+
+#Независимость Филадельфии
+country_event = {
+	id = stt_byz.303
+	title = stt_byz.303.t 
+	desc = stt_byz.303.d 
+	picture = varangian_guard_eventPicture
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = BYZ
+		is_year = 1309
+		NOT = { is_year = 1350 }
+		3844 = { owned_by = BYZ }
+		3640 = { NOT = { owned_by = BYZ } }
+		3858 = { NOT = { owned_by = BYZ } }
+	}
+	mean_time_to_happen = {
+	    months = 36
+	}
+	immediate  = {
+	    hidden_effect = {
+			3844 = { add_core = PHI cede_province = PHI controlled_by = PHI add_base_tax = 1 add_base_production = 1 add_base_manpower = 2 remove_building = fort_14th add_building = fort_15th
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				cavalry = PHI
+			}
+			PHI = {
+			    define_ruler = {
+			        name = "Олигархический совет"
+					adm = 2
+					dip = 2
+					mil = 2
+					regent = yes
+			    }
+			}
+		}
+	}
+	option = { #Приложить все усилия для возвращения мирным путём
+	    name = stt_byz.303.1
+		ai_chance = { factor = 10 }
+		add_adm_power = -50
+		add_dip_power = -200
+		add_years_of_income = -0.25
+		random_list = {
+			30 = {
+				country_event = {
+					id = stt_byz.304 #отказ
+					days = 5
+				}
+			}
+			60 = {
+				country_event = {
+					id = stt_byz.305 #марка
+					days = 5
+				}
+			}
+			10 = {
+				country_event = {
+					id = stt_byz.306 #вассал
+					days = 5
+				}
+			}
+		}
+	}
+	option = {
+	    name = stt_byz.303.2 #Предложить военное сотрудничество (союз)
+		ai_chance = { factor = 25 }
+		add_dip_power = -100
+		add_mil_power = -150
+		add_years_of_income = -0.25
+		random_list = {
+			20 = {
+				country_event = {
+					id = stt_byz.307 #отказ от военного союза
+					days = 15
+				}
+				}
+			80 = {
+				country_event = {
+					id = stt_byz.308 #согласие на военное сотрудничество
+					days = 15
+				}
+			}
+		}
+	}
+	option = {
+	    name = stt_byz.303.3 #Постараться сохранить дружественные отношения
+		ai_chance = { factor = 30 }
+		custom_tooltip = BYZ_new_friend
+		add_dip_power = -200
+		add_years_of_income = -0.45
+		add_opinion = {
+			who = PHI
+			modifier = BYZ_friends
+		}
+		reverse_add_opinion = {
+			who = PHI
+			modifier = BYZ_friends
+		}
+		add_truce_with = PHI
+	}
+	option = {
+	   name = stt_byz.303.4 #Ничего не предпринимать
+		ai_chance = { factor = 10 }
+		add_prestige = -25
+		add_legitimacy = -15
+		3844 = { remove_core = BYZ }
+		hidden_effect = {    
+			3844 = {
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				cavalry = PHI
+			}
+			PHI = { add_treasury = 500 }
+		}
+	}
+	option = {
+	    name = stt_byz.303.5 #Разработать военный план по возвращению Филадельфии
+		ai_chance = { factor = 15 }
+		custom_tooltip = BYZ_military_plan
+		add_prestige = -5
+		add_adm_power = -100
+		add_mil_power = -150
+		3844 = { remove_core = BYZ }
+		country_event = { id = stt_byz.309 days = 1095 } #Военный план разработан 
+	}
+	option = {
+	    name = stt_byz.303.6 #Объявить войну
+		ai_chance = { factor = 10 }
+		add_prestige = 10
+		add_mil_power = 50
+		add_war_exhaustion = 6
+		declare_war = PHI
+	}
+	option = {
+	    name = stt_byz.303.7 #Начать игру за Филадальфию
+		ai_chance = { factor = 0 }
+		custom_tooltip = PHI_greece_game
+		3844 = { remove_core = BYZ }
+		hidden_effect = {
+			switch_tag = PHI
+		}
+	}
+}
+#Отказ присоединяться обратно к Византии
+country_event = {
+	id = stt_byz.304
+	title = stt_byz.304.t 
+	desc = stt_byz.304.d 
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.303.5
+		add_prestige = -5
+		add_adm_power = -100
+		add_mil_power = -150
+		country_event = { id = stt_byz.309 days = 1095 } #Военный план разработан
+		3844 = { remove_core = BYZ }
+	}
+}
+#Филадельфия - марка
+country_event = {
+	id = stt_byz.305
+	title = stt_byz.305.t 
+	desc = stt_byz.305.d 
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.305.1
+		create_march = PHI
+		add_prestige = 10
+		add_legitimacy = 5
+	}
+}
+#Филадельфия - вассал
+country_event = {
+	id = stt_byz.306
+	title = stt_byz.306.t 
+	desc = stt_byz.306.d 
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.306.1
+		create_vassal = PHI
+		add_prestige = 20
+		add_legitimacy = 5
+	}
+}
+#Отказ от военного союза
+country_event = {
+	id = stt_byz.307
+	title = stt_byz.307.t 
+	desc = stt_byz.307.d 
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.303.4 #Ничего не предпринимать
+		ai_chance = { factor = 65 }
+		add_prestige = -25
+		add_legitimacy = -15
+		3844 = { remove_core = BYZ }
+		hidden_effect = {    
+			3844 = {
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				infantry = PHI
+				cavalry = PHI
+			}
+			PHI = { add_treasury = 500 }
+		}
+	}
+	option = {
+	    name = stt_byz.303.5
+		ai_chance = { factor = 35 }
+		add_prestige = -5
+		add_adm_power = -100
+		add_mil_power = -150
+		country_event = { id = stt_byz.309 days = 1095 } #Военный план разработан 
+	}
+}
+#Филадельфия - союзник
+country_event = {
+	id = stt_byz.308
+	title = stt_byz.308.t 
+	desc = stt_byz.308.d 
+	picture = varangian_guard_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.306.1
+		create_alliance = PHI
+		add_prestige = 10
+		add_legitimacy = 5
+	}
+}
+#Военный план разработан 
+country_event = {
+	id = stt_byz.309
+	title = stt_byz.309.t 
+	desc = stt_byz.309.d 
+	picture = discussion_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.309.1
+		add_army_professionalism = 0.02
+		3844 = { add_claim = BYZ }
+		declare_war_with_cb = { who = PHI casus_belli = "cb_super_badboy" } 
+	}
+}
+#Военный план разработан 
+country_event = {
+	id = stt_byz.310
+	title = stt_byz.310.t 
+	desc = stt_byz.310.d 
+	picture = arab_eventPicture
+	is_triggered_only = yes	
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = BYZ
+	}
+	option = {
+	    name = stt_byz.310.1
+		add_war_exhaustion = 1
+	}
+}

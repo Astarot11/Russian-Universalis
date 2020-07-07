@@ -1,4 +1,4 @@
-name = "Первая итальянская война"
+name = "Первая Итальянская война"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne
@@ -22,17 +22,17 @@ war_goal = {
 
 1495.7.6 = {
 	battle = {
-		name = "Форново"
+		name = "Fornovo"
 		location = 105
 		attacker = {
-			commander = "Карл VIII"	# Charles VIII
+			commander = "Charles VIII"	# Charles VIII
 			infantry = 4200
 			cavalry = 800
 			losses = 20	#percent
 			country = FRA
 		}
 		defender = {
-			commander = "Францеско II Гонзага"	# Francesco II of Gonzaga
+			commander = "Francesco II of Gonzaga"	# Francesco II of Gonzaga
 			infantry = 4500
 			cavalry = 1000
 			losses = 30	#percent

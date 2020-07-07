@@ -5,6 +5,40 @@ religion = orthodox
 technology_group = eastern
 capital = 422 # Kutaisi
 government_rank = 2
+
+1245.1.1 = {
+	monarch = {
+		name = "Давид IV Нарин"
+		dynasty = "Багратион"
+		death_date = 1293.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1293.1.1 = {
+	monarch = {
+		name = "Константин I"
+		dynasty = "Багратион"
+		death_date = 1327.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1327.1.1 = {
+	monarch = {
+		name = "Михаил I"
+		dynasty = "Багратион"
+		death_date = 1329.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
 1401.1.1 = {
 	monarch = {
 		name = "Димитрий I"

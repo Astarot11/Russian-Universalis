@@ -8,7 +8,10 @@ country_decisions = {
 			NOT = { has_country_flag = formed_russia_flag }
 			tag = TSR	### STT
 			NOT = { exists = RUS }
+			OR = {
 			primary_culture = russian ### STT
+			primary_culture = ryazanian
+			}
 			OR = {
 				ai = no
 				AND = {

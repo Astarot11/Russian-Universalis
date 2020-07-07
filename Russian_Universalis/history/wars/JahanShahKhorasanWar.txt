@@ -1,4 +1,4 @@
-name = "Шах-Джахан вторжение в Хорасан"
+name = "Вторжение Джахана Шаха в Хорасан"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

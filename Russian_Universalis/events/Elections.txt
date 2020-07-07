@@ -1,4 +1,5 @@
 namespace = elections
+namespace = raeo
 
 # Election!
 country_event = {
@@ -51,9 +52,20 @@ country_event = {
 			}		
 		}
 		custom_tooltip = remains_ruler
-		change_adm = 1
-		change_dip = 1
-		change_mil = 1
+		hidden_effect = {
+				random_list = { 								# random up for re-electing
+					75 = { change_adm = 0 }
+					25 = { change_adm = 1 }
+				}
+				random_list = { 					
+					75 = { change_dip = 0 }
+					25 = { change_dip = 1 }
+				}
+				random_list = { 					
+					75 = { change_mil = 0 }
+					25 = { change_mil = 1 }
+				}
+			}
 		if = {
 			limit = { 
 				is_tribal = yes
@@ -79,7 +91,7 @@ country_event = {
 				NOT = { republican_tradition = 20 }	
 				has_reform = revolutionary_republic_reform
 			}
-			change_government = monarchy
+			change_government_via_reform = monarchy
 			add_government_reform = revolutionary_empire_reform
 		}
 		if = {
@@ -89,7 +101,7 @@ country_event = {
 				NOT = { republican_tradition = 20 }
 				NOT = { has_dlc = "Res Publica" }
 			}
-			change_government = monarchy
+			change_government_via_reform = monarchy
 			set_legacy_government = despotic_monarchy
 		}
 		add_scaled_republican_tradition = -10
@@ -112,19 +124,21 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				mil = 1
-				adm = 4
+				adm = 3
 				dip = 1
-				fixed = yes
+				mil = 1
+				max_random_dip = 4
+				max_random_mil = 4
 				random_gender = yes # Allows random gender for republics
 			}
 		}
 		else = {
 			define_ruler = {
+				adm = 3
+				dip = 1
 				mil = 1
-				adm = 4
-				dip = 1					
-				fixed = yes
+				max_random_dip = 4
+				max_random_mil = 4
 			}
 		}
 		if = {
@@ -144,20 +158,23 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				dip = 4
 				adm = 1
-				mil = 1					
-				fixed = yes
+				dip = 3
+				mil = 1
+				max_random_adm = 4
+				max_random_mil = 4
 				random_gender = yes # Allows random gender for republics
 			}
+			
 		}
 		else = {
 			define_ruler = {
-				dip = 4
 				adm = 1
-				mil = 1					
-				fixed = yes
-			}
+				dip = 3
+				mil = 1
+				max_random_adm = 4
+				max_random_mil = 4
+			}	
 		}
 		if = {
 			limit = { 
@@ -176,19 +193,21 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				mil = 4
 				adm = 1
-				dip = 1					
-				fixed = yes
+				dip = 1
+				mil = 3
+				max_random_adm = 4
+				max_random_dip = 4
 				random_gender = yes # Allows random gender for republics
 			}
 		}
 		else = {
 			define_ruler = {
-				mil = 4
 				adm = 1
-				dip = 1					
-				fixed = yes
+				dip = 1
+				mil = 3
+				max_random_adm = 4
+				max_random_dip = 4
 			}
 		}
 		if = {
@@ -213,9 +232,9 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				mil = -2
-				adm = -2
-				dip = -2
+				mil = 1
+				adm = 1
+				dip = 1
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -224,9 +243,9 @@ country_event = {
 		}
 		else = {
 			define_ruler = {
-				mil = -2
-				adm = -2
-				dip = -2
+				mil = 1
+				adm = 1
+				dip = 1
 				min_age = 30
 				max_age = 50
 				name = "lastname"
@@ -258,7 +277,7 @@ country_event = {
 		NOT = { has_government_attribute = lottery_election }
 		NOT = { has_reform = carthage_republic }
 		NOT = { has_reform = pirate_republic_reform }
-		NOT = { has_reform = stt_timurids_government_reform }
+		NOT = { has_reform = stt_timurids_government_reform }											   
 	}
 	
 	option = {
@@ -267,19 +286,21 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
+				adm = 3
+				dip = 1
 				mil = 1
-				adm = 4
-				dip = 1					
-				fixed = yes
+				max_random_dip = 4
+				max_random_mil = 4
 				random_gender = yes # Allows random gender for republics
 			}
 		}
 		else = {
 			define_ruler = {
+				adm = 3
+				dip = 1
 				mil = 1
-				adm = 4
-				dip = 1					
-				fixed = yes
+				max_random_dip = 4
+				max_random_mil = 4
 			}
 		}
 		if = {
@@ -291,6 +312,7 @@ country_event = {
 				influence = 20
 			}				
 		}
+		add_karma = 10
 	}
 	option = {
 		name = "EVTOPTC700"	# A diplomat
@@ -298,20 +320,23 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				dip = 4
 				adm = 1
-				mil = 1					
-				fixed = yes
+				dip = 3
+				mil = 1
+				max_random_adm = 4
+				max_random_mil = 4
 				random_gender = yes # Allows random gender for republics
 			}
+			
 		}
 		else = {
 			define_ruler = {
-				dip = 4
 				adm = 1
-				mil = 1					
-				fixed = yes
-			}
+				dip = 3
+				mil = 1
+				max_random_adm = 4
+				max_random_mil = 4
+			}	
 		}
 		if = {
 			limit = { 
@@ -321,7 +346,8 @@ country_event = {
 				faction = mr_traders
 				influence = 20
 			}				
-		}			
+		}
+		add_karma = 10		
 	}
 	option = {
 		name = "EVTOPTD700"	# A military man
@@ -329,19 +355,21 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				mil = 4
 				adm = 1
-				dip = 1					
-				fixed = yes
+				dip = 1
+				mil = 3
+				max_random_adm = 4
+				max_random_dip = 4
 				random_gender = yes # Allows random gender for republics
 			}
 		}
 		else = {
 			define_ruler = {
-				mil = 4
 				adm = 1
-				dip = 1					
-				fixed = yes
+				dip = 1
+				mil = 3
+				max_random_adm = 4
+				max_random_dip = 4
 			}
 		}
 		if = {
@@ -352,8 +380,10 @@ country_event = {
 				faction = mr_aristocrats
 				influence = 20
 			}				
-		}		
+		}
+		add_karma = 10
 	}
+	
 	option = { # Nepotism choice, re-electing within dynasty
 		name = "EVTOPTE700"
 		trigger = {
@@ -364,20 +394,22 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
-				mil = -2
-				adm = -2
-				dip = -2
-				age = 30
+				mil = 1
+				adm = 1
+				dip = 1
+				min_age = 30
+				max_age = 50
 				name = "lastname"
 				random_gender = yes # Allows random gender for republics
 			}
 		}
 		else = {
 			define_ruler = {
-				mil = -2
-				adm = -2
-				dip = -2
-				age = 30
+				mil = 1
+				adm = 1
+				dip = 1
+				min_age = 30
+				max_age = 50
 				name = "lastname"
 			}
 		}
@@ -414,7 +446,8 @@ country_event = {
 				adm = 4
 				mil = 2
 				dip = 2
-				fixed = yes
+				max_random_mil = 4
+				max_random_dip = 4
 			}
 			set_ruler_flag = appointed_by_overlord
 		}
@@ -427,7 +460,8 @@ country_event = {
 				adm = 2
 				dip = 4
 				mil = 2
-				fixed = yes
+				max_random_mil = 4
+				max_random_adm = 4
 			}
 			set_ruler_flag = appointed_by_overlord
 		}
@@ -440,7 +474,8 @@ country_event = {
 				adm = 2
 				dip = 2
 				mil = 4
-				fixed = yes
+				max_random_dip = 4
+				max_random_adm = 4
 			}	
 			set_ruler_flag = appointed_by_overlord
 		}
@@ -488,12 +523,14 @@ country_event = {
 
 
 # Dutch Republic
-country_event = {
+country_event = {											# change by RAEO-mod (begin)
 	id = elections.720
-	title = elections.720.t
+#	title = elections.720.t									# deleted by RAEO-mod
+	title = raeo.3a								
 	desc = {
 		trigger = { has_reform = dutch_republic }
-		desc = elections.720.da
+#		desc = elections.720.da								# deleted by RAEO-mod
+		desc = raeo.3b
 	}
 	
 	desc = {
@@ -512,41 +549,151 @@ country_event = {
 		}
 		NOT = { has_reform = greek_monarchy }
 	}
-	
-	option = {
-		name = elections.720.a
-		define_ruler = {
+	option = {												
+		name = "EVTOPTA700"									# Current ruler stays
+		trigger = {
+			has_regency = no
+			NOT = { has_ruler_flag = leader_has_been_pushed_out }
 		}
-		change_statists_vs_orangists = -0.33
-	
+		ai_chance = { 
+			factor = 60
+			modifier = {
+				factor = 0
+				NOT = { republican_tradition = 25 }
+			}	
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 50 }
+			}				
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 75 }
+			}	
+			modifier = {
+				factor = 2.0
+				republican_tradition = 90
+			}		
+		}	
+		hidden_effect = {
+				random_list = { 								# random up for re-electing
+					75 = { change_adm = 0 }
+					25 = { change_adm = 1 }
+				}
+				random_list = { 					
+					75 = { change_dip = 0 }
+					25 = { change_dip = 1 }
+				}
+				random_list = { 					
+					75 = { change_mil = 0 }
+					25 = { change_mil = 1 }
+				}
+			}
+		add_scaled_republican_tradition = -12				# for each year -3 republican tradition
+		random_list = {
+				1 = { add_adm_power = 50 }								
+				1 = { add_dip_power = 50 }
+				1 = { add_mil_power = 50 }
+		}
+	}											
+	option = {									
+		name = raeo.4a										# A decided adm-etatist 
+		define_ruler = {
+			adm = 4
+			dip = 1
+			mil = 1
+			max_random_dip = 4
+			max_random_mil = 4
+		}
+		change_statists_vs_orangists = -0.66
+	}	
+	option = {
+		name = raeo.4b										# A moderate dip-etatist			
+		define_ruler = {
+			adm = 1
+			dip = 4
+			mil = 1
+			max_random_adm = 4
+			max_random_mil = 4
+		}
+		change_statists_vs_orangists = -0.66
 	}
 	option = {
 		trigger = { has_reform = dutch_republic }
-		name = elections.720.b
-		define_ruler = {
-			dynasty = "van Oranje"
-		}
-		change_statists_vs_orangists = 0.33
-	}
-
-	option = {
-		trigger = { NOT = { has_reform = dutch_republic } }
-		name = elections.720.c
-		define_ruler = {
-			dynasty = "historic_dynasty" # Will pick one weighted by how many rulers a family has had
-		}
-		change_statists_vs_orangists = 0.33
-	}
-}
+#		name = elections.720.b								# deleted by RAEO-mod
+		name = raeo.4c										# a mil-orangist
+		random_list = {
+			45 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Willem van Oranje"
+					dynasty = "van Oranje" 
+				}
+			}	
+			25 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Maurits van Oranje"
+					dynasty = "van Oranje"
+				}
+			}
+			16 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Frederik Hendrik van Oranje"
+					dynasty = "van Oranje"
+				}
+			}
+			7 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Wilhelmina van Oranje"
+					dynasty = "van Oranje"								
+					female = yes
+				}
+			}
+			7 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Jacoba van Oranje"
+					dynasty = "van Oranje"									
+					female = yes
+				}
+			}
+		}	
+		change_statists_vs_orangists = 0.66					
+		add_scaled_republican_tradition = -12				
+	}														# change by RAEO-mod (end)
+}							
 
 country_event = {
-	id = elections.721
-	title = elections.720.t
+	id = elections.721										# change by RAEO-mod (begin)
+#	title = elections.720.t									# deleted by RAEO-mod
+	title = raeo.3a								
 	desc = {
 		trigger = { has_reform = dutch_republic }
-		desc = elections.721.da
+#		desc = elections.721.da								# deleted by RAEO-mod
+		desc = raeo.3c							
 	}
-	
 	desc = {
 		trigger = { NOT = { has_reform = dutch_republic } }
 		desc = elections.721.db
@@ -563,31 +710,95 @@ country_event = {
 		}
 		NOT = { has_reform = greek_monarchy }
 	}
-	
-	option = {
-		name = elections.720.a
+											
+	option = {									
+		name = raeo.4a										# A decided adm-etatist 
 		define_ruler = {
+			adm = 4
+			dip = 1
+			mil = 1
+			max_random_dip = 4
+			max_random_mil = 4
 		}
-		change_statists_vs_orangists = -0.33
-	
+		change_statists_vs_orangists = -0.66
+	}	
+	option = {
+		name = raeo.4b										# A moderate dip-etatist			
+		define_ruler = {
+			adm = 1
+			dip = 4
+			mil = 1
+			max_random_adm = 4
+			max_random_mil = 4
+		}
+		change_statists_vs_orangists = -0.66
 	}
 	option = {
 		trigger = { has_reform = dutch_republic }
-		name = elections.720.b
-		define_ruler = {
-			dynasty = "van Oranje"
-		}
-		change_statists_vs_orangists = 0.33
-	}
-
-	option = {
-		trigger = { NOT = { has_reform = dutch_republic } }
-		name = elections.720.c
-		define_ruler = {
-			dynasty = "historic_dynasty" # Will pick one weighted by how many rulers a family has had
-		}
-		change_statists_vs_orangists = 0.33
-	}
+       #name = elections.720.b								# deleted by RAEO-mod
+		name = raeo.4c										# a mil-orangist
+		random_list = {
+			45 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Willem van Oranje"
+					dynasty = "van Oranje" 
+				}
+			}	
+			25 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Maurits van Oranje"
+					dynasty = "van Oranje"
+				}
+			}
+			16 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Frederik Hendrik van Oranje"
+					dynasty = "van Oranje"
+				}
+			}
+			7 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Wilhelmina van Oranje"
+					dynasty = "van Oranje"								
+					female = yes
+				}
+			}
+			7 = { 
+				define_ruler = {
+					adm = 1
+					dip = 1
+					mil = 4
+					max_random_adm = 4
+					max_random_dip = 4
+					name = "Jacoba van Oranje"
+					dynasty = "van Oranje"									
+					female = yes
+				}
+			}
+		}	
+		change_statists_vs_orangists = 0.66					
+		add_scaled_republican_tradition = -12				
+	}														# change by RAEO-mod (end)
 }
 
 # Carthage Republic #STT
@@ -868,7 +1079,7 @@ country_event = {
 				}
 			}
 		}
-		custom_tooltip = lottery_candidate_bonus_plural
+		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = { # nepotism
 		name = elections.800.e
@@ -882,24 +1093,144 @@ country_event = {
 			define_ruler = {
 				min_age = 30
 				max_age = 50
-				mil = -1
-				adm = -1
-				dip = -1
+				mil = 1
+				adm = 1
+				dip = 1
 				age = 30
+				hide_skills = yes
 				name = "lastname"
 				random_gender = yes # Allows random gender for republics
 			}
+			hidden_effect = {
+			change_adm = -1
+			change_dip = -1
+			change_mil = -1
+			random_list = { 								# same mode as monarchic ruler
+				25 = { change_adm = 0 }
+				25 = { change_adm = 1 }
+				25 = { change_adm = 2 }
+				25 = { change_adm = 3 }
+			}	
+			random_list = { 
+				25 = { change_adm = 0 }
+				25 = { change_adm = 1 }
+				25 = { change_adm = 2 }
+				25 = { change_adm = 3 }
+			}
+			random_list = { 								# same bonus as Lucky Nations
+				50 = { change_adm = 0 }
+				50 = { change_adm = 1 }
+			}
+			random_list = { 					
+				25 = { change_dip = 0 }
+				25 = { change_dip = 1 }
+				25 = { change_dip = 2 }
+				25 = { change_dip = 3 }
+			}	
+			random_list = { 
+				25 = { change_dip = 0 }
+				25 = { change_dip = 1 }
+				25 = { change_dip = 2 }
+				25 = { change_dip = 3 }
+			}
+			random_list = { 					
+				50 = { change_dip = 0 }
+				50 = { change_dip = 1 }
+			}
+			random_list = { 					
+				25 = { change_mil = 0 }
+				25 = { change_mil = 1 }
+				25 = { change_mil = 2 }
+				25 = { change_mil = 3 }
+			}	
+			random_list = { 
+				25 = { change_mil = 0 }
+				25 = { change_mil = 1 }
+				25 = { change_mil = 2 }
+				25 = { change_mil = 3 }
+			}
+			random_list = { 					
+				50 = { change_mil = 0 }
+				50 = { change_mil = 1 }
+			}
+			random_list = {                                   # random bonus from dynasty
+				30 = { change_adm = 1 }
+				30 = { change_dip = 1 }
+				30 = { change_mil = 1 }
+				10 = { change_adm = 0 }
+			}
+						}
 		}
 		else = {
 			define_ruler = {
 				min_age = 30
 				max_age = 50
-				mil = -1
-				adm = -1
-				dip = -1
+				mil = 1
+				adm = 1
+				dip = 1
 				age = 30
+				hide_skills = yes
 				name = "lastname"
 			}
+			hidden_effect = {
+			change_adm = -1
+			change_dip = -1
+			change_mil = -1
+			random_list = { 								# same mode as monarchic ruler
+				25 = { change_adm = 0 }
+				25 = { change_adm = 1 }
+				25 = { change_adm = 2 }
+				25 = { change_adm = 3 }
+			}	
+			random_list = { 
+				25 = { change_adm = 0 }
+				25 = { change_adm = 1 }
+				25 = { change_adm = 2 }
+				25 = { change_adm = 3 }
+			}
+			random_list = { 								# same bonus as Lucky Nations
+				50 = { change_adm = 0 }
+				50 = { change_adm = 1 }
+			}
+			random_list = { 					
+				25 = { change_dip = 0 }
+				25 = { change_dip = 1 }
+				25 = { change_dip = 2 }
+				25 = { change_dip = 3 }
+			}	
+			random_list = { 
+				25 = { change_dip = 0 }
+				25 = { change_dip = 1 }
+				25 = { change_dip = 2 }
+				25 = { change_dip = 3 }
+			}
+			random_list = { 					
+				50 = { change_dip = 0 }
+				50 = { change_dip = 1 }
+			}
+			random_list = { 					
+				25 = { change_mil = 0 }
+				25 = { change_mil = 1 }
+				25 = { change_mil = 2 }
+				25 = { change_mil = 3 }
+			}	
+			random_list = { 
+				25 = { change_mil = 0 }
+				25 = { change_mil = 1 }
+				25 = { change_mil = 2 }
+				25 = { change_mil = 3 }
+			}
+			random_list = { 					
+				50 = { change_mil = 0 }
+				50 = { change_mil = 1 }
+			}
+			random_list = {                                   # random bonus from dynasty
+				30 = { change_adm = -1 }
+				30 = { change_dip = -1 }
+				30 = { change_mil = -1 }
+				10 = { change_adm = 0 }
+			}
+		}
 		}
 		if = {
 			limit = { 

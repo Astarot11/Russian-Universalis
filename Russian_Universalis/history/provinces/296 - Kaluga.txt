@@ -2,7 +2,7 @@
 
 owner = TSA
 controller = TSA  
-culture = russian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 4

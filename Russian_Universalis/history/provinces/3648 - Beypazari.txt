@@ -1,5 +1,3 @@
-#326 - Ankara
-
 owner = TNA
 controller = TNA
 culture = turkish

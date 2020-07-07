@@ -704,23 +704,23 @@ tr_novgorod_4 = {
 		required_missions = { nov_white_sea  }
 		provinces_to_highlight = {
 			OR = {
-			#	province_id = 30
+				province_id = 30
 				area = finland_area
-				area = finnish_karelia_area #STT
+				area = bothnia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-		#	30 = {
-		#		country_or_non_sovereign_subject_holds = ROOT
-		#	}
+			30 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			finland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			finnish_karelia_area = { #STT
+			bothnia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

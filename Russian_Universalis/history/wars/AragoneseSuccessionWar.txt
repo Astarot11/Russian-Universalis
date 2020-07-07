@@ -1,4 +1,4 @@
-name = "Война за арагонское наследство"
+name = "Первая война за арагонское наследство"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne

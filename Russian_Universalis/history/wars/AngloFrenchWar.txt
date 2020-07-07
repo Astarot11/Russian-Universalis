@@ -1,4 +1,4 @@
-name = "Англо-французская война"
+name = "Англо-Французская война"
 war_goal = {
 	type = superiority_insult
 	casus_belli = cb_dishonored_call

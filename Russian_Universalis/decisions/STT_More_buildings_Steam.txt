@@ -2,8 +2,8 @@ country_decisions = {
     Steam_Tech = {
 		major = yes
 		
-		potential = { is_year = 1700 }		
-		allow = { is_year = 1700 }	
+		potential = { is_year = 1740 }		
+		allow = { is_year = 1740 }	
 		effect = { 
            country_event = { id = steam_event.1 days = 0 }
 		}

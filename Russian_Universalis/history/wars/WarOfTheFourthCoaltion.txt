@@ -1,4 +1,4 @@
-name = "Война четвертой коалиции"
+name = "Война Четвёртой коалиции"
 
 war_goal = {
 	type = take_capital_revolution
@@ -28,16 +28,16 @@ war_goal = {
 
 1806.7.4 = {
 	battle = {
-		name = "Майда"
+		name = "Maida"
 		location = 123
 		attacker = {
-			commander = "Джон Стюарт"	# John Stuart
+			commander = "John Stuart"	# John Stuart
 			infantry = 5100
 			losses = 1	#percent
 			country = GBR
 		}
 		defender = {
-			commander = "Жан Рейнье"	# Reynier
+			commander = "Reynier"	# Reynier
 			infantry = 7000
 			losses = 10	#percent
 			country = FRA
@@ -68,16 +68,16 @@ war_goal = {
 
 1806.10.10 = {
 	battle = {
-		name = "Заальфельд"
+		name = "Saalfeld"
 		location = 62
 		attacker = {
-			commander = "Жан Ланн"	# John Stuart
+			commander = "John Stuart"	# John Stuart
 			infantry = 8000
 			losses = 5	#percent
 			country = GBR
 		}
 		defender = {
-			commander = "Принц Людвиг Фердинанд"	# Louis Ferdinand
+			commander = "Louis Ferdinand"	# Louis Ferdinand
 			infantry = 12000
 			artillery = 15
 			losses = 2	#percent
@@ -89,16 +89,16 @@ war_goal = {
 
 1806.10.14 = {
 	battle = {
-		name = "Йена-Ауэрштедт"
+		name = "Jena-Auerstedt"
 		location = 62
 		attacker = {
-			commander = "Герцог Брауншвейгский" 	# Duke of Brunswick 
+			commander = "Karl Wilhelm Ferdinand" 	# Duke of Brunswick 
 			infantry = 115000
 			losses = 33	#percent
 			country = PRU
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 100000
 			losses = 12	#percent
 			country = FRA
@@ -120,17 +120,17 @@ war_goal = {
 
 1806.12.26 = {
 	battle = {
-		name = "Голымин"
+		name = "Golymin"
 		location = 257
 		attacker = {
-			commander = "Дмитрий Голицын"
+			commander = "Dmitriy Golitsyn"
 			infantry = 35000
 			artillery = 128
 			losses = 14	#percent
 			country = RUS
 		}
 		defender = {
-			commander = "Иоахим Мюрат"
+			commander = "Joachim Murat"
 			infantry = 25000
 			losses = 28	#percent
 			country = FRA
@@ -141,16 +141,16 @@ war_goal = {
 
 1806.12.26 = {
 	battle = {
-		name = "Пултуск"
+		name = "Pultusk"
 		location = 257
 		attacker = {
-			commander = "Дмитрий Голицын"	# Dmitriy Vladimirovich Golitsyn
+			commander = "Dmitriy Vladimirovich Golitsyn"	# Dmitriy Vladimirovich Golitsyn
 			infantry = 18000
 			losses = 4	#percent
 			country = RUS
 		}
 		defender = {
-			commander = "Иоахим Мюрат"	# Joachim Murat
+			commander = "Joachim Murat"	# Joachim Murat
 			infantry = 38000
 			losses = 2	#percent
 			country = FRA
@@ -161,17 +161,17 @@ war_goal = {
 
 1807.2.7 = {
 	battle = {
-		name = "Эйлау"
+		name = "Eylau"
 		location = 42
 		attacker = {
-			commander = "Леонтий Беннигсен" # Levin August Theophil
+			commander = "Levin August Theophil" # Levin August Theophil
 			infantry = 67000
 			artillery = 450
 			losses = 38	#percent
 			country = RUS
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 45000
 			artillery = 200
 			losses = 55	#percent
@@ -188,16 +188,16 @@ war_goal = {
 
 1807.6.10 = {
 	battle = {
-		name = "Гейльсберг"
+		name = "Heilsberg"
 		location = 42
 		attacker = {
-			commander = "Леонтий Беннигсен"	# Levin August Theophil
+			commander = "Levin August Theophil"	# Levin August Theophil
 			infantry = 115000
 			losses = 7	#percent
 			country = RUS
 		}
 		defender = {
-			commander = "Иоахим Мюрат"	# Joachim Murat
+			commander = "Joachim Murat"	# Joachim Murat
 			infantry = 220000
 			losses = 5	#percent
 			country = FRA
@@ -208,17 +208,17 @@ war_goal = {
 
 1807.6.14 = {
 	battle = {
-		name = "Фридланд"
+		name = "Friedland"
 		location = 42
 		attacker = {
-			commander = "Леонтий Беннигсен"	# Levin August Theophil
+			commander = "Levin August Theophil"	# Levin August Theophil
 			infantry = 60000
 			artillery = 120
 			losses = 33	#percent
 			country = RUS
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 80000
 			artillery = 120
 			losses = 10	#percent

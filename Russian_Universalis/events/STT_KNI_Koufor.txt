@@ -1,0 +1,1095 @@
+namespace = stt_kni
+normal_or_historical_nations = yes
+############### Knights #################
+#Greconization
+namespace = stt_kni
+country_event = {
+    id = stt_kni.1
+	title = stt_kni.1.t
+	desc = stt_kni.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.1.1
+		ai_chance = { factor = 85 }
+		add_adm_power = -200
+		add_dip_power = -200
+		change_primary_culture = joannites
+		remove_accepted_culture = occitain
+		remove_country_modifier = kni_accepted_cultures
+		add_country_modifier = {
+			name = "kni_changed_cultures"
+			duration = -1
+		}
+		if = {
+			limit = { 320 = { NOT = { culture = joannites } } }
+			320 = { change_culture = joannites }
+		}
+		else = {
+			custom_tooltip = KNI_joannites_at_rhodos
+			320 = { add_base_production = 2 add_base_tax = 2 add_base_manpower = 2 }
+		}
+	}
+	option = {	
+		name = stt_kni.1.2
+		ai_chance = { factor = 15 }
+		add_adm_power = -200
+		add_mil_power = -200
+		remove_accepted_culture = greek
+		320 = {
+			change_culture = occitain
+			change_religion = catholic
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		145 = {
+			change_culture = occitain
+			change_religion = catholic
+			add_base_tax = -3
+			add_base_production = -3
+			add_base_manpower = -3
+		}
+		3775 = {
+			change_culture = occitain
+			change_religion = catholic
+			add_base_tax = -3
+			add_base_production = -3
+			add_base_manpower = -3
+		}
+		1773 = {
+			change_culture = occitain
+			change_religion = catholic
+			add_base_tax = -3
+			add_base_production = -3
+			add_base_manpower = -3
+		}
+		remove_country_modifier = kni_accepted_cultures
+		add_country_modifier = {
+				name = "kni_saved_cultures"
+				duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = stt_kni.2
+	title = stt_kni.2.t
+	desc = stt_kni.2.d
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.2.1
+		add_dip_power = -25
+		create_alliance = VEN
+		add_treasury = 150
+		320 = {
+			limit = { controlled_by = ROOT  }
+			transport = ROOT
+			transport = ROOT
+			transport = ROOT
+			transport = ROOT
+		}
+		3950 = {
+			add_core = KNI
+			cede_province = ROOT
+			remove_core = VEN
+		}
+	}
+}
+
+country_event = {
+	id = stt_kni.3
+	title = stt_kni.3.t
+	desc = stt_kni.3.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.3.1
+		add_dip_power = -50
+		create_alliance = PAP
+		add_country_modifier = {
+			name = "kni_alliance_with_pape"
+			duration = 10950
+		}
+	}
+}
+
+country_event = {
+	id = stt_kni.4
+	title = stt_kni.4.t
+	desc = stt_kni.4.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.4.1
+		add_country_modifier = {
+			name = "kni_message_from_pape"
+			duration = -1
+		}
+		add_treasury = 200
+	}
+}
+
+country_event = {
+	id = stt_kni.5
+	title = stt_kni.5.t
+	desc = stt_kni.5.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.5.1
+		add_prestige = 10
+		add_papal_influence = 15
+		320 = {
+			limit = { controlled_by = ROOT  }
+			galley = ROOT
+			galley = ROOT
+		}
+	}
+}
+
+country_event = {
+	id = stt_kni.6
+	title = stt_kni.6.t
+	desc = stt_kni.6.d
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.6.1
+		add_prestige = 10
+		add_country_modifier = {
+			name = "kni_relations_with_cyprus"
+			duration = 7300
+		}
+	}
+}
+#РџСЂРµРґР»РѕР¶РµРЅРёРµ РћСЂРґРµРЅР°
+country_event = {
+	id = stt_kni.7
+	title = stt_kni.7.t
+	desc = stt_kni.7.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_kni.7.1
+		ai_chance = { factor = 75 }
+		KNI = {
+			country_event = {
+				id = stt_kni.8
+				days = 2
+			}
+		}
+	}
+	option = {
+	    name = stt_kni.7.2
+		ai_chance = { factor = 25 }
+		KNI = {
+			country_event = {
+				id = stt_kni.9
+				days = 2
+			}
+		}
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РєРѕСЂРѕР»СЏ РљРёРїСЂР° СЃ С‚СЂРµР±РѕРІР°РЅРёСЏРјРё
+country_event = {
+	id = stt_kni.8
+	title = stt_kni.8.t
+	desc = stt_kni.8.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.8.1
+		ai_chance = { factor = 90 }
+		country_event = { id = stt_kni.10 }
+	}
+	option = {
+	    name = stt_kni.8.2
+		ai_chance = { factor = 10 }
+		add_papal_influence = -10
+		PAP = {
+			country_event = {
+				id = stt_kni.11
+				days = 10
+			}
+		}
+	}
+}
+#РћС‚РєР°Р·
+country_event = {
+	id = stt_kni.9
+	title = stt_kni.9.t
+	desc = stt_kni.9.d
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.9.1
+		ai_chance = { factor = 85 }
+		add_devotion = -5
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+	    name = stt_kni.9.2
+		ai_chance = { factor = 15 }
+		add_devotion = -10
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		KNI = { declare_war_with_cb = { who = CYP casus_belli = "cb_super_badboy" } } 
+	}
+}
+#Р’С‹РєСѓРї Р›РёРјР°СЃРѕР»Р°
+country_event = {
+	id = stt_kni.10
+	title = stt_kni.10.t
+	desc = stt_kni.10.d
+	picture = CARIBBEAN_PIRATE_FORT_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.10.1
+		add_truce_with = CYP
+		321 = { add_core = ROOT cede_province = ROOT remove_core = CYP add_base_tax = -5 add_base_production = -5 add_base_manpower = -2 remove_building = fort_14th }
+		add_treasury = -350
+		add_dip_power = -50
+		add_adm_power = -25
+		add_mil_power = -25
+		add_devotion = -5
+		320 = { add_base_manpower = -2}
+		3660 = { add_base_tax = 5 add_base_production = 5 add_base_manpower = 4 }
+		add_country_modifier = {
+			name = "kni_buyout"
+			duration = 3650
+		}
+		CYP = {
+			add_country_modifier = {
+				name = "kni_profit"
+				duration = 3650
+			}
+		}
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РћСЂРґРµРЅР°
+country_event = {
+	id = stt_kni.11
+	title = stt_kni.11.t
+	desc = stt_kni.11.d
+	picture = WESTERNISATION_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_kni.11.1
+		ai_chance = { factor = 90 }
+		CYP = {
+			country_event = {
+				id = stt_kni.12
+				days = 10
+			}
+		}
+		KNI = {
+			country_event = {
+				id = stt_kni.13
+				days = 10
+			}
+		}
+	}
+	option = {
+	    name = stt_kni.11.2
+		ai_chance = { factor = 10 }
+		KNI = {
+			country_event = {
+				id = stt_kni.14
+				days = 10
+			}
+		}
+	}
+}
+#РўСЂРµР±РѕРІР°РЅРёРµ РџР°РїС‹
+country_event = {
+	id = stt_kni.12
+	title = stt_kni.12.t
+	desc = stt_kni.12.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_kni.12.1
+		ai_chance = { factor = 90 }
+		PAP = {
+			country_event = {
+				id = stt_kni.15
+				days = 10
+			}
+		}
+		KNI = {
+			country_event = {
+				id = stt_kni.16
+				days = 2
+			}
+		}
+	}
+	option = {
+	    name = stt_kni.12.2
+		ai_chance = { factor = 10 }
+		PAP = {
+			country_event = {
+				id = stt_kni.18
+				days = 10
+			}
+		}
+		KNI = {
+			country_event = {
+				id = stt_kni.19
+				days = 2
+			}
+		}
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РџР°РїС‹ РћСЂРґРµРЅСѓ: РѕРґРѕР±СЂРёР» РїСЂРѕС€РµРЅРёРµ Рё РїРѕРјРѕР¶РµС‚
+country_event = {
+	id = stt_kni.13
+	title = stt_kni.13.t
+	desc = stt_kni.13.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.13.1
+		add_devotion = -5
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РџР°РїС‹ РћСЂРґРµРЅСѓ: РѕС‚РєР»РѕРЅРёР» РїСЂРѕС€РµРЅРёРµ
+country_event = {
+	id = stt_kni.14
+	title = stt_kni.14.t
+	desc = stt_kni.14.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.14.1
+		ai_chance = { factor = 80 }
+		country_event = { id = stt_kni.10 }
+		add_devotion = -5
+	}
+	option = {
+	    name = stt_kni.9.1
+		ai_chance = { factor = 15 }
+		add_devotion = -10
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+	    name = stt_kni.9.2
+		ai_chance = { factor = 5 }
+		add_devotion = -15
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		KNI = { declare_war_with_cb = { who = CYP casus_belli = "cb_super_badboy" } }
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РљРёРїСЂР° РџР°РїРµ: СѓСЃС‚СѓРїРєРµ Р±С‹С‚СЊ
+country_event = {
+	id = stt_kni.15
+	title = stt_kni.15.t
+	desc = stt_kni.15.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_kni.15.1
+		CYP = {
+			add_prestige = 10
+			add_papal_influence = 10
+		}
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РљРёРїСЂР° РћСЂРґРµРЅСѓ: СѓСЃС‚СѓРїРєРµ Р±С‹С‚СЊ
+country_event = {
+	id = stt_kni.16
+	title = stt_kni.16.t
+	desc = stt_kni.16.d
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.16.1
+		country_event = { id = stt_kni.17 days = 3 }
+		add_treasury = -350
+		add_dip_power = -100
+		add_adm_power = -50
+		add_mil_power = -25
+		add_devotion = -5
+		add_country_modifier = {
+			name = "kni_buyout"
+			duration = 3650
+		}
+		CYP = {
+			add_country_modifier = {
+				name = "kni_profit"
+				duration = 3650
+			}
+		}
+	}
+}
+#Р’С‹РєСѓРї Р›РёРјР°СЃРѕР»Р° РЅР° РІС‹РіРѕРґРЅС‹С… СѓСЃР»РѕРІРёСЏС…
+country_event = {
+	id = stt_kni.17
+	title = stt_kni.17.t
+	desc = stt_kni.17.d
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.17.1
+		321 = { add_core = ROOT cede_province = ROOT remove_core = CYP add_base_tax = -1 add_base_production = -2 add_base_manpower = -2 remove_building = fort_14th }
+		3660 = { add_base_tax = 1 add_base_production = 2 add_base_manpower = 2 }
+		add_truce_with = CYP
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РљРёРїСЂР° РџР°РїРµ: СѓСЃС‚СѓРїРєРµ РЅРµ Р±С‹С‚СЊ
+country_event = {
+	id = stt_kni.18
+	title = stt_kni.18.t
+	desc = stt_kni.18.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	    name = stt_kni.18.1
+		CYP = {
+			add_prestige = -10
+			add_papal_influence = -10
+		}
+	}
+}
+#РџРѕСЃР»Р°РЅРёРµ РѕС‚ РљРёРїСЂР° РћСЂРґРµРЅСѓ: РЅРёРєР°РєРёС… СѓСЃС‚СѓРїРѕРє
+country_event = {
+	id = stt_kni.19
+	title = stt_kni.19.t
+	desc = stt_kni.19.d
+	picture = CIVIL_WAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.19.1
+		ai_chance = { factor = 60 }
+		country_event = { id = stt_kni.10 }
+		add_devotion = -5
+		320 = { add_base_manpower = -1}
+		3660 = { add_base_manpower = 1 }
+		add_treasury = -100
+	}
+	option = {
+	    name = stt_kni.9.1
+		ai_chance = { factor = 25 }
+		add_devotion = -10
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	option = {
+	    name = stt_kni.19.2
+		ai_chance = { factor = 15 }
+		add_devotion = -15
+		321 = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		KNI = { declare_war_with_cb = { who = CYP casus_belli = "cb_super_badboy" } }
+	}
+}
+
+country_event = {
+	id = stt_kni.20
+	title = stt_kni.20.t
+	desc = stt_kni.20.d
+	picture = chaos_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.20.1
+		ai_chance = { factor = 50 }
+		151 = {
+			add_loot_from_rich_province_general_effect = {
+				LOOTER = owner
+			}
+			add_province_modifier = {
+				name = "kni_chastening_of_constantinopol"
+				duration = -1
+			}
+			add_mil_power = 100
+			add_dip_power = -350
+			add_papal_influence = 50
+			add_base_tax = -4
+			add_base_production = -4
+			add_base_manpower = -4
+			change_religion = ROOT
+		}
+	}
+	option = {
+	    name = stt_kni.20.2
+		ai_chance = { factor = 50 }
+		add_adm_power = 150
+		add_dip_power = 350
+		add_mil_power = -100
+		add_devotion = 25
+		add_prestige = 25
+		add_papal_influence = 20
+		change_culture = ROOT
+	}
+}
+country_event = {
+	id = stt_kni.21
+	title = stt_kni.21.t
+	desc = stt_kni.21.d
+	picture = recover_jerusalem_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = KNI
+	}
+	option = {
+	    name = stt_kni.21.1
+		add_adm_power = 100
+		add_dip_power = 450
+		add_mil_power = 100
+		add_prestige = 40
+		add_papal_influence = 100
+		add_devotion = 20
+		379 = {
+			change_religion = catholic
+		}
+	}
+}
+############### Kingdom of Cyprus #################
+#Р—Р°РєР°С‚ РРµСЂСѓСЃР°Р»РёРјР°
+country_event = {
+    id = stt_kni.201
+	title = stt_kni.201.t
+	desc = stt_kni.201.d
+	picture = SIEGE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = CYP }
+	option = {
+	    name = stt_kni.201.1
+		3660 = {
+		    add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		every_province = {
+			limit = { is_core = KOJ }
+			add_core = ROOT
+		}
+	}
+}
+
+############### Mameluks #################
+#РћРїСѓСЃС‚РѕС€РµРЅРёРµ Сѓ РјР°РјР»СЋРєРѕРІ
+
+country_event = {
+    id = stt_kni.301
+	title = stt_kni.301.t
+	desc = stt_kni.301.d
+	picture = mamluk_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = MAM
+		is_year = 1308
+		NOT = { is_year = 1320 }
+	}
+	mean_time_to_happen = {
+	    days = 5
+	}
+	option = {
+	    name = stt_kni.301.1
+		custom_tooltip = MAM_devastation_one
+		custom_tooltip = MAM_devastation_two
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = antioch_area
+						area = dulkadir_area
+						area = aleppo_area
+						area = rakka_area
+					}
+				}
+				
+				add_devastation = 70
+				add_province_modifier = {
+					name = "mam_devastation"
+					duration = 3650
+				}
+			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = tripoly_area
+						area = syria_area
+					}
+				}
+				add_devastation = 55
+			}
+			every_owned_province = {
+			limit = {
+					area = galilee_area
+				}
+			add_devastation = 40
+			}
+			FAD = { country_event = { id = stt_kni.302 days = 1 } }
+			HUL = { country_event = { id = stt_kni.303 days = 1 } }
+		}
+	}
+}
+#РћРїСѓСЃС‚РѕС€РµРЅРёРµ Сѓ Р¤Р°РґР»СЏ
+country_event = {
+	id = stt_kni.302
+	title = stt_kni.302.t
+	desc = stt_kni.302.d
+	picture = mamluk_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = FAD
+	}
+	option = {
+	    name = stt_kni.302.1
+		405 = { add_devastation = 35 }
+		3869 = { add_devastation = 55 }
+	}
+}
+#РћРїСѓСЃС‚РѕС€РµРЅРёРµ Сѓ РР»СЊС…Р°РЅР°С‚Р°
+country_event = {
+	id = stt_kni.303
+	title = stt_kni.303.t
+	desc = stt_kni.303.d
+	picture = mamluk_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = HUL
+	}
+	option = {
+	    name = stt_kni.303.1
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = dulkadir_area
+					area = rakka_area
+				}
+			}
+			add_devastation = 55
+		}
+	}
+}
+
+############### Principality of Antioch #################
+#Р РµР»РёРіРёРѕР·РЅС‹Р№ РІРѕРїСЂРѕСЃ
+country_event = {
+	id = stt_kni.401
+	title = stt_kni.401.t
+	desc = stt_kni.401.d
+	picture = edict_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = ATO
+	}
+	option = {
+	    name = stt_kni.401.1
+		ai_chance = { factor = 40 }
+		# trigger = { ATO = { NOT = { religion = catholic } } }
+		ATO = { change_religion = catholic }
+		2313 = { change_religion = catholic }
+	}
+	option = {
+	    name = stt_kni.401.2
+		ai_chance = { factor = 35 }
+		# trigger = { ATO = { NOT = { religion = orthodox } } }
+		ATO = { change_religion = orthodox }
+		2313 = { change_religion = orthodox }
+	}
+	option = {
+	    name = stt_kni.401.3
+		ai_chance = { factor = 25 }
+		# trigger = { ATO = { NOT = { religion = coptic } } }
+		ATO = { change_religion = coptic }
+		2313 = { change_religion = coptic }
+	}
+	option = {
+	    name = stt_kni.401.4
+		ai_chance = { factor = 9 }
+		# trigger = { ATO = { NOT = { religion = sunni } } }
+		ATO = { change_religion = sunni }
+		2313 = { change_religion = sunni }
+	}
+	option = {
+	    name = stt_kni.401.5
+		ai_chance = { factor = 1 }
+		ATO = { change_religion = grekocatholic }
+		2313 = { change_religion = grekocatholic }
+	}
+}
+
+############### Duchy of Athens #################
+#Битва при Закинфе
+# country_event = {
+	# id = stt_kni.501
+	# title = stt_kni.501.t
+	# desc = stt_kni.501.d
+	# picture = chaos_eventPicture
+
+	# fire_only_once = yes
+	# trigger = {
+		# tag = ATH
+		# is_year = 1311
+		# NOT = { is_year = 1320 }
+		# 3104 = { owned_by = ATH }
+	# }
+	# mean_time_to_happen = {
+	    # months = 1
+	# }
+	# immediate  = {
+	    # hidden_effect = {
+			# 3104 = { add_core = NEO cede_province = NEO controlled_by = NEO add_base_tax = 1 add_base_production = 1 add_base_manpower = 2 add_building = fort_14th
+				# infantry = NEO
+				# infantry = NEO
+				# infantry = NEO
+				# cavalry = NEO
+				# cavalry = NEO
+			# }
+			# 3774 = { add_core = NEO }
+			# 146 = { add_core = NEO }
+			# NEO = {
+			    # define_ruler = {
+						# name = "Роже"
+						# dynasty = "Дессор"
+						# adm = 4
+						# dip = 3
+						# mil = 6
+				# }
+			# }
+			# ATH = { declare_war_with_cb = { who = NEO casus_belli = "cb_super_badboy" } }
+		# }
+	# }
+	# option = {
+	    # name = stt_kni.501.1
+		# ai_chance = { factor = 100 }
+		# add_prestige = -20
+		# hidden_effect = {
+			# BYZ = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+			# THS = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+			# CCZ = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+			# EPI = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+			# SER = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+			# NGR = {
+				# country_event = {
+					# id = stt_kni.502
+					# days = 2
+				# }
+			# }
+		# }
+	# }
+	# option = {
+	    # name = stt_kni.501.2 #Начать играть за Неопатрию
+		# ai_chance = { factor = 0 }
+		# custom_tooltip = NEO_game
+		# hidden_effect = {
+			# switch_tag = NEO
+		# }
+	# }
+# }
+# country_event = {
+	# id = stt_kni.502
+	# title = stt_kni.502.t
+	# desc = stt_kni.502.d
+	# picture = neopatria_eventPicture
+	# is_triggered_only = yes
+	# fire_only_once = yes
+	
+	# option = {
+	    # name = stt_kni.502.1
+	# }
+# }
+# #Запросить вассализацию у Сицилии
+# country_event = {
+	# id = stt_kni.503
+	# title = stt_kni.503.t
+	# desc = stt_kni.503.d
+	# picture = edict_eventPicture
+
+	# fire_only_once = yes
+	
+	# trigger = {
+		# tag = NEO
+		# is_year = 1312
+		# NOT = { is_year = 1320 }
+		# 3104 = { owned_by = NEO }
+		# 146 = { owned_by = NEO }
+	# }
+	# option = {
+	    # name = stt_kni.503.1
+		# ai_chance = { factor = 95 }
+		# SIC = { country_event = { id = stt_kni.504 } }
+	# }
+	# option = {
+	    # name = stt_kni.503.2
+		# ai_chance = { factor = 5 }
+		# add_prestige = 30
+	# }
+# }
+# #Неопатрия хочет стать вассалом
+# country_event = {
+	# id = stt_kni.504
+	# title = stt_kni.504.t
+	# desc = stt_kni.504.d
+	# picture = WESTERNISATION_eventPicture
+	# is_triggered_only = yes
+	# fire_only_once = yes
+	
+	# option = {
+	    # name = stt_kni.504.1
+		# ai_chance = { factor = 95 }
+		# NEO = { country_event = { id = stt_kni.505 } }
+		# add_treasury = -250
+	# }
+	# option = {
+	    # name = stt_kni.504.2
+		# ai_chance = { factor = 5 }
+		# NEO = { country_event = { id = stt_kni.506 } }
+	# }
+# }
+# #Вассалитет одобрен
+# country_event = {
+	# id = stt_kni.505
+	# title = stt_kni.505.t
+	# desc = stt_kni.505.d
+	# picture = WESTERNISATION_eventPicture
+	# is_triggered_only = yes
+	# fire_only_once = yes
+	
+	# option = {
+	    # name = stt_kni.505.1
+		# SIC = { create_subject = { subject_type = vassal subject = NEO } }
+		# add_treasury = 250
+	# }
+# }
+# #Вассалитет отклонен
+# country_event = {
+	# id = stt_kni.506
+	# title = stt_kni.506.t
+	# desc = stt_kni.506.d
+	# picture = BANKRUPTCY_eventPicture
+	# is_triggered_only = yes
+	# fire_only_once = yes
+	
+	# option = {
+	    # name = stt_kni.506.1
+		# add_prestige = -15
+	# }
+# }
+#ИИ отправляет запрос Сицилии на вассализацию
+country_event = {
+	id = stt_kni.521
+	title = stt_kni.521.t
+	desc = stt_kni.521.d
+	picture = chaos_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		tag = ATH
+		ai = yes
+		is_year = 1311
+		NOT = { is_year = 1313 }
+		3104 = { owned_by = ATH }
+	}
+	mean_time_to_happen = {
+	    months = 3
+	}
+	option = {
+	    name = stt_kni.521.1
+		SIC = { country_event = { id = stt_kni.522 } }
+	}
+}
+#Афины должны быть вассалами?
+country_event = {
+	id = stt_kni.522
+	title = stt_kni.522.t
+	desc = stt_kni.522.d
+	picture =  neopatria_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = SIC
+	}
+	option = {
+	    name = stt_kni.522.1
+		ai_chance = { factor = 90 }
+		country_event = { id = stt_kni.523 }
+	}
+	option = {
+	    name = stt_kni.501.2 #Начать играть за Неопатрию
+		ai_chance = { factor = 0 }
+		custom_tooltip = NEO_game
+		hidden_effect = {
+			3104 = { add_core = NEO cede_province = NEO controlled_by = NEO add_building = fort_14th 
+				infantry = NEO
+				infantry = NEO
+				cavalry = NEO
+			}
+			3774 = { add_core = NEO cede_province = NEO }
+			146 = { add_core = NEO cede_province = NEO }
+			NEO = {
+			    define_ruler = {
+						name = "Роже"
+						dynasty = "Дессор"
+						adm = 4
+						dip = 3
+						mil = 6
+				}
+			}
+			switch_tag = NEO
+		}
+	}
+	option = {
+	    name = stt_kni.522.2 
+		ai_chance = { factor = 10 }
+		custom_tooltip = NEO_game_two
+		hidden_effect = {
+			3104 = { add_core = NEO cede_province = NEO controlled_by = NEO add_building = fort_14th 
+					infantry = NEO
+					infantry = NEO
+					cavalry = NEO
+				}
+			3774 = { add_core = NEO cede_province = NEO }
+			146 = { add_core = NEO cede_province = NEO }
+			
+		}
+	}
+}
+country_event = {
+	id = stt_kni.523
+	title = stt_kni.523.t
+	desc = stt_kni.523.d
+	picture =  neopatria_eventPicture
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = SIC
+	}
+	option = {
+	    name = stt_kni.523.1
+		SIC = { create_subject = { subject_type = vassal subject = ATH } }
+	}
+}

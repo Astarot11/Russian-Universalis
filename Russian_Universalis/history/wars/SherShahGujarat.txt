@@ -1,4 +1,4 @@
-name = "Сури-гуджаратская кампания"
+name = "Кампания Сури Гуджарата"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

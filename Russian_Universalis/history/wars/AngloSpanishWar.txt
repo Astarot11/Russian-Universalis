@@ -1,4 +1,4 @@
-name = "Англо-испанская война"
+name = "Англо-Испанская война"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne
@@ -12,16 +12,16 @@ war_goal = {
 
 1588.7.29 = {
 	battle = {
-		name = "Гравелин"
+		name = "Gravelines"
 		location = 90
 		attacker = {
-			commander = "Алонсо де Гусман"	# Alonso de Guzmбn El Bueno
+			commander = "Alonso de Guzmбn El Bueno"	# Alonso de Guzmбn El Bueno
 			heavy_ship = 42
 			losses = 5	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Фрэнсис Дрейк"	# Charles Howard & Francis Drake
+			commander = "Francis Drake"	# Charles Howard & Francis Drake
 			heavy_ship = 55
 			losses = 1	# percent
 			country = ENG

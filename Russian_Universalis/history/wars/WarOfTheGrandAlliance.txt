@@ -1,4 +1,4 @@
-name = "Война Аугсбургской лиги"
+name = "Война Большого альянса"
 
 war_goal = {
 	type = take_claim
@@ -29,10 +29,10 @@ war_goal = {
 
 1690.7.1 = {
 	battle = {
-		name = "Флерюс"
+		name = "Fleurus"
 		location = 91
 		attacker = {
-			commander = "Франсуа де Люксембург"	# Francois Henri de Montmorency-Boutewille
+			commander = "Francois Henri de Montmorency-Boutewille"	# Francois Henri de Montmorency-Boutewille
 			infantry = 30000
 			cavalry = 15000
 			artillery = 65
@@ -40,7 +40,7 @@ war_goal = {
 			country = FRA
 		}
 		defender = {
-			commander = "Принц Вальдек"	# Prince of Waldeck
+			commander = "Prince of Waldeck"	# Prince of Waldeck
 			infantry = 24600
 			cavalry = 12400
 			artillery = 50
@@ -53,16 +53,16 @@ war_goal = {
 
 1690.8.18 = {
 	battle = {
-		name = "Стаффарда"
+		name = "Staffarda"
 		location = 103
 		attacker = {
-			commander = "Николя де Катина"	# Nicolas Catinat
+			commander = "Nicolas Catinat"	# Nicolas Catinat
 			infantry = 18000
 			losses = 10	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Герцог Савойский"	# Duke of Savoy
+			commander = "Duke of Savoy"	# Duke of Savoy
 			infantry = 17000
 			losses = 40	# percent
 			country = SAV
@@ -73,17 +73,17 @@ war_goal = {
 
 1692.8.3 = {
 	battle = {
-		name = "Стеенкерк"
+		name = "Steenkerque"
 		location = 92
 		attacker = {
-			commander = "Франсуа де Люксембург"	# Duc de Luxembourg
+			commander = "Duc de Luxembourg"	# Duc de Luxembourg
 			infantry = 55000
 			cavalry = 25000
 			losses = 11	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Вильгельм III"	# William III
+			commander = "William III"	# William III
 			infantry = 56000
 			cavalry = 24000
 			losses = 13	# percent
@@ -95,10 +95,10 @@ war_goal = {
 
 1693.7.26 = {
 	battle = {
-		name = "Неервинден"
+		name = "Neerwinden"
 		location = 92
 		attacker = {
-			commander = "Франсуа де Люксембург"	# Francois Henri de Montmorency-Boutewille
+			commander = "Francois Henri de Montmorency-Boutewille"	# Francois Henri de Montmorency-Boutewille
 			infantry = 44000
 			cavalry = 26000
 			artillery = 75
@@ -106,7 +106,7 @@ war_goal = {
 			country = FRA
 		}
 		defender = {
-			commander = "Вильгельм III"	# William III
+			commander = "William III"	# William III
 			infantry = 30000
 			cavalry = 20000
 			artillery = 100
@@ -119,10 +119,10 @@ war_goal = {
 
 1693.10.4 = {
 	battle = {
-		name = "Марсалья"
+		name = "Marsaglia"
 		location = 103
 		attacker = {
-			commander = "Николя де Катина"	# Nicolas Catinat
+			commander = "Nicolas Catinat"	# Nicolas Catinat
 			infantry = 24000
 			cavalry = 11000
 			artillery = 22
@@ -130,7 +130,7 @@ war_goal = {
 			country = FRA
 		}
 		defender = {
-			commander = "Герцог Савойский"	# The Duke of Savoy
+			commander = "The Duke of Savoy"	# The Duke of Savoy
 			infantry = 21000
 			cavalry = 95000
 			artillery = 30
@@ -143,16 +143,16 @@ war_goal = {
 
 1694.5.27 = {
 	battle = {
-		name = "р. Тер"
+		name = "Torroella"
 		location = 212
 		attacker = {
-			commander = "Анн-Жюль де Ноай"	# Duc de Noailles
+			commander = "Duc de Noailles"	# Duc de Noailles
 			infantry = 24000
 			losses = 2	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Маркиз Виллена-Эскалона"	# Marquis of Villena-Escalona
+			commander = "Marquis of Villena-Escalona"	# Marquis of Villena-Escalona
 			infantry = 20000
 			losses = 30	# percent
 			country = SPA

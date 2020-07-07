@@ -1,4 +1,4 @@
-name = "Война Коньячной лиги"
+name = "Война Коньякской лиги"
 
 war_goal = {
 	type = take_border
@@ -20,17 +20,17 @@ war_goal = {
 
 1529.6.21 = {
 	battle = {
-		name = "Ландриано"
+		name = "Landriano"
 		location = 104
 		attacker = {
-			commander = "Герцог Сен-Поль"	# St. Pol
+			commander = "Duke of St. Pol"	# St. Pol
 			infantry = 3600
 			cavalry = 1250
 			losses = 52	# percent
 			country = FRA
 		}
 		defender = {
-			commander = "Луиджи"	#
+			commander = "Luigi"	#
 			infantry = 5800
 			cavalry = 1500
 			losses = 10	# percent

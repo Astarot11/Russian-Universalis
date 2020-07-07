@@ -1,4 +1,4 @@
-name = "Война пятой коалиции"
+name = "Война Пятой коалиции"
 
 war_goal = {
 	type = take_capital_revolution
@@ -29,16 +29,16 @@ war_goal = {
 
 1809.4.15 = {
 	battle = {
-		name = "Сачиль"
+		name = "Sacile"
 		location = 112
 		attacker = {
-			commander = "Эрцгерцог Иоганн"	# Johann of Austria
+			commander = "Johann of Austria"	# Johann of Austria
 			infantry = 40000
 			losses = 15	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Евгений Богарне" 	# Eugene de Beauharnais
+			commander = "Eugene de Beauharnais" 	# Eugene de Beauharnais
 			infantry = 36000
 			losses = 16	# percent
 			country = FRA
@@ -49,16 +49,16 @@ war_goal = {
 
 1809.4.19 = {
 	battle = {
-		name = "Тойген"
+		name = "Teugen"
 		location = 64
 		attacker = {
-			commander = "Эрцгерцог Иоганн" 	# Johann of Austria
+			commander = "Johann of Austria" 	# Johann of Austria
 			infantry = 40000
 			losses = 14	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Луи-Николя Даву"	# Louis Nicolas Davout
+			commander = "Louis Nicolas Davout"	# Louis Nicolas Davout
 			infantry = 28000
 			losses = 14	# percent
 			country = FRA
@@ -69,10 +69,10 @@ war_goal = {
 
 1809.4.19 = {
 	battle = {
-		name = "Рашин"
+		name = "Raszyn"
 		location = 257
 		attacker = {
-			commander = "Эрцгерцог Фердинанд"	# Ferdinand Karl Joseph
+			commander = "Ferdinand Karl Joseph"	# Ferdinand Karl Joseph
 			infantry = 24500
 			cavalry = 4500
 			artillery = 95
@@ -80,7 +80,7 @@ war_goal = {
 			country = HAB
 		}
 		defender = {
-			commander = "Луи-Николя Даву"	# Louis Nicolas Davout
+			commander = "Louis Nicolas Davout"	# Louis Nicolas Davout
 			infantry = 10500
 			cavalry = 3500
 			artillery = 45
@@ -93,16 +93,16 @@ war_goal = {
 
 1809.4.20 = {
 	battle = {
-		name = "Абенсберг"
+		name = "Abensberg"
 		location = 257
 		attacker = {
-			commander = "Эрцгерцог Карл" 	# Charles of Austria
+			commander = "Charles of Austria" 	# Charles of Austria
 			infantry = 80000
 			losses = 2	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 90000
 			losses = 6	# percent
 			country = FRA
@@ -113,16 +113,16 @@ war_goal = {
 
 1809.4.23 = {
 	battle = {
-		name = "Ратисбон"
+		name = "Ratisbon"
 		location = 64
 		attacker = {
-			commander = "Эрцгерцог Карл"	# Archduke Charles
+			commander = "Archduke Charles"	# Archduke Charles
 			infantry = 26000
 			losses = 23	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Барон де Куто"	# Baron de Coutaud
+			commander = "Baron de Coutaud"	# Baron de Coutaud
 			infantry = 37000
 			losses = 4	# percent
 			country = FRA
@@ -133,16 +133,16 @@ war_goal = {
 
 1809.5.3 = {
 	battle = {
-		name = "Эберсберг"
+		name = "Ebersberg"
 		location = 133
 		attacker = {
-			commander = "Иоганн Хиллер"	# Hiller
+			commander = "Hiller"	# Hiller
 			infantry = 40000
 			losses = 10	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Андре Массена"	# Andrй Massйna
+			commander = "Andrй Massйna"	# Andrй Massйna
 			infantry = 22000
 			losses = 14	# percent
 			country = FRA
@@ -153,17 +153,17 @@ war_goal = {
 
 1809.5.7 = {
 	battle = {
-		name = "р. Пиаве"
+		name = "Piave River"
 		location = 104
 		attacker = {
-			commander = "Эрцгерцог Иоганн"	# Johann of Austria
+			commander = "Johann of Austria"	# Johann of Austria
 			infantry = 18000
 			cavalry = 2800
 			losses = 11	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Евгений Богарне"	# Eugиne de Beauharnais
+			commander = "Eugиne de Beauharnais"	# Eugиne de Beauharnais
 			infantry = 39000
 			cavalry = 6000
 			losses = 5	# percent
@@ -175,16 +175,16 @@ war_goal = {
 
 1809.5.22 = {
 	battle = {
-		name = "Асперн-Эсслинг"
+		name = "Aspern-Essling"
 		location = 134
 		attacker = {
-			commander = "Эрцгерцог Карл"	# Charles of Austria
+			commander = "Charles of Austria"	# Charles of Austria
 			infantry = 95000
 			losses = 24	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 90000
 			losses = 23	# percent
 			country = FRA
@@ -195,17 +195,17 @@ war_goal = {
 
 1809.6.14 = {
 	battle = {
-		name = "Рааб"
+		name = "Raab"
 		location = 133
 		attacker = {
-			commander = "Эрцгерцог Иоганн"	# Johann of Austria
+			commander = "Johann of Austria"	# Johann of Austria
 			infantry = 23500
 			cavalry = 8500
 			losses = 19	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Евгений Богарне"	# Eugиne de Beauharnais
+			commander = "Eugиne de Beauharnais"	# Eugиne de Beauharnais
 			infantry = 35000
 			losses = 11	# percent
 			country = FRA
@@ -216,16 +216,16 @@ war_goal = {
 
 1809.7.5 = {
 	battle = {
-		name = "Ваграм"
+		name = "Wagram"
 		location = 134
 		attacker = {
-			commander = "Эрцгерцог Карл"	# Charles of Austria
+			commander = "Charles of Austria"	# Charles of Austria
 			infantry = 155000
 			losses = 26	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 180000
 			losses = 19	# percent
 			country = FRA

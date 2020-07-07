@@ -5,7 +5,47 @@ technology_group = muslim
 religion = shiite
 capital = 421
 religious_school = jafari_school
-government_rank = 1
+government_rank = 2
+
+1294.1.1 = {
+	monarch = {
+		name = "Кабус I ибн Ахситан"
+		dynasty = "Кесранид"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1317.1.1 = {
+	monarch = {
+		name = "Кубад ибн Ахситан"
+		dynasty = "Кесранид"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1335.1.1 = {
+	monarch = {
+		name = "Кабус ибн Кей Кубад"
+		dynasty = "Кесранид"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Хушанг ибн Кабус"
+		dynasty = "Кесранид"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
 
 1378.1.1 = {
 	monarch = {

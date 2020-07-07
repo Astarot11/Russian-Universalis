@@ -2,7 +2,7 @@ government = monarchy
 
 add_government_reform = principality ### STT
 government_rank = 1
-primary_culture = russian ### STT
+primary_culture = ryazanian ### STT
 religion = orthodox
 technology_group = eastern
 capital = 301	# Ryazan

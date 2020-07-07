@@ -6,6 +6,8 @@ religion = catholic
 technology_group = western
 capital = 1855 # Святая Земля
 historical_friend = VEN
+historical_friend = PHI
+historical_friend = SCH
 
 1097.1.1 = {
 	monarch = {
@@ -239,7 +241,7 @@ capital = 321 # Кипр
 }
 
 1308.1.1 = {
-capital = 320 # Родос
+	capital = 320 # Родос
 }
 
 1319.6.18 = {
@@ -322,6 +324,14 @@ capital = 320 # Родос
 	}
 }
 
+1395.1.1 = {
+    add_country_modifier = { 
+				name = kni_accepted_cultures 
+				duration = -1 
+	}
+	add_accepted_culture = greek
+}
+
 1395.5.18 = {
 	monarch = {
 		name = "Жан Фернандес де Эредиа"
@@ -351,7 +361,10 @@ capital = 320 # Родос
 		mil = 2
 	}
 }
-
+1425.1.1 = {
+	change_primary_culture = joannites
+	add_accepted_culture = occitain
+}
 1437.10.29 = {
 	monarch = {
 		name = "Жан де Ластик"

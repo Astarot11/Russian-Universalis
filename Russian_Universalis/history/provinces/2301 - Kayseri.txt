@@ -2,8 +2,8 @@
 
 owner = ERE
 controller = ERE
-culture = turkish
-religion = sunni
+culture = cappadocian
+religion = coptic
 capital = "Kayseri"
 trade_goods = iron
 hre = no
@@ -12,6 +12,7 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 add_core = ERE
+add_core = CAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

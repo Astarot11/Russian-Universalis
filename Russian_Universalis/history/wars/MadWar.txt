@@ -1,4 +1,4 @@
-name = "Сумасшедшая война"
+name = "Безумная война"
 war_goal = {
 	type = take_capital_liberation
 	casus_belli = cb_liberation

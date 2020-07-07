@@ -105,7 +105,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
-			text = "EXPENSESTAB" # Заменил текст	
+			text = "EXPENSESTAB" # Р—Р°РјРµРЅРёР» С‚РµРєСЃС‚	
 			maxWidth = 130
 			maxHeight = 32
 			format = left
@@ -158,7 +158,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = "+3"	
-			maxWidth = 27 #Увеличил
+			maxWidth = 27 #РЈРІРµР»РёС‡РёР»
 			maxHeight = 18
 			format = centre
 		}		
@@ -639,13 +639,13 @@ guiTypes = {
 				position = { x = 7 y = 46 }
 				buttonFont = "vic_18"
 				buttonText = "LEDGER_PROVINCE"
-				pdx_tooltip = "SORT_BY_NAME_GKS" # Заменил для единообразия
+				pdx_tooltip = "SORT_BY_NAME"
 				pdx_tooltip_delayed = ""
 			}
 
 			guiButtonType = {
 				name ="sort_overext_tax"
-				quadTextureSprite = "GFX_sort_62_dev_gks" # Заменил
+				quadTextureSprite = "GFX_sort_62_dev"
 				position = { x = 114 y = 46 }
 #				buttonFont = "vic_18"
 #				buttonText = "LEDGER_DEVELOPMENT"
@@ -655,7 +655,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name ="sort_overext_culture"
-				quadTextureSprite = "GFX_sort_88_gks" # Заменил
+				quadTextureSprite = "GFX_sort_114" 		#STT RU
 				position = { x = 178 y = 46 }
 				buttonFont = "vic_18"
 				buttonText = "LEDGER_CULTURE"
@@ -665,8 +665,10 @@ guiTypes = {
 			
 			guiButtonType = {
 				name ="sort_overext_overext"
-				quadTextureSprite = "GFX_sort_overex_88" #Иконка вместо текста
-				position = { x = 267 y = 46 }
+				quadTextureSprite = "GFX_sort_overex"  	#STT RU
+				position = { x = 293 y = 46 }		 	#STT RU #x=268
+				#buttonFont = "vic_18"					#STT RU
+				#buttonText = "over_extension"			#STT RU
 				pdx_tooltip = "SORT_OVEREXT"
 				pdx_tooltip_delayed = ""
 			}			
@@ -1281,11 +1283,11 @@ guiTypes = {
 		}
 				
 		instantTextBoxType={
-			position = {x = 170 y  = 8 }
+			position = {x = 172 y  = 8 }	# STT RU x = 170
 			name = "culture"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 88
+			maxWidth = 115					# STT RU maxWidth = 88
 			maxHeight = 18
 			text = "55"	
 			orientation = "UPPER_LEFT"
@@ -1294,11 +1296,11 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 262 y  = 8 }
+			position = {x = 275 y  = 8 }	# STT RU x = 262
 			name = "overext"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 88
+			maxWidth = 88	
 			maxHeight = 18
 			text = "55"	
 			orientation = "UPPER_LEFT"
@@ -1321,8 +1323,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "build"
-			position = { x= 340 y = 0 } #x = 395
-			quadTextureSprite ="GFX_button_straight_115_32_notext" #87_32
+			position = { x= 395 y = 0 }
+			quadTextureSprite ="GFX_button_straight_87_32_notext"
 		}	
 
 		instantTextBoxType={
@@ -1458,14 +1460,13 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
-			buttonText = "CORE_GKS"
 		}	
 
 		instantTextBoxType = {
 			name = "accept_text"
 			position = { x = 5 y = 7 }
 			textureFile = ""
-			font = ""
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 185
@@ -1496,14 +1497,13 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
-			buttonText = "MISSIONARY_GKS"
 		}
 
 		instantTextBoxType = {
 			name = "accept_text"
 			position = { x = 5 y = 7 }
 			textureFile = ""
-			font = ""
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 185
@@ -1533,14 +1533,13 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
-			buttonText = "CULTURE_REB_GKS"
 		}	
 
 		instantTextBoxType = {
 			name = "accept_text"
 			position = { x = 5 y = 7 }
 			textureFile = ""
-			font = ""
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 185

@@ -22,6 +22,16 @@ spriteTypes = {
 		texturefile = "gfx//interface//sort_90_stt.dds"
 	}
 	
+	textSpriteType = {
+		name = "GFX_sort_button_107_stt"
+		texturefile = "gfx//interface//sort_107_stt.dds"
+	}
+	
+	textSpriteType = {
+		name = "GFX_sort_button_104_stt"
+		texturefile = "gfx//interface//sort_104.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_sort_giveupcore"	
 		texturefile = "gfx//interface//sort_giveupcore.dds"

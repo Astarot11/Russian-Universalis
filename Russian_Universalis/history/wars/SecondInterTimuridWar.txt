@@ -1,4 +1,4 @@
-name = "Хорасанское вторжение в Мавераннахр"
+name = "РҐРѕСЂР°СЃР°РЅСЃРєРѕРµ РІС‚РѕСЂР¶РµРЅРёРµ РІ РўСЂР°РЅСЃРѕРєСЃРёР°РЅСѓ"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -13,17 +13,17 @@ war_goal = {
 
 1459.3.1 = {
 	battle = {
-		name = "Серахс"
+		name = "Sarakhs"
 		location = 4325
 		attacker = {
-			commander = "Ибрагим Мирза"	# Ibrahim Mirza Timurid
+			commander = "Ibrahim Mirza"	# Ibrahim Mirza Timurid
 			infantry = 4000
 			cavalry = 8000
 			losses = 95	# percent
 			country = KHO
 		}
 		defender = {
-			commander = "Абу-Сеид"	# Abu Said Mirza Timurid
+			commander = "AbГ» Sa'id"	# Abu Said Mirza Timurid
 			infantry = 8000
 			cavalry = 10000
 			losses = 10	# percent

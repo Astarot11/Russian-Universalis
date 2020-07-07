@@ -1,4 +1,4 @@
-name = "Турецко-персидская война"
+name = "Османо-Сефевидская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -15,17 +15,17 @@ war_goal = {
 
 1514.8.23 = {
 	battle = {
-		name = "Чалдыран"
+		name = "Chaldiran"
 		location = 414
 		attacker = {
-			commander = "Исмаил I"	# Ismail I
+			commander = "Ismail I"	# Ismail I
 			infantry = 122000
 			cavalry = 42500
 			losses = 5	# percent
 			country = PER
 		}
 		defender = {
-			commander = "Селим I"	# Selim I
+			commander = "Selim I"	# Selim I
 			infantry = 46300
 			cavalry = 25000
 			artillery = 220

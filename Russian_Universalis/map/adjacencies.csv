@@ -31,9 +31,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3105;2296;sea;1320;3060;1669;3061;1666;Edirne-Biga
 151;316;sea;1320;3090;1676;3092;1675;Thrace-Bithynia
 2348;318;sea;1319;3049;1631;3045;1631;Chios-Sugla
-2348;2296;sea;1319;3047;1649;3047;1647;Chios-Biga
+3842;2296;sea;1319;3047;1649;3047;1647;Lesbos-Biga
+3857;3639;sea;1319;-1;-1;-1;-1;Samos-Didim
+3950;3638;sea;1319;-1;-1;-1;-1;Cos-Milas
+3939;320;sea;1932;-1;-1;-1;-1;Karpathos-Rhodes
+145;3951;sea;1319;-1;-1;-1;-1;Morea-Cerigo
 285;2447;sea;1323;3206;1753;3210;1752;Kaffa-Mapa
-2954;353;sea;1305;2805;1548;2806;1545;Djerba-Tataouine
+2954;3905;sea;1305;2805;1548;2806;1545;Djerba-Zarzis #STT Koufor
 1197;1201;sea;1448;3248;904;3251;908;Mzizma-Zanzibar
 1215;387;sea;1329;3314;1202;3317;1205;Tajura-Mocha
 395;396;sea;1335;3428;1417;3433;1416;Qatar-Bahrain
@@ -90,6 +94,36 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1268;1925;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
 1328;1316;canal;363;-1;-1;-1;-1;suez_canal
+405;2314;sea;3820;-1;-1;-1;-1;Tadmor-Rahba
+405;3121;sea;3820;-1;-1;-1;-1;Tadmor-Abu Kemal
+405;3868;sea;3820;-1;-1;-1;-1;Tadmor-Maskanah
+3869;1849;sea;3820;-1;-1;-1;-1;Palmyra-Hama
+3869;3846;sea;3820;-1;-1;-1;-1;Palmyra-Balbek
+3869;3870;sea;3820;-1;-1;-1;-1;Palmyra-Duma
+360;3291;sea;3893;-1;-1;-1;-1;Qena-Safaga
+2320;365;sea;1328;-1;-1;-1;-1;Ras Gharib-Sinai
+2327;365;sea;1328;-1;-1;-1;-1;Maan-Sinai
+3896;3824;sea;3548;-1;-1;-1;-1;Bahariya-Siva
+2325;3824;sea;3548;-1;-1;-1;-1;Al-Baretoun-Siva
+3271;3270;sea;2334;-1;-1;-1;-1;Maradah-El Agheila
+3271;3336;sea;2334;-1;-1;-1;-1;Maradah-Tazirbu
+2452;3313;sea;2334;-1;-1;-1;-1;Zuwarah-Yafren
+2449;3271;sea;2334;-1;-1;-1;-1;Jufra-Maradah
+2449;3270;sea;2334;-1;-1;-1;-1;Jufra-El Agheila
+2449;355;sea;2334;-1;-1;-1;-1;Jufra-Sirt
+3313;3825;sea;2334;-1;-1;-1;-1;Yafren-Sabha
+3825;2448;sea;2334;-1;-1;-1;-1;Sabha-Murzuq
+2448;2474;sea;2334;-1;-1;-1;-1;Murzuq-Tajhari
+3825;2449;sea;2334;-1;-1;-1;-1;Sabha-Jufra
+3904;2474;sea;2334;-1;-1;-1;-1;Tajhari-Madama
+3904;2475;sea;2334;-1;-1;-1;-1;Madama-Djado
+2475;2274;sea;2334;-1;-1;-1;-1;Djado-Air
+2450;3313;sea;2334;-1;-1;-1;-1;Ghadames-Yafren
+2457;350;sea;3906;-1;-1;-1;-1;Mzab-Aures-Laghouat
+3311;2456;sea;3906;-1;-1;-1;-1;El M'Ghair-Touggourt
+3299;2466;sea;1794;-1;-1;-1;-1;Guelmin-Dra
+3944;2466;sea;1794;-1;-1;-1;-1;Zagora-Dra
+2464;2466;sea;1794;-1;-1;-1;-1;Ouarzazate-Dra
 1127;1128;sea;1794;-1;-1;-1;-1;
 1127;2460;sea;1794;-1;-1;-1;-1;
 3034;3033;sea;1312;-1;-1;-1;-1;
@@ -101,7 +135,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3299;1128;sea;3300;-1;-1;-1;-1;
 2606;3519;sea;1463;-1;-1;-1;-1;
 3500;2505;sea;1463;-1;-1;-1;-1;
-3336;3314;sea;2334;-1;-1;-1;-1;
 3336;2474;sea;2334;-1;-1;-1;-1;
 3264;3265;sea;1319;-1;-1;-1;-1;
 654;2699;sea;1397;-1;-1;-1;-1;

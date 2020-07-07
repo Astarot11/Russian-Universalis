@@ -32,7 +32,7 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 		add_prestige = 5
-		custom_tooltip = hhh_dark_times_events.0.a.tt
+		custom_tooltip = hhh_dark_times_events.0.a
 		set_country_flag = hhh_dark_ages_f
 		hidden_effect = {
 			every_country = {
@@ -74,7 +74,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.1.a
-		custom_tooltip = hhh_dark_times_events.0.a.tt #must fix
+		custom_tooltip = hhh_dark_times_events.0.a
 	}
 }
 
@@ -98,7 +98,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.1.a
-		custom_tooltip = hhh_dark_times_events.1.a.tt
+		custom_tooltip = hhh_dark_times_events.1.a
 	}
 }
 
@@ -129,7 +129,7 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 		add_prestige = 5
-		custom_tooltip = hhh_dark_times_events.3.a.tt
+		custom_tooltip = hhh_dark_times_events.3.a
 		set_country_flag = hhh_dark_ages_s
 		hidden_effect = {
 			every_country = {
@@ -171,7 +171,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.4.a
-		custom_tooltip = institution_events.4.a.tt #must fix
+		custom_tooltip = institution_events.4.a
 	}
 }
 
@@ -195,7 +195,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.5.a
-		custom_tooltip = hhh_dark_times_events.5.a.tt
+		custom_tooltip = hhh_dark_times_events.5.a
 	}
 }
 
@@ -226,7 +226,7 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 		add_prestige = 5
-		custom_tooltip = hhh_dark_times_events.6.a.tt
+		custom_tooltip = hhh_dark_times_events.6.a
 		set_country_flag = hhh_dark_ages_t
 		hidden_effect = {
 			every_country = {
@@ -268,7 +268,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.7.a
-		custom_tooltip = institution_events.7.a.tt #must fix
+		custom_tooltip = institution_events.7.a
 	}
 }
 
@@ -292,7 +292,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.8.a
-		custom_tooltip = hhh_dark_times_events.8.a.tt
+		custom_tooltip = hhh_dark_times_events.8.a
 	}
 }
 
@@ -323,7 +323,7 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 		add_prestige = 5
-		custom_tooltip = hhh_dark_times_events.9.a.tt
+		custom_tooltip = hhh_dark_times_events.9.a
 		set_country_flag = hhh_dark_ages_l
 		hidden_effect = {
 			every_country = {
@@ -365,7 +365,7 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.10.a
-		custom_tooltip = institution_events.10.a.tt #must fix
+		custom_tooltip = institution_events.10.a
 	}
 }
 
@@ -389,6 +389,6 @@ country_event = {
 
 	option = {
 		name = hhh_dark_times_events.11.a
-		custom_tooltip = hhh_dark_times_events.11.a.tt
+		custom_tooltip = hhh_dark_times_events.11.a
 	}
 }

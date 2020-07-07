@@ -13,10 +13,10 @@ war_goal = {
 
 1597.1.23 = {
 	battle = {
-		name = "Тюрнхаут"
+		name = "Turnhout"
 		location = 90
 		attacker = {
-			commander = "Варакс"	# Count of Varas
+			commander = "Varax"	# Count of Varas
 			infantry = 4600
 			cavalry = 550
 			artillery = 5
@@ -24,7 +24,7 @@ war_goal = {
 			country = SPA
 		}
 		defender = {
-			commander = "Мориц Нассау"	# Maurice de Nassau
+			commander = "Maurice de Nassau"	# Maurice de Nassau
 			infantry = 5900
 			cavalry = 820
 			artillery = 5
@@ -37,10 +37,10 @@ war_goal = {
 
 1600.7.2 = {
 	battle = {
-		name = "Ньюпорт"
+		name = "Nieuwpoort"
 		location = 90
 		attacker = {
-			commander = "Альбрехт I"	# Albrecht of Austria
+			commander = "Albrecht"	# Albrecht of Austria
 			infantry = 6000
 			cavalry = 1200
 			artillery = 10
@@ -48,7 +48,7 @@ war_goal = {
 			country = SPA
 		}
 		defender = {
-			commander = "Мориц Нассау"	# Maurits of Nassau
+			commander = "Maurits of Nassau"	# Maurits of Nassau
 			infantry = 9000
 			cavalry = 1500
 			artillery = 15
@@ -61,17 +61,17 @@ war_goal = {
 
 1607.4.25 = {
 	battle = {
-		name = "Гибралтар"
+		name = "Gibraltar"
 		location = 1293
 		attacker = {
-			commander = "Хуан Альварес де Авила"	# Juan Бlvarez de Бvila
+			commander = "Juan Бlvarez de Бvila"	# Juan Бlvarez de Бvila
 			heavy_ship = 10
 			light_ship = 11
 			losses = 100	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Якоб ван Хемскерк"	# Jacob van Heemskerk
+			commander = "Jacob van Heemskerk"	# Jacob van Heemskerk
 			light_ship = 26
 			losses = 2	# percent
 			country = NED
@@ -82,17 +82,17 @@ war_goal = {
 
 1639.10.31 = {
 	battle = {
-		name = "Даунс"
+		name = "Downs"
 		location = 1271
 		attacker = {
-			commander = "Антонио де Окуэндо"	# Antonio de Oquendo
+			commander = "Antonio de Oquendo"	# Antonio de Oquendo
 			heavy_ship = 60
 			light_ship = 10
 			losses = 86	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Мартин Тромп"	# Maarten Tromp
+			commander = "Maarten Tromp"	# Maarten Tromp
 			heavy_ship = 60
 			light_ship = 70
 			losses = 1	# percent

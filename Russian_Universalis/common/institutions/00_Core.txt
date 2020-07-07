@@ -343,13 +343,26 @@ hhh_dt_f = {
 			potential = {
 				owner = { government = theocracy }
 				OR = {
-			region = mashriq_region
-			religion = catholic
-		}	
+					region = mashriq_region
+					religion = catholic
+				}	
 			}
 			custom_trigger_tooltip = {
 				tooltip = hhh_dt_f_bishopic
 				owner = { government = theocracy }
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = { religion = catholic }
+			}
+			custom_trigger_tooltip = {
+				tooltip = hhh_dt_f_bishopic_two
+				owner = { religion = catholic }
 			}
 		}
 		
@@ -3007,18 +3020,18 @@ industrialism = {
 	history = {
 		OR = {
 			AND = {
-				is_year = 1780
+				is_year = 1770
 				continent = europe
 				owner = { technology_group = western }
 			}
 			
 			AND = {
-				is_year = 1800
+				is_year = 1780
 				continent = europe
 			}	
 
 			AND = {
-				is_year = 1820
+				is_year = 1800
 				superregion = near_east_superregion
 			}
 			AND = {
@@ -3032,7 +3045,7 @@ industrialism = {
 				superregion = south_america_superregion
 			}
 			AND = {
-				is_year = 1850
+				is_year = 1820
 				owner = {
 					NOT = { technology_group = north_american }
 					NOT = { technology_group = mesoamerican }
@@ -3042,7 +3055,7 @@ industrialism = {
 				superregion = north_america_superregion
 			}
 			AND = {
-				is_year = 1850
+				is_year = 1820
 				owner = {
 					NOT = { technology_group = north_american }
 					NOT = { technology_group = mesoamerican }
@@ -3055,7 +3068,7 @@ industrialism = {
 	}
 	
 	can_start = {
-		is_year = 1780
+		is_year = 1770
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes

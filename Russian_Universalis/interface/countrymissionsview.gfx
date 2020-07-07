@@ -401,6 +401,14 @@ spriteTypes = {
 		name = "mission_teutonic_knights"
 		texturefile = "gfx//interface//missions//mission_teutonic_knights.dds"
 	}
+	spriteType = {
+		name = "mission_eth_bti"
+		texturefile = "gfx//interface//missions//mission_eth_bti.dds"
+	}
+	spriteType = {
+		name = "mission_eth_soa"
+		texturefile = "gfx//interface//missions//mission_eth_soa.dds"
+	}
 	
 ################Netherlands/Holland##################
 	
@@ -1082,6 +1090,35 @@ spriteTypes = {
 		name = "STT_BYZ_mission_conquer_arabia"
 		texturefile = "gfx//interface//missions//STT_BYZ_mission_conquer_arabia.dds"  
 	}
+	spriteType = {
+		name = "STT_mission_arab"
+		texturefile = "gfx//interface//missions//STT_mission_arab.dds"  
+	}
+	spriteType = {
+		name = "STT_BYZ_mission_senate3"
+		texturefile = "gfx//interface//missions//STT_BYZ_mission_senate3.dds"  
+	}
+	spriteType = {
+		name = "STT_BYZ_take_constantinople"
+		texturefile = "gfx//interface//missions//STT_BYZ_take_constantinople.dds"  
+	}
+	spriteType = {
+		name = "mission_muslim_warrior"
+		texturefile = "gfx//interface//missions//mission_muslim_warrior.dds"  
+	}
+	spriteType = {
+		name = "mission_flag_sicily"
+		texturefile = "gfx//interface//missions//mission_flag_sicily.dds"  
+	}
+	spriteType = {
+		name = "mission_jerusalem"
+		texturefile = "gfx//interface//missions//mission_jerusalem.dds"  
+	}
+	spriteType = {
+		name = "mission_papacy"
+		texturefile = "gfx//interface//missions//mission_papacy.dds"  
+	}
+	
 	
 	############### Nordland #################
 	
@@ -1163,6 +1200,117 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//stt_sibir_towns.dds"  
 	}
 
+############### Revolutionary France & First Empire #################
+	
+	spriteType = {
+		name = "FRA_abolish_the_papacy"
+		texturefile = "gfx//interface//missions//FRA_abolish_the_papacy.dds"  
+	}
+	spriteType = {
+		name = "FRA_army_reorganization"
+		texturefile = "gfx//interface//missions//FRA_army_reorganization.dds"  
+	}
+	spriteType = {
+		name = "FRA_occupy_malta"
+		texturefile = "gfx//interface//missions//FRA_occupy_malta.dds"  
+	}
+	spriteType = {
+		name = "FRA_corps_tactics"
+		texturefile = "gfx//interface//missions//FRA_corps_tactics.dds"  
+	}
+	spriteType = {
+		name = "FRA_dissolve_hre"
+		texturefile = "gfx//interface//missions//FRA_dissolve_hre.dds"  
+	}
+	spriteType = {
+		name = "FRA_egyptian_expedition"
+		texturefile = "gfx//interface//missions//FRA_egyptian_expedition.dds"  
+	}
+	spriteType = {
+		name = "FRA_claims_for_naples"
+		texturefile = "gfx//interface//missions//FRA_claims_for_naples.dds"  
+	}
+	spriteType = {
+		name = "FRA_invasion_of_piedmont"
+		texturefile = "gfx//interface//missions//FRA_invasion_of_piedmont.dds"  
+	}
+	spriteType = {
+		name = "FRA_italian_campaign"
+		texturefile = "gfx//interface//missions//FRA_italian_campaign.dds"  
+	}
+	spriteType = {
+		name = "FRA_road_to_rome"
+		texturefile = "gfx//interface//missions//FRA_road_to_rome.dds"  
+	}
+	spriteType = {
+		name = "FRA_left_blank_of_rhein"
+		texturefile = "gfx//interface//missions//FRA_left_blank_of_rhein.dds"  
+	}
+	spriteType = {
+		name = "FRA_austrian_netherlands"
+		texturefile = "gfx//interface//missions//FRA_austrian_netherlands.dds"  
+	}
+	spriteType = {
+		name = "FRA_subjugate_switzerland"
+		texturefile = "gfx//interface//missions//FRA_subjugate_switzerland.dds"  
+	}
+	spriteType = {
+		name = "FRA_take_control_of_the_netherlands"
+		texturefile = "gfx//interface//missions//FRA_take_control_of_the_netherlands.dds"  
+	}
+	spriteType = {
+		name = "FRA_takeover_the_hannover"
+		texturefile = "gfx//interface//missions//FRA_takeover_the_hannover.dds"  
+	}
+	spriteType = {
+		name = "FRA_kingdom_of_italy"
+		texturefile = "gfx//interface//missions//FRA_kingdom_of_italy.dds"  
+	}
+	spriteType = {
+		name = "FRA_expel_the_british_from_india"
+		texturefile = "gfx//interface//missions//FRA_expel_the_british_from_india.dds"  
+	}
+	spriteType = {
+		name = "FRA_bavarian_ally"
+		texturefile = "gfx//interface//missions//FRA_bavarian_ally.dds"  
+	}
+	spriteType = {
+		name = "FRA_crush_austria"
+		texturefile = "gfx//interface//missions//FRA_crush_austria.dds"  
+	}
+	spriteType = {
+		name = "FRA_confederation_of_rheinland"
+		texturefile = "gfx//interface//missions//FRA_confederation_of_rheinland.dds"  
+	}
+	spriteType = {
+		name = "FRA_polish_campaign"
+		texturefile = "gfx//interface//missions//FRA_polish_campaign.dds"  
+	}
+	spriteType = {
+		name = "FRA_foothold_in_catalonia"
+		texturefile = "gfx//interface//missions//FRA_foothold_in_catalonia.dds"  
+	}
+	spriteType = {
+		name = "FRA_gain_power_in_spain"
+		texturefile = "gfx//interface//missions//FRA_gain_power_in_spain.dds"  
+	}
+	spriteType = {
+		name = "FRA_end_of_the_russian_influence"
+		texturefile = "gfx//interface//missions//FRA_end_of_the_russian_influence.dds"  
+	}
+	spriteType = {
+		name = "FRA_landing_in_england"
+		texturefile = "gfx//interface//missions//FRA_landing_in_england.dds"  
+	}
+	spriteType = {
+		name = "FRA_triumphal_arch"
+		texturefile = "gfx//interface//missions//FRA_triumphal_arch.dds"  
+	}
+	spriteType = {
+		name = "FRA_place_de_la_concorde"
+		texturefile = "gfx//interface//missions//FRA_place_de_la_concorde.dds"  
+	}
+	
 	############### Knights #################
 	
 	spriteType = {
@@ -1208,5 +1356,174 @@ spriteTypes = {
 	spriteType = {
 		name = "STT_kni_mission_conquer_cyprus"
 		texturefile = "gfx//interface//missions//STT_kni_mission_conquer_cyprus.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_convert_greece"
+		texturefile = "gfx//interface//missions//STT_kni_mission_convert_greece.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_control_cilicia"
+		texturefile = "gfx//interface//missions//STT_kni_mission_control_cilicia.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_castle"
+		texturefile = "gfx//interface//missions//STT_mission_castle.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_conquer_amalfi"
+		texturefile = "gfx//interface//missions//STT_kni_mission_conquer_amalfi.dds"  
+	}
+	spriteType = {
+		name = "STT_great_fleet"
+		texturefile = "gfx//interface//missions//STT_great_fleet.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_control_antioch"
+		texturefile = "gfx//interface//missions//STT_kni_mission_control_antioch.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_iron"
+		texturefile = "gfx//interface//missions//STT_kni_mission_iron.dds"  
+	}
+	spriteType = {
+		name = "STT_kni_mission_build_taverns"
+		texturefile = "gfx//interface//missions//STT_kni_mission_build_taverns.dds"  
+	}
+	
+	
+	############### Mameluks #################
+	
+	spriteType = {
+		name = "STT_mission_desert"
+		texturefile = "gfx//interface//missions//STT_mission_desert.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_control"
+		texturefile = "gfx//interface//missions//STT_mission_control.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_migration"
+		texturefile = "gfx//interface//missions//STT_mission_migration.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_religion_one"
+		texturefile = "gfx//interface//missions//STT_mission_religion_one.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_religion_two"
+		texturefile = "gfx//interface//missions//STT_mission_religion_two.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_religion_three"
+		texturefile = "gfx//interface//missions//STT_mission_religion_three.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_rebels"
+		texturefile = "gfx//interface//missions//STT_mission_rebels.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_friendship"
+		texturefile = "gfx//interface//missions//STT_mission_friendship.dds"  
+	}
+	
+############### Serbia #################
+	spriteType = {
+		name = "STT_mission_sergre"
+		texturefile = "gfx//interface//missions//STT_mission_sergre.dds"  
+	}
+
+############### Generic missions #################
+	spriteType = {
+		name = "mission_soldiers_in_line"
+		texturefile = "gfx//interface//missions//mission_soldiers_in_line.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_pro_army_one"
+		texturefile = "gfx//interface//missions//STT_mission_k_pro_army_one.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_test"
+		texturefile = "gfx//interface//missions//STT_mission_k_test.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_road_reform"
+		texturefile = "gfx//interface//missions//STT_mission_k_road_reform.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_road_system"
+		texturefile = "gfx//interface//missions//STT_mission_k_road_system.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_system_of_channels"
+		texturefile = "gfx//interface//missions//STT_mission_k_system_of_channels.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_control_over_water"
+		texturefile = "gfx//interface//missions//STT_mission_k_control_over_water.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_development_of_capital_area"
+		texturefile = "gfx//interface//missions//STT_mission_k_development_of_capital_area.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_food"
+		texturefile = "gfx//interface//missions//STT_mission_k_food.dds"  
+	}
+	spriteType = {
+		name = "mission_army_camp"
+		texturefile = "gfx//interface//missions//mission_army_camp.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_commander"
+		texturefile = "gfx//interface//missions//STT_mission_k_commander.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_mill"
+		texturefile = "gfx//interface//missions//STT_mission_k_mill.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_to_build_fortifications"
+		texturefile = "gfx//interface//missions//STT_mission_k_to_build_fortifications.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_to_build_fortress"
+		texturefile = "gfx//interface//missions//STT_mission_k_to_build_fortress.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_trading_empire"
+		texturefile = "gfx//interface//missions//STT_mission_k_trading_empire.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_navy_reform"
+		texturefile = "gfx//interface//missions//STT_mission_k_navy_reform.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_pro_army"
+		texturefile = "gfx//interface//missions//STT_mission_k_pro_army.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_whisper_in_the_dark"
+		texturefile = "gfx//interface//missions//STT_mission_k_whisper_in_the_dark.dds"  
+	}
+	spriteType = {
+		name = "STT_mission_k_swarm_of_vassals"
+		texturefile = "gfx//interface//missions//STT_mission_k_swarm_of_vassals.dds"  
+	}
+	
+	############### Israel #################
+	
+	spriteType = {
+		name = "ISR_the_greater_israel"
+		texturefile = "gfx//interface//missions//ISR_the_greater_israel.dds"  
+	}
+
+	spriteType = {
+		name = "ISR_restored_temple_mount"
+		texturefile = "gfx//interface//missions//ISR_restored_temple_mount.dds"  
+	}
+	
+	spriteType = {
+		name = "ISR_loan_sharks"
+		texturefile = "gfx//interface//missions//ISR_loan_sharks.dds"  
 	}
 }

@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 68 124 11 }	### STT
+color = { 98  206  253 }	### STT
 
 historical_idea_groups = { 
 	defensive_ideas

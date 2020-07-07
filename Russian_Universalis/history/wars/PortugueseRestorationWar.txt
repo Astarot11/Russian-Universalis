@@ -1,4 +1,4 @@
-name = "Испанско-португальская война"
+name = "Португальская война за независимость"
 war_goal = {
 	type = take_capital_personal_union
 	casus_belli = cb_restore_personal_union
@@ -12,17 +12,17 @@ war_goal = {
 
 1644.5.26 = {
 	battle = {
-		name = "Монтихо"
+		name = "Montijo"
 		location = 218
 		attacker = {
-			commander = "Барон Моллинген"	# Baron of Mollingen
+			commander = "Baron of Mollingen"	# Baron of Mollingen
 			infantry = 6000
 			cavalry = 2500
 			losses = 35	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Матиаш де Альбукерке"	# Matias de Albuquerque
+			commander = "Matias de Albuquerque"	# Matias de Albuquerque
 			infantry = 6000
 			cavalry = 1000
 			artillery = 6
@@ -35,17 +35,17 @@ war_goal = {
 
 1659.1.14 = {
 	battle = {
-		name = "Элваш"
+		name = "Elvas"
 		location = 229
 		attacker = {
-			commander = "Луис де Аро"	# Luis de Haro
+			commander = "Luis de Haro"	# Luis de Haro
 			infantry = 14000
 			cavalry = 5000
 			losses = 2	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Антониу Луиш де Менезеш"	# Antуnio Luнs de Meneses
+			commander = "Antуnio Luнs de Meneses"	# Antуnio Luнs de Meneses
 			infantry = 8000
 			cavalry = 3000
 			artillery = 7
@@ -58,16 +58,16 @@ war_goal = {
 
 1663.6.8 = {
 	battle = {
-		name = "Амехиаль"
+		name = "Ameixial"
 		location = 229
 		attacker = {
-			commander = "Дон Хуан Хосе Австрийский"	# Don Juan Josй de Austria
+			commander = "Don Juan Josй de Austria"	# Don Juan Josй de Austria
 			infantry = 22000
 			losses = 24	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Санчо Мануэль де Вильена"	# Sancho Manoel de Vilhena
+			commander = "Sancho Manoel de Vilhena"	# Sancho Manoel de Vilhena
 			infantry = 2000
 			losses = 5	# percent
 			country = POR
@@ -78,16 +78,16 @@ war_goal = {
 
 1664.7.7 = {
 	battle = {
-		name = "Кастел-Родриго"
+		name = "Castel Rodrigo"
 		location = 232
 		attacker = {
-			commander = "Герцог Осуна"	# Duke of Osuna
+			commander = "Duke of Osuna"	# Duke of Osuna
 			infantry = 5000
 			losses = 20	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Педро де Магальянеш"	# Pedro Jacques de Magalhгes
+			commander = "Pedro Jacques de Magalhгes"	# Pedro Jacques de Magalhгes
 			infantry = 3000
 			losses = 15	# percent
 			country = POR
@@ -98,17 +98,17 @@ war_goal = {
 
 1665.6.17 = {
 	battle = {
-		name = "Монте-Кларос"
+		name = "Montes Claros"
 		location = 229
 		attacker = {
-			commander = "Луис де Бенавидес Каррильо"	# Luis de Benavides Carrillo
+			commander = "Luis de Benavides Carrillo"	# Luis de Benavides Carrillo
 			infantry = 15000
 			cavalry = 7000
 			losses = 45	# percent
 			country = SPA
 		}
 		defender = {
-			commander = "Антониу Луиш де Менезеш"	# Antуnio Luнs de Meneses
+			commander = "Antуnio Luнs de Meneses"	# Antуnio Luнs de Meneses
 			infantry = 20500
 			losses = 10	# percent
 			country = POR

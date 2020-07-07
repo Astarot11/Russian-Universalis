@@ -3,7 +3,7 @@
 owner = PSK
 controller = PSK
 culture = novgorodian
-religion = orthodox
+religion = slavic
 hre = no
 base_tax = 2
 base_production = 2
@@ -25,6 +25,7 @@ discovered_by = eastern
 	remove_core = PSK
 } # Vasili III put an end to the Pskov republic, still remained a strategic fortress
 1547.1.16 = { owner = TSR controller = TSR add_core = TSR remove_core = MOS } ## Ivav IV - tsar
+1550.1.1 = { religion = orthodox }
 1598.1.7 = { unrest = 8 } # "Time of troubles"
 1613.3.3 = { unrest = 0 } # Order returned, Romanov dynasty
 1614.9.1 = { controller = SWE } 

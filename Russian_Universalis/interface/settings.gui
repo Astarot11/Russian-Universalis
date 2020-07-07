@@ -2374,7 +2374,7 @@ guiTypes = {
 					tooltipText =""
 					delayedTooltipText = ""
 				}
-		}
+				
 	}
 		
 	

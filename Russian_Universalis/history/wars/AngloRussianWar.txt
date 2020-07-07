@@ -1,4 +1,4 @@
-name = "Англо-русская война"
+name = "Англо-Русская война"
 war_goal = {
 	type = superiority_trade_mutual
 	casus_belli = cb_trade_war

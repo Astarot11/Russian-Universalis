@@ -11,14 +11,20 @@ golden_horde_disaster = {
 	can_start = {
 		NOT = { horde_unity = 80 }
 		OR = {
-			war_score_against = {
-				who = TIM
-				value = -25
+			custom_trigger_tooltip = {
+				tooltip = stt_golden_horde_disaster_tooltip_1
+				war_score_against = {
+					who = TIM
+					value = -25
+				}
 			}
-		    war_exhaustion = 5
-		    num_of_owned_provinces_with = {
-			    value = 15
-				local_autonomy = 60
+			war_exhaustion = 5
+			custom_trigger_tooltip = {
+				tooltip = stt_golden_horde_disaster_tooltip_2
+				num_of_owned_provinces_with = {
+					value = 15
+					local_autonomy = 60
+				}
 			}
 			AND = { 
 			    num_of_loans = 2

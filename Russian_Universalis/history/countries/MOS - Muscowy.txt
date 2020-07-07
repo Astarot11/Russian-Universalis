@@ -3,6 +3,7 @@ government = monarchy
 add_government_reform = principality ### STT
 government_rank = 1
 primary_culture = russian
+add_accepted_culture = ryazanian
 religion = orthodox
 technology_group = eastern
 historical_rival = NOV

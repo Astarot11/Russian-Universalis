@@ -11,7 +11,7 @@ base_manpower = 1
 native_size = 5 
 native_ferocity = 1 
 native_hostileness = 3 
-discovered_by = north_american
+ 
 
 1614.1.1 = { discovered_by = NED } # Adriaen Block (may or may not have reached this far north)
 1633.1.1 = { discovered_by = ENG }

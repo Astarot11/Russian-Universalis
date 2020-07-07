@@ -12,16 +12,17 @@ country_event = { # feodal_fix_minor 1
 	mean_time_to_happen = { months = 1 }
 	
 	trigger = { 
-	NOT = { government = republic }
-	NOT = { num_of_cities = 6 }
-	NOT = { is_year = 1550 }
-	NOT = { has_country_modifier = feodal_fix_minor }
+		NOT = { government = republic }
+		NOT = { num_of_cities = 6 }
+		NOT = { is_year = 1550 }
+		NOT = { has_country_modifier = feodal_fix_minor }
+		ai = yes
 	}
 	
 	immediate = { add_country_modifier = { name = feodal_fix_minor duration = -1 } }	
 		
 	option = {
-	name = stt_triggers.1.a
+		name = stt_triggers.1.a
 	}
 }
 country_event = { #feodal_fix_minor 2

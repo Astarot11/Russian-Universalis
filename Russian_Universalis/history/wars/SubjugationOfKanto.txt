@@ -1,4 +1,4 @@
-name = "Покорение Канто"
+name = "Подчинение Канто"
 
 war_goal = {
 	type = take_claim

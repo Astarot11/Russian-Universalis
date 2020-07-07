@@ -1,4 +1,4 @@
-name = "Куч-Бихарская война за независимость"
+name = "Кох Беарская война за независимость"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

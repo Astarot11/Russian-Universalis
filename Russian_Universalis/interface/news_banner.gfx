@@ -5,20 +5,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/news_banner_bg_l_english.dds"
 		legacy_lazy_load=no
 	}
-	spriteType = {
-		name = "GFX_news_banner_bg_l_french"
-		texturefile = "gfx/interface/news_banner_bg_l_french.dds"
-	}
-	spriteType = {
-		name = "GFX_news_banner_bg_l_german"
-		texturefile = "gfx/interface/news_banner_bg_l_german.dds"
-	}
-	spriteType = {
-		name = "GFX_news_banner_bg_l_russian"
-		texturefile = "gfx/interface/news_banner_bg_l_russian.dds"
-	}
-	spriteType = {
-		name = "GFX_news_banner_bg_l_spanish"
-		texturefile = "gfx/interface/news_banner_bg_l_spanish.dds"
-	}
 }

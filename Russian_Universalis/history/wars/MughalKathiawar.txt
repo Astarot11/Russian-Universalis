@@ -1,4 +1,4 @@
-name = "Могольское вторжение в Катхиявар"
+name = "Могольское вторжение в Катиавар"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

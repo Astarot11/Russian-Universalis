@@ -1,4 +1,4 @@
-name = "Война Венесуэлы за независимость"
+name = "Венесуэльская война за независимость"
 
 war_goal = {
 	type = defend_capital_independence

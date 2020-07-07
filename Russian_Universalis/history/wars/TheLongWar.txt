@@ -1,4 +1,4 @@
-name = "Длинная война"
+name = "Долгая война"
 
 war_goal = {
 	type = take_claim
@@ -19,17 +19,17 @@ war_goal = {
 # Battle of Keresztes
 1596.10.24 = { 
 	battle = { 
-		name = "Керештес" 
+		name = "Keresztes" 
 		location = 155
 		attacker = { 
-			commander = "Мехмед II" 			#  Mehmet III
+			commander = "Mehmet II" 			#  Mehmet III
 			infantry = 60000
 			cavalry =  30000
 			losses = 25			# percent 
 			country = TUR
 		} 
 		defender = { 
-			commander = "Эрцгерцог Максимилиан"				# Maximilian Habsburg
+			commander = "Maximilian Habsburg"				# Maximilian Habsburg
 			infantry = 30000
 			cavalry = 15000
 			losses = 65			# percent

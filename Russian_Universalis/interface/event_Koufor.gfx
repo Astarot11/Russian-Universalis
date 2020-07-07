@@ -1,0 +1,102 @@
+spriteTypes = {
+	spriteType = {
+		name = "siege_or_defence_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/siege_or_defence_eventPicture.dds"
+	}
+	spriteType = {
+		name = "land_or_navy_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/land_or_navy_eventPicture.dds"
+	}
+	spriteType = {
+		name = "dark_time_Constantinople_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/dark_time_Constantinople_eventPicture.dds"
+	}
+	spriteType = {
+		name = "latin_empire_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/latin_empire_eventPicture.dds"
+	}
+	spriteType = {
+		name = "chaos_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/chaos_eventPicture.dds"
+	}
+	spriteType = {
+		name = "supply_ship_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/supply_ship_eventPicture.dds"
+	}
+	spriteType = {
+		name = "mamluk_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/mamluk_eventPicture.dds"
+	}
+	spriteType = {
+		name = "arab_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/arab_eventPicture.dds"
+	}
+	spriteType = {
+		name = "varangian_guard_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/varangian_guard_eventPicture.dds"
+	}
+	spriteType = {
+		name = "discussion_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/discussion_eventPicture.dds"
+	}
+	spriteType = {
+		name = "hospitaliers_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/hospitaliers_eventPicture.dds"
+	}
+	spriteType = {
+		name = "edict_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/edict_eventPicture.dds"
+	}
+	spriteType = {
+		name = "recover_jerusalem_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/recover_jerusalem_eventPicture.dds"
+	}
+	spriteType = {
+		name = "neopatria_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/neopatria_eventPicture.dds"
+	}
+	spriteType = {
+		name = "muslim_killers_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/muslim_killers_eventPicture.dds"
+	}
+	spriteType = {
+		name = "massacre_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/massacre_eventPicture.dds"
+	}
+	spriteType = {
+		name = "charge_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/charge_eventPicture.dds"
+	}
+	spriteType = {
+		name = "crusaders_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/crusaders_eventPicture.dds"
+	}
+	spriteType = {
+		name = "basileus_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/basileus_eventPicture.dds"
+	}
+	spriteType = {
+		name = "the_knights_dream_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/the_knights_dream_eventPicture.dds"
+	}
+	spriteType = {
+		name = "byzantium_alliance_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/byzantium_alliance_eventPicture.dds"
+	}
+	spriteType = {
+		name = "strange_knights_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/strange_knights_eventPicture.dds"
+	}
+	spriteType = {
+		name = "isr_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/isr_eventPicture.dds"
+	}
+	spriteType = {
+		name = "fate_of_the_crusaders_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/fate_of_the_crusaders_eventPicture.dds"
+	}
+	spriteType = {
+		name = "muslims_eventPicture"
+		texturefile = "gfx/event_pictures/event_Koufor/muslims_eventPicture.dds"
+	}
+}

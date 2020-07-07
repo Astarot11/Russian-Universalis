@@ -1,4 +1,4 @@
-name = "Ломбардская война"
+name = "Война в Ломбардии"
 
 war_goal = {
 	type = take_claim

@@ -685,7 +685,7 @@ guiTypes = {
 		name = "countrycourtview_abilitylistitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=170 y=86 }
+		size = { x=164 y=86 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -693,7 +693,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_name"
-			position = { x = 117 y = 0 } #x = 136
+			position = { x = 110 y = 0 } #x = 136
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -707,18 +707,17 @@ guiTypes = {
 		listboxType = {
 			name = "advisor_modifier_listbox"
 			backGround = ""
-			position = { x=82 y=28 }
-			size = { x=100 y=100 }
+			position = { x = 82 y = 25 }
+			size = { x = 70 y = 60 }
 			Orientation = "UPPER_LEFT"
-			horizontal = 1
-			spacing = 2.5
+			vertical = 1
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 		}
 		
 		instantTextBoxType = {
 			name = "advisor_cost"
-			position = { x=82 y=51 }
+			position = { x= 226 y= 46 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -730,7 +729,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_activefor"
-			position = { x = 271 y = 51 }
+			position = { x = 270 y = 47 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -765,9 +764,9 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -23 y = -1 } #x=-13 y = 10 stt
+			position = { x= -13 y = 10 } #x=-13 y = 10 stt
 			Orientation = "UPPER_LEFT"
-			scale = 0.9
+			scale = 0.5
 			allwaystransparent = yes
 			frame = 17
 		}
@@ -960,9 +959,9 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -47 y = -2 } #stt x= -37 y = 8
+			position = { x= -37 y = 8 } #stt x= -37 y = 8
 			Orientation = "UPPER_LEFT"
-			scale = 0.9
+			scale = 0.5
 			allwaystransparent = yes
 			frame = 17
 		}
@@ -980,13 +979,13 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 68 y =0 }
+			position = { x = 70 y =-2 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 180
+			maxWidth = 190
 			maxHeight = 16	
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes	
@@ -1054,7 +1053,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 193 y = 50 }
+			position = { x = 150 y = 52 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1066,7 +1065,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 70 y = 52 }
+			position = { x = 230 y = 52 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1079,7 +1078,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "home"
-			position = { x = 275 y = 50 }
+			position = { x = 275 y = 52 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1092,7 +1091,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "purchase"
-			position = { x = 115 y = 52 }
+			position = { x = 70 y = 51 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1104,7 +1103,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "purchase_cost"
-			position = { x = 150 y = 52 }
+			position = { x = 105 y = 51 }
 			format = left
 			textureFile = ""
 			font = "vic_18"

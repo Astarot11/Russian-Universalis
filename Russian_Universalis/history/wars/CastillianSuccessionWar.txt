@@ -1,4 +1,4 @@
-name = "Война за Кастильское наследство"
+name = "Война за кастильское наследство"
 succession = CAS
 war_goal = {
 	type = take_capital_throne
@@ -15,10 +15,10 @@ war_goal = {
 
 1476.3.1 = {
 	battle = {
-		name = "Битва при Торо"
+		name = "Battle of Toro"
 		location = 216
 		attacker = {
-			commander = "Альфонс V"	# Afonso V
+			commander = "Afonso V"	# Afonso V
 			infantry = 9500
 			cavalry = 7000
 			losses = 95	# percent
@@ -26,7 +26,7 @@ war_goal = {
 		}
 
 		defender = {
-			commander = "Фердинанд II"	# Ferrбn II
+			commander = "Ferrбn II"	# Ferrбn II
 			infantry = 34000
 			cavalry = 8000
 			losses = 5	# percent
@@ -39,17 +39,17 @@ war_goal = {
 
 1479.2.24 = {
 	battle = {
-		name = "Битва при Альбуэра"
+		name = "Battle of Albuera"
 		location = 218
 		attacker = {
-			commander =	"Аревало"
+			commander =	"Arйvalo"
 			infantry = 1400
 			cavalry = 5000
 			losses = 100	# percent
 			country = POR
 		}
 		defender = {
-			commander = "Альфонсо де Карденас"	# Alfonso de Cбrdenas
+			commander = "Alfonso de Cбrdenas"	# Alfonso de Cбrdenas
 			infantry = 5000
 			cavalry = 5000
 			losses = 5	# percent

@@ -1,0 +1,165 @@
+country_decisions = {
+
+	transfer_of_church_property = {
+		potential = {
+			tag = FRA
+			government = republic
+			has_reform = revolutionary_republic_reform
+			has_country_modifier = tithing_cancellation
+			NOT = { has_country_flag = transfer_of_church_property_flag }		
+		}
+		allow = {
+		adm_power = 50
+		advisor = treasurer
+		NOT = { has_estate = estate_church }
+		NOT = { has_idea_group = religious_ideas }
+		}
+		effect = {
+		add_adm_power = -50
+		add_years_of_income = 0.1
+		set_country_flag = transfer_of_church_property_flag
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monument_protection_departments = {
+		potential = {
+			tag = FRA
+			government = republic
+			has_reform = revolutionary_republic_reform
+			NOT = { has_country_flag = monument_protection_departments_flag }
+		}
+		allow = {
+		adm_power = 50
+		advisor = artist
+		has_idea = patron_of_art
+			}
+		effect = {
+		add_adm_power = -50
+		add_country_modifier = {
+		name = monument_protection_departments_modifier
+		duration = -1
+		}
+		set_country_flag = monument_protection_departments_flag
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	volunteer_battalions = {
+		potential = {
+			tag = FRA
+			government = republic
+			has_reform = revolutionary_republic_reform
+			NOT = { has_country_flag = volunteer_battalions_flag }
+		}
+		allow = {
+		is_at_war = yes
+		adm_power = 50
+		mil_power = 50
+		advisor = recruitmaster
+		quantity_ideas = 1
+		}
+		effect = {
+		add_adm_power = -50
+		add_mil_power = -50
+		add_country_modifier = {
+		name = volunteer_battalions_modifier
+		duration = -1
+			}
+		set_country_flag = volunteer_battalions_flag
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	metric_system_of_weights = {
+		potential = {
+			tag = FRA
+			government = republic
+			has_reform = revolutionary_republic_reform
+			NOT = { has_country_flag = metric_system_of_weights }
+		}
+		allow = {
+		is_year = 1793
+		adm_power = 50
+		advisor = natural_scientist
+		has_idea = scientific_revolution
+			}
+		effect = {
+		add_adm_power = -50
+		add_country_modifier = {
+		name = metric_system_of_weights_modifier
+		duration = -1
+		}
+		set_country_flag = metric_system_of_weights
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	napoleon_codex = {
+		potential = {
+			tag = FRA
+			government = monarchy
+			has_reform = revolutionary_empire_reform
+			NOT = { has_country_flag = napoleon_codex }
+		}
+		allow = {
+		has_commanding_three_star = yes
+		adm = 5
+		adm_power = 50
+		advisor = philosopher
+		full_idea_group = administrative_ideas
+			}
+		effect = {
+		add_adm_power = -50
+		add_country_modifier = {
+		name = napoleon_codex
+		duration = -1
+		}
+		set_country_flag = napoleon_codex
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	french_national_bank = {
+		potential = {
+			tag = FRA
+			government = monarchy
+			has_reform = revolutionary_empire_reform
+			NOT = { has_country_flag = french_national_bank }
+		}
+		allow = {
+		has_commanding_three_star = yes
+		adm = 5
+		adm_power = 50
+		advisor = treasurer
+		full_idea_group = economic_ideas
+			}
+		effect = {
+		add_adm_power = -50
+		add_country_modifier = {
+		name = french_national_bank
+		duration = -1
+		}
+		set_country_flag = french_national_bank
+			}
+			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

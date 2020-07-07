@@ -1,4 +1,4 @@
-name = "Война Нгуенов и Чиней"
+name = "Гражданская война между Мак и Трин во Вьетнаме"
 
 war_goal = {
 	type = defend_capital_independence

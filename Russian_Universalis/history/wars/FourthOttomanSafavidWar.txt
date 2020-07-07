@@ -1,4 +1,4 @@
-name = "Четвёртая турецко-персидская война" 
+name = "Четвёртая Османо-Сефевидская война"
 war_goal = {
 	type = take_border
 	casus_belli = cb_border_war

@@ -1,0 +1,1557 @@
+################
+#Antiblob System
+################
+
+plato_antiblob_mod_first = {
+	global_unrest = 1
+	state_maintenance_modifier = 0.02
+	advisor_cost = 0.01
+	core_creation = 0.01
+	ae_impact = 0.01
+}
+plato_antiblob_mod_second = {
+	global_unrest = 1.5
+	state_maintenance_modifier = 0.04
+	advisor_cost = 0.02
+	core_creation = 0.02
+	ae_impact = 0.02
+}
+plato_antiblob_mod_third = {
+	global_unrest = 2
+	state_maintenance_modifier = 0.06
+	advisor_cost = 0.03
+	core_creation = 0.03
+	ae_impact = 0.03
+}
+plato_antiblob_mod_fourth = {
+	global_unrest = 2.5
+	state_maintenance_modifier = 0.08
+	advisor_cost = 0.04
+	core_creation = 0.04
+	ae_impact = 0.04
+}
+plato_antiblob_mod_fifth = {
+	global_unrest = 3
+	state_maintenance_modifier = 0.1
+	yearly_corruption = 0.01
+	advisor_cost = 0.05
+	core_creation = 0.05
+	ae_impact = 0.05
+}
+plato_antiblob_mod_sixth = {
+	global_unrest = 3.5
+	state_maintenance_modifier = 0.12
+	yearly_corruption = 0.01
+	advisor_cost = 0.06
+	core_creation = 0.06
+	ae_impact = 0.06
+}
+plato_antiblob_mod_seventh = {
+	global_unrest = 4
+	state_maintenance_modifier = 0.14
+	yearly_corruption = 0.01
+	advisor_cost = 0.07
+	core_creation = 0.07
+	ae_impact = 0.07
+}
+plato_antiblob_mod_eighth = {
+	global_unrest = 4.5
+	state_maintenance_modifier = 0.16
+	yearly_corruption = 0.01
+	advisor_cost = 0.08
+	core_creation = 0.08
+	ae_impact = 0.08
+}
+plato_antiblob_mod_nineth = {
+	global_unrest = 5
+	state_maintenance_modifier = 0.18
+	yearly_corruption = 0.01
+	advisor_cost = 0.09
+	core_creation = 0.09
+	ae_impact = 0.09
+}
+plato_antiblob_mod_tenth = {
+	global_unrest = 5.5
+	state_maintenance_modifier = 0.2
+	yearly_corruption = 0.02
+	stability_cost_modifier = 0.15
+	advisor_cost = 0.1
+	core_creation = 0.1
+	ae_impact = 0.1
+}
+plato_antiblob_mod_eleventh = {
+	global_unrest = 6
+	state_maintenance_modifier = 0.22
+	yearly_corruption = 0.02
+	stability_cost_modifier = 0.15
+	global_autonomy = 0.01
+	advisor_cost = 0.11
+	core_creation = 0.11
+	ae_impact = 0.11
+}
+plato_antiblob_mod_twelweth = {
+	global_unrest = 6.5
+	state_maintenance_modifier = 0.24
+	yearly_corruption = 0.02
+	stability_cost_modifier = 0.15
+	global_autonomy = 0.01
+	advisor_cost = 0.12
+	core_creation = 0.12
+	ae_impact = 0.12
+}
+plato_antiblob_mod_thirteenth = {
+	global_unrest = 7
+	state_maintenance_modifier = 0.26
+	yearly_corruption = 0.02
+	stability_cost_modifier = 0.15
+	global_autonomy = 0.01
+	advisor_cost = 0.13
+	core_creation = 0.13
+	ae_impact = 0.13
+}
+plato_antiblob_mod_fourteenth = {
+	global_unrest = 7.5
+	state_maintenance_modifier = 0.28
+	yearly_corruption = 0.02
+	stability_cost_modifier = 0.15
+	global_autonomy = 0.01
+	advisor_cost = 0.14
+	core_creation = 0.14
+	ae_impact = 0.14
+}
+plato_antiblob_mod_fifteenth = {
+	global_unrest = 8
+	state_maintenance_modifier = 0.3
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.02
+	advisor_cost = 0.15
+	core_creation = 0.15
+	ae_impact = 0.15
+}
+plato_antiblob_mod_sixteenth = {
+	global_unrest = 8.5
+	state_maintenance_modifier = 0.32
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.02
+	advisor_cost = 0.16
+	core_creation = 0.16
+	ae_impact = 0.16
+}
+plato_antiblob_mod_seventeenth = {
+	global_unrest = 9
+	state_maintenance_modifier = 0.34
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.02
+	advisor_cost = 0.17
+	core_creation = 0.17
+	ae_impact = 0.17
+}
+plato_antiblob_mod_eightheen = {
+	global_unrest = 9.5
+	state_maintenance_modifier = 0.36
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.02
+	advisor_cost = 0.18
+	core_creation = 0.18
+	ae_impact = 0.18
+}
+plato_antiblob_mod_ninetheenth = {
+	global_unrest = 10
+	state_maintenance_modifier = 0.38
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.03
+	advisor_cost = 0.19
+	core_creation = 0.19
+	ae_impact = 0.19
+}
+plato_antiblob_mod_twenteenth = {
+	global_unrest = 12
+	state_maintenance_modifier = 0.5
+	yearly_corruption = 0.03
+	stability_cost_modifier = 0.5
+	global_autonomy = 0.05
+	advisor_cost = 0.25
+	core_creation = 0.25
+	ae_impact = 0.25
+}
+
+####################
+#Latgalian Modifiers
+####################
+
+plato_latgalia_economy_stable = {
+	global_unrest = -1
+	stability_cost_modifier = -0.1
+}
+
+plato_latgalia_lith_union = {
+	diplomatic_reputation = 1
+}
+
+plato_latgalia_riga_latvian = {
+	merchants = 1
+}
+
+plato_latgalia_baltic_trade = {
+	global_trade_power = 0.15
+}
+
+plato_latgalia_novgorod = {
+	trade_steering = 0.25
+}
+
+plato_latgalia_rus_two = {
+	autonomy_change_time = -0.15
+}
+
+plato_latgalia_rus_three = {
+	prestige = 1
+}
+
+plato_latgalia_vassals = {
+	global_ship_cost = -0.1
+	global_sailors_modifier = 0.1
+}
+
+plato_latgalia_saarema = {
+	naval_morale = 0.15
+}
+
+plato_latgalia_developed = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+plato_latgalia_buildin = {
+	production_efficiency = 0.1
+	global_unrest = -1
+}
+
+plato_latgalia_smart = {
+	technology_cost = -0.1
+}
+
+plato_latgalia_relunity = {
+	global_unrest = -1
+}
+
+plato_latgalia_paganideas = {
+	tolerance_own = 1
+	prestige = 1
+}
+
+plato_latgalia_production = {
+	center_of_trade_upgrade_cost = -0.25
+	build_cost = -0.25
+	development_cost = -0.1
+}
+
+plato_latgalia_cultural = {
+	culture_conversion_cost = -0.2
+	prestige = 1
+}
+
+plato_latgalia_magnanimous = {
+	ae_impact = -0.10
+	land_morale = 0.1
+}
+
+#########################################
+
+plato_israel_third_temple_modifier = {
+	prestige = 0.5
+	legitimacy = 0.5
+	global_missionary_strength = 0.01
+}
+plato_israel_wise_king_modifier = {
+	global_unrest = -1
+}
+plato_israel_stability_modifier = {
+	global_tax_modifier = 0.1
+}
+plato_israel_prosperity_modifier = {
+	production_efficiency = 0.1
+}
+plato_israel_zealot_modifier = {
+	missionaries = 1
+}
+plato_israel_heathens_modifier = {
+	global_unrest = -1
+}
+plato_israel_abyssinia_modifier = {
+	administrative_efficiency = 0.05
+}
+plato_israel_empire_modifier = {
+	prestige = 1
+	legitimacy = 1
+}
+plato_israel_mighty_modifier = {
+	discipline = 0.05
+	prestige_from_land = 1.0
+}
+plato_israel_war_ruler_modifier = {
+	land_morale = 0.1
+}
+plato_israel_ideas_modifier = {
+	free_adm_policy = 1
+}
+plato_israel_policies_modifier = {
+	global_unrest = -1
+	possible_adm_policy = 1
+}
+plato_israel_trade_modifier = {
+	merchants = 1
+	global_trade_power = 0.25
+}
+plato_israel_hometrade_modifier = {
+	caravan_power = 0.25
+	trade_range_modifier = 0.25
+}
+plato_israel_mashriq_modifier = {
+	cavalry_cost = -0.15
+	trade_efficiency = 0.15
+}
+plato_israel_maghreb_modifier = {
+	global_ship_trade_power = 0.15
+	galley_cost = -0.33
+}
+
+plato_cultural_theatre = {
+	monthly_splendor = 0.25
+	prestige = 0.5
+}
+
+plato_cultural_opera = {
+	monthly_splendor = 0.5
+	prestige = 1
+}
+
+plato_library_boost = {
+	technology_cost = -0.05
+}
+
+########################################
+###########PROVINCE#MODIFIERS##########
+######################################
+
+plato_latgalian_castle = {
+	local_defensiveness = 0.25
+	prestige = 0.5
+	picture = "garrison_growth"
+}
+plato_damascus_steel = {
+	infantry_power = 0.05
+	local_production_efficiency = 0.05
+	picture = "steel_icon"
+}
+plato_venetian_arsenal = {
+	local_ship_cost = -0.25
+	local_ship_repair = 0.25
+	naval_forcelimit = 2
+	picture = "global_ship_repair"
+}
+plato_al_hamra = {
+	local_defensiveness = 0.25
+	prestige = 0.5
+	monthly_piety = 0.01
+	picture = "monthly_piety"
+}
+plato_mont_michel = {
+	local_defensiveness = 0.25
+	prestige = 0.5
+	picture = "defensiveness"
+}
+plato_notre_dame = {
+	prestige = 0.5
+	religious_conversion_resistance = 0.1
+	picture = "tolerance_own"
+}
+plato_iceland_volcano = {
+	local_development_cost = -0.1
+	local_production_efficiency = 0.1
+	picture = "climate_arctic"
+}
+plato_aachen_city = {
+	diplomatic_reputation = 1
+	imperial_authority = 0.05
+	picture = "imperial_authority_value"
+}
+plato_riga_city = {
+	global_missionary_strength = 0.005
+	papal_influence = 0.5
+	province_trade_power_modifier = 0.1
+	picture = "center_of_trade_upgrade_cost"
+}
+plato_toldeo_steel = {
+	infantry_power = 0.05
+	local_production_efficiency = 0.05
+	picture = "sword_icon"
+}
+plato_praha_city = {
+	diplomatic_reputation = 1
+	imperial_authority = 0.05
+	picture = "imperial_authority_value"
+}
+plato_colmar_city = {
+	trade_goods_size = 2.0
+}
+plato_avila_city = {
+	local_defensiveness = 0.15
+	picture = "defensiveness"
+}
+
+
+
+plato_citystate_armagh = {
+	global_missionary_strength = 0.005
+	papal_influence = 0.5
+	picture = "saint_icon"
+}
+
+plato_citystate_alquarvan = {
+	global_missionary_strength = 0.005
+	monthly_piety = 0.01
+	picture = "monthly_piety"
+}
+
+plato_citystate_milan = {
+	local_production_efficiency = 0.05
+	idea_cost = -0.025
+	picture = "institution_growth"
+}
+plato_citystate_kiev = {
+	diplomatic_reputation = 1
+	num_accepted_cultures = 1
+	picture = "num_accepted_cultures"
+}
+plato_citystate_sofia = {
+	local_manpower_modifier = 0.2
+	local_defensiveness = 0.1
+	picture = "crossed_icon"
+}
+plato_citystate_marrakesh = {
+	province_trade_power_modifier = 0.25
+	trade_value = 1
+	picture = "center_of_trade_upgrade_cost"
+}
+
+######################################
+###########NATIONAL#VALUES###########
+####################################
+
+plato_value_liberty = {
+	republican_tradition = 1
+	reform_progress_growth = 0.25
+	religious_unity = 0.15
+	num_accepted_cultures = 2
+	enemy_core_creation = 0.25
+	hostile_attrition = 1.0
+	trade_efficiency = 0.1
+	production_efficiency = 0.1
+	max_absolutism = -20
+	land_forcelimit_modifier = -0.15
+	ae_impact = 0.15
+	global_missionary_strength = -0.01
+	global_tax_modifier = -0.1
+	technology_cost = -0.05
+}
+
+plato_value_order = {
+	legitimacy = 1
+	discipline = 0.05
+	max_absolutism = 5
+	harsh_treatment_cost = -0.25
+	same_culture_advisor_cost = -0.15
+	global_tax_modifier = 0.1
+	culture_conversion_cost = -0.25
+	tolerance_own = 1
+	idea_cost = 0.1
+	reform_progress_growth = -0.33
+	trade_efficiency = -0.1
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	technology_cost = 0.1
+}
+plato_value_equality = {
+	global_regiment_recruit_speed = -0.2
+	global_manpower_modifier = 0.2
+	manpower_recovery_speed = 0.2
+	build_time = -0.25
+	land_morale = 0.1
+	global_unrest = -1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	trade_efficiency = -0.1
+	production_efficiency = -0.1
+	discipline = -0.05
+	recover_army_morale_speed = -0.05
+	max_absolutism = -10
+	stability_cost_modifier = 0.25
+}
+
+
+#################################
+###########IDEOLOGIES###########
+###############################
+
+plato_ideology_liberalism = {
+	technology_cost = -0.05
+}
+plato_ideology_anarcho_liberalism = {
+	technology_cost = -0.05
+}
+
+plato_ideology_conservatism = {
+	technology_cost = -0.05
+}
+plato_ideology_reactionary = {
+	technology_cost = -0.05
+}
+
+plato_ideology_socialism = {
+	technology_cost = -0.05
+}
+plato_ideology_communism = {
+	technology_cost = -0.05
+}
+
+#################################
+###########IDEOLOGIES###########
+###############################
+
+plato_liberty_modifier_one = {
+	technology_cost = -0.05
+}
+
+##############################
+###########LIBERTY###########
+############################
+
+plato_liberty_modifier_autonomous_pagans_accepted = {
+	tolerance_own = 2
+	religious_unity = -0.25
+	missionaries = -1
+}
+
+plato_liberty_modifier_autonomous_pagans_declined = {
+	global_unrest = 2
+	tolerance_own = -2
+	global_missionary_strength = 0.01
+}
+
+#############################
+###########VARANT###########
+###########################
+
+plato_varant_lowered_taxes = {
+	global_tax_modifier = -0.15
+	global_unrest = -1
+}
+plato_varant_tolerance_one = {
+	tolerance_own = -1
+	tolerance_heathen = 2
+	global_missionary_strength = -0.01
+}
+plato_varant_tolerance_two = {
+	tolerance_heathen = 3
+}
+plato_varant_tolerance_three = {
+	tolerance_heathen = 2
+}
+plato_varant_tolerance_four = {
+	tolerance_heathen = 2
+	tolerance_own = -2
+	global_missionary_strength = -0.02
+}
+plato_varant_missionary_ban = {
+	missionaries = -1
+}
+plato_varant_turmoil = {
+	global_unrest = 5
+}
+plato_varant_harsh = {
+	harsh_treatment_cost = -0.5
+}
+plato_varant_missionaries = {
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+plato_varant_civil_strife = {
+	global_unrest = 5
+}
+plato_varant_discipline = {
+	discipline = 0.05
+	movement_speed = 0.1
+}
+plato_varant_divine_marriages = {
+	heir_chance = 0.15
+	prestige = 0.5
+}
+plato_varant_zoro_toleranter = {
+	tolerance_heathen = 3
+}
+plato_varant_zoro_missionaries = {
+	global_missionary_strength = 0.02
+}
+
+plato_varant_monotheist = {
+	discipline = 0.05
+	tolerance_heretic = -2
+}
+plato_varant_polytheist = {
+	idea_cost = -0.1
+}
+plato_varant_ahuras = {
+	prestige = 1
+}
+plato_varant_rel_autonomy = {
+	global_unrest = -1
+	religious_unity = -0.1
+}
+plato_varant_mis_piety_light = {
+	institution_spread_from_true_faith = 0.2
+	discipline = 0.05
+}
+plato_varant_mis_authority = {
+	missionaries = 1
+	global_missionary_strength = 0.02
+}
+plato_varant_crimea = {
+	global_foreign_trade_power = 0.15
+}
+plato_varant_sea_trade = {
+	placed_merchant_power = 5
+	merchants = 1
+	trade_steering = 0.15
+}
+plato_varant_constantinople = {
+	prestige = 1
+	global_trade_power = 0.15
+}
+plato_varant_egypt_claimed = {
+	global_trade_power = 0.25
+}
+plato_varant_golden = {
+	diplomatic_reputation = 3
+	land_morale = 0.1
+	global_unrest = -2
+	envoy_travel_time = -0.15
+}
+zoroaster_festival_held = {
+	production_efficiency = 0.05
+	global_tax_modifier = 0.05
+	land_morale = 0.05
+}
+#############
+plato_estonia_independent = {
+	global_unrest = -1
+	trade_efficiency = 0.1
+	production_efficiency = 0.1
+}
+plato_estonia_developed = {
+	yearly_corruption = -0.1
+	global_own_trade_power = 0.15
+	global_trade_goods_size_modifier = 0.15
+}
+plato_estonia_science = {
+	embracement_cost = -0.25
+	idea_cost = -0.1
+	technology_cost = -0.1
+}
+############
+plato_litva_relunity = {
+	global_unrest = -1
+	stability_cost_modifier = -0.25
+}
+plato_litva_cash = {
+	global_own_trade_power = 0.15
+	merchants = 1
+}
+plato_litva_policy = {
+	free_mil_policy = 1
+	infantry_cost = -0.1
+	cavalry_cost = -0.1
+}
+###########
+plato_georgia_bastion_of_faith = {
+	tolerance_own = 1
+	recover_army_morale_speed = 0.1
+	discipline = 0.05
+}
+plato_georgia_byzantium = {
+	tolerance_own = 1
+	prestige = 1
+	prestige_decay = -0.01	
+}
+###########
+plato_finland_trade = {
+	trade_range_modifier = 0.25
+	merchants = 1
+}
+plato_finland_production = {
+	global_trade_goods_size_modifier = 0.1
+	development_cost = -0.1
+}
+plato_finland_relations = {
+	diplomatic_reputation = 3
+}
+plato_finnish_stupid_advisors = {
+	advisor_pool = -3
+	all_power_cost = -0.1
+}
+plato_finnish_army_aid = {
+	global_unrest = -1
+	free_leader_pool = 1
+	harsh_treatment_cost = -0.25
+}
+###########
+plato_animism_reform_war = {
+	army_tradition = 1
+	global_manpower_modifier = 0.1
+	land_morale = 0.1
+}
+plato_animism_reform_sea = {
+	navy_tradition = 1
+	global_sailors_modifier = 0.1
+	naval_morale = 0.1
+}
+plato_animism_reform_trade = {
+	merchants = 1
+	trade_efficiency = 0.1
+	global_trade_power = 0.1
+}
+plato_animism_reform_craftsmen = {
+	production_efficiency = 0.1
+	development_cost = -0.1
+	build_cost = -0.1
+}
+plato_animism_reform_exploration = {
+	colonists = 1
+	may_explore = yes
+}
+plato_animism_reform_science = {
+	technology_cost = -0.1
+	global_institution_spread = 0.1
+}
+plato_animism_reform_diplomacy = {
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1
+	diplomats = 1
+}
+plato_animism_reform_cosmopolitan = {
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	religious_unity = 0.1
+}
+###########
+plato_liberty_modifier_aggression = {
+	global_unrest = 1
+	stability_cost_modifier = 0.25
+	development_cost = 0.1
+	land_morale = 0.1
+}
+plato_liberty_modifier_pacifism = {
+	global_unrest = -1
+	development_cost = -0.1
+	ae_impact = 0.15
+	land_morale = -0.1
+}
+plato_liberty_modifier_just_wars = {
+	tolerance_own = 1
+	land_morale = 0.1
+}
+plato_liberty_modifier_renaissancego = {
+	embracement_cost = -0.25
+	global_institution_spread = 0.25
+}
+plato_liberty_modifier_antirenaissance = {
+	embracement_cost = 0.5
+	global_institution_spread = -0.5
+}
+plato_liberty_modifier_bad_science = {
+	reform_progress_growth = -0.5
+	technology_cost = 0.05
+}
+plato_liberty_modifier_hate_progressivists = {
+	global_unrest = 2
+}
+plato_liberty_modifier_prepared_for_war = {
+	global_manpower_modifier = 0.1
+	manpower_recovery_speed = 0.1
+}
+
+plato_liberty_modifier_upset_nobles = {
+	free_leader_pool = -1
+	land_forcelimit_modifier = -0.15
+	global_manpower_modifier = -0.15
+}
+plato_liberty_modifier_big_unequality = {
+	global_unrest = 1
+	stability_cost_modifier = 0.25
+}
+plato_liberty_modifier_good_nobles = {
+	production_efficiency = 0.1
+	global_unrest = 0.5
+}
+
+################
+
+rig_buildings = {
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+}
+rig_papal = {
+	papal_influence = 2
+	devotion = 2
+}
+rig_faith_matters = {
+	global_missionary_strength = 0.01
+	tolerance_own = 1
+}
+rig_trade = {
+	merchants = 1
+	trade_range_modifier = 0.20
+}
+riga_learn = {
+	free_adm_policy = 1
+	idea_cost = -0.05
+	global_spy_defence = 0.15
+}
+riga_production_eff = {
+	development_cost = -0.1
+	build_cost = -0.1
+}
+rig_foreign = {
+	diplomatic_reputation = 1
+	merc_maintenance_modifier = -0.15
+}
+rig_fortified = {
+	shock_damage_received = -0.05
+	discipline = 0.05
+	hostile_attrition = 1.0
+}
+rig_grows = {
+	core_creation = -0.10
+	land_morale = 0.10
+	war_exhaustion = -0.05
+}
+
+###############
+
+plato_karling_france = {
+	yearly_absolutism = 0.5
+	legitimacy = 1
+}
+plato_karling_andalus_rip = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	diplomatic_reputation = 1
+}
+
+###############
+
+plato_itlaya_control = {
+	global_missionary_strength = 0.02
+	land_morale = 0.10
+}
+plato_itlaya_sciences = {
+	prestige = 1
+	diplomatic_reputation = 2
+}
+
+###############
+
+plato_statue_of_zeus = {
+	prestige = 0.5
+	legitimacy = 0.5
+	picture = "saint_icon"
+}
+
+plato_athenian_seabound = {
+	naval_morale = 0.10
+}
+plato_athenian_greece = {
+	land_morale = 0.10
+	tolerance_heathen = 3
+}
+plato_athenian_hephestus = {
+	production_efficiency = 0.15
+	global_trade_goods_size_modifier = 0.15
+}
+plato_athenian_great = {
+	prestige = 1
+	prestige_decay = -0.01	
+}
+plato_athenian_inovation = {
+	embracement_cost = -0.25
+	global_institution_spread = 0.25
+}
+
+###############
+
+plato_norge_iceland = {
+	range = 0.15
+	sailors_recovery_speed = 0.10
+}
+plato_norge_grenland = {
+	global_colonial_growth = 20
+	colonists = 1
+}
+plato_norge_vinlandes = {
+	navy_tradition = 1
+	colonists = 1
+}
+plato_norge_colonialpower = {
+	colonists = 1
+	global_colonial_growth = 15
+	envoy_travel_time = -0.15
+}
+
+###############
+
+pleito_industrial_birthplace = {
+	local_production_efficiency = 0.15
+	trade_goods_size_modifier = 0.15
+}
+
+###############
+
+ita_alpine_conquest = {
+	development_cost = -0.1
+	build_cost = -0.1
+}
+
+ita_french_conquest = {
+	diplomats = 1
+	legitimacy = 1
+}
+
+ita_spanish_conquest = {
+	army_tradition_decay = -0.01
+	culture_conversion_cost = -0.2
+}
+
+ita_diplomats = {
+	diplomatic_reputation = 1
+	diplomats = 1
+}
+
+ita_electors = {
+	diplomatic_upkeep = 2
+}
+
+ita_emperor = {
+	imperial_authority = 0.2
+	diplomatic_reputation = 2
+}
+
+###
+
+ita_rome = {
+	diplomatic_reputation = 3
+	discipline = 0.1
+	max_states = 20
+	monthly_splendor = 2
+	prestige = 2
+	prestige_decay = -0.02
+}
+
+###
+
+ita_habsburg_conquest = {
+	diplomatic_reputation = 1
+	imperial_authority = 0.1
+}
+
+ita_balkan_conquest = {
+	harsh_treatment_cost = -0.35
+}
+
+ita_constantinople_conquest = {
+	missionaries = 1
+	global_missionary_strength = 0.03
+}
+
+ita_ottoman_conquest = {
+	tolerance_heathen = 3
+	papal_influence = 2
+}
+
+###
+
+plato_outremer_divine = {
+	prestige_decay = -0.01
+	prestige = 1
+	papal_influence = 1
+}
+plato_outremer_maccah = {
+	diplomatic_reputation = 2
+	global_missionary_strength = 0.02
+	papal_influence = 2
+}
+plato_outremer_holy_lend = {
+	missionaries = 1
+	papal_influence = 2
+	tolerance_own = 2
+}
+
+###
+
+plato_dragon_armada = {
+	naval_morale = 0.1
+	sunk_ship_morale_hit_recieved = -0.1
+	recover_navy_morale_speed = 0.05
+}
+plato_dragon_turks = {
+	diplomatic_reputation = 2
+	papal_influence = 2
+	prestige = 1
+}
+
+####################################
+
+plato_ruthenia_stability = {
+	global_unrest = -1
+	global_tax_modifier = 0.1
+}
+plato_ruthenia_government_reform = {
+	all_power_cost = -0.05
+	innovativeness_gain = 0.5
+	reform_progress_growth = 0.25
+}
+plato_ruthenia_succesful_agrarian_reform = {
+	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
+}
+plato_ruthenia_zaporozhye = {
+	cavalry_cost = -0.2
+}
+plato_ruthenia_succesful_army_reform = {
+	discipline = 0.05
+	land_maintenance_modifier = -0.1
+	global_regiment_cost = -0.1
+}
+plato_ruthenia_north_ours = {
+	global_trade_power = 0.1
+	merchants = 1
+}
+plato_ruthenia_succesful_prestigious = {
+	prestige = 1
+	prestige_decay = -0.01
+	monthly_splendor = 1
+}
+
+####################################
+
+eco_fredom = {
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.05
+}
+capital_diplo = {
+	diplomatic_upkeep = 1
+	diplomats = 1
+}
+solidarity_tax = {
+	global_tax_modifier = 0.15
+}
+
+####################################
+
+academia_baltia = {
+	innovativeness_gain = 0.15
+	adm_tech_cost_modifier = -0.05
+	institution_growth = 1
+}
+great_baltic_port = {
+	naval_forcelimit = 2
+	ship_recruit_speed = -0.05
+	range = 0.15
+}
+
+####################################
+
+plato_baltia_ready_to_colonise = {
+	range = 0.5
+}
+plato_baltia_greenland = {
+	colonist_placement_chance = 0.05
+}
+plato_baltic_africa = {
+	trade_range_modifier = 0.15
+	global_foreign_trade_power = 0.15
+}
+
+####################################
+
+plato_blessed_modifier = {
+	global_unrest = -10
+	max_states = 10
+	yearly_corruption = -0.5
+	state_maintenance_modifier = -0.5
+	monarch_military_power = 1
+	monarch_diplomatic_power = 1
+	monarch_admin_power = 1
+	land_morale = 0.20
+	naval_morale = 0.20
+	discipline = 0.1
+	ship_durability = 0.1
+	global_tax_modifier = 0.2
+	global_missionary_strength = 0.05
+	missionaries = 1
+	diplomats = 1
+	merchants = 1
+	colonists = 1
+	heir_chance = 1
+	legitimacy = 1
+	devotion = 1
+	meritocracy = 1
+	republican_tradition = 1
+	yearly_tribal_allegiance = 1
+	prestige = 1
+	prestige_decay = -0.01	
+	manpower_recovery_speed = 0.2
+	global_manpower_modifier = 0.2
+	war_exhaustion = -0.25
+	diplomatic_reputation = 3
+	imperial_authority = 0.5
+	technology_cost = -0.2
+	idea_cost = -0.2
+	core_creation = -0.35
+	ae_impact = -0.35
+	all_power_cost = -0.25
+}
+
+###################################
+
+plato_baltia_caribs_disco = {
+	range = 0.25
+}
+plato_baltia_caribbean = {
+	global_colonial_growth = 10
+}
+plato_baltia_columbia = {
+	prestige = 1
+	colonists = 1
+}
+
+plato_army_reform = {
+	mil_tech_cost_modifier = -0.1
+}
+plato_baltic_navy = {
+	navy_tradition = 1
+}
+plato_baltic_dominance = {
+	merchants = 1
+	global_foreign_trade_power = 0.25
+}
+plato_baltic_industrializtione = {
+	global_trade_goods_size_modifier = 0.2
+}
+
+####################################
+
+plato_conversion_baltic = {
+	global_missionary_strength = 0.1
+	missionary_maintenance_cost = -0.33
+}
+
+plato_conversion_celtic = {
+	global_missionary_strength = 0.1
+	missionary_maintenance_cost = -0.33
+}
+
+####################################
+
+plato_rebuild_tavern_assholes = {
+	local_build_cost = -0.33
+}
+
+plato_sausais_likums = {
+	local_unrest = 5
+}
+
+plato_drunk_province = {
+	local_development_cost = 0.1
+	local_production_efficiency = -0.1
+	local_build_time = 0.1
+}
+
+plato_master_carpenter = {
+	local_build_cost = -0.25
+	local_development_cost = -0.25
+	local_production_efficiency = 0.15
+	picture = "craft_icon"
+}
+
+plato_poor_wood = {
+	build_cost = 0.25
+	ship_durability = -0.05
+}
+
+plato_ruler_saaremaa = {
+	naval_morale = 0.2
+	land_morale = 0.2
+	own_coast_naval_combat_bonus = 2.0
+	ae_impact = -0.25
+	unjustified_demands = -0.25
+}
+
+#####################################
+
+pb_bought_diplomat = {
+	diplomats = 1
+}
+pb_sold_diplomat = {
+	diplomats = -1
+}
+
+#################################
+
+lv_war_focus = {
+	discipline = 0.05
+}
+
+lv_trade_focus = {
+	merchants = 1
+}
+
+lv_production_focus = {
+	global_trade_goods_size_modifier = 0.10
+	production_efficiency = 0.10
+}
+
+lv_culture_focus = {
+	prestige = 1
+	prestige_decay = -0.01
+}
+
+lv_religion_focus = {
+	missionaries = 1
+	global_missionary_strength = 0.02
+}
+
+lv_diplomacy_focus = {
+	diplomatic_reputation = 2
+	diplomats = 1
+}
+
+latvia_is_developed = {
+	production_efficiency = 0.1
+}
+
+latvia_religious_state = {
+	tolerance_own = 2
+}
+
+blooming_riga = {
+	global_own_trade_power = 0.20
+}
+
+lv_livonian_order_crushed = {
+	diplomatic_reputation = 1
+	land_morale = 0.10
+}
+
+lv_meritocratic_country = {
+	all_power_cost = -0.1
+}
+
+lv_pagan_conversion = {
+	global_missionary_strength = 0.1
+	tolerance_own = 3
+}
+
+lv_eastern_ally = {
+	reduced_liberty_desire = 10
+	prestige = 1
+	diplomatic_reputation = 1
+	land_forcelimit_modifier = 0.1
+}
+
+lv_advanced_country = {
+	technology_cost = -0.1
+	embracement_cost = -0.1
+}
+
+lv_matters_of_faith_mission_modifier = {
+	global_unrest = -1
+}
+
+lv_culture_prospering = {
+	same_culture_advisor_cost = -0.2
+	culture_conversion_cost = -0.2
+}
+
+lv_pax_latviana = {
+	prestige = 1
+	stability_cost_modifier = -0.25
+}
+
+lv_riga_bloom = {
+	trade_range_modifier = 0.15
+	global_own_trade_power = 0.15
+	monthly_splendor = 1
+}
+
+lv_expansionist = {
+	ae_impact = -0.15
+}
+
+lv_ports_modifier = {
+	sailor_maintenance_modifer = -0.2
+	naval_maintenance_modifier = -0.2
+}
+
+lv_trade_baltic = {
+	global_trade_power = 0.2
+	trade_range_modifier = 0.20
+}
+
+lv_colonial_ambition = {
+	range = 0.33
+	global_colonial_growth = 25
+}
+
+lv_money_rain = {
+	inflation_reduction = 0.2
+	interest = -1
+}
+
+lv_german_conquest = {
+	land_morale = 0.10
+}
+
+lv_border_growth = {
+	core_creation = -0.15
+	years_of_nationalism = -5
+}
+
+lv_empire = {
+	monthly_splendor = 1
+	prestige = 1
+	diplomatic_reputation = 1
+}
+
+lv_dainas = {
+	prestige = 0.5
+}
+
+lv_renovated_riga_castle = {
+	prestige = 0.5
+	diplomatic_reputation = 1
+}
+
+lv_shitty_riga_castle = {
+	prestige = -0.5
+	diplomatic_reputation = -1
+}
+
+lv_strelnieki_formed  = {
+	fire_damage = 0.2
+}
+
+lv_national_library_built  = {
+	technology_cost = -0.2
+	prestige_decay = -0.01
+	idea_cost = -0.2
+}
+
+song_and_dance_festival_held  = {
+	global_unrest = -0.5
+}
+
+lv_spreading_baltic_rituals  = {
+	global_missionary_strength = 0.02
+}
+
+lv_sought_latgalian_warlord_support = {
+	discipline = 0.05
+}
+
+lv_sought_kurzeme_support = {
+	merchants = 1
+}
+
+lv_sought_rigan_support = {
+	technology_cost = -0.05
+}
+
+lv_perkona_cannons = {
+	artillery_cost = 0.2
+	artillery_power = 0.4
+}
+
+lv_higher_taxes = {
+	global_tax_modifier = 0.10
+}
+
+lv_lowered_taxes = {
+	global_tax_modifier = -0.20
+}
+
+lv_the_dark_office  = {
+	spy_offence = 0.25
+	global_spy_defence = 0.25
+	rebel_support_efficiency = 0.25
+}
+
+lv_intrigue_rebel_support  = {
+	rebel_support_efficiency = 0.25
+}
+
+lv_intrigue_claim_cost  = {
+	fabricate_claims_cost = -0.25
+}
+
+lv_intrigue_tech_cost  = {
+	technology_cost = -0.05
+	global_institution_spread = 0.10
+}
+
+lv_trade_local_power  = {
+	global_own_trade_power = 0.25
+}
+
+lv_trade_global_power  = {
+	global_trade_power = 0.25
+}
+
+lv_trade_range_plus  = {
+	trade_range_modifier = 0.25
+}
+
+lv_christian_intolerance = {
+	tolerance_heathen = -3
+	global_missionary_strength = 0.02
+}
+
+lv_christian_tolerance = {
+	global_unrest = -2
+	global_missionary_strength = -0.02
+}
+
+latvia_hre_emperor = {
+	imperial_authority = 0.2
+	diplomatic_reputation = 2
+	
+}
+
+latvia_colonialism_great = {
+	global_foreign_trade_power = 0.20
+	global_tariffs = 0.20
+	
+}
+
+latvia_is_pagan_fury = {
+	global_missionary_strength = 0.1
+	cb_on_religious_enemies = yes
+	prestige = 2
+	monthly_splendor = 2
+	
+}
+
+lv_sabotage_ambitions  = {
+	rebel_support_efficiency = 1
+}
+
+lv_sabotaged_morale = {
+	land_morale = -0.20
+}
+
+lv_agitated_deserters = {
+	land_forcelimit_modifier = -0.20
+}
+
+lv_caused_unrest = {
+	global_unrest = 5
+}
+
+lv_austria_reputation_tarnished = {
+	diplomatic_reputation = -3
+	prestige = -1
+	reduced_liberty_desire = -30
+}
+
+lv_amber_road = {
+	global_foreign_trade_power = 0.25
+	trade_range_modifier = 0.25
+	merchants = 1
+	prestige = 1
+	global_institution_spread = 0.25
+}
+
+lv_mezabrali_recruited = {
+	possible_mercenaries = 0.25
+}
+
+lv_quality_education = {
+	technology_cost = -0.05
+	global_unrest = -1
+}
+
+# Navy Reform
+
+lv_na_re_durability = {
+	ship_durability = 0.25
+}
+
+lv_na_re_forcelimit = {
+	naval_forcelimit_modifier = 0.25
+}
+
+lv_na_re_maintenance = {
+	naval_maintenance_modifier = -0.25
+}
+
+lv_na_re_buildtime = {
+	global_ship_recruit_speed = -0.25
+}
+
+lv_na_re_tradepower = {
+	global_ship_trade_power = 0.25
+}
+
+lv_na_re_colonialrange = {
+	range = 0.25
+}
+
+# Army reform
+
+lv_ar_re_discipline = {
+	discipline = 0.1
+}
+
+lv_na_re_accuracy = {
+	fire_damage = 0.1
+}
+
+lv_ar_re_sturdiness = {
+	shock_damage_received = -0.1
+}
+
+lv_ar_re_mobility = {
+	movement_speed = 0.20
+}
+
+lv_ar_re_morale = {
+	land_morale = 0.20
+}
+
+lv_ar_re_cavalry = {
+	cavalry_power = 0.25
+	cavalry_flanking = 0.25
+}
+
+lv_ar_re_artillery = {
+	artillery_power = 0.25
+	backrow_artillery_damage = 0.25
+}
+
+lv_ar_re_mercenaries = {
+	merc_maintenance_modifier = -0.25
+	mercenary_discipline = 0.1
+}

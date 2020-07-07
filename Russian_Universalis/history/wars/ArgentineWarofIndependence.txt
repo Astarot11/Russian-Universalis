@@ -1,4 +1,4 @@
-name = "Война Аргентины за независимость"
+name = "Война за независимость Аргентины"
 war_goal = {
 	type = defend_capital_independence
 	casus_belli = cb_independence_war
@@ -12,17 +12,17 @@ war_goal = {
 
 1817.2.12 = {
 	battle = {
-		name = "Чакабуко"
+		name = "Chacabuco"
 		location = 787
 		attacker = {
-			commander = "Хосе де Сан-Мартин"	# Josй de San Martin
+			commander = "Josй de San Martin"	# Josй de San Martin
 			infantry = 4000
 			cavalry = 600
 			losses = 2	# percent
 			country = LAP
 		}
 		defender = {
-			commander = "Рафаэль Марото"	# Rafael Maroto
+			commander = "Rafael Maroto"	# Rafael Maroto
 			infantry = 1500
 			losses = 58	# percent
 			country = SPA
@@ -33,16 +33,16 @@ war_goal = {
 
 1818.4.5 = {
 	battle = {
-		name = "Майпу"
+		name = "Maipъ"
 		location = 787
 		attacker = {
-			commander = "Хосе де Сан-Мартин"	# Josй de San Martin
+			commander = "Josй de San Martin"	# Josй de San Martin
 			infantry = 5000
 			losses = 20	# percent
 			country = LAP
 		}
 		defender = {
-			commander = "Мариано Осорио"	# Mariano Osorio
+			commander = "Mariano Osorio"	# Mariano Osorio
 			infantry = 5000
 			losses = 90	# percent
 			country = SPA

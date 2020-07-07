@@ -1,4 +1,4 @@
-name = "Война турков с мамлюками"
+name = "Османо-Мамлюкская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

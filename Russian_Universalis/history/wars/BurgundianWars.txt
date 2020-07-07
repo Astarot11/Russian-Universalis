@@ -20,10 +20,10 @@ war_goal = {
 
 1476.3.2 = {
 	battle = {
-		name = "Грансон"
+		name = "Grandson"
 		location = 165
 		attacker = {
-			commander = "Карл I"	# Charles I, Duke of Burgundy
+			commander = "Charles I"	# Charles I, Duke of Burgundy
 			infantry = 3000
 			cavalry = 4000
 			artillery = 50
@@ -31,7 +31,7 @@ war_goal = {
 			country = BUR
 		}
 		defender = {
-			commander = "Ганс фон Хальвил"	# Hans von Hallwyl
+			commander = "Hans von Hallwyl"	# Hans von Hallwyl
 			infantry = 12000
 			cavalry = 8000
 			losses = 1	# percent
@@ -43,10 +43,10 @@ war_goal = {
 
 1476.6.22 = {
 	battle = {
-		name = "Морат"
+		name = "Morat"
 		location = 165
 		attacker = {
-			commander = "Карл I"	# Charles I, Duke of Burgundy
+			commander = "Charles I"	# Charles I, Duke of Burgundy
 			infantry = 10000
 			cavalry = 5000
 			artillery = 200
@@ -54,7 +54,7 @@ war_goal = {
 			country = BUR
 		}
 		defender = {
-			commander = "Адриан фон Бубенберг"	# Adrian von Bubenberg
+			commander = "Adrian von Bubenberg"	# Adrian von Bubenberg
 			infantry = 15000
 			cavalry = 9000
 			losses = 10	# percent
@@ -66,10 +66,10 @@ war_goal = {
 
 1477.1.5 = {
 	battle = {
-		name = "Нанси"
+		name = "Nancy"
 		location = 189
 		attacker = {
-			commander = "Карл I"	# Charles I, Duke of Burgundy
+			commander = "Charles I"	# Charles I, Duke of Burgundy
 			infantry = 3000
 			cavalry = 1000
 			artillery = 200
@@ -77,7 +77,7 @@ war_goal = {
 			country = BUR
 		}
 		defender = {
-			commander = "Рене II"	# Renй II, Duke of Lorraine
+			commander = "Renй II"	# Renй II, Duke of Lorraine
 			infantry = 15000
 			cavalry = 3300
 			losses = 10	# percent

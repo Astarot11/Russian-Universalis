@@ -1,6 +1,6 @@
 #Pelym
 
-graphical_culture = easterngfx
+graphical_culture = northamericagfx
 
 color = { 167 209 173 }
 

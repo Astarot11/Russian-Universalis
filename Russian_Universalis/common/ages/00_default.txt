@@ -222,10 +222,13 @@ age_of_feudalism = { ###STT
 }
 
 age_of_discovery = {
-	start = 1400
+	start = 1444
 	
 	can_start = {
-		any_country = { has_idea = quest_for_the_new_world } ###STT
+		any_country = {
+			has_idea = quest_for_the_new_world 
+			NOT = { technology_group = north_american }
+		} ###STT
 	}
 	
 	religious_conflicts = yes
@@ -1504,9 +1507,10 @@ age_of_revolutions = {
 
 
 age_of_industrialism = {
-	start = 1830
+	start = 1850
 	
 	can_start = {
+		is_year = 1840
 		is_institution_enabled = industrialism
 	}
 	

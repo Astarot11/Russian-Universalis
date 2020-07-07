@@ -22,8 +22,8 @@ discovered_by = ottoman
 	revolt = {
 		type = pretender_rebels
 		size = 2
-		name = "Stefan Dragutin's Faction"
-		leader = "Stefan Dragutin"
+		name = "Фракция Стефана Драгутина"
+		leader = "Стефан Драгутин"
 	}
 }
 1312.1.1 = { revolt = {} controller = SER }

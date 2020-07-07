@@ -1,0 +1,19 @@
+ato_one_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ATO
+	}
+	has_country_shield = yes
+	
+	STT_ato_mission_choose_religion = {
+		icon = STT_mission_religion_two
+		trigger = {
+			2313 = { owned_by = ROOT }
+		}
+		effect = {
+			country_event = { id =  stt_kni.401 }
+		}
+	}
+}

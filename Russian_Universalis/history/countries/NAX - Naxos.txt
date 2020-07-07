@@ -5,6 +5,7 @@ primary_culture = venetian
 add_accepted_culture = greek
 religion = catholic
 technology_group = western
+historical_rival = SRU
 capital = 164	# Naxos
 fixed_capital = 164 # Cannot move capital away from this province & no power cost to move to it
 

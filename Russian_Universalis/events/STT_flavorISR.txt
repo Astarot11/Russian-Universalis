@@ -1,0 +1,124 @@
+#Талантливые пленные
+country_event = {
+	id = isr.1
+	title = "isr.1"
+	desc = "isr.1.desc"
+	picture = muslims_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = ISR
+	}
+	
+	option = { #Отобрать одного из них в качестве советника
+		name = "isr.1.a"
+		define_advisor = {
+			type = army_reformer
+			skill = 3
+			discount = yes
+			culture = al_misr_arabic
+			religion = sunni
+		}
+	}
+	option = { #Продать пленных в качестве рабов
+		name = "isr.1.b"
+		add_years_of_income = 0.1
+	}
+	option = { #Убить пленных
+		name = "isr.1.c"
+		MAM = { 
+			add_manpower = -2.5 
+		}
+		MAM = {
+			add_opinion = {
+				who = ISR
+				modifier = killed_the_captives
+			} 			
+		}
+	}
+	option = { #Вернуть пленных Мамлюкам
+		name = "isr.1.d"
+		MAM = {
+			add_opinion = {
+				who = ISR
+				modifier = returned_the_captives
+			}
+		}
+	}
+}
+
+#Судьба Дамаска
+country_event = {
+	id = isr.2
+	title = "isr.2"
+	desc = "isr.2.desc"
+	picture = isr_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = ISR
+	}
+	
+	option = { #Разграбить Дамаск
+		name = "isr.2.a"
+		382 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		add_years_of_income = 0.3
+		add_manpower = 1
+	}
+	option = { #Включить в состав, оставив самоуправление
+		name = "isr.2.b"
+		382 = {
+			add_province_modifier = {
+				name = provisional_self_government
+				duration = 3650
+			}
+		}
+	}
+	option = { #Изгнать часть жителей
+		name = "isr.2.c"
+		add_manpower = -1
+		382 = {
+			add_unrest = -1
+		}
+	}
+}
+
+#Земли крестоносцев
+country_event = {
+	id = isr.3
+	title = "isr.3"
+	desc = "isr.3.desc"
+	picture = fate_of_the_crusaders_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = ISR
+	}
+	
+	option = { #Занять новые крепости
+		name = "isr.3.a"
+		add_country_modifier = {
+			name = "new_fortresses"
+			duration = 3650
+		}
+	}
+	option = { #Изучить останки вооружения крестоносцев
+		name = "isr.3.b"
+		add_mil_power = 100
+	}
+	option = { #Передать находки соседним странам
+		name = "isr.3.c"
+		add_prestige = 5
+		add_dip_power = 100
+	}
+}

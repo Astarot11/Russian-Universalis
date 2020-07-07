@@ -1,4 +1,4 @@
-name = "Шестая австро-турецкая война"
+name = "Шестая Османо-Габсбургская война"
 
 war_goal = {
 	type = take_claim
@@ -16,17 +16,17 @@ war_goal = {
 # Battle of Saint Gotthard
 1664.8.1 = { 
 	battle = { 
-		name = "Сент-Готтард"
+		name = "Saint Gotthard"
 		location = 135
 		attacker = { 
-			commander = "Ахмед Кепрюлю"			# Ahmed Koprulu
+			commander = "Ahmed Koprulu"			# Ahmed Koprulu
 			infantry = 45000
 			cavalry = 15000
 			losses = 17			# percent 
 			country = TUR
 		} 
 		defender = { 
-			commander = "Раймондо Монтекукколи"			# Raimondo Montecuccoli
+			commander = "Raimondo Montecuccoli"			# Raimondo Montecuccoli
 			infantry = 30000
 			cavalry = 10000
 			losses = 5			# percent 

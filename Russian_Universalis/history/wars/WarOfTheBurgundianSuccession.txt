@@ -1,4 +1,4 @@
-name = "Война за Бургундское наследство"
+name = "Война за бургундское наследство"
 war_goal = {
 	type = take_core
 	casus_belli = cb_core

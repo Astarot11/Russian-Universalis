@@ -18,8 +18,7 @@ discovered_by = nomad_group
 
 1310.1.1. = { owner = YAN add_core = YAN controller = YAN remove_core = YUA }
 1310.1.2 = { owner = YUA controller = YUA add_core = YUA }#Multiplayer balans
-1368.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1371.1.1 = { owner = MNG controller = MNG remove_core = YUA add_core = MNG }
+1368.1.1 = { owner = MNG controller = MNG remove_core = YUA add_core = MNG }
 1500.1.1 = { base_tax = 9 
 base_production = 9 } # Repairs of the Great Wall
 1519.1.1 = { discovered_by = POR } # Tome Pires

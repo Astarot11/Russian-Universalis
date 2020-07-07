@@ -166,7 +166,7 @@ HUN_religion_tolerance = {
 
 BYZ_wall666 = {
 	garrison_growth = 0.25
-	local_defensiveness = 0.2
+	local_defensiveness = 0.7
 }
 
 ai_boost_wall = { fort_maintenance_modifier = -0.33 }

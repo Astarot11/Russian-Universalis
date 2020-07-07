@@ -1,4 +1,4 @@
-name = "Франко-прованский конфликт"
+name = "Конфликт между Францией и Провансом"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

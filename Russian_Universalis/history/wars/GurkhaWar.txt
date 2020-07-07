@@ -1,4 +1,4 @@
-name = "Англо-непальская война"
+name = "Гуркхская война"
 war_goal = {
 	type = superiority_punitive
 	casus_belli = cb_super_badboy

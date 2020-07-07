@@ -1,4 +1,4 @@
-name = "Корейская семилетняя война"
+name = "Имдинская война"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
@@ -15,16 +15,16 @@ war_goal = {
 
 1592.5.26 = {
 	battle = {
-		name = "Санджу"
+		name = "Busan"
 		location = 736
 		attacker = {
-			commander = "Кониси Юкинага"
+			commander = "Konishi Yukinaga"
 			infantry = 18000
 			losses = 5	# percent
 			country = ODA
 		}
 		defender = {
-			commander = "Чон Баль"
+			commander = "Jeong Bal"
 			infantry = 8000
 			losses = 90	# percent
 			country = KOR
@@ -35,16 +35,16 @@ war_goal = {
 
 1592.6.6 = {
 	battle = {
-		name = "Чхунджу"
+		name = "Ch'ungju"
 		location = 735
 		attacker = {
-			commander = "Кониси Юкинага"	# Konishi Yukinaga
+			commander = "Konishi Yukinaga"	# Konishi Yukinaga
 			infantry = 18000
 			losses = 3	# percent
 			country = ODA
 		}
 		defender = {
-			commander = "Синь Лип"	# Sin Lip
+			commander = "Shin Rip"	# Sin Lip
 			infantry = 8000
 			losses = 38	# percent
 			country = KOR
@@ -55,17 +55,17 @@ war_goal = {
 
 1592.6.16 = {
 	battle = {
-		name = "Орен" # Yi's initial naval campaign
+		name = "Okpo" # Yi's initial naval campaign
 		location = 1376
 		defender = {
-			commander = "И Сунсин"	# Yi Sun-sin
+			commander = "Yi Sun-sin"	# Yi Sun-sin
 			heavy_ship = 28
 			light_ship = 18
 			losses = 0	# percent
 			country = KOR
 		}
 		attacker = {
-			commander = "Тодо Такатора"	# Todo Takatora
+			commander = "Todo Takatora"	# Todo Takatora
 			heavy_ship = 5
 			light_ship = 63
 			losses = 60	# percent
@@ -77,16 +77,16 @@ war_goal = {
 
 1592.7.7 = {
 	battle = {
-		name = "Весеннее наступление"
+		name = "Imjin River"
 		location = 735
 		attacker = {
-			commander = "Като Киёмаса"	
+			commander = "Kato Kiyomasa"	
 			infantry = 20000
 			losses = 5	# percent
 			country = ODA
 		}
 		defender = {
-			commander = "Ким Мянву"
+			commander = "Kim Myeong-wo"
 			infantry = 13000
 			losses = 40	# percent
 			country = KOR
@@ -101,16 +101,16 @@ war_goal = {
 
 1592.8.14 = {
 	battle = {
-		name = "Ханань" #Hansan Island
+		name = "Hansan" #Hansan Island
 		location = 1376
 		defender = {
-			commander = "И Сунсин"	# Yi Sun-sin
+			commander = "Yi Sun-sin"	# Yi Sun-sin
 			heavy_ship = 56
 			losses = 0	# percent
 			country = KOR
 		}
 		attacker = {
-			commander = "Вакисака"	# Wakizaka
+			commander = "Wakizaka"	# Wakizaka
 			heavy_ship = 60
 			light_ship = 13
 			losses = 64	# percent
@@ -122,16 +122,16 @@ war_goal = {
 
 1593.2.8 = {
 	battle = {
-		name = "Пхеньян" #2nd Battle of Pyongyang
+		name = "Pyongyang" #2nd Battle of Pyongyang
 		location = 1845
 		defender = {
-			commander = "Ли Рисунь"
+			commander = "Li Rusong"
 			infantry = 53000
 			losses = 5	# percent
 			country = MNG
 		}
 		attacker = {
-			commander = "Кониси Юкинага"
+			commander = "Konishi Yukinaga"
 			infantry = 15000
 			losses = 8	# percent
 			country = ODA
@@ -142,16 +142,16 @@ war_goal = {
 
 1593.2.27 = {
 	battle = {
-		name = "Одавара"
+		name = "Byeokjegwan"
 		location = 735
 		attacker = {
-			commander = "Укита Хидэиэ"
+			commander = "Ukita Hideie"
 			infantry = 41000
 			losses = 8	# percent
 			country = ODA
 		}
 		defender = {
-			commander = "Ли Рисунь"
+			commander = "Li Rusong"
 			infantry = 20000
 			losses = 35	# percent
 			country = MNG
@@ -162,16 +162,16 @@ war_goal = {
 
 1597.8.27 = {
 	battle = {
-		name = "Чхильчхоллян"
+		name = "Chilcheollyang"
 		location = 1376
 		attacker = {
-			commander = "Тодо Такатора"	# Todo Takatora
+			commander = "Todo Takatora"	# Todo Takatora
 			heavy_ship = 500
 			losses = 1	# percent
 			country = ODA
 		}
 		defender = {
-			commander = "Ян Юань"	# Won Gyan
+			commander = "Won Gyan"	# Won Gyan
 			heavy_ship = 169
 			losses = 93	# percent
 			country = KOR
@@ -182,16 +182,16 @@ war_goal = {
 
 1597.10.26 = {
 	battle = {
-		name = "Менгнян"
+		name = "Myeongnyang"
 		location = 1376
 		defender = {
-			commander = "И Сунсин"	# Yi Sun-sin
+			commander = "Yi Sun-sin"	# Yi Sun-sin
 			heavy_ship = 13
 			losses = 0	# percent
 			country = KOR
 		}
 		attacker = {
-			commander = "Тодо Такатора"	# Todo Takatora
+			commander = "Todo Takatora"	# Todo Takatora
 			heavy_ship = 133
 			light_ship = 200
 			losses = 9	# percent

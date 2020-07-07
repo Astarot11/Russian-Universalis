@@ -5,3 +5,89 @@ religion = orthodox
 technology_group = eastern
 capital = 423 # Kutaisi
 government_rank = 2
+
+1247.1.1 = {
+	monarch = {
+		name = "Давид VII Улу"
+		dynasty = "Багратион"
+		birth_date = 1270.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1270.1.1 = {
+	monarch = {
+		name = "Деметре II"
+		monarch_name = " Деметре II"
+		dynasty = "Багратион"
+		birth_date = 1259.1.1
+		death_date = 1289.3.12
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1289.3.15 = {
+	monarch = {
+		name = "Вахтанг II"
+		dynasty = "Багратион"
+		birth_date = 1251.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1293.1.1 = {
+	monarch = {
+		name = "Давид VII"
+		monarch_name = "Давид VII"
+		dynasty = "Багратион"
+		birth_date = 1278.1.1
+		death_date = 1311.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1302.1.1 = {
+	monarch = {
+		name = "Вахтанг III"
+		dynasty = "Багратион"
+		birth_date = 1278.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1292.1.1 = {
+	heir = {
+		name = "Георгий V"
+		monarch_name = " Георгий V"
+		dynasty = "Багратион"
+		birth_date = 1287.1.1
+		death_date = 1346.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1314.1.1 = {
+	monarch = {
+		name = "Георгий"
+		dynasty = "Багратион"
+		birth_date = 1287.1.1
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

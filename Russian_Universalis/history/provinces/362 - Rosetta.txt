@@ -1,4 +1,4 @@
-#362 - Delta
+#362 - Delta; Rosetta
 
 owner = MAM
 controller = MAM
@@ -7,9 +7,9 @@ religion = sunni
 capital = "Rashid"
 trade_goods = fish
 hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
 add_core = MAM
 discovered_by = western
@@ -36,11 +36,7 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1517.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Conquered by Ottoman troops
+1517.1.1 = { owner = TUR controller = TUR add_core = TUR } # Conquered by Ottoman troops
 1520.11.10 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } # Mameluk Uprising under Canbirdi Ghazeli
 1521.1.1 = { revolt = {} controller = TUR }
 1586.1.1 = { unrest = 2 } # Beginning of oppositions

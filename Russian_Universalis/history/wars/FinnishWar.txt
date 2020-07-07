@@ -1,4 +1,4 @@
-name = "Финляндская война"
+name = "Финская война"
 war_goal = {
 	type = superiority_trade_mutual
 	casus_belli = cb_trade_war
@@ -19,16 +19,16 @@ war_goal = {
 
 1808.3.2 = {
 	battle = {
-		name = "Свеаборг"
+		name = "Sveaborg"
 		location = 28
 		attacker = {
-			commander = "Фёдор Буксгевден"	# Friedrich Wilhelm von Buxhoeveden
+			commander = "Friedrich Wilhelm von Buxhoeveden"	# Friedrich Wilhelm von Buxhoeveden
 			infantry = 1100
 			losses = 1	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Карл-Олоф Кронштедт"	# Carl Olof Cronstedt
+			commander = "Carl Olof Cronstedt"	# Carl Olof Cronstedt
 			infantry = 7500
 			artillery = 2000
 			losses = 1	# percent
@@ -41,16 +41,16 @@ war_goal = {
 
 1808.4.18 = {
 	battle = {
-		name = "Сикаиоки"
+		name = "Siikajoki"
 		location = 19
 		attacker = {
-			commander = "Яков Кульнев" 	# Yakov Petrovitch Kulnev
+			commander = "Yakov Petrovitch Kulnev" 	# Yakov Petrovitch Kulnev
 			infantry = 1080
 			losses = 3	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Карл-Юхан Адлеркрейц"	# Carl Johan Adlercreutz
+			commander = "Carl Johan Adlercreutz"	# Carl Johan Adlercreutz
 			infantry = 400
 			losses = 1	# percent
 			country = SWE
@@ -61,16 +61,16 @@ war_goal = {
 
 1808.4.27 = {
 	battle = {
-		name = "Револакс"
+		name = "Revolax"
 		location = 19
 		attacker = {
-			commander = "Михаил Булатов" 	# Michail Leontjevich Bulatov
+			commander = "Michail Leontjevich Bulatov" 	# Michail Leontjevich Bulatov
 			infantry = 1080
 			losses = 17	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Вильгельм Мориц Клингспор" 	# Wilhelm Mauritz Klingspor
+			commander = "Wilhelm Mauritz Klingspor" 	# Wilhelm Mauritz Klingspor
 			infantry = 2300
 			losses = 4	# percent
 			country = SWE
@@ -82,16 +82,16 @@ war_goal = {
 
 1808.5.2 = {
 	battle = {
-		name = "Пулккила"
+		name = "Pulkkila"
 		location = 19
 		attacker = {
-			commander = "Обухов"	# Obuhov
+			commander = "Obuhov"	# Obuhov
 			infantry = 1200
 			losses = 5	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Юхан-Август Сандельс"	# Johan August Sandels
+			commander = "Johan August Sandels"	# Johan August Sandels
 			infantry = 1500
 			losses = 3	# percent
 			country = SWE
@@ -102,16 +102,16 @@ war_goal = {
 
 1808.7.14 = {
 	battle = {
-		name = "Лапуа"
+		name = "Lapua"
 		location = 27
 		attacker = {
-			commander = "Николай Раевский"	# Nikolai Nikolaievitsch Rayevskij
+			commander = "Nikolai Nikolaievitsch Rayevskij"	# Nikolai Nikolaievitsch Rayevskij
 			infantry = 4000
 			losses = 1	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Карл-Юхан Адлеркрейц"	# Carl Johan Adlercreutz
+			commander = "Carl Johan Adlercreutz"	# Carl Johan Adlercreutz
 			infantry = 4650
 			losses = 1	# percent
 			country = SWE
@@ -122,16 +122,16 @@ war_goal = {
 
 1808.8.10 = {
 	battle = {
-		name = "Каухайоки"
+		name = "Kauhajoki"
 		location = 27
 		attacker = {
-			commander = "Шепелев" 	# Schepeljeff
+			commander = "Schepeljeff" 	# Schepeljeff
 			infantry = 2000
 			losses = 1	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Георг-Карл фон Дёбельн" 	# Georg Carl von Dцbeln
+			commander = "Georg Carl von Dцbeln" 	# Georg Carl von Dцbeln
 			infantry = 2000
 			losses = 1	# percent
 			country = SWE
@@ -142,16 +142,16 @@ war_goal = {
 
 1808.8.17 = {
 	battle = {
-		name = "Алавус"
+		name = "Alavus"
 		location = 27
 		attacker = {
-			commander = "Эриксон"	# Erikson
+			commander = "Erikson"	# Erikson
 			infantry = 2400
 			losses = 15	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Карл-Юхан Адлеркрейц" 	# Carl Johan Adlercreutz
+			commander = "Carl Johan Adlercreutz" 	# Carl Johan Adlercreutz
 			infantry = 3900
 			losses = 5	# percent
 			country = SWE
@@ -162,16 +162,16 @@ war_goal = {
 
 1808.9.13 = {
 	battle = {
-		name = "Ютас"
+		name = "Jutas"
 		location = 27
 		attacker = {
-			commander = "Косачевский"	# Kosatchoffskij
+			commander = "Kosatchoffskij"	# Kosatchoffskij
 			infantry = 1500
 			losses = 9	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Георг-Карл фон Дёбельн"	# Georg Carl von Dцbeln
+			commander = "Georg Carl von Dцbeln"	# Georg Carl von Dцbeln
 			infantry = 1500
 			losses = 3	# percent
 			country = SWE
@@ -182,16 +182,16 @@ war_goal = {
 
 1808.9.14 = {
 	battle = {
-		name = "Оровайс"
+		name = "Oravais"
 		location = 27
 		attacker = {
-			commander = "Николай Каменский"	# Nikolay Mikhailovich Kamensky
+			commander = "Nikolay Mikhailovich Kamensky"	# Nikolay Mikhailovich Kamensky
 			infantry = 6500
 			losses = 15	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Карл-Юхан Адлеркрейц"	# Carl Johan Adlercreutz
+			commander = "Carl Johan Adlercreutz"	# Carl Johan Adlercreutz
 			infantry = 5000
 			losses = 16	# percent
 			country = SWE
@@ -202,16 +202,16 @@ war_goal = {
 
 1808.10.27 = {
 	battle = {
-		name = "Колъенвирта"
+		name = "Koljonvirta"
 		location = 31
 		attacker = {
-			commander = "Николай Тучков"	# Nikolai Alexejvitsch Tutschkoff
+			commander = "Nikolai Alexejvitsch Tutschkoff"	# Nikolai Alexejvitsch Tutschkoff
 			infantry = 7000
 			losses = 15	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Юхан-Август Сандельс"	# Johan August Sandels
+			commander = "Johan August Sandels"	# Johan August Sandels
 			infantry = 1800
 			losses = 17	# percent
 			country = SWE
@@ -222,16 +222,16 @@ war_goal = {
 
 1809.8.19 = {
 	battle = {
-		name = "Ратань"
+		name = "Sдvar and Ratan"
 		location = 11
 		attacker = {
-			commander = "Николай Каменский"	# Nikolay Mikhailovich Kamensky
+			commander = "Nikolay Mikhailovich Kamensky"	# Nikolay Mikhailovich Kamensky
 			infantry = 5000
 			losses = 35	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Густав Вахтмейстер"	# Gustaf Wachtmeister
+			commander = "Gustaf Wachtmeister"	# Gustaf Wachtmeister
 			infantry = 6800
 			losses = 17	# percent
 			country = SWE

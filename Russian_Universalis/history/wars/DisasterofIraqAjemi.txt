@@ -1,4 +1,4 @@
-name = "Вторжение в Эрак"
+name = "Вторжение в Ирак-э-Аджам"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

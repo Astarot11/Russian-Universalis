@@ -1,4 +1,4 @@
-name = "Завоевание Райчур Доаб"
+name = "Завоевание Райчур Доаба"
 
 war_goal = {
 	type = take_border

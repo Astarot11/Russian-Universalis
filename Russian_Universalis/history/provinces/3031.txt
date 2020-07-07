@@ -29,7 +29,7 @@ discovered_by = ottoman
 1420.1.1 = { owner = VEN controller = VEN add_core = VEN }
 1478.1.1 = { add_core = TUR } # Conquered Zabljak, but never fully conquered Zeta
 1499.1.1 = { owner = TUR controller = TUR }
-1515.1.1 = { owner = MON controller = MON remove_core = TUR } # Prince-bishops of Cetinje
+1515.1.1 = { owner = MON add_core = MON controller = MON remove_core = TUR } # Prince-bishops of Cetinje
 1709.1.1 = { unrest = 5 } # Montenegro's Muslim converts were massacred at Vladika Danilo's order
 1712.1.1 = { unrest = 2 } # Cetinje sacked again as a response
 1810.1.1 = { owner = FRA controller = FRA }

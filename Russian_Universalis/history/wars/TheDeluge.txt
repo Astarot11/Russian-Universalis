@@ -1,4 +1,4 @@
-name = "Потоп"
+name = "Русско-Польская война"
 
 war_goal = {
 	type = take_claim

@@ -13,6 +13,7 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = PAP }
+			NOT = { tag = TRE }
 			NOT = { exists = ROM }
 			OR = {
 				religion_group = christian
@@ -93,7 +94,8 @@ country_decisions = {
 				}
 			}
 			set_government_rank = 3
-			change_government = rome_government ### STT
+			change_government = monarchy ### STT
+			add_government_reform = rome_government
 			add_legitimacy = 50 ### STT
 			add_prestige = 50
 			add_core = 118 # Rome
@@ -183,6 +185,7 @@ form_the_latin_empire = { 	### STT
 			NOT = { exists = PQR }
 			NOT = { exists = ROM }
 			NOT = { tag = BYZ }
+			NOT = { tag = TRE }
 		}
 		allow = {
 			OR = {
@@ -191,6 +194,7 @@ form_the_latin_empire = { 	### STT
 			}
 			owns = 118
 			NOT = {	is_year = 1500 }
+			NOT = { tag = PAP }
 			is_at_war = no
 			num_of_owned_provinces_with = {
 				value = 20

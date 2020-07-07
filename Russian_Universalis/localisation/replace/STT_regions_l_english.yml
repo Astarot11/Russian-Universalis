@@ -107,7 +107,7 @@
  greenland_area: "Ãðåíëàíäèÿ"
  athabasca_area: "Àëüáåðòà"
  lower_kasai_area: "Íèæíÿÿ Êàñàè"
- north_korea_area: "Ñåâåðíàÿ êîðåÿ"
+ north_korea_area: "Ñåâåðíàÿ Êîðåÿ"
  arctic: "Àðêòè÷åñêàÿ"
  desc_arctic: "Ñåâåðíûé êëèìàò ñóðîâûé, ãäå íåò íèêàêîé ðàñòèòåëüíîñòè."
  tundra: "Òóíäðà"
@@ -192,3 +192,4 @@
  unaiza_area:0 "Íåäæä"
  hail_area:0 "Õàèëü"
  kazvin_area:0 "Êàçâèí"
+

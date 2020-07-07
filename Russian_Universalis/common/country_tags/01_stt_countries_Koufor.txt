@@ -1,0 +1,8 @@
+CAP = "countries/Cappadocia.txt"
+PHI = "countries/Philadelphia.txt"
+ATO = "countries/Antioch.txt"
+SCH = "countries/Chios.txt"
+NEO = "countries/Neopatria.txt"
+NGR = "countries/Negroponte.txt"
+CCZ = "countries/Kefalonia and Zakynthos.txt"
+TUT = "countries/Tuat.txt"

@@ -158,6 +158,17 @@ religious_school = shafii_school
 	}
 }
 
+1308.1.1 = {
+    add_country_modifier = {
+	    name = "mam_devastation_one"
+		duration = -1
+	}
+	add_country_modifier = {
+	    name = "mam_stability_one"
+		duration = -1
+	}
+}
+
 1309.1.1 = {
 	monarch = {
 		name = "Бейбарс II аль-Джашанкир"
@@ -260,6 +271,19 @@ religious_school = shafii_school
 	}
 }
 
+1352.1.1 = {
+    add_country_modifier = {
+	    name = "mam_devastation_two"
+		duration = -1
+	}
+	add_country_modifier = {
+	    name = "mam_stability_two"
+		duration = -1
+	}
+	remove_country_modifier = mam_devastation_one
+	remove_country_modifier = mam_stability_one
+}
+
 1354.1.1 = {
 	monarch = {
 		name = "Аль-Хасан ан-Насир"
@@ -291,6 +315,11 @@ religious_school = shafii_school
 		dip = 2
 		mil = 2
 	}
+}
+
+1365.1.1 = {
+	remove_country_modifier = mam_devastation_two
+	remove_country_modifier = mam_stability_two
 }
 
 1376.1.1 = {
@@ -326,6 +355,7 @@ religious_school = shafii_school
 	}
 	add_piety = 0.5
 }
+
 
 1412.1.1 = {
 	monarch = {

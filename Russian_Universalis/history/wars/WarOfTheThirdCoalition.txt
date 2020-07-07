@@ -1,4 +1,4 @@
-name = "Война третьей коалиции"
+name = "Война Третьей коалиции"
 
 war_goal = {
 	type = take_capital_revolution
@@ -39,16 +39,16 @@ war_goal = {
 
 1805.9.25 = {
 	battle = {
-		name = "мыс Финистерр"
+		name = "Cape Finisterre"
 		location = 1290
 		attacker = {
-			commander = "Роберт Колдер"	# Robert Calder
+			commander = "Robert Calder"	# Robert Calder
 			heavy_ship = 15
 			losses = 2	# percent
 			country = GBR
 		}
 		defender = {
-			commander = "Пьер де Вильнёв"	# Pierre de Villeneuve
+			commander = "Pierre de Villeneuve"	# Pierre de Villeneuve
 			heavy_ship = 14
 			losses = 3	# percent
 			country = FRA
@@ -59,16 +59,16 @@ war_goal = {
 
 1805.10.8 = {
 	battle = {
-		name = "Вертинген"
+		name = "Wertingen"
 		location = 64
 		attacker = {
-			commander = "Франц Ауффенберг"	# Franz Xavier Auffenberg
+			commander = "Franz Xavier Auffenberg"	# Franz Xavier Auffenberg
 			infantry = 12000
 			losses = 7	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Иоахим Мюрат"	# Joachim Murat
+			commander = "Joachim Murat"	# Joachim Murat
 			infantry = 5500
 			losses = 2	# percent
 			country = FRA
@@ -79,16 +79,16 @@ war_goal = {
 
 1805.10.11 = {
 	battle = {
-		name = "Хаслах-Юнгинген"
+		name = "Haslach-Jungingen"
 		location = 74
 		attacker = {
-			commander = "Карл Мак"	# Karl Mack von Lieberich
+			commander = "Karl Mack von Lieberich"	# Karl Mack von Lieberich
 			infantry = 25000
 			losses = 2	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Пьер-Антуан Дюпон де л’Этан"	# Pierre Dupont de l'Etang
+			commander = "Pierre Dupont de l'Etang"	# Pierre Dupont de l'Etang
 			infantry = 6000
 			losses = 16	# percent
 			country = FRA
@@ -99,16 +99,16 @@ war_goal = {
 
 1805.10.16 = {
 	battle = {
-		name = "Ульм"
+		name = "Ulm"
 		location = 70
 		attacker = {
-			commander = "Карл Мак"	# Karl Mack von Liebereich
+			commander = "Karl Mack von Liebereich"	# Karl Mack von Liebereich
 			infantry = 72000
 			losses = 16	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 150000
 			losses = 4	# percent
 			country = FRA
@@ -124,16 +124,16 @@ war_goal = {
 
 1805.10.21 = {
 	battle = {
-		name = "Трафальгар"
+		name = "Trafalgar"
 		location = 1292
 		attacker = {
-			commander = "Горацио Нельсон" 	# Horatio Nelson
+			commander = "Horatio Nelson" 	# Horatio Nelson
 			heavy_ship = 27
 			losses = 2	# percent
 			country = GBR
 		}
 		defender = {
-			commander = "Пьер де Вильнёв"	# Pierre de Villeneuve
+			commander = "Pierre de Villeneuve"	# Pierre de Villeneuve
 			heavy_ship = 33
 			light_ship = 8
 			losses = 22	# percent
@@ -145,16 +145,16 @@ war_goal = {
 
 1805.10.30 = {
 	battle = {
-		name = "Кальдьеро"
+		name = "Caldiero"
 		location = 108
 		attacker = {
-			commander = "Эрцгерцог Карл" 	# Charles of Austria
+			commander = "Charles of Austria" 	# Charles of Austria
 			infantry = 50000
 			losses = 6	# percent
 			country = HAB
 		}
 		defender = {
-			commander = "Андре Массена"	# Andrй Massйna
+			commander = "Andrй Massйna"	# Andrй Massйna
 			infantry = 37000
 			losses = 11	# percent
 			country = FRA
@@ -175,16 +175,16 @@ war_goal = {
 
 1805.11.5 = {
 	battle = {
-		name = "Амштеттен"
+		name = "Amstetten"
 		location = 134
 		attacker = {
-			commander = "Петр Багратион" 	# Pyotr Bagration
+			commander = "Pyotr Bagration" 	# Pyotr Bagration
 			infantry = 6700
 			losses = 7	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Иоахим Мюрат" 	# Marshal Murat
+			commander = "Marshal Murat" 	# Marshal Murat
 			infantry = 10000
 			losses = 10	# percent
 			country = FRA
@@ -195,16 +195,16 @@ war_goal = {
 
 1805.11.11 = {
 	battle = {
-		name = "Дюренштайн"
+		name = "Dьrenstein"
 		location = 134
 		attacker = {
-			commander = "Михаил Кутузов" 	# Mikhail Illarionovich Kutuzov
+			commander = "Mikhail Illarionovich Kutuzov" 	# Mikhail Illarionovich Kutuzov
 			infantry = 24000
 			losses = 8	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Эдуард Мортье"	# Йdouard Mortier
+			commander = "Йdouard Mortier"	# Йdouard Mortier
 			infantry = 8000
 			losses = 22	# percent
 			country = FRA
@@ -215,16 +215,16 @@ war_goal = {
 
 1805.11.16 = {
 	battle = {
-		name = "Шенграбен"
+		name = "Schцngrabern"
 		location = 134
 		attacker = {
-			commander = "Петр Багратион" 	# Pyotr Bagration
+			commander = "Pyotr Bagration" 	# Pyotr Bagration
 			infantry = 7300
 			losses = 34	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Иоахим Мюрат"	# Joachim Murat
+			commander = "Joachim Murat"	# Joachim Murat
 			infantry = 21000
 			losses = 6	# percent
 			country = FRA
@@ -235,16 +235,16 @@ war_goal = {
 
 1805.12.2 = {
 	battle = {
-		name = "Аустерлитц"
+		name = "Austerlitz"
 		location = 265
 		attacker = {
-			commander = "Александр I" 	# Aleksandr I Pavlovich
+			commander = "Aleksandr I Pavlovich" 	# Aleksandr I Pavlovich
 			infantry = 73000
 			losses = 21	# percent
 			country = RUS
 		}
 		defender = {
-			commander = "Наполеон Бонапарт"	# Napolйon Bonaparte
+			commander = "Napolйon Bonaparte"	# Napolйon Bonaparte
 			infantry = 65000
 			losses = 2	# percent
 			country = FRA

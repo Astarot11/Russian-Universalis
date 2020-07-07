@@ -527,4 +527,34 @@ spriteTypes = {
 		name = "government_reform_stt_all_estates_free"
 		texturefile = "gfx//interface//government_reform_icons//stt_all_estates_free.dds"
 	}
+	
+	spriteType = {
+		name = "government_reform_stt_rome_government"
+		texturefile = "gfx//interface//government_reform_icons//stt_rome_government.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_stt_spqr_republic"
+		texturefile = "gfx//interface//government_reform_icons//stt_spqr_republic.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_stt_carthage_republic"
+		texturefile = "gfx//interface//government_reform_icons//stt_carthage_republic.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_stt_knyaz_veche_republic"
+		texturefile = "gfx//interface//government_reform_icons//stt_knyaz_veche_republic.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_stt_rus_imperial_government"
+		texturefile = "gfx//interface//government_reform_icons//stt_rus_imperial_government.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_stt_kaiserreich_government"
+		texturefile = "gfx//interface//government_reform_icons//stt_kaiserreich_government.dds"
+	}
 }

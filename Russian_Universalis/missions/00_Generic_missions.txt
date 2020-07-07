@@ -1,0 +1,1297 @@
+#These are Generic missions, available to all tags that don't have an override.
+
+#Below are mission series, within them are the actual missions.
+
+military_missions = { #Series name is displayed over the slot?
+	slot = 2 #ie, second upper left column
+	generic = yes #if a mission without generic = yes wants this slot then it overrides this.
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		always = yes
+	} #These are triggers for the entire series
+	
+	#missions
+	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
+	build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		required_missions = {  } #None
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	#2nd tier: (second because it is the second mission to be listed)
+	expand_country_mission = {
+		icon = mission_conquer_50_development
+		required_missions = { build_army_mission }
+		trigger = { grown_by_development = 50 }
+		effect = {
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 9125 #25 years
+					}
+				}
+			}
+		}
+	}
+	#3d Tier: (not actually scripted as third, it's third as it is the 3rd one in this mission series)
+	conquer_states = {
+		icon = mission_cannons_firing
+		required_missions = { expand_country_mission }
+		trigger = { grown_by_states = 5 }
+		effect = {
+			add_country_modifier = {
+				name = "expansionist_country"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	#4th
+	assemble_an_army = {
+		icon = mission_assemble_an_army
+		required_missions = { conquer_states }
+		trigger = { army_size = 80 }
+		effect = {
+			add_country_modifier = {
+				name = "army_enthusiasm"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	#5th
+	unite_home_region = {
+		icon = mission_unite_home_region
+		required_missions = { assemble_an_army }
+		provinces_to_highlight = {
+			region_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			capital_scope = {
+				region_for_scope_province = {
+					type = all
+					owned_by = ROOT #Subjects won't count, empty provinces will need to be colonized.
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "hegemonic_ambition"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}
+
+
+#2nd mission series:
+diplomatic_missions = {
+	slot = 3
+	
+	generic = yes
+	
+	potential = {
+	   always = yes
+	}
+	
+	building_alliances = {
+		icon = mission_alliances
+		required_missions = {  } #none
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = building_alliances.tooltip
+				num_of_allies = 2
+				calc_true_if = {
+					all_ally = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+					amount = 2
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "influential_diplomacy"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	have_two_subjects = {
+		icon = mission_have_two_subjects
+		required_missions = { building_alliances }
+		trigger = { num_of_non_tributary_subjects = 2 }
+		effect = {
+			add_country_modifier = {
+				name = "obedient_subjects"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	establish_high_seas_navy = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { have_two_subjects }
+		trigger = { 
+			OR = {
+				num_of_heavy_ship = 10 
+				num_of_galley = 30
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	dominate_home_trade_node = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { establish_high_seas_navy }
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+		}
+	}
+	trade_company_region_abroad = {
+		icon = mission_trade_company_region_abroad
+		required_missions = { dominate_home_trade_node }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = trade_company_region_abroad_tooltip
+				calc_true_if = {
+					all_trade_node = {
+						calc_true_if = {
+							all_trade_node_member_province = {
+								owned_by = ROOT
+								is_node_in_trade_company_region = yes
+								NOT = { continent = CAPITAL }
+							}
+							amount = 5
+						}
+					}
+					amount = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "east_india_trade_rush"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}
+
+#3nd mission series:
+administrative_missions = {
+	slot = 4
+	
+	generic = yes
+	
+	potential = {
+	   always = yes
+	}
+	high_income_mission = {
+		icon = mission_high_income
+		required_missions = {  } #None
+		trigger = { share_of_starting_income = 1.5 }
+		effect = {
+			add_country_modifier = {
+				name = "growing_economy"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	build_temples = {
+		icon = mission_early_game_buildings
+		required_missions = { high_income_mission }
+		trigger = {
+			temple = 5
+			workshop = 5
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "building_spree"
+				duration = 9125
+			}
+		}
+	}
+	build_treasury = {
+		icon = mission_war_chest
+		required_missions = { build_temples }
+		trigger = { treasury = 2000 }
+		effect = {
+			add_country_modifier = {
+				name = "strong_treasury"
+				duration = 9125
+			}
+		}
+	}
+	build_manufactories = {
+		icon = mission_have_manufactories
+		required_missions = { build_treasury }
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1.5
+		}
+	}
+	imperial_ambition_mission = {
+		icon = mission_empire
+		required_missions = { build_manufactories }
+		trigger = {
+			total_development = 1000
+		}
+		effect = {
+			add_prestige = 30
+			add_country_modifier = {
+				name = "imperial_ambition"
+				duration = 9125
+			}
+		}
+	}
+}
+#8 mission series:
+build_missions = {
+	slot = 8
+	generic = yes
+	potential = {
+	   always = yes
+	}
+	STT_mission_k_development_of_capital = { #8.1
+        icon = mission_buildings
+        position = 1
+        trigger = {
+			OR = {
+				AND = {
+					capital_scope = { development = 20 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_14th
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort
+						capital_scope = {
+							OR = {
+								has_building = fort_14th
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+				}
+				AND = {
+					capital_scope = { development = 10 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_14th
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort
+						capital_scope = {
+							OR = {
+								has_building = fort_14th
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					fortification_expert = 1
+					natural_scientist = 1
+				}
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_adm_power = 25
+			add_dip_power = 25
+			add_mil_power = 25
+			capital_scope = {
+				add_province_modifier = {
+					name = "stt_k_development_of_capital"
+					duration = 7300 #20 years
+				}
+			}
+			capital_scope = {
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "stt_k_development_of_capital_area"
+						duration = 7300 #25 years
+					}
+				}
+			}
+		}
+    }
+	STT_mission_k_development_of_capital_area = { #8.2
+        icon = mission_early_game_buildings
+        position = 2
+		required_missions = { STT_mission_k_development_of_capital }
+        trigger = {
+			OR = {
+				AND = {
+					development_in_provinces = {
+						value = 90
+						area = capital
+					}
+					capital_scope = { development = 30 }
+				}
+				AND = {
+					development_in_provinces = {
+						value = 75
+						area = capital
+					}
+					capital_scope = { development = 45 }
+				}
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+			capital_scope = {
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "stt_k_development_and_prosperity"
+						duration = 5475 #15 years
+					}
+				}
+			}
+			capital_scope = {
+				add_province_modifier = {
+					name = "stt_k_development_of_capital"
+					duration = 10950 #30 years
+				}
+			}
+		}
+	}
+	STT_mission_k_the_great_capital = { #8.3
+		icon = STT_mission_k_development_of_capital_area
+		position = 3
+		required_missions = { STT_mission_k_development_of_capital_area }
+		trigger = {
+			OR = {
+				AND = {
+					capital_scope = { development = 65 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort_two
+						capital_scope = {
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+				}
+				AND = {
+					capital_scope = { development = 60 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort_two
+						capital_scope = {
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					fortification_expert = 3
+					natural_scientist = 3
+					trader = 3
+				}
+			}
+		}
+		effect = {
+			add_prestige = 35
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			capital_scope = {
+				add_province_modifier = {
+					name = "stt_k_the_great_capital"
+					duration = -1
+				}
+			}
+		}
+	}
+	STT_mission_k_the_capital_of_capitals = { #8.4
+		icon = STT_BYZ_mission_palace
+		position = 4
+		required_missions = { STT_mission_k_the_great_capital }
+		trigger = {
+			OR = {
+				AND = {
+					capital_scope = { development = 90 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort_four
+						capital_scope = {
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+				}
+				AND = {
+					capital_scope = { development = 85 }
+					hidden_effect = {
+						capital_scope = {
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = STT_has_fort_four
+						capital_scope = {
+							OR = {
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+					fortification_expert = 5
+					natural_scientist = 5
+					trader = 5
+				}
+			}
+		}
+		effect = {
+			add_prestige = 50
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
+			capital_scope = {
+				remove_country_modifier = stt_k_the_great_capital
+				add_province_modifier = {
+					name = "stt_k_the_capital_of_capitals"
+					duration = -1
+				}
+			}
+		}
+	}
+	STT_mission_k_magnificent_century = { #8.5
+		icon = mission_monarch_in_throne_room
+		position = 5
+		trigger = {
+			capital_scope = { development = 45 }
+			prestige = 90
+			stability = 3
+			war_exhaustion = 0
+			all_owned_province = {
+				NOT = { unrest = 0 }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "stt_k_magnificent_century"
+				duration = 18250 #50 years
+			}
+		}
+	}
+	STT_mission_k_to_perpetuate_acts = { #8.6
+		icon = FRA_triumphal_arch
+		position = 6
+		required_missions = { STT_mission_k_magnificent_century }
+		trigger = {
+			capital_scope = { development = 50 }
+			prestige = 90
+			stability = 3
+			war_exhaustion = 0
+			all_owned_province = {
+				NOT = { unrest = 0 }
+			}
+			NOT = {
+				num_of_loans = 1
+			}
+			NOT = {
+				corruption = 1
+			}
+			has_building = glorious_monument
+		}
+		effect = {
+			add_country_modifier = {
+				name = "stt_k_to_perpetuate_acts"
+				duration = -1
+			}
+		}
+	}
+	STT_mission_k_promotion_of_trade = { #8.7
+		icon = mission_eastern_european_city
+		position = 7
+		trigger = {
+			marketplace = 10
+			trader = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "stt_k_promotion_of_trade" 
+				duration = 5475
+			}
+		}
+	}
+	STT_mission_k_distribution_of_wealth = { #8.8
+		icon = STT_mission_k_mill
+		position = 8
+		required_missions = { STT_mission_k_promotion_of_trade }
+		trigger = {
+			trade_depot = 15
+			OR = {
+				trader = 3
+				treasurer = 2
+			}
+			years_of_income = 1
+		}
+		effect = {
+			add_years_of_income = -1
+			add_country_modifier = {
+				name = "stt_k_distribution_of_wealth" 
+				duration = 7300
+			}
+		}
+	}
+	STT_mission_k_control_of_finances = { #8.9
+		icon = STT_BYZ_mission_economic_reform
+		position = 9
+		required_missions = { STT_mission_k_distribution_of_wealth }
+		trigger = {
+			treasury_office = 25
+			trader = 3
+			treasurer = 3
+			years_of_income = 2
+		}
+		effect = {
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_control_of_finances" 
+				duration = 7300
+			}
+		}
+	}
+	STT_mission_k_trading_empire = { #8.10
+		icon = STT_mission_k_trading_empire
+		position = 10
+		required_missions = { STT_mission_k_control_of_finances }
+		trigger = {
+			stock_exchange = 50
+			trader = 4
+			treasurer = 4
+			years_of_income = 3.5
+			full_idea_group = trade_ideas
+		}
+		effect = {
+			add_years_of_income = -3.5
+			add_country_modifier = {
+				name = "stt_k_trading_empire" 
+				duration = -1
+			}
+		}
+	}
+	STT_byz_mission_build_workshops = { #8.11
+		icon = mission_have_manufactories
+		position = 11
+		trigger = {
+			workshop = 50
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = "STT_BYZ_building_workshops"
+				duration = -1
+			}
+		}
+	}
+	STT_byz_mission_build_counting_houses = { #8.12
+		icon = STT_byz_mission_build_workshops
+		position = 12
+		required_missions = { STT_byz_mission_build_workshops }
+		trigger = {
+			counting_house = 75
+		}
+		effect = {
+			add_dip_power = 100
+			remove_country_modifier = STT_BYZ_building_workshops
+			add_country_modifier = {
+				name = "STT_BYZ_building_counting_houses"
+				duration = -1
+			}
+		}
+	}
+}	
+#9 mission series:
+build_missions_two = {
+	slot = 9
+	generic = yes
+	potential = {
+	   always = yes
+	}
+	STT_mission_k_road_reform = { #9.1
+        icon = STT_mission_k_road_reform
+        position = 1
+        trigger = {
+			road_network = 10
+			years_of_income = 1
+		}
+        effect = {
+			add_adm_power = 25
+			add_years_of_income = -1
+			add_country_modifier = {
+				name = "stt_k_road_reform"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_road_system = { #9.2
+        icon = STT_mission_k_road_system
+        position = 2
+		required_missions = { STT_mission_k_road_reform  }
+        trigger = {
+			road_network = 25
+			years_of_income = 2
+		}
+        effect = {
+			add_mil_power = 25
+			add_years_of_income = -2
+			remove_country_modifier = stt_k_road_reform
+			add_country_modifier = {
+				name = "stt_k_road_system"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_system_of_channels = { #9.3
+        icon = STT_mission_k_system_of_channels
+        position = 3
+        trigger = {
+			canal_system  = 10
+			years_of_income = 1.5
+			treasurer = 1
+			fortification_expert = 1
+			manpower = 10
+		}
+        effect = {
+			add_dip_power = 25
+			add_years_of_income = -1.5
+			add_manpower = -10
+			add_country_modifier = {
+				name = "stt_k_system_of_channels"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_control_over_water = { #9.4
+        icon = STT_mission_k_control_over_water
+        position = 4
+		required_missions = { STT_mission_k_system_of_channels  }
+        trigger = {
+			canal_system  = 25
+			years_of_income = 2
+			treasurer = 2
+			fortification_expert = 2
+			manpower = 25
+		}
+        effect = {
+			add_dip_power = 25
+			add_adm_power = 25	
+			add_years_of_income = -2
+			add_manpower = -25
+			remove_country_modifier = stt_k_system_of_channels
+			add_country_modifier = {
+				name = "stt_k_control_over_water"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_comfortable_service = { #9.5
+        icon = STT_mission_k_food
+        position = 5
+        trigger = {
+			regimental_camp  = 10
+			years_of_income = 1
+			army_organiser = 2
+			mil_power = 25
+		}
+        effect = {
+			add_mil_power = -25
+			add_years_of_income = -1
+			add_country_modifier = {
+				name = "stt_k_comfortable_service"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_draft_reform = { #9.6
+        icon = mission_army_camp
+        position = 6
+		required_missions = { STT_mission_k_comfortable_service  }
+        trigger = {
+			conscription_center = 15
+			years_of_income = 2
+			army_organiser = 3
+			mil_power = 50
+		}
+        effect = {
+			add_mil_power = -50
+			add_years_of_income = -2
+			remove_country_modifier = stt_k_comfortable_service
+			add_country_modifier = {
+				name = "stt_k_draft_reform"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_military_center = { #9.7
+        icon = mission_big_city
+        position = 7
+		required_missions = { STT_mission_k_draft_reform  }
+        trigger = {
+			mint = 25
+			years_of_income = 3
+			army_organiser = 4
+			mil_power = 75
+		}
+        effect = {
+			add_mil_power = -75
+			add_years_of_income = -3
+			remove_country_modifier = stt_k_draft_reform
+			add_country_modifier = {
+				name = "stt_k_military_center"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_pro_army_one = { #9.8
+        icon = STT_mission_k_pro_army_one
+        position = 8
+        trigger = {
+			is_year = 1460
+			army_professionalism = 0.45
+			commandant = 2
+			years_of_income = 1
+		}
+        effect = {
+			add_mil_power = 50
+			add_prestige = 10
+			add_years_of_income = -1
+			add_country_modifier = {
+				name = "stt_k_pro_army_one"
+				duration = 1825
+			}
+        }
+    }
+	STT_mission_k_pro_army_two = { #9.9
+        icon = mission_soldiers_in_line
+        position = 9
+		required_missions = { STT_mission_k_pro_army_one  }
+        trigger = {
+			is_year = 1520
+			army_professionalism = 0.75
+			commandant = 3
+			years_of_income = 2
+		}
+        effect = {
+			add_mil_power = 100
+			add_prestige = 15
+			add_years_of_income = -2
+			remove_country_modifier = stt_k_draft_reform
+			add_country_modifier = {
+				name = "stt_k_pro_army_two"
+				duration = 3650
+			}
+        }
+    }
+	STT_mission_k_pro_army_three = { #9.10
+        icon = STT_mission_k_pro_army
+        position = 10
+		required_missions = { STT_mission_k_pro_army_two  }
+        trigger = {
+			is_year = 1580
+			army_professionalism = 1
+			commandant = 4
+			years_of_income = 3
+			full_idea_group = quality_ideas
+		}
+        effect = {
+			add_mil_power = 150
+			add_prestige = 25
+			add_years_of_income = -3
+			add_country_modifier = {
+				name = "stt_k_pro_army_three"
+				duration = -1
+			}
+        }
+    }
+	STT_mission_k_spending_on_the_army = { #9.11
+        icon = mission_noble_council
+        position = 11
+		required_missions = { STT_mission_k_pro_army_three  }
+        trigger = {
+			is_year = 1600
+			army_professionalism = 1
+			army_organiser = 4
+			treasurer = 4
+			full_idea_group = economic_ideas
+			NOT = {
+				num_of_loans = 1
+			}
+			adm_power = 150
+			mil_power = 300
+		}
+        effect = {
+			add_adm_power = -150
+			add_mil_power = -300
+			add_country_modifier = {
+				name = "stt_k_spending_on_the_army"
+				duration = -1
+			}
+        }
+    }
+}
+#10 mission series:
+build_missions_ten = {
+	slot = 10
+	generic = yes
+	potential = {
+	   always = yes
+	}
+	STT_mission_k_to_build_fortifications = { #10.1
+        icon = STT_mission_k_to_build_fortifications
+        position = 1
+        trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				fort_level = 1
+			}
+			years_of_income = 0.5
+			manpower = 5
+		}
+        effect = {
+			add_mil_power = 25
+			add_years_of_income = -0.5
+			add_manpower = -5
+			add_country_modifier = {
+				name = "stt_k_to_build_fortifications"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_to_build_forts = { #10.2
+        icon = STT_mission_control
+        position = 2
+		required_missions = { STT_mission_k_to_build_fortifications  }
+        trigger = {
+			years_of_income = 1
+			num_of_owned_provinces_with = {
+				value = 15
+				fort_level = 3
+			}
+			fortification_expert = 3
+			manpower = 25
+		}
+        effect = {
+			add_mil_power = 50
+			add_years_of_income = -1
+			add_manpower = -25
+			remove_country_modifier = stt_k_to_build_fortifications
+			add_country_modifier = {
+				name = "stt_k_to_build_forts"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_to_build_fortress = { #10.3
+        icon = STT_mission_k_to_build_fortress
+        position = 3
+		required_missions = { STT_mission_k_to_build_forts  }
+        trigger = {
+			years_of_income = 2
+			num_of_owned_provinces_with = {
+				value = 25
+				fort_level = 5
+			}
+			capital_scope = { fort_level = 6 }
+			fortification_expert = 4
+			full_idea_group = defensive_ideas
+			manpower = 75
+		}
+        effect = {
+			add_mil_power = 100
+			add_years_of_income = -2
+			add_manpower = -75
+			remove_country_modifier = stt_k_to_build_forts
+			add_country_modifier = {
+				name = "stt_k_to_build_fortress"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_new_lands = { #10.4
+        icon = STT_byz_mission_discover_macaronesia
+        position = 4
+        trigger = {
+			years_of_income = 2
+			is_year = 1500
+			navigator = 4
+			full_idea_group = exploration_ideas
+		}
+        effect = {
+			add_adm_power = 75
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_new_lands"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_navy_reform = { #10.5
+        icon = STT_mission_k_navy_reform
+        position = 5
+        trigger = {
+			years_of_income = 2
+			OR = {
+				full_idea_group = maritime_ideas
+				full_idea_group = naval_ideas
+			}
+			OR = {
+				navigator = 4
+				naval_reformer = 4
+			}
+			shipyard = 15
+		}
+        effect = {
+			add_dip_power = 75
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_navy_reform"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_progressing_society = { #10.6
+        icon = mission_early_modern_university
+        position = 6
+        trigger = {
+			years_of_income = 1
+			full_idea_group = innovativeness_ideas
+			innovativeness = 10
+			philosopher = 2
+			diplomat = 2
+			quartermaster = 2
+			university = 10
+			num_of_owned_provinces_with = {
+				value = 15
+				development = 20
+			}
+		}
+        effect = {
+			add_adm_power = 25
+			add_dip_power = 25
+			add_mil_power = 25
+			add_years_of_income = -1
+			add_reform_progress_small_effect = yes
+			add_reform_progress_small_effect = yes
+			add_country_modifier = {
+				name = "stt_k_progressing_society"
+				duration = 9125
+			}
+        }
+	}
+	STT_mission_k_technological_breakthrough = { #10.7
+        icon = STT_mission_k_commander
+        position = 7
+		required_missions = { STT_mission_k_progressing_society  }
+        trigger = {
+			NOT = { has_country_modifier = stt_k_progressing_society }
+			years_of_income = 1.5
+			full_idea_group = innovativeness_ideas
+			innovativeness = 25
+			philosopher = 3
+			diplomat = 3
+			quartermaster = 3
+			university = 15
+			opera = 10
+			num_of_owned_provinces_with = {
+				value = 25
+				development = 20
+			}
+		}
+        effect = {
+			add_splendor = 50
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+			add_prestige = 25
+			add_years_of_income = -1.5
+			add_reform_progress_medium_effect = yes
+			add_reform_progress_medium_effect = yes
+			add_country_modifier = {
+				name = "stt_k_technological_breakthrough"
+				duration = 18250
+			}
+        }
+	}
+	STT_mission_k_whisper_in_the_dark = { #10.8
+        icon = STT_mission_k_whisper_in_the_dark
+        position = 8
+        trigger = {
+			years_of_income = 2
+			full_idea_group = spy_ideas
+			spymaster = 4
+			num_of_diplomatic_relations = 6
+			NOT = { num_of_free_diplomatic_relations = 1 }
+		}
+        effect = {
+			add_dip_power = 50
+			add_mil_power = 25
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_whisper_in_the_dark"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_attention_to_diplomacy = { #10.9
+        icon = STT_mission_friendship
+        position = 9
+        trigger = {
+			years_of_income = 2
+			full_idea_group = diplomatic_ideas
+			OR = {
+				diplomat = 3
+				statesman = 3
+			}
+			num_of_diplomatic_relations = 7
+			NOT = { num_of_free_diplomatic_relations = 1 }
+		}
+        effect = {
+			add_dip_power = 75
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_attention_to_diplomacy"
+				duration = -1
+			}
+        }
+	}
+	STT_mission_k_swarm_of_vassals = { #10.10
+        icon = STT_mission_k_swarm_of_vassals
+        position = 10
+		required_missions = { STT_mission_k_attention_to_diplomacy  }
+        trigger = {
+			years_of_income = 2
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			OR = {
+				diplomat = 4
+				statesman = 4
+			}
+			num_of_diplomatic_relations = 8
+			NOT = { num_of_free_diplomatic_relations = 1 }
+			vassal = 6
+			all_subject_country = {
+				NOT = { liberty_desire = 25 }
+			}
+		}
+        effect = {
+			add_dip_power = 100
+			add_years_of_income = -2
+			add_country_modifier = {
+				name = "stt_k_swarm_of_vassals"
+				duration = -1
+			}
+        }
+	}
+	STT_byz_mission_build_temples = { #10.11
+		icon = mission_european_church
+		position = 11
+		trigger = {
+			temple = 50
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "STT_BYZ_building_temples"
+				duration = -1
+			}
+		}
+	}
+	STT_byz_mission_build_cathedrals = { #10.12
+		icon = STT_byz_mission_build_cathedrals
+		position = 12
+		required_missions = { STT_byz_mission_build_temples }
+		trigger = {
+			cathedral = 75
+		}
+		effect = {
+			add_adm_power = 100
+			remove_country_modifier = STT_BYZ_building_temples
+			add_country_modifier = {
+				name = "STT_BYZ_building_cathedrals"
+				duration = -1
+			}
+		}
+	}
+}

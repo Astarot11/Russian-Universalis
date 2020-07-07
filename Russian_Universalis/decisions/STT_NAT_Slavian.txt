@@ -213,6 +213,18 @@ country_decisions = {
 					}
 				every_province = {
 					limit = {
+						culture = ryazanian
+						}	
+						change_culture = stt_sla_russian 
+					}
+				every_country = {
+					limit = {
+						primary_culture = ryazanian
+						}
+					change_primary_culture = stt_sla_russian
+					}
+				every_province = {
+					limit = {
 						culture = cossacks
 						}	
 						change_culture = stt_sla_russian 

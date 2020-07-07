@@ -2,7 +2,7 @@
 
 owner = NAP			### STT
 controller = NAP	### STT
-culture = greek
+culture = morean
 religion = orthodox
 capital = "Êîðôó"	### STT
 trade_goods = fish
@@ -26,26 +26,8 @@ center_of_trade = 1
 1610.1.1 = { unrest = 7 } # Exploatation by the nobles, several minor revolts
 1650.1.1 = { unrest = 0 }
 1750.1.1 = { add_core = GRE }
-1797.10.17 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	remove_core = VEN
-} # The Treaty of Campo Formio, Corfu is ceded to France
-1799.3.1 = {
-	owner = CEP
-	controller = CEP
-	remove_core = FRA
-} # The Septinsular Republic
-
-1807.7.7 = {	owner = FRA
-	controller = FRA
-	add_core = FRA
-} # Back under French control after the Treaty of Tilsit
-1815.11.5 = {
-	owner = CEP
-	controller = CEP
-	add_core = CEP
-	remove_core = FRA
-} # The Second Treaty of Paris
+1797.10.17 = { owner = FRA controller = FRA add_core = FRA remove_core = VEN } # The Treaty of Campo Formio, Corfu is ceded to France
+1799.3.1 = { owner = CEP controller = CEP remove_core = FRA } # The Septinsular Republic
+1807.7.7 = { owner = FRA controller = FRA add_core = FRA } # Back under French control after the Treaty of Tilsit
+1815.11.5 = { owner = CEP controller = CEP add_core = CEP remove_core = FRA } # The Second Treaty of Paris
 1864.5.30 = { owner = GRE controller = GRE add_core = GRE remove_core = CEP }

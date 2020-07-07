@@ -1,0 +1,982 @@
+STT_kni_mission_one = {
+    slot = 1
+    generic = no 
+    ai = yes
+    has_country_shield = yes 
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_stabilization_at_Rhodos = { #1.1
+        icon = mission_religious
+        position = 1
+		completed_by = 1355.01.01
+        trigger = {
+			stability = 1
+			adm_power = 150
+			dip_power = 50
+        }
+        effect = {
+			add_dip_power = -50
+			add_adm_power = -150
+			320 = {
+				add_province_modifier = {
+					name = "kni_stabilization_at_Rhodos"
+					duration = -1
+				}
+			}
+		}
+    }
+	STT_kni_mission_accept_rhodians_and_other_greeks = { #1.2
+        icon = STT_greek_warrior
+        position = 2
+		completed_by = 1395.01.01
+		required_missions = { STT_kni_mission_stabilization_at_Rhodos  }
+        trigger = {	
+			320 = {
+				culture = greek
+			}
+			stability = 2
+			dip_power = 100
+        }
+        effect = {
+			add_dip_power = -100
+			add_stability = -1
+			add_accepted_culture = greek
+			add_country_modifier = { 
+				name = kni_accepted_cultures 
+				duration = -1 
+			}
+		}
+    }
+	STT_kni_mission_new_culture = { #1.3
+		icon = STT_BYZ_mission_varangian_regiment
+		position = 3
+		required_missions = { STT_kni_mission_conquer_peloponnese STT_kni_mission_accept_rhodians_and_other_greeks }
+		provinces_to_highlight = {
+			OR = {
+			province_id = 145
+			province_id = 3775
+			province_id = 1773
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			is_at_war = no
+			145 = { owned_by = ROOT }
+			3775 = { owned_by = ROOT }
+			1773 = { owned_by = ROOT }
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+		}
+		effect = {
+			country_event = { id = stt_kni.1 }
+		}
+	}
+	STT_kni_mission_control_morea = { #1.4
+		icon = mission_pf_soldier
+		position = 4
+		required_missions = { STT_kni_mission_conquer_epirus }
+		provinces_to_highlight = {
+			OR = {
+				area = morea_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+		effect = {
+			add_prestige = 10
+		}
+	}
+	STT_kni_mission_convert_greece = { #1.5
+		icon = STT_kni_mission_convert_greece
+		position = 5
+		required_missions = { STT_kni_mission_control_morea STT_kni_mission_control_northern_greece }
+		provinces_to_highlight = {
+			OR = {
+				area = morea_area
+				area = northern_greece_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { religion = catholic }
+			}
+		}
+		trigger = {
+			religion = catholic
+			morea_area = {
+				type = all
+				owned_by = ROOT
+				religion = catholic 
+			}
+			northern_greece_area = {
+				type = all
+				owned_by = ROOT
+				religion = catholic
+			}
+		}
+		effect = {
+			add_papal_influence = 25
+			add_devotion = 5
+		}
+	}
+}
+
+STT_kni_mission_two = {
+    slot = 2
+    generic = no           
+    ai = yes                  
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_new_army = { #2.1
+        icon = STT_KNI_mission_army
+        position = 1
+        trigger = {
+			is_at_war = no
+			army_size_percentage = 0.8
+        }
+        effect = {
+			add_prestige = 10
+			145 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			3775 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			1773 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	STT_kni_mission_conquer_peloponnese = { #2.2
+		icon = STT_kni_mission_conquer_peloponnese
+		position = 2
+		required_missions = { STT_kni_mission_new_army STT_kni_mission_new_fleet }
+		provinces_to_highlight = {
+			OR = {
+			province_id = 145
+			province_id = 3775
+			province_id = 1773
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			145 = { owned_by = ROOT }
+			3775 = { owned_by = ROOT }
+			1773 = { owned_by = ROOT }
+		}
+		effect = {
+			add_prestige = 10
+			add_devotion = 5
+			every_province = {
+				limit = { is_core = EPI }
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_conquer_epirus = { #2.3
+		icon = STT_kni_mission_conquer_epirus
+		position = 3
+		required_missions = { STT_kni_mission_conquer_peloponnese }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = EPI
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			EPI = { exists = NO }
+			custom_trigger_tooltip = {
+				tooltip = KNI_conquer_epirus
+				all_province = {
+				if = {
+					limit = { is_core = EPI }
+					owned_by = ROOT }
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_devotion = 5
+			morea_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_control_northern_greece = { #2.4
+		icon = STT_BYZ_mission_army_reform_three
+		position = 4
+		required_missions = { STT_kni_mission_conquer_epirus }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_greece_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+		effect = {
+			add_prestige = 10
+			western_aegean_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_control_western_aegean = { #2.5
+		icon = mission_invade_island
+		position = 5
+		required_missions = { STT_kni_mission_control_northern_greece STT_kni_mission_conquer_eastern_aegean }
+		provinces_to_highlight = {
+			OR = {
+				area = western_aegean_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+        trigger = {
+			OR = {
+				western_aegean_area = {
+					type = all
+					owned_by = ROOT
+				}
+				AND = {
+					KNI = { alliance_with = VEN }
+					western_aegean_area = {
+					type = all
+						OR = {
+							owned_by = VEN
+							owned_by = KNI
+							country_or_non_sovereign_subject_holds = VEN
+							country_or_non_sovereign_subject_holds = KNI
+						}
+					}
+				}
+			}
+        }
+		effect = {
+			add_prestige = 10
+			1853 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			148 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			3264 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_conquer_thessaloniki = { #2.6
+		icon = STT_great_fleet
+		position = 6
+		required_missions = { STT_kni_mission_control_western_aegean STT_kni_mission_convert_greece }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1853
+				province_id = 148
+				province_id = 3264
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			1853 = { owned_by = ROOT }
+			148 = { owned_by = ROOT }
+			3264 = { owned_by = ROOT }
+		}
+		effect = {
+			add_prestige = 10
+			thrace_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+STT_kni_mission_three = {
+    slot = 3
+    generic = no           
+    ai = yes                  
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_new_fleet = { #3.1
+        icon = mission_sea_battles
+        position = 1
+        trigger = {
+			transport_fraction = 0.5
+			galley_fraction = 0.3
+        }
+        effect = {
+			add_prestige = 10
+			318 = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	STT_kni_mission_conquer_smyrna = { #3.2
+		icon = mission_big_city
+		position = 2
+		required_missions = { STT_kni_mission_new_fleet }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 318
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			318 = { owned_by = ROOT }
+		}
+		effect = {
+			add_prestige = 10
+			318 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 35
+					key = knights_smyrna
+				}
+			}
+			aydin_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_control_aydin = { #3.3
+		icon = STT_mission_control
+		position = 3
+		required_missions = { STT_kni_mission_conquer_smyrna }
+		provinces_to_highlight = {
+			OR = {
+				area = aydin_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+        trigger = {
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+		effect = {
+			add_prestige = 10
+			eastern_aegean_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_conquer_eastern_aegean = { #3.4
+		icon = STT_byz_mission_discover_macaronesia
+		position = 4
+		required_missions = { STT_kni_mission_control_aydin }
+		provinces_to_highlight = {
+			OR = {
+				area = eastern_aegean_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			OR = {
+				eastern_aegean_area = {
+					type = all
+					owned_by = ROOT
+				}
+				AND = {
+					KNI = { alliance_with = VEN }
+					eastern_aegean_area = { type = all owned_by = VEN }
+				}
+				AND = {
+					KNI = { alliance_with = VEN }
+					eastern_aegean_area = {
+					type = all
+						OR = {
+							owned_by = VEN
+							owned_by = KNI
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			menteshe_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_conquer_nicaea = { #3.6
+		icon = STT_BYZ_mission_restore_hexamilion
+		position = 6
+		required_missions = { STT_kni_mission_conquer_eastern_aegean }
+		provinces_to_highlight = {
+			OR = {
+				area = nicaea_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			nicaea_area = { type = all owned_by = ROOT }
+		}
+		effect = {
+			add_prestige = 10
+			kastamonu_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	STT_kni_mission_conquer_thrace = { #3.7
+		icon = mission_pf_cross
+		position = 7
+		required_missions = { STT_kni_mission_conquer_nicaea STT_kni_mission_conquer_thessaloniki }
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			thrace_area = { type = all owned_by = ROOT }
+		}
+		effect = {
+			add_prestige = 10
+			country_event = { id = stt_kni.20 }
+		}
+	}
+}
+STT_kni_mission_four = {
+    slot = 4
+    generic = no           
+    ai = yes                  
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_build_temples = { #4.1
+        icon = mission_european_church
+        position = 1
+        trigger = {
+			temple = 5
+		}
+		effect = {
+			add_adm_power = 25
+			add_country_modifier = {
+				name = "kni_build_temples"
+				duration = 7300
+			}
+		}
+    }
+	STT_kni_mission_build_workshops = { #4.2
+        icon = STT_byz_mission_build_workshops
+        position = 2
+		required_missions = { STT_kni_mission_build_temples  }
+        trigger = {
+			workshop  = 5
+		}
+		effect = {
+			add_dip_power = 25
+			add_country_modifier = {
+				name = "kni_build_workshops"
+				duration = 7300
+			}
+		}
+    }
+	STT_kni_mission_build_taverns = { #4.3
+        icon = STT_kni_mission_build_taverns
+        position = 3
+		required_missions = { STT_kni_mission_build_workshops  }
+        trigger = {
+			tavern  = 5
+		}
+		effect = {
+			add_adm_power = 25
+			add_country_modifier = {
+				name = "kni_build_taverns"
+				duration = 7300
+			}
+		}
+    }
+	STT_kni_mission_build_castles = { #4.4
+        icon = STT_mission_castle
+        position = 4
+		required_missions = { STT_kni_mission_build_taverns  }
+        trigger = {
+			fort_15th  = 5
+		}
+		effect = {
+			add_adm_power = 25
+			add_mil_power = 25
+			add_country_modifier = {
+				name = "kni_build_castles"
+				duration = 7300
+			}
+		}
+    }
+	STT_kni_mission_control_menteshe = { #4.5
+		icon = STT_mission_arab
+		position = 5
+		required_missions = { STT_kni_mission_conquer_eastern_aegean }
+		provinces_to_highlight = {
+			OR = {
+				area = menteshe_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+        trigger = {
+			menteshe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+		effect = {
+			add_prestige = 10
+			nicaea_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+STT_kni_mission_five = {
+    slot = 5
+    generic = no           
+    ai = yes                  
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_small_development = { #5.1
+        icon = mission_colonial
+        position = 1
+        trigger = {
+			320 = { development = 15 }
+		}
+		effect = {
+			add_adm_power = 25
+			320 = {
+				add_province_modifier = {
+					name = kni_more_buildings
+					duration = -1  
+				}
+			}
+		}
+	}
+	STT_kni_mission_new_paradise = { #5.2
+        icon = mission_rb_conquer_wales
+        position = 2
+		required_missions = { STT_kni_mission_small_development }
+        trigger = {
+			hidden_effect = { 320 = { has_building = road_network } }
+			custom_trigger_tooltip = {
+				tooltip = KNI_road_network
+				320 = { has_building = road_network }
+			}
+			hidden_effect = { 320 = { has_building = canal_system } }
+			custom_trigger_tooltip = {
+				tooltip = KNI_canal_system
+				320 = { has_building = canal_system }
+			}
+			hidden_effect = { 320 = { has_building = library } }
+			custom_trigger_tooltip = {
+				tooltip = KNI_library
+				320 = { has_building = library }
+			}
+		}
+		effect = {
+			add_adm_power = 25
+		}
+    }
+	STT_kni_mission_new_settlements = { #5.3
+        icon = mission_buildings
+        position = 3
+		required_missions = { STT_kni_mission_new_paradise }
+        trigger = {
+			320 = { development = 20 }
+		}
+		effect = {
+			country_event = { id = stt_kni.5 }
+		}
+    }
+	STT_kni_mission_iron = { #5.4
+		icon = STT_kni_mission_iron
+		position = 4
+		required_missions = { STT_kni_mission_new_settlements }
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = { iron = 3 }
+					}
+				}
+				trade_goods = iron
+				has_discovered = ROOT
+			}
+			else = {
+				always = no
+			}
+		}
+		trigger = {
+			iron = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = "kni_have_iron"
+				duration = 7300
+			}
+		}
+	}
+	STT_kni_mission_professional_army = { #5.5
+		icon = mission_assemble_an_army
+		position = 5
+		required_missions = { STT_kni_mission_iron }
+		trigger = {
+			army_tradition = 40
+		}
+		effect = {
+			add_army_tradition = -15
+			add_army_professionalism = 0.15
+			add_country_modifier = {
+				name = "kni_professional_army"
+				duration = -1
+			}
+		}
+	}
+}
+STT_kni_mission_six = {
+    slot = 6            
+    generic = no           
+    ai = yes                  
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_alliance_with_ven = { #6.1
+        icon = mission_italian_condottiere
+        position = 1
+        trigger = {
+			is_at_war = no
+            VEN = { has_opinion = { who = KNI value = 50 } }
+			has_opinion = { who = VEN value = 65 }
+			dip_power = 25
+			3950 = { owned_by = VEN }
+        }
+        effect = {
+			country_event = { id = stt_kni.2 }
+        }
+    }
+	STT_kni_mission_alliance_with_pap = { #6.2
+        icon = STT_establish_europe
+        position = 2
+		required_missions = { STT_kni_mission_alliance_with_ven  }
+        trigger = {
+			is_at_war = no
+			PAP = { has_opinion = { who = KNI value = 65 } }
+			has_opinion = { who = PAP value = 85 }
+			dip_power = 50
+        }
+        effect = {
+			country_event = { id = stt_kni.3 }
+        }
+    }
+	STT_kni_mission_call_to_the_meeting = { #6.3
+		icon = mission_deal_with_Papa
+		position = 3
+		required_missions = { STT_kni_mission_alliance_with_pap  }
+		trigger = {
+			alliance_with = PAP
+			PAP = { has_opinion = { who = KNI value = 120 } }
+			has_opinion = { who = PAP value = 100 }
+			papal_influence = 5
+			years_of_income = 0.1
+			devotion = 90
+        }
+		effect = {
+			country_event = { id = stt_kni.4 }
+			add_years_of_income = -0.1
+			add_papal_influence = -5
+        }
+	}
+	STT_kni_mission_conquer_amalfi = { #6.4
+		icon = STT_kni_mission_conquer_amalfi
+		position = 4
+		required_missions = { STT_kni_mission_call_to_the_meeting STT_kni_mission_new_settlements }
+		trigger = {
+			alliance_with = PAP
+			hidden_effect = {
+				adm = 90000
+				dip = 90000
+				mil = 90000
+				papal_influence = 5
+				years_of_income = 0.1
+				devotion = 90
+			}
+			custom_trigger_tooltip = {
+				tooltip = KNI_conquer_amalfi
+			}
+        }
+		effect = {
+			add_adm_power = 1
+        }
+	}
+}
+
+STT_kni_mission_seven = {
+    slot = 7
+    generic = no           
+    ai = yes
+    has_country_shield = yes  
+    potential = {
+			tag = KNI
+	}
+	STT_kni_mission_build_courthouse = { #7.1
+        icon = mission_early_modern_university
+        position = 1
+        trigger = {
+           320 = {
+		   has_building = courthouse }
+        }
+        effect = {
+			add_country_modifier = {
+				name = "kni_build_courthouse"
+				duration = -1
+			}
+        }
+    }
+	STT_kni_mission_improve_relations_with_cyprus = { #7.2
+        icon = mission_alliances
+        position = 2
+		required_missions = { STT_kni_mission_build_courthouse  }
+        trigger = {
+			CYP = { has_opinion = { who = KNI value = 65 } }
+			has_opinion = { who = CYP value = 85 }
+        }
+        effect = {
+			country_event = { id = stt_kni.6 }
+        }
+    }
+	STT_kni_mission_bay_back_limasol = { #7.3
+        icon = STT_mission_stronghold
+        position = 3
+		required_missions = { STT_kni_mission_improve_relations_with_cyprus STT_kni_mission_alliance_with_pap }
+        trigger = {
+			CYP = { has_opinion = { who = KNI value = 100 } }
+			321 = { owned_by = CYP }
+			3660 = { owned_by = CYP }
+			treasury = 350
+			dip_power = 100
+			adm_power = 50
+			mil_power = 25
+			devotion = 95
+			alliance_with = PAP
+			papal_influence = 10
+        }
+        effect = { CYP = { country_event = { id = stt_kni.7 } } }
+    }
+	STT_kni_mission_control_cyprus = { #7.4
+        icon = STT_kni_mission_conquer_cyprus
+        position = 4
+		required_missions = { STT_kni_mission_bay_back_limasol }
+		provinces_to_highlight = {
+			OR = {
+				area = cyprus_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			cyprus_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+        effect = {
+			add_prestige = 10
+			cilicia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	STT_kni_mission_control_cilicia = { #7.5
+        icon = STT_kni_mission_control_cilicia
+        position = 5
+		required_missions = { STT_kni_mission_control_cyprus }
+		provinces_to_highlight = {
+			OR = {
+				area = cilicia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			OR = {
+				cilicia_area = {
+					type = all
+					owned_by = ROOT
+				}
+				AND = {
+					KIL = { vassal_of = ROOT }
+					cilicia_area = { type = all owned_by = KIL }
+				}
+			}
+        }
+        effect = {
+			add_prestige = 10
+			antioch_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	STT_kni_mission_control_antioch = { #7.6
+        icon = STT_kni_mission_control_antioch
+        position = 6
+		required_missions = { STT_kni_mission_control_cilicia }
+		provinces_to_highlight = {
+			OR = {
+				area = antioch_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        trigger = {
+			antioch_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+        effect = {
+			add_prestige = 10
+			galilee_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			palestine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			al_karak_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+	STT_kni_mission_recover_jerusalem = { #7.7
+        icon = STT_byz_mission_recover_jerusalem
+        position = 7
+		required_missions = { STT_kni_mission_control_antioch }
+		provinces_to_highlight = {
+			OR = {
+				area = galilee_area
+				area = palestine_area
+				area = al_karak_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+        trigger = {
+			galilee_area = {
+				type = all
+				owned_by = ROOT
+			}
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+			}
+			al_karak_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+        effect = {
+			country_event = { id = stt_kni.21 }
+        }
+    }
+}

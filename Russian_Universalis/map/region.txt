@@ -101,10 +101,6 @@ north_german_region = {
 		mecklenburg_area
 		moravia_area
 
-
-
-
-
 	}
 }
 
@@ -293,6 +289,8 @@ carpathia_region = {
 
 egypt_region = {
 	areas = {
+		cairo_area
+		damietta_area
 		libyan_desert_area
 		gharbia_area
 		sharqiya_area
@@ -305,9 +303,15 @@ egypt_region = {
 
 maghreb_region = {
 	areas = {
+		ain_oussera_area
+		biskra_area
+		constantine_area
 		fezzan_area
 		tunisia_area
 		kabylia_area
+		sfax_area
+		touggourt_area
+		gafsa_area
 		algiers_area
 		north_saharan_area
 		tafilalt_area
@@ -315,6 +319,8 @@ maghreb_region = {
 		marrekesh_area
 		fez_area
 		northern_morocco_area
+		saida_area
+		tlemcen_area
 		tripolitania_area
 	}
 }
@@ -328,6 +334,10 @@ mashriq_region = {
 		iraq_arabi_area
 		basra_area
 		aleppo_area
+		antioch_area
+		tripoly_area
+		al_karak_area
+		galilee_area
 	}
 }
 
@@ -335,6 +345,7 @@ anatolia_region = {
 	areas = {
 		hudavendigar_area
 		aydin_area
+		cyprus_area
 		karaman_area
 		rum_area
 		menteshe_area

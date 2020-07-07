@@ -1,4 +1,4 @@
-name = "¬торжение в ёжный ƒеккан"
+name = "¬торжение в ёжный ƒекан"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

@@ -1,4 +1,4 @@
-name = "јнгло-голландска€ война на яве"
+name = "јнгло-√олландска€ война на яве"
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest

@@ -1,4 +1,4 @@
-name = "Валашско-турецкая война"
+name = "Валашско-Османская война"
 
 war_goal = {
 	type = take_capital_disloyal
@@ -13,10 +13,10 @@ war_goal = {
 
 1462.6.17 = {
 	battle = {
-		name = "Тырговиште"
+		name = "Targoviste"
 		location = 161
 		attacker = {
-			commander = "Мехмед II"	# Mehmed II
+			commander = "Mehmed II"	# Mehmed II
 			infantry = 58000
 			cavalry = 16000
 			artillery = 120
@@ -24,7 +24,7 @@ war_goal = {
 			country = TUR
 		}
 		defender = {
-			commander = "Влад III Цепеш"	# Vlad III
+			commander = "Vlad III"	# Vlad III
 			infantry = 28000
 			cavalry = 800
 			losses = 17	# percent

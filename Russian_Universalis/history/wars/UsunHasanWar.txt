@@ -1,4 +1,4 @@
-name = "Война черной и белой овцы"
+name = "Р’РѕР№РЅР° Р§С‘СЂРЅРѕР№ Рё Р‘РµР»РѕР№ РѕРІС†С‹"
 
 war_goal = {
 	type = take_claim
@@ -13,23 +13,23 @@ war_goal = {
 
 1467.11.11 = {
 	battle = {
-		name = "Чапакчур"
+		name = "Chapakchur"
 		location = 331
 		attacker = {
-			commander = "Узун-Гасан"	# Uzun Hasan
+			commander = "Uzun Hasan"	# Uzun Hasan
 			infantry = 7000
 			cavalry = 10000
 			losses = 10	# percent
 			country = AKK
 		}
 		defender = {
-			commander = "Шах-Джахан"	# JahГўn ShГўh
+			commander = "JahГўn ShГўh"	# JahГўn ShГўh
 			infantry = 4000
 			cavalry = 8000
 			losses = 45	# percent
 			country = QAR
 		}
-		result = yes	#Qara Koyunlu routed, Jahan Shah killed
+		result = yes	#Qara Koyunlu routed, JahГўn ShГўh killed
 	}
 }
 

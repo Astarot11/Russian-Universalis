@@ -106,7 +106,10 @@ country_event = {
 	option = {
 		name = "stt_flavor_horde.3.a1"
 		trigger = { ai = no }
-	    declare_war_with_cb = { who = KAZ casus_belli = cb_imperial } 
+		KAZ = { hidden_effect = {
+		every_owned_province = { limit = { is_core = KAZ } add_core = GLH remove_permanent_claim = GLH }
+		} }
+	    declare_war_with_cb = { who = KAZ casus_belli = cb_core war_goal_province = 1082 } 
 		add_legitimacy = 10
 		add_horde_unity = 15
 		add_stability = -1
@@ -176,7 +179,10 @@ country_event = {
 	option = {
 		name = "stt_flavor_horde.4.a1"
 		trigger = { ai = no }
-		declare_war_with_cb = { who = CRI casus_belli = cb_imperial }
+		CRI = { hidden_effect = {
+		every_owned_province = { limit = { is_core = CRI } add_core = GLH remove_permanent_claim = GLH }
+		} }
+		declare_war_with_cb = { who = CRI casus_belli = cb_core war_goal_province = 284 }
 		add_legitimacy = 10
 		add_horde_unity = 15
 		add_stability = -1
@@ -237,7 +243,10 @@ country_event = {
 	option = {
 		name = "stt_flavor_horde.5.a1"
 		trigger = { ai = no }
-		declare_war_with_cb = { who = NOG casus_belli = cb_imperial }
+		NOG = { hidden_effect = {
+		every_owned_province = { limit = { is_core = NOG } add_core = GLH remove_permanent_claim = GLH }
+		} }
+		declare_war_with_cb = { who = NOG casus_belli = cb_core war_goal_province = 465 }
 		add_legitimacy = 10
 		add_horde_unity = 20
 		add_stability = -1
@@ -303,7 +312,10 @@ country_event = {
 	option = {
 		name = "stt_flavor_horde.6.a1"
 		trigger = { ai = no }
-		declare_war_with_cb = { who = SHY casus_belli = cb_imperial }
+		SHY = { hidden_effect = {
+		every_owned_province = { limit = { is_core = SHY } add_core = GLH remove_permanent_claim = GLH }
+		} }
+		declare_war_with_cb = { who = SHY casus_belli = cb_core war_goal_province = 476 }
 		add_legitimacy = 10
 		add_horde_unity = 15
 		add_stability = -1
@@ -333,6 +345,7 @@ country_event = {
 		has_disaster = golden_horde_disaster
 		any_owned_province = { is_core = SIB }
 		NOT = { has_country_modifier = GLH_broken }
+		exists = SHY
 	}
 
 	mean_time_to_happen = { 
@@ -352,7 +365,22 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { 
+		hidden_effect = {
+		1069 = { limit = { is_core = GLH } add_core = SKW }
+		3740 = { limit = { is_core = GLH } add_core = SKW }
+		2429 = { limit = { is_core = GLH } add_core = SKW }
+		3739 = { limit = { is_core = GLH } add_core = SKW }
+		2429 = { limit = { is_core = GLH } add_core = SKW }
+		2427 = { limit = { is_core = GLH } add_core = SKW }
+		2437 = { limit = { is_core = GLH } add_core = SKW }
+		3737 = { limit = { is_core = GLH } add_core = SKW }
+		3735 = { limit = { is_core = GLH } add_core = SKW }
+		1042 = { limit = { is_core = GLH } add_core = SKW }
+		1073 = { limit = { is_core = GLH } add_core = SKW }
+		3726 = { limit = { is_core = GLH } add_core = SKW }
+		1072 = { limit = { is_core = GLH } add_core = SKW }
+		1078 = { limit = { is_core = GLH } add_core = SKW }
+		1080 = { limit = { is_core = GLH } add_core = SKW }
 		every_owned_province = { limit = { is_core = SIB } remove_core = GLH add_permanent_claim = GLH }
 		every_owned_province = { limit = { is_core = SKW } remove_core = GLH add_permanent_claim = GLH }
 		}
@@ -365,8 +393,14 @@ country_event = {
 	option = {
 		name = "stt_flavor_horde.7.a1"
 		trigger = { ai = no }
-		declare_war_with_cb = { who = SIB casus_belli = cb_imperial }
-		declare_war_with_cb = { who = SKW casus_belli = cb_imperial }
+		SIB = { hidden_effect = {
+		every_owned_province = { limit = { is_core = SIB } add_core = GLH remove_permanent_claim = GLH }
+		} }
+		SKW = { hidden_effect = {
+		every_owned_province = { limit = { is_core = SKW } add_core = GLH remove_permanent_claim = GLH }
+		} }
+		declare_war_with_cb = { who = SIB casus_belli = cb_core war_goal_province = 1075 }
+		declare_war_with_cb = { who = SKW casus_belli = cb_core war_goal_province = 1068 }
 		add_legitimacy = 10
 		add_horde_unity = 25
 		add_stability = -1

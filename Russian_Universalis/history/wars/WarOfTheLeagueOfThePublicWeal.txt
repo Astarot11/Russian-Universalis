@@ -1,4 +1,4 @@
-name = "Война Лиги Общего блага"
+name = "Война Лиги общественного блага"
 
 war_goal = {
 	type = take_capital_liberation
@@ -17,17 +17,17 @@ war_goal = {
 
 1465.7.11 = {
 	battle = {
-		name = "Монлери"
+		name = "Montlhery"
 		location = 38
 		attacker = {
-			commander = "Карл Смелый"	# Charles, Count of Charloi
+			commander = "Charles the Bold"	# Charles, Count of Charloi
 			infantry = 12000
 			cavalry = 2500
 			losses = 36	# percent
 			country = BUR
 		}
 		defender = {
-			commander = "Людовик XI"	# Louis XI
+			commander = "Louis XI"	# Louis XI
 			infantry = 18000
 			cavalry = 4000
 			losses = 47	# percent

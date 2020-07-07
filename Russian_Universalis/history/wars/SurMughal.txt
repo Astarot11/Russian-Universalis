@@ -1,4 +1,4 @@
-name = "Кампания Шер-шаха против Хумаюна"
+name = "Кампания Шер Шах Сура против Хумаюна"
 
 war_goal = {
 	type = superiority_punitive

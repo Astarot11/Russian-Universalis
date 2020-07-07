@@ -1,4 +1,4 @@
-name = "Афгано-маратхская война"
+name = "Афгано-Маратхская война"
 war_goal = {
 	type = superiority_punitive
 	casus_belli = cb_super_badboy
@@ -14,10 +14,10 @@ war_goal = {
 # Third Battle of Panipat
 1761.1.14 = {
 	battle = {
-		name = "Панипат"
+		name = "Panipat"
 		location = 521
 		attacker = {
-			commander = "Ахмад Шах Дуррани"	# Ahmad Shah Durrani
+			commander = "Ahmad Shah Durrani"	# Ahmad Shah Durrani
 			infantry = 38000
 			cavalry = 42000
 			artillery = 200
@@ -25,7 +25,7 @@ war_goal = {
 			country = AFG
 		}
 		defender = {
-			commander = "Садишиврао Бхау"	#Sadishivrao Bhau
+			commander = "Sadishivrao Bhau"	#Sadishivrao Bhau
 			infantry = 15000
 			cavalry = 55000
 			artillery = 200

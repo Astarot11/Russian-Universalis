@@ -5,7 +5,7 @@ controller = YUA
 add_core = YUA
 add_core = MJZ
 culture = manchu
-religion = mahayana
+religion = confucianism
 capital = "Furdan"
 trade_goods = naval_supplies
 hre = no
@@ -23,7 +23,6 @@ center_of_trade = 1
 
 1310.1.1 = { owner = MJZ controller = MJZ remove_core = YUA }#Multiplayer balans
 1310.1.2 = { owner = YUA controller = YUA add_core = YUA }#Multiplayer balans
-1365.1.1 = { religion = confucianism }
 1368.1.1 = {
 	owner = KHA
 	controller = KHA

@@ -5,11 +5,11 @@ controller = MAM
 culture = al_misr_arabic
 religion = sunni
 capital = "Al Qahira"
-trade_goods = grain
+trade_goods = cloth
 hre = no
-base_tax = 10
-base_production = 9
-base_manpower = 10
+base_tax = 6
+base_production = 5
+base_manpower = 6
 is_city = yes
 fort_15th = yes 
 add_core = MAM
@@ -33,10 +33,7 @@ discovered_by = SFA
 
 center_of_trade = 1 
 
-1517.1.1 = {	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Conquered by Ottoman troops
+1517.1.1 = { owner = TUR controller = TUR add_core = TUR } # Conquered by Ottoman troops
 1520.11.10 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Mameluk Uprising under Canbirdi Ghazeli
 1521.1.1 = { revolt = {} controller = TUR }
 1586.1.1 = { unrest = 2 } # Beginning of oppositions

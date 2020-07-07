@@ -24,11 +24,8 @@ technology = {
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
 	
-	road_network = yes
+	
 	glorious_monument = yes
-	canal_system = yes      
-    tax_office = yes
-	workshop = yes
 }
 technology = {
 	# Tech 1
@@ -52,13 +49,17 @@ technology = {
 	year = 1300
 	
 	theocratic_government = yes
-	temple = yes
+	
+	road_network = yes
+	
 }
 technology = {
 	# Tech 4
 	year = 1310
 	
-	allowed_idea_groups = 1
+	max_states = 1
+	
+	canal_system = yes
 	library = yes
 }
 technology = {
@@ -66,56 +67,64 @@ technology = {
 	year = 1325
 	
 	max_states = 1
-	courthouse = yes
+	allowed_idea_groups = 1
+	tavern = yes
 }
 technology = {
 	# Tech 6
 	year = 1340
 	
-	production_efficiency =	0.05
+	max_states = 1
+	
+	may_support_rebels = yes
 }
 technology = {
 	# Tech 7
 	year = 1355
 	
-	allowed_idea_groups = 2
+	max_states = 1
+	production_efficiency =	0.02
 }
 technology = {
 	# Tech 8
 	year = 1370
 	
 	max_states = 1
-	administrative_efficiency = 0.05
+	allowed_idea_groups = 2
+	
+	temple = yes
 }
 technology = {
 	# Tech 9
 	year = 1385
 	
-	may_support_rebels = yes
 	administrative_efficiency = 0.05
+	
+	courthouse = yes
 }
 technology = {
 	# Tech 10
 	year = 1400
 	
 	max_states = 1
-	counting_house = yes
 	allowed_idea_groups = 3
+	
+	workshop = yes
 }
 
 technology = {
 	# Tech 11
 	year = 1420
 	
-	production_efficiency =	0.05
+	max_states = 1
+	production_efficiency =	0.02
 }
 
 technology = {
 	# Tech 12
 	year = 1440
 
-	production_efficiency =	0.05
-	tavern = yes
+	development_efficiency = 0.05
 }
 
 technology = {
@@ -123,7 +132,7 @@ technology = {
 	year = 1453
 	
 	allowed_idea_groups = 4
-	
+	max_states = 1
 }
 
 technology = {
@@ -131,15 +140,15 @@ technology = {
 	year = 1466
 
 	max_states = 1
+	
 }
 
 technology = {
 	# Tech 15
 	year = 1479
 	
-	production_efficiency	 =	0.05
-	blacksmith = yes
-	carpenter = yes
+	production_efficiency =	0.02
+	
 }
 
 technology = {
@@ -148,8 +157,7 @@ technology = {
 	
 	#Noble Republic
 	allowed_idea_groups = 5
-	customs_house = yes
-	theatre = yes
+	
 }
 
 technology = {
@@ -158,7 +166,8 @@ technology = {
 	year = 1505
 	town_hall = yes
 	max_states = 3
-
+	
+	mills = yes
 }
 
 technology = {
@@ -166,7 +175,7 @@ technology = {
 	year = 1518
 	
 	#The Scythe
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 	college = yes
 }
 
@@ -174,9 +183,9 @@ technology = {
 	# Tech 19
 	year = 1531
 	
-	storehouse = yes
 	allowed_idea_groups = 6
 	administrative_efficiency = 0.05
+	theatre = yes
 }
 
 technology = {
@@ -185,6 +194,7 @@ technology = {
 	
 	#Textile Manufactory
 	textile = yes
+	counting_house = yes
 }
 
 technology = {
@@ -201,7 +211,7 @@ technology = {
 	year = 1570
 	
 	#Improved Drainage
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 }
 
 technology = {
@@ -219,23 +229,27 @@ technology = {
 	
 	may_force_march = yes
 	
+	#Cathedral
+	cathedral = yes
 }
 
 technology = {
 	# Tech 25
 	year = 1609	
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
+	
+	tax_office = yes
 }
 
 technology = {
 	# Tech 26
 	year = 1622
 	
-	university = yes	
 	max_states = 5
-	
 	development_efficiency = 0.1
+	
+	university = yes
 }
 
 technology = {
@@ -243,21 +257,19 @@ technology = {
 	year = 1635
 	
 	allowed_idea_groups	= 8
-	opera = yes
 }
 
 technology = {
 	# Tech 28
 	year = 1648	
 	
-	#Cathedral
-	cathedral = yes
+	storehouse = yes
+	opera = yes
 }
 
 technology = {
 	# Tech 29
 	year = 1661
-	
 	
 	republican_dictatorship = yes
 	max_states = 5
@@ -268,7 +280,7 @@ technology = {
 	year = 1674
 	
 	#Land Clearance
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 	
 	furnace = yes
 }
@@ -288,8 +300,6 @@ technology = {
 	# Tech 32
 	year = 1700
 	
-	steam_factory = yes
-	railroad = yes
 	administrative_efficiency = 0.05
 	development_efficiency = 0.1
 }
@@ -306,9 +316,7 @@ technology = {
 	year = 1726
 	
 	#Improved Farm Animals
-	production_efficiency 	=	0.05
-	steel_mill = yes
-	factory = yes
+	production_efficiency = 0.02
 }
 
 technology = {
@@ -321,10 +329,11 @@ technology = {
 technology = {
 	# Tech 36
 	year = 1752
-
 	
 	development_efficiency = 0.1	
 	max_states = 5
+	
+	steam_factory = yes	
 }
 
 technology = {
@@ -332,7 +341,9 @@ technology = {
 	year = 1765
 	
 	#Rotherham Plough
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
+	
+	factory = yes
 }
 
 technology = {
@@ -342,6 +353,8 @@ technology = {
 	allowed_idea_groups = 11
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
+	
+	steel_mill = yes
 }
 
 technology = {
@@ -357,7 +370,7 @@ technology = {
 	year = 1804
 	
 	#Improved Draft Animals
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 }
 
 technology = {
@@ -367,6 +380,8 @@ technology = {
 	revolutionary_republic = yes
 	revolutionary_empire = yes
 	max_states = 5
+	
+	railroad = yes
 }
 
 technology = {
@@ -374,10 +389,9 @@ technology = {
 	year = 1827
 	
 	#Four field rotation
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 	
-	allowed_idea_groups 	= 	12
-	railroad = yes
+	allowed_idea_groups = 12
 }
 
 technology = {
@@ -385,8 +399,7 @@ technology = {
 	year = 1837
 	
 	#telegraphe
-	production_efficiency 	=	0.05
-	
+	production_efficiency = 0.02
 	development_efficiency = 0.1
 }
 
@@ -395,9 +408,9 @@ technology = {
 	year = 1847
 	
 	#safety pin
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 	
-	allowed_idea_groups 	= 	13
+	allowed_idea_groups = 13
 }
 
 technology = {
@@ -405,7 +418,7 @@ technology = {
 	year = 1857
 	
 	#Oil well
-	production_efficiency 	=	0.05
+	production_efficiency = 0.02
 }
 technology = {
 	# Tech 46
@@ -418,14 +431,13 @@ technology = {
 	# Tech 47
 	year = 1877
 	#power station
-	production_efficiency 	=	0.1
+	production_efficiency = 0.05
 }
 technology = {
 	# Tech 48
 	year = 1887
 	#car
 	max_states = 5
-	
 }
 
 technology = {
@@ -441,7 +453,7 @@ technology = {
 	# Tech 50
 	year = 1907
 	#Mass production
-	production_efficiency 	=	0.1
+	production_efficiency = 0.05
 }
 
 technology = {

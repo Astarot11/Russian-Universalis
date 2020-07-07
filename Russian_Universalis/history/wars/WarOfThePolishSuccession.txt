@@ -1,4 +1,4 @@
-name = "Война за Польское наследство"
+name = "Война за польское наследство"
 
 war_goal = {
 	type = take_capital_throne

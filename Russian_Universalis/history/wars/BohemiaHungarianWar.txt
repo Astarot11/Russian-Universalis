@@ -1,4 +1,4 @@
-name = "Богемо-венгерская война"
+name = "Богемская война"
 war_goal = {
 	type = take_capital_throne
 	casus_belli = cb_claim_throne

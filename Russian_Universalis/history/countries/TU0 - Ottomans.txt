@@ -17,6 +17,7 @@ historical_rival = KRS
 historical_rival = HAB
 historical_rival = KAR
 historical_rival = MEN
+historical_rival = SRU
 capital = 3111 # Karashibar
 
 1214.1.1 = {

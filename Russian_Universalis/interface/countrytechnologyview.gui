@@ -107,8 +107,9 @@ guiTypes = {
 			iconType = {
 				name = "bg"
 				spriteType ="GFX_country_institutions_overlay"	
-				position = { x = -19 y = -152 }
+				position = { x = -18 y = -152 }
 				orientation = "UPPER_LEFT"
+				allwaystransparent = yes
 			}
 			
 			instantTextBoxType = {
@@ -162,13 +163,13 @@ guiTypes = {
 			iconType = {
 				name ="mod_embracement_cost_icon"
 				spriteType = "GFX_institution_embracement_cost_icon"
-				position = { x= 291 y = 20 } #x= 271
+				position = { x= 275 y = 20 } #x= 271
 				Orientation = "UPPER_LEFT"
 			}
 			
 			instantTextBoxType = {
 				name = "mod_embracement_cost"
-				position = { x = 319 y = 25 } #x = 299
+				position = { x = 305 y = 25 } #x = 299
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}	

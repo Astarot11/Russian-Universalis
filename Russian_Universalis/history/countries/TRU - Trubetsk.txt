@@ -2,7 +2,7 @@ government = monarchy
 
 add_government_reform = principality
 mercantilism = 0.25
-primary_culture = russian
+primary_culture = ryazanian
 religion = orthodox
 technology_group = eastern
 capital = 3194

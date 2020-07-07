@@ -1,0 +1,350 @@
+israel_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = ISR
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	agreement_with_the_arabs = {
+		icon = mission_noble_council
+		required_missions = { }
+		position = 1
+		trigger = {
+			dip = 3
+			is_at_war = no
+			dip_power = 100
+			diplomatic_reputation = 1
+			num_of_free_diplomatic_relations = 1
+			has_border_with_religious_enemy = yes
+			ROOT = { accepted_culture = al_suryah_arabic }
+		}
+		effect = {
+			add_dip_power = -100
+			add_country_modifier = {
+				name = "fragile_peace"
+				duration = 9125
+			}
+		}
+	}
+	
+	suez_war = {
+		icon = mission_bedouins
+		required_missions = { prepare_for_the_campaign }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = sharqiya_area
+				area = al_karak_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sharqiya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			al_karak_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			country_event = { id = isr.1 } #Талантливые пленные
+		}
+	}
+	the_greater_israel = {
+		icon = ISR_the_greater_israel
+		required_missions = { suez_war land_of_the_crusaders }
+		position = 4
+		trigger = {
+			antioch_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			galilee_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			al_karak_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			sharqiya_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			syria_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			aleppo_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+			rakka_area = {
+				type = all
+				is_core = ROOT
+				has_owner_religion = yes
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_legitimacy = 10
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
+		}
+	}
+}
+
+israel_missions_6 = {
+	slot = 6
+	generic = no
+	ai = yes
+	potential = {
+		tag = ISR
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	prepare_for_the_campaign = {
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 1
+			army_organiser = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = "orthodox_campaign"
+				duration = 7300
+			}
+			al_karak_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sharqiya_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			syria_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			galilee_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tripoly_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	desert_stronghold = {
+		icon = mission_arabian_fort
+		required_missions = { prepare_for_the_campaign }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = syria_area
+				area = galilee_area
+				area = tripoly_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			syria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			galilee_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			tripoly_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			country_event = { id = isr.2 } #Судьба Дамаска
+			aleppo_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			antioch_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			rakka_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	land_of_the_crusaders = {
+		icon = STT_byz_mission_recover_antioch
+		required_missions = { desert_stronghold }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = antioch_area
+				area = aleppo_area
+				area = rakka_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			antioch_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			rakka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+		}
+		effect = {
+			country_event = { id = isr.3 } #Наследие крестоносцев
+		}
+	}	
+}
+
+israel_missions_7 = {
+	slot = 7
+	generic = no
+	ai = yes
+	potential = {
+		tag = ISR
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	loan_sharks = {
+		icon = ISR_loan_sharks
+		position = 1
+		trigger = {
+			workshop = 3
+			tax_income_percentage = 0.25
+		}
+		effect = {
+			add_years_of_income = 0.2
+			add_country_modifier = {
+				name = "profitable_loans"
+				duration = 3650
+			}
+		}
+	}
+	
+	mediterranean_trade = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { loan_sharks }
+		position = 2
+		trigger = {
+			364 = {
+				is_strongest_trade_power = ROOT
+			}
+			364 = { has_trader = ISR }
+		}
+		effect = {
+			364 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 3650
+					power = 10
+					key = STRONG_MERCHANTS
+				}
+			}
+		}
+	}
+	
+	jewel_of_judea = {
+		icon = mission_mosque
+		required_missions = { mediterranean_trade }
+		position = 3
+		trigger = {
+			379 = { has_building = temple has_building = spy_agency }
+			OR = {
+				has_idea_group = economic_ideas
+				has_idea_group = trade_ideas
+			}
+			palestine_area = { type = all has_state_edict = edict_protect_trade }
+		}
+		effect = {
+			379 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+	
+	restore_temple_mount = {
+		icon = ISR_restored_temple_mount
+		required_missions = { jewel_of_judea }
+		position = 4
+		trigger = {
+			owns = 379
+			treasury = 2500
+			adm_power = 125
+			dip_power = 125
+			theologian = 3
+		}
+		effect = {
+			add_treasury = -2500
+			add_adm_power = -150
+			add_dip_power = -150
+			add_country_modifier = {
+				name = "restored_temple_mount"
+				duration = -1
+			}
+		}
+	}
+}

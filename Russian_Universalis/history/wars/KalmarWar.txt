@@ -11,16 +11,16 @@ war_goal = {
 
 1612.8.26 = {
 	battle = {
-		name = "Кринген"
+		name = "Kringen"
 		location = 22
 		attacker = {
-			commander = "Ларс Грам"	# Lars Gram
+			commander = "Lars Gram"	# Lars Gram
 			infantry = 500
 			losses = 3	# percent
 			country = DAN
 		}
 		defender = {
-			commander = "Александр Рэмзи"	# Alexander Ramsay
+			commander = "Alexander Ramsay"	# Alexander Ramsay
 			infantry = 300
 			losses = 92	# percent
 			country = SWE

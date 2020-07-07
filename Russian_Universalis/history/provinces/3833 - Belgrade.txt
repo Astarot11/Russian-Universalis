@@ -25,6 +25,16 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
+1346.1.1 = { 
+	owner = SGT
+	controller = SGT
+	add_core = SGT
+}
+1371.1.1 = { 
+	owner = SER
+	controller = SER
+	add_core = SER
+}
 1428.1.1 = {
 	owner = HUN
 	controller = HUN

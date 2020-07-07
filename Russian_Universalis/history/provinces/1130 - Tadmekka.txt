@@ -14,6 +14,7 @@ base_production = 1
 add_core = SON 
 discovered_by = sub_saharan
 discovered_by = MAQ
+discovered_by = TUT
 
 1543.1.1 = { discovered_by = MOR }
 1591.3.15 = {

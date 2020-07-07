@@ -2,7 +2,7 @@
 
 owner = VIT
 controller = VIT
-culture = byelorussian
+culture = ryazanian
 religion = orthodox
 hre = no
 base_tax = 2 

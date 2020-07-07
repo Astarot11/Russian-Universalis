@@ -1,4 +1,4 @@
-name = "Первая Дельфи-Джанпурская война" #one of many really
+name = "Первая Дели-Джаунпурийская война" #one of many really
 war_goal = {
 	type = take_claim
 	casus_belli = cb_conquest
