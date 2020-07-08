@@ -20,4 +20,4 @@ tags={
 	"Translation"
 }
 name="Russian Universalis"
-path="C:/Users/User/Documents/Paradox Interactive/Europa Universalis IV/mod/Russian_Universalis"
+path="mod/Russian_Universalis"
